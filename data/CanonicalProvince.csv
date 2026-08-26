@@ -1,0 +1,109 @@
+canonicalProvinceId,notitiaName,normalizedName,gisName,matchType
+CP00001,Pannoniae,PANNONIA,,unmatched
+CP00002,Venetiae et Histriae,VENETIA ET HISTRIA,"VENETIA ET
+HISTRIA",automatic
+CP00003,Aemiliae,AEMILIA,,unmatched
+CP00004,Liguriae,LIGURIA,,unmatched
+CP00005,Flaminiae et Piceni annonarii,FLAMINIA ET PICENUS ANNONARIUS,,unmatched
+CP00006,Tusciae et Umbriae,TUSCIA ET UMBRIA,TUSCIA ET UMBRIA,automatic
+CP00007,Piceni suburbicarii,PICENUS SUBURBICARIUS,,unmatched
+CP00008,Campaniae,CAMPANIA,CAMPANIA,automatic
+CP00009,Siciliae,SICILIA,SICILIA,automatic
+CP00010,Byzacii,BYZACENA,BYZACENA,automatic
+CP00011,Numidiae,NUMIDIA,,unmatched
+CP00012,Baeticae,BAETICA,BAETICA,automatic
+CP00013,Lusitaniae,LUSITANIA,LUSITANIA,automatic
+CP00014,Callaeciae,GALLAECIA,GALLAECIA,automatic
+CP00015,Viennensis,VIENNENSIS,VIENNENSIS,automatic
+CP00016,Lugdunensis primae,LUGDUNENSIS PRIMA,,unmatched
+CP00017,Germaniae primae,GERMANIA PRIMA,,unmatched
+CP00018,Germaniae secundae,GERMANIA SECUNDA,,unmatched
+CP00019,Belgicae primae,BELGICA PRIMA,,unmatched
+CP00020,Belgicae secundae,BELGICA SECUNDA,,unmatched
+CP00021,Maximae Caesariensis,MAXIMA CAESARIENSIS,,unmatched
+CP00022,Valentiae,VALENTIA,,unmatched
+CP00023,Apuliae et Calabriae,APULIA ET CALABRIA,APULIA ET CALABRIA,automatic
+CP00024,Lucaniae et Brittiorum,LUCANIA ET BRUTTIUM,,unmatched
+CP00025,Saviae,SAVIA,SAVIA,automatic
+CP00026,Tusciae et umbriae,TUSCIA ET UMBRIA,TUSCIA ET UMBRIA,automatic
+CP00027,Bruttiorum et Lucaniae,LUCANIA ET BRUTTIUM,,unmatched
+CP00028,Samnii,SAMNIUS,,unmatched
+CP00029,Saradiniae,SARADINIA,,unmatched
+CP00030,Corsicae,CORSICA,CORSICA,automatic
+CP00031,Valeriae,VALERIA,VALERIA,automatic
+CP00032,Lugdunensis,LUGDUNENSIS,,unmatched
+CP00033,Germanae secundae,GERMANA SECUNDA,,unmatched
+CP00034,Alpium maritimarum,ALPIUM MARITIMARUM,,unmatched
+CP00035,Alpium Poeninarum et Graiarum,ALPES POENINAE ET GRAIAE,,unmatched
+CP00036,Maximae Sequanorum,MAXIMA SEQUANORUM,,unmatched
+CP00037,Aquitanicae primae,AQUITANICA PRIMA,,unmatched
+CP00038,Aquitanicae secundae,AQUITANICA SECUNDA,,unmatched
+CP00039,Novempopulanae,NOVEMPOPULANA,,unmatched
+CP00040,Narbonensis primae,NARBONENSIS PRIMA,,unmatched
+CP00041,Narbonensis secundae,NARBONENSIS SECUNDA,,unmatched
+CP00042,Lugdunensis secundae,LUGDUNENSIS SECUNDA,,unmatched
+CP00043,Lugdunensis tertiae,LUGDUNENSIS TERTIA,,unmatched
+CP00044,Lugdunensis Senoniae,LUGDUNENSIS SENONIA,,unmatched
+CP00045,Britanniae primae,BRITANNIA PRIMA,,unmatched
+CP00046,Britanniae secundae,BRITANNIA SECUNDA,,unmatched
+CP00047,Flaviae Caesariensis,FLAVIA CAESARIENSIS,,unmatched
+CP00048,Asiae,ASIA,ASIA,automatic
+CP00049,Achaiae,ACHAIA,ACHAIA,automatic
+CP00050,Palaestinae,PALAESTINA,PALAESTINA,automatic
+CP00051,Foenicis,FOENICIS,,unmatched
+CP00052,Syriae,SYRIA,,unmatched
+CP00053,Ciliciae,CILICIA,CILICIA,automatic
+CP00054,Cypri,CYPRUS,CYPRUS,automatic
+CP00055,Pamfyliae,PAMFYLIA,,unmatched
+CP00056,Hellesponti,HELLESPONTUS,HELLESPONTUS,automatic
+CP00057,Lydiae,LYDIA,LYDIA,automatic
+CP00058,Galatiae,GALATIA,GALATIA,automatic
+CP00059,Bithyniae,BITHYNIA,BITHYNIA,automatic
+CP00060,Europae,EUROPA,EUROPA,automatic
+CP00061,Thraciae,THRACIA,THRACIA,automatic
+CP00062,Cretae,CRETA,CRETA,automatic
+CP00063,Macedoniae,MACEDONIA,MACEDONIA,automatic
+CP00064,Daciae mediterraneae,DACIA MEDITERRANEA,DACIA MEDITERRANEA,automatic
+CP00065,Libyae superioris,LIBYA SUPERIORIS,,unmatched
+CP00066,Libyae inferioris,LIBYA INFERIORIS,,unmatched
+CP00067,Thebaidos,THEBAIDOS,,unmatched
+CP00068,Aegypti,AEGYPTUS,,unmatched
+CP00069,Arcadiae,ARCADIA,,unmatched
+CP00070,Palaestinae salutaris,PALAESTINA SALUTARIS,,unmatched
+CP00071,Palaestinae secundae,PALAESTINA SECUNDA,,unmatched
+CP00072,Foenicis Libani,FOENICIS LIBANUS,,unmatched
+CP00073,Eufratensis,EUFRATENSIS,,unmatched
+CP00074,Syriae salutaris,SYRIA SALUTARIS,,unmatched
+CP00075,Osroehenae,OSROEHENA,,unmatched
+CP00076,Mesopotamiae,MESOPOTAMIA,MESOPOTAMIA,automatic
+CP00077,Ciliciae secundae,CILICIA SECUNDA,,unmatched
+CP00078,Pisidiae,PISIDIA,PISIDIA,automatic
+CP00079,Lycaoniae,LYCAONIA,,unmatched
+CP00080,Frygiae Pacatianae,FRYGIA PACATIANA,,unmatched
+CP00081,Frygiae salutaris,FRYGIA SALUTARIS,,unmatched
+CP00082,Lyciae,LYCIA,,unmatched
+CP00083,Cariae,CARIA,CARIA,automatic
+CP00084,Insularum,INSULARUM,,unmatched
+CP00085,Honoriados,HONORIADOS,,unmatched
+CP00086,Cappadociae primae,CAPPADOCIA PRIMA,,unmatched
+CP00087,Cappadociae secundae,CAPPADOCIA SECUNDA,,unmatched
+CP00088,Helenoponti,HELENOPONTUS,,unmatched
+CP00089,Ponti Polemoniaci,PONTUS POLEMONIACUS,"PONTUS
+POLEMONIACUS",automatic
+CP00090,Armeniae primae,ARMENIA PRIMA,,unmatched
+CP00091,Armeniae secundae,ARMENIA SECUNDA,,unmatched
+CP00092,Galatiae salutaris,GALATIA SALUTARIS,,unmatched
+CP00093,Haemimonti,HAEMIMONTUS,HAEMIMONTUS,automatic
+CP00094,Rhodopae,RHODOPA,,unmatched
+CP00095,Moesiae secundae,MOESIA SECUNDA,,unmatched
+CP00096,Scythiae,SCYTHIA,SCYTHIA,automatic
+CP00097,Thessaliae,THESSALIA,THESSALIA,automatic
+CP00098,Epiri ueteris,EPIRUS UETERIS,,unmatched
+CP00099,Epiri nouae,EPIRUS NOUA,,unmatched
+CP00100,Daciae ripensis,DACIA RIPENSIS,DACIA RIPENSIS,automatic
+CP00101,Moesiae primae,MOESIA PRIMA,,unmatched
+CP00102,Praeualitanae,PRAEUALITANA,,unmatched
+CP00103,Dardaniae,DARDANIA,DARDANIA,automatic
+CP00104,Macedoniae salutaris,MACEDONIA SALUTARIS,,unmatched
+CP00105,Augustamnicae,AUGUSTAMNICA,,unmatched
+CP00106,Paflagoniae,PAPHLAGONIA,PAPHLAGONIA,automatic

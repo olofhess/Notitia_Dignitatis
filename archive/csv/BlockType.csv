@@ -1,0 +1,170 @@
+nodeId,line,blockType,blockText
+S00020,21,Magistri scriniorum,Magistri scriniorum
+S00025,26,Vicarii,Vicarii sex
+S00032,33,Comites rei militaris,Comites rei militaris sex
+S00039,40,Duces,Duces duodecim
+S00052,53,Consulares,Consulares viginti duo
+S00053,54,Per,Per Pannoniam unus
+S00055,56,Per,Per Italias octo
+S00064,65,Per,Per Africam duo
+S00067,68,Per,Per Hispanias tres
+S00071,72,Per,Per Gallias sex
+S00078,79,Per,Per Britannias duo
+S00081,82,Correctores,Correctores tres
+S00082,83,Per,Per Italiam duo
+S00085,86,Per,Per Pannoniam unum
+S00087,88,Praesides,Praesides triginta unum
+S00088,89,Per,Per Illyricum quattuor
+S00093,94,Per,Per Italias septem
+S00101,102,Per,Per Africam duo
+S00104,105,Per,Per Hispanias Quattuor
+S00109,110,Per,Per Gallias undecim
+S00121,122,Per,Per Britannias tres
+S00127,129,Sub dispositione,Sub dispositione viri illustris praefecti praetorio Italiae dioceses infrascriptae
+S00131,133,Provinciae,Provinciae
+S00132,134,Italiae et,Italiae decem et septem
+S00150,152,Illyrici,Illyrici sex
+S00157,159,Africae,Africae septem
+S00165,167,Officium,Officium viri illustris praefecti praeterio Italiae
+S00183,186,Provinciae,Provinciae
+S00184,187,Hispaniarum,Hispaniarum VII
+S00192,195,provinciarum,Septem provinciarum XVII
+S00210,213,Britanniarum,Britanniarum V
+S00216,219,Officium,Officium viri illustris praefecti praetorio Galliarum
+S00231,236,Sub dispositione,Sub dispositione viri illustris praefecti urbis habentur amministrationes infrascriptae
+S00247,252,Officium,Officium viri illustris praefecti urbis
+S00265,271,Sub dispositione,Sub dispositione viri illustris magister peditum praesentalis
+S00266,272,Comites limitum infrascriptorum...,Comites limitum infrascriptorum...
+S00273,279,duces limitum infrascriptorum,duces limitum infrascriptorum decem
+S00284,290,Legiones palatinae,Legiones palatinae XII
+S00297,303,Auxilia,Auxilia palatina sexaginta quinque
+S00363,369,Legiones comitatenses,Legiones comitatenses XXXII
+S00396,402,Pseudocomitatenses,Pseudocomitatenses XVIII
+S00415,421,Officium,Officium suprascripti magistri peditum praesentalis
+S00424,431,Sub dispositione,Sub dispositione viri illustris comitis et magistri equitum praesentalis
+S00425,432,Vexillationes palatinae,Vexillationes palatinae decem
+S00436,443,Vexillationes comitatenses.....,Vexillationes comitatenses.....
+S00469,476,Officium,Officium suprascriptae magisteriae potestatis
+S00479,487,Intra,Intra Italiam
+S00517,525,Intra,Intra Illyricum cum uiro spectabili comite Illyrici
+S00540,548,Intra,Intra Gallias cum uiro illustri magistro equitum Galliarum
+S00588,596,Officium,Officium viri illustris magistri equitum per Gallias
+S00595,603,Intra,Intra Hispenias cum uiro spectabili comite
+S00612,620,Intra,Intra Tingitaniam cum uiro spectabili comite
+S00618,626,Intra,Intra Africam cum uiro spectabili comite Africae
+S00631,639,Intra,Intra Britannias cum uiro spectabili comite Britanniarum
+S00635,643,Item,Item Vexillationes
+S00636,644,Intra,Intra Italiam
+S00644,652,Intra,Intra Gallias cum uiro illustri comite et magistro equitum Galliarum
+S00657,665,Intra,Intra Africam cum uiro spectabili comite Africae
+S00677,685,Intra,Intra Britannias cum uiro spectibili comite Britanniarum
+S00684,692,Intra,Intra Tingitaniam cum uiro spectabili comite Tingitaniae
+S00692,701,Sub dispositione,Sub dispositione viri illustris magistris officiorum
+S00705,714,Fabricae,Fabricae infrascriptae
+S00706,715,In,In Illyrico
+S00712,721,Italiae,Italiae
+S00719,728,In,In Galliis
+S00729,738,Officium,Officium autem suprascripti viri illustris magistri officiorum de scola agentum in rebus habetur hoc modo
+S00738,748,Sub dispositione,Sub dispositione viri illustris quaestoris
+S00744,755,Sub dispositione,Sub dispositione viri illustris comites sacrarum largitionum
+S00750,761,Rationales,Rationales
+S00762,773,Praepositi thesauroum,Praepositi thesauroum
+S00763,774,Per,Per Illyricum
+S00767,778,Per,Per Italiam
+S00772,783,Per,Per Gallias
+S00777,788,In,In Britanniis
+S00779,790,Procuratores monetarum,Procuratores monetarum
+S00786,797,Procuratores gynaeciorum,Procuratores gynaeciorum
+S00801,812,Procuratores linyfiorum,Procuratores linyfiorum
+S00804,815,Procuratores bafiorum,Procuratores bafiorum
+S00814,825,Praepositi branbaricariorum,Praepositi branbaricariorum siue argentariorum
+S00818,829,Praepositi bastagarum,Praepositi bastagarum
+S00819,830,Orientalium,Orientalium
+S00824,835,Gallicanarum,Gallicanarum
+S00827,838,Officium,Officium autem suprascripti viri illustris comitis sacrarum largitionum habet
+S00842,854,Sub dispositione,Sub dispositione viri illustris comitis rerum privatarum
+S00869,881,Officium,Officium autem suprascripti viri illustris comitis rerum privatarum habet
+S00879,892,peditum,peditum
+S00888,903,Sub dispositione,Sub dispositione viri spectabilis castrensis
+S00892,907,Officium,Officium autem viri spectabilis castrensis habet
+S00899,915,Sub cura,Sub cura viri spectabilis primicerii notariorum
+S00909,927,Sub dispositione,Sub dispositione viri spectabilis proconsulis Africae
+S00911,929,Officium,Officium autem habet ita
+S00924,943,Consulares,Consulares
+S00929,948,Correctores,Correctores
+S00932,951,Praesides,Praesides
+S00937,956,Officium,Officium autem supradictus uir spectabilis vicarius habet ita
+S00950,970,Sub dispositione,Sub dispositione viri spectabilis vicarii Africae
+S00951,971,Consulares,Consulares
+S00954,974,Praesides,Praesides
+S00958,978,Officium,Officium autem habet idem uir spectabilis vicarius hoc modo
+S00971,992,Sub dispositione,Sub dispositione viri spectabilis vicarii Hispaniarum
+S00972,993,Consulares,Consulares
+S00976,997,Praesides,Praesides
+S00981,1002,Officium,Officium autem habet idem uir spectabilis vicarius hoc modo
+S00994,1016,Sub dispositione,Sub dispositione viri spectabilis vicarii Septem provinciarum
+S00995,1017,Consulares,Consulares
+S01002,1024,Praesides,Praesides
+S01014,1036,Officium,Officium autem habet idem uir spectabilis vicarius hoc modo
+S01027,1050,Sub dispositione,Sub dispositione viri spectabilis vicarii Britanniarum
+S01028,1051,Consulares,Consulares
+S01031,1054,Praesides,Praesides
+S01035,1058,Officium,Officium autem habet idem uir spectebilis vicarius hoc modo
+S01048,1072,Sub dispositione,Sub dispositione viri spectabilis comitis Italiae
+S01052,1077,Sub dispositione,Sub dispositione viri spectabilis comitis Africae
+S01053,1078,Limitanei,Limitanei
+S01070,1095,Officium,Officium autem habet idem uir spectabilis comes hoc modo
+S01082,1108,Sub dispositione,Sub dispositione viri spectabilis comitis Tingitaniae
+S01083,1109,Limitanei,Limitanei
+S01092,1118,Officium,Officium autem habet idem iur spectabilis comes hoc modo
+S01104,1131,Sub dispositione,Sub dispositione viri spectabilis comitis Argentoratensis
+S01108,1136,Sub dispositione,Sub dispositione viri spectabilis comitis litoris Saxonici per Britanniam
+S01118,1146,Officium,Officium autem habet idem uir spectabilis comes hoc modo
+S01129,1158,Sub dispositione,Sub dispositione viri spectabilis comitis Britanniarum
+S01131,1160,Officium,Officium autem habet idem uir spectabilis comes hoc modo
+S01142,1172,Sub dispositione,Sub dispositione viri spectabilis ducis et praesidis provinciae Mauritaniae et Caesariensis
+S01151,1181,Officium,Officium autem habet idem uir spectabilis dux et praeses hoc modo
+S01163,1194,Sub dispositione,Sub dispositione viri spectabilis ducis provinciae Tripolitanae
+S01178,1209,Officium,Officium autem habet idem uir spectabilis dux hoc modo
+S01190,1222,Sub dispositione,Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae
+S01229,1261,Officium,Officium autem habet idem uir spectabilis dux hoc modo
+S01240,1273,Sub dispositione,Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis
+S01283,1316,Officium,Officium autem habet idem uir spectabilis dux hoc modo
+S01294,1328,Sub dispositione,Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis
+S01328,1362,Officium,Officium autem habet idem uir spectabilis dux hoc modo
+S01339,1374,Sub dispositione,Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae
+S01361,1396,Officium,Officium autem habet idem uir spectabilis dux hoc modo
+S01372,1408,Sub dispositione,Sub dispositione viri spectabilis ducis provinciae Sequanici
+S01374,1410,Officium,Officium autem habet idem uir spectabilis dux hoc modo
+S01385,1422,Sub dispositione,Sub dispositione viri spectabilis ducis tractus Armoricani et Neruicani
+S01396,1433,Extenditur,Extenditur tamen tractus Armoricani et Neruicani limitis per provincias quinque
+S01402,1439,Officium,Officium autem habet idem uir spectabilis dux hoc modo
+S01413,1451,Sub dispositione,Sub dispositione viri spectabilis ducis Balgicae secundae
+S01417,1455,Officium,Officium autem habet idem uir spectabilis dux hoc modo
+S01430,1469,Sub dispositione,Sub dispositione viri spectabilis ducis Britanniarum
+S01445,1484,Item,Item per lineam Valli
+S01470,1509,Officium,Officium autem habet idem uir spectabilis dux hoc modo
+S01481,1521,Sub dispositione,Sub dispositione viri spectabilis ducis Mogonticensis
+S01493,1533,Officium,Officium autem habet idem uir spectabilis dux hoc modo
+S01504,1545,In,In Italia
+S01505,1546,In provincia,In provincia Venetia inferiore
+S01507,1548,In provincia,In provincia Flaminia
+S01510,1551,In provincia,In provincia Liguria
+S01512,1553,In provincia,In provincia Campania
+S01514,1555,In,In Gallia
+S01515,1556,In provincia,In provincia Riparensi
+S01520,1561,In provincia,In provincia Novempopulana
+S01522,1563,In provincia,In provincia Lugdunensi prima
+S01524,1565,In provincia,In provincia Lugdunensis Senonia
+S01526,1567,Hispaniae,Hispaniae
+S01527,1568,In provincia,In provincia Callaecia
+S01533,1574,In provincia,In provincia Tarraconensi
+S01549,1591,Item,Item in provincia Italia
+S01552,1594,Item,Item in provincia Italia mediterranea
+S01568,1610,In,In Gallia
+S01578,1621,Sub dispositione,Sub dispositione viri clarissimi consularis Campanise
+S01580,1623,Officium,Officium autem habet ita
+S01592,1636,Sub iurisdictione,Sub iurisdictione viri clarissimi correctoris Apuliae et Calabriae
+S01594,1638,Officium,Officium autem habet ita
+S01606,1651,Sub iurisdictione,Sub iurisdictione viri perfectissimi praesidis Dalmatiae
+S01608,1653,Officium,Officium autem habet hoc modo

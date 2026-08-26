@@ -1,0 +1,627 @@
+candidateId,placeName,candidate,candidateNo,candidateType,chapter,document,nodeType,office,unit,canonicalName,province,region,latitude,longitude,confidence,notes,status,method,pleiadesId,pleiadesTitle,matchedName,matchCount
+PLCAND00001,Aballaba,Aballaba,1,Place,Dux Britanniarum,Occidentis,unknown,Praefectus,numeri Maurorum Aurelianorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00002,Abina,Abina,1,Place,Dux Foenicis,Oriens,equites,,Equites sagittarii indigenae,,,,,,,,MATCH,EXACT,915818,Abinna/Abina,Abina,1
+PLCAND00006,Abydum - Abocedo,Abocedo,2,Place,Dux Thebaidos,Oriens,ala,,Ala octava ....,,,,,,,,UNMATCHED,,,,,0
+PLCAND00003,Abrincatis,Abrincatis,1,Place,Dux tractus Armoricani,Occidentis,unknown,Praefectus,militum Dalmatarum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00004,Abusina,Abusina,1,Place,Dux Raetiae,Occidentis,unknown,Tribunus,cohortis tertiae Brittorum,,,,,,,,MATCH,EXACT,118539,Abusina,Abusina,1
+PLCAND00005,Abydum - Abocedo,Abydum,1,Place,Dux Thebaidos,Oriens,ala,,Ala octava ....,,,,,,,,UNMATCHED,,,,,0
+PLCAND00007,Acadama,Acadama,1,Place,Dux Syriae,Oriens,equites,,Equites sagittarii,,,,,,,,MATCH,EXACT,668177,Acadama,Acadama,1
+PLCAND00008,Acauatha,Acauatha,1,Place,Dux Syriae,Oriens,equites,,Equites sagittarii,,,,,,,,UNMATCHED,,,,,0
+PLCAND00009,Accisso,Accisso,1,Place,Dux Scythiae,Oriens,unknown,Praefectus,ripae legionis primae Ioviae cohortis quintae pedaturae inferioris,,,,,,,,UNMATCHED,,,,,0
+PLCAND00010,Aciminci,Aciminci,1,Place,Dux Pannoniae,Occidentis,cuneus,,Cuneus equitum constantium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00011,Acimirci,Acimirci,1,Place,Dux Pannoniae,Occidentis,equites,,Equites sagittarii,,,,,,,,UNMATCHED,,,,,0
+PLCAND00012,Acinco,Acinco,1,Place,Dux provinciae Valeriae,Occidentis,unknown,Praefectus,legionis secundae adiutricis partis superioris,,,,,,,,UNMATCHED,,,,,0
+PLCAND00013,Adada,Adada,1,Place,Dux Syriae,Oriens,equites,,Equites promoti indigenae,,,,,,,,AMBIGUOUS,EXACT,638733 | 668178 | 894070,Adada | Adada? | Qasr al-Hayr al-Sharqi/Adada?,Adada,3
+PLCAND00014,Adatha,Adatha,1,Place,Dux Foenicis,Oriens,equites,,Equites sagittarii indigenae,,,,,,,,MATCH,EXACT,658366,Adatha,Adatha,1
+PLCAND00015,Adiuuense,Adiuuense,1,Place,Dux Pannoniae primae,Occidentis,unknown,Praefectus,legionis primae Noricorum militum liburnariorum cohortis Quintae partis superioris,,,,,,,,UNMATCHED,,,,,0
+PLCAND00016,Admatha,Admatha,1,Place,Dux Palaestinae,Oriens,ala,,Ala Antana dromedariorum,,,,,,,,AMBIGUOUS,EXACT,678131 | 697629,Ammatha | Emmatha,Admatha,2
+PLCAND00017,Adnamantia,Adnamantia,1,Place,Dux provinciae Valeriae,Occidentis,equites,,Equites Dalmatae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00018,Adtitha,Adtitha,1,Place,Dux Arabiae,Oriens,cohort,,Cohors prima miliaria Thracum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00019,Aegeta,Aegeta,1,Place,Dux Daciae ripensis,Oriens,unknown,Praefectus,legionis tertiaedecimae geminae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00020,Aegetae,Aegetae,1,Place,Dux Daciae ripensis,Oriens,cuneus,,Cuneus equitum scutariorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00021,Aegetae,Aegetae,1,Place,Dux Daciae ripensis,Oriens,unknown,Praefectus,classis Histricae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00022,Aegissos,Aegissos,1,Place,Dux Scythiae,Oriens,cuneus,,Cuneus equitum armigerorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00023,Aeliae,Aeliae,1,Place,Dux Palaestinae,Oriens,equites,,Equites Mauri Illyriciani,,,,,,,,MATCH,EXACT,324657,Aeliae?,Aeliae,1
+PLCAND00024,Aeliana,Aeliana,1,Place,Dux Armeniae,Oriens,ala,,Ala secunda Gallorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00025,Aequinoctoiae,Aequinoctoiae,1,Place,Dux Pannoniae primae,Occidentis,equites,,Equites Dalmatae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00026,Aesica,Aesica,1,Place,Dux Britanniarum,Occidentis,unknown,Tribunus,cohortis primae Asturum,,,,,,,,MATCH,EXACT,89095,(A)Esica,Aesica,1
+PLCAND00027,Affrodito,Affrodito,1,Place,Comes limitis Aegypti,Oriens,cohort,,Cohors quarta Iuthungorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00029,Afro,Afro,1,Place,Dux Palaestinae,Oriens,cohort,,Cohors duodecima Valeria,,,,,,,,MATCH,EXACT,699887,Afro,Afro,1
+PLCAND00030,Ailae,Ailae,1,Place,Dux Palaestinae,Oriens,unknown,Praefectus,legionis decimae Fretensis,,,,,,,,MATCH,LATIN_VARIANT,746700,Aelana/Aila,Aila,1
+PLCAND00031,Aiy,Aiy,1,Place,Comes limitis Aegypti,Oriens,cohort,,Cohors secunda Ituraeorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00032,Ala Nova,Ala Nova,1,Place,Dux Pannoniae primae,Occidentis,equites,,Equites Dalmatae,,,,,,,,MATCH,EXACT,128354,Ala Nova,Ala Nova,1
+PLCAND00033,Aladaleariza,Aladaleariza,1,Place,Dux Armeniae,Oriens,ala,,Ala Rizena,,,,,,,,UNMATCHED,,,,,0
+PLCAND00034,Albano,Albano,1,Place,Dux Pannoniae,Occidentis,equites,,Equites Dalmatae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00035,Alesacae,Alesacae,1,Place,Dux provinciae Valeriae,Occidentis,unknown,Tribunus,cohortis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00036,Aleto,Aleto,1,Place,Dux tractus Armoricani,Occidentis,unknown,Praefectus,militum Martensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00037,Alione,Alione,1,Place,Dux Britanniarum,Occidentis,unknown,Tribunus,cohortis tertiae Neruiorum,,,,,,,,MATCH,EXACT,89097,Alauna/Alione,Alione,1
+PLCAND00038,Aliscae,Aliscae,1,Place,Dux provinciae Valeriae,Occidentis,unknown,Praefectus,legionis secundae adiutricis cohortis quintae partis superioris,,,,,,,,MATCH,LATIN_VARIANT,197103,Alisca,Alisca,1
+PLCAND00039,Almo,Almo,1,Place,Dux Daciae ripensis,Oriens,cuneus,,Cuneus equitum stablesianorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00040,Alta Ripa,Alta Ripa,1,Place,Dux Mogontiacensis,Occidentis,unknown,Praefectus,militum Martensium,,,,,,,,AMBIGUOUS,EXACT,108735 | 197109,Alta Ripa,Alta Ripa,2
+PLCAND00041,Altino,Altino,1,Place,Dux Moesiae secundae,Oriens,milites,,Milites navclarii Altinenses,,,,,,,,UNMATCHED,,,,,0
+PLCAND00042,Altino,Altino,1,Place,Dux provinciae Valeriae,Occidentis,cuneus,,Cuneus equitum Fortensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00043,Amboglanna,Amboglanna,1,Place,Dux Britanniarum,Occidentis,unknown,Tribunus,cohortis primae Aeliae Dacorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00044,Amidae,Amidae,1,Place,Dux Mesopotamiae,Oriens,equites,,Equites ducatores Illyriciani,,,,,,,,MATCH,LATIN_VARIANT,874298,Ad Tygrem/Amida,Amida,1
+PLCAND00045,Amidae,Amidae,1,Place,Dux Mesopotamiae,Oriens,equites,,Equites scutarii Illyriciani,,,,,,,,MATCH,LATIN_VARIANT,874298,Ad Tygrem/Amida,Amida,1
+PLCAND00046,Ammattha,Ammattha,1,Place,Dux Syriae,Oriens,cohort,,Cohors prima victorum,,,,,,,,MATCH,EXACT,668183,Ammattha,Ammattha,1
+PLCAND00047,Ammuda,Ammuda,1,Place,Dux Syriae,Oriens,ala,,Ala prima nova Herculia,,,,,,,,UNMATCHED,,,,,0
+PLCAND00048,Analiba,Analiba,1,Place,Dux Armeniae,Oriens,cohort,,Cohors quarta Raetorum,,,,,,,,MATCH,EXACT,628922,Analib(l)a,Analiba,1
+PLCAND00049,Anatha,Anatha,1,Place,Dux Syriae,Oriens,equites,,Equites sagittarii indigenae,,,,,,,,MATCH,EXACT,668196,Aracha/Anatha/‘Harae’,Anatha,1
+PLCAND00050,Anderidos,Anderidos,1,Place,Comes litoris Saxonici per Britanniam,Occidentis,unknown,Praepositus,numeri Abulcorum,,,,,,,,MATCH,EXACT,79293,Anderidos,Anderidos,1
+PLCAND00051,Andro,Andro,1,Place,Comes limitis Aegypti,Oriens,legion,,Legio tertia Diocletiana,,,,,,,,UNMATCHED,,,,,0
+PLCAND00052,Ansamo,Ansamo,1,Place,Dux Moesiae secundae,Oriens,milites,,Milites praeventores,,,,,,,,UNMATCHED,,,,,0
+PLCAND00053,Antiochiae,Antiochiae,1,Place,Insignia viri illustris magistri officiorum,Oriens,unknown,,;Clibanaria,,,,,,,,AMBIGUOUS,LATIN_VARIANT,554187 | 609307 | 658381 | 874623 | 897709 | 912872 | 961873,Alexandria/Antiochia/Merv | Antiochia | Antiochia/Col. Caesarea | Antiochia/Theoupolis | Jebel Khayabir/Alexandria?/Antiochia?/Spasinou Charax?/Karkh Maisan?/[Astarabad Ardashir]? | Nisibis/Antiochia,Antiochia,7
+PLCAND00054,Antiochiae,Antiochiae,1,Place,Insignia viri illustris magistri officiorum,Oriens,unknown,,Scutaria et armorum,,,,,,,,AMBIGUOUS,LATIN_VARIANT,554187 | 609307 | 658381 | 874623 | 897709 | 912872 | 961873,Alexandria/Antiochia/Merv | Antiochia | Antiochia/Col. Caesarea | Antiochia/Theoupolis | Jebel Khayabir/Alexandria?/Antiochia?/Spasinou Charax?/Karkh Maisan?/[Astarabad Ardashir]? | Nisibis/Antiochia,Antiochia,7
+PLCAND00055,Antonaco,Antonaco,1,Place,Dux Mogontiacensis,Occidentis,unknown,Praefectus,militum Acincensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00056,Apadna,Apadna,1,Place,Dux Mesopotamiae,Oriens,equites,,Equites promoti indigenae,,,,,,,,AMBIGUOUS,EXACT,876567 | 894133,Apadna | Tell Fidain/Appadana?/Neapolis?,Apadna,2
+PLCAND00057,Apatna,Apatna,1,Place,Dux Osrhoenae,Oriens,unknown,,..............,,,,,,,,MATCH,EXACT,894133,Tell Fidain/Appadana?/Neapolis?,Apatna,1
+PLCAND00058,Apollonos superioris,Apollonos superioris,1,Place,Dux Thebaidos,Oriens,legion,,Legio secunda Traiana,,,,,,,,UNMATCHED,,,,,0
+PLCAND00059,Appiaria,Appiaria,1,Place,Dux Moesiae secundae,Oriens,cuneus,,Cuneus equitum scutariorum,,,,,,,,MATCH,EXACT,216707,Appiaria,Appiaria,1
+PLCAND00060,Appiaria,Appiaria,1,Place,Dux Moesiae secundae,Oriens,milites,,Milites tertii navclarii,,,,,,,,MATCH,EXACT,216707,Appiaria,Appiaria,1
+PLCAND00061,Apuliae,Apuliae,1,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,Procurator gynaecii Canusini et Venusini,,,,,,,,MATCH,LATIN_VARIANT,442469,Apulia,Apulia,1
+PLCAND00062,Aquileiae,Aquileiae,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,classis Venetum,,,,,,,,AMBIGUOUS,LATIN_VARIANT,118569 | 187290,Aquileia,Aquileia,2
+PLCAND00063,Aquis siue Tertona,Aquis,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,Sarmatarum gentilium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00065,Arauraca,Arauraca,1,Place,Dux Armeniae,Oriens,cohort,,Cohors miliaria Bosporiana,,,,,,,,UNMATCHED,,,,,0
+PLCAND00066,Arbeia,Arbeia,1,Place,Dux Britanniarum,Occidentis,unknown,Praefectus,numeri barcariorum Tigrisiensium,,,,,,,,MATCH,EXACT,89104,Arbeia,Arbeia,1
+PLCAND00067,Arbore,Arbore,1,Place,Dux Raetiae,Occidentis,unknown,Tribunus,cohortis Herculeae Pannoniorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00068,Arefa,Arefa,1,Place,Dux Foenicis,Oriens,ala,,Ala secunda Salutis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00611,Viennae siue Arelati,Arelati,2,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,classis fluminis Rhodani,,,,,,,,UNMATCHED,,,,,0
+PLCAND00069,Areopoli,Areopoli,1,Place,Dux Arabiae,Oriens,equites,,Equites Mauri Illyriciani,,,,,,,,UNMATCHED,,,,,0
+PLCAND00070,Arieldela,Arieldela,1,Place,Dux Palaestinae,Oriens,cohort,,Cohors secunda Galatarum,,,,,,,,MATCH,EXACT,746715,Arieldela,Arieldela,1
+PLCAND00071,Arlape,Arlape,1,Place,Dux Pannoniae primae,Occidentis,equites,,Equites Dalmatae,,,,,,,,MATCH,EXACT,118571,Ar(e)lape,Arlape,1
+PLCAND00493,scordiscorum et armorum,armorum,2,Place,Insignia viri illustris magistri officiorum,Occidentis,unknown,,Sirmensis scutorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00072,Arrabonae,Arrabonae,1,Place,Dux Pannoniae primae,Occidentis,cuneus,,Cuneus equitum stablesianorum,,,,,,,,MATCH,LATIN_VARIANT,197141,Arrabona,Arrabona,1
+PLCAND00073,Arrabonae,Arrabonae,1,Place,Dux Pannoniae primae,Occidentis,equites,,Equites promoti,,,,,,,,MATCH,LATIN_VARIANT,197141,Arrabona,Arrabona,1
+PLCAND00074,Arrabonae,Arrabonae,1,Place,Dux Pannoniae primae,Occidentis,unknown,Praefectus,legionis decimae et quartaedecimaegeminae geminarum militum liburnariorum,,,,,,,,MATCH,LATIN_VARIANT,197141,Arrabona,Arrabona,1
+PLCAND00075,Arrianis,Arrianis,1,Place,Dux Pannoniae primae,Occidentis,unknown,Tribunus,cohortis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00076,Arrunto siue Vindomanae,Arrunto,1,Place,Dux Pannoniae primae,Occidentis,unknown,Praefectus,classis Histricae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00078,Arsaciana siue Novas,Arsaciana,1,Place,Dux Pannoniae,Occidentis,auxilia,,Auxilia Novensia,,,,,,,,UNMATCHED,,,,,0
+PLCAND00080,Arubio,Arubio,1,Place,Dux Scythiae,Oriens,cuneus,,Cuneus equitum catafractariorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00081,Arumbernos Aquitanicae primae,Arumbernos Aquitanicae primae,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,laetorum gentilium Suevorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00082,Asabaia,Asabaia,1,Place,Dux Arabiae,Oriens,cohort,,Cohors prima Thracum,,,,,,,,MATCH,EXACT,699890,Asabaia,Asabaia,1
+PLCAND00083,Asfynis,Asfynis,1,Place,Dux Thebaidos,Oriens,equites,,Equites felices Honoriani,,,,,,,,MATCH,EXACT,785978,‘Asfynis’,Asfynis,1
+PLCAND00084,Assara,Assara,1,Place,Dux Mesopotamiae,Oriens,equites,,Equites scutarii indigenae Pafenses,,,,,,,,UNMATCHED,,,,,0
+PLCAND00085,Asuada,Asuada,1,Place,Dux Palaestinae,Oriens,ala,,Ala prima miliaria Sebastena,,,,,,,,MATCH,EXACT,699891,Asuada,Asuada,1
+PLCAND00086,Atrabatis Belgicae secundae,Atrabatis Belgicae secundae,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,laetorum Batavorum Nemetacensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00087,Au.....,Au,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,Sarmatarum gentilium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00088,Auatha,Auatha,1,Place,Dux Arabiae,Oriens,ala,,Ala nona miliaria,,,,,,,,MATCH,EXACT,699892,Auatha,Auatha,1
+PLCAND00089,Auatha,Auatha,1,Place,Dux Foenicis,Oriens,equites,,Equites promoto indigenae,,,,,,,,MATCH,EXACT,699892,Auatha,Auatha,1
+PLCAND00090,Augustae,Augustae,1,Place,Dux Daciae ripensis,Oriens,cuneus,,Cuneus equitum Dalmatarum,,,,,,,,AMBIGUOUS,EXACT,216719 | 471887,Augustae,Augustae,2
+PLCAND00091,Augustanis,Augustanis,1,Place,Dux Raetiae,Occidentis,equites,,Equites stablesiani seniores,,,,,,,,UNMATCHED,,,,,0
+PLCAND00092,Augustianis,Augustianis,1,Place,Dux Pannoniae primae,Occidentis,equites,,Equites Dalmatae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00093,Aulucos,Aulucos,1,Place,Comes Tingitaniae,Occidentis,unknown,Tribunus,cohortis primae Herculeae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00094,Aureomonto,Aureomonto,1,Place,Dux Moesiae primae,Oriens,cuneus,,Cuneus equtum Dalmatarum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00095,Austuris,Austuris,1,Place,Dux Pannoniae primae,Occidentis,unknown,Tribunus,cohortis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00096,Axeloduno,Axeloduno,1,Place,Dux Britanniarum,Occidentis,unknown,Tribunus,cohortis primae Hispanorum,,,,,,,,MATCH,EXACT,89307,Uxelodu(nu)m,Axeloduno,1
+PLCAND00097,Axiupoli,Axiupoli,1,Place,Dux Scythiae,Oriens,milites,,Milites superventores,,,,,,,,UNMATCHED,,,,,0
+PLCAND00098,Axiupoli,Axiupoli,1,Place,Dux Scythiae,Oriens,unknown,Praefectus,ripae legionis secundae Herculiae cohortis quintae pedaturae inferioris,,,,,,,,UNMATCHED,,,,,0
+PLCAND00099,Babilona,Babilona,1,Place,Comes limitis Aegypti,Oriens,legion,,Legio tertiadecima gemina,,,,,,,,UNMATCHED,,,,,0
+PLCAND00100,Baiocas et Constantiae Lugdunensis secundae,Baiocas,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,laetorum Batavorum et gentilium Sueuorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00102,balistaria et clibanaria,balistaria,1,Place,Insignia viri illustris magistri officiorum,Occidentis,unknown,,Augustodunensis loricaria,,,,,,,,UNMATCHED,,,,,0
+PLCAND00104,Banasam,Banasam,1,Place,Dux Osrhoenae,Oriens,equites,,Equites promoti indigenae,,,,,,,,MATCH,EXACT,876582,Banasam,Banasam,1
+PLCAND00105,Barbalisso,Barbalisso,1,Place,Dux Syriae,Oriens,equites,,Equites Dalmatae Illyriciani,,,,,,,,UNMATCHED,,,,,0
+PLCAND00106,Barboniaco,Barboniaco,1,Place,Dux Britanniarum,Occidentis,unknown,Praefectus,numeri defensorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00107,Batavis,Batavis,1,Place,Dux Raetiae,Occidentis,unknown,Tribunus,cohortis novae Batavorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00108,Belgicae primae,Belgicae primae,1,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,Procurator gynaecii Triberorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00109,Belgicae secundae,Belgicae secundae,1,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,Procurator gynaecii Remensis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00110,Benetis,Benetis,1,Place,Dux tractus Armoricani,Occidentis,unknown,Praefectus,militum Maurorum Benetorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00111,Benosabae,Benosabae,1,Place,Dux Palaestinae,Oriens,equites,,Equites Dalmatae Illyriciani,,,,,,,,UNMATCHED,,,,,0
+PLCAND00112,Bethallaha,Bethallaha,1,Place,Dux Mesopotamiae,Oriens,cohort,,Cohors quinquagenaria Arabum,,,,,,,,MATCH,EXACT,876591,Bethallaha,Bethallaha,1
+PLCAND00113,Betproclis,Betproclis,1,Place,Dux Foenicis,Oriens,equites,,Equites Saraceni indigenae,,,,,,,,MATCH,EXACT,668212,Betproclis,Betproclis,1
+PLCAND00114,Betthoro,Betthoro,1,Place,Dux Arabiae,Oriens,unknown,Praefectus,legionis quartae Martiae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00115,Bingio,Bingio,1,Place,Dux Mogontiacensis,Occidentis,unknown,Praefectus,militum Bingensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00116,Bireo,Bireo,1,Place,Dux Scythiae,Oriens,cuneus,,Cuneus equitum stablesianorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00117,Birsama,Birsama,1,Place,Dux Palaestinae,Oriens,equites,,Equites Thamudeni Illyriciani,,,,,,,,MATCH,EXACT,687864,Birsama,Birsama,1
+PLCAND00118,Blabia,Blabia,1,Place,Dux tractus Armoricani,Occidentis,unknown,Praefectus,militum Carronensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00119,Bodobrica,Bodobrica,1,Place,Dux Mogontiacensis,Occidentis,unknown,Praefectus,militum balistariorum,,,,,,,,MATCH,EXACT,108817,Bodobrica,Bodobrica,1
+PLCAND00120,Boiodoro,Boiodoro,1,Place,Dux Pannoniae primae,Occidentis,unknown,Tribunus,cohortis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00121,Bononia,Bononia,1,Place,Dux Daciae ripensis,Oriens,cuneus,,Cuneus equitum Dalmatarum Fortensium,,,,,,,,AMBIGUOUS,EXACT,109008 | 206975 | 393421,Bononia | Felsina/Bononia | Gesoriacum/Bononia,Bononia,3
+PLCAND00122,Bononiae,Bononiae,1,Place,Dux Pannoniae,Occidentis,unknown,Praefectus,legionis quintae Ioviae cohortis quintae partis superioris,,,,,,,,AMBIGUOUS,LATIN_VARIANT,109008 | 206975 | 393421,Bononia | Felsina/Bononia | Gesoriacum/Bononia,Bononia,3
+PLCAND00123,Bononiae in Aemilia,Bononiae in Aemilia,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,Sarmatarum gentilium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00124,Bonoriae,Bonoriae,1,Place,Dux Pannoniae,Occidentis,equites,,Equites Dalmatae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00125,Borcovicio,Borcovicio,1,Place,Dux Britanniarum,Occidentis,unknown,Tribunus,cohortis primae Tungrorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00126,Bostra,Bostra,1,Place,Dux Arabiae,Oriens,unknown,Praefectus,legionis tertiae Cyrenaicae,,,,,,,,MATCH,EXACT,678073,Bostra/Col. Nova Traiana Alexandriana,Bostra,1
+PLCAND00127,Branoduno,Branoduno,1,Place,Comes litoris Saxonici per Britanniam,Occidentis,unknown,Praepositus,equitum Dalmatarum Branodunensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00185,Confluentibus siue Brecantia,Brecantia,2,Place,Dux Raetiae,Occidentis,unknown,Praefectus,numeri barbaricariorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00128,Bregtione,Bregtione,1,Place,Dux provinciae Valeriae,Occidentis,unknown,Praefectus,legionis primae adiutricis cohortis quintae partis superioris,,,,,,,,UNMATCHED,,,,,0
+PLCAND00129,Bremetenraco,Bremetenraco,1,Place,Dux Britanniarum,Occidentis,cuneus,,Cuneus Sarmatarum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00130,Burgenas,Burgenas,1,Place,Dux Pannoniae,Occidentis,cuneus,,Cuneus equitum Constantianorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00131,Burgenas,Burgenas,1,Place,Dux Pannoniae,Occidentis,unknown,Praefectus,legionis quintae Ioviae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00132,Burgentas,Burgentas,1,Place,Dux Pannoniae,Occidentis,equites,,Equites Dalmatae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00133,Burgo Novo,Burgo Novo,1,Place,Dux Daciae ripensis,Oriens,unknown,Praefectus,legionis tertiaedecimae geminae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00134,Burgo Severi,Burgo Severi,1,Place,Dux Thebaidos,Oriens,cohort,,Cohors nona Alamannorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00135,Burgo Zono,Burgo Zono,1,Place,Dux Daciae ripensis,Oriens,auxilia,,Auxilium secundorum Daciscorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00136,Busiris,Busiris,1,Place,Comes limitis Aegypti,Oriens,cohort,,Cohors secunda Astarum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00137,Caballoduno,Caballoduno,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,classis Araricae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00138,Caelio,Caelio,1,Place,Dux Raetiae,Occidentis,unknown,Tribunus,cohortis tertiae Herculeae Pannoniorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00139,Caene - Parembole,Caene,1,Place,Dux Armeniae,Oriens,cohort,,Cohors prima Lepidiana,,,,,,,,UNMATCHED,,,,,0
+PLCAND00141,Caesarea Cappadociae,Caesarea Cappadociae,1,Place,Insignia viri illustris magistri officiorum,Oriens,unknown,,Clibanaria,,,,,,,,UNMATCHED,,,,,0
+PLCAND00142,Caini,Caini,1,Place,Dux Mesopotamiae,Oriens,ala,,Ala quintadecima Flavia Carduenorum,,,,,,,,MATCH,EXACT,876602,Caini,Caini,1
+PLCAND00143,Calabriae,Calabriae,1,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,Procurator bafii Tarentini,,,,,,,,AMBIGUOUS,LATIN_VARIANT,236397 | 442518,Calabria | Caliabriga/Calabria,Calabria,2
+PLCAND00144,Calamona,Calamona,1,Place,Dux Foenicis,Oriens,equites,,Equites sagittarii indigenae,,,,,,,,AMBIGUOUS,EXACT,682534 | 699894,Calamona,Calamona,2
+PLCAND00145,Calamona,Calamona,1,Place,Dux Palaestinae,Oriens,cohort,,Cohors prima equitata,,,,,,,,AMBIGUOUS,EXACT,682534 | 699894,Calamona,Calamona,2
+PLCAND00146,Calaronae,Calaronae,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Tribunus,cohortis primae Flaviae Sapaudicae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00147,Callinico,Callinico,1,Place,Dux Osrhoenae,Oriens,equites,,Equites promoti Illyriciani,,,,,,,,UNMATCHED,,,,,0
+PLCAND00148,Cambidano,Cambidano,1,Place,Dux Raetiae,Occidentis,unknown,Praefectus,legionis tertiae Italicae pro parte media praetendentis a Vimania Cassiliacum usque,,,,,,,,UNMATCHED,,,,,0
+PLCAND00149,Campona,Campona,1,Place,Dux provinciae Valeriae,Occidentis,equites,,Equites Dalmatae,,,,,,,,MATCH,EXACT,197187,Campona,Campona,1
+PLCAND00150,Candidiana,Candidiana,1,Place,Dux Moesiae secundae,Oriens,milites,,Milites primi Moesiaci,,,,,,,,MATCH,EXACT,216896,Nigrinianis/Candidiana,Candidiana,1
+PLCAND00151,Cannabiaca,Cannabiaca,1,Place,Dux Pannoniae primae,Occidentis,unknown,Tribunus,cohortis,,,,,,,,MATCH,EXACT,128375,Cannabiaca?,Cannabiaca,1
+PLCAND00152,Capidaua,Capidaua,1,Place,Dux Scythiae,Oriens,cuneus,,Cuneus equitum Solensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00153,Caput Basensis,Caput Basensis,1,Place,Dux Pannoniae,Occidentis,unknown,Tribunus,cohortis primae Thracum civium Romanorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00154,Cardabiaca,Cardabiaca,1,Place,Dux provinciae Valeriae,Occidentis,auxilia,,Auxilia insidiatorum,,,,,,,,MATCH,EXACT,197283,Gardellaca/Cardabiaca,Cardabiaca,1
+PLCAND00155,Carnunta Senoniae Lugdunensis,Carnunta Senoniae Lugdunensis,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,laetorum Teutonicianorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00156,Carnunto,Carnunto,1,Place,Dux Pannoniae primae,Occidentis,unknown,Praefectus,legionis quartaedecimaegeminae militum liburnariorum cohortis quintae partis superior,,,,,,,,UNMATCHED,,,,,0
+PLCAND00157,Carso,Carso,1,Place,Dux Scythiae,Oriens,milites,,Milites Scythici,,,,,,,,UNMATCHED,,,,,0
+PLCAND00158,Cartha,Cartha,1,Place,Dux Mesopotamiae,Oriens,ala,,Ala secunda nova Aegyptiorum,,,,,,,,MATCH,EXACT,699911,Sartha/Cartha/Sirtha,Cartha,1
+PLCAND00159,Cartha,Cartha,1,Place,Dux Palaestinae,Oriens,cohort,,Cohors decima Carthaginensis,,,,,,,,MATCH,EXACT,699911,Sartha/Cartha/Sirtha,Cartha,1
+PLCAND00332,Mefana - Cartha,Cartha,2,Place,Dux Mesopotamiae,Oriens,equites,,Equites sagittarii indigenae Arabanenses,,,,,,,,UNMATCHED,,,,,0
+PLCAND00160,Casama,Casama,1,Place,Dux Foenicis,Oriens,equites,,Equites sagittarii indigenae,,,,,,,,MATCH,EXACT,678085,Casama,Casama,1
+PLCAND00161,Castra Iudaeorum,Castra Iudaeorum,1,Place,Comes limitis Aegypti,Oriens,cohort,,Cohors prima Epireorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00162,Castrabarensis,Castrabarensis,1,Place,Comes Tingitaniae,Occidentis,unknown,Tribunus,cohortis primae Ityraeorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00163,Cebro,Cebro,1,Place,Dux Daciae ripensis,Oriens,cuneus,,Cuneus equitum scutariorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00164,Cebro,Cebro,1,Place,Dux Daciae ripensis,Oriens,unknown,Praefectus,legionis quintae Macedonicae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00165,Cefae,Cefae,1,Place,Dux Mesopotamiae,Oriens,unknown,Praefectus,legionis secundae Parthicae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00166,Cefro,Cefro,1,Place,Comes limitis Aegypti,Oriens,cohort,,Cohors tertia Galatarum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00167,Chaszanenica,Chaszanenica,1,Place,Dux Armeniae,Oriens,ala,,Ala prima Iovia felix,,,,,,,,MATCH,EXACT,857137,Gizenenica/Chaszanenica,Chaszanenica,1
+PLCAND00168,Chenoboscia,Chenoboscia,1,Place,Dux Thebaidos,Oriens,ala,,Ala Neptunia,,,,,,,,UNMATCHED,,,,,0
+PLCAND00169,Chermulae,Chermulae,1,Place,Dux Palaestinae,Oriens,equites,,Equites scutarii Illyriciani,,,,,,,,UNMATCHED,,,,,0
+PLCAND00170,Chiaca,Chiaca,1,Place,Dux Armeniae,Oriens,ala,,Ala prima Augusta Colonorum,,,,,,,,MATCH,EXACT,629008,Kiakis,Chiaca,1
+PLCAND00171,Cii,Cii,1,Place,Dux Scythiae,Oriens,cuneus,,Cuneus equitum stablesianorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00172,Cilurno,Cilurno,1,Place,Dux Britanniarum,Occidentis,unknown,Praefectus,alae secundae Asturum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00173,Cimbrianis,Cimbrianis,1,Place,Dux Moesiae secundae,Oriens,milites,,Milites Cimbriani,,,,,,,,MATCH,EXACT,203114,Cimbrianis,Cimbrianis,1
+PLCAND00174,Circesio,Circesio,1,Place,Dux Osrhoenae,Oriens,unknown,Praefectus,legionis quartae Parthicae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00175,Cirpe,Cirpe,1,Place,Dux provinciae Valeriae,Occidentis,auxilia,,Auxilia Fortensia,,,,,,,,UNMATCHED,,,,,0
+PLCAND00176,Cirpi,Cirpi,1,Place,Dux provinciae Valeriae,Occidentis,equites,,Equites Dalmatae,,,,,,,,MATCH,EXACT,197208,Cirpi,Cirpi,1
+PLCAND00177,Cirpi,Cirpi,1,Place,Dux provinciae Valeriae,Occidentis,unknown,Praefectus,legionis secundae adiutricis,,,,,,,,MATCH,EXACT,197208,Cirpi,Cirpi,1
+PLCAND00178,Claudiana,Claudiana,1,Place,Dux Syriae,Oriens,cohort,,Cohors prima Ulpia Dacorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00103,balistaria et clibanaria,clibanaria,2,Place,Insignia viri illustris magistri officiorum,Occidentis,unknown,,Augustodunensis loricaria,,,,,,,,UNMATCHED,,,,,0
+PLCAND00179,Comagenis,Comagenis,1,Place,Dux Pannoniae primae,Occidentis,equites,,Equites promoti,,,,,,,,UNMATCHED,,,,,0
+PLCAND00180,Como,Como,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,classis Comensis cum curis eiusdem civitatis,,,,,,,,MATCH,EXACT,383627,Comum,Como,1
+PLCAND00181,Concangios,Concangios,1,Place,Dux Britanniarum,Occidentis,unknown,Praefectus,numeri vigilum,,,,,,,,MATCH,EXACT,89146,‘Cocanges’/‘Concangios’,Concangios,1
+PLCAND00182,Conderco,Conderco,1,Place,Dux Britanniarum,Occidentis,unknown,Praefectus,alae primae Asturum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00183,Confluentibus,Confluentibus,1,Place,Dux Mogontiacensis,Occidentis,unknown,Praefectus,militum defensorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00184,Confluentibus siue Brecantia,Confluentibus,1,Place,Dux Raetiae,Occidentis,unknown,Praefectus,numeri barbaricariorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00186,Congavata,Congavata,1,Place,Dux Britanniarum,Occidentis,unknown,Tribunus,cohortis secundae Lingonum,,,,,,,,MATCH,EXACT,89151,Congavata,Congavata,1
+PLCAND00187,Constantia,Constantia,1,Place,Dux Mesopotamiae,Oriens,equites,,Equites felices Honoriani Illyriciani,,,,,,,,AMBIGUOUS,EXACT,187352 | 668190 | 682538 | 687903 | 69494 | 874324,Antarados/Constantia | Antiochia Arabis/Antoninopolis/Tella/Constantia/Maximianopolis | Constantia | Constantia/Constantine | Cosedia/Constantia | Gazaion Limen/Constantia/Neapolis,Constantia,6
+PLCAND00188,Constantia,Constantia,1,Place,Dux tractus Armoricani,Occidentis,unknown,Praefectus,militum primae Flaviae,,,,,,,,AMBIGUOUS,EXACT,187352 | 668190 | 682538 | 687903 | 69494 | 874324,Antarados/Constantia | Antiochia Arabis/Antoninopolis/Tella/Constantia/Maximianopolis | Constantia | Constantia/Constantine | Cosedia/Constantia | Gazaion Limen/Constantia/Neapolis,Constantia,6
+PLCAND00189,Constantiae,Constantiae,1,Place,Dux provinciae Valeriae,Occidentis,equites,,Equites Dalmatae,,,,,,,,AMBIGUOUS,LATIN_VARIANT,187352 | 668190 | 682538 | 687903 | 69494 | 874324,Antarados/Constantia | Antiochia Arabis/Antoninopolis/Tella/Constantia/Maximianopolis | Constantia | Constantia/Constantine | Cosedia/Constantia | Gazaion Limen/Constantia/Neapolis,Constantia,6
+PLCAND00101,Baiocas et Constantiae Lugdunensis secundae,Constantiae Lugdunensis secundae,2,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,laetorum Batavorum et gentilium Sueuorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00190,Constantina,Constantina,1,Place,Dux Mesopotamiae,Oriens,equites,,Equites promoti indigenae,,,,,,,,AMBIGUOUS,EXACT,148217 | 305064,Cirta/Constantina | Theline/Col. Arelate/Constantina,Constantina,2
+PLCAND00191,Constantina,Constantina,1,Place,Dux Mesopotamiae,Oriens,unknown,Praefectus,legionis primae Parthicae Nisibenae,,,,,,,,AMBIGUOUS,EXACT,148217 | 305064,Cirta/Constantina | Theline/Col. Arelate/Constantina,Constantina,2
+PLCAND00192,Copto,Copto,1,Place,Dux Thebaidos,Oriens,equites,,Equites sagittarii indigenae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00193,Copto,Copto,1,Place,Dux Thebaidos,Oriens,legion,,Legio prima Valentiniana,,,,,,,,UNMATCHED,,,,,0
+PLCAND00194,Cornacii,Cornacii,1,Place,Dux Pannoniae,Occidentis,cuneus,,Cuneus equitum scutariorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00195,Cornaco,Cornaco,1,Place,Dux Pannoniae,Occidentis,equites,,Equites Dalmatae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00484,Saradiniae et Corsicae,Corsicae,2,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,"Rationalis summarum Trum provinciarum, id est Siciliae",,,,,,,,UNMATCHED,,,,,0
+PLCAND00196,Cremonae,Cremonae,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,Sarmatarum gentilium,,,,,,,,MATCH,LATIN_VARIANT,383628,Cremona,Cremona,1
+PLCAND00197,Crispitia,Crispitia,1,Place,Dux Daciae ripensis,Oriens,auxilia,,Auxilium Crispitiense,,,,,,,,UNMATCHED,,,,,0
+PLCAND00198,Crumero,Crumero,1,Place,Dux provinciae Valeriae,Occidentis,equites,,Equites promoti,,,,,,,,UNMATCHED,,,,,0
+PLCAND00199,Cuccis,Cuccis,1,Place,Dux Pannoniae,Occidentis,cuneus,,Cuneus equitum promotorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00200,Cuccis,Cuccis,1,Place,Dux Pannoniae,Occidentis,equites,,Equites sagittarii,,,,,,,,UNMATCHED,,,,,0
+PLCAND00201,Cunna,Cunna,1,Place,Dux Foenicis,Oriens,ala,,Ala prima Francorum,,,,,,,,MATCH,EXACT,668233,Cunna?,Cunna,1
+PLCAND00202,Cuppis,Cuppis,1,Place,Dux Moesiae primae,Oriens,auxilia,,Auxilium Cuppense,,,,,,,,UNMATCHED,,,,,0
+PLCAND00203,Cuppis,Cuppis,1,Place,Dux Moesiae primae,Oriens,cuneus,,Cuneus equtum Dalmatarum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00204,Cuppis,Cuppis,1,Place,Dux Moesiae primae,Oriens,unknown,Praefectus,legionis septimae Claudiae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00205,Cusas,Cusas,1,Place,Dux Thebaidos,Oriens,legion,,Legio secunda Flavia Constantia Thebaeorum,,,,,,,,MATCH,EXACT,756588,Koussai/Koskam,Cusas,1
+PLCAND00206,Cusi,Cusi,1,Place,Dux Pannoniae,Occidentis,equites,,Equites Dalmatae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00207,Dabana,Dabana,1,Place,Dux Osrhoenae,Oriens,equites,,Equites Mauri Illyriciani,,,,,,,,MATCH,EXACT,658448,Dabana/Tharrana/Mannouorra,Dabana,1
+PLCAND00210,Dalmatiae et Saviae,Dalmatiae,1,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,Rationalis summarum Pannoniae secundae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00212,Damasci,Damasci,1,Place,Insignia viri illustris magistri officiorum,Oriens,unknown,,Scutaria et armorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00213,Danaba,Danaba,1,Place,Dux Foenicis,Oriens,unknown,Praefectus,legionis tertiae Gallicae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00214,Dano,Dano,1,Place,Dux Britanniarum,Occidentis,unknown,Praefectus,equitum Crispianorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00215,Dascusa,Dascusa,1,Place,Dux Armeniae,Oriens,ala,,Ala Auriana,,,,,,,,MATCH,EXACT,628963,Dascusa,Dascusa,1
+PLCAND00216,Deruentione,Deruentione,1,Place,Dux Britanniarum,Occidentis,unknown,Praefectus,numeri supervenientium Petueriensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00217,Dia - Fenis,Dia,1,Place,Dux Arabiae,Oriens,equites,,Equites sagittarii indigenae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00219,Dicti,Dicti,1,Place,Dux Britanniarum,Occidentis,unknown,Praefectus,numeri Neruiorum Dictensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00220,Dimo,Dimo,1,Place,Dux Moesiae secundae,Oriens,cuneus,,Cuneus equitum Solensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00221,Dionisiada,Dionisiada,1,Place,Comes limitis Aegypti,Oriens,ala,,Ala quinta Praelectorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00222,Diospoli,Diospoli,1,Place,Dux Thebaidos,Oriens,cohort,,Cohors septima Francorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00223,Diospoli,Diospoli,1,Place,Dux Thebaidos,Oriens,equites,,Equites sagittarii indigenae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00224,Dirigothia,Dirigothia,1,Place,Dux Scythiae,Oriens,milites,,Milites Scythici,,,,,,,,UNMATCHED,,,,,0
+PLCAND00225,Domana,Domana,1,Place,Dux Armeniae,Oriens,equites,,Equites sagittarii,,,,,,,,MATCH,EXACT,857111,Domana,Domana,1
+PLCAND00226,Dortico,Dortico,1,Place,Dux Daciae ripensis,Oriens,cuneus,,Cuneus equitum Dalmatarum Divitensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00227,Drasdea,Drasdea,1,Place,Dux Moesiae secundae,Oriens,cohort,,Cohors tertia Valeria Bacarum,,,,,,,,MATCH,EXACT,222050,Drasdea,Drasdea,1
+PLCAND00228,Drobeta,Drobeta,1,Place,Dux Daciae ripensis,Oriens,auxilia,,Auxilium primorum Daciscorum,,,,,,,,MATCH,EXACT,207100,Drobeta,Drobeta,1
+PLCAND00229,Drobeta,Drobeta,1,Place,Dux Daciae ripensis,Oriens,cuneus,,Cuneus equitum Dalmatarum Divitensium,,,,,,,,MATCH,EXACT,207100,Drobeta,Drobeta,1
+PLCAND00230,Dubris,Dubris,1,Place,Comes litoris Saxonici per Britanniam,Occidentis,unknown,Praepositus,militum Tungrecanorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00231,Duga,Duga,1,Place,Comes Tingitaniae,Occidentis,unknown,Tribunus,cohortis secundae Hispanorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00232,Duodecimo constituta,Duodecimo constituta,1,Place,Dux Osrhoenae,Oriens,ala,,Ala prima salutaria,,,,,,,,UNMATCHED,,,,,0
+PLCAND00233,Durostoro,Durostoro,1,Place,Dux Moesiae secundae,Oriens,milites,,Milites quarti Constantiani,,,,,,,,UNMATCHED,,,,,0
+PLCAND00234,Durostoro,Durostoro,1,Place,Dux Moesiae secundae,Oriens,unknown,Praefectus,legionis undecimae Claudiae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00235,Ebruduni Sapaudiae,Ebruduni Sapaudiae,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,classis barcariorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00236,Edesa,Edesa,1,Place,Insignia viri illustris magistri officiorum,Oriens,unknown,,Scutaria et armamentaria,,,,,,,,UNMATCHED,,,,,0
+PLCAND00423,Quadratis et Eporizio,Eporizio,2,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,Sarmatarum gentilium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00237,Epuso Belgicae primae,Epuso Belgicae primae,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,laetorum Actorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00238,Euhari,Euhari,1,Place,Dux Foenicis,Oriens,equites,,Equites scutarii Illyriciani,,,,,,,,UNMATCHED,,,,,0
+PLCAND00239,Fafianae,Fafianae,1,Place,Dux Pannoniae primae,Occidentis,unknown,Praefectus,legionis liburnariorum primorum Noricorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00240,Fanomantis Belgicae secundae,Fanomantis Belgicae secundae,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,laetorum Neruiorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00218,Dia - Fenis,Fenis,2,Place,Dux Arabiae,Oriens,equites,,Equites sagittarii indigenae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00241,Filas,Filas,1,Place,Dux Thebaidos,Oriens,legion,,Legio prima Maximiana,,,,,,,,UNMATCHED,,,,,0
+PLCAND00242,Flaviana,Flaviana,1,Place,Dux Moesiae primae,Oriens,cuneus,,Cuneus equtum promotorum,,,,,,,,MATCH,EXACT,216811,Flaviana,Flaviana,1
+PLCAND00243,Flaviana,Flaviana,1,Place,Dux Scythiae,Oriens,milites,,Milites navclarii,,,,,,,,MATCH,EXACT,216811,Flaviana,Flaviana,1
+PLCAND00244,Flexo,Flexo,1,Place,Dux Pannoniae primae,Occidentis,cuneus,,Cuneus equitum Dalmatarum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00245,Flexo,Flexo,1,Place,Dux Pannoniae primae,Occidentis,equites,,Equites promoti,,,,,,,,UNMATCHED,,,,,0
+PLCAND00246,Florentiae,Florentiae,1,Place,Dux provinciae Valeriae,Occidentis,equites,,Equites Dalmatae,,,,,,,,AMBIGUOUS,LATIN_VARIANT,197360 | 383649 | 413138,Florenti(ol)a | Florentia | Lugio/Florentia,Florentia,3
+PLCAND00247,Florentiae,Florentiae,1,Place,Dux provinciae Valeriae,Occidentis,unknown,Praefectus,classis Histricae,,,,,,,,AMBIGUOUS,LATIN_VARIANT,197360 | 383649 | 413138,Florenti(ol)a | Florentia | Lugio/Florentia,Florentia,3
+PLCAND00248,Florentiae,Florentiae,1,Place,Dux provinciae Valeriae,Occidentis,unknown,Praefectus,legionis secundae adiutricis partis inferioris,,,,,,,,AMBIGUOUS,LATIN_VARIANT,197360 | 383649 | 413138,Florenti(ol)a | Florentia | Lugio/Florentia,Florentia,3
+PLCAND00249,Foenicionis,Foenicionis,1,Place,Dux Thebaidos,Oriens,ala,,Ala octava Palmyrenorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00250,Foetibus,Foetibus,1,Place,Dux Raetiae,Occidentis,unknown,Praefectus,legionis tertiae Italicae transvectioni specierum deputatae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00251,Foro Fuluiensi,Foro Fuluiensi,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,Sarmatarum gentilium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00252,Friglas,Friglas,1,Place,Comes Tingitaniae,Occidentis,unknown,Tribunus,cohortis Friglensis,,,,,,,,MATCH,EXACT,275629,Frigidae,Friglas,1
+PLCAND00253,Gabrosenti,Gabrosenti,1,Place,Dux Britanniarum,Occidentis,unknown,Tribunus,cohortis secundae Thracum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00254,Gadda,Gadda,1,Place,Dux Arabiae,Oriens,equites,,Equites sagittari indigenae,,,,,,,,MATCH,EXACT,697666,Gadda?,Gadda,1
+PLCAND00257,Ganaba,Ganaba,1,Place,Dux Osrhoenae,Oriens,equites,,Equites Dalmatae Illyriciani,,,,,,,,AMBIGUOUS,EXACT,874475 | 897770,Ganaba,Ganaba,2
+PLCAND00258,Gariannonor,Gariannonor,1,Place,Comes litoris Saxonici per Britanniam,Occidentis,unknown,Praepositus,equitum stablesianorum Gariannonensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00259,Gerolate,Gerolate,1,Place,Dux Pannoniae primae,Occidentis,equites,,Equites sagittarii,,,,,,,,UNMATCHED,,,,,0
+PLCAND00260,Glannibanta,Glannibanta,1,Place,Dux Britanniarum,Occidentis,unknown,Tribunus,cohortis primae Morinorum,,,,,,,,MATCH,EXACT,89193,*Glannoventa,Glannibanta,1
+PLCAND00261,Gomoha,Gomoha,1,Place,Dux Arabiae,Oriens,ala,,Ala sexta Hispanorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00262,Graio,Graio,1,Place,Dux Pannoniae,Occidentis,unknown,Praefectus,classis secundae Flaviae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00263,Grannona in litore Saxonico,Grannona in litore Saxonico,1,Place,Dux tractus Armoricani,Occidentis,unknown,Tribunus,cohortis primae novae Armoricanae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00264,Grannono,Grannono,1,Place,Dux tractus Armoricani,Occidentis,unknown,Praefectus,militum Grannonensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00265,Gratiana,Gratiana,1,Place,Dux Moesiae primae,Oriens,auxilia,,Auxilium Gratianense,,,,,,,,MATCH,EXACT,226611,Gratiana?,Gratiana,1
+PLCAND00266,Gratiana,Gratiana,1,Place,Dux Scythiae,Oriens,milites,,Milites primi Gratianenses,,,,,,,,MATCH,EXACT,226611,Gratiana?,Gratiana,1
+PLCAND00267,Guntiae,Guntiae,1,Place,Dux Raetiae,Occidentis,unknown,Praefectus,militum Ursariensium,,,,,,,,MATCH,LATIN_VARIANT,118716,Guntia,Guntia,1
+PLCAND00268,Hadrianopolis Haemimonti,Hadrianopolis Haemimonti,1,Place,Insignia viri illustris magistri officiorum,Oriens,unknown,,Scutaria et armorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00269,Hasta,Hasta,1,Place,Dux Palaestinae,Oriens,ala,,Ala prima miliara,,,,,,,,AMBIGUOUS,EXACT,256193 | 383669 | 383670 | 409224,(H)Asta/Col. Hasta Regia/Ligystine? | Hasta,Hasta,4
+PLCAND00270,Hauanae,Hauanae,1,Place,Dux Palaestinae,Oriens,equites,,Equites sagittarii indigenae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00271,Helela,Helela,1,Place,Dux Syriae,Oriens,cohort,,Cohors prima Gotthorum,,,,,,,,MATCH,EXACT,668259,Helela,Helela,1
+PLCAND00272,Hermunthi,Hermunthi,1,Place,Dux Thebaidos,Oriens,legion,,Legio secunda Valentiniana,,,,,,,,UNMATCHED,,,,,0
+PLCAND00273,Hermupoli,Hermupoli,1,Place,Dux Thebaidos,Oriens,cuneus,,Cuneus equitum scutariorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00274,Hibeos - Oaseos maioris,Hibeos,1,Place,Dux Thebaidos,Oriens,ala,,Ala prima Abasgorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00276,Hipponos,Hipponos,1,Place,Comes limitis Aegypti,Oriens,ala,,Ala Apriana,,,,,,,,UNMATCHED,,,,,0
+PLCAND00601,Venetiae et Histriae,Histriae,2,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,Procurator bafii Cissensis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00277,Hunno,Hunno,1,Place,Dux Britanniarum,Occidentis,unknown,Praefectus,alae Sabinianae,,,,,,,,MATCH,EXACT,89201,Onnum,Hunno,1
+PLCAND00278,Iehibo,Iehibo,1,Place,Dux Palaestinae,Oriens,cohort,,Cohors secunda Gratiana,,,,,,,,UNMATCHED,,,,,0
+PLCAND00279,Inplateypegiis,Inplateypegiis,1,Place,Dux Scythiae,Oriens,unknown,,et secundae Herculiae musculorum Scythicorum et classis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00280,Intercisa,Intercisa,1,Place,Dux provinciae Valeriae,Occidentis,cuneus,,Cuneus equitum Dalmatarum,,,,,,,,AMBIGUOUS,EXACT,197323 | 413180,Intercisa | Intercisa/Petra Pertusa,Intercisa,2
+PLCAND00281,Intercisa,Intercisa,1,Place,Dux provinciae Valeriae,Occidentis,equites,,Equites sagittarii,,,,,,,,AMBIGUOUS,EXACT,197323 | 413180,Intercisa | Intercisa/Petra Pertusa,Intercisa,2
+PLCAND00282,Iovia,Iovia,1,Place,Dux provinciae Valeriae,Occidentis,unknown,Tribunus,cohortis,,,,,,,,AMBIGUOUS,EXACT,197191 | 197326 | 197327 | 642530,Iovia | ‘Cardono’/Iovia,Iovia,4
+PLCAND00283,Ioviaco,Ioviaco,1,Place,Dux Pannoniae primae,Occidentis,unknown,Praefectus,legionis secundae Italicae militum liburnariorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00284,Iprosmis,Iprosmis,1,Place,Dux Scythiae,Oriens,unknown,Praefectus,ripae legionis secundae Herculiae cohortis quintae pedaturae inferioris,,,,,,,,UNMATCHED,,,,,0
+PLCAND00285,Isiu,Isiu,1,Place,Dux Thebaidos,Oriens,ala,,Ala quarta Britonum,,,,,,,,MATCH,EXACT,756583,Isiu,Isiu,1
+PLCAND00287,Lacufelicis,Lacufelicis,1,Place,Dux Pannoniae primae,Occidentis,equites,,Equites sagittarii,,,,,,,,UNMATCHED,,,,,0
+PLCAND00288,Laedemata,Laedemata,1,Place,Dux Moesiae primae,Oriens,unknown,Praefectus,militum Vincentiensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00289,Laedenatae,Laedenatae,1,Place,Dux Moesiae primae,Oriens,cuneus,,Cuneus equtum sagittariorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00290,Lapurdo,Lapurdo,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Tribunus,cohortis Noevempopulanae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00291,Lataui,Lataui,1,Place,Dux Foenicis,Oriens,equites,,Equites Dalmatae Illyriciani,,,,,,,,UNMATCHED,,,,,0
+PLCAND00292,Latius,Latius,1,Place,Dux Moesiae secundae,Oriens,cuneus,,Cuneus equitum scutariorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00293,Lato,Lato,1,Place,Dux Thebaidos,Oriens,equites,,Equites sagittarii indigenae,,,,,,,,MATCH,EXACT,589899,Lato,Lato,1
+PLCAND00294,Lauriaco,Lauriaco,1,Place,Dux Pannoniae primae,Occidentis,unknown,Praefectus,legionis secundae Italicae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00295,Lavatres,Lavatres,1,Place,Dux Britanniarum,Occidentis,unknown,Praefectus,numeri exploratorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00296,Legione,Legione,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,legionis septimae geminae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00297,Lemannis,Lemannis,1,Place,Comes litoris Saxonici per Britanniam,Occidentis,unknown,Praepositus,numeri Turnacensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00298,Lentiae,Lentiae,1,Place,Dux Pannoniae primae,Occidentis,equites,,Equites sagittarii,,,,,,,,MATCH,LATIN_VARIANT,118803,Lentia,Lentia,1
+PLCAND00299,Lentiae,Lentiae,1,Place,Dux Pannoniae primae,Occidentis,unknown,Praefectus,legionis secundae Italicae partis inferioris,,,,,,,,MATCH,LATIN_VARIANT,118803,Lentia,Lentia,1
+PLCAND00300,Leonatae,Leonatae,1,Place,Dux Pannoniae,Occidentis,unknown,Tribunus,cohortis primae Ioviae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00301,Libona,Libona,1,Place,Dux Arabiae,Oriens,ala,,Ala secunda Constantiana,,,,,,,,MATCH,EXACT,699901,Libona,Libona,1
+PLCAND00302,Lico,Lico,1,Place,Dux Thebaidos,Oriens,cuneus,,Cuneus equitum Maurorum scutariorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00305,Lingonas,Lingonas,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,Sarmatarum gentilium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00306,Longovicio,Longovicio,1,Place,Dux Britanniarum,Occidentis,unknown,Praefectus,numeri Longovicanorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00307,Luco,Luco,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Tribunus,cohortis Lucensis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00308,Luguvallii,Luguvallii,1,Place,Dux Britanniarum,Occidentis,unknown,,........................,,,,,,,,UNMATCHED,,,,,0
+PLCAND00309,Lussonio,Lussonio,1,Place,Dux provinciae Valeriae,Occidentis,equites,,Equites Dalmatae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00310,Lussonio,Lussonio,1,Place,Dux provinciae Valeriae,Occidentis,unknown,Praefectus,legionis secundae adiutricis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00311,Magis,Magis,1,Place,Dux Britanniarum,Occidentis,unknown,Praefectus,numeri Pacensium,,,,,,,,MATCH,EXACT,89237,Magis?,Magis,1
+PLCAND00312,Maglone,Maglone,1,Place,Dux Britanniarum,Occidentis,unknown,Praefectus,numeri Solensium,,,,,,,,MATCH,EXACT,89236,‘Maglone’,Maglone,1
+PLCAND00313,Magnis,Magnis,1,Place,Dux Britanniarum,Occidentis,unknown,Tribunus,cohortis secundae Dalmatarum,,,,,,,,AMBIGUOUS,EXACT,79587 | 89238,Magnis,Magnis,2
+PLCAND00314,Maiocariri,Maiocariri,1,Place,Dux Mesopotamiae,Oriens,cohort,,Cohors quartadecima Valeria Zabdenorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00315,Mannatias,Mannatias,1,Place,Dux tractus Armoricani,Occidentis,unknown,Praefectus,militum superventorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00316,Maratha,Maratha,1,Place,Dux Osrhoenae,Oriens,cohort,,Cohors prima Eufratensis,,,,,,,,AMBIGUOUS,EXACT,40208 | 573359 | 876654,Maratha,Maratha,3
+PLCAND00317,Marcianopoli,Marcianopoli,1,Place,Insignia viri illustris magistri officiorum,Oriens,unknown,,Scutaria et armorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00318,Marcis in litore Saxonico,Marcis in litore Saxonico,1,Place,Dux Belgicae secundae,Occidentis,equites,,Equites Dalmatae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00319,Margo,Margo,1,Place,Dux Moesiae primae,Oriens,auxilia,,Auxilium Margense,,,,,,,,UNMATCHED,,,,,0
+PLCAND00320,Margo,Margo,1,Place,Dux Moesiae primae,Oriens,unknown,Praefectus,classis Stradensis et Germensis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00321,Marinanae,Marinanae,1,Place,Dux provinciae Valeriae,Occidentis,unknown,Tribunus,cohortis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00322,Marmantharum,Marmantharum,1,Place,Dux Syriae,Oriens,cohort,,Cohors tertia Valeria,,,,,,,,UNMATCHED,,,,,0
+PLCAND00542,Tauruno siue Marsonia,Marsonia,2,Place,Dux Pannoniae,Occidentis,auxilia,,Auxilia ascarii,,,,,,,,UNMATCHED,,,,,0
+PLCAND00323,Massiliae Graecorum,Massiliae Graecorum,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,militum musculariorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00324,Matrice,Matrice,1,Place,Dux provinciae Valeriae,Occidentis,equites,,Equites promoti,,,,,,,,MATCH,EXACT,432932,Matrice,Matrice,1
+PLCAND00325,Matthana,Matthana,1,Place,Dux Syriae,Oriens,equites,,Equites sagittarii indigenae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00326,Maximianopoli,Maximianopoli,1,Place,Dux Thebaidos,Oriens,ala,,Ala tertia dromedariorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00327,Maximianopoli,Maximianopoli,1,Place,Dux Thebaidos,Oriens,equites,,Equites sagittarii indigenae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00328,Mediana,Mediana,1,Place,Dux Osrhoenae,Oriens,equites,,Equites sagittarii indigenae Medianenses,,,,,,,,AMBIGUOUS,EXACT,118840 | 207273 | 305107 | 674249,Med(iana?) | Mediana | Mediana/Meziana,Mediana,4
+PLCAND00329,Mediolana,Mediolana,1,Place,Dux Moesiae secundae,Oriens,milites,,Milites Dacisci,,,,,,,,UNMATCHED,,,,,0
+PLCAND00330,Mefa,Mefa,1,Place,Dux Arabiae,Oriens,equites,,Equites promoti indigenae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00331,Mefana - Cartha,Mefana,1,Place,Dux Mesopotamiae,Oriens,equites,,Equites sagittarii indigenae Arabanenses,,,,,,,,UNMATCHED,,,,,0
+PLCAND00333,Melitena,Melitena,1,Place,Dux Armeniae,Oriens,unknown,Praefectus,legionis duodecimae fulminatae,,,,,,,,MATCH,EXACT,629040,Melitene,Melitena | Melitēna,1
+PLCAND00334,Memfi,Memfi,1,Place,Comes limitis Aegypti,Oriens,legion,,Legio quinta Macadonica,,,,,,,,UNMATCHED,,,,,0
+PLCAND00335,Menochiae,Menochiae,1,Place,Dux Palaestinae,Oriens,equites,,Equites promoti Illyriciani,,,,,,,,MATCH,LATIN_VARIANT,687964,Maon/Menoeis/Castrum Moenoenum,Menochia,1
+PLCAND00336,Metita,Metita,1,Place,Dux Armeniae,Oriens,cohort,,Cohors tertia Ulpia miliaria Petraeorum,,,,,,,,MATCH,EXACT,874603,Metita,Metita,1
+PLCAND00337,Miseno,Miseno,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,classis Misenatium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00338,Moahile,Moahile,1,Place,Dux Palaestinae,Oriens,equites,,Equites sagittarii indigenae,,,,,,,,MATCH,EXACT,748965,Moahile,Moahile,1
+PLCAND00339,Mochora,Mochora,1,Place,Dux Armeniae,Oriens,cohort,,Cohors,,,,,,,,MATCH,EXACT,863842,Mocheresis,Mochora,1
+PLCAND00340,Mogontiaco,Mogontiaco,1,Place,Dux Mogontiacensis,Occidentis,unknown,Praefectus,militum armigerorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00341,Moleaatha,Moleaatha,1,Place,Dux Palaestinae,Oriens,cohort,,Cohors prima Flavia,,,,,,,,UNMATCHED,,,,,0
+PLCAND00342,Monte Iovis,Monte Iovis,1,Place,Dux Foenicis,Oriens,ala,,Ala prima Damascena,,,,,,,,UNMATCHED,,,,,0
+PLCAND00343,Morbio,Morbio,1,Place,Dux Britanniarum,Occidentis,unknown,Praefectus,equitum catafractariorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00344,Motha,Motha,1,Place,Dux Arabiae,Oriens,equites,,Equites scutarii Illyriciani,,,,,,,,MATCH,EXACT,678289,Motha(na)/Motho?, Motha,1
+PLCAND00345,Mursae,Mursae,1,Place,Dux Pannoniae,Occidentis,unknown,Praefectus,classis Histricae,,,,,,,,MATCH,LATIN_VARIANT,197389,Mursa,Mursa,1
+PLCAND00346,Muson,Muson,1,Place,Comes limitis Aegypti,Oriens,cohort,,Cohors secunda Thracum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00347,Mutheos,Mutheos,1,Place,Dux Thebaidos,Oriens,cohort,,Cohors scutata civium Romanorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00348,Naarsafari,Naarsafari,1,Place,Dux Arabiae,Oriens,ala,,Ala secunda Miliarensis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00349,Naithu,Naithu,1,Place,Comes limitis Aegypti,Oriens,cohort,,Cohors prima sagittariorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00350,Narmunthi,Narmunthi,1,Place,Comes limitis Aegypti,Oriens,cohort,,Cohors quarta Numidarum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00351,Nazala,Nazala,1,Place,Dux Foenicis,Oriens,equites,,Equites promoti indigenae,,,,,,,,MATCH,EXACT,668315,Nazala,Nazala,1
+PLCAND00352,Nee,Nee,1,Place,Comes limitis Aegypti,Oriens,ala,,Ala octava Vandilorum,,,,,,,,MATCH,EXACT,554290,Nea Kome/Nee,Nee,1
+PLCAND00353,Neia,Neia,1,Place,Dux Foenicis,Oriens,ala,,Ala prima Alamannorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00354,Nemetis,Nemetis,1,Place,Dux Mogontiacensis,Occidentis,unknown,Praefectus,militum vindicum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00355,Neocaesereae,Neocaesereae,1,Place,Dux Syriae,Oriens,equites,,Equites Mauri Illyriciani,,,,,,,,UNMATCHED,,,,,0
+PLCAND00356,Nicomediae,Nicomediae,1,Place,Insignia viri illustris magistri officiorum,Oriens,unknown,,Clibanaria,,,,,,,,MATCH,LATIN_VARIANT,511337,Nicomedia,Nicomedia,1
+PLCAND00357,Nicomediae,Nicomediae,1,Place,Insignia viri illustris magistri officiorum,Oriens,unknown,,Scutaria et armorum,,,,,,,,MATCH,LATIN_VARIANT,511337,Nicomedia,Nicomedia,1
+PLCAND00358,Nitnu,Nitnu,1,Place,Dux Thebaidos,Oriens,cohort,,Cohors nona Tzanorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00359,Norici mediterranei et ripensis,Norici mediterranei,1,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,"Rationalis summarum Pannoniae prima, Valeriae",,,,,,,,UNMATCHED,,,,,0
+PLCAND00361,Nouas,Nouas,1,Place,Dux Moesiae secundae,Oriens,unknown,Praefectus,legionis primae Italicae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00362,Nouas,Nouas,1,Place,Dux Moesiae secundae,Oriens,unknown,Praefectus,ripae legionis primae Italicae cohortis quintae pedaturae superioris,,,,,,,,UNMATCHED,,,,,0
+PLCAND00363,Nouioduno,Nouioduno,1,Place,Dux Scythiae,Oriens,unknown,Praefectus,legionis primae Ioviae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00364,Nouioduno,Nouioduno,1,Place,Dux Scythiae,Oriens,unknown,Praefectus,ripae legionis primae Ioviae cohortis quintae pedaturae superioris,,,,,,,,UNMATCHED,,,,,0
+PLCAND00365,Nouioduro,Nouioduro,1,Place,Dux Scythiae,Oriens,milites,,Milites primi Constantini,,,,,,,,UNMATCHED,,,,,0
+PLCAND00366,Novariae,Novariae,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,Sarmatarum gentilium,,,,,,,,MATCH,LATIN_VARIANT,383717,Novaria,Novaria,1
+PLCAND00079,Arsaciana siue Novas,Novas,2,Place,Dux Pannoniae,Occidentis,auxilia,,Auxilia Novensia,,,,,,,,UNMATCHED,,,,,0
+PLCAND00367,Novas,Novas,1,Place,Dux Pannoniae,Occidentis,equites,,Equites Dalmatae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00368,Noviomago Belgicae secundae,Noviomago Belgicae secundae,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,laetorum Batavorum Contraginnensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00369,Novis,Novis,1,Place,Dux Moesiae primae,Oriens,unknown,Praefectus,militum exploratorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00275,Hibeos - Oaseos maioris,Oaseos maioris,2,Place,Dux Thebaidos,Oriens,ala,,Ala prima Abasgorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00370,Oasi maiore,Oasi maiore,1,Place,Dux Thebaidos,Oriens,ala,,Ala prima Abasgorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00371,Oasi minore,Oasi minore,1,Place,Comes limitis Aegypti,Oriens,ala,,Ala secunda Armeniorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00372,Oasi minore - Trimtheos,Oasi minore,1,Place,Dux Thebaidos,Oriens,ala,,Ala prima Quadorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00374,Occariba,Occariba,1,Place,Dux Syriae,Oriens,equites,,Equites promoti Illyriciani,,,,,,,,UNMATCHED,,,,,0
+PLCAND00375,Odiabo,Odiabo,1,Place,Dux provinciae Valeriae,Occidentis,equites,,Equites Dalmatae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00376,Oesco,Oesco,1,Place,Dux Daciae ripensis,Oriens,auxilia,,Auxilium Mariensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00377,Oesco,Oesco,1,Place,Dux Daciae ripensis,Oriens,unknown,Praefectus,legionis quintae Macedonicae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00378,Olenaco,Olenaco,1,Place,Dux Britanniarum,Occidentis,unknown,Praefectus,alae primae Herculeae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00379,Olitione,Olitione,1,Place,Dux provinciae Sequanici,Occidentis,milites,,Milites Latavienses,,,,,,,,UNMATCHED,,,,,0
+PLCAND00380,Ombos,Ombos,1,Place,Dux Thebaidos,Oriens,legion,,Legio tertia Diocletiana,,,,,,,,AMBIGUOUS,EXACT,786079 | 789748,Omboi | Ombos,Ombos,2
+PLCAND00381,Oneuatha,Oneuatha,1,Place,Dux Foenicis,Oriens,cohort,,Cohors quinta pacta Alamannorum,,,,,,,,MATCH,EXACT,678315,Oneuatha/*Anabatha,Oneuatha,1
+PLCAND00382,operum alter,operum alter,1,Place,Insignia viri illustris praefecti praetorio per Illyricum,Oriens,unknown,,Numerarii quatuor; in his auri unus,,,,,,,,UNMATCHED,,,,,0
+PLCAND00383,Opittergii,Opittergii,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,Sarmatarum gentilium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00384,or the legiones,or the legiones,1,Place,Qui numeri ex praedictis per infrascriptas provincias habeantur:,Occidentis,unknown,,Constantiniani.[same as Constantiaci,,,,,,,,UNMATCHED,,,,,0
+PLCAND00385,Oraba,Oraba,1,Place,Dux Osrhoenae,Oriens,equites,,Equites sagittarii indigenae,,,,,,,,MATCH,EXACT,874688,Shadikanni/Ar(a)ban/(H)Oraba?/*Castellum Arabum,Oraba,1
+PLCAND00386,Oresa,Oresa,1,Place,Dux Syriae,Oriens,unknown,Praefectus,legionis quartae Scythicae,,,,,,,,MATCH,EXACT,668323,Oriza/Oruba/Oresa,Oresa,1
+PLCAND00387,Osismis,Osismis,1,Place,Dux tractus Armoricani,Occidentis,unknown,Praefectus,militum Maurorum Osismiacorum,,,,,,,,MATCH,EXACT,69511,Gesocribate/Osismis,Osismis,1
+PLCAND00388,Othonae,Othonae,1,Place,Comes litoris Saxonici per Britanniam,Occidentis,unknown,Praepositus,numeri Fortensium,,,,,,,,MATCH,LATIN_VARIANT,79631,Othona,Othona,1
+PLCAND00389,Otthara,Otthara,1,Place,Dux Foenicis,Oriens,equites,,Equites Mauri Illyriciani,,,,,,,,AMBIGUOUS,EXACT,668327 | 682570,Otthara,Otthara,2
+PLCAND00390,Pacatiana,Pacatiana,1,Place,Comes Tingitaniae,Occidentis,unknown,Tribunus,cohortis Pacatianensis,,,,,,,,MATCH,EXACT,278631,Pacatiana,Pacatiana,1
+PLCAND00391,Paetaonio,Paetaonio,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Tribunus,cohortis secundae Flaviae Pacatianae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00392,Palmira,Palmira,1,Place,Dux Foenicis,Oriens,unknown,Praefectus,legionis primae Illyricorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00393,Pampane,Pampane,1,Place,Dux Thebaidos,Oriens,ala,,Ala prima Iovia catafractariorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00394,Pannoniae primae,Pannoniae primae,1,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,unknown,Praepositus,thesaurorum Sabariensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00395,Pannoniae secundae,Pannoniae secundae,1,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,Procurator gynaecii Sirmensis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00396,Pannoniae secundae - translati Salonis,Pannoniae secundae,1,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,Procurator gynaecii Bassianensis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00140,Caene - Parembole,Parembole,2,Place,Dux Armeniae,Oriens,cohort,,Cohors prima Lepidiana,,,,,,,,UNMATCHED,,,,,0
+PLCAND00398,Parembole,Parembole,1,Place,Comes limitis Aegypti,Oriens,legion,,Legio secunda Traiana,,,,,,,,AMBIGUOUS,EXACT,481782 | 690830 | 736993 | 795840,Castra/Parembole | Parembole | Parembole?,Parembole,4
+PLCAND00399,Parisius,Parisius,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,classis Anderetianorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00400,Parroduno,Parroduno,1,Place,Dux Raetiae,Occidentis,unknown,Tribunus,cohortis primae Herculeae Raetorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00401,Patauio,Patauio,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,Sarmatarum gentilium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00402,Peamu,Peamu,1,Place,Dux Thebaidos,Oriens,cohort,,Cohors undecima Chamauorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00403,Pelusio,Pelusio,1,Place,Comes limitis Aegypti,Oriens,equites,,Equites stablesiani,,,,,,,,UNMATCHED,,,,,0
+PLCAND00404,Pescla,Pescla,1,Place,Dux Thebaidos,Oriens,ala,,Ala Germanorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00405,Petrianis,Petrianis,1,Place,Dux Britanniarum,Occidentis,unknown,Praefectus,alae Petrianae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00406,Pictavis,Pictavis,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,Sarmatarum et Taifalorum gentilium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00407,Pinco,Pinco,1,Place,Dux Moesiae primae,Oriens,cuneus,,Cuneus equtum Constantacorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00408,Pinco,Pinco,1,Place,Dux Moesiae primae,Oriens,cuneus,,Cuneus equtum Dalmatarum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00409,Pinianis,Pinianis,1,Place,Dux Raetiae,Occidentis,unknown,Tribunus,cohortis quintae Valeriae Frygum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00410,Pithiae,Pithiae,1,Place,Dux Armeniae,Oriens,ala,,Ala prima felix Theodosiana,,,,,,,,MATCH,EXACT,857283,Pityous,Pithiae,1
+PLCAND00411,Poisrietemidos,Poisrietemidos,1,Place,Dux Thebaidos,Oriens,ala,,Ala secunda Hispanorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00412,Ponte Aeli,Ponte Aeli,1,Place,Dux Britanniarum,Occidentis,unknown,Tribunus,cohortis primae Cornoviorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00495,Scythiam et Pontum,Pontum,2,Place,Insignia viri illustris comitis largitionum,Oriens,unknown,,per Moesiam,,,,,,,,UNMATCHED,,,,,0
+PLCAND00413,Portu Epatiaci,Portu Epatiaci,1,Place,Dux Belgicae secundae,Occidentis,unknown,Tribunus,militum Neruiorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00414,Portum Adurni,Portum Adurni,1,Place,Comes litoris Saxonici per Britanniam,Occidentis,unknown,Praepositus,numeri exploratorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00415,Praesidio,Praesidio,1,Place,Dux Britanniarum,Occidentis,unknown,Praefectus,equitum Dalmatarum,,,,,,,,MATCH,EXACT,746796,‘Praesidio’,Praesidio,1
+PLCAND00416,Praesidio,Praesidio,1,Place,Dux Palaestinae,Oriens,cohort,,Cohors quarta Frygium,,,,,,,,MATCH,EXACT,746796,‘Praesidio’,Praesidio,1
+PLCAND00417,Precteos,Precteos,1,Place,Dux Thebaidos,Oriens,ala,,Ala prima Valeria dromedariorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00418,Procolitia,Procolitia,1,Place,Dux Britanniarum,Occidentis,unknown,Tribunus,cohortis primae Batavorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00419,provinciae Tripolitanae,provinciae Tripolitanae,1,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,Procurator bafii Girbitani,,,,,,,,UNMATCHED,,,,,0
+PLCAND00420,provinciae Viennensis,provinciae Viennensis,1,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,Procurator gynaecii Arelatiensis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00421,Psinaula,Psinaula,1,Place,Dux Thebaidos,Oriens,ala,,Ala secunda Herculia dromedariorum,,,,,,,,MATCH,EXACT,756628,Psinabla,Psinaula,1
+PLCAND00422,Quadratis et Eporizio,Quadratis,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,Sarmatarum gentilium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00424,Quadrato,Quadrato,1,Place,Dux Pannoniae primae,Occidentis,equites,,Equites Mauri,,,,,,,,UNMATCHED,,,,,0
+PLCAND00425,quadriborgio,quadriborgio,1,Place,Dux provinciae Valeriae,Occidentis,unknown,Tribunus,cohortis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00426,Quadriburgio,Quadriburgio,1,Place,Dux Pannoniae primae,Occidentis,equites,,Equites sagittarii,,,,,,,,UNMATCHED,,,,,0
+PLCAND00427,quam civilium,quam civilium,1,Place,Primicerius notariorum,Oriens,unknown,,"Omnis dignitatum et amministrationum notitia, tam militarium",,,,,,,,UNMATCHED,,,,,0
+PLCAND00428,qui adorata clementia principali cum insignibus exit transacto biennio,qui adorata clementia principali cum insignibus exit transacto biennio,1,Place,Proconsul Achaiae,Oriens,unknown,,Principem de scola agentum in rebus ducenarium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00429,qui adorata clementia principalis cum insignibus exit,qui adorata clementia principalis cum insignibus exit,1,Place,Comes limitis Aegypti,Oriens,unknown,,Principem de scola agentum in rebus ducenarium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00430,qui completa militia adorat protector,qui completa militia adorat protector,1,Place,Dux Moesiae primae,Oriens,unknown,,Principem de eodem officio,,,,,,,,UNMATCHED,,,,,0
+PLCAND00431,qui completa militia adorat protector,qui completa militia adorat protector,1,Place,Dux Moesiae secundae,Oriens,unknown,,Principem de eodem officio,,,,,,,,UNMATCHED,,,,,0
+PLCAND00432,qui completa militia adorat protector,qui completa militia adorat protector,1,Place,Dux Scythiae,Oriens,unknown,,Principem de eodem officio,,,,,,,,UNMATCHED,,,,,0
+PLCAND00433,qui completa militia adoratÝprotector,qui completa militia adoratÝprotector,1,Place,Dux Daciae ripensis,Oriens,unknown,,Principem de eodem officio,,,,,,,,UNMATCHED,,,,,0
+PLCAND00434,qui de scola agentum in rebus ducenarius adorata clementia principali cum insignibus exit,qui de scola agentum in rebus ducenarius adorata clementia principali cum insignibus exit,1,Place,Comes Orientis,Oriens,unknown,,Principem,,,,,,,,UNMATCHED,,,,,0
+PLCAND00435,qui de scola agentum in rebus ducenarius adorata clementia principali cum insignibus exit,qui de scola agentum in rebus ducenarius adorata clementia principali cum insignibus exit,1,Place,Praefectus Augustalis,Oriens,unknown,,Principem,,,,,,,,UNMATCHED,,,,,0
+PLCAND00436,qui de scola agentum in rebus ducenarius adorata clementia principali cum insignibus exit,qui de scola agentum in rebus ducenarius adorata clementia principali cum insignibus exit,1,Place,Vicarius dioceseos Asianae,Oriens,unknown,,Principem,,,,,,,,UNMATCHED,,,,,0
+PLCAND00437,qui de scola agentum in rebus ducenarius adorata clementia principali cum insignibus exit transacto biennio,qui de scola agentum in rebus ducenarius adorata clementia principali cum insignibus exit transacto biennio,1,Place,Vicarius dioceseos Ponticae,Oriens,unknown,,Principem,,,,,,,,UNMATCHED,,,,,0
+PLCAND00438,qui de scola agentum in rebus est,qui de scola agentum in rebus est,1,Place,Vicarius dioceseos Thraciarum,Oriens,unknown,,Principem,,,,,,,,UNMATCHED,,,,,0
+PLCAND00439,qui numerarii fiunt,qui numerarii fiunt,1,Place,Insignia viri illustris magisteri militum per Thracias,Oriens,unknown,,Primiscrinios,,,,,,,,UNMATCHED,,,,,0
+PLCAND00440,qui numerarii fiunt,qui numerarii fiunt,1,Place,Insignia viri illustris magistri militum per Illyricum,Oriens,unknown,,Primiscrinios,,,,,,,,UNMATCHED,,,,,0
+PLCAND00441,qui Numerarii fiunt,qui Numerarii fiunt,1,Place,Insignia viri illustris magistri militum praesentalis,Oriens,unknown,,Primiscrinios,,,,,,,,UNMATCHED,,,,,0
+PLCAND00442,qui numerarii fiunt,qui numerarii fiunt,1,Place,Insignia viri illustris magistri militum praesentalis,Oriens,unknown,,Primiscrinios,,,,,,,,UNMATCHED,,,,,0
+PLCAND00443,qui primicerius est exceptorum,qui primicerius est exceptorum,1,Place,Insignia viri illustris comitis largitionum,Oriens,unknown,,Secundocerium offici,,,,,,,,UNMATCHED,,,,,0
+PLCAND00444,qui primicerius est exceptorum,qui primicerius est exceptorum,1,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,unknown,,Secundicerium officii,,,,,,,,UNMATCHED,,,,,0
+PLCAND00445,quibus non licet ad aliam transire militiam sine annotatione clementiae principalis,quibus non licet ad aliam transire militiam sine annotatione clementiae principalis,1,Place,Consularis Campaniae,Occidentis,unknown,,Exceptores et reliquos cohortalinos,,,,,,,,UNMATCHED,,,,,0
+PLCAND00446,quibus non licet ad aliam transire militiam sine annotatione clementiae principalis,quibus non licet ad aliam transire militiam sine annotatione clementiae principalis,1,Place,Consularis Palaestinae,Oriens,unknown,,Exceptores et ceteros cohortalinos,,,,,,,,UNMATCHED,,,,,0
+PLCAND00447,quibus non licet ad aliam transire militiam sine annotatione clementiae principalis,quibus non licet ad aliam transire militiam sine annotatione clementiae principalis,1,Place,Corrector Apuliae et Calabriae,Occidentis,unknown,,Exceptores et ceteros cohortalinos,,,,,,,,UNMATCHED,,,,,0
+PLCAND00448,quibus non licet ad aliam transire militiam sine annotatione clementiae principalis,quibus non licet ad aliam transire militiam sine annotatione clementiae principalis,1,Place,Praeses Dalmatiae,Occidentis,unknown,,Exceptores et reliquos cohortalinos,,,,,,,,UNMATCHED,,,,,0
+PLCAND00449,quibus non licet ad aliam transire militiam sine annotatione clementiae principalis,quibus non licet ad aliam transire militiam sine annotatione clementiae principalis,1,Place,Praeses Thebaidos,Oriens,unknown,,Exceptores et ceteros cohortalinos,,,,,,,,UNMATCHED,,,,,0
+PLCAND00450,Quintanis,Quintanis,1,Place,Dux Raetiae,Occidentis,unknown,Praefectus,alae primae Flaviae Raetorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00451,Raetiae secundae,Raetiae secundae,1,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,unknown,Praepositus,thesaurorum Augustae Vindelicensis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00452,Rasin,Rasin,1,Place,Dux Osrhoenae,Oriens,equites,,Equites primi Osrhoeni,,,,,,,,MATCH,EXACT,876684,Rasin/Rhasios,Rasin,1
+PLCAND00453,Ratiaria,Ratiaria,1,Place,Dux Daciae ripensis,Oriens,unknown,Praefectus,legionis tertiaedecimae geminae,,,,,,,,MATCH,EXACT,207376,Ratiaria,Ratiaria,1
+PLCAND00454,Ravennae,Ravennae,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,classis Ravennatium cum curis eiusdem civitatis,,,,,,,,MATCH,LATIN_VARIANT,393480,Ravenna,Ravenna,1
+PLCAND00455,Ravennae,Ravennae,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,militum iuniorum Italicorum,,,,,,,,MATCH,LATIN_VARIANT,393480,Ravenna,Ravenna,1
+PLCAND00456,Redonas Lugdensis tertiae,Redonas Lugdensis tertiae,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,laetorum Francorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00457,Regionis Samnitis,Regionis Samnitis,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,Sarmatarum gentilium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00458,Regulbio,Regulbio,1,Place,Comes litoris Saxonici per Britanniam,Occidentis,unknown,Tribunus,cohortis primae Baetasiorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00459,Remo et Silvanectas Belgicae secundae,Remo,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,laetorum gentilium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00461,Rene,Rene,1,Place,Dux Foenicis,Oriens,ala,,Ala prima Foenicum,,,,,,,,MATCH,EXACT,876686,Rene,Rene,1
+PLCAND00462,Resaia,Resaia,1,Place,Dux Osrhoenae,Oriens,ala,,Ala prima Parthorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00463,Resain - Theodosiopoli,Resain,1,Place,Dux Mesopotamiae,Oriens,equites,,Equites promoti Illyriciani,,,,,,,,UNMATCHED,,,,,0
+PLCAND00465,Ricti,Ricti,1,Place,Dux Pannoniae,Occidentis,equites,,Equites Dalmatae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00466,Rinocoruna,Rinocoruna,1,Place,Comes limitis Aegypti,Oriens,ala,,Ala veterana Gallorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00467,Ripa Alta,Ripa Alta,1,Place,Dux provinciae Valeriae,Occidentis,equites,,Equites Dalmatae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00468,Ripaltha,Ripaltha,1,Place,Dux Mesopotamiae,Oriens,ala,,Ala octava Flavia Francorum,,,,,,,,MATCH,EXACT,876689,Ripaltha,Ripaltha,1
+PLCAND00360,Norici mediterranei et ripensis,ripensis,2,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,"Rationalis summarum Pannoniae prima, Valeriae",,,,,,,,UNMATCHED,,,,,0
+PLCAND00469,Robatha,Robatha,1,Place,Dux Palaestinae,Oriens,equites,,Equites sagittarii indigenae,,,,,,,,MATCH,EXACT,699908,Robatha/Robotha,Robatha,1
+PLCAND00470,Rosafa,Rosafa,1,Place,Dux Syriae,Oriens,equites,,Equites promoti indigenae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00471,Rotomago,Rotomago,1,Place,Dux tractus Armoricani,Occidentis,unknown,Praefectus,militum Ursariensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00472,Rutupis,Rutupis,1,Place,Comes litoris Saxonici per Britanniam,Occidentis,unknown,Praefectus,legionis secundae Augustae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00473,Sabaiae,Sabaiae,1,Place,Dux Palaestinae,Oriens,equites,,Equites promiti indigenae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00474,Sabbu,Sabbu,1,Place,Dux Armeniae,Oriens,equites,,Equites sagittarii,,,,,,,,UNMATCHED,,,,,0
+PLCAND00475,Sabure siue Veterocariae,Sabure,1,Place,Dux Palaestinae,Oriens,equites,,Equites primi felices Palaestini,,,,,,,,UNMATCHED,,,,,0
+PLCAND00477,Sacidaua,Sacidaua,1,Place,Dux Scythiae,Oriens,cuneus,,Cuneus equitum scutariorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00478,Sala,Sala,1,Place,Comes Tingitaniae,Occidentis,unknown,Tribunus,cohortis .......,,,,,,,,AMBIGUOUS,EXACT,197482 | 197483 | 256417 | 275696 | 614824 | 866051,Sal(pens)a | Sala | Sala fl.,Sala,6
+PLCAND00479,Saletione,Saletione,1,Place,Dux Mogontiacensis,Occidentis,unknown,Praefectus,militum Pacensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00480,Salsouia,Salsouia,1,Place,Dux Scythiae,Oriens,milites,,Milites quinti Constantini,,,,,,,,UNMATCHED,,,,,0
+PLCAND00481,Saltatha,Saltatha,1,Place,Dux Foenicis,Oriens,equites,,Equites promoti indigenae,,,,,,,,MATCH,EXACT,674263,Saltatha,Saltatha,1
+PLCAND00482,Salutaria,Salutaria,1,Place,Dux Syriae,Oriens,ala,,Ala prima Iuthungorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00483,Saradiniae et Corsicae,Saradiniae,1,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,"Rationalis summarum Trum provinciarum, id est Siciliae",,,,,,,,UNMATCHED,,,,,0
+PLCAND00485,Sardis Lydiae,Sardis Lydiae,1,Place,Insignia viri illustris magistri officiorum,Oriens,unknown,,Scutaria et armorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00486,Satala,Satala,1,Place,Dux Armeniae,Oriens,unknown,Praefectus,legionis quintadecimae Apollinaris,,,,,,,,AMBIGUOUS,EXACT,550869 | 874684,Satala,Satala,2
+PLCAND00211,Dalmatiae et Saviae,Saviae,2,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,Rationalis summarum Pannoniae secundae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00487,Saviae,Saviae,1,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,unknown,Praepositus,thesaurorum Siscianorum,,,,,,,,MATCH,LATIN_VARIANT,991357,Savia,Savia,1
+PLCAND00488,Scenas extra Gerasa,Scenas extra Gerasa,1,Place,Comes limitis Aegypti,Oriens,ala,,Ala prima Herculia,,,,,,,,UNMATCHED,,,,,0
+PLCAND00489,Scenas Mandrorum,Scenas Mandrorum,1,Place,Comes limitis Aegypti,Oriens,ala,,Ala septima Sarmatarum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00490,Scenas Ueteranorum,Scenas Ueteranorum,1,Place,Comes limitis Aegypti,Oriens,equites,,Equites Saraceni Thamudeni,,,,,,,,UNMATCHED,,,,,0
+PLCAND00491,Scenas Veteranorum,Scenas Veteranorum,1,Place,Comes limitis Aegypti,Oriens,ala,,Ala quinta Raetorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00492,scordiscorum et armorum,scordiscorum,1,Place,Insignia viri illustris magistri officiorum,Occidentis,unknown,,Sirmensis scutorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00494,Scythiam et Pontum,Scythiam,1,Place,Insignia viri illustris comitis largitionum,Oriens,unknown,,per Moesiam,,,,,,,,UNMATCHED,,,,,0
+PLCAND00496,Sebastopolis,Sebastopolis,1,Place,Dux Armeniae,Oriens,cohort,,Cohors prima Claudia equitata,,,,,,,,AMBIGUOUS,EXACT,222180 | 550756 | 629076 | 639096 | 857107,Dioscurias/Sebastopolis | Myrina/Sebastopolis | Sebastopolis | Sebastopolis/Herakleopolis/Karana? | Sebastopolis/Saleia,Sebastopolis,5
+PLCAND00497,Secundarum,Secundarum,1,Place,Dux Pannoniae,Occidentis,cuneus,,Cuneus equitum Italicianorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00498,Securisca,Securisca,1,Place,Dux Moesiae secundae,Oriens,cuneus,,Cuneus equitum scutariorum,,,,,,,,MATCH,EXACT,216978,Securisca,Securisca,1
+PLCAND00499,sed adiutorem de scola notariorum,sed adiutorem de scola notariorum,1,Place,Primicerius notariorum,Oriens,unknown,,Officium autem non habet,,,,,,,,UNMATCHED,,,,,0
+PLCAND00500,sed adiutores de scriniis quos voluerit,sed adiutores de scriniis quos voluerit,1,Place,Insignia viri illustris quaestoris,Oriens,unknown,,Officium non habet,,,,,,,,UNMATCHED,,,,,0
+PLCAND00501,sed adiutores electos de scriniis,sed adiutores electos de scriniis,1,Place,Magistri scriniorum. MemoriaeÝÝ EpistolarumÝÝ LibellorumÝÝ Graecarum,Oriens,unknown,,Officium autem de ipsi nemo habet,,,,,,,,UNMATCHED,,,,,0
+PLCAND00502,Segeduno,Segeduno,1,Place,Dux Britanniarum,Occidentis,unknown,Tribunus,cohortis quartae Lingonum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00503,Selle,Selle,1,Place,Comes limitis Aegypti,Oriens,ala,,Ala prima Aegyptiorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00504,Serianae,Serianae,1,Place,Dux Syriae,Oriens,equites,,Equites scutarii Illyriciani,,,,,,,,UNMATCHED,,,,,0
+PLCAND00505,Seruitii,Seruitii,1,Place,Dux Pannoniae,Occidentis,unknown,Praefectus,classis primae Pannonicae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00506,Sexagintaprista,Sexagintaprista,1,Place,Dux Moesiae secundae,Oriens,cuneus,,Cuneus equitum armigerorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00507,Sexagintaprista,Sexagintaprista,1,Place,Dux Moesiae secundae,Oriens,unknown,Praefectus,ripae legionis primae Italicae cohortis quintae pedaturae inferioris,,,,,,,,UNMATCHED,,,,,0
+PLCAND00509,Silili,Silili,1,Place,Dux Thebaidos,Oriens,cohort,,Cohors prima Apamenorum,,,,,,,,MATCH,EXACT,756641,Selino/Silili,Silili,1
+PLCAND00510,Siluanis,Siluanis,1,Place,Dux Armeniae,Oriens,ala,,Ala felix Theodosiana,,,,,,,,UNMATCHED,,,,,0
+PLCAND00460,Remo et Silvanectas Belgicae secundae,Silvanectas Belgicae secundae,2,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,laetorum gentilium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00511,Sina Iudaeorum,Sina Iudaeorum,1,Place,Dux Osrhoenae,Oriens,equites,,Equites promoti indigenae,,,,,,,,MATCH,EXACT,876701,Sinas/Sina Iudaeorum/Sinna,Sina Iudaeorum,1
+PLCAND00512,Singiduno,Singiduno,1,Place,Dux Moesiae primae,Oriens,unknown,Praefectus,legionis quartae Flaviae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00513,Siosta,Siosta,1,Place,Dux Daciae ripensis,Oriens,unknown,Tribunus,cohortis secundorum reducum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00514,Sirmi,Sirmi,1,Place,Dux Pannoniae,Occidentis,ala,,Ala Sirmensis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00515,Sirmi,Sirmi,1,Place,Dux Pannoniae,Occidentis,unknown,Praefectus,classis primae Flaviae Augustae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00516,Sirmi,Sirmi,1,Place,Dux Pannoniae,Occidentis,unknown,Praefectus,militum Calcariensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00517,Sisciae,Sisciae,1,Place,Dux Pannoniae,Occidentis,unknown,Tribunus,cohortis tertiae Alpinorum,,,,,,,,MATCH,LATIN_VARIANT,197504,Segestica/Siscia,Siscia,1
+PLCAND00518,Sisila,Sisila,1,Place,Dux Armeniae,Oriens,cohort,,Cohors miliaria Germanorum,,,,,,,,MATCH,EXACT,876704,Sisila/Sissilisson Phrourion/Ziziola,Sisila,1
+PLCAND00519,Solua,Solua,1,Place,Dux provinciae Valeriae,Occidentis,equites,,Equites Mauri,,,,,,,,UNMATCHED,,,,,0
+PLCAND00520,Solue,Solue,1,Place,Dux provinciae Valeriae,Occidentis,cuneus,,Cuneus equitum scutatorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00521,Sosteos,Sosteos,1,Place,Comes limitis Aegypti,Oriens,ala,,Ala secunda Assyriorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00522,Speluncis,Speluncis,1,Place,Dux Arabiae,Oriens,equites,,Equites promoti indigenae,,,,,,,,MATCH,EXACT,857332,Speluncis,Speluncis,1
+PLCAND00523,Submuntorio,Submuntorio,1,Place,Dux Raetiae,Occidentis,equites,,Equites stablesiani iuniores,,,,,,,,UNMATCHED,,,,,0
+PLCAND00524,Submuntorio,Submuntorio,1,Place,Dux Raetiae,Occidentis,unknown,Praefectus,legionis tertiae Italicae partis superioris deputatae ripae primae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00525,Sucidaua,Sucidaua,1,Place,Dux Daciae ripensis,Oriens,unknown,Praefectus,legionis quintae Macedonicae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00526,Sucidaua,Sucidaua,1,Place,Dux Moesiae secundae,Oriens,cuneus,,Cuneus equitum stablesianorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00527,Suene,Suene,1,Place,Dux Thebaidos,Oriens,cohort,,Cohors quinta Suentium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00528,Suissa,Suissa,1,Place,Dux Armeniae,Oriens,ala,,Ala prima Ulpia Dacorum,,,,,,,,MATCH,EXACT,860859,Untitled,Suissa,1
+PLCAND00529,Sura,Sura,1,Place,Dux Syriae,Oriens,unknown,Praefectus,legionis sextaedecimae Flaviae firmae,,,,,,,,MATCH,EXACT,109359,Sura (river),Sura,1
+PLCAND00530,Syene,Syene,1,Place,Dux Thebaidos,Oriens,milites,,Milites Miliarenses,,,,,,,,MATCH,EXACT,786123,Syene,Syene | Syenē,1
+PLCAND00531,Tabernas,Tabernas,1,Place,Comes Tingitaniae,Occidentis,unknown,Tribunus,cohortis tertiae Asturum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00532,Tabernis,Tabernis,1,Place,Dux Mogontiacensis,Occidentis,unknown,Praefectus,militum Menapiorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00533,Tacasiria,Tacasiria,1,Place,Comes limitis Aegypti,Oriens,ala,,Ala secunda Aegyptiorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00534,Talamonio,Talamonio,1,Place,Dux Scythiae,Oriens,cuneus,,Cuneus equitum Arcadum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00535,Taliata,Taliata,1,Place,Dux Moesiae primae,Oriens,auxilia,,Auxilium Taliatense,,,,,,,,MATCH,EXACT,207485,Taliata,Taliata,1
+PLCAND00536,Taliatae,Taliatae,1,Place,Dux Moesiae primae,Oriens,unknown,Praefectus,militum exploratorum,,,,,,,,MATCH,LATIN_VARIANT,207485,Taliata,Taliata,1
+PLCAND00537,Tamuco,Tamuco,1,Place,Comes Tingitaniae,Occidentis,unknown,Praefectus,alae Herculeae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00538,Tarba,Tarba,1,Place,Dux Palaestinae,Oriens,cohort,,Cohors prima agentenaria,,,,,,,,MATCH,EXACT,246679,Tarba,Tarba,1
+PLCAND00539,Taurinis,Taurinis,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,Sarmatarum gentilium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00540,Tauruno,Tauruno,1,Place,Dux Pannoniae,Occidentis,equites,,Equites promoti,,,,,,,,UNMATCHED,,,,,0
+PLCAND00541,Tauruno siue Marsonia,Tauruno,1,Place,Dux Pannoniae,Occidentis,auxilia,,Auxilia ascarii,,,,,,,,UNMATCHED,,,,,0
+PLCAND00543,Teglicio,Teglicio,1,Place,Dux Moesiae secundae,Oriens,milites,,Milites Moesiaci,,,,,,,,UNMATCHED,,,,,0
+PLCAND00544,Tegra,Tegra,1,Place,Dux Moesiae secundae,Oriens,cuneus,,Cuneus equitum secundorum armigerorum,,,,,,,,MATCH,EXACT,217003,Tegris,Tegra,1
+PLCAND00545,Tentira,Tentira,1,Place,Dux Thebaidos,Oriens,equites,,Equites sagittarii indigenae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00546,Teriolis,Teriolis,1,Place,Dux Raetiae,Occidentis,unknown,Tribunus,gentis per Raetias deputatae,,,,,,,,MATCH,EXACT,187581,Teriolis,Teriolis,1
+PLCAND00547,Teriolis,Teriolis,1,Place,Dux Raetiae,Occidentis,unknown,Praefectus,legionis tertiae Italicae transvectioni specierum deputatae,,,,,,,,MATCH,EXACT,187581,Teriolis,Teriolis,1
+PLCAND00064,Aquis siue Tertona,Tertona,2,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,Sarmatarum gentilium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00548,Teutibarcio,Teutibarcio,1,Place,Dux Pannoniae,Occidentis,equites,,Equites promoti,,,,,,,,UNMATCHED,,,,,0
+PLCAND00549,Teutiborgio,Teutiborgio,1,Place,Dux Pannoniae,Occidentis,cuneus,,Cuneus equitum Dalmatarum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00550,Teutiborgio,Teutiborgio,1,Place,Dux Pannoniae,Occidentis,unknown,Praefectus,legionis sextae Herculeae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00551,Thainatha,Thainatha,1,Place,Dux Arabiae,Oriens,ala,,Ala prima Valentiana,,,,,,,,MATCH,EXACT,678423,Thantia/Thainatha,Thainatha,1
+PLCAND00552,Thama,Thama,1,Place,Dux Foenicis,Oriens,cohort,,Cohors prima Orientalis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00553,Thamana,Thamana,1,Place,Dux Palaestinae,Oriens,cohort,,Cohors quarta Palaestinorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00554,Thannuri,Thannuri,1,Place,Dux Mesopotamiae,Oriens,equites,,Equites sagittarii indigenae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00555,Thaubasteos,Thaubasteos,1,Place,Comes limitis Aegypti,Oriens,ala,,Ala secunda Ulpia Afrorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00556,Thebas,Thebas,1,Place,Dux Thebaidos,Oriens,legion,,Legio tertia Diocletiana,,,,,,,,UNMATCHED,,,,,0
+PLCAND00557,Thelsee,Thelsee,1,Place,Dux Foenicis,Oriens,equites,,Equites Saraceni,,,,,,,,UNMATCHED,,,,,0
+PLCAND00558,Thenenuthi,Thenenuthi,1,Place,Comes limitis Aegypti,Oriens,ala,,Ala tertia Arabum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00464,Resain - Theodosiopoli,Theodosiopoli,2,Place,Dux Mesopotamiae,Oriens,equites,,Equites promoti Illyriciani,,,,,,,,UNMATCHED,,,,,0
+PLCAND00559,Theraco,Theraco,1,Place,Dux Thebaidos,Oriens,unknown,,;Cohors prima Lusitanorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00560,Thilbisme,Thilbisme,1,Place,Dux Mesopotamiae,Oriens,equites,,Equites sagittarii indigenae Thibithenses,,,,,,,,UNMATCHED,,,,,0
+PLCAND00561,Thillaamana,Thillaamana,1,Place,Dux Osrhoenae,Oriens,cohort,,Cohors prima Gaetulorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00562,Thillacama,Thillacama,1,Place,Dux Osrhoenae,Oriens,ala,,Ala septima Valeria praelectorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00563,Thillafica,Thillafica,1,Place,Dux Osrhoenae,Oriens,ala,,Ala secunda Paflagonum,,,,,,,,MATCH,EXACT,876722,Thillafica,Thillafica,1
+PLCAND00564,Thillazamana,Thillazamana,1,Place,Dux Osrhoenae,Oriens,equites,,Equites sagittarii indigenae,,,,,,,,MATCH,EXACT,876723,Thillazamana/Monithilla,Thillazamana,1
+PLCAND00565,Thinunepis,Thinunepis,1,Place,Comes limitis Aegypti,Oriens,ala,,Ala prima Tingitana,,,,,,,,UNMATCHED,,,,,0
+PLCAND00566,Thmou,Thmou,1,Place,Dux Thebaidos,Oriens,ala,,Ala prima Hiberorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00567,Tohu,Tohu,1,Place,Comes limitis Aegypti,Oriens,cohort,,Cohors prima Augusta Pannoniorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00568,Toloha,Toloha,1,Place,Dux Palaestinae,Oriens,ala,,Ala Constantiana,,,,,,,,MATCH,EXACT,697755,Toloha,Toloha,1
+PLCAND00569,Touia -contra Bintha,Touia -contra Bintha,1,Place,Dux Osrhoenae,Oriens,ala,,Ala prima Victoriae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00570,Transalba,Transalba,1,Place,Dux Daciae ripensis,Oriens,auxilia,,Auxilium Miliarensium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00571,Transdiernis,Transdiernis,1,Place,Dux Daciae ripensis,Oriens,unknown,Praefectus,militum exploratorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00572,Transdrobeta,Transdrobeta,1,Place,Dux Daciae ripensis,Oriens,unknown,Praefectus,legionis tertiaedecimae geminae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00573,Transiacinco,Transiacinco,1,Place,Dux provinciae Valeriae,Occidentis,unknown,Praefectus,legionis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00397,Pannoniae secundae - translati Salonis,translati Salonis,2,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,Procurator gynaecii Bassianensis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00574,Transluco,Transluco,1,Place,Dux Daciae ripensis,Oriens,auxilia,,Auxilium Claustrinorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00575,Transmariscae,Transmariscae,1,Place,Dux Moesiae secundae,Oriens,milites,,Milites Novenses,,,,,,,,MATCH,LATIN_VARIANT,217021,Transmarisca,Transmarisca,1
+PLCAND00576,Transmariscae,Transmariscae,1,Place,Dux Moesiae secundae,Oriens,unknown,Praefectus,ripae legionis undecimae Claudiae cohortis quintae pedaturae inferioris,,,,,,,,MATCH,LATIN_VARIANT,217021,Transmarisca,Transmarisca,1
+PLCAND00577,Transmariscae,Transmariscae,1,Place,Dux Moesiae secundae,Oriens,unknown,Praefectus,ripae legionis undecimae Claudiae cohortis quintae pedaturae superioris,,,,,,,,MATCH,LATIN_VARIANT,217021,Transmarisca,Transmarisca,1
+PLCAND00578,Trapezunta,Trapezunta,1,Place,Dux Armeniae,Oriens,unknown,Praefectus,legionis primae Ponticae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00579,Tricomia,Tricomia,1,Place,Dux Arabiae,Oriens,equites,,Equites promoti Illyriciani,,,,,,,,MATCH,EXACT,678436,Tricomia,Tricomia,1
+PLCAND00580,Tricornio,Tricornio,1,Place,Dux Moesiae primae,Oriens,auxilia,,Auxiliares Tricornienses,,,,,,,,UNMATCHED,,,,,0
+PLCAND00581,Tricornio,Tricornio,1,Place,Dux Moesiae primae,Oriens,auxilia,,Auxilium Aureomontanum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00582,Tricornio,Tricornio,1,Place,Dux Moesiae primae,Oriens,cuneus,,Cuneus equtum sagittariorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00583,Trimammio,Trimammio,1,Place,Dux Moesiae secundae,Oriens,milites,,Milites Constantini,,,,,,,,UNMATCHED,,,,,0
+PLCAND00373,Oasi minore - Trimtheos,Trimtheos,2,Place,Dux Thebaidos,Oriens,ala,,Ala prima Quadorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00584,Trosmis,Trosmis,1,Place,Dux Scythiae,Oriens,milites,,Milites secundi Constantini,,,,,,,,UNMATCHED,,,,,0
+PLCAND00585,Trosmis,Trosmis,1,Place,Dux Scythiae,Oriens,unknown,Praefectus,legionis secundae Herculiae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00586,Tunnocelo,Tunnocelo,1,Place,Dux Britanniarum,Occidentis,unknown,Tribunus,cohortis primae Aeliae classicae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00587,Ualtha,Ualtha,1,Place,Dux Arabiae,Oriens,cohort,,Cohors octava voluntaria,,,,,,,,UNMATCHED,,,,,0
+PLCAND00588,Ulucitra,Ulucitra,1,Place,Dux Moesiae secundae,Oriens,cohort,,Cohors quarta Gallorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00589,Uto,Uto,1,Place,Dux Daciae ripensis,Oriens,cuneus,,Cuneus equitum Constantinianorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00590,Vale Alba,Vale Alba,1,Place,Dux Foenicis,Oriens,cohort,,Cohors prima Iulia lectorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00591,Valentia,Valentia,1,Place,Dux Armeniae,Oriens,cohort,,Cohors prima Theodosiana,,,,,,,,AMBIGUOUS,EXACT,266090 | 442845 | 857032,Apsaros/Apsyrtos | Valentia | Valetium/Balesium,Valentia,3
+PLCAND00592,Vallatio,Vallatio,1,Place,Dux Raetiae,Occidentis,unknown,Praefectus,alae secundae Valeriae singularis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00593,Valle Diocletiana,Valle Diocletiana,1,Place,Dux Foenicis,Oriens,cohort,,Cohors secunda Aegyptiorum,,,,,,,,MATCH,EXACT,678447,‘Valle Diocletiana’,Valle Diocletiana,1
+PLCAND00594,Vangiones,Vangiones,1,Place,Dux Mogontiacensis,Occidentis,unknown,Praefectus,militum secundae Flaviae,,,,,,,,MATCH,EXACT,109410,Vangiones,Vangiones,1
+PLCAND00595,Varina,Varina,1,Place,Dux Daciae ripensis,Oriens,cuneus,,Cuneus equitum Dalmatarum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00596,Variniana,Variniana,1,Place,Dux Daciae ripensis,Oriens,unknown,Praefectus,legionis quintae Macedonicae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00597,Veleia,Veleia,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Tribunus,cohortis primae Gallicae,,,,,,,,AMBIGUOUS,EXACT,246232 | 383811,Bele(g)ia/Veleia | Veleia,Veleia,2
+PLCAND00598,Venaxamodorum,Venaxamodorum,1,Place,Dux Raetiae,Occidentis,unknown,Tribunus,cohortis sextae Valeriaae Raetorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00599,Venetiae,Venetiae,1,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,unknown,Praepositus,thesaurorum Aquileiensium,,,,,,,,AMBIGUOUS,LATIN_VARIANT,138643 | 393511,Venetia,Venetia,2
+PLCAND00600,Venetiae et Histriae,Venetiae,1,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,Procurator bafii Cissensis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00602,Venetiae inferioris,Venetiae inferioris,1,Place,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,Procurator gynaecii Aquileiensis,,,,,,,,UNMATCHED,,,,,0
+PLCAND00603,Veranoca,Veranoca,1,Place,Dux Foenicis,Oriens,cohort,,Cohors tetria Herculia,,,,,,,,UNMATCHED,,,,,0
+PLCAND00604,Vercellis,Vercellis,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,Sarmatarum gentilium,,,,,,,,UNMATCHED,,,,,0
+PLCAND00605,Veriaraca,Veriaraca,1,Place,Dux Foenicis,Oriens,ala,,Ala noun Diocletiana,,,,,,,,MATCH,EXACT,668396,Veriaraca,Veriaraca,1
+PLCAND00606,Verofabula,Verofabula,1,Place,Dux Foenicis,Oriens,ala,,Ala prima Saxonum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00607,Verteris,Verteris,1,Place,Dux Britanniarum,Occidentis,unknown,Praefectus,numeri directorum,,,,,,,,MATCH,EXACT,89312,Verteris,Verteris,1
+PLCAND00476,Sabure siue Veterocariae,Veterocariae,2,Place,Dux Palaestinae,Oriens,equites,,Equites primi felices Palaestini,,,,,,,,UNMATCHED,,,,,0
+PLCAND00608,Vetusalinae,Vetusalinae,1,Place,Dux provinciae Valeriae,Occidentis,equites,,Equites Dalmatae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00609,Vico Iulio,Vico Iulio,1,Place,Dux Mogontiacensis,Occidentis,unknown,Praefectus,militum Anderetianorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00610,Viennae siue Arelati,Viennae,1,Place,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis,unknown,Praefectus,classis fluminis Rhodani,,,,,,,,UNMATCHED,,,,,0
+PLCAND00612,Vimania,Vimania,1,Place,Dux Raetiae,Occidentis,unknown,Praefectus,alae secundae Valeriae Sequanorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00613,Viminacio,Viminacio,1,Place,Dux Moesiae primae,Oriens,cuneus,,Cuneus equtum promotorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00614,Viminacio,Viminacio,1,Place,Dux Moesiae primae,Oriens,unknown,Praefectus,classis Histricae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00615,Vincentiae,Vincentiae,1,Place,Dux provinciae Valeriae,Occidentis,unknown,Tribunus,cohortis,,,,,,,,AMBIGUOUS,LATIN_VARIANT,203168 | 211467,Vincentia,Vincentia,2
+PLCAND00616,Vindobala,Vindobala,1,Place,Dux Britanniarum,Occidentis,unknown,Tribunus,cohortis primae Frixagorum,,,,,,,,MATCH,EXACT,89315,Vindovala,Vindobala,1
+PLCAND00617,Vindolana,Vindolana,1,Place,Dux Britanniarum,Occidentis,unknown,Tribunus,cohortis quartae Gallorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00077,Arrunto siue Vindomanae,Vindomanae,2,Place,Dux Pannoniae primae,Occidentis,unknown,Praefectus,classis Histricae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00618,Vindomarae,Vindomarae,1,Place,Dux Pannoniae primae,Occidentis,unknown,Praefectus,legionis decimae geminae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00619,Virosido,Virosido,1,Place,Dux Britanniarum,Occidentis,unknown,Tribunus,cohortis sextae Neruiorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00620,Ysiporto,Ysiporto,1,Place,Dux Armeniae,Oriens,cohort,,Cohors Apuleia civium Romanorum,,,,,,,,MATCH,EXACT,857291,Psoron Limen/Hyssos/Sousarmia/Sousourmena/‘Ysiporto’,Ysiporto,1
+PLCAND00621,Zernis,Zernis,1,Place,Dux Daciae ripensis,Oriens,unknown,Praefectus,legionis tertiaedecimae geminae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00622,Ziganne,Ziganne,1,Place,Dux Armeniae,Oriens,cohort,,Cohors secunda Valentiana,,,,,,,,MATCH,EXACT,857385,Zigan(n)e/Siganeon, Ziganne,1
+PLCAND00623,Ziza,Ziza,1,Place,Dux Arabiae,Oriens,equites,,Equites Dalmatae Illyriciani,,,,,,,,AMBIGUOUS,EXACT,344571 | 697767,Zitha | Ziza,Ziza,2
+PLCAND00624,Zmirnae,Zmirnae,1,Place,Dux Moesiae primae,Oriens,unknown,Praefectus,militum exploratorum,,,,,,,,UNMATCHED,,,,,0
+PLCAND00625,Zoarae,Zoarae,1,Place,Dux Palaestinae,Oriens,equites,,Equites sagittarii indigenae,,,,,,,,MATCH,LATIN_VARIANT,697768,Zoara,Zoara,1
+PLCAND00626,Zodocathae,Zodocathae,1,Place,Dux Palaestinae,Oriens,equites,,Equites promiti indigenae,,,,,,,,UNMATCHED,,,,,0
+PLCAND00208,Dalmatiae,Dalmatiae,1,Province,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,Procurator bafii Salonitani,,,,,,,,AMBIGUOUS,LATIN_VARIANT,197240 | 981522,Dalmatia,Dalmatia,2
+PLCAND00209,Dalmatiae,Dalmatiae,1,Province,Insignia viri illustris comitis sacrarum largitionum,Occidentis,unknown,Praepositus,thesaurorum Salonitanorum,,,,,,,,AMBIGUOUS,LATIN_VARIANT,197240 | 981522,Dalmatia,Dalmatia,2
+PLCAND00303,Liguriae,Liguriae,1,Province,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,Procurator gynaecii Mediolanensis,,,,,,,,MATCH,LATIN_VARIANT,383698,Liguria,Liguria,1
+PLCAND00304,Liguriae,Liguriae,1,Province,Insignia viri illustris comitis sacrarum largitionum,Occidentis,unknown,Praepositus,thesaurorum Mediolanensium,,,,,,,,MATCH,LATIN_VARIANT,383698,Liguria,Liguria,1
+PLCAND00508,Siciliae,Siciliae,1,Province,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,Procurator bafii Syracusani,,,,,,,,AMBIGUOUS,LATIN_VARIANT,462492 | 981549,Sicilia (Roman province) | Sicilia (island),Sicilia,2
+PLCAND00028,Africae,Africae,1,Region,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,Procurator gynaecii Carthagiensis,,,,,,,,MATCH,LATIN_VARIANT,775,Africa,Africa,1
+PLCAND00255,Galliarum,Galliarum,1,Region,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,Procurator bafii Telonensis,,,,,,,,MATCH,LATIN_VARIANT,993,Gallia,Gallia,1
+PLCAND00256,Galliarum,Galliarum,1,Region,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,Procurator linyfii Viennensis,,,,,,,,MATCH,LATIN_VARIANT,993,Gallia,Gallia,1
+PLCAND00286,Italiae,Italiae,1,Region,Insignia viri illustris comitis sacrarum largitionum,Occidentis,civil,,Procurator linyfii Ravennatis,,,,,,,,AMBIGUOUS,LATIN_VARIANT,1052 | 452346 | 992073,Italia | Italia (Diocese),Italia,3

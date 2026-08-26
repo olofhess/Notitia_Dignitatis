@@ -1,0 +1,107 @@
+provinceId,provinceName,geojsonId,geojsonName,matchStatus
+PRO00001,Pannoniae,,,NONE
+PRO00002,Venetiae et Histriae,,,NONE
+PRO00003,Aemiliae,,,NONE
+PRO00004,Liguriae,,,NONE
+PRO00005,Flaminiae et Piceni annonarii,,,NONE
+PRO00006,Tusciae et Umbriae,60,TUSCIA ET UMBRIA,MATCH
+PRO00007,Piceni suburbicarii,,,NONE
+PRO00008,Campaniae,35,CAMPANIA,MATCH
+PRO00009,Siciliae,18,SICILIA,MATCH
+PRO00010,Byzacii,,,NONE
+PRO00011,Numidiae,,,NONE
+PRO00012,Baeticae,25,BAETICA,MATCH
+PRO00013,Lusitaniae,43,LUSITANIA,MATCH
+PRO00014,Callaeciae,69,GALLAECIA,MATCH
+PRO00015,Viennensis,78,VIENNENSIS,MATCH
+PRO00016,Lugdunensis primae,,,NONE
+PRO00017,Germaniae primae,,,NONE
+PRO00018,Germaniae secundae,,,NONE
+PRO00019,Belgicae primae,,,NONE
+PRO00020,Belgicae secundae,,,NONE
+PRO00021,Maximae Caesariensis,,,NONE
+PRO00022,Valentiae,,,NONE
+PRO00023,Apuliae et Calabriae,39,APULIA ET CALABRIA,MATCH
+PRO00024,Lucaniae et Brittiorum,,,NONE
+PRO00025,Saviae,,,NONE
+PRO00026,Tusciae et umbriae,,,NONE
+PRO00027,Bruttiorum et Lucaniae,,,NONE
+PRO00028,Samnii,,,NONE
+PRO00029,Saradiniae,34,SARDINIA,MATCH
+PRO00030,Corsicae,46,CORSICA,MATCH
+PRO00031,Valeriae,85,VALERIA,MATCH
+PRO00032,Lugdunensis,,,NONE
+PRO00033,Germanae secundae,,,NONE
+PRO00034,Alpium maritimarum,,,NONE
+PRO00035,Alpium Poeninarum et Graiarum,,,NONE
+PRO00036,Maximae Sequanorum,,,NONE
+PRO00037,Aquitanicae primae,,,NONE
+PRO00038,Aquitanicae secundae,,,NONE
+PRO00039,Novempopulanae,,,NONE
+PRO00040,Narbonensis primae,,,NONE
+PRO00041,Narbonensis secundae,,,NONE
+PRO00042,Lugdunensis secundae,,,NONE
+PRO00043,Lugdunensis tertiae,,,NONE
+PRO00044,Lugdunensis Senoniae,,,NONE
+PRO00045,Britanniae primae,,,NONE
+PRO00046,Britanniae secundae,,,NONE
+PRO00047,Flaviae Caesariensis,,,NONE
+PRO00048,Asiae,30,ASIA,MATCH
+PRO00049,Achaiae,22,ACHAIA,MATCH
+PRO00050,Palaestinae,11,PALAESTINA,MATCH
+PRO00051,Foenicis,19,PHOENICE,MATCH
+PRO00052,Syriae,,,NONE
+PRO00053,Ciliciae,38,CILICIA,MATCH
+PRO00054,Cypri,21,CYPRUS,MATCH
+PRO00055,Pamfyliae,,,NONE
+PRO00056,Hellesponti,,,NONE
+PRO00057,Lydiae,32,LYDIA,MATCH
+PRO00058,Galatiae,49,GALATIA,MATCH
+PRO00059,Bithyniae,54,BITHYNIA,MATCH
+PRO00060,Europae,52,EUROPA,MATCH
+PRO00061,Thraciae,57,THRACIA,MATCH
+PRO00062,Cretae,9,CRETA,MATCH
+PRO00063,Macedoniae,44,MACEDONIA,MATCH
+PRO00064,Daciae mediterraneae,58,DACIA MEDITERRANEA,MATCH
+PRO00065,Libyae superioris,3,LIBYA SUPERIOR,MATCH
+PRO00066,Libyae inferioris,2,LIBYA INFERIOR,MATCH
+PRO00067,Thebaidos,1,THEBAIS,MATCH
+PRO00068,Aegypti,,,NONE
+PRO00069,Arcadiae,,,NONE
+PRO00070,Palaestinae salutaris,,,NONE
+PRO00071,Palaestinae secundae,,,NONE
+PRO00072,Foenicis Libani,,,NONE
+PRO00073,Eufratensis,,,NONE
+PRO00074,Syriae salutaris,,,NONE
+PRO00075,Osroehenae,,,NONE
+PRO00076,Mesopotamiae,45,MESOPOTAMIA,MATCH
+PRO00077,Ciliciae secundae,,,NONE
+PRO00078,Pisidiae,33,PISIDIA,MATCH
+PRO00079,Lycaoniae,,,NONE
+PRO00080,Frygiae Pacatianae,,,NONE
+PRO00081,Frygiae salutaris,,,NONE
+PRO00082,Lyciae,,,NONE
+PRO00083,Cariae,23,CARIA,MATCH
+PRO00084,Insularum,,,NONE
+PRO00085,Honoriados,,,NONE
+PRO00086,Cappadociae primae,,,NONE
+PRO00087,Cappadociae secundae,,,NONE
+PRO00088,Helenoponti,97,HELLESPONTUS,MATCH
+PRO00089,Ponti Polemoniaci,,,NONE
+PRO00090,Armeniae primae,,,NONE
+PRO00091,Armeniae secundae,,,NONE
+PRO00092,Galatiae salutaris,,,NONE
+PRO00093,Haemimonti,,,NONE
+PRO00094,Rhodopae,,,NONE
+PRO00095,Moesiae secundae,,,NONE
+PRO00096,Scythiae,81,SCYTHIA,MATCH
+PRO00097,Thessaliae,29,THESSALIA,MATCH
+PRO00098,Epiri ueteris,,,NONE
+PRO00099,Epiri nouae,,,NONE
+PRO00100,Daciae ripensis,71,DACIA RIPENSIS,MATCH
+PRO00101,Moesiae primae,,,NONE
+PRO00102,Praeualitanae,50,PRAEVALITANA,MATCH
+PRO00103,Dardaniae,53,DARDANIA,MATCH
+PRO00104,Macedoniae salutaris,,,NONE
+PRO00105,Augustamnicae,,,NONE
+PRO00106,Paflagoniae,65,PAPHLAGONIA,MATCH

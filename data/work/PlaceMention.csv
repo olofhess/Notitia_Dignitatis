@@ -1,0 +1,703 @@
+mentionId;document;line;literalForm;source;pointEligible;issue;nodeType;officeType;office;unit;chapter;groupPath;sourceText
+PM000001;Occidentis;41;Mauretaniae Caesariensis;limes;1;;unknown;;;Limitis Mauretaniae Caesariensis;Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis;Duces duodecim;Limitis Mauretaniae Caesariensis.
+PM000002;Occidentis;716;Sirmensis;factory;1;;unknown;;;Sirmensis scutorum, scordiscorum et armorum.;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Illyrico;Sirmensis scutorum, scordiscorum et armorum.
+PM000003;Occidentis;717;Acincensis;factory;1;;unknown;;;Acincensis scutaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Illyrico;Acincensis scutaria.
+PM000004;Occidentis;718;Cornutensis;factory;1;;unknown;;;Cornutensis scutaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Illyrico;Cornutensis scutaria.
+PM000005;Occidentis;719;Lauriacensis;factory;1;;unknown;;;Lauriacensis scutaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Illyrico;Lauriacensis scutaria.
+PM000006;Occidentis;720;Salonitana;factory;1;;unknown;;;Salonitana armorum;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Illyrico;Salonitana armorum.
+PM000007;Occidentis;722;Concordensis;factory;1;;unknown;;;Concordensis sagittaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / Italiae;Concordensis sagittaria.
+PM000008;Occidentis;723;Veronensis;factory;1;;unknown;;;Veronensis scutaria et armorum;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / Italiae;Veronensis scutaria et armorum.
+PM000009;Occidentis;724;Manutuana;factory;1;;unknown;;;Manutuana loricaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / Italiae;Manutuana loricaria.
+PM000010;Occidentis;725;Cremonensis;factory;1;;unknown;;;Cremonensis scutaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / Italiae;Cremonensis scutaria.
+PM000011;Occidentis;726;Ticenensis;factory;1;;unknown;;;Ticenensis arcuaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / Italiae;Ticenensis arcuaria.
+PM000012;Occidentis;727;Lucensis;factory;1;;unknown;;;Lucensis spatharia;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / Italiae;Lucensis spatharia.
+PM000013;Occidentis;729;Argentomagensis;factory;1;;unknown;;;Argentomagensis armorum omnium;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Argentomagensis armorum omnium.
+PM000014;Occidentis;730;Matisconensis;factory;1;;unknown;;;Matisconensis sagittaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Matisconensis sagittaria.
+PM000015;Occidentis;731;Augustodunensis;factory;1;;unknown;;;Augustodunensis loricaria, balistaria et clibanaria.;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Augustodunensis loricaria, balistaria et clibanaria.
+PM000016;Occidentis;732;Augustodunensis;factory;1;;unknown;;;Augustodunensis scutaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Augustodunensis scutaria.
+PM000017;Occidentis;733;Suessionensis;factory;1;;unknown;;;Suessionensis.......;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Suessionensis........
+PM000018;Occidentis;734;Remensis;factory;1;;unknown;;;Remensis spatharia;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Remensis spatharia.
+PM000019;Occidentis;735;Triberorum;factory;1;;unknown;;;Triberorum scutaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Triberorum scutaria.
+PM000020;Occidentis;736;Triberorum;factory;1;;unknown;;;Triberorum balistaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Triberorum balistaria.
+PM000021;Occidentis;737;Ambianensis;factory;1;;unknown;;;Ambianensis spatharia et scutaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Ambianensis spatharia et scutaria.
+PM000022;Occidentis;775;Salonitanorum;unit;1;;unknown;praepositus;Praepositus;thesaurorum Salonitanorum;Insignia viri illustris comitis sacrarum largitionum;Praepositi thesauroum / Per Illyricum;Praepositus thesaurorum Salonitanorum, Dalmatiae.
+PM000023;Occidentis;776;Siscianorum;unit;1;;unknown;praepositus;Praepositus;thesaurorum Siscianorum;Insignia viri illustris comitis sacrarum largitionum;Praepositi thesauroum / Per Illyricum;Praepositus thesaurorum Siscianorum, Saviae.
+PM000024;Occidentis;777;Sabariensium;unit;1;;unknown;praepositus;Praepositus;thesaurorum Sabariensium;Insignia viri illustris comitis sacrarum largitionum;Praepositi thesauroum / Per Illyricum;Praepositus thesaurorum Sabariensium, Pannoniae primae.
+PM000025;Occidentis;779;Aquileiensium;unit;1;;unknown;praepositus;Praepositus;thesaurorum Aquileiensium;Insignia viri illustris comitis sacrarum largitionum;Praepositi thesauroum / Per Italiam;Praepositus thesaurorum Aquileiensium, Venetiae.
+PM000026;Occidentis;780;Mediolanensium;unit;1;;unknown;praepositus;Praepositus;thesaurorum Mediolanensium;Insignia viri illustris comitis sacrarum largitionum;Praepositi thesauroum / Per Italiam;Praepositus thesaurorum Mediolanensium, Liguriae.
+PM000027;Occidentis;781;Romae;unit;1;;unknown;praepositus;Praepositus;thesaurorum urbis Romae;Insignia viri illustris comitis sacrarum largitionum;Praepositi thesauroum / Per Italiam;Praepositus thesaurorum urbis Romae.
+PM000028;Occidentis;782;Augustae Vindelicensis;unit;1;;unknown;praepositus;Praepositus;thesaurorum Augustae Vindelicensis;Insignia viri illustris comitis sacrarum largitionum;Praepositi thesauroum / Per Italiam;Praepositus thesaurorum Augustae Vindelicensis, Raetiae secundae.
+PM000029;Occidentis;784;Lugdunensium;unit;1;;unknown;praepositus;Praepositus;thesaurorum Lugdunensium;Insignia viri illustris comitis sacrarum largitionum;Praepositi thesauroum / Per Gallias;Praepositus thesaurorum Lugdunensium.
+PM000030;Occidentis;785;Arelatensium;unit;1;;unknown;praepositus;Praepositus;thesaurorum Arelatensium;Insignia viri illustris comitis sacrarum largitionum;Praepositi thesauroum / Per Gallias;Praepositus thesaurorum Arelatensium.
+PM000031;Occidentis;786;Remorum;unit;1;;unknown;praepositus;Praepositus;thesaurorum Remorum;Insignia viri illustris comitis sacrarum largitionum;Praepositi thesauroum / Per Gallias;Praepositus thesaurorum Remorum.
+PM000032;Occidentis;787;Triberorum;unit;1;;unknown;praepositus;Praepositus;thesaurorum Triberorum;Insignia viri illustris comitis sacrarum largitionum;Praepositi thesauroum / Per Gallias;Praepositus thesaurorum Triberorum.
+PM000033;Occidentis;789;Augustensium;unit;1;;unknown;praepositus;Praepositus;thesaurorum Augustensium;Insignia viri illustris comitis sacrarum largitionum;Praepositi thesauroum / In Britanniis;Praepositus thesaurorum Augustensium.
+PM000034;Occidentis;791;Siscianae;unit;1;;civil;procurator;Procurator;monetae Siscianae;Insignia viri illustris comitis sacrarum largitionum;Procuratores monetarum;Procurator monetae Siscianae.
+PM000035;Occidentis;792;Aquileiensis;unit;1;;civil;procurator;Procurator;monetae Aquileiensis;Insignia viri illustris comitis sacrarum largitionum;Procuratores monetarum;Procurator monetae Aquileiensis.
+PM000036;Occidentis;793;Romae;unit;1;;civil;procurator;Procurator;monetae urbis Romae;Insignia viri illustris comitis sacrarum largitionum;Procuratores monetarum;Procurator monetae urbis Romae.
+PM000037;Occidentis;794;Lugdunensis;unit;1;;civil;procurator;Procurator;monetae Lugdunensis;Insignia viri illustris comitis sacrarum largitionum;Procuratores monetarum;Procurator monetae Lugdunensis.
+PM000038;Occidentis;795;Arelatensis;unit;1;;civil;procurator;Procurator;monetae Arelatensis;Insignia viri illustris comitis sacrarum largitionum;Procuratores monetarum;Procurator monetae Arelatensis.
+PM000039;Occidentis;796;Triberorum;unit;1;;civil;procurator;Procurator;monetae Triberorum;Insignia viri illustris comitis sacrarum largitionum;Procuratores monetarum;Procurator monetae Triberorum.
+PM000040;Occidentis;798;Bassianensis;unit;1;;civil;procurator;Procurator;gynaecii Bassianensis;Insignia viri illustris comitis sacrarum largitionum;Procuratores gynaeciorum;Procurator gynaecii Bassianensis, Pannoniae secundae - translati Salonis.
+PM000041;Occidentis;798;Salonis;transfer;1;;civil;procurator;Procurator;gynaecii Bassianensis;Insignia viri illustris comitis sacrarum largitionum;Procuratores gynaeciorum;Procurator gynaecii Bassianensis, Pannoniae secundae - translati Salonis.
+PM000042;Occidentis;799;Sirmensis;unit;1;;civil;procurator;Procurator;gynaecii Sirmensis;Insignia viri illustris comitis sacrarum largitionum;Procuratores gynaeciorum;Procurator gynaecii Sirmensis, Pannoniae secundae.
+PM000043;Occidentis;800;Aspalato;transfer;1;;civil;procurator;Procurator;gynaecii Iovensis Dalmatiae - Aspalato;Insignia viri illustris comitis sacrarum largitionum;Procuratores gynaeciorum;Procurator gynaecii Iovensis Dalmatiae - Aspalato.
+PM000044;Occidentis;800;Iovensis;unit;1;;civil;procurator;Procurator;gynaecii Iovensis Dalmatiae - Aspalato;Insignia viri illustris comitis sacrarum largitionum;Procuratores gynaeciorum;Procurator gynaecii Iovensis Dalmatiae - Aspalato.
+PM000045;Occidentis;801;Aquileiensis;unit;1;;civil;procurator;Procurator;gynaecii Aquileiensis;Insignia viri illustris comitis sacrarum largitionum;Procuratores gynaeciorum;Procurator gynaecii Aquileiensis, Venetiae inferioris.
+PM000046;Occidentis;802;Mediolanensis;unit;1;;civil;procurator;Procurator;gynaecii Mediolanensis;Insignia viri illustris comitis sacrarum largitionum;Procuratores gynaeciorum;Procurator gynaecii Mediolanensis, Liguriae.
+PM000047;Occidentis;803;Romae;unit;1;;civil;procurator;Procurator;gynaecii urbis Romae;Insignia viri illustris comitis sacrarum largitionum;Procuratores gynaeciorum;Procurator gynaecii urbis Romae.
+PM000048;Occidentis;804;Canusini;unit;1;;civil;procurator;Procurator;gynaecii Canusini et Venusini;Insignia viri illustris comitis sacrarum largitionum;Procuratores gynaeciorum;Procurator gynaecii Canusini et Venusini, Apuliae.
+PM000049;Occidentis;804;Venusini;unit;1;;civil;procurator;Procurator;gynaecii Canusini et Venusini;Insignia viri illustris comitis sacrarum largitionum;Procuratores gynaeciorum;Procurator gynaecii Canusini et Venusini, Apuliae.
+PM000050;Occidentis;805;Carthagiensis;unit;1;;civil;procurator;Procurator;gynaecii Carthagiensis;Insignia viri illustris comitis sacrarum largitionum;Procuratores gynaeciorum;Procurator gynaecii Carthagiensis, Africae.
+PM000051;Occidentis;806;Arelatiensis;unit;1;;civil;procurator;Procurator;gynaecii Arelatiensis;Insignia viri illustris comitis sacrarum largitionum;Procuratores gynaeciorum;Procurator gynaecii Arelatiensis, provinciae Viennensis.
+PM000052;Occidentis;807;Lugdunensis;unit;1;;civil;procurator;Procurator;gynaecii Lugdunensis;Insignia viri illustris comitis sacrarum largitionum;Procuratores gynaeciorum;Procurator gynaecii Lugdunensis.
+PM000053;Occidentis;808;Remensis;unit;1;;civil;procurator;Procurator;gynaecii Remensis;Insignia viri illustris comitis sacrarum largitionum;Procuratores gynaeciorum;Procurator gynaecii Remensis, Belgicae secundae.
+PM000054;Occidentis;809;Triberorum;unit;1;;civil;procurator;Procurator;gynaecii Triberorum;Insignia viri illustris comitis sacrarum largitionum;Procuratores gynaeciorum;Procurator gynaecii Triberorum, Belgicae primae.
+PM000055;Occidentis;810;Augustoduno;unit;1;;civil;procurator;Procurator;gynaecii Augustoduno translati Mettis;Insignia viri illustris comitis sacrarum largitionum;Procuratores gynaeciorum;Procurator gynaecii Augustoduno translati Mettis.
+PM000056;Occidentis;810;Mettis;transfer;1;;civil;procurator;Procurator;gynaecii Augustoduno translati Mettis;Insignia viri illustris comitis sacrarum largitionum;Procuratores gynaeciorum;Procurator gynaecii Augustoduno translati Mettis.
+PM000057;Occidentis;811;Ventensis;unit;1;;civil;procurator;Procurator;gynaecii (in Britannis) Ventensis;Insignia viri illustris comitis sacrarum largitionum;Procuratores gynaeciorum;Procurator gynaecii (in Britannis) Ventensis.
+PM000058;Occidentis;813;Viennensis;unit;1;;civil;procurator;Procurator;linyfii Viennensis;Insignia viri illustris comitis sacrarum largitionum;Procuratores linyfiorum;Procurator linyfii Viennensis, Galliarum.
+PM000059;Occidentis;814;Ravennatis;unit;1;;civil;procurator;Procurator;linyfii Ravennatis;Insignia viri illustris comitis sacrarum largitionum;Procuratores linyfiorum;Procurator linyfii Ravennatis, Italiae.
+PM000060;Occidentis;816;Tarentini;unit;1;;civil;procurator;Procurator;bafii Tarentini;Insignia viri illustris comitis sacrarum largitionum;Procuratores bafiorum;Procurator bafii Tarentini, Calabriae.
+PM000061;Occidentis;817;Salonitani;unit;1;;civil;procurator;Procurator;bafii Salonitani;Insignia viri illustris comitis sacrarum largitionum;Procuratores bafiorum;Procurator bafii Salonitani, Dalmatiae.
+PM000062;Occidentis;818;Cissensis;unit;1;;civil;procurator;Procurator;bafii Cissensis;Insignia viri illustris comitis sacrarum largitionum;Procuratores bafiorum;Procurator bafii Cissensis, Venetiae et Histriae.
+PM000063;Occidentis;819;Syracusani;unit;1;;civil;procurator;Procurator;bafii Syracusani;Insignia viri illustris comitis sacrarum largitionum;Procuratores bafiorum;Procurator bafii Syracusani, Siciliae.
+PM000064;Occidentis;821;Girbitani;unit;1;;civil;procurator;Procurator;bafii Girbitani;Insignia viri illustris comitis sacrarum largitionum;Procuratores bafiorum;Procurator bafii Girbitani, provinciae Tripolitanae.
+PM000065;Occidentis;822;insularum Balearum;unit;1;;civil;procurator;Procurator;bafii insularum Balearum;Insignia viri illustris comitis sacrarum largitionum;Procuratores bafiorum;Procurator bafii insularum Balearum, in Hispania.
+PM000066;Occidentis;823;Telonensis;unit;1;;civil;procurator;Procurator;bafii Telonensis;Insignia viri illustris comitis sacrarum largitionum;Procuratores bafiorum;Procurator bafii Telonensis, Galliarum.
+PM000067;Occidentis;824;Narbonensis;unit;1;;civil;procurator;Procurator;bafii Narbonensis;Insignia viri illustris comitis sacrarum largitionum;Procuratores bafiorum;Procurator bafii Narbonensis.
+PM000068;Occidentis;826;Arelatensium;unit;1;;unknown;praepositus;Praepositus;branbaricariorum siue argentariorum Arelatensium;Insignia viri illustris comitis sacrarum largitionum;Praepositi branbaricariorum siue argentariorum;Praepositus branbaricariorum siue argentariorum Arelatensium.
+PM000069;Occidentis;827;Remensium;unit;1;;unknown;praepositus;Praepositus;branbaricariorum siue argentariorum Remensium;Insignia viri illustris comitis sacrarum largitionum;Praepositi branbaricariorum siue argentariorum;Praepositus branbaricariorum siue argentariorum Remensium.
+PM000070;Occidentis;828;Triberorum;unit;1;;unknown;praepositus;Praepositus;branbaricariorum siue argentariorum Triberorum;Insignia viri illustris comitis sacrarum largitionum;Praepositi branbaricariorum siue argentariorum;Praepositus branbaricariorum siue argentariorum Triberorum.
+PM000071;Occidentis;877;Triberorum;unit;1;;civil;procurator;Procurator;rei privatae gynaeciorum Triberorum;Insignia viri illustris comitis privatarum;Sub dispositione viri illustris comitis rerum privatarum;Procurator rei privatae gynaeciorum Triberorum.
+PM000072;Occidentis;878;Viuarensis;unit;1;;civil;procurator;Procurator;gynaecei Viuarensis rei privatae Metti translata anhelat;Insignia viri illustris comitis privatarum;Sub dispositione viri illustris comitis rerum privatarum;Procurator gynaecei Viuarensis rei privatae Metti translata anhelat.
+PM000073;Occidentis;1079;Thamallensis;limes;1;;unknown;praepositus;Praepositus;limitis Thamallensis;Comes Africae;Sub dispositione viri spectabilis comitis Africae / Limitanei;Praepositus limitis Thamallensis.
+PM000074;Occidentis;1080;Leptitanis;castris;1;;unknown;praepositus;Praepositus;limitis Montensis in castris Leptitanis;Comes Africae;Sub dispositione viri spectabilis comitis Africae / Limitanei;Praepositus limitis Montensis in castris Leptitanis.
+PM000075;Occidentis;1080;Montensis;limes;1;;unknown;praepositus;Praepositus;limitis Montensis in castris Leptitanis;Comes Africae;Sub dispositione viri spectabilis comitis Africae / Limitanei;Praepositus limitis Montensis in castris Leptitanis.
+PM000076;Occidentis;1081;Bazensis;limes;1;;unknown;praepositus;Praepositus;limitis Bazensis;Comes Africae;Sub dispositione viri spectabilis comitis Africae / Limitanei;Praepositus limitis Bazensis.
+PM000077;Occidentis;1082;Gemellensis;limes;1;;unknown;praepositus;Praepositus;limitis Gemellensis;Comes Africae;Sub dispositione viri spectabilis comitis Africae / Limitanei;Praepositus limitis Gemellensis.
+PM000078;Occidentis;1083;Tubuniensis;limes;1;;unknown;praepositus;Praepositus;limitis Tubuniensis;Comes Africae;Sub dispositione viri spectabilis comitis Africae / Limitanei;Praepositus limitis Tubuniensis.
+PM000079;Occidentis;1084;Zabensis;limes;1;;unknown;praepositus;Praepositus;limitis Zabensis;Comes Africae;Sub dispositione viri spectabilis comitis Africae / Limitanei;Praepositus limitis Zabensis.
+PM000080;Occidentis;1085;Tubusubditani;limes;1;;unknown;praepositus;Praepositus;limitis Tubusubditani;Comes Africae;Sub dispositione viri spectabilis comitis Africae / Limitanei;Praepositus limitis Tubusubditani.
+PM000081;Occidentis;1086;Thamallomensis;limes;1;;unknown;praepositus;Praepositus;limitis Thamallomensis;Comes Africae;Sub dispositione viri spectabilis comitis Africae / Limitanei;Praepositus limitis Thamallomensis.
+PM000082;Occidentis;1087;Balaretensis;limes;1;;unknown;praepositus;Praepositus;limitis Balaretensis;Comes Africae;Sub dispositione viri spectabilis comitis Africae / Limitanei;Praepositus limitis Balaretensis.
+PM000083;Occidentis;1088;Columnatensis;limes;1;;unknown;praepositus;Praepositus;limitis Columnatensis;Comes Africae;Sub dispositione viri spectabilis comitis Africae / Limitanei;Praepositus limitis Columnatensis.
+PM000084;Occidentis;1089;Tablatensis;limes;1;;unknown;praepositus;Praepositus;limitis Tablatensis;Comes Africae;Sub dispositione viri spectabilis comitis Africae / Limitanei;Praepositus limitis Tablatensis.
+PM000085;Occidentis;1090;Caputcellensis;limes;1;;unknown;praepositus;Praepositus;limitis Caputcellensis;Comes Africae;Sub dispositione viri spectabilis comitis Africae / Limitanei;Praepositus limitis Caputcellensis.
+PM000086;Occidentis;1091;Secundaeforum;limes;1;;unknown;praepositus;Praepositus;limitis Secundaeforum in castris Tillibanensibus;Comes Africae;Sub dispositione viri spectabilis comitis Africae / Limitanei;Praepositus limitis Secundaeforum in castris Tillibanensibus.
+PM000087;Occidentis;1091;Tillibanensibus;castris;1;;unknown;praepositus;Praepositus;limitis Secundaeforum in castris Tillibanensibus;Comes Africae;Sub dispositione viri spectabilis comitis Africae / Limitanei;Praepositus limitis Secundaeforum in castris Tillibanensibus.
+PM000088;Occidentis;1092;Taugensis;limes;1;;unknown;praepositus;Praepositus;limitis Taugensis;Comes Africae;Sub dispositione viri spectabilis comitis Africae / Limitanei;Praepositus limitis Taugensis.
+PM000089;Occidentis;1093;Bidensis;limes;1;;unknown;praepositus;Praepositus;limitis Bidensis;Comes Africae;Sub dispositione viri spectabilis comitis Africae / Limitanei;Praepositus limitis Bidensis.
+PM000090;Occidentis;1094;Badensis;limes;1;;unknown;praepositus;Praepositus;limitis Badensis;Comes Africae;Sub dispositione viri spectabilis comitis Africae / Limitanei;Praepositus limitis Badensis.
+PM000091;Occidentis;1110;Tamuco;tail;1;;unknown;praefectus;Praefectus;alae Herculeae;Comes Tingitaniae;Sub dispositione viri spectabilis comitis Tingitaniae / Limitanei;Praefectus alae Herculeae, Tamuco.
+PM000092;Occidentis;1111;Duga;tail;1;;unknown;tribunus;Tribunus;cohortis secundae Hispanorum;Comes Tingitaniae;Sub dispositione viri spectabilis comitis Tingitaniae / Limitanei;Tribunus cohortis secundae Hispanorum, Duga.
+PM000093;Occidentis;1112;Aulucos;tail;1;;unknown;tribunus;Tribunus;cohortis primae Herculeae;Comes Tingitaniae;Sub dispositione viri spectabilis comitis Tingitaniae / Limitanei;Tribunus cohortis primae Herculeae, Aulucos.
+PM000094;Occidentis;1113;Castrabarensis;tail;1;;unknown;tribunus;Tribunus;cohortis primae Ityraeorum;Comes Tingitaniae;Sub dispositione viri spectabilis comitis Tingitaniae / Limitanei;Tribunus cohortis primae Ityraeorum, Castrabarensis.
+PM000095;Occidentis;1114;Sala;tail;1;;unknown;tribunus;Tribunus;cohortis .......;Comes Tingitaniae;Sub dispositione viri spectabilis comitis Tingitaniae / Limitanei;Tribunus cohortis ........, Sala.
+PM000096;Occidentis;1115;Pacatiana;tail;1;;unknown;tribunus;Tribunus;cohortis Pacatianensis;Comes Tingitaniae;Sub dispositione viri spectabilis comitis Tingitaniae / Limitanei;Tribunus cohortis Pacatianensis, Pacatiana.
+PM000097;Occidentis;1116;Tabernas;tail;1;;unknown;tribunus;Tribunus;cohortis tertiae Asturum;Comes Tingitaniae;Sub dispositione viri spectabilis comitis Tingitaniae / Limitanei;Tribunus cohortis tertiae Asturum, Tabernas.
+PM000098;Occidentis;1117;Friglas;tail;1;;unknown;tribunus;Tribunus;cohortis Friglensis;Comes Tingitaniae;Sub dispositione viri spectabilis comitis Tingitaniae / Limitanei;Tribunus cohortis Friglensis, Friglas.
+PM000099;Occidentis;1137;Othonae;tail;1;;unknown;praepositus;Praepositus;numeri Fortensium;Comes litoris Saxonici per Britanniam;Sub dispositione viri spectabilis comitis litoris Saxonici per Britanniam;Praepositus numeri Fortensium, Othonae.
+PM000100;Occidentis;1138;Dubris;tail;1;;unknown;praepositus;Praepositus;militum Tungrecanorum;Comes litoris Saxonici per Britanniam;Sub dispositione viri spectabilis comitis litoris Saxonici per Britanniam;Praepositus militum Tungrecanorum, Dubris.
+PM000101;Occidentis;1139;Lemannis;tail;1;;unknown;praepositus;Praepositus;numeri Turnacensium;Comes litoris Saxonici per Britanniam;Sub dispositione viri spectabilis comitis litoris Saxonici per Britanniam;Praepositus numeri Turnacensium, Lemannis.
+PM000102;Occidentis;1140;Branoduno;tail;1;;unknown;praepositus;Praepositus;equitum Dalmatarum Branodunensium;Comes litoris Saxonici per Britanniam;Sub dispositione viri spectabilis comitis litoris Saxonici per Britanniam;Praepositus equitum Dalmatarum Branodunensium, Branoduno.
+PM000103;Occidentis;1141;Gariannonor;tail;1;;unknown;praepositus;Praepositus;equitum stablesianorum Gariannonensium;Comes litoris Saxonici per Britanniam;Sub dispositione viri spectabilis comitis litoris Saxonici per Britanniam;Praepositus equitum stablesianorum Gariannonensium, Gariannonor.
+PM000104;Occidentis;1142;Regulbio;tail;1;;unknown;tribunus;Tribunus;cohortis primae Baetasiorum;Comes litoris Saxonici per Britanniam;Sub dispositione viri spectabilis comitis litoris Saxonici per Britanniam;Tribunus cohortis primae Baetasiorum, Regulbio.
+PM000105;Occidentis;1143;Rutupis;tail;1;;unknown;praefectus;Praefectus;legionis secundae Augustae;Comes litoris Saxonici per Britanniam;Sub dispositione viri spectabilis comitis litoris Saxonici per Britanniam;Praefectus legionis secundae Augustae, Rutupis.
+PM000106;Occidentis;1144;Anderidos;tail;1;;unknown;praepositus;Praepositus;numeri Abulcorum;Comes litoris Saxonici per Britanniam;Sub dispositione viri spectabilis comitis litoris Saxonici per Britanniam;Praepositus numeri Abulcorum, Anderidos.
+PM000107;Occidentis;1145;Portum Adurni;tail;1;;unknown;praepositus;Praepositus;numeri exploratorum;Comes litoris Saxonici per Britanniam;Sub dispositione viri spectabilis comitis litoris Saxonici per Britanniam;Praepositus numeri exploratorum, Portum Adurni.
+PM000108;Occidentis;1173;Columnatensis;limes;1;;unknown;praepositus;Praepositus;limitis Columnatensis;Dux et praeses provinciae Mauritaniae;Sub dispositione viri spectabilis ducis et praesidis provinciae Mauritaniae et Caesariensis;Praepositus limitis Columnatensis.
+PM000109;Occidentis;1174;Vidensis;limes;1;;unknown;praepositus;Praepositus;limitis Vidensis;Dux et praeses provinciae Mauritaniae;Sub dispositione viri spectabilis ducis et praesidis provinciae Mauritaniae et Caesariensis;Praepositus limitis Vidensis.
+PM000110;Occidentis;1175;inferioris;limes;1;;unknown;praepositus;Praepositus;limitis inferioris;Dux et praeses provinciae Mauritaniae;Sub dispositione viri spectabilis ducis et praesidis provinciae Mauritaniae et Caesariensis;Praepositus limitis inferioris.
+PM000111;Occidentis;1176;Fortensis;limes;1;;unknown;praepositus;Praepositus;limitis Fortensis;Dux et praeses provinciae Mauritaniae;Sub dispositione viri spectabilis ducis et praesidis provinciae Mauritaniae et Caesariensis;Praepositus limitis Fortensis.
+PM000112;Occidentis;1177;Muticitani;limes;1;;unknown;praepositus;Praepositus;limitis Muticitani;Dux et praeses provinciae Mauritaniae;Sub dispositione viri spectabilis ducis et praesidis provinciae Mauritaniae et Caesariensis;Praepositus limitis Muticitani.
+PM000113;Occidentis;1178;Audiensis;limes;1;;unknown;praepositus;Praepositus;limitis Audiensis;Dux et praeses provinciae Mauritaniae;Sub dispositione viri spectabilis ducis et praesidis provinciae Mauritaniae et Caesariensis;Praepositus limitis Audiensis.
+PM000114;Occidentis;1179;Caputcellensis;limes;1;;unknown;praepositus;Praepositus;limitis Caputcellensis;Dux et praeses provinciae Mauritaniae;Sub dispositione viri spectabilis ducis et praesidis provinciae Mauritaniae et Caesariensis;Praepositus limitis Caputcellensis.
+PM000115;Occidentis;1180;Augustensis;limes;1;;unknown;praepositus;Praepositus;limitis Augustensis;Dux et praeses provinciae Mauritaniae;Sub dispositione viri spectabilis ducis et praesidis provinciae Mauritaniae et Caesariensis;Praepositus limitis Augustensis.
+PM000116;Occidentis;1195;Talalatensis;limes;1;;unknown;praepositus;Praepositus;limitis Talalatensis;Dux provinciae Tripolitanae;Sub dispositione viri spectabilis ducis provinciae Tripolitanae;Praepositus limitis Talalatensis.
+PM000117;Occidentis;1196;Tenthettani;limes;1;;unknown;praepositus;Praepositus;limitis Tenthettani;Dux provinciae Tripolitanae;Sub dispositione viri spectabilis ducis provinciae Tripolitanae;Praepositus limitis Tenthettani.
+PM000118;Occidentis;1197;Bizerentane;limes;1;;unknown;praepositus;Praepositus;limitis Bizerentane;Dux provinciae Tripolitanae;Sub dispositione viri spectabilis ducis provinciae Tripolitanae;Praepositus limitis Bizerentane.
+PM000119;Occidentis;1198;Tillibarensis;limes;1;;unknown;praepositus;Praepositus;limitis Tillibarensis;Dux provinciae Tripolitanae;Sub dispositione viri spectabilis ducis provinciae Tripolitanae;Praepositus limitis Tillibarensis.
+PM000120;Occidentis;1199;Madensis;limes;1;;unknown;praepositus;Praepositus;limitis Madensis;Dux provinciae Tripolitanae;Sub dispositione viri spectabilis ducis provinciae Tripolitanae;Praepositus limitis Madensis.
+PM000121;Occidentis;1200;Maccomadensis;limes;1;;unknown;praepositus;Praepositus;limitis Maccomadensis;Dux provinciae Tripolitanae;Sub dispositione viri spectabilis ducis provinciae Tripolitanae;Praepositus limitis Maccomadensis.
+PM000122;Occidentis;1201;Tintiberitani;limes;1;;unknown;praepositus;Praepositus;limitis Tintiberitani;Dux provinciae Tripolitanae;Sub dispositione viri spectabilis ducis provinciae Tripolitanae;Praepositus limitis Tintiberitani.
+PM000123;Occidentis;1202;Bubensis;limes;1;;unknown;praepositus;Praepositus;limitis Bubensis;Dux provinciae Tripolitanae;Sub dispositione viri spectabilis ducis provinciae Tripolitanae;Praepositus limitis Bubensis.
+PM000124;Occidentis;1203;Mamucensis;limes;1;;unknown;praepositus;Praepositus;limitis Mamucensis;Dux provinciae Tripolitanae;Sub dispositione viri spectabilis ducis provinciae Tripolitanae;Praepositus limitis Mamucensis.
+PM000125;Occidentis;1204;Balensis;limes;1;;unknown;praepositus;Praepositus;limitis Balensis;Dux provinciae Tripolitanae;Sub dispositione viri spectabilis ducis provinciae Tripolitanae;Praepositus limitis Balensis.
+PM000126;Occidentis;1205;Varensis;limes;1;;unknown;praepositus;Praepositus;limitis Varensis;Dux provinciae Tripolitanae;Sub dispositione viri spectabilis ducis provinciae Tripolitanae;Praepositus limitis Varensis.
+PM000127;Occidentis;1206;Leptitanis;castris;1;;milites;;;Milites Fortenses in castris Leptitanis;Dux provinciae Tripolitanae;Sub dispositione viri spectabilis ducis provinciae Tripolitanae;Milites Fortenses in castris Leptitanis.
+PM000128;Occidentis;1207;Madensibus;castris;1;;milites;;;Milites Munifices in castris Madensibus;Dux provinciae Tripolitanae;Sub dispositione viri spectabilis ducis provinciae Tripolitanae;Milites Munifices in castris Madensibus.
+PM000129;Occidentis;1208;Sarcitani;limes;1;;unknown;praepositus;Praepositus;limitis Sarcitani;Dux provinciae Tripolitanae;Sub dispositione viri spectabilis ducis provinciae Tripolitanae;Praepositus limitis Sarcitani.
+PM000130;Occidentis;1223;Cornacii;tail;1;;cuneus;;;Cuneus equitum scutariorum;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Cuneus equitum scutariorum, Cornacii.
+PM000131;Occidentis;1224;Teutiborgio;tail;1;;cuneus;;;Cuneus equitum Dalmatarum;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Cuneus equitum Dalmatarum, Teutiborgio.
+PM000132;Occidentis;1225;Burgenas;tail;1;;cuneus;;;Cuneus equitum Constantianorum;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Cuneus equitum Constantianorum, Burgenas.
+PM000133;Occidentis;1226;Cuccis;tail;1;;cuneus;;;Cuneus equitum promotorum;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Cuneus equitum promotorum, Cuccis.
+PM000134;Occidentis;1227;Aciminci;tail;1;;cuneus;;;Cuneus equitum constantium;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Cuneus equitum constantium, Aciminci.
+PM000135;Occidentis;1228;Secundarum;tail;1;;cuneus;;;Cuneus equitum Italicianorum;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Cuneus equitum Italicianorum, Secundarum.
+PM000136;Occidentis;1229;Novas;tail;1;;equites;;;Equites Dalmatae;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Equites Dalmatae, Novas.
+PM000137;Occidentis;1230;Albano;tail;1;;equites;;;Equites Dalmatae;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Equites Dalmatae, Albano.
+PM000138;Occidentis;1231;Teutibarcio;tail;1;;equites;;;Equites promoti;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Equites promoti, Teutibarcio.
+PM000139;Occidentis;1232;Cornaco;tail;1;;equites;;;Equites Dalmatae;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Equites Dalmatae, Cornaco.
+PM000140;Occidentis;1233;Cuccis;tail;1;;equites;;;Equites sagittarii;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Equites sagittarii, Cuccis.
+PM000141;Occidentis;1234;Bonoriae;tail;1;;equites;;;Equites Dalmatae;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Equites Dalmatae, Bonoriae.
+PM000142;Occidentis;1235;Cusi;tail;1;;equites;;;Equites Dalmatae;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Equites Dalmatae, Cusi.
+PM000143;Occidentis;1236;Acimirci;tail;1;;equites;;;Equites sagittarii;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Equites sagittarii, Acimirci.
+PM000144;Occidentis;1237;Ricti;tail;1;;equites;;;Equites Dalmatae;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Equites Dalmatae, Ricti.
+PM000145;Occidentis;1238;Burgentas;tail;1;;equites;;;Equites Dalmatae;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Equites Dalmatae, Burgentas.
+PM000146;Occidentis;1239;Tauruno;tail;1;;equites;;;Equites promoti;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Equites promoti, Tauruno.
+PM000147;Occidentis;1240;ad Herculem;tail;1;;auxilia;;;Auxilia Herculensia;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Auxilia Herculensia, ad Herculem.
+PM000148;Occidentis;1241;Arsaciana;tail;1;;auxilia;;;Auxilia Novensia;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Auxilia Novensia, Arsaciana siue Novas.
+PM000149;Occidentis;1241;Novas;tail;1;;auxilia;;;Auxilia Novensia;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Auxilia Novensia, Arsaciana siue Novas.
+PM000150;Occidentis;1242;Onagrino;castello;1;;auxilia;;;Auxilia Augustensia;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Auxilia Augustensia, contra Bononiam in barbarico in castello Onagrino.
+PM000151;Occidentis;1243;Herculis;castris;1;;auxilia;;;Auxilia Praesidentia;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Auxilia Praesidentia, in castris Herculis.
+PM000152;Occidentis;1244;Marsonia;tail;1;;auxilia;;;Auxilia ascarii;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Auxilia ascarii, Tauruno siue Marsonia.
+PM000153;Occidentis;1244;Tauruno;tail;1;;auxilia;;;Auxilia ascarii;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Auxilia ascarii, Tauruno siue Marsonia.
+PM000154;Occidentis;1245;Bononiae;tail;1;;unknown;praefectus;Praefectus;legionis quintae Ioviae cohortis quintae partis superioris;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Praefectus legionis quintae Ioviae cohortis quintae partis superioris, Bononiae.
+PM000155;Occidentis;1247;Burgenas;tail;1;;unknown;praefectus;Praefectus;legionis quintae Ioviae;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Praefectus legionis quintae Ioviae, Burgenas.
+PM000156;Occidentis;1248;Teutiborgio;tail;1;;unknown;praefectus;Praefectus;legionis sextae Herculeae;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Praefectus legionis sextae Herculeae, Teutiborgio.
+PM000157;Occidentis;1249;in castello Onagrino;tail;1;;unknown;praefectus;Praefectus;legionis quintae Ioviae et sextae Herculeae;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Praefectus legionis quintae Ioviae et sextae Herculeae, in castello Onagrino.
+PM000158;Occidentis;1250;Sirmi;tail;1;;unknown;praefectus;Praefectus;militum Calcariensium;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Praefectus militum Calcariensium, Sirmi.
+PM000159;Occidentis;1251;Sirmi;tail;1;;unknown;praefectus;Praefectus;classis primae Flaviae Augustae;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Praefectus classis primae Flaviae Augustae, Sirmi.
+PM000160;Occidentis;1252;Graio;tail;1;;unknown;praefectus;Praefectus;classis secundae Flaviae;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Praefectus classis secundae Flaviae, Graio.
+PM000161;Occidentis;1253;Mursae;tail;1;;unknown;praefectus;Praefectus;classis Histricae;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Praefectus classis Histricae, Mursae.
+PM000162;Occidentis;1254;..;tail;1;;unknown;tribunus;Tribunus;cohortis tertiae Alpinorum Dardanorum;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Tribunus cohortis tertiae Alpinorum Dardanorum, .....
+PM000163;Occidentis;1255;Sirmi;tail;1;;ala;;;Ala Sirmensis;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Ala Sirmensis, Sirmi
+PM000164;Occidentis;1256;Seruitii;tail;1;;unknown;praefectus;Praefectus;classis primae Pannonicae;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Praefectus classis primae Pannonicae, Seruitii.
+PM000165;Occidentis;1257;..... nunc Sisciae;tail;1;;unknown;praefectus;Praefectus;classis Aegetensium siue secundae Pannonicae;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Praefectus classis Aegetensium siue secundae Pannonicae, ..... nunc Sisciae.
+PM000166;Occidentis;1258;Sisciae;tail;1;;unknown;tribunus;Tribunus;cohortis tertiae Alpinorum;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Tribunus cohortis tertiae Alpinorum, Sisciae.
+PM000167;Occidentis;1259;Leonatae;tail;1;;unknown;tribunus;Tribunus;cohortis primae Ioviae;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Tribunus cohortis primae Ioviae, Leonatae.
+PM000168;Occidentis;1260;Caput Basensis;tail;1;;unknown;tribunus;Tribunus;cohortis primae Thracum civium Romanorum;Dux Pannoniae;Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae;Tribunus cohortis primae Thracum civium Romanorum, Caput Basensis.
+PM000169;Occidentis;1274;Solue;tail;1;;cuneus;;;Cuneus equitum scutatorum;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Cuneus equitum scutatorum, Solue.
+PM000170;Occidentis;1275;Intercisa;tail;1;;cuneus;;;Cuneus equitum Dalmatarum;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Cuneus equitum Dalmatarum, Intercisa.
+PM000171;Occidentis;1276;Intercisa;alternate;1;;cuneus;;;Cuneus equitum Constantianorum;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Cuneus equitum Constantianorum, Lusionio, nune Intercisa.
+PM000172;Occidentis;1276;Lusionio;tail;1;;cuneus;;;Cuneus equitum Constantianorum;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Cuneus equitum Constantianorum, Lusionio, nune Intercisa.
+PM000173;Occidentis;1277;Conradcuha;alternate;1;;cuneus;;;Cuneus equitum stablesianorum;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Cuneus equitum stablesianorum, Ripa Alta, nune Conradcuha.
+PM000174;Occidentis;1277;Ripa Alta;tail;1;;cuneus;;;Cuneus equitum stablesianorum;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Cuneus equitum stablesianorum, Ripa Alta, nune Conradcuha.
+PM000175;Occidentis;1278;Altino;tail;1;;cuneus;;;Cuneus equitum Fortensium;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Cuneus equitum Fortensium, Altino.
+PM000176;Occidentis;1279;Odiabo;tail;1;;equites;;;Equites Dalmatae;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Equites Dalmatae, Odiabo.
+PM000177;Occidentis;1280;Crumero;tail;1;;equites;;;Equites promoti;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Equites promoti, Crumero.
+PM000178;Occidentis;1281;Solua;tail;1;;equites;;;Equites Mauri;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Equites Mauri, Solua.
+PM000179;Occidentis;1282;Ad Herculem;tail;1;;equites;;;Equites Dalmatae;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Equites Dalmatae, Ad Herculem.
+PM000180;Occidentis;1283;Cirpi;tail;1;;equites;;;Equites Dalmatae;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Equites Dalmatae, Cirpi.
+PM000181;Occidentis;1284;Constantiae;tail;1;;equites;;;Equites Dalmatae;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Equites Dalmatae, Constantiae.
+PM000182;Occidentis;1285;Campona;tail;1;;equites;;;Equites Dalmatae;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Equites Dalmatae, Campona.
+PM000183;Occidentis;1286;Matrice;tail;1;;equites;;;Equites promoti;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Equites promoti, Matrice.
+PM000184;Occidentis;1287;Vetusalinae;tail;1;;equites;;;Equites Dalmatae;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Equites Dalmatae, Vetusalinae.
+PM000185;Occidentis;1288;Intercisa;tail;1;;equites;;;Equites sagittarii;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Equites sagittarii, Intercisa.
+PM000186;Occidentis;1289;Adnamantia;tail;1;;equites;;;Equites Dalmatae;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Equites Dalmatae, Adnamantia.
+PM000187;Occidentis;1290;Lussonio;tail;1;;equites;;;Equites Dalmatae;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Equites Dalmatae, Lussonio.
+PM000188;Occidentis;1291;Ripa Alta;tail;1;;equites;;;Equites Dalmatae;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Equites Dalmatae, Ripa Alta.
+PM000189;Occidentis;1292;Ad Statuas;tail;1;;equites;;;Equites Dalmatae;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Equites Dalmatae, Ad Statuas.
+PM000190;Occidentis;1293;Florentiae;tail;1;;equites;;;Equites Dalmatae;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Equites Dalmatae, Florentiae.
+PM000191;Occidentis;1294;Altino;tail;1;;equites;;;Equites sagittarii;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Equites sagittarii, Altino, nune in burgo contra Florentiam.
+PM000192;Occidentis;1295;Ad Militare;tail;1;;equites;;;Equites Flavianenses;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Equites Flavianenses, Ad Militare.
+PM000193;Occidentis;1296;Ad Herculem;tail;1;;auxilia;;;Auxilia Herculensia;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Auxilia Herculensia, Ad Herculem.
+PM000194;Occidentis;1297;Ad Statuas;alternate;1;;auxilia;;;Auxilia Ursarensia;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Auxilia Ursarensia, Pone Navata, nune Ad Statuas.
+PM000195;Occidentis;1297;Pone Navata;tail;1;;auxilia;;;Auxilia Ursarensia;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Auxilia Ursarensia, Pone Navata, nune Ad Statuas.
+PM000196;Occidentis;1299;Cirpe;tail;1;;auxilia;;;Auxilia Fortensia;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Auxilia Fortensia, Cirpe.
+PM000197;Occidentis;1300;Cardabiaca;tail;1;;auxilia;;;Auxilia insidiatorum;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Auxilia insidiatorum, Cardabiaca.
+PM000198;Occidentis;1301;Bregtione;tail;1;;unknown;praefectus;Praefectus;legionis primae adiutricis cohortis quintae partis superioris;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Praefectus legionis primae adiutricis cohortis quintae partis superioris, Bregtione.
+PM000199;Occidentis;1302;Aliscae;tail;1;;unknown;praefectus;Praefectus;legionis secundae adiutricis cohortis quintae partis superioris;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Praefectus legionis secundae adiutricis cohortis quintae partis superioris, Aliscae.
+PM000200;Occidentis;1303;Florentiae;tail;1;;unknown;praefectus;Praefectus;legionis secundae adiutricis partis inferioris;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Praefectus legionis secundae adiutricis partis inferioris, Florentiae.
+PM000201;Occidentis;1304;Acinco;tail;1;;unknown;praefectus;Praefectus;legionis secundae adiutricis partis superioris;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Praefectus legionis secundae adiutricis partis superioris, Acinco.
+PM000202;Occidentis;1306;Cirpi;tail;1;;unknown;praefectus;Praefectus;legionis secundae adiutricis;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Praefectus legionis secundae adiutricis, Cirpi.
+PM000203;Occidentis;1307;Lussonio;tail;1;;unknown;praefectus;Praefectus;legionis secundae adiutricis;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Praefectus legionis secundae adiutricis, Lussonio.
+PM000204;Occidentis;1308;Florentiae;tail;1;;unknown;praefectus;Praefectus;classis Histricae;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Praefectus classis Histricae, Florentiae.
+PM000205;Occidentis;1309;Vincentiae;tail;1;;unknown;tribunus;Tribunus;cohortis;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Tribunus cohortis, Vincentiae.
+PM000206;Occidentis;1310;quadriborgio;tail;1;;unknown;tribunus;Tribunus;cohortis;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Tribunus cohortis, quadriborgio.
+PM000207;Occidentis;1311;Iovia;tail;1;;unknown;tribunus;Tribunus;cohortis;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Tribunus cohortis, Iovia.
+PM000208;Occidentis;1312;ad burgum Centenarium;tail;1;;unknown;tribunus;Tribunus;cohortis;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Tribunus cohortis, ad burgum Centenarium.
+PM000209;Occidentis;1313;Alesacae;tail;1;;unknown;tribunus;Tribunus;cohortis;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Tribunus cohortis, Alesacae.
+PM000210;Occidentis;1314;Marinanae;tail;1;;unknown;tribunus;Tribunus;cohortis;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Tribunus cohortis, Marinanae.
+PM000211;Occidentis;1315;Transiacinco;tail;1;;unknown;praefectus;Praefectus;legionis;Dux provinciae Valeriae;Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis;Praefectus legionis, Transiacinco.
+PM000212;Occidentis;1329;Flexo;tail;1;;cuneus;;;Cuneus equitum Dalmatarum;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Cuneus equitum Dalmatarum, Flexo.
+PM000213;Occidentis;1330;Arrabonae;tail;1;;cuneus;;;Cuneus equitum stablesianorum;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Cuneus equitum stablesianorum, Arrabonae.
+PM000214;Occidentis;1331;Arrabonae;tail;1;;equites;;;Equites promoti;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Equites promoti, Arrabonae.
+PM000215;Occidentis;1332;Quadriburgio;tail;1;;equites;;;Equites sagittarii;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Equites sagittarii, Quadriburgio.
+PM000216;Occidentis;1333;Ala Nova;tail;1;;equites;;;Equites Dalmatae;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Equites Dalmatae, Ala Nova.
+PM000217;Occidentis;1334;Aequinoctoiae;tail;1;;equites;;;Equites Dalmatae;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Equites Dalmatae, Aequinoctoiae.
+PM000218;Occidentis;1335;Ad Herculem;tail;1;;equites;;;Equites Dalmatae;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Equites Dalmatae, Ad Herculem.
+PM000219;Occidentis;1336;Gerolate;tail;1;;equites;;;Equites sagittarii;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Equites sagittarii, Gerolate.
+PM000220;Occidentis;1337;Flexo;tail;1;;equites;;;Equites promoti;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Equites promoti, Flexo.
+PM000221;Occidentis;1338;Quadrato;tail;1;;equites;;;Equites Mauri;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Equites Mauri, Quadrato.
+PM000222;Occidentis;1340;Vindomarae;tail;1;;unknown;praefectus;Praefectus;legionis decimae geminae;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Praefectus legionis decimae geminae, Vindomarae.
+PM000223;Occidentis;1341;Carnunto;tail;1;;unknown;praefectus;Praefectus;legionis quartaedecimaegeminae militum liburnariorum cohortis quintae partis superior;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Praefectus legionis quartaedecimaegeminae militum liburnariorum cohortis quintae partis superior, Carnunto.
+PM000224;Occidentis;1342;Arrabonae;tail;1;;unknown;praefectus;Praefectus;legionis decimae et quartaedecimaegeminae geminarum militum liburnariorum;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Praefectus legionis decimae et quartaedecimaegeminae geminarum militum liburnariorum, Arrabonae.
+PM000225;Occidentis;1343;Arrunto;tail;1;;unknown;praefectus;Praefectus;classis Histricae;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Praefectus classis Histricae, Arrunto siue Vindomanae.
+PM000226;Occidentis;1343;Vindomanae;tail;1;;unknown;praefectus;Praefectus;classis Histricae;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Praefectus classis Histricae, Arrunto siue Vindomanae.
+PM000227;Occidentis;1344;Arrianis;tail;1;;unknown;tribunus;Tribunus;cohortis;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Tribunus cohortis, Arrianis.
+PM000228;Occidentis;1346;Ad Mauros;tail;1;;equites;;;Equites promoti;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Equites promoti, Ad Mauros.
+PM000229;Occidentis;1347;Lentiae;tail;1;;equites;;;Equites sagittarii;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Equites sagittarii, Lentiae.
+PM000230;Occidentis;1348;Lacufelicis;tail;1;;equites;;;Equites sagittarii;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Equites sagittarii, Lacufelicis.
+PM000231;Occidentis;1349;Arlape;tail;1;;equites;;;Equites Dalmatae;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Equites Dalmatae, Arlape.
+PM000232;Occidentis;1350;Augustianis;tail;1;;equites;;;Equites Dalmatae;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Equites Dalmatae, Augustianis.
+PM000233;Occidentis;1351;Comagenis;tail;1;;equites;;;Equites promoti;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Equites promoti, Comagenis.
+PM000234;Occidentis;1352;Ioviaco;tail;1;;unknown;praefectus;Praefectus;legionis secundae Italicae militum liburnariorum;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Praefectus legionis secundae Italicae militum liburnariorum, Ioviaco.
+PM000235;Occidentis;1353;Lentiae;tail;1;;unknown;praefectus;Praefectus;legionis secundae Italicae partis inferioris;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Praefectus legionis secundae Italicae partis inferioris, Lentiae.
+PM000236;Occidentis;1354;Lauriaco;tail;1;;unknown;praefectus;Praefectus;legionis secundae Italicae;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Praefectus legionis secundae Italicae , Lauriaco.
+PM000237;Occidentis;1355;Adiuuense;tail;1;;unknown;praefectus;Praefectus;legionis primae Noricorum militum liburnariorum cohortis Quintae partis superioris;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Praefectus legionis primae Noricorum militum liburnariorum cohortis Quintae partis superioris, Adiuuense.
+PM000238;Occidentis;1356;Fafianae;tail;1;;unknown;praefectus;Praefectus;legionis liburnariorum primorum Noricorum;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Praefectus legionis liburnariorum primorum Noricorum, Fafianae.
+PM000239;Occidentis;1359;Boiodoro;tail;1;;unknown;tribunus;Tribunus;cohortis;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Tribunus cohortis, Boiodoro.
+PM000240;Occidentis;1360;Austuris;tail;1;;unknown;tribunus;Tribunus;cohortis;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Tribunus cohortis, Austuris.
+PM000241;Occidentis;1361;Cannabiaca;tail;1;;unknown;tribunus;Tribunus;cohortis;Dux Pannoniae primae;Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis;Tribunus cohortis, Cannabiaca.
+PM000242;Occidentis;1375;Augustanis;tail;1;;equites;;;Equites stablesiani seniores;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Equites stablesiani seniores, Augustanis.
+PM000243;Occidentis;1376;Febians;alternate;1;;equites;;;Equites stablesiani iuniores;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Equites stablesiani iuniores, Ponte Aoni, nunc Febians.
+PM000244;Occidentis;1376;Ponte Aoni;tail;1;;equites;;;Equites stablesiani iuniores;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Equites stablesiani iuniores, Ponte Aoni, nunc Febians.
+PM000245;Occidentis;1377;Submuntorio;tail;1;;equites;;;Equites stablesiani iuniores;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Equites stablesiani iuniores, Submuntorio.
+PM000246;Occidentis;1378;Castra Regina;tail;1;;unknown;praefectus;Praefectus;legionis tertiae Italicae partis superioris;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Praefectus legionis tertiae Italicae partis superioris, Castra Regina, nunc Vallato.
+PM000247;Occidentis;1378;Vallato;alternate;1;;unknown;praefectus;Praefectus;legionis tertiae Italicae partis superioris;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Praefectus legionis tertiae Italicae partis superioris, Castra Regina, nunc Vallato.
+PM000248;Occidentis;1379;Submuntorio;tail;1;;unknown;praefectus;Praefectus;legionis tertiae Italicae partis superioris deputatae ripae primae;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Praefectus legionis tertiae Italicae partis superioris deputatae ripae primae, Submuntorio.
+PM000249;Occidentis;1380;Cambidano;tail;1;;unknown;praefectus;Praefectus;legionis tertiae Italicae pro parte media praetendentis a Vimania Cassiliacum usque;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Praefectus legionis tertiae Italicae pro parte media praetendentis a Vimania Cassiliacum usque, Cambidano.
+PM000250;Occidentis;1381;Guntiae;tail;1;;unknown;praefectus;Praefectus;militum Ursariensium;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Praefectus militum Ursariensium, Guntiae.
+PM000251;Occidentis;1382;Foetibus;tail;1;;unknown;praefectus;Praefectus;legionis tertiae Italicae transvectioni specierum deputatae;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Praefectus legionis tertiae Italicae transvectioni specierum deputatae, Foetibus.
+PM000252;Occidentis;1383;Teriolis;tail;1;;unknown;praefectus;Praefectus;legionis tertiae Italicae transvectioni specierum deputatae;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Praefectus legionis tertiae Italicae transvectioni specierum deputatae, Teriolis.
+PM000253;Occidentis;1384;Quintanis;tail;1;;unknown;praefectus;Praefectus;alae primae Flaviae Raetorum;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Praefectus alae primae Flaviae Raetorum, Quintanis.
+PM000254;Occidentis;1385;Batavis;tail;1;;unknown;tribunus;Tribunus;cohortis novae Batavorum;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Tribunus cohortis novae Batavorum, Batavis.
+PM000255;Occidentis;1386;Abusina;tail;1;;unknown;tribunus;Tribunus;cohortis tertiae Brittorum;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Tribunus cohortis tertiae Brittorum, Abusina.
+PM000256;Occidentis;1387;Vallatio;tail;1;;unknown;praefectus;Praefectus;alae secundae Valeriae singularis;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Praefectus alae secundae Valeriae singularis, Vallatio.
+PM000257;Occidentis;1388;Venaxamodorum;tail;1;;unknown;tribunus;Tribunus;cohortis sextae Valeriaae Raetorum;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Tribunus cohortis sextae Valeriaae Raetorum, Venaxamodorum.
+PM000258;Occidentis;1389;Parroduno;tail;1;;unknown;tribunus;Tribunus;cohortis primae Herculeae Raetorum;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Tribunus cohortis primae Herculeae Raetorum, Parroduno.
+PM000259;Occidentis;1390;Pinianis;tail;1;;unknown;tribunus;Tribunus;cohortis quintae Valeriae Frygum;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Tribunus cohortis quintae Valeriae Frygum, Pinianis.
+PM000260;Occidentis;1391;Caelio;tail;1;;unknown;tribunus;Tribunus;cohortis tertiae Herculeae Pannoniorum;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Tribunus cohortis tertiae Herculeae Pannoniorum, Caelio.
+PM000261;Occidentis;1393;Brecantia;tail;1;;unknown;praefectus;Praefectus;numeri barbaricariorum;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Praefectus numeri barbaricariorum, Confluentibus siue Brecantia.
+PM000262;Occidentis;1393;Confluentibus;tail;1;;unknown;praefectus;Praefectus;numeri barbaricariorum;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Praefectus numeri barbaricariorum, Confluentibus siue Brecantia.
+PM000263;Occidentis;1394;Vimania;tail;1;;unknown;praefectus;Praefectus;alae secundae Valeriae Sequanorum;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Praefectus alae secundae Valeriae Sequanorum, Vimania.
+PM000264;Occidentis;1395;Arbore;tail;1;;unknown;tribunus;Tribunus;cohortis Herculeae Pannoniorum;Dux Raetiae;Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae;Tribunus cohortis Herculeae Pannoniorum, Arbore.
+PM000265;Occidentis;1409;Olitione;tail;1;;milites;;;Milites Latavienses;Dux provinciae Sequanici;Sub dispositione viri spectabilis ducis provinciae Sequanici;Milites Latavienses, Olitione.
+PM000266;Occidentis;1423;Grannona in litore Saxonico;tail;1;;unknown;tribunus;Tribunus;cohortis primae novae Armoricanae;Dux tractus Armoricani;Sub dispositione viri spectabilis ducis tractus Armoricani et Neruicani;Tribunus cohortis primae novae Armoricanae, Grannona in litore Saxonico.
+PM000267;Occidentis;1424;Blabia;tail;1;;unknown;praefectus;Praefectus;militum Carronensium;Dux tractus Armoricani;Sub dispositione viri spectabilis ducis tractus Armoricani et Neruicani;Praefectus militum Carronensium, Blabia.
+PM000268;Occidentis;1425;Benetis;tail;1;;unknown;praefectus;Praefectus;militum Maurorum Benetorum;Dux tractus Armoricani;Sub dispositione viri spectabilis ducis tractus Armoricani et Neruicani;Praefectus militum Maurorum Benetorum, Benetis.
+PM000269;Occidentis;1426;Osismis;tail;1;;unknown;praefectus;Praefectus;militum Maurorum Osismiacorum;Dux tractus Armoricani;Sub dispositione viri spectabilis ducis tractus Armoricani et Neruicani;Praefectus militum Maurorum Osismiacorum, Osismis.
+PM000270;Occidentis;1427;Mannatias;tail;1;;unknown;praefectus;Praefectus;militum superventorum;Dux tractus Armoricani;Sub dispositione viri spectabilis ducis tractus Armoricani et Neruicani;Praefectus militum superventorum, Mannatias.
+PM000271;Occidentis;1428;Aleto;tail;1;;unknown;praefectus;Praefectus;militum Martensium;Dux tractus Armoricani;Sub dispositione viri spectabilis ducis tractus Armoricani et Neruicani;Praefectus militum Martensium, Aleto.
+PM000272;Occidentis;1429;Constantia;tail;1;;unknown;praefectus;Praefectus;militum primae Flaviae;Dux tractus Armoricani;Sub dispositione viri spectabilis ducis tractus Armoricani et Neruicani;Praefectus militum primae Flaviae, Constantia.
+PM000273;Occidentis;1430;Rotomago;tail;1;;unknown;praefectus;Praefectus;militum Ursariensium;Dux tractus Armoricani;Sub dispositione viri spectabilis ducis tractus Armoricani et Neruicani;Praefectus militum Ursariensium, Rotomago.
+PM000274;Occidentis;1431;Abrincatis;tail;1;;unknown;praefectus;Praefectus;militum Dalmatarum;Dux tractus Armoricani;Sub dispositione viri spectabilis ducis tractus Armoricani et Neruicani;Praefectus militum Dalmatarum, Abrincatis.
+PM000275;Occidentis;1432;Grannono;tail;1;;unknown;praefectus;Praefectus;militum Grannonensium;Dux tractus Armoricani;Sub dispositione viri spectabilis ducis tractus Armoricani et Neruicani;Praefectus militum Grannonensium, Grannono.
+PM000276;Occidentis;1452;Marcis in litore Saxonico;tail;1;;equites;;;Equites Dalmatae;Dux Belgicae secundae;Sub dispositione viri spectabilis ducis Balgicae secundae;Equites Dalmatae, Marcis in litore Saxonico.
+PM000277;Occidentis;1453;Hornensi;tail;1;;unknown;praefectus;Praefectus;classis Sambricae;Dux Belgicae secundae;Sub dispositione viri spectabilis ducis Balgicae secundae;Praefectus classis Sambricae, in loco Quartensi siue Hornensi.
+PM000278;Occidentis;1453;Quartensi;tail;1;;unknown;praefectus;Praefectus;classis Sambricae;Dux Belgicae secundae;Sub dispositione viri spectabilis ducis Balgicae secundae;Praefectus classis Sambricae, in loco Quartensi siue Hornensi.
+PM000279;Occidentis;1454;Portu Epatiaci;tail;1;;unknown;tribunus;Tribunus;militum Neruiorum;Dux Belgicae secundae;Sub dispositione viri spectabilis ducis Balgicae secundae;Tribunus militum Neruiorum, Portu Epatiaci.
+PM000280;Occidentis;1471;Praesidio;tail;1;;unknown;praefectus;Praefectus;equitum Dalmatarum;Dux Britanniarum;Sub dispositione viri spectabilis ducis Britanniarum;Praefectus equitum Dalmatarum, Praesidio.
+PM000281;Occidentis;1472;Dano;tail;1;;unknown;praefectus;Praefectus;equitum Crispianorum;Dux Britanniarum;Sub dispositione viri spectabilis ducis Britanniarum;Praefectus equitum Crispianorum, Dano.
+PM000282;Occidentis;1473;Morbio;tail;1;;unknown;praefectus;Praefectus;equitum catafractariorum;Dux Britanniarum;Sub dispositione viri spectabilis ducis Britanniarum;Praefectus equitum catafractariorum, Morbio.
+PM000283;Occidentis;1474;Arbeia;tail;1;;unknown;praefectus;Praefectus;numeri barcariorum Tigrisiensium;Dux Britanniarum;Sub dispositione viri spectabilis ducis Britanniarum;Praefectus numeri barcariorum Tigrisiensium, Arbeia.
+PM000284;Occidentis;1475;Dicti;tail;1;;unknown;praefectus;Praefectus;numeri Neruiorum Dictensium;Dux Britanniarum;Sub dispositione viri spectabilis ducis Britanniarum;Praefectus numeri Neruiorum Dictensium, Dicti.
+PM000285;Occidentis;1476;Concangios;tail;1;;unknown;praefectus;Praefectus;numeri vigilum;Dux Britanniarum;Sub dispositione viri spectabilis ducis Britanniarum;Praefectus numeri vigilum, Concangios.
+PM000286;Occidentis;1477;Lavatres;tail;1;;unknown;praefectus;Praefectus;numeri exploratorum;Dux Britanniarum;Sub dispositione viri spectabilis ducis Britanniarum;Praefectus numeri exploratorum, Lavatres.
+PM000287;Occidentis;1478;Verteris;tail;1;;unknown;praefectus;Praefectus;numeri directorum;Dux Britanniarum;Sub dispositione viri spectabilis ducis Britanniarum;Praefectus numeri directorum, Verteris.
+PM000288;Occidentis;1479;Barboniaco;tail;1;;unknown;praefectus;Praefectus;numeri defensorum;Dux Britanniarum;Sub dispositione viri spectabilis ducis Britanniarum;Praefectus numeri defensorum, Barboniaco.
+PM000289;Occidentis;1480;Maglone;tail;1;;unknown;praefectus;Praefectus;numeri Solensium;Dux Britanniarum;Sub dispositione viri spectabilis ducis Britanniarum;Praefectus numeri Solensium, Maglone.
+PM000290;Occidentis;1481;Magis;tail;1;;unknown;praefectus;Praefectus;numeri Pacensium;Dux Britanniarum;Sub dispositione viri spectabilis ducis Britanniarum;Praefectus numeri Pacensium, Magis.
+PM000291;Occidentis;1482;Longovicio;tail;1;;unknown;praefectus;Praefectus;numeri Longovicanorum;Dux Britanniarum;Sub dispositione viri spectabilis ducis Britanniarum;Praefectus numeri Longovicanorum, Longovicio.
+PM000292;Occidentis;1483;Deruentione;tail;1;;unknown;praefectus;Praefectus;numeri supervenientium Petueriensium;Dux Britanniarum;Sub dispositione viri spectabilis ducis Britanniarum;Praefectus numeri supervenientium Petueriensium, Deruentione.
+PM000293;Occidentis;1485;Segeduno;tail;1;;unknown;tribunus;Tribunus;cohortis quartae Lingonum;Dux Britanniarum;Item per lineam Valli;Tribunus cohortis quartae Lingonum, Segeduno.
+PM000294;Occidentis;1486;Ponte Aeli;tail;1;;unknown;tribunus;Tribunus;cohortis primae Cornoviorum;Dux Britanniarum;Item per lineam Valli;Tribunus cohortis primae Cornoviorum, Ponte Aeli.
+PM000295;Occidentis;1487;Conderco;tail;1;;unknown;praefectus;Praefectus;alae primae Asturum;Dux Britanniarum;Item per lineam Valli;Praefectus alae primae Asturum, Conderco.
+PM000296;Occidentis;1488;Vindobala;tail;1;;unknown;tribunus;Tribunus;cohortis primae Frixagorum;Dux Britanniarum;Item per lineam Valli;Tribunus cohortis primae Frixagorum, Vindobala.
+PM000297;Occidentis;1489;Hunno;tail;1;;unknown;praefectus;Praefectus;alae Sabinianae;Dux Britanniarum;Item per lineam Valli;Praefectus alae Sabinianae, Hunno.
+PM000298;Occidentis;1490;Cilurno;tail;1;;unknown;praefectus;Praefectus;alae secundae Asturum;Dux Britanniarum;Item per lineam Valli;Praefectus alae secundae Asturum, Cilurno.
+PM000299;Occidentis;1491;Procolitia;tail;1;;unknown;tribunus;Tribunus;cohortis primae Batavorum;Dux Britanniarum;Item per lineam Valli;Tribunus cohortis primae Batavorum, Procolitia.
+PM000300;Occidentis;1492;Borcovicio;tail;1;;unknown;tribunus;Tribunus;cohortis primae Tungrorum;Dux Britanniarum;Item per lineam Valli;Tribunus cohortis primae Tungrorum, Borcovicio.
+PM000301;Occidentis;1493;Vindolana;tail;1;;unknown;tribunus;Tribunus;cohortis quartae Gallorum;Dux Britanniarum;Item per lineam Valli;Tribunus cohortis quartae Gallorum, Vindolana.
+PM000302;Occidentis;1494;Aesica;tail;1;;unknown;tribunus;Tribunus;cohortis primae Asturum;Dux Britanniarum;Item per lineam Valli;Tribunus cohortis primae Asturum, Aesica.
+PM000303;Occidentis;1495;Magnis;tail;1;;unknown;tribunus;Tribunus;cohortis secundae Dalmatarum;Dux Britanniarum;Item per lineam Valli;Tribunus cohortis secundae Dalmatarum, Magnis.
+PM000304;Occidentis;1496;Amboglanna;tail;1;;unknown;tribunus;Tribunus;cohortis primae Aeliae Dacorum;Dux Britanniarum;Item per lineam Valli;Tribunus cohortis primae Aeliae Dacorum, Amboglanna.
+PM000305;Occidentis;1497;Petrianis;tail;1;;unknown;praefectus;Praefectus;alae Petrianae;Dux Britanniarum;Item per lineam Valli;Praefectus alae Petrianae, Petrianis.
+PM000306;Occidentis;1499;Aballaba;tail;1;;unknown;praefectus;Praefectus;numeri Maurorum Aurelianorum;Dux Britanniarum;Item per lineam Valli;Praefectus numeri Maurorum Aurelianorum, Aballaba.
+PM000307;Occidentis;1500;Congavata;tail;1;;unknown;tribunus;Tribunus;cohortis secundae Lingonum;Dux Britanniarum;Item per lineam Valli;Tribunus cohortis secundae Lingonum, Congavata.
+PM000308;Occidentis;1501;Axeloduno;tail;1;;unknown;tribunus;Tribunus;cohortis primae Hispanorum;Dux Britanniarum;Item per lineam Valli;Tribunus cohortis primae Hispanorum, Axeloduno.
+PM000309;Occidentis;1502;Gabrosenti;tail;1;;unknown;tribunus;Tribunus;cohortis secundae Thracum;Dux Britanniarum;Item per lineam Valli;Tribunus cohortis secundae Thracum, Gabrosenti.
+PM000310;Occidentis;1503;Tunnocelo;tail;1;;unknown;tribunus;Tribunus;cohortis primae Aeliae classicae;Dux Britanniarum;Item per lineam Valli;Tribunus cohortis primae Aeliae classicae, Tunnocelo.
+PM000311;Occidentis;1504;Glannibanta;tail;1;;unknown;tribunus;Tribunus;cohortis primae Morinorum;Dux Britanniarum;Item per lineam Valli;Tribunus cohortis primae Morinorum, Glannibanta.
+PM000312;Occidentis;1505;Alione;tail;1;;unknown;tribunus;Tribunus;cohortis tertiae Neruiorum;Dux Britanniarum;Item per lineam Valli;Tribunus cohortis tertiae Neruiorum, Alione.
+PM000313;Occidentis;1506;Bremetenraco;tail;1;;cuneus;;;Cuneus Sarmatarum;Dux Britanniarum;Item per lineam Valli;Cuneus Sarmatarum, Bremetenraco.
+PM000314;Occidentis;1507;Olenaco;tail;1;;unknown;praefectus;Praefectus;alae primae Herculeae;Dux Britanniarum;Item per lineam Valli;Praefectus alae primae Herculeae, Olenaco.
+PM000315;Occidentis;1508;Virosido;tail;1;;unknown;tribunus;Tribunus;cohortis sextae Neruiorum;Dux Britanniarum;Item per lineam Valli;Tribunus cohortis sextae Neruiorum, Virosido.
+PM000316;Occidentis;1522;Saletione;tail;1;;unknown;praefectus;Praefectus;militum Pacensium;Dux Mogontiacensis;Sub dispositione viri spectabilis ducis Mogonticensis;Praefectus militum Pacensium, Saletione.
+PM000317;Occidentis;1523;Tabernis;tail;1;;unknown;praefectus;Praefectus;militum Menapiorum;Dux Mogontiacensis;Sub dispositione viri spectabilis ducis Mogonticensis;Praefectus militum Menapiorum, Tabernis.
+PM000318;Occidentis;1524;Vico Iulio;tail;1;;unknown;praefectus;Praefectus;militum Anderetianorum;Dux Mogontiacensis;Sub dispositione viri spectabilis ducis Mogonticensis;Praefectus militum Anderetianorum, Vico Iulio.
+PM000319;Occidentis;1525;Nemetis;tail;1;;unknown;praefectus;Praefectus;militum vindicum;Dux Mogontiacensis;Sub dispositione viri spectabilis ducis Mogonticensis;Praefectus militum vindicum, Nemetis.
+PM000320;Occidentis;1526;Alta Ripa;tail;1;;unknown;praefectus;Praefectus;militum Martensium;Dux Mogontiacensis;Sub dispositione viri spectabilis ducis Mogonticensis;Praefectus militum Martensium, Alta Ripa.
+PM000321;Occidentis;1527;Vangiones;tail;1;;unknown;praefectus;Praefectus;militum secundae Flaviae;Dux Mogontiacensis;Sub dispositione viri spectabilis ducis Mogonticensis;Praefectus militum secundae Flaviae, Vangiones.
+PM000322;Occidentis;1528;Mogontiaco;tail;1;;unknown;praefectus;Praefectus;militum armigerorum;Dux Mogontiacensis;Sub dispositione viri spectabilis ducis Mogonticensis;Praefectus militum armigerorum, Mogontiaco.
+PM000323;Occidentis;1529;Bingio;tail;1;;unknown;praefectus;Praefectus;militum Bingensium;Dux Mogontiacensis;Sub dispositione viri spectabilis ducis Mogonticensis;Praefectus militum Bingensium, Bingio.
+PM000324;Occidentis;1530;Bodobrica;tail;1;;unknown;praefectus;Praefectus;militum balistariorum;Dux Mogontiacensis;Sub dispositione viri spectabilis ducis Mogonticensis;Praefectus militum balistariorum, Bodobrica.
+PM000325;Occidentis;1531;Confluentibus;tail;1;;unknown;praefectus;Praefectus;militum defensorum;Dux Mogontiacensis;Sub dispositione viri spectabilis ducis Mogonticensis;Praefectus militum defensorum, Confluentibus.
+PM000326;Occidentis;1532;Antonaco;tail;1;;unknown;praefectus;Praefectus;militum Acincensium;Dux Mogontiacensis;Sub dispositione viri spectabilis ducis Mogonticensis;Praefectus militum Acincensium, Antonaco.
+PM000327;Occidentis;1547;Aquileiae;tail;1;;unknown;praefectus;Praefectus;classis Venetum;Item praepositurae magistri militum praesentalis a parte peditum;In Italia / In provincia Venetia inferiore;Praefectus classis Venetum, Aquileiae.
+PM000328;Occidentis;1549;Ravennae;tail;1;;unknown;praefectus;Praefectus;militum iuniorum Italicorum;Item praepositurae magistri militum praesentalis a parte peditum;In Italia / In provincia Flaminia;Praefectus militum iuniorum Italicorum, Ravennae.
+PM000329;Occidentis;1550;Ravennae;tail;1;;unknown;praefectus;Praefectus;classis Ravennatium cum curis eiusdem civitatis;Item praepositurae magistri militum praesentalis a parte peditum;In Italia / In provincia Flaminia;Praefectus classis Ravennatium cum curis eiusdem civitatis, Ravennae.
+PM000330;Occidentis;1552;Como;tail;1;;unknown;praefectus;Praefectus;classis Comensis cum curis eiusdem civitatis;Item praepositurae magistri militum praesentalis a parte peditum;In Italia / In provincia Liguria;Praefectus classis Comensis cum curis eiusdem civitatis, Como.
+PM000331;Occidentis;1554;Miseno;tail;1;;unknown;praefectus;Praefectus;classis Misenatium;Item praepositurae magistri militum praesentalis a parte peditum;In Italia / In provincia Campania;Praefectus classis Misenatium, Miseno.
+PM000332;Occidentis;1557;Arelati;tail;1;;unknown;praefectus;Praefectus;classis fluminis Rhodani;Item praepositurae magistri militum praesentalis a parte peditum;In Gallia / In provincia Riparensi;Praefectus classis fluminis Rhodani, Viennae siue Arelati.
+PM000333;Occidentis;1557;Viennae;tail;1;;unknown;praefectus;Praefectus;classis fluminis Rhodani;Item praepositurae magistri militum praesentalis a parte peditum;In Gallia / In provincia Riparensi;Praefectus classis fluminis Rhodani, Viennae siue Arelati.
+PM000334;Occidentis;1558;Ebruduni Sapaudiae;tail;1;;unknown;praefectus;Praefectus;classis barcariorum;Item praepositurae magistri militum praesentalis a parte peditum;In Gallia / In provincia Riparensi;Praefectus classis barcariorum, Ebruduni Sapaudiae.
+PM000335;Occidentis;1559;Massiliae Graecorum;tail;1;;unknown;praefectus;Praefectus;militum musculariorum;Item praepositurae magistri militum praesentalis a parte peditum;In Gallia / In provincia Riparensi;Praefectus militum musculariorum, Massiliae Graecorum.
+PM000336;Occidentis;1560;Calaronae;tail;1;;unknown;tribunus;Tribunus;cohortis primae Flaviae Sapaudicae;Item praepositurae magistri militum praesentalis a parte peditum;In Gallia / In provincia Riparensi;Tribunus cohortis primae Flaviae Sapaudicae, Calaronae.
+PM000337;Occidentis;1562;Lapurdo;tail;1;;unknown;tribunus;Tribunus;cohortis Noevempopulanae;Item praepositurae magistri militum praesentalis a parte peditum;In Gallia / In provincia Novempopulana;Tribunus cohortis Noevempopulanae, Lapurdo.
+PM000338;Occidentis;1564;Caballoduno;tail;1;;unknown;praefectus;Praefectus;classis Araricae;Item praepositurae magistri militum praesentalis a parte peditum;In Gallia / In provincia Lugdunensi prima;Praefectus classis Araricae, Caballoduno.
+PM000339;Occidentis;1566;Parisius;tail;1;;unknown;praefectus;Praefectus;classis Anderetianorum;Item praepositurae magistri militum praesentalis a parte peditum;In Gallia / In provincia Lugdunensis Senonia;Praefectus classis Anderetianorum, Parisius.
+PM000340;Occidentis;1569;Legione;tail;1;;unknown;praefectus;Praefectus;legionis septimae geminae;Item praepositurae magistri militum praesentalis a parte peditum;Hispaniae / In provincia Callaecia;Praefectus legionis septimae geminae, Legione.
+PM000341;Occidentis;1570;Paetaonio;tail;1;;unknown;tribunus;Tribunus;cohortis secundae Flaviae Pacatianae;Item praepositurae magistri militum praesentalis a parte peditum;Hispaniae / In provincia Callaecia;Tribunus cohortis secundae Flaviae Pacatianae, Paetaonio.
+PM000342;Occidentis;1571;ad cohortem Gallicam;tail;1;;unknown;tribunus;Tribunus;cohortis secundae Gallicae;Item praepositurae magistri militum praesentalis a parte peditum;Hispaniae / In provincia Callaecia;Tribunus cohortis secundae Gallicae, ad cohortem Gallicam.
+PM000343;Occidentis;1572;Luco;tail;1;;unknown;tribunus;Tribunus;cohortis Lucensis;Item praepositurae magistri militum praesentalis a parte peditum;Hispaniae / In provincia Callaecia;Tribunus cohortis Lucensis, Luco.
+PM000344;Occidentis;1573;Brigantiae;tail;1;;unknown;tribunus;Tribunus;cohortis Celtiberae;Item praepositurae magistri militum praesentalis a parte peditum;Hispaniae / In provincia Callaecia;Tribunus cohortis Celtiberae, Brigantiae, nunc Iuliobriga.
+PM000345;Occidentis;1573;Iuliobriga;alternate;1;;unknown;tribunus;Tribunus;cohortis Celtiberae;Item praepositurae magistri militum praesentalis a parte peditum;Hispaniae / In provincia Callaecia;Tribunus cohortis Celtiberae, Brigantiae, nunc Iuliobriga.
+PM000346;Occidentis;1575;Veleia;tail;1;;unknown;tribunus;Tribunus;cohortis primae Gallicae;Item praepositurae magistri militum praesentalis a parte peditum;Hispaniae / In provincia Tarraconensi;Tribunus cohortis primae Gallicae, Veleia
+PM000347;Occidentis;1577;Carnunta Senoniae Lugdunensis;tail;1;;unknown;praefectus;Praefectus;laetorum Teutonicianorum;Item praepositurae magistri militum praesentalis a parte peditum;;Praefectus laetorum Teutonicianorum, Carnunta Senoniae Lugdunensis.
+PM000348;Occidentis;1578;Baiocas et Constantiae Lugdunensis secundae;tail;1;;unknown;praefectus;Praefectus;laetorum Batavorum et gentilium Sueuorum;Item praepositurae magistri militum praesentalis a parte peditum;;Praefectus laetorum Batavorum et gentilium Sueuorum, Baiocas et Constantiae Lugdunensis secundae.
+PM000349;Occidentis;1579;....... et Ceromannos Lugdunensis tertiae;tail;1;;unknown;praefectus;Praefectus;laetorum gentilium Sueuorum;Item praepositurae magistri militum praesentalis a parte peditum;;Praefectus laetorum gentilium Sueuorum, ....... et Ceromannos Lugdunensis tertiae.
+PM000350;Occidentis;1580;Redonas Lugdensis tertiae;tail;1;;unknown;praefectus;Praefectus;laetorum Francorum;Item praepositurae magistri militum praesentalis a parte peditum;;Praefectus laetorum Francorum, Redonas Lugdensis tertiae.
+PM000351;Occidentis;1582;Epuso;tail;1;;unknown;praefectus;Praefectus;laetorum Actorum;Item praepositurae magistri militum praesentalis a parte peditum;;Praefectus laetorum Actorum, Epuso Belgicae primae.
+PM000352;Occidentis;1583;Fanomantis;tail;1;;unknown;praefectus;Praefectus;laetorum Neruiorum;Item praepositurae magistri militum praesentalis a parte peditum;;Praefectus laetorum Neruiorum, Fanomantis Belgicae secundae.
+PM000353;Occidentis;1584;Atrabatis;tail;1;;unknown;praefectus;Praefectus;laetorum Batavorum Nemetacensium;Item praepositurae magistri militum praesentalis a parte peditum;;Praefectus laetorum Batavorum Nemetacensium, Atrabatis Belgicae secundae.
+PM000354;Occidentis;1585;Noviomago;tail;1;;unknown;praefectus;Praefectus;laetorum Batavorum Contraginnensium;Item praepositurae magistri militum praesentalis a parte peditum;;Praefectus laetorum Batavorum Contraginnensium, Noviomago Belgicae secundae.
+PM000355;Occidentis;1586;Remo et Silvanectas;tail;1;;unknown;praefectus;Praefectus;laetorum gentilium;Item praepositurae magistri militum praesentalis a parte peditum;;Praefectus laetorum gentilium, Remo et Silvanectas Belgicae secundae.
+PM000356;Occidentis;1587;Tungros;prope;1;;unknown;praefectus;Praefectus;laetorum Lagensium;Item praepositurae magistri militum praesentalis a parte peditum;;Praefectus laetorum Lagensium, prope Tungros Germaniae secundae.
+PM000357;Occidentis;1588;Arumbernos Aquitanicae primae;tail;1;;unknown;praefectus;Praefectus;laetorum gentilium Suevorum;Item praepositurae magistri militum praesentalis a parte peditum;;Praefectus laetorum gentilium Suevorum, Arumbernos Aquitanicae primae.
+PM000358;Occidentis;1597;Foro Fuluiensi;tail;1;;unknown;praefectus;Praefectus;Sarmatarum gentilium;Item praepositurae magistri militum praesentalis a parte peditum;Item in provincia Italia mediterranea;Praefectus Sarmatarum gentilium, Foro Fuluiensi.
+PM000359;Occidentis;1598;Opittergii;tail;1;;unknown;praefectus;Praefectus;Sarmatarum gentilium;Item praepositurae magistri militum praesentalis a parte peditum;Item in provincia Italia mediterranea;Praefectus Sarmatarum gentilium, Opittergii.
+PM000360;Occidentis;1599;Patauio;tail;1;;unknown;praefectus;Praefectus;Sarmatarum gentilium;Item praepositurae magistri militum praesentalis a parte peditum;Item in provincia Italia mediterranea;Praefectus Sarmatarum gentilium, Patauio.
+PM000361;Occidentis;1600;..;tail;1;;unknown;praefectus;Praefectus;Sarmatarum gentilium;Item praepositurae magistri militum praesentalis a parte peditum;Item in provincia Italia mediterranea;Praefectus Sarmatarum gentilium, .....
+PM000362;Occidentis;1601;Cremonae;tail;1;;unknown;praefectus;Praefectus;Sarmatarum gentilium;Item praepositurae magistri militum praesentalis a parte peditum;Item in provincia Italia mediterranea;Praefectus Sarmatarum gentilium, Cremonae.
+PM000363;Occidentis;1602;Taurinis;tail;1;;unknown;praefectus;Praefectus;Sarmatarum gentilium;Item praepositurae magistri militum praesentalis a parte peditum;Item in provincia Italia mediterranea;Praefectus Sarmatarum gentilium, Taurinis.
+PM000364;Occidentis;1603;Aquis;tail;1;;unknown;praefectus;Praefectus;Sarmatarum gentilium;Item praepositurae magistri militum praesentalis a parte peditum;Item in provincia Italia mediterranea;Praefectus Sarmatarum gentilium, Aquis siue Tertona.
+PM000365;Occidentis;1603;Tertona;tail;1;;unknown;praefectus;Praefectus;Sarmatarum gentilium;Item praepositurae magistri militum praesentalis a parte peditum;Item in provincia Italia mediterranea;Praefectus Sarmatarum gentilium, Aquis siue Tertona.
+PM000366;Occidentis;1604;Novariae;tail;1;;unknown;praefectus;Praefectus;Sarmatarum gentilium;Item praepositurae magistri militum praesentalis a parte peditum;Item in provincia Italia mediterranea;Praefectus Sarmatarum gentilium, Novariae.
+PM000367;Occidentis;1605;Vercellis;tail;1;;unknown;praefectus;Praefectus;Sarmatarum gentilium;Item praepositurae magistri militum praesentalis a parte peditum;Item in provincia Italia mediterranea;Praefectus Sarmatarum gentilium, Vercellis.
+PM000368;Occidentis;1607;Bononiae;tail;1;;unknown;praefectus;Praefectus;Sarmatarum gentilium;Item praepositurae magistri militum praesentalis a parte peditum;Item in provincia Italia mediterranea;Praefectus Sarmatarum gentilium, Bononiae in Aemilia.
+PM000369;Occidentis;1608;Quadratis et Eporizio;tail;1;;unknown;praefectus;Praefectus;Sarmatarum gentilium;Item praepositurae magistri militum praesentalis a parte peditum;Item in provincia Italia mediterranea;Praefectus Sarmatarum gentilium, Quadratis et Eporizio.
+PM000370;Occidentis;1609;Pollentia;tail;1;;unknown;praefectus;Praefectus;Sarmatarum gentilium;Item praepositurae magistri militum praesentalis a parte peditum;Item in provincia Italia mediterranea;Praefectus Sarmatarum gentilium, (in Liguria) Pollentia.
+PM000371;Occidentis;1611;Pictavis;tail;1;;unknown;praefectus;Praefectus;Sarmatarum et Taifalorum gentilium;Item praepositurae magistri militum praesentalis a parte peditum;In Gallia;Praefectus Sarmatarum et Taifalorum gentilium, Pictavis.
+PM000372;Occidentis;1615;Lingonas;tail;1;;unknown;praefectus;Praefectus;Sarmatarum gentilium;Item praepositurae magistri militum praesentalis a parte peditum;In Gallia;Praefectus Sarmatarum gentilium, Lingonas.
+PM000373;Occidentis;1616;Au...;tail;1;;unknown;praefectus;Praefectus;Sarmatarum gentilium;Item praepositurae magistri militum praesentalis a parte peditum;In Gallia;Praefectus Sarmatarum gentilium, Au......
+PM000374;Oriens;509;Damasci;tail;1;;unknown;;;Scutaria et armorum;Insignia viri illustris magistri officiorum;Orientis V;Scutaria et armorum, Damasci.
+PM000375;Oriens;510;Antiochiae;tail;1;;unknown;;;Scutaria et armorum;Insignia viri illustris magistri officiorum;Orientis V;Scutaria et armorum, Antiochiae.
+PM000376;Oriens;511;Antiochiae;tail;1;;unknown;;;Clibanaria;Insignia viri illustris magistri officiorum;Orientis V;";Clibanaria, Antiochiae."
+PM000377;Oriens;512;Edesa;tail;1;;unknown;;;Scutaria et armamentaria;Insignia viri illustris magistri officiorum;Orientis V;Scutaria et armamentaria, Edesa.
+PM000378;Oriens;513;Irenopolitana;tail;1;;unknown;;;Hastaria;Insignia viri illustris magistri officiorum;Orientis V;Hastaria Irenopolitana Ciliciae:
+PM000379;Oriens;515;Caesarea;tail;1;;unknown;;;Clibanaria;Insignia viri illustris magistri officiorum;Ponticae quatuor;Clibanaria, Caesarea Cappadociae.
+PM000380;Oriens;516;Nicomediae;tail;1;;unknown;;;Scutaria et armorum;Insignia viri illustris magistri officiorum;Ponticae quatuor;Scutaria et armorum, Nicomediae.
+PM000381;Oriens;517;Nicomediae;tail;1;;unknown;;;Clibanaria;Insignia viri illustris magistri officiorum;Ponticae quatuor;Clibanaria, Nicomediae.
+PM000382;Oriens;519;Sardis;tail;1;;unknown;;;Scutaria et armorum;Insignia viri illustris magistri officiorum;Asianae una;Scutaria et armorum, Sardis Lydiae.
+PM000383;Oriens;521;Hadrianopolis Haemimonti;tail;1;;unknown;;;Scutaria et armorum;Insignia viri illustris magistri officiorum;Thraciarum duae;Scutaria et armorum, Hadrianopolis Haemimonti.
+PM000384;Oriens;522;Marcianopoli;tail;1;;unknown;;;Scutaria et armorum;Insignia viri illustris magistri officiorum;Thraciarum duae;Scutaria et armorum, Marcianopoli.
+PM000385;Oriens;524;Thessalonicensis;factory;1;;unknown;;;Thessalonicensis;Insignia viri illustris magistri officiorum;Illyrici quatuor;Thessalonicensis.
+PM000386;Oriens;525;Naissatensis;factory;1;;unknown;;;Naissatensis;Insignia viri illustris magistri officiorum;Illyrici quatuor;Naissatensis.
+PM000387;Oriens;526;Ratiarensis;factory;1;;unknown;;;Ratiarensis;Insignia viri illustris magistri officiorum;Illyrici quatuor;Ratiarensis.
+PM000388;Oriens;527;Horreomargensis;factory;1;;unknown;;;Scutaria;Insignia viri illustris magistri officiorum;Illyrici quatuor;Scutaria Horreomargensis.
+PM000389;Oriens;793;Memfi;tail;1;;legion;;;Legio quinta Macadonica;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Legio quinta Macadonica, Memfi.
+PM000390;Oriens;794;Babilona;tail;1;;legion;;;Legio tertiadecima gemina;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Legio tertiadecima gemina, Babilona.
+PM000391;Oriens;795;Pelusio;tail;1;;equites;;;Equites stablesiani;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Equites stablesiani, Pelusio.
+PM000392;Oriens;796;Scenas Ueteranorum;tail;1;;equites;;;Equites Saraceni Thamudeni;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Equites Saraceni Thamudeni, Scenas Ueteranorum.
+PM000393;Oriens;797;Andro;tail;1;;legion;;;Legio tertia Diocletiana;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Legio tertia Diocletiana, Andro.
+PM000394;Oriens;798;Parembole;tail;1;;legion;;;Legio secunda Traiana;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Legio secunda Traiana, Parembole.
+PM000395;Oriens;801;Oasi minore;tail;1;;ala;;;Ala secunda Armeniorum;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Ala secunda Armeniorum, Oasi minore.
+PM000396;Oriens;803;Thenenuthi;tail;1;;ala;;;Ala tertia Arabum;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Ala tertia Arabum, Thenenuthi.
+PM000397;Oriens;804;Nee;tail;1;;ala;;;Ala octava Vandilorum;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Ala octava Vandilorum, Nee.
+PM000398;Oriens;805;Scenas Mandrorum;tail;1;;ala;;;Ala septima Sarmatarum;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Ala septima Sarmatarum, Scenas Mandrorum.
+PM000399;Oriens;806;Selle;tail;1;;ala;;;Ala prima Aegyptiorum;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Ala prima Aegyptiorum, Selle.
+PM000400;Oriens;807;Rinocoruna;tail;1;;ala;;;Ala veterana Gallorum;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Ala veterana Gallorum, Rinocoruna.
+PM000401;Oriens;808;Scenas extra Gerasa;tail;1;;ala;;;Ala prima Herculia;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Ala prima Herculia, Scenas extra Gerasa.
+PM000402;Oriens;809;Scenas Veteranorum;tail;1;;ala;;;Ala quinta Raetorum;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Ala quinta Raetorum, Scenas Veteranorum.
+PM000403;Oriens;810;Thinunepis;tail;1;;ala;;;Ala prima Tingitana;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Ala prima Tingitana, Thinunepis.
+PM000404;Oriens;811;Hipponos;tail;1;;ala;;;Ala Apriana;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Ala Apriana, Hipponos.
+PM000405;Oriens;812;Sosteos;tail;1;;ala;;;Ala secunda Assyriorum;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Ala secunda Assyriorum, Sosteos.
+PM000406;Oriens;813;Dionisiada;tail;1;;ala;;;Ala quinta Praelectorum;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Ala quinta Praelectorum, Dionisiada.
+PM000407;Oriens;814;Cefro;tail;1;;cohort;;;Cohors tertia Galatarum;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Cohors tertia Galatarum, Cefro.
+PM000408;Oriens;815;Busiris;tail;1;;cohort;;;Cohors secunda Astarum;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Cohors secunda Astarum, Busiris.
+PM000409;Oriens;817;Thaubasteos;tail;1;;ala;;;Ala secunda Ulpia Afrorum;Comes limitis Aegypti;Provinciae Augustamnicae;Ala secunda Ulpia Afrorum, Thaubasteos.
+PM000410;Oriens;818;Tacasiria;tail;1;;ala;;;Ala secunda Aegyptiorum;Comes limitis Aegypti;Provinciae Augustamnicae;Ala secunda Aegyptiorum, Tacasiria.
+PM000411;Oriens;819;Naithu;tail;1;;cohort;;;Cohors prima sagittariorum;Comes limitis Aegypti;Provinciae Augustamnicae;Cohors prima sagittariorum, Naithu.
+PM000412;Oriens;820;Tohu;tail;1;;cohort;;;Cohors prima Augusta Pannoniorum;Comes limitis Aegypti;Provinciae Augustamnicae;Cohors prima Augusta Pannoniorum, Tohu.
+PM000413;Oriens;821;Castra Iudaeorum;tail;1;;cohort;;;Cohors prima Epireorum;Comes limitis Aegypti;Provinciae Augustamnicae;Cohors prima Epireorum, Castra Iudaeorum.
+PM000414;Oriens;822;Affrodito;tail;1;;cohort;;;Cohors quarta Iuthungorum;Comes limitis Aegypti;Provinciae Augustamnicae;Cohors quarta Iuthungorum, Affrodito.
+PM000415;Oriens;823;Aiy;tail;1;;cohort;;;Cohors secunda Ituraeorum;Comes limitis Aegypti;Provinciae Augustamnicae;Cohors secunda Ituraeorum, Aiy.
+PM000416;Oriens;824;Muson;tail;1;;cohort;;;Cohors secunda Thracum;Comes limitis Aegypti;Provinciae Augustamnicae;Cohors secunda Thracum, Muson.
+PM000417;Oriens;825;Narmunthi;tail;1;;cohort;;;Cohors quarta Numidarum;Comes limitis Aegypti;Provinciae Augustamnicae;Cohors quarta Numidarum, Narmunthi.
+PM000418;Oriens;863;Lico;tail;1;;cuneus;;;Cuneus equitum Maurorum scutariorum;Dux Thebaidos;Sub dispositione viri spectabilis ducis Thebaidos;Cuneus equitum Maurorum scutariorum, Lico.
+PM000419;Oriens;864;Hermupoli;tail;1;;cuneus;;;Cuneus equitum scutariorum;Dux Thebaidos;Sub dispositione viri spectabilis ducis Thebaidos;Cuneus equitum scutariorum, Hermupoli.
+PM000420;Oriens;865;Tentira;tail;1;;equites;;;Equites sagittarii indigenae;Dux Thebaidos;Sub dispositione viri spectabilis ducis Thebaidos;Equites sagittarii indigenae, Tentira.
+PM000421;Oriens;866;Copto;tail;1;;equites;;;Equites sagittarii indigenae;Dux Thebaidos;Sub dispositione viri spectabilis ducis Thebaidos;Equites sagittarii indigenae, Copto.
+PM000422;Oriens;867;Diospoli;tail;1;;equites;;;Equites sagittarii indigenae;Dux Thebaidos;Sub dispositione viri spectabilis ducis Thebaidos;Equites sagittarii indigenae, Diospoli.
+PM000423;Oriens;868;Lato;tail;1;;equites;;;Equites sagittarii indigenae;Dux Thebaidos;Sub dispositione viri spectabilis ducis Thebaidos;Equites sagittarii indigenae, Lato.
+PM000424;Oriens;869;Maximianopoli;tail;1;;equites;;;Equites sagittarii indigenae;Dux Thebaidos;Sub dispositione viri spectabilis ducis Thebaidos;Equites sagittarii indigenae, Maximianopoli.
+PM000425;Oriens;871;Ombos;tail;1;;legion;;;Legio tertia Diocletiana;Dux Thebaidos;Sub dispositione viri spectabilis ducis Thebaidos;Legio tertia Diocletiana, Ombos.
+PM000426;Oriens;872;Cusas;tail;1;;legion;;;Legio secunda Flavia Constantia Thebaeorum;Dux Thebaidos;Sub dispositione viri spectabilis ducis Thebaidos;Legio secunda Flavia Constantia Thebaeorum, Cusas.
+PM000427;Oriens;873;Apollonos superioris;tail;1;;legion;;;Legio secunda Traiana;Dux Thebaidos;Sub dispositione viri spectabilis ducis Thebaidos;Legio secunda Traiana, Apollonos superioris.
+PM000428;Oriens;874;Syene;tail;1;;milites;;;Milites Miliarenses;Dux Thebaidos;Sub dispositione viri spectabilis ducis Thebaidos;Milites Miliarenses, Syene.
+PM000429;Oriens;875;Copto;tail;1;;legion;;;Legio prima Valentiniana;Dux Thebaidos;Sub dispositione viri spectabilis ducis Thebaidos;Legio prima Valentiniana, Copto.
+PM000430;Oriens;876;Filas;tail;1;;legion;;;Legio prima Maximiana;Dux Thebaidos;Sub dispositione viri spectabilis ducis Thebaidos;Legio prima Maximiana, Filas.
+PM000431;Oriens;877;Thebas;tail;1;;legion;;;Legio tertia Diocletiana;Dux Thebaidos;Sub dispositione viri spectabilis ducis Thebaidos;Legio tertia Diocletiana, Thebas.
+PM000432;Oriens;878;Hermunthi;tail;1;;legion;;;Legio secunda Valentiniana;Dux Thebaidos;Sub dispositione viri spectabilis ducis Thebaidos;Legio secunda Valentiniana, Hermunthi.
+PM000433;Oriens;879;Asfynis;tail;1;;equites;;;Equites felices Honoriani;Dux Thebaidos;Sub dispositione viri spectabilis ducis Thebaidos;Equites felices Honoriani, Asfynis.
+PM000434;Oriens;880;Hibeos - Oaseos maioris;tail;1;;ala;;;Ala prima Abasgorum;Dux Thebaidos;Sub dispositione viri spectabilis ducis Thebaidos;Ala prima Abasgorum, Hibeos - Oaseos maioris.
+PM000435;Oriens;882;Poisrietemidos;tail;1;;ala;;;Ala secunda Hispanorum;Dux Thebaidos;Et quae de minore laterculo emittuntur;Ala secunda Hispanorum, Poisrietemidos.
+PM000436;Oriens;883;Pescla;tail;1;;ala;;;Ala Germanorum;Dux Thebaidos;Et quae de minore laterculo emittuntur;Ala Germanorum, Pescla.
+PM000437;Oriens;884;Isiu;tail;1;;ala;;;Ala quarta Britonum;Dux Thebaidos;Et quae de minore laterculo emittuntur;Ala quarta Britonum, Isiu.
+PM000438;Oriens;885;Thmou;tail;1;;ala;;;Ala prima Hiberorum;Dux Thebaidos;Et quae de minore laterculo emittuntur;Ala prima Hiberorum, Thmou.
+PM000439;Oriens;886;Chenoboscia;tail;1;;ala;;;Ala Neptunia;Dux Thebaidos;Et quae de minore laterculo emittuntur;Ala Neptunia, Chenoboscia.
+PM000440;Oriens;887;Maximianopoli;tail;1;;ala;;;Ala tertia dromedariorum;Dux Thebaidos;Et quae de minore laterculo emittuntur;Ala tertia dromedariorum, Maximianopoli.
+PM000441;Oriens;888;Foenicionis;tail;1;;ala;;;Ala octava Palmyrenorum;Dux Thebaidos;Et quae de minore laterculo emittuntur;Ala octava Palmyrenorum, Foenicionis.
+PM000442;Oriens;891;Pampane;tail;1;;ala;;;Ala prima Iovia catafractariorum;Dux Thebaidos;Et quae de minore laterculo emittuntur;Ala prima Iovia catafractariorum, Pampane.
+PM000443;Oriens;892;Abydum - Abocedo;tail;1;;ala;;;Ala octava ....;Dux Thebaidos;Et quae de minore laterculo emittuntur;Ala octava ....., Abydum - Abocedo.
+PM000444;Oriens;893;Psinaula;tail;1;;ala;;;Ala secunda Herculia dromedariorum;Dux Thebaidos;Et quae de minore laterculo emittuntur;Ala secunda Herculia dromedariorum, Psinaula.
+PM000445;Oriens;894;Oasi maiore;tail;1;;ala;;;Ala prima Abasgorum;Dux Thebaidos;Et quae de minore laterculo emittuntur;Ala prima Abasgorum, Oasi maiore.
+PM000446;Oriens;895;Oasi minore - Trimtheos;tail;1;;ala;;;Ala prima Quadorum;Dux Thebaidos;Et quae de minore laterculo emittuntur;Ala prima Quadorum, Oasi minore - Trimtheos.
+PM000447;Oriens;896;Precteos;tail;1;;ala;;;Ala prima Valeria dromedariorum;Dux Thebaidos;Et quae de minore laterculo emittuntur;Ala prima Valeria dromedariorum, Precteos.
+PM000448;Oriens;898;Mutheos;tail;1;;cohort;;;Cohors scutata civium Romanorum;Dux Thebaidos;Et quae de minore laterculo emittuntur;Cohors scutata civium Romanorum, Mutheos.
+PM000449;Oriens;899;Silili;tail;1;;cohort;;;Cohors prima Apamenorum;Dux Thebaidos;Et quae de minore laterculo emittuntur;Cohors prima Apamenorum, Silili.
+PM000450;Oriens;900;Peamu;tail;1;;cohort;;;Cohors undecima Chamauorum;Dux Thebaidos;Et quae de minore laterculo emittuntur;Cohors undecima Chamauorum, Peamu.
+PM000451;Oriens;901;Nitnu;tail;1;;cohort;;;Cohors nona Tzanorum;Dux Thebaidos;Et quae de minore laterculo emittuntur;Cohors nona Tzanorum, Nitnu.
+PM000452;Oriens;902;Burgo Severi;tail;1;;cohort;;;Cohors nona Alamannorum;Dux Thebaidos;Et quae de minore laterculo emittuntur;Cohors nona Alamannorum, Burgo Severi.
+PM000453;Oriens;904;Suene;tail;1;;cohort;;;Cohors quinta Suentium;Dux Thebaidos;Et quae de minore laterculo emittuntur;Cohors quinta Suentium, Suene.
+PM000454;Oriens;905;Lapidariorum;castris;1;;cohort;;;Cohors sexta saginarum;Dux Thebaidos;Et quae de minore laterculo emittuntur;Cohors sexta saginarum, in Castris Lapidariorum.
+PM000455;Oriens;906;Diospoli;tail;1;;cohort;;;Cohors septima Francorum;Dux Thebaidos;Et quae de minore laterculo emittuntur;Cohors septima Francorum, Diospoli.
+PM000456;Oriens;919;Otthara;tail;1;;equites;;;Equites Mauri Illyriciani;Dux Foenicis;Sub dispositione viri spectabilis ducis Foenicis;Equites Mauri Illyriciani, Otthara.
+PM000457;Oriens;920;Euhari;tail;1;;equites;;;Equites scutarii Illyriciani;Dux Foenicis;Sub dispositione viri spectabilis ducis Foenicis;Equites scutarii Illyriciani, Euhari.
+PM000458;Oriens;921;Saltatha;tail;1;;equites;;;Equites promoti indigenae;Dux Foenicis;Sub dispositione viri spectabilis ducis Foenicis;Equites promoti indigenae, Saltatha.
+PM000459;Oriens;922;Lataui;tail;1;;equites;;;Equites Dalmatae Illyriciani;Dux Foenicis;Sub dispositione viri spectabilis ducis Foenicis;Equites Dalmatae Illyriciani, Lataui.
+PM000460;Oriens;923;Auatha;tail;1;;equites;;;Equites promoto indigenae;Dux Foenicis;Sub dispositione viri spectabilis ducis Foenicis;Equites promoto indigenae, Auatha.
+PM000461;Oriens;924;Nazala;tail;1;;equites;;;Equites promoti indigenae;Dux Foenicis;Sub dispositione viri spectabilis ducis Foenicis;Equites promoti indigenae, Nazala.
+PM000462;Oriens;925;Abina;tail;1;;equites;;;Equites sagittarii indigenae;Dux Foenicis;Sub dispositione viri spectabilis ducis Foenicis;Equites sagittarii indigenae, Abina.
+PM000463;Oriens;926;Casama;tail;1;;equites;;;Equites sagittarii indigenae;Dux Foenicis;Sub dispositione viri spectabilis ducis Foenicis;Equites sagittarii indigenae, Casama.
+PM000464;Oriens;927;Calamona;tail;1;;equites;;;Equites sagittarii indigenae;Dux Foenicis;Sub dispositione viri spectabilis ducis Foenicis;Equites sagittarii indigenae, Calamona.
+PM000465;Oriens;928;Betproclis;tail;1;;equites;;;Equites Saraceni indigenae;Dux Foenicis;Sub dispositione viri spectabilis ducis Foenicis;Equites Saraceni indigenae, Betproclis.
+PM000466;Oriens;929;Thelsee;tail;1;;equites;;;Equites Saraceni;Dux Foenicis;Sub dispositione viri spectabilis ducis Foenicis;Equites Saraceni, Thelsee.
+PM000467;Oriens;930;Adatha;tail;1;;equites;;;Equites sagittarii indigenae;Dux Foenicis;Sub dispositione viri spectabilis ducis Foenicis;Equites sagittarii indigenae, Adatha.
+PM000468;Oriens;931;Palmira;tail;1;;unknown;praefectus;Praefectus;legionis primae Illyricorum;Dux Foenicis;Sub dispositione viri spectabilis ducis Foenicis;Praefectus legionis primae Illyricorum, Palmira.
+PM000469;Oriens;932;Danaba;tail;1;;unknown;praefectus;Praefectus;legionis tertiae Gallicae;Dux Foenicis;Sub dispositione viri spectabilis ducis Foenicis;Praefectus legionis tertiae Gallicae, Danaba.
+PM000470;Oriens;934;Monte Iovis;tail;1;;ala;;;Ala prima Damascena;Dux Foenicis;Et quae de minore laterculo emittuntur;Ala prima Damascena, Monte Iovis.
+PM000471;Oriens;935;Veriaraca;tail;1;;ala;;;Ala noun Diocletiana;Dux Foenicis;Et quae de minore laterculo emittuntur;Ala noun Diocletiana, Veriaraca.
+PM000472;Oriens;936;Cunna;tail;1;;ala;;;Ala prima Francorum;Dux Foenicis;Et quae de minore laterculo emittuntur;Ala prima Francorum, Cunna.
+PM000473;Oriens;937;Neia;tail;1;;ala;;;Ala prima Alamannorum;Dux Foenicis;Et quae de minore laterculo emittuntur;Ala prima Alamannorum, Neia.
+PM000474;Oriens;938;Verofabula;tail;1;;ala;;;Ala prima Saxonum;Dux Foenicis;Et quae de minore laterculo emittuntur;Ala prima Saxonum, Verofabula.
+PM000475;Oriens;939;Rene;tail;1;;ala;;;Ala prima Foenicum;Dux Foenicis;Et quae de minore laterculo emittuntur;Ala prima Foenicum, Rene.
+PM000476;Oriens;940;Arefa;tail;1;;ala;;;Ala secunda Salutis;Dux Foenicis;Et quae de minore laterculo emittuntur;Ala secunda Salutis, Arefa.
+PM000477;Oriens;941;Veranoca;tail;1;;cohort;;;Cohors tetria Herculia;Dux Foenicis;Et quae de minore laterculo emittuntur;Cohors tetria Herculia, Veranoca.
+PM000478;Oriens;942;Oneuatha;tail;1;;cohort;;;Cohors quinta pacta Alamannorum;Dux Foenicis;Et quae de minore laterculo emittuntur;Cohors quinta pacta Alamannorum, Oneuatha.
+PM000479;Oriens;943;Vale Alba;tail;1;;cohort;;;Cohors prima Iulia lectorum;Dux Foenicis;Et quae de minore laterculo emittuntur;Cohors prima Iulia lectorum, Vale Alba.
+PM000480;Oriens;944;Valle Diocletiana;tail;1;;cohort;;;Cohors secunda Aegyptiorum;Dux Foenicis;Et quae de minore laterculo emittuntur;Cohors secunda Aegyptiorum, Valle Diocletiana.
+PM000481;Oriens;945;Thama;tail;1;;cohort;;;Cohors prima Orientalis;Dux Foenicis;Et quae de minore laterculo emittuntur;Cohors prima Orientalis, Thama.
+PM000482;Oriens;958;Serianae;tail;1;;equites;;;Equites scutarii Illyriciani;Dux Syriae;Sub dispositiones viri spectabilis ducis Syriae et Eufratensis Syriae;Equites scutarii Illyriciani, Serianae.
+PM000483;Oriens;959;Occariba;tail;1;;equites;;;Equites promoti Illyriciani;Dux Syriae;Sub dispositiones viri spectabilis ducis Syriae et Eufratensis Syriae;Equites promoti Illyriciani, Occariba.
+PM000484;Oriens;960;Matthana;tail;1;;equites;;;Equites sagittarii indigenae;Dux Syriae;Sub dispositiones viri spectabilis ducis Syriae et Eufratensis Syriae;Equites sagittarii indigenae, Matthana.
+PM000485;Oriens;961;Adada;tail;1;;equites;;;Equites promoti indigenae;Dux Syriae;Sub dispositiones viri spectabilis ducis Syriae et Eufratensis Syriae;Equites promoti indigenae, Adada.
+PM000486;Oriens;962;Anatha;tail;1;;equites;;;Equites sagittarii indigenae;Dux Syriae;Sub dispositiones viri spectabilis ducis Syriae et Eufratensis Syriae;Equites sagittarii indigenae, Anatha.
+PM000487;Oriens;963;Acadama;tail;1;;equites;;;Equites sagittarii;Dux Syriae;Sub dispositiones viri spectabilis ducis Syriae et Eufratensis Syriae;Equites sagittarii, Acadama.
+PM000488;Oriens;964;Acauatha;tail;1;;equites;;;Equites sagittarii;Dux Syriae;Sub dispositiones viri spectabilis ducis Syriae et Eufratensis Syriae;Equites sagittarii, Acauatha.
+PM000489;Oriens;965;Oresa;tail;1;;unknown;praefectus;Praefectus;legionis quartae Scythicae;Dux Syriae;Sub dispositiones viri spectabilis ducis Syriae et Eufratensis Syriae;Praefectus legionis quartae Scythicae, Oresa.
+PM000490;Oriens;967;Barbalisso;tail;1;;equites;;;Equites Dalmatae Illyriciani;Dux Syriae;In Augusta Eufratensi;Equites Dalmatae Illyriciani, Barbalisso.
+PM000491;Oriens;968;Neocaesereae;tail;1;;equites;;;Equites Mauri Illyriciani;Dux Syriae;In Augusta Eufratensi;Equites Mauri Illyriciani, Neocaesereae.
+PM000492;Oriens;969;Rosafa;tail;1;;equites;;;Equites promoti indigenae;Dux Syriae;In Augusta Eufratensi;Equites promoti indigenae, Rosafa.
+PM000493;Oriens;970;Sura;tail;1;;unknown;praefectus;Praefectus;legionis sextaedecimae Flaviae firmae;Dux Syriae;In Augusta Eufratensi;Praefectus legionis sextaedecimae Flaviae firmae, Sura.
+PM000494;Oriens;972;Ammuda;tail;1;;ala;;;Ala prima nova Herculia;Dux Syriae;Et quae de minor laterculo emittuntur;Ala prima nova Herculia, Ammuda.
+PM000495;Oriens;973;Salutaria;tail;1;;ala;;;Ala prima Iuthungorum;Dux Syriae;Et quae de minor laterculo emittuntur;Ala prima Iuthungorum, Salutaria.
+PM000496;Oriens;974;Helela;tail;1;;cohort;;;Cohors prima Gotthorum;Dux Syriae;Et quae de minor laterculo emittuntur;Cohors prima Gotthorum, Helela.
+PM000497;Oriens;975;Claudiana;tail;1;;cohort;;;Cohors prima Ulpia Dacorum;Dux Syriae;Et quae de minor laterculo emittuntur;Cohors prima Ulpia Dacorum, Claudiana.
+PM000498;Oriens;976;Marmantharum;tail;1;;cohort;;;Cohors tertia Valeria;Dux Syriae;Et quae de minor laterculo emittuntur;Cohors tertia Valeria, Marmantharum.
+PM000499;Oriens;977;Ammattha;tail;1;;cohort;;;Cohors prima victorum;Dux Syriae;Et quae de minor laterculo emittuntur;Cohors prima victorum, Ammattha.
+PM000500;Oriens;990;Benosabae;tail;1;;equites;;;Equites Dalmatae Illyriciani;Dux Palaestinae;;Equites Dalmatae Illyriciani, Benosabae.
+PM000501;Oriens;991;Benosabae;tail;1;;equites;;;Equites Dalmatae Illyriciani;Dux Palaestinae;;Equites Dalmatae Illyriciani, Benosabae.
+PM000502;Oriens;992;Menochiae;tail;1;;equites;;;Equites promoti Illyriciani;Dux Palaestinae;;Equites promoti Illyriciani, Menochiae.
+PM000503;Oriens;993;Chermulae;tail;1;;equites;;;Equites scutarii Illyriciani;Dux Palaestinae;;Equites scutarii Illyriciani, Chermulae.
+PM000504;Oriens;994;Aeliae;tail;1;;equites;;;Equites Mauri Illyriciani;Dux Palaestinae;;Equites Mauri Illyriciani, Aeliae.
+PM000505;Oriens;995;Birsama;tail;1;;equites;;;Equites Thamudeni Illyriciani;Dux Palaestinae;;Equites Thamudeni Illyriciani, Birsama.
+PM000506;Oriens;996;Sabaiae;tail;1;;equites;;;Equites promiti indigenae;Dux Palaestinae;;Equites promiti indigenae, Sabaiae.
+PM000507;Oriens;997;Zodocathae;tail;1;;equites;;;Equites promiti indigenae;Dux Palaestinae;;Equites promiti indigenae, Zodocathae.
+PM000508;Oriens;998;Hauanae;tail;1;;equites;;;Equites sagittarii indigenae;Dux Palaestinae;;Equites sagittarii indigenae, Hauanae.
+PM000509;Oriens;999;Zoarae;tail;1;;equites;;;Equites sagittarii indigenae;Dux Palaestinae;;Equites sagittarii indigenae, Zoarae.
+PM000510;Oriens;1000;Robatha;tail;1;;equites;;;Equites sagittarii indigenae;Dux Palaestinae;;Equites sagittarii indigenae, Robatha.
+PM000511;Oriens;1001;Sabure;tail;1;;equites;;;Equites primi felices Palaestini;Dux Palaestinae;;Equites primi felices Palaestini, Sabure siue Veterocariae.
+PM000512;Oriens;1001;Veterocariae;tail;1;;equites;;;Equites primi felices Palaestini;Dux Palaestinae;;Equites primi felices Palaestini, Sabure siue Veterocariae.
+PM000513;Oriens;1002;Moahile;tail;1;;equites;;;Equites sagittarii indigenae;Dux Palaestinae;;Equites sagittarii indigenae, Moahile.
+PM000514;Oriens;1003;Ailae;tail;1;;unknown;praefectus;Praefectus;legionis decimae Fretensis;Dux Palaestinae;;Praefectus legionis decimae Fretensis, Ailae.
+PM000515;Oriens;1005;Asuada;tail;1;;ala;;;Ala prima miliaria Sebastena;Dux Palaestinae;Et quae de minore laterculo emittuntur;Ala prima miliaria Sebastena, Asuada.
+PM000516;Oriens;1006;Admatha;tail;1;;ala;;;Ala Antana dromedariorum;Dux Palaestinae;Et quae de minore laterculo emittuntur;Ala Antana dromedariorum, Admatha.
+PM000517;Oriens;1007;Toloha;tail;1;;ala;;;Ala Constantiana;Dux Palaestinae;Et quae de minore laterculo emittuntur;Ala Constantiana, Toloha.
+PM000518;Oriens;1008;apud Praesidium;tail;1;;ala;;;Ala secunda felix Valentiana;Dux Palaestinae;Et quae de minore laterculo emittuntur;Ala secunda felix Valentiana, apud Praesidium.
+PM000519;Oriens;1009;Hasta;tail;1;;ala;;;Ala prima miliara;Dux Palaestinae;Et quae de minore laterculo emittuntur;Ala prima miliara, Hasta.
+PM000520;Oriens;1011;Afro;tail;1;;cohort;;;Cohors duodecima Valeria;Dux Palaestinae;Et quae de minore laterculo emittuntur;Cohors duodecima Valeria, Afro.
+PM000521;Oriens;1012;Cartha;tail;1;;cohort;;;Cohors decima Carthaginensis;Dux Palaestinae;Et quae de minore laterculo emittuntur;Cohors decima Carthaginensis, Cartha.
+PM000522;Oriens;1013;Tarba;tail;1;;cohort;;;Cohors prima agentenaria;Dux Palaestinae;Et quae de minore laterculo emittuntur;Cohors prima agentenaria, Tarba.
+PM000523;Oriens;1014;Praesidio;tail;1;;cohort;;;Cohors quarta Frygium;Dux Palaestinae;Et quae de minore laterculo emittuntur;Cohors quarta Frygium, Praesidio.
+PM000524;Oriens;1015;Iehibo;tail;1;;cohort;;;Cohors secunda Gratiana;Dux Palaestinae;Et quae de minore laterculo emittuntur;Cohors secunda Gratiana, Iehibo.
+PM000525;Oriens;1016;Calamona;tail;1;;cohort;;;Cohors prima equitata;Dux Palaestinae;Et quae de minore laterculo emittuntur;Cohors prima equitata, Calamona.
+PM000526;Oriens;1017;Arieldela;tail;1;;cohort;;;Cohors secunda Galatarum;Dux Palaestinae;Et quae de minore laterculo emittuntur;Cohors secunda Galatarum, Arieldela.
+PM000527;Oriens;1018;Moleaatha;tail;1;;cohort;;;Cohors prima Flavia;Dux Palaestinae;Et quae de minore laterculo emittuntur;Cohors prima Flavia, Moleaatha.
+PM000528;Oriens;1019;Thamana;tail;1;;cohort;;;Cohors quarta Palaestinorum;Dux Palaestinae;Et quae de minore laterculo emittuntur;Cohors quarta Palaestinorum, Thamana.
+PM000529;Oriens;1034;Ganaba;tail;1;;equites;;;Equites Dalmatae Illyriciani;Dux Osrhoenae;Sub dispositione viri spectabilis ducis Osrhoenae;Equites Dalmatae Illyriciani, Ganaba.
+PM000530;Oriens;1035;Callinico;tail;1;;equites;;;Equites promoti Illyriciani;Dux Osrhoenae;Sub dispositione viri spectabilis ducis Osrhoenae;Equites promoti Illyriciani, Callinico.
+PM000531;Oriens;1036;Dabana;tail;1;;equites;;;Equites Mauri Illyriciani;Dux Osrhoenae;Sub dispositione viri spectabilis ducis Osrhoenae;Equites Mauri Illyriciani, Dabana.
+PM000532;Oriens;1037;Banasam;tail;1;;equites;;;Equites promoti indigenae;Dux Osrhoenae;Sub dispositione viri spectabilis ducis Osrhoenae;Equites promoti indigenae, Banasam
+PM000533;Oriens;1038;Sina Iudaeorum;tail;1;;equites;;;Equites promoti indigenae;Dux Osrhoenae;Sub dispositione viri spectabilis ducis Osrhoenae;Equites promoti indigenae, Sina Iudaeorum.
+PM000534;Oriens;1039;Oraba;tail;1;;equites;;;Equites sagittarii indigenae;Dux Osrhoenae;Sub dispositione viri spectabilis ducis Osrhoenae;Equites sagittarii indigenae, Oraba.
+PM000535;Oriens;1040;Thillazamana;tail;1;;equites;;;Equites sagittarii indigenae;Dux Osrhoenae;Sub dispositione viri spectabilis ducis Osrhoenae;Equites sagittarii indigenae, Thillazamana.
+PM000536;Oriens;1041;Mediana;tail;1;;equites;;;Equites sagittarii indigenae Medianenses;Dux Osrhoenae;Sub dispositione viri spectabilis ducis Osrhoenae;Equites sagittarii indigenae Medianenses, Mediana.
+PM000537;Oriens;1042;Rasin;tail;1;;equites;;;Equites primi Osrhoeni;Dux Osrhoenae;Sub dispositione viri spectabilis ducis Osrhoenae;Equites primi Osrhoeni, Rasin.
+PM000538;Oriens;1043;Circesio;tail;1;;unknown;praefectus;Praefectus;legionis quartae Parthicae;Dux Osrhoenae;Sub dispositione viri spectabilis ducis Osrhoenae;Praefectus legionis quartae Parthicae, Circesio.
+PM000539;Oriens;1046;Thillacama;tail;1;;ala;;;Ala septima Valeria praelectorum;Dux Osrhoenae;Et quae de minore laterculo emittuntur;Ala septima Valeria praelectorum, Thillacama.
+PM000540;Oriens;1047;Touia -contra Bintha;tail;1;;ala;;;Ala prima Victoriae;Dux Osrhoenae;Et quae de minore laterculo emittuntur;Ala prima Victoriae, Touia -contra Bintha.
+PM000541;Oriens;1048;Thillafica;tail;1;;ala;;;Ala secunda Paflagonum;Dux Osrhoenae;Et quae de minore laterculo emittuntur;Ala secunda Paflagonum, Thillafica.
+PM000542;Oriens;1049;Resaia;tail;1;;ala;;;Ala prima Parthorum;Dux Osrhoenae;Et quae de minore laterculo emittuntur;Ala prima Parthorum, Resaia.
+PM000543;Oriens;1051;Thillaamana;tail;1;;cohort;;;Cohors prima Gaetulorum;Dux Osrhoenae;Et quae de minore laterculo emittuntur;Cohors prima Gaetulorum, Thillaamana.
+PM000544;Oriens;1052;Maratha;tail;1;;cohort;;;Cohors prima Eufratensis;Dux Osrhoenae;Et quae de minore laterculo emittuntur;Cohors prima Eufratensis, Maratha.
+PM000545;Oriens;1053;Duodecimo constituta;tail;1;;ala;;;Ala prima salutaria;Dux Osrhoenae;Et quae de minore laterculo emittuntur;Ala prima salutaria, Duodecimo constituta.
+PM000546;Oriens;1066;Amidae;tail;1;;equites;;;Equites scutarii Illyriciani;Dux Mesopotamiae;Sub dispositione viri spectibilis ducis Mesopotamiae;Equites scutarii Illyriciani, Amidae.
+PM000547;Oriens;1067;Resain - Theodosiopoli;tail;1;;equites;;;Equites promoti Illyriciani;Dux Mesopotamiae;Sub dispositione viri spectibilis ducis Mesopotamiae;Equites promoti Illyriciani, Resain - Theodosiopoli.
+PM000548;Oriens;1068;Amidae;tail;1;;equites;;;Equites ducatores Illyriciani;Dux Mesopotamiae;Sub dispositione viri spectibilis ducis Mesopotamiae;Equites ducatores Illyriciani, Amidae.
+PM000549;Oriens;1069;Constantia;tail;1;;equites;;;Equites felices Honoriani Illyriciani;Dux Mesopotamiae;Sub dispositione viri spectibilis ducis Mesopotamiae;Equites felices Honoriani Illyriciani, Constantia.
+PM000550;Oriens;1070;Apadna;tail;1;;equites;;;Equites promoti indigenae;Dux Mesopotamiae;Sub dispositione viri spectibilis ducis Mesopotamiae;Equites promoti indigenae, Apadna.
+PM000551;Oriens;1071;Constantina;tail;1;;equites;;;Equites promoti indigenae;Dux Mesopotamiae;Sub dispositione viri spectibilis ducis Mesopotamiae;Equites promoti indigenae, Constantina.
+PM000552;Oriens;1072;Mefana - Cartha;tail;1;;equites;;;Equites sagittarii indigenae Arabanenses;Dux Mesopotamiae;Sub dispositione viri spectibilis ducis Mesopotamiae;Equites sagittarii indigenae Arabanenses, Mefana - Cartha.
+PM000553;Oriens;1073;Assara;tail;1;;equites;;;Equites scutarii indigenae Pafenses;Dux Mesopotamiae;Sub dispositione viri spectibilis ducis Mesopotamiae;Equites scutarii indigenae Pafenses, Assara.
+PM000554;Oriens;1074;Thilbisme;tail;1;;equites;;;Equites sagittarii indigenae Thibithenses;Dux Mesopotamiae;Sub dispositione viri spectibilis ducis Mesopotamiae;Equites sagittarii indigenae Thibithenses, Thilbisme.
+PM000555;Oriens;1075;Thannuri;tail;1;;equites;;;Equites sagittarii indigenae;Dux Mesopotamiae;Sub dispositione viri spectibilis ducis Mesopotamiae;Equites sagittarii indigenae, Thannuri.
+PM000556;Oriens;1076;Constantina;tail;1;;unknown;praefectus;Praefectus;legionis primae Parthicae Nisibenae;Dux Mesopotamiae;Sub dispositione viri spectibilis ducis Mesopotamiae;Praefectus legionis primae Parthicae Nisibenae, Constantina.
+PM000557;Oriens;1077;Cefae;tail;1;;unknown;praefectus;Praefectus;legionis secundae Parthicae;Dux Mesopotamiae;Sub dispositione viri spectibilis ducis Mesopotamiae;Praefectus legionis secundae Parthicae, Cefae.
+PM000558;Oriens;1079;Cartha;tail;1;;ala;;;Ala secunda nova Aegyptiorum;Dux Mesopotamiae;Et quae de minore laterculo emittuntur;Ala secunda nova Aegyptiorum, Cartha.
+PM000559;Oriens;1080;Ripaltha;tail;1;;ala;;;Ala octava Flavia Francorum;Dux Mesopotamiae;Et quae de minore laterculo emittuntur;Ala octava Flavia Francorum, Ripaltha.
+PM000560;Oriens;1081;Caini;tail;1;;ala;;;Ala quintadecima Flavia Carduenorum;Dux Mesopotamiae;Et quae de minore laterculo emittuntur;Ala quintadecima Flavia Carduenorum, Caini.
+PM000561;Oriens;1082;Bethallaha;tail;1;;cohort;;;Cohors quinquagenaria Arabum;Dux Mesopotamiae;Et quae de minore laterculo emittuntur;Cohors quinquagenaria Arabum, Bethallaha.
+PM000562;Oriens;1083;Maiocariri;tail;1;;cohort;;;Cohors quartadecima Valeria Zabdenorum;Dux Mesopotamiae;Et quae de minore laterculo emittuntur;Cohors quartadecima Valeria Zabdenorum, Maiocariri.
+PM000563;Oriens;1096;Motha;tail;1;;equites;;;Equites scutarii Illyriciani;Dux Arabiae;Sub dispositione viri spectabilis ducis Arabiae;Equites scutarii Illyriciani, Motha.
+PM000564;Oriens;1097;Tricomia;tail;1;;equites;;;Equites promoti Illyriciani;Dux Arabiae;Sub dispositione viri spectabilis ducis Arabiae;Equites promoti Illyriciani, Tricomia.
+PM000565;Oriens;1098;Ziza;tail;1;;equites;;;Equites Dalmatae Illyriciani;Dux Arabiae;Sub dispositione viri spectabilis ducis Arabiae;Equites Dalmatae Illyriciani, Ziza.
+PM000566;Oriens;1099;Areopoli;tail;1;;equites;;;Equites Mauri Illyriciani;Dux Arabiae;Sub dispositione viri spectabilis ducis Arabiae;Equites Mauri Illyriciani, Areopoli.
+PM000567;Oriens;1100;Speluncis;tail;1;;equites;;;Equites promoti indigenae;Dux Arabiae;Sub dispositione viri spectabilis ducis Arabiae;Equites promoti indigenae, Speluncis.
+PM000568;Oriens;1101;Mefa;tail;1;;equites;;;Equites promoti indigenae;Dux Arabiae;Sub dispositione viri spectabilis ducis Arabiae;Equites promoti indigenae, Mefa.
+PM000569;Oriens;1102;Gadda;tail;1;;equites;;;Equites sagittari indigenae;Dux Arabiae;Sub dispositione viri spectabilis ducis Arabiae;Equites sagittari indigenae, Gadda.
+PM000570;Oriens;1103;Bostra;tail;1;;unknown;praefectus;Praefectus;legionis tertiae Cyrenaicae;Dux Arabiae;Sub dispositione viri spectabilis ducis Arabiae;Praefectus legionis tertiae Cyrenaicae, Bostra.
+PM000571;Oriens;1104;Betthoro;tail;1;;unknown;praefectus;Praefectus;legionis quartae Martiae;Dux Arabiae;Sub dispositione viri spectabilis ducis Arabiae;Praefectus legionis quartae Martiae, Betthoro.
+PM000572;Oriens;1105;Dia - Fenis;tail;1;;equites;;;Equites sagittarii indigenae;Dux Arabiae;Sub dispositione viri spectabilis ducis Arabiae;Equites sagittarii indigenae, Dia - Fenis.
+PM000573;Oriens;1107;Auatha;tail;1;;ala;;;Ala nona miliaria;Dux Arabiae;Et quae de minore laterculo emittuntur;Ala nona miliaria, Auatha.
+PM000574;Oriens;1108;Gomoha;tail;1;;ala;;;Ala sexta Hispanorum;Dux Arabiae;Et quae de minore laterculo emittuntur;Ala sexta Hispanorum, Gomoha.
+PM000575;Oriens;1109;Libona;tail;1;;ala;;;Ala secunda Constantiana;Dux Arabiae;Et quae de minore laterculo emittuntur;Ala secunda Constantiana, Libona.
+PM000576;Oriens;1110;Naarsafari;tail;1;;ala;;;Ala secunda Miliarensis;Dux Arabiae;Et quae de minore laterculo emittuntur;Ala secunda Miliarensis, Naarsafari.
+PM000577;Oriens;1111;Thainatha;tail;1;;ala;;;Ala prima Valentiana;Dux Arabiae;Et quae de minore laterculo emittuntur;Ala prima Valentiana, Thainatha.
+PM000578;Oriens;1112;apud Adittha;tail;1;;ala;;;Ala secunda felix Valentiniana;Dux Arabiae;Et quae de minore laterculo emittuntur;Ala secunda felix Valentiniana, apud Adittha.
+PM000579;Oriens;1113;Adtitha;tail;1;;cohort;;;Cohors prima miliaria Thracum;Dux Arabiae;Et quae de minore laterculo emittuntur;Cohors prima miliaria Thracum, Adtitha.
+PM000580;Oriens;1114;Asabaia;tail;1;;cohort;;;Cohors prima Thracum;Dux Arabiae;Et quae de minore laterculo emittuntur;Cohors prima Thracum, Asabaia.
+PM000581;Oriens;1115;Ualtha;tail;1;;cohort;;;Cohors octava voluntaria;Dux Arabiae;Et quae de minore laterculo emittuntur;Cohors octava voluntaria, Ualtha.
+PM000582;Oriens;1116;in ripa Vade Afaris Fluvii in castris Arnonensibus;tail;1;;cohort;;;Cohors tertia felix Arabum;Dux Arabiae;Et quae de minore laterculo emittuntur;Cohors tertia felix Arabum, in ripa Vade Afaris Fluvii in castris Arnonensibus.
+PM000583;Oriens;1117;apud Arnona;tail;1;;cohort;;;Cohors tertia Alpinorum;Dux Arabiae;Et quae de minore laterculo emittuntur;Cohors tertia Alpinorum, apud Arnona.
+PM000584;Oriens;1139;Sabbu;tail;1;;equites;;;Equites sagittarii;Dux Armeniae;Sub dispositione viri spectabilis ducis Armeniae;Equites sagittarii, Sabbu.
+PM000585;Oriens;1140;Domana;tail;1;;equites;;;Equites sagittarii;Dux Armeniae;Sub dispositione viri spectabilis ducis Armeniae;Equites sagittarii, Domana.
+PM000586;Oriens;1141;Satala;tail;1;;unknown;praefectus;Praefectus;legionis quintadecimae Apollinaris;Dux Armeniae;Sub dispositione viri spectabilis ducis Armeniae;Praefectus legionis quintadecimae Apollinaris, Satala.
+PM000587;Oriens;1142;Melitena;tail;1;;unknown;praefectus;Praefectus;legionis duodecimae fulminatae;Dux Armeniae;Sub dispositione viri spectabilis ducis Armeniae;Praefectus legionis duodecimae fulminatae, Melitena.
+PM000588;Oriens;1144;Trapezunta;tail;1;;unknown;praefectus;Praefectus;legionis primae Ponticae;Dux Armeniae;In Ponto;Praefectus legionis primae Ponticae, Trapezunta.
+PM000589;Oriens;1145;Aladaleariza;tail;1;;ala;;;Ala Rizena;Dux Armeniae;In Ponto;Ala Rizena, Aladaleariza.
+PM000590;Oriens;1146;apud Auaxam;tail;1;;ala;;;Ala Theodosiana;Dux Armeniae;In Ponto;Ala Theodosiana, apud Auaxam.
+PM000591;Oriens;1147;Siluanis;tail;1;;ala;;;Ala felix Theodosiana;Dux Armeniae;In Ponto;Ala felix Theodosiana, Siluanis.
+PM000592;Oriens;1149;Chiaca;tail;1;;ala;;;Ala prima Augusta Colonorum;Dux Armeniae;Et quae de minore laterculo emittuntur;Ala prima Augusta Colonorum, Chiaca.
+PM000593;Oriens;1150;Dascusa;tail;1;;ala;;;Ala Auriana;Dux Armeniae;Et quae de minore laterculo emittuntur;Ala Auriana, Dascusa.
+PM000594;Oriens;1151;Suissa;tail;1;;ala;;;Ala prima Ulpia Dacorum;Dux Armeniae;Et quae de minore laterculo emittuntur;Ala prima Ulpia Dacorum, Suissa.
+PM000595;Oriens;1152;Aeliana;tail;1;;ala;;;Ala secunda Gallorum;Dux Armeniae;Et quae de minore laterculo emittuntur;Ala secunda Gallorum, Aeliana.
+PM000596;Oriens;1155;Metita;tail;1;;cohort;;;Cohors tertia Ulpia miliaria Petraeorum;Dux Armeniae;Et quae de minore laterculo emittuntur;Cohors tertia Ulpia miliaria Petraeorum, Metita.
+PM000597;Oriens;1156;Analiba;tail;1;;cohort;;;Cohors quarta Raetorum;Dux Armeniae;Et quae de minore laterculo emittuntur;Cohors quarta Raetorum, Analiba.
+PM000598;Oriens;1157;Arauraca;tail;1;;cohort;;;Cohors miliaria Bosporiana;Dux Armeniae;Et quae de minore laterculo emittuntur;Cohors miliaria Bosporiana, Arauraca.
+PM000599;Oriens;1158;Sisila;tail;1;;cohort;;;Cohors miliaria Germanorum;Dux Armeniae;Et quae de minore laterculo emittuntur;Cohors miliaria Germanorum, Sisila.
+PM000600;Oriens;1159;Chaszanenica;tail;1;;ala;;;Ala prima Iovia felix;Dux Armeniae;Et quae de minore laterculo emittuntur;Ala prima Iovia felix, Chaszanenica.
+PM000601;Oriens;1160;Pithiae;tail;1;;ala;;;Ala prima felix Theodosiana;Dux Armeniae;Et quae de minore laterculo emittuntur;Ala prima felix Theodosiana, Pithiae.
+PM000602;Oriens;1161;Valentia;tail;1;;cohort;;;Cohors prima Theodosiana;Dux Armeniae;Et quae de minore laterculo emittuntur;Cohors prima Theodosiana, Valentia.
+PM000603;Oriens;1162;Ysiporto;tail;1;;cohort;;;Cohors Apuleia civium Romanorum;Dux Armeniae;Et quae de minore laterculo emittuntur;Cohors Apuleia civium Romanorum, Ysiporto.
+PM000604;Oriens;1163;Caene - Parembole;tail;1;;cohort;;;Cohors prima Lepidiana;Dux Armeniae;Et quae de minore laterculo emittuntur;Cohors prima Lepidiana, Caene - Parembole.
+PM000605;Oriens;1164;Sebastopolis;tail;1;;cohort;;;Cohors prima Claudia equitata;Dux Armeniae;Et quae de minore laterculo emittuntur;Cohors prima Claudia equitata, Sebastopolis.
+PM000606;Oriens;1165;Ziganne;tail;1;;cohort;;;Cohors secunda Valentiana;Dux Armeniae;Et quae de minore laterculo emittuntur;Cohors secunda Valentiana, Ziganne.
+PM000607;Oriens;1166;Mochora;tail;1;;cohort;;;Cohors;Dux Armeniae;Et quae de minore laterculo emittuntur;Cohors, Mochora.
+PM000608;Oriens;1179;Sacidaua;tail;1;;cuneus;;;Cuneus equitum scutariorum;Dux Scythiae;Sub dispositione viri spectabilis ducis Scythiae;Cuneus equitum scutariorum, Sacidaua.
+PM000609;Oriens;1180;Capidaua;tail;1;;cuneus;;;Cuneus equitum Solensium;Dux Scythiae;Sub dispositione viri spectabilis ducis Scythiae;Cuneus equitum Solensium, Capidaua.
+PM000610;Oriens;1181;Cii;tail;1;;cuneus;;;Cuneus equitum stablesianorum;Dux Scythiae;Sub dispositione viri spectabilis ducis Scythiae;Cuneus equitum stablesianorum, Cii.
+PM000611;Oriens;1182;Bireo;tail;1;;cuneus;;;Cuneus equitum stablesianorum;Dux Scythiae;Sub dispositione viri spectabilis ducis Scythiae;Cuneus equitum stablesianorum, Bireo.
+PM000612;Oriens;1183;Arubio;tail;1;;cuneus;;;Cuneus equitum catafractariorum;Dux Scythiae;Sub dispositione viri spectabilis ducis Scythiae;Cuneus equitum catafractariorum, Arubio.
+PM000613;Oriens;1184;Aegissos;tail;1;;cuneus;;;Cuneus equitum armigerorum;Dux Scythiae;Sub dispositione viri spectabilis ducis Scythiae;Cuneus equitum armigerorum, Aegissos.
+PM000614;Oriens;1185;Talamonio;tail;1;;cuneus;;;Cuneus equitum Arcadum;Dux Scythiae;Sub dispositione viri spectabilis ducis Scythiae;Cuneus equitum Arcadum, Talamonio.
+PM000615;Oriens;1187;Flaviana;tail;1;;milites;;;Milites navclarii;Dux Scythiae;Auxiliares;Milites navclarii, Flaviana.
+PM000616;Oriens;1188;Axiupoli;tail;1;;milites;;;Milites superventores;Dux Scythiae;Auxiliares;Milites superventores, Axiupoli.
+PM000617;Oriens;1189;Carso;tail;1;;milites;;;Milites Scythici;Dux Scythiae;Auxiliares;Milites Scythici, Carso.
+PM000618;Oriens;1190;Trosmis;tail;1;;milites;;;Milites secundi Constantini;Dux Scythiae;Auxiliares;Milites secundi Constantini, Trosmis.
+PM000619;Oriens;1191;Dirigothia;tail;1;;milites;;;Milites Scythici;Dux Scythiae;Auxiliares;Milites Scythici, Dirigothia.
+PM000620;Oriens;1192;Nouioduro;tail;1;;milites;;;Milites primi Constantini;Dux Scythiae;Auxiliares;Milites primi Constantini, Nouioduro.
+PM000621;Oriens;1193;Salsouia;tail;1;;milites;;;Milites quinti Constantini;Dux Scythiae;Auxiliares;Milites quinti Constantini, Salsouia.
+PM000622;Oriens;1194;Gratiana;tail;1;;milites;;;Milites primi Gratianenses;Dux Scythiae;Auxiliares;Milites primi Gratianenses, Gratiana.
+PM000623;Oriens;1196;Trosmis;tail;1;;unknown;praefectus;Praefectus;legionis secundae Herculiae;Dux Scythiae;Item legiones riparienses;Praefectus legionis secundae Herculiae, Trosmis.
+PM000624;Oriens;1197;Axiupoli;tail;1;;unknown;praefectus;Praefectus;ripae legionis secundae Herculiae cohortis quintae pedaturae inferioris;Dux Scythiae;Item legiones riparienses;Praefectus ripae legionis secundae Herculiae cohortis quintae pedaturae inferioris, Axiupoli.
+PM000625;Oriens;1198;Iprosmis;tail;1;;unknown;praefectus;Praefectus;ripae legionis secundae Herculiae cohortis quintae pedaturae inferioris;Dux Scythiae;Item legiones riparienses;Praefectus ripae legionis secundae Herculiae cohortis quintae pedaturae inferioris, Iprosmis.
+PM000626;Oriens;1199;Nouioduno;tail;1;;unknown;praefectus;Praefectus;legionis primae Ioviae;Dux Scythiae;Item legiones riparienses;Praefectus legionis primae Ioviae, Nouioduno.
+PM000627;Oriens;1200;Nouioduno;tail;1;;unknown;praefectus;Praefectus;ripae legionis primae Ioviae cohortis quintae pedaturae superioris;Dux Scythiae;Item legiones riparienses;Praefectus ripae legionis primae Ioviae cohortis quintae pedaturae superioris, Nouioduno.
+PM000628;Oriens;1201;Accisso;tail;1;;unknown;praefectus;Praefectus;ripae legionis primae Ioviae cohortis quintae pedaturae inferioris;Dux Scythiae;Item legiones riparienses;Praefectus ripae legionis primae Ioviae cohortis quintae pedaturae inferioris, Accisso.
+PM000629;Oriens;1216;Securisca;tail;1;;cuneus;;;Cuneus equitum scutariorum;Dux Moesiae secundae;Sub dispositione viri spectabilis ducis moesiae secundae;Cuneus equitum scutariorum, Securisca.
+PM000630;Oriens;1217;Dimo;tail;1;;cuneus;;;Cuneus equitum Solensium;Dux Moesiae secundae;Sub dispositione viri spectabilis ducis moesiae secundae;Cuneus equitum Solensium, Dimo.
+PM000631;Oriens;1218;Latius;tail;1;;cuneus;;;Cuneus equitum scutariorum;Dux Moesiae secundae;Sub dispositione viri spectabilis ducis moesiae secundae;Cuneus equitum scutariorum, Latius.
+PM000632;Oriens;1219;Sexagintaprista;tail;1;;cuneus;;;Cuneus equitum armigerorum;Dux Moesiae secundae;Sub dispositione viri spectabilis ducis moesiae secundae;Cuneus equitum armigerorum, Sexagintaprista.
+PM000633;Oriens;1220;Tegra;tail;1;;cuneus;;;Cuneus equitum secundorum armigerorum;Dux Moesiae secundae;Sub dispositione viri spectabilis ducis moesiae secundae;Cuneus equitum secundorum armigerorum, Tegra.
+PM000634;Oriens;1221;Appiaria;tail;1;;cuneus;;;Cuneus equitum scutariorum;Dux Moesiae secundae;Sub dispositione viri spectabilis ducis moesiae secundae;Cuneus equitum scutariorum, Appiaria.
+PM000635;Oriens;1222;Sucidaua;tail;1;;cuneus;;;Cuneus equitum stablesianorum;Dux Moesiae secundae;Sub dispositione viri spectabilis ducis moesiae secundae;Cuneus equitum stablesianorum, Sucidaua.
+PM000636;Oriens;1224;Ansamo;tail;1;;milites;;;Milites praeventores;Dux Moesiae secundae;Auxiliares;Milites praeventores, Ansamo.
+PM000637;Oriens;1225;Trimammio;tail;1;;milites;;;Milites Constantini;Dux Moesiae secundae;Auxiliares;Milites Constantini, Trimammio.
+PM000638;Oriens;1226;Mediolana;tail;1;;milites;;;Milites Dacisci;Dux Moesiae secundae;Auxiliares;Milites Dacisci, Mediolana.
+PM000639;Oriens;1227;Appiaria;tail;1;;milites;;;Milites tertii navclarii;Dux Moesiae secundae;Auxiliares;Milites tertii navclarii, Appiaria.
+PM000640;Oriens;1228;Transmariscae;tail;1;;milites;;;Milites Novenses;Dux Moesiae secundae;Auxiliares;Milites Novenses, Transmariscae.
+PM000641;Oriens;1229;Candidiana;tail;1;;milites;;;Milites primi Moesiaci;Dux Moesiae secundae;Auxiliares;Milites primi Moesiaci, Candidiana.
+PM000642;Oriens;1230;Teglicio;tail;1;;milites;;;Milites Moesiaci;Dux Moesiae secundae;Auxiliares;Milites Moesiaci, Teglicio.
+PM000643;Oriens;1231;Durostoro;tail;1;;milites;;;Milites quarti Constantiani;Dux Moesiae secundae;Auxiliares;Milites quarti Constantiani, Durostoro.
+PM000644;Oriens;1232;Cimbrianis;tail;1;;milites;;;Milites Cimbriani;Dux Moesiae secundae;Auxiliares;Milites Cimbriani, Cimbrianis.
+PM000645;Oriens;1233;Altino;tail;1;;milites;;;Milites navclarii Altinenses;Dux Moesiae secundae;Auxiliares;Milites navclarii Altinenses, Altino.
+PM000646;Oriens;1235;Nouas;tail;1;;unknown;praefectus;Praefectus;legionis primae Italicae;Dux Moesiae secundae;Item legiones riparienses;Praefectus legionis primae Italicae, Nouas.
+PM000647;Oriens;1236;Nouas;tail;1;;unknown;praefectus;Praefectus;ripae legionis primae Italicae cohortis quintae pedaturae superioris;Dux Moesiae secundae;Item legiones riparienses;Praefectus ripae legionis primae Italicae cohortis quintae pedaturae superioris, Nouas.
+PM000648;Oriens;1237;Sexagintaprista;tail;1;;unknown;praefectus;Praefectus;ripae legionis primae Italicae cohortis quintae pedaturae inferioris;Dux Moesiae secundae;Item legiones riparienses;Praefectus ripae legionis primae Italicae cohortis quintae pedaturae inferioris, Sexagintaprista.
+PM000649;Oriens;1238;Durostoro;tail;1;;unknown;praefectus;Praefectus;legionis undecimae Claudiae;Dux Moesiae secundae;Item legiones riparienses;Praefectus legionis undecimae Claudiae, Durostoro.
+PM000650;Oriens;1239;Transmariscae;tail;1;;unknown;praefectus;Praefectus;ripae legionis undecimae Claudiae cohortis quintae pedaturae superioris;Dux Moesiae secundae;Item legiones riparienses;Praefectus ripae legionis undecimae Claudiae cohortis quintae pedaturae superioris, Transmariscae.
+PM000651;Oriens;1240;Transmariscae;tail;1;;unknown;praefectus;Praefectus;ripae legionis undecimae Claudiae cohortis quintae pedaturae inferioris;Dux Moesiae secundae;Item legiones riparienses;Praefectus ripae legionis undecimae Claudiae cohortis quintae pedaturae inferioris, Transmariscae.
+PM000652;Oriens;1251;Ulucitra;tail;1;;cohort;;;Cohors quarta Gallorum;Dux Moesiae secundae;Et quae de minore laterculo emittuntur / In provincia Rhodopa;Cohors quarta Gallorum, Ulucitra.
+PM000653;Oriens;1253;sub Radice - Viamata;tail;1;;cohort;;;Cohors prima Aureliana;Dux Moesiae secundae;Et quae de minore laterculo emittuntur / In provincia Thracia;Cohors prima Aureliana, sub Radice - Viamata.
+PM000654;Oriens;1254;Drasdea;tail;1;;cohort;;;Cohors tertia Valeria Bacarum;Dux Moesiae secundae;Et quae de minore laterculo emittuntur / In provincia Thracia;Cohors tertia Valeria Bacarum, Drasdea.
+PM000655;Oriens;1260;Pinco;tail;1;;cuneus;;;Cuneus equtum Constantacorum;Dux Moesiae primae;Sub dispositione viri spectabilis ducis Moesiae primae;Cuneus equtum Constantacorum, Pinco.
+PM000656;Oriens;1261;Flaviana;tail;1;;cuneus;;;Cuneus equtum promotorum;Dux Moesiae primae;Sub dispositione viri spectabilis ducis Moesiae primae;Cuneus equtum promotorum, Flaviana.
+PM000657;Oriens;1262;Tricornio;tail;1;;cuneus;;;Cuneus equtum sagittariorum;Dux Moesiae primae;Sub dispositione viri spectabilis ducis Moesiae primae;Cuneus equtum sagittariorum, Tricornio.
+PM000658;Oriens;1263;Aureomonto;tail;1;;cuneus;;;Cuneus equtum Dalmatarum;Dux Moesiae primae;Sub dispositione viri spectabilis ducis Moesiae primae;Cuneus equtum Dalmatarum, Aureomonto.
+PM000659;Oriens;1264;Viminacio;tail;1;;cuneus;;;Cuneus equtum promotorum;Dux Moesiae primae;Sub dispositione viri spectabilis ducis Moesiae primae;Cuneus equtum promotorum, Viminacio.
+PM000660;Oriens;1265;Laedenatae;tail;1;;cuneus;;;Cuneus equtum sagittariorum;Dux Moesiae primae;Sub dispositione viri spectabilis ducis Moesiae primae;Cuneus equtum sagittariorum, Laedenatae.
+PM000661;Oriens;1266;Pinco;tail;1;;cuneus;;;Cuneus equtum Dalmatarum;Dux Moesiae primae;Sub dispositione viri spectabilis ducis Moesiae primae;Cuneus equtum Dalmatarum, Pinco.
+PM000662;Oriens;1267;Cuppis;tail;1;;cuneus;;;Cuneus equtum Dalmatarum;Dux Moesiae primae;Sub dispositione viri spectabilis ducis Moesiae primae;Cuneus equtum Dalmatarum, Cuppis.
+PM000663;Oriens;1272;Margo;tail;1;;auxilia;;;Auxilium Margense;Dux Moesiae primae;Auxiliares;Auxilium Margense, Margo.
+PM000664;Oriens;1273;Cuppis;tail;1;;auxilia;;;Auxilium Cuppense;Dux Moesiae primae;Auxiliares;Auxilium Cuppense, Cuppis.
+PM000665;Oriens;1274;Gratiana;tail;1;;auxilia;;;Auxilium Gratianense;Dux Moesiae primae;Auxiliares;Auxilium Gratianense, Gratiana.
+PM000666;Oriens;1275;Taliata;tail;1;;auxilia;;;Auxilium Taliatense;Dux Moesiae primae;Auxiliares;Auxilium Taliatense, Taliata.
+PM000667;Oriens;1276;Tricornio;tail;1;;auxilia;;;Auxilium Aureomontanum;Dux Moesiae primae;Auxiliares;Auxilium Aureomontanum, Tricornio.
+PM000668;Oriens;1278;Singiduno;tail;1;;unknown;praefectus;Praefectus;legionis quartae Flaviae;Dux Moesiae primae;Item legiones;Praefectus legionis quartae Flaviae, Singiduno.
+PM000669;Oriens;1279;Cuppis;tail;1;;unknown;praefectus;Praefectus;legionis septimae Claudiae;Dux Moesiae primae;Item legiones;Praefectus legionis septimae Claudiae, Cuppis.
+PM000670;Oriens;1281;Novis;tail;1;;unknown;praefectus;Praefectus;militum exploratorum;Dux Moesiae primae;Item legiones;Praefectus militum exploratorum, Novis.
+PM000671;Oriens;1282;Taliatae;tail;1;;unknown;praefectus;Praefectus;militum exploratorum;Dux Moesiae primae;Item legiones;Praefectus militum exploratorum, Taliatae.
+PM000672;Oriens;1283;Laedemata;tail;1;;unknown;praefectus;Praefectus;militum Vincentiensium;Dux Moesiae primae;Item legiones;Praefectus militum Vincentiensium, Laedemata.
+PM000673;Oriens;1284;Zmirnae;tail;1;;unknown;praefectus;Praefectus;militum exploratorum;Dux Moesiae primae;Item legiones;Praefectus militum exploratorum, Zmirnae.
+PM000674;Oriens;1285;Viminacio;tail;1;;unknown;praefectus;Praefectus;classis Histricae;Dux Moesiae primae;Item legiones;Praefectus classis Histricae, Viminacio
+PM000675;Oriens;1286;Margo;tail;1;;unknown;praefectus;Praefectus;classis Stradensis et Germensis;Dux Moesiae primae;Item legiones;Praefectus classis Stradensis et Germensis, Margo.
+PM000676;Oriens;1299;Bononia;tail;1;;cuneus;;;Cuneus equitum Dalmatarum Fortensium;Dux Daciae ripensis;Sub dispositione viri spectabilis ducis Daciae ripensis;Cuneus equitum Dalmatarum Fortensium, Bononia.
+PM000677;Oriens;1300;Dortico;tail;1;;cuneus;;;Cuneus equitum Dalmatarum Divitensium;Dux Daciae ripensis;Sub dispositione viri spectabilis ducis Daciae ripensis;Cuneus equitum Dalmatarum Divitensium, Dortico.
+PM000678;Oriens;1301;Cebro;tail;1;;cuneus;;;Cuneus equitum scutariorum;Dux Daciae ripensis;Sub dispositione viri spectabilis ducis Daciae ripensis;Cuneus equitum scutariorum, Cebro.
+PM000679;Oriens;1302;Drobeta;tail;1;;cuneus;;;Cuneus equitum Dalmatarum Divitensium;Dux Daciae ripensis;Sub dispositione viri spectabilis ducis Daciae ripensis;Cuneus equitum Dalmatarum Divitensium, Drobeta.
+PM000680;Oriens;1303;Augustae;tail;1;;cuneus;;;Cuneus equitum Dalmatarum;Dux Daciae ripensis;Sub dispositione viri spectabilis ducis Daciae ripensis;Cuneus equitum Dalmatarum, Augustae.
+PM000681;Oriens;1304;Varina;tail;1;;cuneus;;;Cuneus equitum Dalmatarum;Dux Daciae ripensis;Sub dispositione viri spectabilis ducis Daciae ripensis;Cuneus equitum Dalmatarum, Varina.
+PM000682;Oriens;1305;Almo;tail;1;;cuneus;;;Cuneus equitum stablesianorum;Dux Daciae ripensis;Sub dispositione viri spectabilis ducis Daciae ripensis;Cuneus equitum stablesianorum, Almo.
+PM000683;Oriens;1306;Aegetae;tail;1;;cuneus;;;Cuneus equitum scutariorum;Dux Daciae ripensis;Sub dispositione viri spectabilis ducis Daciae ripensis;Cuneus equitum scutariorum, Aegetae.
+PM000684;Oriens;1307;Uto;tail;1;;cuneus;;;Cuneus equitum Constantinianorum;Dux Daciae ripensis;Sub dispositione viri spectabilis ducis Daciae ripensis;Cuneus equitum Constantinianorum, Uto.
+PM000685;Oriens;1309;Transalba;tail;1;;auxilia;;;Auxilium Miliarensium;Dux Daciae ripensis;Auxiliares;Auxilium Miliarensium,Transalba.
+PM000686;Oriens;1310;Drobeta;tail;1;;auxilia;;;Auxilium primorum Daciscorum;Dux Daciae ripensis;Auxiliares;Auxilium primorum Daciscorum, Drobeta.
+PM000687;Oriens;1311;Crispitia;tail;1;;auxilia;;;Auxilium Crispitiense;Dux Daciae ripensis;Auxiliares;Auxilium Crispitiense, Crispitia.
+PM000688;Oriens;1312;Oesco;tail;1;;auxilia;;;Auxilium Mariensium;Dux Daciae ripensis;Auxiliares;Auxilium Mariensium, Oesco.
+PM000689;Oriens;1313;Transluco;tail;1;;auxilia;;;Auxilium Claustrinorum;Dux Daciae ripensis;Auxiliares;Auxilium Claustrinorum, Transluco.
+PM000690;Oriens;1314;Burgo Zono;tail;1;;auxilia;;;Auxilium secundorum Daciscorum;Dux Daciae ripensis;Auxiliares;Auxilium secundorum Daciscorum, Burgo Zono.
+PM000691;Oriens;1315;Transdiernis;tail;1;;unknown;praefectus;Praefectus;militum exploratorum;Dux Daciae ripensis;Auxiliares;Praefectus militum exploratorum, Transdiernis.
+PM000692;Oriens;1317;Variniana;tail;1;;unknown;praefectus;Praefectus;legionis quintae Macedonicae;Dux Daciae ripensis;Item legiones;Praefectus legionis quintae Macedonicae, Variniana.
+PM000693;Oriens;1318;Cebro;tail;1;;unknown;praefectus;Praefectus;legionis quintae Macedonicae;Dux Daciae ripensis;Item legiones;Praefectus legionis quintae Macedonicae, Cebro.
+PM000694;Oriens;1319;Oesco;tail;1;;unknown;praefectus;Praefectus;legionis quintae Macedonicae;Dux Daciae ripensis;Item legiones;Praefectus legionis quintae Macedonicae, Oesco.
+PM000695;Oriens;1320;Aegeta;tail;1;;unknown;praefectus;Praefectus;legionis tertiaedecimae geminae;Dux Daciae ripensis;Item legiones;Praefectus legionis tertiaedecimae geminae, Aegeta.
+PM000696;Oriens;1321;Transdrobeta;tail;1;;unknown;praefectus;Praefectus;legionis tertiaedecimae geminae;Dux Daciae ripensis;Item legiones;Praefectus legionis tertiaedecimae geminae, Transdrobeta.
+PM000697;Oriens;1322;Burgo Novo;tail;1;;unknown;praefectus;Praefectus;legionis tertiaedecimae geminae;Dux Daciae ripensis;Item legiones;Praefectus legionis tertiaedecimae geminae, Burgo Novo.
+PM000698;Oriens;1323;Zernis;tail;1;;unknown;praefectus;Praefectus;legionis tertiaedecimae geminae;Dux Daciae ripensis;Item legiones;Praefectus legionis tertiaedecimae geminae, Zernis.
+PM000699;Oriens;1324;Ratiaria;tail;1;;unknown;praefectus;Praefectus;legionis tertiaedecimae geminae;Dux Daciae ripensis;Item legiones;Praefectus legionis tertiaedecimae geminae, Ratiaria.
+PM000700;Oriens;1325;Sucidaua;tail;1;;unknown;praefectus;Praefectus;legionis quintae Macedonicae;Dux Daciae ripensis;Item legiones;Praefectus legionis quintae Macedonicae, Sucidaua.
+PM000701;Oriens;1326;Siosta;tail;1;;unknown;tribunus;Tribunus;cohortis secundorum reducum;Dux Daciae ripensis;Item legiones;Tribunus cohortis secundorum reducum, Siosta.
+PM000702;Oriens;1328;Aegetae;tail;1;;unknown;praefectus;Praefectus;classis Histricae;Dux Daciae ripensis;Item legiones;Praefectus classis Histricae, Aegetae.

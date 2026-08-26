@@ -1,0 +1,48 @@
+blockType,category,semanticType,container,count,example
+Africae,unknown,unknown,,1,Africae septem
+Auxilia,military,unitGroup,Y,1,Auxilia palatina sexaginta quinque
+Britanniarum,unknown,unknown,,1,Britanniarum V
+Comites limitum infrascriptorum...,unknown,unknown,,1,Comites limitum infrascriptorum...
+Comites rei militaris,administration,officeGroup,Y,1,Comites rei militaris sex
+Consulares,administration,officeGroup,Y,6,Consulares viginti duo
+Correctores,administration,officeGroup,Y,2,Correctores tres
+Duces,administration,officeGroup,Y,1,Duces duodecim
+Extenditur,structure,note,,1,Extenditur tamen tractus Armoricani et Neruicani limitis per provincias quinque
+Fabricae,production,factoryGroup,Y,1,Fabricae infrascriptae
+Gallicanarum,unknown,unknown,,1,Gallicanarum
+Hispaniae,unknown,unknown,,1,Hispaniae
+Hispaniarum,unknown,unknown,,1,Hispaniarum VII
+Illyrici,unknown,unknown,,1,Illyrici sex
+In,geography,region,Y,6,In Illyrico
+In provincia,geography,province,Y,10,In provincia Venetia inferiore
+Intra,geography,region,Y,12,Intra Italiam
+Italiae,unknown,unknown,,1,Italiae
+Italiae et,unknown,unknown,,1,Italiae decem et septem
+Item,structure,continuation,Y,4,Item Vexillationes
+Legiones comitatenses,military,unitGroup,Y,1,Legiones comitatenses XXXII
+Legiones palatinae,military,unitGroup,Y,1,Legiones palatinae XII
+Limitanei,military,unitGroup,Y,2,Limitanei
+Magistri scriniorum,administration,officeGroup,Y,1,Magistri scriniorum
+Officium,structure,staff,Y,34,Officium viri illustris praefecti praeterio Italiae
+Orientalium,unknown,unknown,,1,Orientalium
+Per,geography,region,Y,17,Per Pannoniam unus
+Praepositi bastagarum,finance,officeGroup,Y,1,Praepositi bastagarum
+Praepositi branbaricariorum,finance,officeGroup,Y,1,Praepositi branbaricariorum siue argentariorum
+Praepositi thesauroum,finance,officeGroup,Y,1,Praepositi thesauroum
+Praesides,administration,officeGroup,Y,6,Praesides triginta unum
+Procuratores bafiorum,finance,officeGroup,Y,1,Procuratores bafiorum
+Procuratores gynaeciorum,finance,officeGroup,Y,1,Procuratores gynaeciorum
+Procuratores linyfiorum,finance,officeGroup,Y,1,Procuratores linyfiorum
+Procuratores monetarum,finance,officeGroup,Y,1,Procuratores monetarum
+Provinciae,unknown,unknown,,2,Provinciae
+Pseudocomitatenses,military,unitGroup,Y,1,Pseudocomitatenses XVIII
+Rationales,finance,officeGroup,Y,1,Rationales
+Sub cura,structure,supervision,Y,1,Sub cura viri spectabilis primicerii notariorum
+Sub dispositione,structure,office,Y,32,Sub dispositione viri illustris praefecti praetorio Italiae dioceses infrascriptae
+Sub iurisdictione,structure,jurisdiction,Y,2,Sub iurisdictione viri clarissimi correctoris Apuliae et Calabriae
+Vexillationes comitatenses.....,unknown,unknown,,1,Vexillationes comitatenses.....
+Vexillationes palatinae,military,unitGroup,Y,1,Vexillationes palatinae decem
+Vicarii,administration,officeGroup,Y,1,Vicarii sex
+duces limitum infrascriptorum,unknown,unknown,,1,duces limitum infrascriptorum decem
+peditum,unknown,unknown,,1,peditum
+provinciarum,unknown,unknown,,1,Septem provinciarum XVII

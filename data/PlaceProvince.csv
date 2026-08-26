@@ -1,0 +1,115 @@
+placeId,placeName,chapter,unit,provinceName,latitude,longitude,method
+,Satala,Dux Armeniae.,Praefectus legionis quintadecimae Apollinaris,ARMENIA MINOR,40.028003,39.597903,polygon
+,Sebastopolis,Dux Armeniae.,Cohors prima Claudia equitata,DIOSPONTUS,39.997498,36.083607,polygon
+,Dabana,Dux Osrhoenae.,Equites Mauri Illyriciani,DIOSPONTUS,40.052834,35.823299,polygon
+,Flaviana,Dux Moesiae primae.,Cuneus equtum promotorum,CAPPADOCIA,38.644718,35.583065,polygon
+,Flaviana,Dux Scythiae.,Milites navclarii,CAPPADOCIA,38.644718,35.583065,polygon
+,Adada,Dux Syriae.,Equites promoti indigenae,PISIDIA,37.572796,30.984062,polygon
+,Sura,Dux Syriae.,Praefectus legionis sextaedecimae Flaviae firmae,"LYCIA ET
+PAMPHYLIA",36.244327,29.944305,polygon
+,Constantia,Dux Mesopotamiae.,Equites felices Honoriani Illyriciani,,44.176716,28.650760,
+,Constantia,Dux tractus Armoricani.,Praefectus militum primae Flaviae,,44.176716,28.650760,
+,Cii,Dux Scythiae.,Cuneus equitum stablesianorum,CARIA,37.816778,27.887416,polygon
+,Oresa,Dux Syriae.,Praefectus legionis quartae Scythicae,,47.187859,27.434560,
+,Arbore,Dux Raetiae.,Tribunus cohortis Herculeae Pannoniorum,,47.742671,25.866319,
+,Metita,Dux Armeniae.,Cohors tertia Ulpia miliaria Petraeorum,,44.077859,23.911351,
+,Syene,Dux Thebaidos.,Milites Miliarenses,ACHAIA,37.985012,23.753267,polygon
+,Ratiaria,Dux Daciae ripensis.,Praefectus legionis tertiaedecimae geminae,DACIA RIPENSIS,43.817086,22.908232,polygon
+,Drobeta,Dux Daciae ripensis.,Auxilium primorum Daciscorum,,44.625784,22.653198,
+,Drobeta,Dux Daciae ripensis.,Cuneus equitum Dalmatarum Divitensium,,44.625784,22.653198,
+,Trapezunta,Dux Armeniae.,Praefectus legionis primae Ponticae,MACEDONIA,40.334222,22.524169,polygon
+,Areopoli,Dux Arabiae.,Equites Mauri Illyriciani,ACHAIA,36.665535,22.382907,polygon
+,Claudiana,Dux Syriae.,Cohors prima Ulpia Dacorum,EPIRUS NOVA,41.046130,19.749452,polygon
+,Campona,Dux provinciae Valeriae.,Equites Dalmatae,,47.407250,19.018653,
+,Intercisa,Dux provinciae Valeriae.,Cuneus equitum Dalmatarum,,46.976273,18.936614,
+,Intercisa,Dux provinciae Valeriae.,Equites sagittarii,,46.976273,18.936614,
+,Ad Herculem,Dux Pannoniae primae.,Equites Dalmatae,VALERIA,47.790640,18.901537,polygon
+,ad Herculem,Dux Pannoniae.,Auxilia Herculensia,VALERIA,47.790640,18.901537,polygon
+,Ad Herculem,Dux provinciae Valeriae.,Auxilia Herculensia,VALERIA,47.790640,18.901537,polygon
+,Ad Herculem,Dux provinciae Valeriae.,Equites Dalmatae,VALERIA,47.790640,18.901537,polygon
+,Alta Ripa,Dux Mogontiacensis.,Praefectus militum Martensium,,46.422658,18.788774,
+,Ad Statuas,Dux provinciae Valeriae.,Equites Dalmatae,"PANNONIA
+SUPERIOR",47.751458,18.050998,polygon
+,Gratiana,Dux Moesiae primae.,Auxilium Gratianense,SAVIA,45.146195,17.252075,polygon
+,Gratiana,Dux Scythiae.,Milites primi Gratianenses,SAVIA,45.146195,17.252075,polygon
+,Almo,Dux Daciae ripensis.,Cuneus equitum stablesianorum,DALMATIA,43.443497,16.692277,polygon
+,Iovia,Dux provinciae Valeriae.,Tribunus cohortis,SAVIA,46.249524,16.618091,polygon
+,Cannabiaca,Dux Pannoniae primae.,Tribunus cohortis,"NORICUM
+RIPENSE",48.329257,16.178272,polygon
+,Calamona,Dux Foenicis.,Equites sagittarii indigenae,SICILIA,38.287178,15.513229,polygon
+,Calamona,Dux Palaestinae.,Cohors prima equitata,SICILIA,38.287178,15.513229,polygon
+,Matrice,Dux provinciae Valeriae.,Equites promoti,FLAMINIA ET PICENUM,41.614098,14.710208,polygon
+,Altino,Dux Moesiae secundae.,Milites navclarii Altinenses,FLAMINIA ET PICENUM,42.099337,14.331615,polygon
+,Altino,Dux provinciae Valeriae.,Cuneus equitum Fortensium,FLAMINIA ET PICENUM,42.099337,14.331615,polygon
+,Cusi,Dux Pannoniae.,Equites Dalmatae,"VENETIA ET
+HISTRIA",45.252980,13.997357,polygon
+,Caini,Dux Mesopotamiae.,Ala quintadecima Flavia Carduenorum,"VENETIA ET
+HISTRIA",45.418849,13.942631,polygon
+,Carso,Dux Scythiae.,Milites Scythici,"VENETIA ET
+HISTRIA",45.755094,13.793283,polygon
+,Cuccis,Dux Pannoniae.,Cuneus equitum promotorum,,52.534552,13.197683,
+,Cuccis,Dux Pannoniae.,Equites sagittarii,,52.534552,13.197683,
+,Cuppis,Dux Moesiae primae.,Auxilium Cuppense,FLAMINIA ET PICENUM,43.844037,13.018574,polygon
+,Cuppis,Dux Moesiae primae.,Cuneus equtum Dalmatarum,FLAMINIA ET PICENUM,43.844037,13.018574,polygon
+,Cuppis,Dux Moesiae primae.,Praefectus legionis septimae Claudiae,FLAMINIA ET PICENUM,43.844037,13.018574,polygon
+,Albano,Dux Pannoniae.,Equites Dalmatae,CAMPANIA,41.747961,12.670204,polygon
+,Augustae,Dux Daciae ripensis.,Cuneus equitum Dalmatarum,TUSCIA ET UMBRIA,41.906151,12.475502,polygon
+,Ad Novas,Dux Moesiae primae.,Auxiliares Novenses,AEMILIA ET LIGURIA,44.201641,12.403875,polygon
+,Callinico,Dux Osrhoenae.,Equites promoti Illyriciani,TUSCIA ET UMBRIA,42.416696,12.106581,polygon
+,Abusina,Dux Raetiae.,Tribunus cohortis tertiae Brittorum,RAETIA,48.850379,11.771006,polygon
+,Bononiae,Dux Pannoniae.,Praefectus legionis quintae Ioviae cohortis quintae partis superioris,AEMILIA ET LIGURIA,44.492101,11.346497,polygon
+,Bononia,Dux Daciae ripensis.,Cuneus equitum Dalmatarum Fortensium,AEMILIA ET LIGURIA,44.493820,11.342633,polygon
+,Teriolis,Dux Raetiae.,Praefectus legionis tertiae Italicae transvectioni specierum deputatae,RAETIA,47.273377,11.242235,polygon
+,Teriolis,Dux Raetiae.,Tribunus gentis per Raetias deputatae,RAETIA,47.273377,11.242235,polygon
+,Mediana,Dux Osrhoenae.,Equites sagittarii indigenae Medianenses,AEMILIA ET LIGURIA,44.324161,10.822928,polygon
+,Pinianis,Dux Raetiae.,Tribunus cohortis quintae Valeriae Frygum,,48.505189,10.415339,
+,Morbio,Dux Britanniarum.,Praefectus equitum catafractariorum,AEMILIA ET LIGURIA,45.853047,9.016289,polygon
+,Ad Militare,Dux provinciae Valeriae.,Equites Flavianenses,,50.136901,8.606045,
+,Suissa,Dux Armeniae.,Ala prima Ulpia Dacorum,SEQUANIA,46.798562,8.231974,polygon
+,Vico Iulio,Dux Mogontiacensis.,Praefectus militum Anderetianorum,AEMILIA ET LIGURIA,45.606924,8.191484,polygon
+,Vale Alba,Dux Foenicis.,Cohors prima Iulia lectorum,RAETIA,46.293867,7.850651,polygon
+,Quadrato,Dux Pannoniae primae.,Equites Mauri,AEMILIA ET LIGURIA,45.080527,7.634362,polygon
+,Confluentibus,Dux Mogontiacensis.,Praefectus militum defensorum,GERMANIA I,50.353328,7.594395,polygon
+,Rene,Dux Foenicis.,Ala prima Foenicum,,52.279771,7.437362,
+,Flexo,Dux Pannoniae primae.,Cuneus equitum Dalmatarum,SEQUANIA,47.746990,7.337618,polygon
+,Flexo,Dux Pannoniae primae.,Equites promoti,SEQUANIA,47.746990,7.337618,polygon
+,Constantina,Dux Mesopotamiae.,Equites promoti indigenae,"NUMIDIA
+CIRTENSIS",36.364164,6.608428,polygon
+,Constantina,Dux Mesopotamiae.,Praefectus legionis primae Parthicae Nisibenae,"NUMIDIA
+CIRTENSIS",36.364164,6.608428,polygon
+,Hunno,Dux Britanniarum.,Praefectus alae Sabinianae,,52.235392,6.108604,
+,Novas,Dux Pannoniae.,Equites Dalmatae,VIENNENSIS,43.876189,4.901209,polygon
+,Sabbu,Dux Armeniae.,Equites sagittarii,GERMANIA II,52.324801,4.867926,polygon
+,Abina,Dux Foenicis.,Equites sagittarii indigenae,GERMANIA II,52.311408,4.846574,polygon
+,Cebro,Dux Daciae ripensis.,Cuneus equitum scutariorum,GERMANIA II,52.266248,4.725981,polygon
+,Cebro,Dux Daciae ripensis.,Praefectus legionis quintae Macedonicae,GERMANIA II,52.266248,4.725981,polygon
+,Solue,Dux provinciae Valeriae.,Cuneus equitum scutatorum,LUGDUNENSIS II,48.121907,3.896619,polygon
+,Nouas,Dux Moesiae secundae.,Praefectus legionis primae Italicae,NARBONENSIS I,43.537156,3.859772,polygon
+,Nouas,Dux Moesiae secundae.,Praefectus ripae legionis primae Italicae cohortis quintae pedaturae superioris,NARBONENSIS I,43.537156,3.859772,polygon
+,Novis,Dux Moesiae primae.,Praefectus militum exploratorum,NARBONENSIS I,44.269337,3.109925,polygon
+,Maglone,Dux Britanniarum.,Praefectus numeri Solensium,LUGDUNENSIS II,48.855544,2.340132,polygon
+,Tegra,Dux Moesiae secundae.,Cuneus equitum secundorum armigerorum,AQUITANIA I,44.821084,1.755719,polygon
+,Tarba,Dux Palaestinae.,Cohors prima agentenaria,"NOVEM
+POPULI",43.232858,0.078102,polygon
+,Ripa Alta,Dux provinciae Valeriae.,Equites Dalmatae,"NOVEM
+POPULI",43.605525,0.046362,polygon
+,Ad Mauros,Dux Pannoniae primae.,Equites promoti,AQUITANIA II,44.621654,-0.039716,polygon
+,Valentia,Dux Armeniae.,Cohors prima Theodosiana,CARTBAGINIENSIS,39.469707,-0.376335,polygon
+,Cornaco,Dux Pannoniae.,Equites Dalmatae,CARTBAGINIENSIS,39.762515,-0.436996,polygon
+,Aleto,Dux tractus Armoricani.,Praefectus militum Martensium,CARTBAGINIENSIS,39.651880,-1.064836,polygon
+,Tricornio,Dux Moesiae primae.,Auxiliares Tricornienses,TARRACONENSIS,42.084437,-1.707098,polygon
+,Tricornio,Dux Moesiae primae.,Auxilium Aureomontanum,TARRACONENSIS,42.084437,-1.707098,polygon
+,Tricornio,Dux Moesiae primae.,Cuneus equtum sagittariorum,TARRACONENSIS,42.084437,-1.707098,polygon
+,Vindobala,Dux Britanniarum.,Tribunus cohortis primae Frixagorum,BRITANNIAE I AND II,55.002491,-1.825522,polygon
+,Solua,Dux provinciae Valeriae.,Equites Mauri,TARRACONENSIS,43.102037,-2.419593,polygon
+,Aesica,Dux Britanniarum.,Tribunus cohortis primae Asturum,BRITANNIAE I AND II,54.994815,-2.464496,polygon
+,Adnamantia,Dux provinciae Valeriae.,Equites Dalmatae,CARTBAGINIENSIS,41.487065,-2.533599,polygon
+,Magnis,Dux Britanniarum.,Tribunus cohortis secundae Dalmatarum,BRITANNIAE I AND II,52.081096,-2.817303,polygon
+,Oesco,Dux Daciae ripensis.,Auxilium Mariensium,BAETICA,36.128344,-5.353741,polygon
+,Oesco,Dux Daciae ripensis.,Praefectus legionis quintae Macedonicae,BAETICA,36.128344,-5.353741,polygon
+,Burgo Novo,Dux Daciae ripensis.,Praefectus legionis tertiaedecimae geminae,LUSITANIA,40.099994,-8.234526,polygon
+,Cartha,Dux Mesopotamiae.,Ala secunda nova Aegyptiorum,,53.260650,-8.492026,
+,Cartha,Dux Palaestinae.,Cohors decima Carthaginensis,,53.260650,-8.492026,
+,Neia,Dux Foenicis.,Ala prima Alamannorum,LUSITANIA,38.524177,-8.889462,polygon
+,Afro,Dux Palaestinae.,Cohors duodecima Valeria,LUSITANIA,38.711018,-9.150090,polygon
+,Siosta,Dux Daciae ripensis.,Tribunus cohortis secundorum reducum,,51.778007,-9.731095,

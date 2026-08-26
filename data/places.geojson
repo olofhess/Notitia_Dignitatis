@@ -1,0 +1,1877 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.597903,
+          40.028003
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Satala",
+        "chapter": "Dux Armeniae.",
+        "unit": "Praefectus legionis quintadecimae Apollinaris",
+        "province": "ARMENIA MINOR",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.083607,
+          39.997498
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Sebastopolis",
+        "chapter": "Dux Armeniae.",
+        "unit": "Cohors prima Claudia equitata",
+        "province": "DIOSPONTUS",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.823299,
+          40.052834
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Dabana",
+        "chapter": "Dux Osrhoenae.",
+        "unit": "Equites Mauri Illyriciani",
+        "province": "DIOSPONTUS",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.583065,
+          38.644718
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Flaviana",
+        "chapter": "Dux Moesiae primae.",
+        "unit": "Cuneus equtum promotorum",
+        "province": "CAPPADOCIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.583065,
+          38.644718
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Flaviana",
+        "chapter": "Dux Scythiae.",
+        "unit": "Milites navclarii",
+        "province": "CAPPADOCIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.984062,
+          37.572796
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Adada",
+        "chapter": "Dux Syriae.",
+        "unit": "Equites promoti indigenae",
+        "province": "PISIDIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.944305,
+          36.244327
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Sura",
+        "chapter": "Dux Syriae.",
+        "unit": "Praefectus legionis sextaedecimae Flaviae firmae",
+        "province": "LYCIA ET\nPAMPHYLIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.65076,
+          44.176716
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Constantia",
+        "chapter": "Dux Mesopotamiae.",
+        "unit": "Equites felices Honoriani Illyriciani",
+        "province": "",
+        "method": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.65076,
+          44.176716
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Constantia",
+        "chapter": "Dux tractus Armoricani.",
+        "unit": "Praefectus militum primae Flaviae",
+        "province": "",
+        "method": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.887416,
+          37.816778
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Cii",
+        "chapter": "Dux Scythiae.",
+        "unit": "Cuneus equitum stablesianorum",
+        "province": "CARIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.43456,
+          47.187859
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Oresa",
+        "chapter": "Dux Syriae.",
+        "unit": "Praefectus legionis quartae Scythicae",
+        "province": "",
+        "method": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.866319,
+          47.742671
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Arbore",
+        "chapter": "Dux Raetiae.",
+        "unit": "Tribunus cohortis Herculeae Pannoniorum",
+        "province": "",
+        "method": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.911351,
+          44.077859
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Metita",
+        "chapter": "Dux Armeniae.",
+        "unit": "Cohors tertia Ulpia miliaria Petraeorum",
+        "province": "",
+        "method": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.753267,
+          37.985012
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Syene",
+        "chapter": "Dux Thebaidos.",
+        "unit": "Milites Miliarenses",
+        "province": "ACHAIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.908232,
+          43.817086
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Ratiaria",
+        "chapter": "Dux Daciae ripensis.",
+        "unit": "Praefectus legionis tertiaedecimae geminae",
+        "province": "DACIA RIPENSIS",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.653198,
+          44.625784
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Drobeta",
+        "chapter": "Dux Daciae ripensis.",
+        "unit": "Auxilium primorum Daciscorum",
+        "province": "",
+        "method": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.653198,
+          44.625784
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Drobeta",
+        "chapter": "Dux Daciae ripensis.",
+        "unit": "Cuneus equitum Dalmatarum Divitensium",
+        "province": "",
+        "method": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.524169,
+          40.334222
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Trapezunta",
+        "chapter": "Dux Armeniae.",
+        "unit": "Praefectus legionis primae Ponticae",
+        "province": "MACEDONIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.382907,
+          36.665535
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Areopoli",
+        "chapter": "Dux Arabiae.",
+        "unit": "Equites Mauri Illyriciani",
+        "province": "ACHAIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.749452,
+          41.04613
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Claudiana",
+        "chapter": "Dux Syriae.",
+        "unit": "Cohors prima Ulpia Dacorum",
+        "province": "EPIRUS NOVA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.018653,
+          47.40725
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Campona",
+        "chapter": "Dux provinciae Valeriae.",
+        "unit": "Equites Dalmatae",
+        "province": "",
+        "method": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.936614,
+          46.976273
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Intercisa",
+        "chapter": "Dux provinciae Valeriae.",
+        "unit": "Cuneus equitum Dalmatarum",
+        "province": "",
+        "method": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.936614,
+          46.976273
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Intercisa",
+        "chapter": "Dux provinciae Valeriae.",
+        "unit": "Equites sagittarii",
+        "province": "",
+        "method": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.901537,
+          47.79064
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Ad Herculem",
+        "chapter": "Dux Pannoniae primae.",
+        "unit": "Equites Dalmatae",
+        "province": "VALERIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.901537,
+          47.79064
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "ad Herculem",
+        "chapter": "Dux Pannoniae.",
+        "unit": "Auxilia Herculensia",
+        "province": "VALERIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.901537,
+          47.79064
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Ad Herculem",
+        "chapter": "Dux provinciae Valeriae.",
+        "unit": "Auxilia Herculensia",
+        "province": "VALERIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.901537,
+          47.79064
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Ad Herculem",
+        "chapter": "Dux provinciae Valeriae.",
+        "unit": "Equites Dalmatae",
+        "province": "VALERIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.788774,
+          46.422658
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Alta Ripa",
+        "chapter": "Dux Mogontiacensis.",
+        "unit": "Praefectus militum Martensium",
+        "province": "",
+        "method": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.050998,
+          47.751458
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Ad Statuas",
+        "chapter": "Dux provinciae Valeriae.",
+        "unit": "Equites Dalmatae",
+        "province": "PANNONIA\nSUPERIOR",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.252075,
+          45.146195
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Gratiana",
+        "chapter": "Dux Moesiae primae.",
+        "unit": "Auxilium Gratianense",
+        "province": "SAVIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.252075,
+          45.146195
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Gratiana",
+        "chapter": "Dux Scythiae.",
+        "unit": "Milites primi Gratianenses",
+        "province": "SAVIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.692277,
+          43.443497
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Almo",
+        "chapter": "Dux Daciae ripensis.",
+        "unit": "Cuneus equitum stablesianorum",
+        "province": "DALMATIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.618091,
+          46.249524
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Iovia",
+        "chapter": "Dux provinciae Valeriae.",
+        "unit": "Tribunus cohortis",
+        "province": "SAVIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.178272,
+          48.329257
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Cannabiaca",
+        "chapter": "Dux Pannoniae primae.",
+        "unit": "Tribunus cohortis",
+        "province": "NORICUM\nRIPENSE",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.513229,
+          38.287178
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Calamona",
+        "chapter": "Dux Foenicis.",
+        "unit": "Equites sagittarii indigenae",
+        "province": "SICILIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.513229,
+          38.287178
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Calamona",
+        "chapter": "Dux Palaestinae.",
+        "unit": "Cohors prima equitata",
+        "province": "SICILIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.710208,
+          41.614098
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Matrice",
+        "chapter": "Dux provinciae Valeriae.",
+        "unit": "Equites promoti",
+        "province": "FLAMINIA ET PICENUM",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.331615,
+          42.099337
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Altino",
+        "chapter": "Dux Moesiae secundae.",
+        "unit": "Milites navclarii Altinenses",
+        "province": "FLAMINIA ET PICENUM",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.331615,
+          42.099337
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Altino",
+        "chapter": "Dux provinciae Valeriae.",
+        "unit": "Cuneus equitum Fortensium",
+        "province": "FLAMINIA ET PICENUM",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.997357,
+          45.25298
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Cusi",
+        "chapter": "Dux Pannoniae.",
+        "unit": "Equites Dalmatae",
+        "province": "VENETIA ET\nHISTRIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.942631,
+          45.418849
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Caini",
+        "chapter": "Dux Mesopotamiae.",
+        "unit": "Ala quintadecima Flavia Carduenorum",
+        "province": "VENETIA ET\nHISTRIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.793283,
+          45.755094
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Carso",
+        "chapter": "Dux Scythiae.",
+        "unit": "Milites Scythici",
+        "province": "VENETIA ET\nHISTRIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.197683,
+          52.534552
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Cuccis",
+        "chapter": "Dux Pannoniae.",
+        "unit": "Cuneus equitum promotorum",
+        "province": "",
+        "method": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.197683,
+          52.534552
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Cuccis",
+        "chapter": "Dux Pannoniae.",
+        "unit": "Equites sagittarii",
+        "province": "",
+        "method": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.018574,
+          43.844037
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Cuppis",
+        "chapter": "Dux Moesiae primae.",
+        "unit": "Auxilium Cuppense",
+        "province": "FLAMINIA ET PICENUM",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.018574,
+          43.844037
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Cuppis",
+        "chapter": "Dux Moesiae primae.",
+        "unit": "Cuneus equtum Dalmatarum",
+        "province": "FLAMINIA ET PICENUM",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.018574,
+          43.844037
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Cuppis",
+        "chapter": "Dux Moesiae primae.",
+        "unit": "Praefectus legionis septimae Claudiae",
+        "province": "FLAMINIA ET PICENUM",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.670204,
+          41.747961
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Albano",
+        "chapter": "Dux Pannoniae.",
+        "unit": "Equites Dalmatae",
+        "province": "CAMPANIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.475502,
+          41.906151
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Augustae",
+        "chapter": "Dux Daciae ripensis.",
+        "unit": "Cuneus equitum Dalmatarum",
+        "province": "TUSCIA ET UMBRIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.403875,
+          44.201641
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Ad Novas",
+        "chapter": "Dux Moesiae primae.",
+        "unit": "Auxiliares Novenses",
+        "province": "AEMILIA ET LIGURIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.106581,
+          42.416696
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Callinico",
+        "chapter": "Dux Osrhoenae.",
+        "unit": "Equites promoti Illyriciani",
+        "province": "TUSCIA ET UMBRIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.771006,
+          48.850379
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Abusina",
+        "chapter": "Dux Raetiae.",
+        "unit": "Tribunus cohortis tertiae Brittorum",
+        "province": "RAETIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.346497,
+          44.492101
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Bononiae",
+        "chapter": "Dux Pannoniae.",
+        "unit": "Praefectus legionis quintae Ioviae cohortis quintae partis superioris",
+        "province": "AEMILIA ET LIGURIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.342633,
+          44.49382
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Bononia",
+        "chapter": "Dux Daciae ripensis.",
+        "unit": "Cuneus equitum Dalmatarum Fortensium",
+        "province": "AEMILIA ET LIGURIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.242235,
+          47.273377
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Teriolis",
+        "chapter": "Dux Raetiae.",
+        "unit": "Praefectus legionis tertiae Italicae transvectioni specierum deputatae",
+        "province": "RAETIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.242235,
+          47.273377
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Teriolis",
+        "chapter": "Dux Raetiae.",
+        "unit": "Tribunus gentis per Raetias deputatae",
+        "province": "RAETIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.822928,
+          44.324161
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Mediana",
+        "chapter": "Dux Osrhoenae.",
+        "unit": "Equites sagittarii indigenae Medianenses",
+        "province": "AEMILIA ET LIGURIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.415339,
+          48.505189
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Pinianis",
+        "chapter": "Dux Raetiae.",
+        "unit": "Tribunus cohortis quintae Valeriae Frygum",
+        "province": "",
+        "method": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.016289,
+          45.853047
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Morbio",
+        "chapter": "Dux Britanniarum.",
+        "unit": "Praefectus equitum catafractariorum",
+        "province": "AEMILIA ET LIGURIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.606045,
+          50.136901
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Ad Militare",
+        "chapter": "Dux provinciae Valeriae.",
+        "unit": "Equites Flavianenses",
+        "province": "",
+        "method": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.231974,
+          46.798562
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Suissa",
+        "chapter": "Dux Armeniae.",
+        "unit": "Ala prima Ulpia Dacorum",
+        "province": "SEQUANIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.191484,
+          45.606924
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Vico Iulio",
+        "chapter": "Dux Mogontiacensis.",
+        "unit": "Praefectus militum Anderetianorum",
+        "province": "AEMILIA ET LIGURIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.850651,
+          46.293867
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Vale Alba",
+        "chapter": "Dux Foenicis.",
+        "unit": "Cohors prima Iulia lectorum",
+        "province": "RAETIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.634362,
+          45.080527
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Quadrato",
+        "chapter": "Dux Pannoniae primae.",
+        "unit": "Equites Mauri",
+        "province": "AEMILIA ET LIGURIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.594395,
+          50.353328
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Confluentibus",
+        "chapter": "Dux Mogontiacensis.",
+        "unit": "Praefectus militum defensorum",
+        "province": "GERMANIA I",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.437362,
+          52.279771
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Rene",
+        "chapter": "Dux Foenicis.",
+        "unit": "Ala prima Foenicum",
+        "province": "",
+        "method": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.337618,
+          47.74699
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Flexo",
+        "chapter": "Dux Pannoniae primae.",
+        "unit": "Cuneus equitum Dalmatarum",
+        "province": "SEQUANIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.337618,
+          47.74699
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Flexo",
+        "chapter": "Dux Pannoniae primae.",
+        "unit": "Equites promoti",
+        "province": "SEQUANIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.608428,
+          36.364164
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Constantina",
+        "chapter": "Dux Mesopotamiae.",
+        "unit": "Equites promoti indigenae",
+        "province": "NUMIDIA\nCIRTENSIS",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.608428,
+          36.364164
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Constantina",
+        "chapter": "Dux Mesopotamiae.",
+        "unit": "Praefectus legionis primae Parthicae Nisibenae",
+        "province": "NUMIDIA\nCIRTENSIS",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.108604,
+          52.235392
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Hunno",
+        "chapter": "Dux Britanniarum.",
+        "unit": "Praefectus alae Sabinianae",
+        "province": "",
+        "method": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.901209,
+          43.876189
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Novas",
+        "chapter": "Dux Pannoniae.",
+        "unit": "Equites Dalmatae",
+        "province": "VIENNENSIS",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.867926,
+          52.324801
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Sabbu",
+        "chapter": "Dux Armeniae.",
+        "unit": "Equites sagittarii",
+        "province": "GERMANIA II",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.846574,
+          52.311408
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Abina",
+        "chapter": "Dux Foenicis.",
+        "unit": "Equites sagittarii indigenae",
+        "province": "GERMANIA II",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.725981,
+          52.266248
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Cebro",
+        "chapter": "Dux Daciae ripensis.",
+        "unit": "Cuneus equitum scutariorum",
+        "province": "GERMANIA II",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.725981,
+          52.266248
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Cebro",
+        "chapter": "Dux Daciae ripensis.",
+        "unit": "Praefectus legionis quintae Macedonicae",
+        "province": "GERMANIA II",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.896619,
+          48.121907
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Solue",
+        "chapter": "Dux provinciae Valeriae.",
+        "unit": "Cuneus equitum scutatorum",
+        "province": "LUGDUNENSIS II",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.859772,
+          43.537156
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Nouas",
+        "chapter": "Dux Moesiae secundae.",
+        "unit": "Praefectus legionis primae Italicae",
+        "province": "NARBONENSIS I",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.859772,
+          43.537156
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Nouas",
+        "chapter": "Dux Moesiae secundae.",
+        "unit": "Praefectus ripae legionis primae Italicae cohortis quintae pedaturae superioris",
+        "province": "NARBONENSIS I",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.109925,
+          44.269337
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Novis",
+        "chapter": "Dux Moesiae primae.",
+        "unit": "Praefectus militum exploratorum",
+        "province": "NARBONENSIS I",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.340132,
+          48.855544
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Maglone",
+        "chapter": "Dux Britanniarum.",
+        "unit": "Praefectus numeri Solensium",
+        "province": "LUGDUNENSIS II",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.755719,
+          44.821084
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Tegra",
+        "chapter": "Dux Moesiae secundae.",
+        "unit": "Cuneus equitum secundorum armigerorum",
+        "province": "AQUITANIA I",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.078102,
+          43.232858
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Tarba",
+        "chapter": "Dux Palaestinae.",
+        "unit": "Cohors prima agentenaria",
+        "province": "NOVEM\nPOPULI",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.046362,
+          43.605525
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Ripa Alta",
+        "chapter": "Dux provinciae Valeriae.",
+        "unit": "Equites Dalmatae",
+        "province": "NOVEM\nPOPULI",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.039716,
+          44.621654
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Ad Mauros",
+        "chapter": "Dux Pannoniae primae.",
+        "unit": "Equites promoti",
+        "province": "AQUITANIA II",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.376335,
+          39.469707
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Valentia",
+        "chapter": "Dux Armeniae.",
+        "unit": "Cohors prima Theodosiana",
+        "province": "CARTBAGINIENSIS",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.436996,
+          39.762515
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Cornaco",
+        "chapter": "Dux Pannoniae.",
+        "unit": "Equites Dalmatae",
+        "province": "CARTBAGINIENSIS",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.064836,
+          39.65188
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Aleto",
+        "chapter": "Dux tractus Armoricani.",
+        "unit": "Praefectus militum Martensium",
+        "province": "CARTBAGINIENSIS",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.707098,
+          42.084437
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Tricornio",
+        "chapter": "Dux Moesiae primae.",
+        "unit": "Auxiliares Tricornienses",
+        "province": "TARRACONENSIS",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.707098,
+          42.084437
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Tricornio",
+        "chapter": "Dux Moesiae primae.",
+        "unit": "Auxilium Aureomontanum",
+        "province": "TARRACONENSIS",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.707098,
+          42.084437
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Tricornio",
+        "chapter": "Dux Moesiae primae.",
+        "unit": "Cuneus equtum sagittariorum",
+        "province": "TARRACONENSIS",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.825522,
+          55.002491
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Vindobala",
+        "chapter": "Dux Britanniarum.",
+        "unit": "Tribunus cohortis primae Frixagorum",
+        "province": "BRITANNIAE I AND II",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.419593,
+          43.102037
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Solua",
+        "chapter": "Dux provinciae Valeriae.",
+        "unit": "Equites Mauri",
+        "province": "TARRACONENSIS",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.464496,
+          54.994815
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Aesica",
+        "chapter": "Dux Britanniarum.",
+        "unit": "Tribunus cohortis primae Asturum",
+        "province": "BRITANNIAE I AND II",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.533599,
+          41.487065
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Adnamantia",
+        "chapter": "Dux provinciae Valeriae.",
+        "unit": "Equites Dalmatae",
+        "province": "CARTBAGINIENSIS",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.817303,
+          52.081096
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Magnis",
+        "chapter": "Dux Britanniarum.",
+        "unit": "Tribunus cohortis secundae Dalmatarum",
+        "province": "BRITANNIAE I AND II",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.353741,
+          36.128344
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Oesco",
+        "chapter": "Dux Daciae ripensis.",
+        "unit": "Auxilium Mariensium",
+        "province": "BAETICA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.353741,
+          36.128344
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Oesco",
+        "chapter": "Dux Daciae ripensis.",
+        "unit": "Praefectus legionis quintae Macedonicae",
+        "province": "BAETICA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.234526,
+          40.099994
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Burgo Novo",
+        "chapter": "Dux Daciae ripensis.",
+        "unit": "Praefectus legionis tertiaedecimae geminae",
+        "province": "LUSITANIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.492026,
+          53.26065
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Cartha",
+        "chapter": "Dux Mesopotamiae.",
+        "unit": "Ala secunda nova Aegyptiorum",
+        "province": "",
+        "method": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.492026,
+          53.26065
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Cartha",
+        "chapter": "Dux Palaestinae.",
+        "unit": "Cohors decima Carthaginensis",
+        "province": "",
+        "method": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.889462,
+          38.524177
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Neia",
+        "chapter": "Dux Foenicis.",
+        "unit": "Ala prima Alamannorum",
+        "province": "LUSITANIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.15009,
+          38.711018
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Afro",
+        "chapter": "Dux Palaestinae.",
+        "unit": "Cohors duodecima Valeria",
+        "province": "LUSITANIA",
+        "method": "polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.731095,
+          51.778007
+        ]
+      },
+      "properties": {
+        "placeId": "",
+        "placeName": "Siosta",
+        "chapter": "Dux Daciae ripensis.",
+        "unit": "Tribunus cohortis secundorum reducum",
+        "province": "",
+        "method": ""
+      }
+    }
+  ]
+}

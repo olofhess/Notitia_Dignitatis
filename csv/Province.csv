@@ -1,0 +1,672 @@
+provinceId,provinceName,chapter
+PRO00001,Memoriae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00002,Epistolarum,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00003,Libellorum,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00004,Urbis Romae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00005,Italiae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00006,Africae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00007,Hispaniarum,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00008,Septem provinciarum,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00009,Britanniarum,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00010,Tingitaniae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00011,Tractus Argentoratensis,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00012,Litoris Saxonici per Britannias,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00013,Venetiae et Histriae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00014,Aemiliae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00015,Liguriae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00016,Flaminiae et Piceni annonarii,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00017,Tusciae et Umbriae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00018,Piceni suburbicarii,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00019,Campaniae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00020,Siciliae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00021,Byzacii,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00022,Numidiae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00023,Baeticae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00024,Lusitaniae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00025,Callaeciae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00026,Viennensis,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00027,Lugdunensis primae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00028,Germaniae primae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00029,Germaniae secundae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00030,Belgicae primae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00031,Belgicae secundae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00032,Maximae Caesariensis,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00033,Valentiae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00034,Apuliae et Calabriae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00035,Lucaniae et Brittiorum,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00036,Dalmaticarum,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00037,Pannoniae primae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00038,Norici mediterranei,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00039,Norici ripensis,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00040,Alpium Cottiarum,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00041,Raetiae primae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00042,Raetiae secundae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00043,Samnii,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00044,Valeriae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00045,Saradiniae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00046,Corsicae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00047,Mauretaniae Sitifensis,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00048,Tripolitanae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00049,Tarraconensis,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00050,Carthagiensis,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00051,Insularum Balearum,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00052,Alpum maritimarum,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00053,Alpium Poeninarum et Graiarum,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00054,Maximae Sequanorum,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00055,Aquitanicae primae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00056,Aquitanicae secundae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00057,Novempopulanae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00058,Narbonensis primae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00059,Narbonensis secundae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00060,Lugdunensis secundae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00061,Lugdunensis tertiae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00062,Lugdunensis Senonicae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00063,Britanniae primae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00064,Britanniae secundae,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00065,Flaviae Caesariensis,Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+PRO00066,Italia,Insignia viri illustris praefecti praetorio per Italias.
+PRO00067,Illyricum,Insignia viri illustris praefecti praetorio per Italias.
+PRO00068,Africa,Insignia viri illustris praefecti praetorio per Italias.
+PRO00069,Venetiae,Insignia viri illustris praefecti praetorio per Italias.
+PRO00070,Aemilae,Insignia viri illustris praefecti praetorio per Italias.
+PRO00071,Apuliae et Campaniae,Insignia viri illustris praefecti praetorio per Italias.
+PRO00072,Pannoniae secundae,Insignia viri illustris praefecti praetorio per Italias.
+PRO00073,Saviae,Insignia viri illustris praefecti praetorio per Italias.
+PRO00074,Dalmatiarum,Insignia viri illustris praefecti praetorio per Italias.
+PRO00075,Byzacium,Insignia viri illustris praefecti praetorio per Italias.
+PRO00076,Numidia,Insignia viri illustris praefecti praetorio per Italias.
+PRO00077,Mauretaniae Caesariensis,Insignia viri illustris praefecti praetorio per Italias.
+PRO00078,Tripolis,Insignia viri illustris praefecti praetorio per Italias.
+PRO00079,Praefectus annonae Africae,Insignia viri illustris praefecti praetorio per Italias.
+PRO00080,Praefectus fundorum patrimonialium,Insignia viri illustris praefecti praetorio per Italias.
+PRO00081,Princeps,Insignia viri illustris praefecti praetorio per Italias.
+PRO00082,Cornicularius,Insignia viri illustris praefecti praetorio per Italias.
+PRO00083,Adiutor,Insignia viri illustris praefecti praetorio per Italias.
+PRO00084,Commentariensis,Insignia viri illustris praefecti praetorio per Italias.
+PRO00085,Ab actis,Insignia viri illustris praefecti praetorio per Italias.
+PRO00086,Numerarii,Insignia viri illustris praefecti praetorio per Italias.
+PRO00087,Subadiuuae,Insignia viri illustris praefecti praetorio per Italias.
+PRO00088,Cura epistolarum,Insignia viri illustris praefecti praetorio per Italias.
+PRO00089,Regerendarius,Insignia viri illustris praefecti praetorio per Italias.
+PRO00090,Exceptores,Insignia viri illustris praefecti praetorio per Italias.
+PRO00091,Adiutores,Insignia viri illustris praefecti praetorio per Italias.
+PRO00092,Singularii,Insignia viri illustris praefecti praetorio per Italias.
+PRO00093,Baetica,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00094,Lusitania,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00095,Callaecia,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00096,Carthaginensis,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00097,Tingitania,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00098,Baleares,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00099,Germania primae,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00100,Germania secundae,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00101,Belgica prima,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00102,Belgica secunda,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00103,Alpes maritimae,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00104,Alpes Poeninae et Graiae,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00105,Maxima Sequanorum,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00106,Aquitania prima,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00107,Aquitania secunda,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00108,Novem populi,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00109,Narbonensis prima,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00110,Narbonensis secunda,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00111,Lugdunensis secunda,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00112,Lugdunensis tertia,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00113,Lugdunensis Senonia,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00114,Maxima Caesariensis,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00115,Valentia,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00116,Britannia prima,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00117,Britannia decunda,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00118,Flavia Caesariensis,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00119,Primiscrinius,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00120,Regrendarius,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00121,Censuales,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00122,Nomenculatores,Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+PRO00123,Tripolitani,Insignia viri illustris magistri peditum.
+PRO00124,Valeriae ripensis,Insignia viri illustris magistri peditum.
+PRO00125,Pannoniae primae et Norici ripensis,Insignia viri illustris magistri peditum.
+PRO00126,Raetiae primae et scundae,Insignia viri illustris magistri peditum.
+PRO00127,Mogontiacensis,Insignia viri illustris magistri peditum.
+PRO00128,Ioviani seniores,Insignia viri illustris magistri peditum.
+PRO00129,Herculiani seniores,Insignia viri illustris magistri peditum.
+PRO00130,Divitenses seniores,Insignia viri illustris magistri peditum.
+PRO00131,Tongrecani seniores,Insignia viri illustris magistri peditum.
+PRO00132,Pannoniciani seniores,Insignia viri illustris magistri peditum.
+PRO00133,Moesiaci seniores,Insignia viri illustris magistri peditum.
+PRO00134,Armigeri propugnatores seniores,Insignia viri illustris magistri peditum.
+PRO00135,Lanciarii Sabarienses,Insignia viri illustris magistri peditum.
+PRO00136,Octavani,Insignia viri illustris magistri peditum.
+PRO00137,Thebaei,Insignia viri illustris magistri peditum.
+PRO00138,Cimbriani,Insignia viri illustris magistri peditum.
+PRO00139,Armigeri propugnatores iuniores,Insignia viri illustris magistri peditum.
+PRO00140,Numerarius,Insignia viri illustris magistri peditum.
+PRO00141,Exceptores et reliqui apparitores,Insignia viri illustris magistri peditum.
+PRO00142,Cornuti seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00143,Brachiati seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00144,Petulantes seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00145,Celtae seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00146,Heruli seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00147,Batavi seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00148,Mattiaci seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00149,Iovii seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00150,Victores seniores. [?],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00151,Cornuti iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00152,Leones iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00153,Exculcatores seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00154,Grati,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00155,Sabini,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00156,Felices iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00157,Atecotti Honoriani iuniores.[same as Honoriani Atecotti iun.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00158,Brisigavi iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00159,Mauri Honoriani iuniores.[same as Honoriani Mauri iuniores.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00160,Galli victores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00161,Mattiarii iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00162,Septimani iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00163,Regii,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00164,Germaniciani.[same as Germaniciani iuniores.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00165,Prima Iulia.[same as Prima Alpina.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00166,Tertia Iulia.[same as Tertia Iulia Alpina.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00167,Placidi Valentinianici felices.[?],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00168,Gratianenses iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00169,Marcomanni.[same as Honoriani Marcomanni seniores & iuniores.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00170,Pontinenses,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00171,Sagittarii Tungri,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00172,Iovii iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00173,Sequani,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00174,Raeti,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00175,Sagittarii venatores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00176,Latini,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00177,Valentinianenses felices.[same as Felices Valentinianenses.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00178,Honoriani victores.[same as Honoriani victores iuniores.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00179,Seguntienses,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00180,Tungri,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00181,Mauri Honoriani seniores.[same as Honoriani Mauri seniores.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00182,Mattiarii Honoriani Gallicani.[same as Honoriani Gallicani.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00183,Tertiani.[same as Tertiani Italica.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00184,Tertia Herculea,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00185,Pacatianenses,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00186,Mauri cetrati,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00187,Propugnatores iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00188,Lanciarii Lauriacenses,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00189,Lanciarii Comaginenses,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00190,Secunda Iulia.[same asÝ Secunda Iulia Alpina.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00191,"Valentinianenses.[same as Valentinianenses iuniores, also in Gallia?]",Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00192,Catarienses[?],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00193,Mattiaci iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00194,Leones seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00195,Brachiati iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00196,Salii seniores.[same as Salii.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00197,Gratianenses.[same as Gratianenses seniores.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00198,Brocteri.[same as Bructeri.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00199,Ampsiuarii,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00200,"Valentinianenses.[same as Valentinianenses iuniores, also in Illyria?]",Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00201,Batavi iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00202,Britones[?],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00203,Atecotti Honoriani seniores.[same as Honoriani Atecotti sen.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00204,Sagittarii Nervii Gallicani,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00205,Iovii iuniores Gallicani,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00206,Mattiaci iuniores Gallicani,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00207,Atecotti iuniores Gallicani,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00208,Ascarii Honoriani seniores.[same as Honoriani ascarii sen.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00209,Armigeri defensores seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00210,Lanciarii Honoriani Gallicani.[same as Lanc Gallicani Hon.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00211,Menapii seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00212,Secundani Britones.[same as Secunda Britannica.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00213,Ursarienses,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00214,Praesidienses.[same as Praesichantes.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00215,Geminiacenses,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00216,Cortoriacenses,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00217,Honoriani felices Gallicani,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00218,Prima Flavia Gallicana.[same as Prima Fl. Gall. Constantia.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00219,Martenses,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00220,Abrincateni,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00221,Defensores seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00222,Mauri Osismiaci,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00223,Prima Flavia.[same as Prima Flavia Metis.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00224,Superventores iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00225,Balistarii.[?],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00226,Defensores iuniores.[?],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00227,Garronenses.[?],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00228,Anderetiani.[?],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00229,Acincenses.[?],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00230,Cornacenses.[same as Corniacenses.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00231,"Septimani iuniores.[same as Septimani, or Septimani iuniores, a legiones comitatenses, also found in Italia or in Tingitania.]",Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00232,Cursarienses iuniores.[?],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00233,Musmagenses.[?],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00234,Romanenses,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00235,Insidatores.[?],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00236,Truncensimani.[?],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00237,Abulci.[?],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00238,Exploratores.[?],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00239,"Princeps ex officiis magistrorum militum praesentalium, uno anno a parte peditum, ali a parte equitum",Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00240,Numerarii ex utrisque officiis singularis annis,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00241,Ascarii seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00242,Ascarii iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00243,Sagittarii Nervii,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00244,Exculcatores iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00245,Tubantes,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00246,Felices seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00247,Invicti seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00248,Victores iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00249,Invicti iuniores Britones.[same as Inv. iun. Britanniciani.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00250,Brisigavi seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00251,Salii iuniores Gallicani.[same as Salii Gallicani.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00252,Fortenses,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00253,Propugnatores seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00254,Septimani seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00255,Vesontes,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00256,Undecimani,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00257,Celtae iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00258,Secundani Italiciani,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00259,Primani.[same as Prima Flavia Pacis.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00260,Secundani.[same as Secunda Flavia Virtutis],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00261,Tertiani.[same as Tertia Flavia Salutis.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00262,Constantiniani.[same as Secunda Flavia Constantiniana.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00263,Constantiaci.[same as Flavia victrix Constantina.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00264,Tertio Augustani,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00265,Comites seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00266,Equites promoti seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00267,Equites brachiati seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00268,"Equites cornuti seniores.[also in Gallia, but might be iuniores.]",Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00269,Comites Alani,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00270,Equites Mauri feroces,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00271,Equites constantes Valentinianenses iuniores.[likely seniores.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00272,Equites Batavi seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00273,"Equites cornuti seniores.[also in Italia, but might be iuniores.]",Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00274,Equites Batavi iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00275,Equites brachiati iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00276,Equites Honoriani seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00277,Equites Honoriani iuniores.[same as Equ. Hon. Taifali iun.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00278,Equites armigeri seniores.[same as Equites armigeri.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00279,Equites octavo Dalmatae,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00280,Equites Dalmatae Passerentiaci,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00281,Equites primi Gallicani,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00282,Equites Mauri alites,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00283,Equites Constantiani feroces.[same as Equ. Con. felices.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00284,Equites stablesiani Italiciani,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00285,Equites scutarii seniores.[same as Equites scutarii.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00286,Equites stablesiani seniores.[same as Equites stablesiani Africani.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00287,Equites Marcomanni,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00288,Equites armigeri seiores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00289,Equites clibanarii.[same as Equites sagittarii clibanarii.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00290,Equites sagittarii Parthi seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00291,Equites cetrati seniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00292,Equites primo sagittarii,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00293,Equites secundo sagittarii,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00294,Equites tertio sagittarii,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00295,Equites quarto sagittarii,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00296,Equites Parthi sagittarii iuniores.[same as Equites sagittarii Parthi iuniores.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00297,Equites cetrati iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00298,Equites promoti iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00299,Equites sagittarii iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00300,Equites Honoriani iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00301,Equites scutarii iuniores scolae secundae.[same as Equites secundi scutarii iuniores.],Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00302,Equites armigeri iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:
+PRO00303,"Sirmensis scutorum, scordiscorum et armorum",Insignia viri illustris magistri officiorum.
+PRO00304,Acincensis scutaria,Insignia viri illustris magistri officiorum.
+PRO00305,Cornutensis scutaria,Insignia viri illustris magistri officiorum.
+PRO00306,Lauriacensis scutaria,Insignia viri illustris magistri officiorum.
+PRO00307,Salonitana armorum,Insignia viri illustris magistri officiorum.
+PRO00308,Concordensis sagittaria,Insignia viri illustris magistri officiorum.
+PRO00309,Veronensis scutaria et armorum,Insignia viri illustris magistri officiorum.
+PRO00310,Manutuana loricaria,Insignia viri illustris magistri officiorum.
+PRO00311,Cremonensis scutaria,Insignia viri illustris magistri officiorum.
+PRO00312,Ticenensis arcuaria,Insignia viri illustris magistri officiorum.
+PRO00313,Lucensis spatharia,Insignia viri illustris magistri officiorum.
+PRO00314,Argentomagensis armorum omnium,Insignia viri illustris magistri officiorum.
+PRO00315,Matisconensis sagittaria,Insignia viri illustris magistri officiorum.
+PRO00316,"Augustodunensis loricaria, balistaria et clibanaria",Insignia viri illustris magistri officiorum.
+PRO00317,Augustodunensis scutaria,Insignia viri illustris magistri officiorum.
+PRO00318,Suessionensis,Insignia viri illustris magistri officiorum.
+PRO00319,Remensis spatharia,Insignia viri illustris magistri officiorum.
+PRO00320,Triberorum scutaria,Insignia viri illustris magistri officiorum.
+PRO00321,Triberorum balistaria,Insignia viri illustris magistri officiorum.
+PRO00322,Ambianensis spatharia et scutaria,Insignia viri illustris magistri officiorum.
+PRO00323,Leges dictandae,Insignia viri illustris quaestoris.
+PRO00324,Preces,Insignia viri illustris quaestoris.
+PRO00325,"Praepositus thesaurorum Salonitanorum, Dalmatiae",Insignia viri illustris comitis sacrarum largitionum.
+PRO00326,"Praepositus thesaurorum Siscianorum, Saviae",Insignia viri illustris comitis sacrarum largitionum.
+PRO00327,"Praepositus thesaurorum Sabariensium, Pannoniae primae",Insignia viri illustris comitis sacrarum largitionum.
+PRO00328,"Praepositus thesaurorum Aquileiensium, Venetiae",Insignia viri illustris comitis sacrarum largitionum.
+PRO00329,"Praepositus thesaurorum Mediolanensium, Liguriae",Insignia viri illustris comitis sacrarum largitionum.
+PRO00330,Praepositus thesaurorum urbis Romae,Insignia viri illustris comitis sacrarum largitionum.
+PRO00331,"Praepositus thesaurorum Augustae Vindelicensis, Raetiae secundae",Insignia viri illustris comitis sacrarum largitionum.
+PRO00332,Praepositus thesaurorum Lugdunensium,Insignia viri illustris comitis sacrarum largitionum.
+PRO00333,Praepositus thesaurorum Arelatensium,Insignia viri illustris comitis sacrarum largitionum.
+PRO00334,Praepositus thesaurorum Remorum,Insignia viri illustris comitis sacrarum largitionum.
+PRO00335,Praepositus thesaurorum Triberorum,Insignia viri illustris comitis sacrarum largitionum.
+PRO00336,Domestici equtes,Comes domesticorum equitum.ÝÝ |ÝÝÝ Comes domesticorum peditum.
+PRO00337,Domestici pedites,Comes domesticorum equitum.ÝÝ |ÝÝÝ Comes domesticorum peditum.
+PRO00338,Deputati eorum,Comes domesticorum equitum.ÝÝ |ÝÝÝ Comes domesticorum peditum.
+PRO00339,Paedagogia,Castrensis sacri palatii.
+PRO00340,Ministeriales domini,Castrensis sacri palatii.
+PRO00341,Curae palatiorum,Castrensis sacri palatii.
+PRO00342,Provincia proconsularis et legati eius duo,Proconsul Africae.
+PRO00343,Principem de scola agentum in rebus ducenarium,Proconsul Africae.
+PRO00344,Cornicularium,Proconsul Africae.
+PRO00345,Numerarios duos,Proconsul Africae.
+PRO00346,Primiscrinium,Proconsul Africae.
+PRO00347,Commentariensem,Proconsul Africae.
+PRO00348,Adiutorem,Proconsul Africae.
+PRO00349,Subadiuuas,Proconsul Africae.
+PRO00350,Singulares et reliquum officium,Proconsul Africae.
+PRO00351,Singulares et reliquos officiales,Sub dispositione viri spectabilis vicarii urbis Romae provinciae infrascriptae:
+PRO00352,Mauritaniae Sitifensis,Vicarius Africae.
+PRO00353,Mauritaniae Caesariensis,Vicarius Africae.
+PRO00354,Principem de scola agentum in rebus exducenariis,Vicarius Hispaniae.
+PRO00355,Lugdunensis,Vicarius Septem provinciarum.
+PRO00356,Germanae secundae,Vicarius Septem provinciarum.
+PRO00357,Alpium maritimarum,Vicarius Septem provinciarum.
+PRO00358,Lugdunensis Senoniae,Vicarius Septem provinciarum.
+PRO00359,Tractus Italiae circa Alpes,Comes Italiae.
+PRO00360,Praepositus limitis Columnatensis,Dux et praeses provinciae Mauritaniae.
+PRO00361,Praepositus limitis Vidensis,Dux et praeses provinciae Mauritaniae.
+PRO00362,Praepositus limitis inferioris,Dux et praeses provinciae Mauritaniae.
+PRO00363,Praepositus limitis Fortensis,Dux et praeses provinciae Mauritaniae.
+PRO00364,Praepositus limitis Muticitani,Dux et praeses provinciae Mauritaniae.
+PRO00365,Praepositus limitis Audiensis,Dux et praeses provinciae Mauritaniae.
+PRO00366,Praepositus limitis Caputcellensis,Dux et praeses provinciae Mauritaniae.
+PRO00367,Praepositus limitis Augustensis,Dux et praeses provinciae Mauritaniae.
+PRO00368,Praepositus limitis Talalatensis,Dux provinciae Tripolitanae.
+PRO00369,Praepositus limitis Tenthettani,Dux provinciae Tripolitanae.
+PRO00370,Praepositus limitis Bizerentane,Dux provinciae Tripolitanae.
+PRO00371,Praepositus limitis Tillibarensis,Dux provinciae Tripolitanae.
+PRO00372,Praepositus limitis Madensis,Dux provinciae Tripolitanae.
+PRO00373,Praepositus limitis Maccomadensis,Dux provinciae Tripolitanae.
+PRO00374,Praepositus limitis Tintiberitani,Dux provinciae Tripolitanae.
+PRO00375,Praepositus limitis Bubensis,Dux provinciae Tripolitanae.
+PRO00376,Praepositus limitis Mamucensis,Dux provinciae Tripolitanae.
+PRO00377,Praepositus limitis Balensis,Dux provinciae Tripolitanae.
+PRO00378,Praepositus limitis Varensis,Dux provinciae Tripolitanae.
+PRO00379,Milites Fortenses in castris Leptitanis,Dux provinciae Tripolitanae.
+PRO00380,Milites Munifices in castris Madensibus,Dux provinciae Tripolitanae.
+PRO00381,Praepositus limitis Sarcitani,Dux provinciae Tripolitanae.
+PRO00382,Praefectus legionis sextae Herculeae cohortis quintae partis superioris Aureo monte,Dux Pannoniae.
+PRO00383,per Aquitanicam primam,Dux tractus Armoricani.
+PRO00384,secundam,Dux tractus Armoricani.
+PRO00385,et tertiam,Dux tractus Armoricani.
+PRO00386,"Praefectus classis Venetum, Aquileiae",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00387,"Praefectus militum iuniorum Italicorum, Ravennae",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00388,"Praefectus classis Ravennatium cum curis eiusdem civitatis, Ravennae",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00389,"Praefectus classis Comensis cum curis eiusdem civitatis, Como",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00390,"Praefectus classis Misenatium, Miseno",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00391,"Praefectus classis fluminis Rhodani, Viennae siue Arelati",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00392,"Praefectus classis barcariorum, Ebruduni Sapaudiae",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00393,"Praefectus militum musculariorum, Massiliae Graecorum",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00394,"Tribunus cohortis primae Flaviae Sapaudicae, Calaronae",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00395,"Tribunus cohortis Noevempopulanae, Lapurdo",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00396,"Praefectus classis Araricae, Caballoduno",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00397,"Praefectus classis Anderetianorum, Parisius",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00398,"Praefectus legionis septimae geminae, Legione",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00399,"Tribunus cohortis secundae Flaviae Pacatianae, Paetaonio",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00400,"Tribunus cohortis secundae Gallicae, ad cohortem Gallicam",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00401,"Tribunus cohortis Lucensis, Luco",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00402,"Tribunus cohortis Celtiberae, Brigantiae, nunc Iuliobriga",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00403,"Tribunus cohortis primae Gallicae, Veleia",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00404,Praefectus Sarmatarum gentilium Apuliae et Calabriae,Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00405,Praefectus Sarmatarum gentilium per Brittios et Lucaniam,Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00406,Praefectus Sarmatarum gentilium Apulia et Calabriae,Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00407,Praefectus Sarmatarum gentilium Brutios et Lucaniam,Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00408,"Praefectus Sarmatarum gentilium, Foro Fuluiensi",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00409,"Praefectus Sarmatarum gentilium, Opittergii",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00410,"Praefectus Sarmatarum gentilium, Patauio",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00411,"Praefectus Sarmatarum gentilium, ",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00412,"Praefectus Sarmatarum gentilium, Cremonae",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00413,"Praefectus Sarmatarum gentilium, Taurinis",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00414,"Praefectus Sarmatarum gentilium, Aquis siue Tertona",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00415,"Praefectus Sarmatarum gentilium, Novariae",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00416,"Praefectus Sarmatarum gentilium, Vercellis",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00417,"Praefectus Sarmatarum gentilium, Regionis Samnitis",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00418,"Praefectus Sarmatarum gentilium, Bononiae in Aemilia",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00419,"Praefectus Sarmatarum gentilium, Quadratis et Eporizio",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00420,"Praefectus Sarmatarum gentilium, (in Liguria) Pollentia",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00421,"Praefectus Sarmatarum et Taifalorum gentilium, Pictavis",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00422,"Praefectus Sarmatarum gentilium, a Chora Parisios usque",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00423,"Praefectus Sarmatarum gentilium, inter Renos et Tambianos provinciae Belgicae secundae",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00424,"Praefectus Sarmatarum gentilium, per tractum Rodunensem et Alaunorum",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00425,"Praefectus Sarmatarum gentilium, Lingonas",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00426,"Praefectus Sarmatarum gentilium, Au",Item praepositurae magistri militum praesentalis a parte peditum.
+PRO00427,Equitum,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00428,Peditum,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00429,Graecarum,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00430,Asiae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00431,Achaiae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00432,Asianae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00433,Ponticae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00434,Thraciarum,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00435,Macedoniae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00436,Aegypti,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00437,Isauriae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00438,Libyarum,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00439,Thebaidos,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00440,Foenicis,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00441,Eufratensis et Syriae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00442,Palaestinae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00443,Osrhoenae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00444,Mesopotamiae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00445,Arabiae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00446,Armeniae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00447,Moesiae secundae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00448,Scythiae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00449,Daciae ripensis,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00450,Moesiae primae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00451,Syriae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00452,Ciliciae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00453,Cypri,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00454,Pamfyliae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00455,Hellesponti,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00456,Lydiae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00457,Galatiae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00458,Bithyniae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00459,Europae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00460,Thraciae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00461,Cretae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00462,Daciae mediterraneae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00463,Libyae superioris,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00464,Libyae inferioris,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00465,Arcadiae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00466,Palaestinae salutaris,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00467,Palaestinae secundae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00468,Foenicis Libani,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00469,Eufratensis,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00470,Syriae salutaris,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00471,Osroehenae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00472,Ciliciae secundae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00473,Pisidiae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00474,Lycaoniae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00475,Frygiae Pacatianae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00476,Frygiae salutaris,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00477,Lyciae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00478,Cariae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00479,Insularum,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00480,Honoriados,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00481,Cappadociae primae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00482,Cappadociae secundae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00483,Helenoponti,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00484,Ponti Polemoniaci,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00485,Armeniae primae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00486,Armeniae secundae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00487,Galatiae salutaris,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00488,Haemimonti,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00489,Rhodopae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00490,Thessaliae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00491,Epiri ueteris,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00492,Epiri nouae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00493,Praeualitanae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00494,Dardaniae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00495,Macedoniae salutaris,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00496,Augustamnicae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00497,Paflagoniae,"Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis."
+PRO00498,Palaestina,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00499,Foenice,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00500,Syria,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00501,Cilicia,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00502,Cyprus,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00503,Arabia [et dux et comes rei militaris],Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00504,Isauria,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00505,Palaestina salutaris,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00506,Palaestina secunda,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00507,Foenice Libani,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00508,Syria salutaris,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00509,Osrhoena,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00510,Mesopotamia,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00511,Cilicia secunda,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00512,Libya superior,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00513,Libya inferior,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00514,Thebais,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00515,Aegyptus,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00516,Arcadia,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00517,Pamfylia,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00518,Hellespontus,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00519,Lydia,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00520,Pisidia,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00521,Lycaonia,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00522,Frygia Pacatiana,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00523,Frygia salutaris,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00524,Lycia,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00525,Caria,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00526,Insulae,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00527,Galatia,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00528,Bithynia,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00529,Honorias,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00530,Cappadocia prima,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00531,Cappadocia secunda,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00532,Pontus Polemoniacus,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00533,Helenopontus,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00534,Armenia prima,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00535,Armenia secunda,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00536,Galatia salutaris,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00537,Europa,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00538,Thracia,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00539,Haemimontus,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00540,Rhodopa,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00541,Moesia secunda,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00542,Scythia,Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+PRO00543,Macedonia,Insignia viri illustris praefecti praetorio per Illyricum.
+PRO00544,Dacia,Insignia viri illustris praefecti praetorio per Illyricum.
+PRO00545,Achaia,Insignia viri illustris praefecti praetorio per Illyricum.
+PRO00546,Creta,Insignia viri illustris praefecti praetorio per Illyricum.
+PRO00547,Thessalia,Insignia viri illustris praefecti praetorio per Illyricum.
+PRO00548,Epirus uetus,Insignia viri illustris praefecti praetorio per Illyricum.
+PRO00549,Epirus noua et pars Macedoniae salutaris,Insignia viri illustris praefecti praetorio per Illyricum.
+PRO00550,Dacia mediterranea,Insignia viri illustris praefecti praetorio per Illyricum.
+PRO00551,Dacia ripensis,Insignia viri illustris praefecti praetorio per Illyricum.
+PRO00552,Moesia prima,Insignia viri illustris praefecti praetorio per Illyricum.
+PRO00553,Dardania,Insignia viri illustris praefecti praetorio per Illyricum.
+PRO00554,Praeualitana et pars Macedoniae salutaris,Insignia viri illustris praefecti praetorio per Illyricum.
+PRO00555,"Numerarii quatuor; in his auri unus, operum alter",Insignia viri illustris praefecti praetorio per Illyricum.
+PRO00556,Subadiuua,Insignia viri illustris praefecti praetorio per Illyricum.
+PRO00557,Lanciarii seniores,Insignia viri illustris magistri militum praesentalis.
+PRO00558,Ioviani iuniores,Insignia viri illustris magistri militum praesentalis.
+PRO00559,Herculiani iuniores,Insignia viri illustris magistri militum praesentalis.
+PRO00560,Nervii,Insignia viri illustris magistri militum praesentalis.
+PRO00561,Matiarii iuniores,Insignia viri illustris magistri militum praesentalis.
+PRO00562,Matiarii seniores,Insignia viri illustris magistri militum praesentalis.
+PRO00563,Daci,Insignia viri illustris magistri militum praesentalis.
+PRO00564,Scythae,Insignia viri illustris magistri militum praesentalis.
+PRO00565,Primani,Insignia viri illustris magistri militum praesentalis.
+PRO00566,Lanciarii iuniores,Insignia viri illustris magistri militum praesentalis.
+PRO00567,Cornuti,Insignia viri illustris magistri militum praesentalis.
+PRO00568,Constantiniani,Insignia viri illustris magistri militum praesentalis.
+PRO00569,Sagittarii seniores Orientales,Insignia viri illustris magistri militum praesentalis.
+PRO00570,Sagittarii iuniores Orientales,Insignia viri illustris magistri militum praesentalis.
+PRO00571,Sagittarii dominici,Insignia viri illustris magistri militum praesentalis.
+PRO00572,Vindices,Insignia viri illustris magistri militum praesentalis.
+PRO00573,Bucinobantes,Insignia viri illustris magistri militum praesentalis.
+PRO00574,Falchouarii,Insignia viri illustris magistri militum praesentalis.
+PRO00575,Thraces,Insignia viri illustris magistri militum praesentalis.
+PRO00576,Teruingi,Insignia viri illustris magistri militum praesentalis.
+PRO00577,Felices Theodosiani,Insignia viri illustris magistri militum praesentalis.
+PRO00578,Felices Arcadiani iuniores,Insignia viri illustris magistri militum praesentalis.
+PRO00579,Secundi Theodosiani,Insignia viri illustris magistri militum praesentalis.
+PRO00580,Quarti Theodosiani,Insignia viri illustris magistri militum praesentalis.
+PRO00581,Prima Armeniaca,Insignia viri illustris magistri militum per Orientem.
+PRO00582,Secunda Armeniaca,Insignia viri illustris magistri militum per Orientem.
+PRO00583,Fortenses auxiliarii,Insignia viri illustris magistri militum per Orientem.
+PRO00584,Funditores,Insignia viri illustris magistri militum per Orientem.
+PRO00585,Prima Italica,Insignia viri illustris magistri militum per Orientem.
+PRO00586,Quarta Italica,Insignia viri illustris magistri militum per Orientem.
+PRO00587,Sexta Parthica,Insignia viri illustris magistri militum per Orientem.
+PRO00588,Prima Isaura sagittaria,Insignia viri illustris magistri militum per Orientem.
+PRO00589,Balistarii Theodosiaci,Insignia viri illustris magistri militum per Orientem.
+PRO00590,Transtigritani,Insignia viri illustris magistri militum per Orientem.
+PRO00591,Principem,Insignia viri illustris magistri militum per Orientem.
+PRO00592,Scriniarios,Insignia viri illustris magistri militum per Orientem.
+PRO00593,Mensores,Insignia viri illustris magistri militum per Orientem.
+PRO00594,Exceptores et ceteros apparitores,Insignia viri illustris magistri militum per Orientem.
+PRO00595,Solenses seniores,Insignia viri illustris magisteri militum per Thracias.
+PRO00596,Menapii,Insignia viri illustris magisteri militum per Thracias.
+PRO00597,Prima Maximiana Thebaeorum,Insignia viri illustris magisteri militum per Thracias.
+PRO00598,Tertia Diocletiana Thebaeorum,Insignia viri illustris magisteri militum per Thracias.
+PRO00599,Tertiodecimani,Insignia viri illustris magisteri militum per Thracias.
+PRO00600,Quartodecimani,Insignia viri illustris magisteri militum per Thracias.
+PRO00601,Prima Flavia gemina,Insignia viri illustris magisteri militum per Thracias.
+PRO00602,Secunda Flavia gemina,Insignia viri illustris magisteri militum per Thracias.
+PRO00603,Constantini seniores,Insignia viri illustris magisteri militum per Thracias.
+PRO00604,Diuitenses Gallicani,Insignia viri illustris magisteri militum per Thracias.
+PRO00605,Lanciarii Stobenses,Insignia viri illustris magisteri militum per Thracias.
+PRO00606,Constantini Dafnenses,Insignia viri illustris magisteri militum per Thracias.
+PRO00607,Balistarii Dafnenses,Insignia viri illustris magisteri militum per Thracias.
+PRO00608,Balistarii iuniores,Insignia viri illustris magisteri militum per Thracias.
+PRO00609,Pannoniciani iuniores,Insignia viri illustris magisteri militum per Thracias.
+PRO00610,Taanni,Insignia viri illustris magisteri militum per Thracias.
+PRO00611,Solenses Gallicani,Insignia viri illustris magisteri militum per Thracias.
+PRO00612,Iulia Alexandria,Insignia viri illustris magisteri militum per Thracias.
+PRO00613,Augustenses,Insignia viri illustris magisteri militum per Thracias.
+PRO00614,Valentinianenses,Insignia viri illustris magisteri militum per Thracias.
+PRO00615,Petulantes iuniores,Insignia viri illustris magistri militum per Illyricum.
+PRO00616,Sagittarii lecti,Insignia viri illustris magistri militum per Illyricum.
+PRO00617,Inuicti iuniores,Insignia viri illustris magistri militum per Illyricum.
+PRO00618,Atecotti,Insignia viri illustris magistri militum per Illyricum.
+PRO00619,Matiarii constantes,Insignia viri illustris magistri militum per Illyricum.
+PRO00620,Martii,Insignia viri illustris magistri militum per Illyricum.
+PRO00621,Dianenses,Insignia viri illustris magistri militum per Illyricum.
+PRO00622,Germaniciani seniores,Insignia viri illustris magistri militum per Illyricum.
+PRO00623,Secundani,Insignia viri illustris magistri militum per Illyricum.
+PRO00624,Lanciarii Augustenses,Insignia viri illustris magistri militum per Illyricum.
+PRO00625,Mineruii,Insignia viri illustris magistri militum per Illyricum.
+PRO00626,"Scutaria et armorum, Damasci",Insignia viri illustris magistri officiorum.
+PRO00627,"Scutaria et armorum, Antiochiae",Insignia viri illustris magistri officiorum.
+PRO00628,";Clibanaria, Antiochiae",Insignia viri illustris magistri officiorum.
+PRO00629,"Scutaria et armamentaria, Edesa",Insignia viri illustris magistri officiorum.
+PRO00630,"Clibanaria, Caesarea Cappadociae",Insignia viri illustris magistri officiorum.
+PRO00631,"Scutaria et armorum, Nicomediae",Insignia viri illustris magistri officiorum.
+PRO00632,"Clibanaria, Nicomediae",Insignia viri illustris magistri officiorum.
+PRO00633,"Scutaria et armorum, Sardis Lydiae",Insignia viri illustris magistri officiorum.
+PRO00634,"Scutaria et armorum, Hadrianopolis Haemimonti",Insignia viri illustris magistri officiorum.
+PRO00635,"Scutaria et armorum, Marcianopoli",Insignia viri illustris magistri officiorum.
+PRO00636,Thessalonicensis,Insignia viri illustris magistri officiorum.
+PRO00637,Naissatensis,Insignia viri illustris magistri officiorum.
+PRO00638,Ratiarensis,Insignia viri illustris magistri officiorum.
+PRO00639,Scutaria Horreomargensis,Insignia viri illustris magistri officiorum.
+PRO00640,Adiutores duo,Insignia viri illustris magistri officiorum.
+PRO00641,Fabricarum ters,Insignia viri illustris magistri officiorum.
+PRO00642,Paedagogoia,Sub dispositione viri spectabilis castrensis.
+PRO00643,Ministeriales dominici,Sub dispositione viri spectabilis castrensis.
+PRO00644,Asia,Proconsul Asiae.
+PRO00645,Principem de eodem officio,Proconsul Asiae.
+PRO00646,Numerarios,Proconsul Asiae.
+PRO00647,A libellis,Proconsul Asiae.
+PRO00648,Exceptores et ceteros officiales,Proconsul Asiae.
+PRO00649,Palestina,Comes Orientis.
+PRO00650,Palestina secunda,Comes Orientis.
+PRO00651,Palestina salutaris,Comes Orientis.
+PRO00652,Arabia,Comes Orientis.
+PRO00653,"Principem, qui de scola agentum in rebus ducenarius adorata clementia principali cum insignibus exit",Comes Orientis.
+PRO00654,Commmentariensem,Comes Orientis.
+PRO00655,Augustamnica,Praefectus Augustalis.
+PRO00656,Lyaconia,Vicarius dioceseos Asianae.
+PRO00657,Pisida,Vicarius dioceseos Asianae.
+PRO00658,Commetariensem,Vicarius dioceseos Asianae.
+PRO00659,Paflagonia,Vicarius dioceseos Ponticae.
+PRO00660,"Ala secunda Ulpia Afrorum, Thaubasteos",Comes limitis Aegypti.
+PRO00661,"Ala secunda Aegyptiorum, Tacasiria",Comes limitis Aegypti.
+PRO00662,"Cohors prima sagittariorum, Naithu",Comes limitis Aegypti.
+PRO00663,"Cohors prima Augusta Pannoniorum, Tohu",Comes limitis Aegypti.
+PRO00664,"Cohors prima Epireorum, Castra Iudaeorum",Comes limitis Aegypti.
+PRO00665,"Cohors quarta Iuthungorum, Affrodito",Comes limitis Aegypti.
+PRO00666,"Cohors secunda Ituraeorum, Aiy",Comes limitis Aegypti.
+PRO00667,"Cohors secunda Thracum, Muson",Comes limitis Aegypti.
+PRO00668,"Cohors quarta Numidarum, Narmunthi",Comes limitis Aegypti.
+PRO00669,Ordinarios,Dux Arabiae.
+PRO00670,Numerarios et adiutores eorum,Dux Arabiae.
+PRO00671,A libellis siue regerendarium,Dux Arabiae.

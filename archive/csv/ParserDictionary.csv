@@ -1,0 +1,42 @@
+pattern,nodeType,class,container,priority
+Officium,block,structure,Y,10
+Sub dispositione,block,structure,Y,10
+In provincia,block,structure,Y,20
+Intra ,block,structure,Y,20
+Per ,block,structure,Y,20
+Sub cura,block,structure,Y,20
+Sub iurisdictione,block,structure,Y,20
+In ,block,structure,Y,30
+Item,block,structure,Y,30
+Comites rei militaris,heading,officeGroup,Y,40
+Consulares,heading,officeGroup,Y,40
+Correctores,heading,officeGroup,Y,40
+Duces,heading,officeGroup,Y,40
+Magistri scriniorum,heading,officeGroup,Y,40
+Praesides,heading,officeGroup,Y,40
+Vicarii,heading,officeGroup,Y,40
+Auxilia,heading,unitGroup,Y,50
+Comites limitum,heading,unitGroup,Y,50
+Legiones comitatenses,heading,unitGroup,Y,50
+Legiones palatinae,heading,unitGroup,Y,50
+Limitanei,heading,unitGroup,Y,50
+Pseudocomitatenses,heading,unitGroup,Y,50
+Vexillationes comitatenses,heading,unitGroup,Y,50
+Vexillationes palatinae,heading,unitGroup,Y,50
+duces limitum,heading,unitGroup,Y,50
+Fabricae,heading,factoryGroup,Y,60
+Praepositi,heading,financeGroup,Y,70
+Procuratores,heading,financeGroup,Y,70
+Rationales,heading,financeGroup,Y,70
+Africae,heading,geographicGroup,Y,80
+Britanniarum,heading,geographicGroup,Y,80
+Gallicanarum,heading,geographicGroup,Y,80
+Hispaniae,heading,geographicGroup,Y,80
+Hispaniarum,heading,geographicGroup,Y,80
+Illyrici,heading,geographicGroup,Y,80
+Italiae,heading,geographicGroup,Y,80
+Orientalium,heading,geographicGroup,Y,80
+Provinciae,heading,geographicGroup,Y,80
+Septem provinciarum,heading,geographicGroup,Y,80
+Extenditur,block,note,,90
+peditum,heading,misc,,90

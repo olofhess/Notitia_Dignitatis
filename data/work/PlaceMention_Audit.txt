@@ -1,0 +1,32 @@
+Living Notitia - PlaceMention audit
+===================================
+XML: /Users/olofhesselmark/Desktop/HTML_Notitia_V2/data/notitia.xml
+Place mentions: 702
+Unique literal forms: 621
+Point-eligible mentions: 702
+Mentions requiring review: 0
+Source lines with >1 place mention: 20
+Potential integrity issues: 0
+
+By document
+  Occidentis: 373
+  Oriens: 329
+
+By extraction source
+  alternate: 6
+  castello: 1
+  castris: 6
+  factory: 24
+  limes: 37
+  prope: 1
+  tail: 576
+  transfer: 3
+  unit: 48
+
+Integrity issues
+  none
+
+Rule for publication
+  Only rows with pointEligible=1 may create point locations.
+  Rows with pointEligible=0 remain in the audit table but must not be published as points.
+  Province, region, diocese, tractus and other administrative areas are not point locations.

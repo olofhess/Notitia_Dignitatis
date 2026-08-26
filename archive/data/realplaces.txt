@@ -1,0 +1,105 @@
+﻿PLC00035	..... nunc Sisciae	Dux Pannoniae.	Praefectus classis Aegetensium siue secundae Pannonicae	modernName	latitude	longitude	confidence
+PLC00371	Satala	Dux Armeniae.	Praefectus legionis quintadecimae Apollinaris	Satala, 29-30, Sadak, Kelkit, Gümüşhane, Karadeniz Bölgesi, Türkiye	40,028003	39,597903	automatic
+PLC00390	Sebastopolis	Dux Armeniae.	Cohors prima Claudia equitata	Sulusaray, Tokat, Karadeniz Bölgesi, Türkiye	39,997498	36,083607	automatic
+PLC00314	Dabana	Dux Osrhoenae.	Equites Mauri Illyriciani	Çamsaray, Kadışehri, Yozgat, İç Anadolu Bölgesi, Türkiye	40,052834	35,823299	automatic
+PLC00444	Flaviana	Dux Moesiae primae.	Cuneus equtum promotorum	Zincidere, Talas, Kayseri, İç Anadolu Bölgesi, Türkiye	38,644718	35,583065	automatic
+PLC00400	Flaviana	Dux Scythiae.	Milites navclarii	Zincidere, Talas, Kayseri, İç Anadolu Bölgesi, Türkiye	38,644718	35,583065	automatic
+PLC00267	Adada	Dux Syriae.	Equites promoti indigenae	Adada, Aziz Paul Yolu, Sağrak, Sütçüler, Isparta, Akdeniz Bölgesi, Türkiye	37,572796	30,984062	automatic
+PLC00275	Sura	Dux Syriae.	Praefectus legionis sextaedecimae Flaviae firmae	Sura, Demre - Kaş Yolu, Gökyazı, Gürses, Demre, Antalya, Akdeniz Bölgesi, 07572, Türkiye	36,244327	29,944305	automatic
+PLC00334	Constantia	Dux Mesopotamiae.	Equites felices Honoriani Illyriciani	Constanța, Zona Metropolitană Constanța, Constanța, România	44,176716	28,650760	automatic
+PLC00139	Constantia	Dux tractus Armoricani.	Praefectus militum primae Flaviae	Constanța, Zona Metropolitană Constanța, Constanța, România	44,176716	28,650760	automatic
+PLC00395	Cii	Dux Scythiae.	Cuneus equitum stablesianorum	Çıldır Havaalanı, Çıldır Havalimanı Kavşağı, Tepecik, Efeler, Aydın, Ege Bölgesi, 09000, Türkiye	37,816778	27,887416	automatic
+PLC00271	Oresa	Dux Syriae.	Praefectus legionis quartae Scythicae	Parc Industrial Oresa, Lețcani, Zona Metropolitană Iași, Iași, România	47,187859	27,434560	automatic
+PLC00130	Arbore	Dux Raetiae.	Tribunus cohortis Herculeae Pannoniorum	Arbore, Suceava, România	47,742671	25,866319	automatic
+PLC00381	Metita	Dux Armeniae.	Cohors tertia Ulpia miliaria Petraeorum	Lacul Metița, Rojiște, Dolj, România	44,077859	23,911351	automatic
+PLC00206	Syene	Dux Thebaidos.	Milites Miliarenses	Συήνης, Κουντουριώτικα, Αμπελόκηποι, 7η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 115 21, Ελλάς	37,985012	23,753267	automatic
+PLC00492	Ratiaria	Dux Daciae ripensis.	Praefectus legionis tertiaedecimae geminae	Рациария, 11, Рациария, Арчар, Димово, Видин, България	43,817086	22,908232	automatic
+PLC00479	Drobeta	Dux Daciae ripensis.	Auxilium primorum Daciscorum	Drobeta-Turnu Severin, Mehedinți, România	44,625784	22,653198	automatic
+PLC00472	Drobeta	Dux Daciae ripensis.	Cuneus equitum Dalmatarum Divitensium	Drobeta-Turnu Severin, Mehedinți, România	44,625784	22,653198	automatic
+PLC00373	Trapezunta	Dux Armeniae.	Praefectus legionis primae Ponticae	Νέα Τραπεζούντα, Δήμος Κατερίνης, Περιφερειακή Ενότητα Πιερίας, Περιφέρεια Κεντρικής Μακεδονίας, Αποκεντρωμένη Διοίκηση Μακεδονίας - Θράκης, 601 50, Ελλάς	40,334222	22,524169	automatic
+PLC00351	Areopoli	Dux Arabiae.	Equites Mauri Illyriciani	AREOPOLI, Αρεόπολης - Γερολιμένα, Λαγοκοίλι, Αρεόπολη, Δημοτική Ενότητα Οιτύλου, Δήμος Ανατολικής Μάνης, Περιφερειακή Ενότητα Λακωνίας, Περιφέρεια Πελοποννήσου, Αποκεντρωμένη Διοίκηση Πελοποννήσου, Δυτικής Ελλάδας και Ιονίου, 230 62, Ελλάς	36,665535	22,382907	automatic
+PLC00279	Claudiana	Dux Syriae.	Cohors prima Ulpia Dacorum	Peqin, Bashkia Peqin, Qarku i Elbasanit, Shqipëria Qendrore, 3501, Shqipëria	41,046130	19,749452	automatic
+PLC00050	Campona	Dux provinciae Valeriae.	Equites Dalmatae	Campona, 37-43, Nagytétényi út, Budatétény, XXII. kerület, Budapest, Közép-Magyarország, 1222, Magyarország	47,407250	19,018653	automatic
+PLC00040	Intercisa	Dux provinciae Valeriae.	Cuneus equitum Dalmatarum	Intercisa kőtár, Kálvária utca, Óváros, Dunaújváros, Dunaújvárosi járás, Fejér vármegye, Közép-Dunántúl, Dunántúl, 2400, Magyarország	46,976273	18,936614	automatic
+PLC00053	Intercisa	Dux provinciae Valeriae.	Equites sagittarii	Intercisa kőtár, Kálvária utca, Óváros, Dunaújváros, Dunaújvárosi járás, Fejér vármegye, Közép-Dunántúl, Dunántúl, 2400, Magyarország	46,976273	18,936614	automatic
+PLC00087	Ad Herculem	Dux Pannoniae primae.	Equites Dalmatae	LIMES Pannónia, római őrtorony, Nyárfa utca, Dunapart, Pilismarót, Esztergomi járás, Komárom-Esztergom vármegye, Közép-Dunántúl, Dunántúl, 2028, Magyarország	47,790640	18,901537	automatic
+PLC00019	ad Herculem	Dux Pannoniae.	Auxilia Herculensia	LIMES Pannónia, római őrtorony, Nyárfa utca, Dunapart, Pilismarót, Esztergomi járás, Komárom-Esztergom vármegye, Közép-Dunántúl, Dunántúl, 2028, Magyarország	47,790640	18,901537	automatic
+PLC00061	Ad Herculem	Dux provinciae Valeriae.	Auxilia Herculensia	LIMES Pannónia, római őrtorony, Nyárfa utca, Dunapart, Pilismarót, Esztergomi járás, Komárom-Esztergom vármegye, Közép-Dunántúl, Dunántúl, 2028, Magyarország	47,790640	18,901537	automatic
+PLC00047	Ad Herculem	Dux provinciae Valeriae.	Equites Dalmatae	LIMES Pannónia, római őrtorony, Nyárfa utca, Dunapart, Pilismarót, Esztergomi járás, Komárom-Esztergom vármegye, Közép-Dunántúl, Dunántúl, 2028, Magyarország	47,790640	18,901537	automatic
+PLC00189	Alta Ripa	Dux Mogontiacensis.	Praefectus militum Martensium	Tolna, Tolnai járás, Tolna vármegye, Dél-Dunántúl, Dunántúl, Magyarország	46,422658	18,788774	automatic
+PLC00057	Ad Statuas	Dux provinciae Valeriae.	Equites Dalmatae	limes, castrum, Koppánymonostor, Komárom, Komáromi járás, Komárom-Esztergom vármegye, Közép-Dunántúl, Dunántúl, 2903, Magyarország	47,751458	18,050998	automatic
+PLC00456	Gratiana	Dux Moesiae primae.	Auxilium Gratianense	Gradiška, Grad Gradiška, Република Српска / Republika Srpska, 78400, Bosna i Hercegovina / Босна и Херцеговина	45,146195	17,252075	automatic
+PLC00407	Gratiana	Dux Scythiae.	Milites primi Gratianenses	Gradiška, Grad Gradiška, Република Српска / Republika Srpska, 78400, Bosna i Hercegovina / Босна и Херцеговина	45,146195	17,252075	automatic
+PLC00475	Almo	Dux Daciae ripensis.	Cuneus equitum stablesianorum	Omiš, Grad Omiš, Splitsko-dalmatinska županija, 21310, Hrvatska	43,443497	16,692277	automatic
+PLC00076	Iovia	Dux provinciae Valeriae.	Tribunus cohortis	Ludbreg, Grad Ludbreg, Varaždinska županija, 42230, Hrvatska	46,249524	16,618091	automatic
+PLC00109	Cannabiaca	Dux Pannoniae primae.	Tribunus cohortis	Körnerkasten - Kastell Cannabiaca, Passauerplatz, Katastralgemeinde Zeiselmauer, Zeiselmauer, Zeiselmauer-Wolfpassing, Bezirk Tulln, Niederösterreich, 3424, Österreich	48,329257	16,178272	automatic
+PLC00246	Calamona	Dux Foenicis.	Equites sagittarii indigenae	Calamona, VI Circoscrizione, Piano Torre, Messina, Sicilia, 98162, Italia	38,287178	15,513229	automatic
+PLC00306	Calamona	Dux Palaestinae.	Cohors prima equitata	Calamona, VI Circoscrizione, Piano Torre, Messina, Sicilia, 98162, Italia	38,287178	15,513229	automatic
+PLC00051	Matrice	Dux provinciae Valeriae.	Equites promoti	Matrice, Campobasso, Molise, 86030, Italia	41,614098	14,710208	automatic
+PLC00432	Altino	Dux Moesiae secundae.	Milites navclarii Altinenses	Altino, Chieti, Abruzzo, Italia	42,099337	14,331615	automatic
+PLC00043	Altino	Dux provinciae Valeriae.	Cuneus equitum Fortensium	Altino, Chieti, Abruzzo, Italia	42,099337	14,331615	automatic
+PLC00014	Cusi	Dux Pannoniae.	Equites Dalmatae	Ćusi, Općina Cerovlje, Istarska županija, Hrvatska	45,252980	13,997357	automatic
+PLC00345	Caini	Dux Mesopotamiae.	Ala quintadecima Flavia Carduenorum	Kajini, Grad Buzet, Istarska županija, Hrvatska	45,418849	13,942631	automatic
+PLC00402	Carso	Dux Scythiae.	Milites Scythici	Kras, Slovenija	45,755094	13,793283	automatic
+PLC00005	Cuccis	Dux Pannoniae.	Cuneus equitum promotorum	Cuccis, Seegefelder Straße, Georg-Ramin-Siedlung, Altstadt, Spandau, Berlin, 13597, Deutschland	52,534552	13,197683	automatic
+PLC00012	Cuccis	Dux Pannoniae.	Equites sagittarii	Cuccis, Seegefelder Straße, Georg-Ramin-Siedlung, Altstadt, Spandau, Berlin, 13597, Deutschland	52,534552	13,197683	automatic
+PLC00455	Cuppis	Dux Moesiae primae.	Auxilium Cuppense	Via De Cuppis, Piattelletti, Centro storico, Fano, Pesaro e Urbino, Marche, 61032, Italia	43,844037	13,018574	automatic
+PLC00450	Cuppis	Dux Moesiae primae.	Cuneus equtum Dalmatarum	Via De Cuppis, Piattelletti, Centro storico, Fano, Pesaro e Urbino, Marche, 61032, Italia	43,844037	13,018574	automatic
+PLC00460	Cuppis	Dux Moesiae primae.	Praefectus legionis septimae Claudiae	Via De Cuppis, Piattelletti, Centro storico, Fano, Pesaro e Urbino, Marche, 61032, Italia	43,844037	13,018574	automatic
+PLC00009	Albano	Dux Pannoniae.	Equites Dalmatae	Lago Albano, Castel Gandolfo, Roma Capitale, Lazio, 00073, Italia	41,747961	12,670204	automatic
+PLC00473	Augustae	Dux Daciae ripensis.	Cuneus equitum Dalmatarum	Ara Pacis Augustae, Via di Ripetta, Campo Marzio, Municipio Roma I, Roma, Roma Capitale, Lazio, 00186, Italia	41,906151	12,475502	automatic
+PLC00453	Ad Novas	Dux Moesiae primae.	Auxiliares Novenses	Ad Novas, 31a, Viale dei Mille, Valverde, Cesenatico, Unione Rubicone e mare, Forlì-Cesena, Emilia-Romagna, 47042, Italia	44,201641	12,403875	automatic
+PLC00313	Callinico	Dux Osrhoenae.	Equites promoti Illyriciani	San Callinico di Cernica, Via del Collegio, La Quercia, Viterbo, Lazio, 01100, Italia	42,416696	12,106581	automatic
+PLC00121	Abusina	Dux Raetiae.	Tribunus cohortis tertiae Brittorum	Römisches Kastell Abusina, St 2233, Sittling, Neustadt an der Donau, Landkreis Kelheim, Bayern, 93333, Deutschland	48,850379	11,771006	automatic
+PLC00024	Bononiae	Dux Pannoniae.	Praefectus legionis quintae Ioviae cohortis quintae partis superioris	Genus Bononiae, Via Castiglione, Quadrilatero, Galvani, Santo Stefano, Bologna, Emilia-Romagna, 40124, Italia	44,492101	11,346497	automatic
+PLC00469	Bononia	Dux Daciae ripensis.	Cuneus equitum Dalmatarum Fortensium	Bologna, Emilia-Romagna, Italia	44,493820	11,342633	automatic
+PLC00118	Teriolis	Dux Raetiae.	Praefectus legionis tertiae Italicae transvectioni specierum deputatae	Zirl, Bezirk Innsbruck-Land, Tirol, Österreich	47,273377	11,242235	automatic
+PLC00127	Teriolis	Dux Raetiae.	Tribunus gentis per Raetias deputatae	Zirl, Bezirk Innsbruck-Land, Tirol, Österreich	47,273377	11,242235	automatic
+PLC00319	Mediana	Dux Osrhoenae.	Equites sagittarii indigenae Medianenses	Mediana, Pavullo nel Frignano, Unione dei comuni del Frignano, Modena, Emilia-Romagna, 41026, Italia	44,324161	10,822928	automatic
+PLC00125	Pinianis	Dux Raetiae.	Tribunus cohortis quintae Valeriae Frygum	Pinianis Bürgle, St 2028, Gundremmingen, Offingen (VGem), Landkreis Günzburg, Bayern, 89355, Deutschland	48,505189	10,415339	automatic
+PLC00150	Morbio	Dux Britanniarum.	Praefectus equitum catafractariorum	Morbio Inferiore, Circolo di Balerna, Distretto di Mendrisio, Ticino, 6834, Schweiz/Suisse/Svizzera/Svizra	45,853047	9,016289	automatic
+PLC00060	Ad Militare	Dux provinciae Valeriae.	Equites Flavianenses	Friedhof Westhausen - Italienischer Kriegsfriedhof, Praunheim, Mitte-West, Frankfurt am Main, Hessen, Deutschland	50,136901	8,606045	automatic
+PLC00379	Suissa	Dux Armeniae.	Ala prima Ulpia Dacorum	Schweiz/Suisse/Svizzera/Svizra	46,798562	8,231974	automatic
+PLC00187	Vico Iulio	Dux Mogontiacensis.	Praefectus militum Anderetianorum	Iulio, Crosa, Lessona, Biella, Piemonte, 13853, Italia	45,606924	8,191484	automatic
+PLC00261	Vale Alba	Dux Foenicis.	Cohors prima Iulia lectorum	Albe, Visp, Oberwallis, Valais/Wallis, 3930, Schweiz/Suisse/Svizzera/Svizra	46,293867	7,850651	automatic
+PLC00090	Quadrato	Dux Pannoniae primae.	Equites Mauri	Quadrato, Parella, Circoscrizione 4, Torino, Piemonte, Italia	45,080527	7,634362	automatic
+PLC00194	Confluentibus	Dux Mogontiacensis.	Praefectus militum defensorum	Koblenz, Rheinland-Pfalz, Deutschland	50,353328	7,594395	automatic
+PLC00257	Rene	Dux Foenicis.	Ala prima Foenicum	Rheine, Kreis Steinfurt, Nordrhein-Westfalen, Deutschland	52,279771	7,437362	automatic
+PLC00081	Flexo	Dux Pannoniae primae.	Cuneus equitum Dalmatarum	Flexo, Rue des Boulangers, Rebberg, Mulhouse, Haut-Rhin, Collectivité européenne d'Alsace, Grand Est, France métropolitaine, 68100, France	47,746990	7,337618	automatic
+PLC00089	Flexo	Dux Pannoniae primae.	Equites promoti	Flexo, Rue des Boulangers, Rebberg, Mulhouse, Haut-Rhin, Collectivité européenne d'Alsace, Grand Est, France métropolitaine, 68100, France	47,746990	7,337618	automatic
+PLC00336	Constantina	Dux Mesopotamiae.	Equites promoti indigenae	Constantine ⵇⵙⴻⵟⵉⵏⴰ قسنطينة, دائرة قسنطينة ⴰⴷⴷⴰⵢⵔⵜ ⵏ ⵇⵙⵏⵟⵉⵏⴰ, قسنطينة ⵇⵙⵏⵟⵉⵏⴰ, 25000, ⵍⵣⵣⴰⵢⴻⵔ الجزائر	36,364164	6,608428	automatic
+PLC00341	Constantina	Dux Mesopotamiae.	Praefectus legionis primae Parthicae Nisibenae	Constantine ⵇⵙⴻⵟⵉⵏⴰ قسنطينة, دائرة قسنطينة ⴰⴷⴷⴰⵢⵔⵜ ⵏ ⵇⵙⵏⵟⵉⵏⴰ, قسنطينة ⵇⵙⵏⵟⵉⵏⴰ, 25000, ⵍⵣⵣⴰⵢⴻⵔ الجزائر	36,364164	6,608428	automatic
+PLC00165	Hunno	Dux Britanniarum.	Praefectus alae Sabinianae	Hunno, Jan van Galenstraat, De Vijfhoek, Duistervoorde, Twello, Voorst, Gelderland, Nederland, 7391 CX, Nederland	52,235392	6,108604	automatic
+PLC00008	Novas	Dux Pannoniae.	Equites Dalmatae	Noves, Arles, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13550, France	43,876189	4,901209	automatic
+PLC00369	Sabbu	Dux Armeniae.	Equites sagittarii	Sabbu, 178, Buitenveldertselaan, Buitenveldert-West, Buitenveldert, Zuid, Amsterdam, Noord-Holland, Nederland, 1081 AC, Nederland	52,324801	4,867926	automatic
+PLC00244	Abina	Dux Foenicis.	Equites sagittarii indigenae	Abina, 193, Amsterdamseweg, Amstelveen, Noord-Holland, Nederland, 1182 GW, Nederland	52,311408	4,846574	automatic
+PLC00471	Cebro	Dux Daciae ripensis.	Cuneus equitum scutariorum	Cebro, 26A, Heermanszwet, Rijsenhout, Haarlemmermeer, Noord-Holland, Nederland, 1435 CD, Nederland	52,266248	4,725981	automatic
+PLC00486	Cebro	Dux Daciae ripensis.	Praefectus legionis quintae Macedonicae	Cebro, 26A, Heermanszwet, Rijsenhout, Haarlemmermeer, Noord-Holland, Nederland, 1435 CD, Nederland	52,266248	4,725981	automatic
+PLC00039	Solue	Dux provinciae Valeriae.	Cuneus equitum scutatorum	La Solue, Eaux, Eaux-Puiseaux, Troyes, Aube, Grand Est, France métropolitaine, 10130, France	48,121907	3,896619	automatic
+PLC00433	Nouas	Dux Moesiae secundae.	Praefectus legionis primae Italicae	Nouas, Rue des Fusains, ZAC de La Comdamine des Aires, Villeneuve-lès-Maguelone, Montpellier, Hérault, Occitanie, France métropolitaine, 34750, France	43,537156	3,859772	automatic
+PLC00434	Nouas	Dux Moesiae secundae.	Praefectus ripae legionis primae Italicae cohortis quintae pedaturae superioris	Nouas, Rue des Fusains, ZAC de La Comdamine des Aires, Villeneuve-lès-Maguelone, Montpellier, Hérault, Occitanie, France métropolitaine, 34750, France	43,537156	3,859772	automatic
+PLC00462	Novis	Dux Moesiae primae.	Praefectus militum exploratorum	Novis, Sévérac-le-Château, Sévérac d'Aveyron, Rodez, Aveyron, Occitanie, France métropolitaine, 12150, France	44,269337	3,109925	automatic
+PLC00157	Maglone	Dux Britanniarum.	Praefectus numeri Solensium	Maglone, Rue Dauphine, Quartier de la Monnaie, Paris 6e Arrondissement, Paris, Île-de-France, France métropolitaine, 75006, France	48,855544	2,340132	automatic
+PLC00420	Tegra	Dux Moesiae secundae.	Cuneus equitum secundorum armigerorum	Thégra, Gourdon, Lot, Occitanie, France métropolitaine, 46500, France	44,821084	1,755719	automatic
+PLC00303	Tarba	Dux Palaestinae.	Cohors prima agentenaria	Tarbes, Hautes-Pyrénées, Occitanie, France métropolitaine, 65000, France	43,232858	0,078102	automatic
+PLC00056	Ripa Alta	Dux provinciae Valeriae.	Equites Dalmatae	Ripa Alta, 3, Place du 11 Novembre 1918, L'Église, Plaisance, Mirande, Gers, Occitanie, France métropolitaine, 32160, France	43,605525	0,046362	automatic
+PLC00096	Ad Mauros	Dux Pannoniae primae.	Equites promoti	Mauros, Loubens, Langon, Gironde, Nouvelle-Aquitaine, France métropolitaine, 33190, France	44,621654	-0,039716	automatic
+PLC00387	Valentia	Dux Armeniae.	Cohors prima Theodosiana	València, Comarca de València, València / Valencia, Comunitat Valenciana, España	39,469707	-0,376335	automatic
+PLC00011	Cornaco	Dux Pannoniae.	Equites Dalmatae	El Cornacó, Segorbe, l'Alt Palància, Castelló / Castellón, Comunitat Valenciana, 12489, España	39,762515	-0,436996	automatic
+PLC00138	Aleto	Dux tractus Armoricani.	Praefectus militum Martensium	Puntal de Aleto, Chelva, La Serranía, València / Valencia, Comunitat Valenciana, España	39,651880	-1,064836	automatic
+PLC00452	Tricornio	Dux Moesiae primae.	Auxiliares Tricornienses	Tricornio, Tudela, Ribera / Erribera, Navarra, Navarra / Nafarroa, España	42,084437	-1,707098	automatic
+PLC00458	Tricornio	Dux Moesiae primae.	Auxilium Aureomontanum	Tricornio, Tudela, Ribera / Erribera, Navarra, Navarra / Nafarroa, España	42,084437	-1,707098	automatic
+PLC00445	Tricornio	Dux Moesiae primae.	Cuneus equtum sagittariorum	Tricornio, Tudela, Ribera / Erribera, Navarra, Navarra / Nafarroa, España	42,084437	-1,707098	automatic
+PLC00164	Vindobala	Dux Britanniarum.	Tribunus cohortis primae Frixagorum	Vindobala, Stamfordham Road, Heddon-on-the-Wall, Northumberland, North East, England, NE15 0JT, United Kingdom	55,002491	-1,825522	automatic
+PLC00046	Solua	Dux provinciae Valeriae.	Equites Mauri	Goiko Solua, Aritzeta auzoa, Askarruntz, Elorregi, Bergara, Gipuzkoa, Euskadi, 20570, España	43,102037	-2,419593	automatic
+PLC00170	Aesica	Dux Britanniarum.	Tribunus cohortis primae Asturum	Aesica Roman Fort, Roman Military Way, Greenhead, Northumberland, North East, England, NE49 9PJ, United Kingdom	54,994815	-2,464496	automatic
+PLC00054	Adnamantia	Dux provinciae Valeriae.	Equites Dalmatae	Almazán, Soria, Castilla y León, España	41,487065	-2,533599	automatic
+PLC00171	Magnis	Dux Britanniarum.	Tribunus cohortis secundae Dalmatarum	Magnis, Glebe Close, Credenhill, Sugwas Pool, Credenhill, Herefordshire, England, HR4 7EU, United Kingdom	52,081096	-2,817303	automatic
+PLC00481	Oesco	Dux Daciae ripensis.	Auxilium Mariensium	OESCO Power Station, Queensway, Gibdock, Gibraltar, GX11 1AA, Gibraltar	36,128344	-5,353741	automatic
+PLC00487	Oesco	Dux Daciae ripensis.	Praefectus legionis quintae Macedonicae	OESCO Power Station, Queensway, Gibdock, Gibraltar, GX11 1AA, Gibraltar	36,128344	-5,353741	automatic
+PLC00490	Burgo Novo	Dux Daciae ripensis.	Praefectus legionis tertiaedecimae geminae	O Burgo, Santuário de Nossa Senhora da Piedade, Casal Novo, Lousã, Coimbra, 3200-120, Portugal	40,099994	-8,234526	automatic
+PLC00343	Cartha	Dux Mesopotamiae.	Ala secunda nova Aegyptiorum	Carra, Grange ED, Loughrea Municipal District, County Galway, Connacht, Éire / Ireland	53,260650	-8,492026	automatic
+PLC00302	Cartha	Dux Palaestinae.	Cohors decima Carthaginensis	Carra, Grange ED, Loughrea Municipal District, County Galway, Connacht, Éire / Ireland	53,260650	-8,492026	automatic
+PLC00255	Neia	Dux Foenicis.	Ala prima Alamannorum	Neia, Rua Antão Girão, Bairro Salgado, Setúbal (São Julião, Nossa Senhora da Anunciada e Santa Maria da Graça), Setúbal, 2900-602, Portugal	38,524177	-8,889462	automatic
+PLC00301	Afro	Dux Palaestinae.	Cohors duodecima Valeria	AFRO, 12-14, Rua dos Poiais de São Bento, São Bento, Misericórdia, Lisboa, 1200-321, Portugal	38,711018	-9,150090	automatic
+PLC00494	Siosta	Dux Daciae ripensis.	Tribunus cohortis secundorum reducum	Tuosist, County Kerry, Munster, Éire / Ireland	51,778007	-9,731095	automatic

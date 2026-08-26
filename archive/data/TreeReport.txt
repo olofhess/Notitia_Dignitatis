@@ -1,0 +1,3865 @@
+Living Notitia
+XML Tree Report
+============================================================
+
+document 
+    item [1] IN PARTIBUS OCCIDENTIS
+    chapter Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+        item [5] Praefectus praetorio Italiae
+        item [6] Praefectus praetorio Galliarum
+        item [7] Praefectus urbis Romae
+        item [8] Magister peditum in praesenti
+        item [9] Magister equitum in praesenti
+        item [10] Magister equitum per Gallias
+        item [11] Praepositus sacri cubiculi
+        item [12] Magister officiorum
+        item [13] Quaestor
+        item [14] Comes sacrarum largitionum
+        item [15] Comes rerum privatum
+        item [16] Comes domesticorum equitum
+        item [17] Comes domesticorum peditum
+        item [18] Primicerius sacri cubiculi
+        item [19] Primicerius notariorum
+        item [20] Castrensis sacri palatii
+        group [21] Magistri scriniorum
+            item [22] Memoriae
+            item [23] Epistolarum
+            item [24] Libellorum
+        item [25] Proconsul Africae
+        group [26] Vicarii sex
+            item [27] Urbis Romae
+            item [28] Italiae
+            item [29] Africae
+            item [30] Hispaniarum
+            item [31] Septem provinciarum
+            item [32] Britanniarum
+        group [33] Comites rei militaris sex
+            item [34] Italiae
+            item [35] Africae
+            item [36] Tingitaniae
+            item [37] Tractus Argentoratensis
+            item [38] Britanniarum
+            item [39] Litoris Saxonici per Britannias
+        group [40] Duces duodecim
+            item [41] Limitis Mauretaniae Caesariensis
+            item [42] Limites Tripolitani
+            item [43] Pannoniae primae et Norici ripensis
+            item [44] Pannoniae secundae
+            item [45] Valeriae ripensis
+            item [46] Raetiae primae et secundae
+            item [47] Sequanicae
+            item [48] Tractus Armoricani et Neruicani
+            item [49] Belgicae secundae
+            item [50] Germaniae primae
+            item [51] Britanniae
+            item [52] Mogontiacensis
+        group [53] Consulares viginti duo
+            group [54] Per Pannoniam unus
+                item [55] Pannoniae
+            group [56] Per Italias octo
+                item [57] Venetiae et Histriae
+                item [58] Aemiliae
+                item [59] Liguriae
+                item [60] Flaminiae et Piceni annonarii
+                item [61] Tusciae et Umbriae
+                item [62] Piceni suburbicarii
+                item [63] Campaniae
+                item [64] Siciliae
+            group [65] Per Africam duo
+                item [66] Byzacii
+                item [67] Numidiae
+            group [68] Per Hispanias tres
+                item [69] Baeticae
+                item [70] Lusitaniae
+                item [71] Callaeciae
+            group [72] Per Gallias sex
+                item [73] Viennensis
+                item [74] Lugdunensis primae
+                item [75] Germaniae primae
+                item [76] Germaniae secundae
+                item [77] Belgicae primae
+                item [78] Belgicae secundae
+            group [79] Per Britannias duo
+                item [80] Maximae Caesariensis
+                item [81] Valentiae
+        group [82] Correctores tres
+            group [83] Per Italiam duo
+                item [84] Apuliae et Calabriae
+                item [85] Lucaniae et Brittiorum
+            group [86] Per Pannoniam unum
+                item [87] Saviae
+        group [88] Praesides triginta unum
+            group [89] Per Illyricum quattuor
+            item [90] Dalmaticarum
+            item [91] Pannoniae primae
+            item [92] Norici mediterranei
+            item [93] Norici ripensis
+            group [94] Per Italias septem
+            item [95] Alpium Cottiarum
+            item [96] Raetiae primae
+            item [97] Raetiae secundae
+            item [98] Samnii
+            item [99] Valeriae
+            item [100] Saradiniae
+            item [101] Corsicae
+            group [102] Per Africam duo
+            item [103] Mauretaniae Sitifensis
+            item [104] Tripolitanae
+            group [105] Per Hispanias Quattuor
+            item [106] Tarraconensis
+            item [107] Carthagiensis
+            item [108] Tingitaniae
+            item [109] Insularum Balearum
+            group [110] Per Gallias undecim
+            item [111] Alpum maritimarum
+            item [112] Alpium Poeninarum et Graiarum
+            item [113] Maximae Sequanorum
+            item [114] Aquitanicae primae
+            item [115] Aquitanicae secundae
+            item [116] Novempopulanae
+            item [117] Narbonensis primae
+            item [118] Narbonensis secundae
+            item [119] Lugdunensis secundae
+            item [120] Lugdunensis tertiae
+            item [121] Lugdunensis Senonicae
+            group [122] Per Britannias tres
+            item [123] Britanniae primae
+            item [124] Britanniae secundae
+            item [125] Flaviae Caesariensis
+    chapter Insignia viri illustris praefecti praetorio per Italias.
+        group [129] Sub dispositione viri illustris praefecti praetorio Italiae dioceses infrascriptae
+            item [130] Italia
+            item [131] Illyricum
+            item [132] Africa
+        group [133] Provinciae
+            group [134] Italiae decem et septem
+                item [135] Venetiae
+                item [136] Aemilae
+                item [137] Liguriae
+                item [138] Flaminiae et Piceni annonarii
+                item [139] Tusciae et Umbriae
+                item [140] Piceni suburbicarii
+                item [141] Campaniae
+                item [142] Siciliae
+                item [143] Apuliae et Campaniae
+                item [144] Lucaniae et Brittiorum
+                item [145] Alpium Cottiarum
+                item [146] Raetiae primae
+                item [147] Raetiae secundae
+                item [148] Samnii
+                item [149] Valeriae
+                item [150] Saradiniae
+                item [151] Corsicae
+            group [152] Illyrici sex
+                item [153] Pannoniae secundae
+                item [154] Saviae
+                item [155] Dalmatiarum
+                item [156] Pannoniae primae
+                item [157] Norici mediterranei
+                item [158] Norici ripensis
+            group [159] Africae septem
+                item [160] Byzacium
+                item [161] Numidia
+                item [162] Mauretaniae Sitifensis
+                item [163] Mauretaniae Caesariensis
+                item [164] Tripolis
+                item [165] Praefectus annonae Africae
+                item [166] Praefectus fundorum patrimonialium
+        group [167] Officium viri illustris praefecti praeterio Italiae
+            item [168] Princeps
+            item [169] Cornicularius
+            item [170] Adiutor
+            item [171] Commentariensis
+            item [172] Ab actis
+            item [173] Numerarii
+            item [174] Subadiuuae
+            item [175] Cura epistolarum
+            item [176] Regerendarius
+            item [177] Exceptores
+            item [178] Adiutores
+            item [179] Singularii
+    chapter Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:
+        item [183] Hispaniae
+        item [184] Septem provinciae
+        item [185] Britanniae
+        group [186] Provinciae
+            group [187] Hispaniarum VII
+            item [188] Baetica
+            item [189] Lusitania
+            item [190] Callaecia
+            item [191] Tarraconensis
+            item [192] Carthaginensis
+            item [193] Tingitania
+            item [194] Baleares
+            group [195] Septem provinciarum XVII
+            item [196] Viennensis
+            item [197] Lugdunensis primae
+            item [198] Germania primae
+            item [199] Germania secundae
+            item [200] Belgica prima
+            item [201] Belgica secunda
+            item [202] Alpes maritimae
+            item [203] Alpes Poeninae et Graiae
+            item [204] Maxima Sequanorum
+            item [205] Aquitania prima
+            item [206] Aquitania secunda
+            item [207] Novem populi
+            item [208] Narbonensis prima
+            item [209] Narbonensis secunda
+            item [210] Lugdunensis secunda
+            item [211] Lugdunensis tertia
+            item [212] Lugdunensis Senonia
+            group [213] Britanniarum V
+            item [214] Maxima Caesariensis
+            item [215] Valentia
+            item [216] Britannia prima
+            item [217] Britannia decunda
+            item [218] Flavia Caesariensis
+        group [219] Officium viri illustris praefecti praetorio Galliarum
+            item [220] Princeps
+            item [221] Cornicularius
+            item [222] Adiutor
+            item [223] Commentariensis
+            item [224] Ab actis
+            item [225] Numerarii
+            item [226] Subadiuuae
+            item [227] Cura epistolarum
+            item [228] Regerendarius
+            item [229] Exceptores
+            item [230] Adiutores
+            item [231] Singularii
+        group [233] IV
+        item [234] Insignia viri illustris praefecti urbis Romae
+        group [236] Sub dispositione viri illustris praefecti urbis habentur amministrationes infrascriptae
+            item [237] Praefectus annonae
+            item [238] Praefectus vigilum
+            item [239] Comes formarum
+            item [240] Comes riparum et alvei Tiberis et cloacarum
+            item [241] Comes portus
+            item [242] Magister census
+            item [243] Rationalis vinorum
+            item [244] Tribunus forii suarii
+            item [245] Consularis aquarum
+            item [246] Curator operum maximorum
+            item [247] Curator operum publicorum
+            item [248] Curator statuarum
+            item [249] Curator horreorum Galbanorum
+            item [250] Centenarius portus
+            item [251] Tribunus rerum nitentium
+        group [252] Officium viri illustris praefecti urbis
+            item [253] Princeps
+            item [254] Cornicularius
+            item [255] Adiutor
+            item [256] Commentariensis
+            item [257] Ab actis
+            item [258] Numerarii
+            item [259] Primiscrinius
+            item [260] Subadiuuae
+            item [261] Cura epistolarum
+            item [262] Regrendarius
+            item [263] Exceptores
+            item [264] Adiutores
+            item [265] Censuales
+            item [266] Nomenculatores
+            item [267] Singularii
+    chapter Insignia viri illustris magistri peditum.
+        group [271] Sub dispositione viri illustris magister peditum praesentalis
+            group [272] Comites limitum infrascriptorum..
+                item [273] Italiae
+                item [274] Africae
+                item [275] Tingitaniae
+                item [276] Tractus Argentoratensis
+                item [277] Britanniarum
+                item [278] Litoris Saxonici per Britannias
+            group [279] duces limitum infrascriptorum decem
+                item [280] Mauretaniae Caesariensis
+                item [281] Tripolitani
+                item [282] Pannoniae secundae
+                item [283] Valeriae ripensis
+                item [284] Pannoniae primae et Norici ripensis
+                item [285] Raetiae primae et scundae
+                item [286] Belgicae secundae
+                item [287] Germaniae primae
+                item [288] Britanniarum
+                item [289] Mogontiacensis
+            group [290] Legiones palatinae XII
+                item [291] Ioviani seniores
+                item [292] Herculiani seniores
+                item [293] Divitenses seniores
+                item [294] Tongrecani seniores
+                item [295] Pannoniciani seniores
+                item [296] Moesiaci seniores
+                item [297] Armigeri propugnatores seniores
+                item [298] Lanciarii Sabarienses
+                item [299] Octavani
+                item [300] Thebaei
+                item [301] Cimbriani
+                item [302] Armigeri propugnatores iuniores
+            group [303] Auxilia palatina sexaginta quinque
+                item [304] Cornuti seniores
+                item [305] Brachiati seniores
+                item [306] Petulantes seniores
+                item [307] Celtae seniores
+                item [308] Heruli seniores
+                item [309] Batavi seniores
+                item [310] Mattiaci seniores
+                item [311] Mattiaci iuniores
+                item [312] Ascarii seniores
+                item [313] Ascarii iuniores
+                item [314] Iovii seniores
+                item [315] Cornuti iuniores
+                item [316] Sagittarii Nervii
+                item [317] Leones seniores
+                item [318] Leones iuniores
+                item [319] Exculcatores seniores
+                item [320] Sagittarii Tungri
+                item [321] Exculcatores iuniores
+                item [322] Tubantes
+                item [323] Salii
+                item [324] Grati
+                item [325] Felices seniores
+                item [326] Felices iuniores
+                item [327] Gratianenses seniores
+                item [328] Invicti seniores
+                item [329] Augustei
+                item [330] Iovii iuniores
+                item [331] Victores iuniores
+                item [332] Batavi iuniores
+                item [333] Bructeri
+                item [334] Ampsiuarii
+                item [335] Gratianenses iuniores
+                item [336] Valentianenses iuniores
+                item [337] Raeti
+                item [338] Sequani
+                item [339] Sagittarii venatores
+                item [340] Latini
+                item [341] Sabini
+                item [342] Brachiati iuniores
+                item [343] Honoriani Atecotti seniores
+                item [344] Honoriani Marcomanni seniores
+                item [345] Honoriani Marcomanni iuniores
+                item [346] Honoriani Atecotti iuniores
+                item [347] Brisigavi seniores
+                item [348] Brisigavi iuniores
+                item [349] Honoriani Mauri seniores
+                item [350] Honoriani Mauri iuniores
+                item [351] Celtae iuniores
+                item [352] Invicti iuniores Britanniciani
+                item [353] Exculcatores iuniores Britanniciani
+                item [354] Felices Valentinianenses
+                item [355] Mattiaci iuniores Gallicani
+                item [356] Salii Gallicani
+                item [357] Sagittarii Nervii Gallicani
+                item [358] Iovii iuniores Gallicani
+                item [359] Seguntienses
+                item [360] Galli victores
+                item [361] Honoriani victores iuniores
+                item [362] Honoriani ascarii seniores
+                item [363] Felices iuniores Gallicani
+                item [364] Atecotti iuniores Gallicani
+                item [365] Tungri
+                item [366] Honoriani Gallicani
+                item [367] Mauri tonantes seniores
+                item [368] Mauri tonantes iuniores
+            group [369] Legiones comitatenses XXXII
+                item [370] Menapii seniores
+                item [371] Fortenses
+                item [372] Propugnatores seniores
+                item [373] Armigeri defensores seniores
+                item [374] Septimani seniores
+                item [375] Regii
+                item [376] Pacatianenses
+                item [377] Vesontes
+                item [378] Mattiarii iuniores
+                item [379] Mauri cetrati
+                item [380] Undecimani
+                item [381] Secundani Italiciani
+                item [382] Germaniciani iuniores
+                item [383] Tertiani Italica
+                item [384] Tertia Herculea
+                item [385] Lanciarii Gallicani Honoriani
+                item [386] Propugnatores iuniores
+                item [387] Secunda Britannica
+                item [388] Septimani iuniores
+                item [389] Praesichantes
+                item [390] Ursarienses
+                item [391] Cortoriacenses
+                item [392] Geminiacenses
+                item [393] Honoriani felices Gallicani
+                item [394] Tertia Iulia Alpina
+                item [395] Prima Flavia Pacis
+                item [396] Secunda Flavia Virtutis
+                item [397] Tertia Flavia Salutis
+                item [398] Flavia victrix Constantina
+                item [399] Secunda Flavia Constantiniana
+                item [400] Tertio Augustani
+                item [401] Fortenses
+                group [402] Pseudocomitatenses XVIII
+                item [403] Prima Alpina
+                item [404] Secunda Iulia Alpina
+                item [405] Lanciarii Lauriacenses
+                item [406] Lanciarii Comaginenses
+                item [407] Taurunenses
+                item [408] Antianenses
+                item [409] Pontinenses
+                item [410] Prima Flavia Gallicana Constantia
+                item [411] Martenses
+                item [412] Abrincateni
+                item [413] Defensores seniores
+                item [414] Mauri Osismiaci
+                item [415] Prima Flavia Metis
+                item [416] Superventores iuniores
+                item [417] Constantiaci
+                item [418] Corniacenses
+                item [419] Septimani
+                item [420] Romanenses
+        group [421] Officium suprascripti magistri peditum praesentalis
+            item [422] Princeps
+            item [423] Numerarius
+            item [424] Commentariensis
+            item [425] Adiutor
+            item [426] Regerendarius
+            item [427] Exceptores et reliqui apparitores
+    chapter Insignia viri illustris magistri equitum.
+        group [431] Sub dispositione viri illustris comitis et magistri equitum praesentalis
+            group [432] Vexillationes palatinae decem
+                item [433] Comites seniores
+                item [434] Equites promoti seniores
+                item [435] Equites brachiati seniores
+                item [436] Equites brachiati iuniores
+                item [437] Equites Batavi seniores
+                item [438] Equites cornuti seniores
+                item [439] Equites cornuti iuniores
+                item [440] Comites Alani
+                item [441] Equites Batavi iuniores
+                item [442] Equites constantes Valentinianenses seniores
+            group [443] Vexillationes comitatenses....
+                item [444] Equites armigeri
+                item [445] Equites primi Gallicani
+                item [446] Equites octavo Dalmatae
+                item [447] Equites Dalmatae Passerentiaci
+                item [448] Equites Mauri alites
+                item [449] Equites Honoriani Taifali iuniores
+                item [450] Equites Honoriani seniores
+                item [451] Equites Mauri feroces
+                item [452] Equites Constantiani felices
+                item [453] Equites scutarii
+                item [454] Equites stablesiani Africani
+                item [455] Equites Marcomanni
+                item [456] Equites armigeri seiores
+                item [457] Equites sagittarii clibanarii
+                item [458] Equites sagittarii Parthi seniores
+                item [459] Equites primo sagittarii
+                item [460] Equites secundo sagittarii
+                item [461] Equites tertio sagittarii
+                item [462] Equites quarto sagittarii
+                item [463] Equites sagittarii Parthi iuniores
+                item [464] Equites cetrati seniores
+                item [465] Comites iuniores
+                item [466] Equites promoti iuniores
+                item [467] Equites sagittarii iuniores
+                item [468] Equites cetrati iuniores
+                item [469] Equites Honoriani iuniores
+                item [470] Equites armigeri iuniores
+                item [471] Equites secundi scutarii iuniores
+                item [472] Equites stablesiani Italiciani
+                item [473] Equites sagittarii Cordueni
+                item [474] Equites sagittarii seniores
+                item [475] Cuneus equitum promotorum
+        group [476] Officium suprascriptae magisteriae potestatis
+            item [477] Princeps
+            item [478] Numerarius
+            item [479] Primiscrinius
+            item [480] Commentariensis
+            item [481] Adiutor
+            item [482] Regerendarius
+            item [483] Exceptores et reliqui apparitores
+    chapter Qui numeri ex praedictis per infrascriptas provincias habeantur:
+        group [487] Intra Italiam
+            item [488] Ioviani seniores
+            item [489] Herculiani seniores
+            item [490] Divitenses seniores
+            item [491] Tongrecani seniores
+            item [492] Pannoniciani seniores
+            item [493] Moesiaci seniores
+            item [494] Cornuti seniores
+            item [495] Brachiati seniores
+            item [496] Petulantes seniores
+            item [497] Celtae seniores
+            item [498] Heruli seniores
+            item [499] Batavi seniores
+            item [500] Mattiaci seniores
+            item [501] Iovii seniores
+            item [502] Victores seniores. [?]
+            item [503] Cornuti iuniores
+            item [504] Leones iuniores
+            item [505] Exculcatores seniores
+            item [506] Grati
+            item [507] Sabini
+            item [508] Felices iuniores
+            item [509] Atecotti Honoriani iuniores.[same as Honoriani Atecotti iun.]
+            item [510] Brisigavi iuniores
+            item [511] Mauri Honoriani iuniores.[same as Honoriani Mauri iuniores.]
+            item [512] Galli victores
+            item [513] Octavani
+            item [514] Thebaei
+            item [515] Mattiarii iuniores
+            item [516] Septimani iuniores
+            item [517] Regii
+            item [518] Germaniciani.[same as Germaniciani iuniores.]
+            item [519] Prima Iulia.[same as Prima Alpina.]
+            item [520] Tertia Iulia.[same as Tertia Iulia Alpina.]
+            item [521] Placidi Valentinianici felices.[?]
+            item [522] Gratianenses iuniores
+            item [523] Marcomanni.[same as Honoriani Marcomanni seniores & iuniores.]
+            item [524] Pontinenses
+        group [525] Intra Illyricum cum uiro spectabili comite Illyrici
+            item [526] Sagittarii Tungri
+            item [527] Iovii iuniores
+            item [528] Sequani
+            item [529] Raeti
+            item [530] Sagittarii venatores
+            item [531] Latini
+            item [532] Valentinianenses felices.[same as Felices Valentinianenses.]
+            item [533] Honoriani victores.[same as Honoriani victores iuniores.]
+            item [534] Seguntienses
+            item [535] Tungri
+            item [536] Mauri Honoriani seniores.[same as Honoriani Mauri seniores.]
+            item [537] Mattiarii Honoriani Gallicani.[same as Honoriani Gallicani.]
+            item [538] Tertiani.[same as Tertiani Italica.]
+            item [539] Tertia Herculea
+            item [540] Pacatianenses
+            item [541] Mauri cetrati
+            item [542] Propugnatores iuniores
+            item [543] Lanciarii Lauriacenses
+            item [544] Lanciarii Comaginenses
+            item [545] Secunda Iulia.[same asÝ Secunda Iulia Alpina.]
+            item [546] Valentinianenses.[same as Valentinianenses iuniores, also in Gallia?]
+            item [547] Catarienses[?]
+        group [548] Intra Gallias cum uiro illustri magistro equitum Galliarum
+            item [549] Mattiaci iuniores
+            item [550] Leones seniores
+            item [551] Brachiati iuniores
+            item [552] Salii seniores.[same as Salii.]
+            item [553] Gratianenses.[same as Gratianenses seniores.]
+            item [554] Brocteri.[same as Bructeri.]
+            item [555] Ampsiuarii
+            item [556] Valentinianenses.[same as Valentinianenses iuniores, also in Illyria?]
+            item [557] Batavi iuniores
+            item [558] Britones[?]
+            item [559] Atecotti Honoriani seniores.[same as Honoriani Atecotti sen.]
+            item [560] Sagittarii Nervii Gallicani
+            item [561] Iovii iuniores Gallicani
+            item [562] Mattiaci iuniores Gallicani
+            item [563] Atecotti iuniores Gallicani
+            item [564] Ascarii Honoriani seniores.[same as Honoriani ascarii sen.]
+            item [565] Armigeri defensores seniores
+            item [566] Lanciarii Honoriani Gallicani.[same as Lanc Gallicani Hon.]
+            item [567] Lanciarii Sabarienses
+            item [568] Menapii seniores
+            item [569] Secundani Britones.[same as Secunda Britannica.]
+            item [570] Ursarienses
+            item [571] Praesidienses.[same as Praesichantes.]
+            item [572] Geminiacenses
+            item [573] Cortoriacenses
+            item [574] Honoriani felices Gallicani
+            item [575] Prima Flavia Gallicana.[same as Prima Fl. Gall. Constantia.]
+            item [576] Martenses
+            item [577] Abrincateni
+            item [578] Defensores seniores
+            item [579] Mauri Osismiaci
+            item [580] Prima Flavia.[same as Prima Flavia Metis.]
+            item [581] Superventores iuniores
+            item [582] Balistarii.[?]
+            item [583] Defensores iuniores.[?]
+            item [584] Garronenses.[?]
+            item [585] Anderetiani.[?]
+            item [586] Acincenses.[?]
+            item [587] Cornacenses.[same as Corniacenses.]
+            item [588] Septimani iuniores.[same as Septimani, or Septimani iuniores, a legiones comitatenses, also found in Italia or in Tingitania.]
+            item [589] Cursarienses iuniores.[?]
+            item [590] Musmagenses.[?]
+            item [591] Romanenses
+            item [592] Insidatores.[?]
+            item [593] Truncensimani.[?]
+            item [594] Abulci.[?]
+            item [595] Exploratores.[?]
+        group [596] Officium viri illustris magistri equitum per Gallias
+            item [597] Princeps ex officiis magistrorum militum praesentalium, uno anno a parte peditum, ali a parte equitum.
+            item [598] Commentariensis
+            item [599] Numerarii ex utrisque officiis singularis annis
+            item [600] Adiutor
+            item [601] Regrendarius
+            item [602] Exceptores et reliqui apparitores
+        group [603] Intra Hispenias cum uiro spectabili comite
+            item [604] Ascarii seniores
+            item [605] Ascarii iuniores
+            item [606] Sagittarii Nervii
+            item [607] Exculcatores iuniores
+            item [608] Tubantes
+            item [609] Felices seniores
+            item [610] Invicti seniores
+            item [611] Victores iuniores
+            item [612] Invicti iuniores Britones.[same as Inv. iun. Britanniciani.]
+            item [613] Brisigavi seniores
+            item [614] Salii iuniores Gallicani.[same as Salii Gallicani.]
+            item [615] Fortenses
+            item [616] Propugnatores seniores
+            item [617] Septimani seniores
+            item [618] Vesontes
+            item [619] Undecimani
+        group [620] Intra Tingitaniam cum uiro spectabili comite
+            item [621] Mauri tonantes seniores
+            item [622] Mauri tonantes iuniores
+            item [623] Constantiniani.[same as Constantiaci ,or the legiones
+            item [624] comitatenses Secunda Flavia Constantiniana also found in Africa.]
+            item [625] Septimani iuniores[also found in Italia or Gallia?]
+        group [626] Intra Africam cum uiro spectabili comite Africae
+            item [627] Celtae iuniores
+            item [628] Armigeri propugnatores seniores
+            item [629] Armigeri propugnatores iuniores
+            item [630] Secundani Italiciani
+            item [631] Cimbriani
+            item [632] Primani.[same as Prima Flavia Pacis.]
+            item [633] Secundani.[same as Secunda Flavia Virtutis]
+            item [634] Tertiani.[same as Tertia Flavia Salutis.]
+            item [635] Constantiniani.[same as Secunda Flavia Constantiniana.]
+            item [636] Constantiaci.[same as Flavia victrix Constantina.]
+            item [637] Tertio Augustani
+            item [638] Fortenses
+        group [639] Intra Britannias cum uiro spectabili comite Britanniarum
+            item [640] Victores iuniores Britanniciani.[same as Victores iuniores in Hispania?]
+            item [641] Primani iuniores.[?]
+            item [642] Secundani iuniores.[same as Secundani Britannica also found in Gallia?]
+        group [643] Item Vexillationes
+            group [644] Intra Italiam
+                item [645] Comites seniores
+                item [646] Equites promoti seniores
+                item [647] Equites brachiati seniores
+                item [648] Equites cornuti seniores.[also in Gallia, but might be iuniores.]
+                item [649] Comites Alani
+                item [650] Equites Mauri feroces
+                item [651] Equites constantes Valentinianenses iuniores.[likely seniores.]
+            group [652] Intra Gallias cum uiro illustri comite et magistro equitum Galliarum
+                item [653] Equites Batavi seniores
+                item [654] Equites cornuti seniores.[also in Italia, but might be iuniores.]
+                item [655] Equites Batavi iuniores
+                item [656] Equites brachiati iuniores
+                item [657] Equites Honoriani seniores
+                item [658] Equites Honoriani iuniores.[same as Equ. Hon. Taifali iun.]
+                item [659] Equites armigeri seniores.[same as Equites armigeri.]
+                item [660] Equites octavo Dalmatae
+                item [661] Equites Dalmatae Passerentiaci
+                item [662] Equites primi Gallicani
+                item [663] Equites Mauri alites
+                item [664] Equites Constantiani feroces.[same as Equ. Con. felices.]
+            group [665] Intra Africam cum uiro spectabili comite Africae
+                item [666] Equites stablesiani Italiciani
+                item [667] Equites scutarii seniores.[same as Equites scutarii.]
+                item [668] Equites stablesiani seniores.[same as Equites stablesiani Africani.]
+                item [669] Equites Marcomanni
+                item [670] Equites armigeri seiores
+                item [671] Equites clibanarii.[same as Equites sagittarii clibanarii.]
+                item [672] Equites sagittarii Parthi seniores
+                item [673] Equites cetrati seniores
+                item [674] Equites primo sagittarii
+                item [675] Equites secundo sagittarii
+                item [676] Equites tertio sagittarii
+                item [677] Equites quarto sagittarii
+                item [678] Equites Parthi sagittarii iuniores.[same as Equites sagittarii Parthi iuniores.]
+                item [679] Equites cetrati iuniores
+                item [680] Equites promoti iuniores
+                item [681] Equites sagittarii iuniores
+                item [682] Equites Honoriani iuniores
+                item [683] Equites scutarii iuniores scolae secundae.[same as Equites secundi scutarii iuniores.]
+                item [684] Equites armigeri iuniores
+            group [685] Intra Britannias cum uiro spectibili comite Britanniarum
+                item [686] Equites catafractarii iuniores.[?]
+                item [687] Equites scutarii Aureliaci.[?]
+                item [688] Equites Honoriani seniores.[also in Gallia.]
+                item [689] Equites stablesiani.[one of the stablesiani units in Africa?]
+                item [690] Equites Syri.[?]
+                item [691] Equites Taifali.[same as Equ. Hon. Taifali iun., also in Gallia?]
+                group [692] Intra Tingitaniam cum uiro spectabili comite Tingitaniae
+                item [693] Equites scutarii seniores.[also in Africa?]
+                item [694] Equites sagittarii seniores
+                item [695] Equites Cordueni.[same as Equites sagittarii Cordueni.]
+    chapter [Deest]
+    chapter Insignia viri illustris magistri officiorum.
+        group [701] Sub dispositione viri illustris magistris officiorum
+            item [702] Scola scutariorum prima
+            item [703] Scola scutariorum secunda
+            item [704] Scola armaturarum seniorum
+            item [705] Scola gentilium seniorum
+            item [706] Scola scutatorium tertia
+            item [707] Scola agentum in rebus et deputati eiusdem scolae
+            item [708] Scrinium memoriae
+            item [709] Scrinium dispositionum
+            item [710] Scrinium epistolarum
+            item [711] Scrinium libellorum
+            item [712] Ammissionales
+            item [713] Cancellarii
+        group [714] Fabricae infrascriptae
+            group [715] In Illyrico
+                item [716] Sirmensis scutorum, scordiscorum et armorum.
+                item [717] Acincensis scutaria
+                item [718] Cornutensis scutaria
+                item [719] Lauriacensis scutaria
+                item [720] Salonitana armorum
+            group [721] Italiae
+                item [722] Concordensis sagittaria
+                item [723] Veronensis scutaria et armorum
+                item [724] Manutuana loricaria
+                item [725] Cremonensis scutaria
+                item [726] Ticenensis arcuaria
+                item [727] Lucensis spatharia
+            group [728] In Galliis
+                item [729] Argentomagensis armorum omnium
+                item [730] Matisconensis sagittaria
+                item [731] Augustodunensis loricaria, balistaria et clibanaria.
+                item [732] Augustodunensis scutaria
+                item [733] Suessionensis.......
+                item [734] Remensis spatharia
+                item [735] Triberorum scutaria
+                item [736] Triberorum balistaria
+                item [737] Ambianensis spatharia et scutaria
+        group [738] Officium autem suprascripti viri illustris magistri officiorum de scola agentum in rebus habetur hoc modo
+            item [739] Adiutor
+            item [740] Subadiuuae adiutoris
+            item [741] Subadiuuae fabricarum diversarum
+            item [742] Curiosur cursus publici in praesenti
+            item [743] Curiosi omnium provinciarum
+            item [744] Interpretes omnium gentium
+    chapter Insignia viri illustris quaestoris.
+        group [748] Sub dispositione viri illustris quaestoris
+            item [749] Leges dictandae
+            item [750] Preces
+        item [751] Habet subaudientes adiutores memoriales de scriniis diversis
+    chapter Insignia viri illustris comitis sacrarum largitionum.
+        group [755] Sub dispositione viri illustris comites sacrarum largitionum
+            item [756] Comes largitionum per Illyricum
+            item [757] Comes vestiarii
+            item [758] Comes auri
+            item [759] Comes largitionum Italicianarum
+            item [760] Comes titulorum largitionalium per Africam
+        group [761] Rationales
+            item [762] Rationalis summarum Pannoniae secundae, Dalmatiae et Saviae.
+            item [763] Rationalis summarum Pannoniae prima, Valeriae, Norici mediterranei et ripensis.
+            item [764] Rationalis summarum Italiae
+            item [765] Rationalis summarum urbis Romae
+            item [766] Rationalis summarum Trum provinciarum, id est Siciliae, Saradiniae et Corsicae.
+            item [767] Rationalis summarum Africae
+            item [768] Rationalis summarum Nimidiae
+            item [769] Rationalis summarum Hispaniae
+            item [770] Rationalis summarum Quinque provinciarum
+            item [771] Rationalis summarum Galliarum
+            item [772] Rationalis summarum Britanniarum
+        group [773] Praepositi thesauroum
+            group [774] Per Illyricum
+                item [775] Praepositus thesaurorum Salonitanorum, Dalmatiae.
+                item [776] Praepositus thesaurorum Siscianorum, Saviae.
+                item [777] Praepositus thesaurorum Sabariensium, Pannoniae primae.
+            group [778] Per Italiam
+                item [779] Praepositus thesaurorum Aquileiensium, Venetiae.
+                item [780] Praepositus thesaurorum Mediolanensium, Liguriae.
+                item [781] Praepositus thesaurorum urbis Romae
+                item [782] Praepositus thesaurorum Augustae Vindelicensis, Raetiae secundae.
+            group [783] Per Gallias
+                item [784] Praepositus thesaurorum Lugdunensium
+                item [785] Praepositus thesaurorum Arelatensium
+                item [786] Praepositus thesaurorum Remorum
+                item [787] Praepositus thesaurorum Triberorum
+            group [788] In Britanniis
+                item [789] Praepositus thesaurorum Augustensium
+        group [790] Procuratores monetarum
+            item [791] Procurator monetae Siscianae
+            item [792] Procurator monetae Aquileiensis
+            item [793] Procurator monetae urbis Romae
+            item [794] Procurator monetae Lugdunensis
+            item [795] Procurator monetae Arelatensis
+            item [796] Procurator monetae Triberorum
+        group [797] Procuratores gynaeciorum
+            item [798] Procurator gynaecii Bassianensis, Pannoniae secundae - translati Salonis.
+            item [799] Procurator gynaecii Sirmensis, Pannoniae secundae.
+            item [800] Procurator gynaecii Iovensis Dalmatiae - Aspalato
+            item [801] Procurator gynaecii Aquileiensis, Venetiae inferioris.
+            item [802] Procurator gynaecii Mediolanensis, Liguriae.
+            item [803] Procurator gynaecii urbis Romae
+            item [804] Procurator gynaecii Canusini et Venusini, Apuliae.
+            item [805] Procurator gynaecii Carthagiensis, Africae.
+            item [806] Procurator gynaecii Arelatiensis, provinciae Viennensis.
+            item [807] Procurator gynaecii Lugdunensis
+            item [808] Procurator gynaecii Remensis, Belgicae secundae.
+            item [809] Procurator gynaecii Triberorum, Belgicae primae.
+            item [810] Procurator gynaecii Augustoduno translati Mettis
+            item [811] Procurator gynaecii (in Britannis) Ventensis
+        group [812] Procuratores linyfiorum
+            item [813] Procurator linyfii Viennensis, Galliarum.
+            item [814] Procurator linyfii Ravennatis, Italiae.
+        group [815] Procuratores bafiorum
+            item [816] Procurator bafii Tarentini, Calabriae.
+            item [817] Procurator bafii Salonitani, Dalmatiae.
+            item [818] Procurator bafii Cissensis, Venetiae et Histriae.
+            item [819] Procurator bafii Syracusani, Siciliae.
+            item [820] Procurator bafiorum omnium per Africam
+            item [821] Procurator bafii Girbitani, provinciae Tripolitanae.
+            item [822] Procurator bafii insularum Balearum, in Hispania.
+            item [823] Procurator bafii Telonensis, Galliarum.
+            item [824] Procurator bafii Narbonensis
+        group [825] Praepositi branbaricariorum siue argentariorum
+            item [826] Praepositus branbaricariorum siue argentariorum Arelatensium
+            item [827] Praepositus branbaricariorum siue argentariorum Remensium
+            item [828] Praepositus branbaricariorum siue argentariorum Triberorum
+        group [829] Praepositi bastagarum
+            group [830] Orientalium
+            item [831] Praepositus bastagae primae Orientalis et quartae
+            item [832] Praepositus bastagae secundae Orientalis et tertiae
+            item [833] Praepositus bastagae secunsae et tertiae Orientalis
+            item [834] Praepositus bastagae primae et quartae Orientalis
+            group [835] Gallicanarum
+            item [836] Praepositus bastagae primae Gallicanae et quartae
+        item [837] Comes commerciorum per Illyricum
+        group [838] Officium autem suprascripti viri illustris comitis sacrarum largitionum habet
+            item [839] Primicerium totius officii
+            item [840] Primicerium scrinii canonum
+            item [841] Primicerium scrinii tabulariorum
+            item [842] Primicerium scrinii numerorum
+            item [843] Primicerium scrinii aureae massae
+            item [844] Primicerium scrinii auri ad responsum
+            item [845] Primicerium scrinii vestiarii sacri
+            item [846] Primicerium scrinii ab argento
+            item [847] Primicerium scrinii a miliarensibus
+            item [848] Primicerium scrinii a pecuniis, et ceteros scriniarios.
+            item [849] Secundicerium officii, qui primicerius est exceptorum.
+            item [850] Tertiocerium officii, qui tractat bastagas
+    chapter Insignia viri illustris comitis privatarum.
+        group [854] Sub dispositione viri illustris comitis rerum privatarum
+            item [855] Comes largitionum privatarum
+            item [856] Comes Gildoniaci patrimonii
+            item [857] Rationalis rerum privatarum per Illyricum
+            item [858] Rationalis rerum privatarum per Italiam
+            item [859] Rationalis rei privatae per Italiam
+            item [860] Rationalis rei privatae per urbem Romam et suburbicarias regiones cum parte Faustinae
+            item [861] Rationalis rei privatae per Siciliam
+            item [862] Rationalis rei privatae per Africam
+            item [863] Rationalis rei privatae per Hispanias
+            item [864] Rationalis rei privatae per Gallias
+            item [865] Rationalis rei privatae per Quinque provincias
+            item [866] Rationalis rei privatae per Britannias
+            item [867] Rationalis rei privatae fundorum domus divinae per Africam
+            item [868] Procurator rei privatae per Siciliam
+            item [869] Procurator rei privatae per Apuliam et Calabriam siue saltus Carminianensis
+            item [870] Praepositus rei privatae per Sequanicum et Germaniam primam
+            item [871] Procurator rei privatae per Dalmatiam
+            item [872] Procurator rei privatae per Saviam
+            item [873] Procurator rei privatae per Italiam
+            item [874] Procurator rei privatae per urbem Romam
+            item [875] Procurator rei privatae per urbicarias regiones rerum Iuliani
+            item [876] Procurator rei privatae per Mauritaniam Sitifensem
+            item [877] Procurator rei privatae gynaeciorum Triberorum
+            item [878] Procurator gynaecei Viuarensis rei privatae Metti translata anhelat
+            item [879] Praepositus bastagae rei privatae Orientalis inferioris
+            item [880] Praepositus bastagae privatarum Galliarum
+        group [881] Officium autem suprascripti viri illustris comitis rerum privatarum habet
+            item [882] Primicerium totius officii
+            item [883] Primiscrinium beneficiorum
+            item [884] Primiscrinium canonium
+            item [885] Primiscrinium securitatum
+            item [886] Primiscrinium largitionum privatarum, scriniarios etiam reliquos suprascriptorum scriniorum.
+            item [887] Secunicerium totius officii, qui tractat chartas officii, ceteros etiam palatinos
+    chapter Comes domesticorum equitum.ÝÝ |ÝÝÝ Comes domesticorum peditum.
+        item [891] Sub dispositione uirorum illustrium comitum domesticorum equtum et
+        group [892] peditum
+            item [893] Domestici equtes
+            item [894] Domestici pedites
+            item [895] Deputati eorum
+    chapter [Deest]
+        item [899] Sub dispositione viri spectabilis primicerii sacri cubiculi: [deest]
+    chapter Castrensis sacri palatii.
+        group [903] Sub dispositione viri spectabilis castrensis
+            item [904] Paedagogia
+            item [905] Ministeriales domini
+            item [906] Curae palatiorum
+        group [907] Officium autem viri spectabilis castrensis habet
+            item [908] Tabularium domini
+            item [909] Tabularium dominae Augustae
+            item [910] Adiutorem
+            item [911] Chartularium et scrinium ipsius, et ceteros palatinos officiorum
+    chapter Primicerius notariorum.
+        group [915] Sub cura viri spectabilis primicerii notariorum
+            item [916] Notitia omnium dignitatum et amministrationum tam civilium quam militarium
+        item [917] Officium autem non habet sed adiutores
+    chapter Magistri scriniorum. Memoriae.ÝÝ Epistolarum.ÝÝ Libellorum.
+        item [921] Magister memoriae annotationes omnes dictat, et emittit; respondet tamen et precibus.
+        item [922] Magister epistolarum legationes civitatum et consultationes et preces tractat
+        item [923] Magister libellorum cognitiones et preces tractat
+    chapter Proconsul Africae.
+        group [927] Sub dispositione viri spectabilis proconsulis Africae
+            item [928] Provincia proconsularis et legati eius duo
+        group [929] Officium autem habet ita
+            item [930] Principem de scola agentum in rebus ducenarium
+            item [931] Cornicularium
+            item [932] Numerarios duos
+            item [933] Primiscrinium
+            item [934] Commentariensem
+            item [935] Adiutorem
+            item [936] Ab actis
+            item [937] Subadiuuas
+            item [938] Exceptores
+            item [939] Singulares et reliquum officium
+    chapter Sub dispositione viri spectabilis vicarii urbis Romae provinciae infrascriptae:
+        group [943] Consulares
+            item [944] Campaniae
+            item [945] Tusciae et umbriae
+            item [946] Piceni suburbicarii
+            item [947] Siciliae
+        group [948] Correctores
+            item [949] Apuliae et Calabriae
+            item [950] Bruttiorum et Lucaniae
+        group [951] Praesides
+            item [952] Samnii
+            item [953] Saradiniae
+            item [954] Corsicae
+            item [955] Valeriae
+        group [956] Officium autem supradictus uir spectabilis vicarius habet ita
+            item [957] Principem de scola agentum in rebus ducenarium
+            item [958] Cornicularium
+            item [959] Numerarios duos
+            item [960] Commentariensem
+            item [961] Adiutorem
+            item [962] Ab actis
+            item [963] Cura epistolarum
+            item [964] Subadiuuas
+            item [965] Exceptores
+            item [966] Singulares et reliquos officiales
+    chapter Vicarius Africae.
+        group [970] Sub dispositione viri spectabilis vicarii Africae
+            group [971] Consulares
+            item [972] Byzacii
+            item [973] Numidiae
+            group [974] Praesides
+            item [975] Tripolitanae
+            item [976] Mauritaniae Sitifensis
+            item [977] Mauritaniae Caesariensis
+        group [978] Officium autem habet idem uir spectabilis vicarius hoc modo
+            item [979] Principem de scola agentum in rebus ducenarium
+            item [980] Cornicularium
+            item [981] Numerarios duos
+            item [982] Commentariensem
+            item [983] Adiutorem
+            item [984] Cura epistolarum
+            item [985] Ab actis
+            item [986] Subadiuuas
+            item [987] Exceptores
+            item [988] Singulares et reliquos officiales
+    chapter Vicarius Hispaniae.
+        group [992] Sub dispositione viri spectabilis vicarii Hispaniarum
+            group [993] Consulares
+            item [994] Baeticae
+            item [995] Lusitaniae
+            item [996] Callaeciae
+            group [997] Praesides
+            item [998] Tarraconensis
+            item [999] Carthaginensis
+            item [1000] Tingitaniae
+            item [1001] Insularum Balearum
+        group [1002] Officium autem habet idem uir spectabilis vicarius hoc modo
+            item [1003] Principem de scola agentum in rebus exducenariis
+            item [1004] Cornicularium
+            item [1005] Numerarios duos
+            item [1006] Commentariensem
+            item [1007] Adiutorem
+            item [1008] Ab actis
+            item [1009] Cura epistolarum
+            item [1010] Subadiuuas
+            item [1011] Exceptores
+            item [1012] Singulares et reliquum officium
+    chapter Vicarius Septem provinciarum.
+        group [1016] Sub dispositione viri spectabilis vicarii Septem provinciarum
+            group [1017] Consulares
+                item [1018] Viennensis
+                item [1019] Lugdunensis
+                item [1020] Germaniae primae
+                item [1021] Germanae secundae
+                item [1022] Belgicae primae
+                item [1023] Belgicae secundae
+            group [1024] Praesides
+                item [1025] Alpium maritimarum
+                item [1026] Alpium Poeninarum et Graiarum
+                item [1027] Maximae Sequanorum
+                item [1028] Aquitanicae primae
+                item [1029] Aquitanicae secundae
+                item [1030] Novempopulanae
+                item [1031] Narbonensis primae
+                item [1032] Narbonensis secundae
+                item [1033] Lugdunensis secundae
+                item [1034] Lugdunensis tertiae
+                item [1035] Lugdunensis Senoniae
+        group [1036] Officium autem habet idem uir spectabilis vicarius hoc modo
+            item [1037] Principem de scola agentum in rebus exducenariis
+            item [1038] Cornicularium
+            item [1039] Numerarios duos
+            item [1040] Commentariensem
+            item [1041] Ab actis
+            item [1042] Cura epistolarum
+            item [1043] Adiutorem
+            item [1044] Subadiuuas
+            item [1045] Exceptores
+            item [1046] Singulares et reliquos officiales
+    chapter Vicarius Britanniarum.
+        group [1050] Sub dispositione viri spectabilis vicarii Britanniarum
+            group [1051] Consulares
+                item [1052] Maximae Caesariensis
+                item [1053] Valentiae
+            group [1054] Praesides
+                item [1055] Britanniae primae
+                item [1056] Britanniae secundae
+                item [1057] Flaviae Caesariensis
+        group [1058] Officium autem habet idem uir spectebilis vicarius hoc modo
+            item [1059] Principem de scola agentum in rebus exducenariis
+            item [1060] Cornicularium
+            item [1061] Numerarios duos
+            item [1062] Commentariensem
+            item [1063] Ab actis
+            item [1064] Cura epistolarum
+            item [1065] Adiutorem
+            item [1066] Subadiuuas
+            item [1067] Exceptores
+            item [1068] Singulares et reliquos officiales
+    chapter Comes Italiae.
+        group [1072] Sub dispositione viri spectabilis comitis Italiae
+            item [1073] Tractus Italiae circa Alpes
+    chapter Comes Africae.
+        group [1077] Sub dispositione viri spectabilis comitis Africae
+            group [1078] Limitanei
+                item [1079] Praepositus limitis Thamallensis
+                item [1080] Praepositus limitis Montensis in castris Leptitanis
+                item [1081] Praepositus limitis Bazensis
+                item [1082] Praepositus limitis Gemellensis
+                item [1083] Praepositus limitis Tubuniensis
+                item [1084] Praepositus limitis Zabensis
+                item [1085] Praepositus limitis Tubusubditani
+                item [1086] Praepositus limitis Thamallomensis
+                item [1087] Praepositus limitis Balaretensis
+                item [1088] Praepositus limitis Columnatensis
+                item [1089] Praepositus limitis Tablatensis
+                item [1090] Praepositus limitis Caputcellensis
+                item [1091] Praepositus limitis Secundaeforum in castris Tillibanensibus
+                item [1092] Praepositus limitis Taugensis
+                item [1093] Praepositus limitis Bidensis
+                item [1094] Praepositus limitis Badensis
+        group [1095] Officium autem habet idem uir spectabilis comes hoc modo
+            item [1096] Principem ex officiis magistrorum militum praesentalium, uno anno a parte peditum, alio a parte equitum.
+            item [1097] Cornicularium
+            item [1098] Adiutorem
+            item [1099] Commentariensem ex officiis magistrorum militum praesentalium alternis annis
+            item [1100] Numerarios duos ex utrisque officiis magistrorum militum praesentalium singulos
+            item [1101] Subadiuuam
+            item [1102] Regrendarium
+            item [1103] Exceptores
+            item [1104] Singulares et reliquos officiales
+    chapter Comes Tingitaniae.
+        group [1108] Sub dispositione viri spectabilis comitis Tingitaniae
+            group [1109] Limitanei
+                item [1110] Praefectus alae Herculeae, Tamuco.
+                item [1111] Tribunus cohortis secundae Hispanorum, Duga.
+                item [1112] Tribunus cohortis primae Herculeae, Aulucos.
+                item [1113] Tribunus cohortis primae Ityraeorum, Castrabarensis.
+                item [1114] Tribunus cohortis ........, Sala.
+                item [1115] Tribunus cohortis Pacatianensis, Pacatiana.
+                item [1116] Tribunus cohortis tertiae Asturum, Tabernas.
+                item [1117] Tribunus cohortis Friglensis, Friglas.
+        group [1118] Officium autem habet idem iur spectabilis comes hoc modo
+            item [1119] Principem ex officiis magistrorum militum praesentalium, uno anno a parte peditum, alio anno a parte equitum.
+            item [1120] Commentariensem ut supra
+            item [1121] Numerarios duos, singulos ex officiis supradictis.
+            item [1122] Cornicularium
+            item [1123] Adiutorem
+            item [1124] Subadiuuam
+            item [1125] Regrendarium
+            item [1126] Exceptores
+            item [1127] Singulares et reliquos officiales
+    chapter Comes Argentoratensis.
+        group [1131] Sub dispositione viri spectabilis comitis Argentoratensis
+            item [1132] Tractus Argentoratensis
+    chapter Comes litoris Saxonici per Britanniam.
+        group [1136] Sub dispositione viri spectabilis comitis litoris Saxonici per Britanniam
+            item [1137] Praepositus numeri Fortensium, Othonae.
+            item [1138] Praepositus militum Tungrecanorum, Dubris.
+            item [1139] Praepositus numeri Turnacensium, Lemannis.
+            item [1140] Praepositus equitum Dalmatarum Branodunensium, Branoduno.
+            item [1141] Praepositus equitum stablesianorum Gariannonensium, Gariannonor.
+            item [1142] Tribunus cohortis primae Baetasiorum, Regulbio.
+            item [1143] Praefectus legionis secundae Augustae, Rutupis.
+            item [1144] Praepositus numeri Abulcorum, Anderidos.
+            item [1145] Praepositus numeri exploratorum, Portum Adurni.
+        group [1146] Officium autem habet idem uir spectabilis comes hoc modo
+            item [1147] Principem ex officiis magistrorum militum praesentalium parte peditum
+            item [1148] Numerarios duos ut supra ex officio supradicto
+            item [1149] Cornicularium
+            item [1150] Adiutorem
+            item [1151] Subadiuuam
+            item [1152] Regrendarium
+            item [1153] Exceptores
+            item [1154] Singulares et reliquos officiales
+    chapter Comes Britanniae.
+        group [1158] Sub dispositione viri spectabilis comitis Britanniarum
+            item [1159] Provincia Britannia
+        group [1160] Officium autem habet idem uir spectabilis comes hoc modo
+            item [1161] Principem ex officiis magistrorum militum praesentalium alternis annis
+            item [1162] Commentariensem ut supra
+            item [1163] Numerarios duos, singulos ex utrisque officiis suprascriptis.
+            item [1164] Adiutorem
+            item [1165] Subadiuuam
+            item [1166] Regrendarium
+            item [1167] Exceptores
+            item [1168] Singulares et reliquos officiales
+    chapter Dux et praeses provinciae Mauritaniae.
+        group [1172] Sub dispositione viri spectabilis ducis et praesidis provinciae Mauritaniae et Caesariensis
+            item [1173] Praepositus limitis Columnatensis
+            item [1174] Praepositus limitis Vidensis
+            item [1175] Praepositus limitis inferioris
+            item [1176] Praepositus limitis Fortensis
+            item [1177] Praepositus limitis Muticitani
+            item [1178] Praepositus limitis Audiensis
+            item [1179] Praepositus limitis Caputcellensis
+            item [1180] Praepositus limitis Augustensis
+        group [1181] Officium autem habet idem uir spectabilis dux et praeses hoc modo
+            item [1182] Principem ex officiis magistrorum militum praesentalium alternis annis
+            item [1183] 
+                unit Numerarios duos
+                place singulos ex officiis suprascriptis
+            item [1184] Commentariensem ex officiis suprascriptis alternis annis
+            item [1185] Cornicularium
+            item [1186] Adiutorem
+            item [1187] Subadiuuam
+            item [1188] Regrendarium
+            item [1189] Exceptores
+            item [1190] Singulares et reliquos officiales
+    chapter Dux provinciae Tripolitanae.
+        group [1194] Sub dispositione viri spectabilis ducis provinciae Tripolitanae
+            item [1195] Praepositus limitis Talalatensis
+            item [1196] Praepositus limitis Tenthettani
+            item [1197] Praepositus limitis Bizerentane
+            item [1198] Praepositus limitis Tillibarensis
+            item [1199] Praepositus limitis Madensis
+            item [1200] Praepositus limitis Maccomadensis
+            item [1201] Praepositus limitis Tintiberitani
+            item [1202] Praepositus limitis Bubensis
+            item [1203] Praepositus limitis Mamucensis
+            item [1204] Praepositus limitis Balensis
+            item [1205] Praepositus limitis Varensis
+            item [1206] Milites Fortenses in castris Leptitanis
+            item [1207] Milites Munifices in castris Madensibus
+            item [1208] Praepositus limitis Sarcitani
+        group [1209] Officium autem habet idem uir spectabilis dux hoc modo
+            item [1210] Principem ex officiis magistrorum militum praesentalium alternis annis
+            item [1211] Numerarios utrosque
+            item [1212] Commentariensem utrumque
+            item [1213] Cornicularium
+            item [1214] Adiutorem
+            item [1215] Subadiuuam
+            item [1216] Regrendarium
+            item [1217] Exceptores
+            item [1218] Singulares et reliquos officiales
+    chapter Dux Pannoniae.
+        group [1222] Sub dispositione viri spectabilis ducis provinciae Pannoniae secundae ripariensis et Saviae
+            item [1223] 
+                unit Cuneus equitum scutariorum
+                place Cornacii
+            item [1224] 
+                unit Cuneus equitum Dalmatarum
+                place Teutiborgio
+            item [1225] 
+                unit Cuneus equitum Constantianorum
+                place Burgenas
+            item [1226] 
+                unit Cuneus equitum promotorum
+                place Cuccis
+            item [1227] 
+                unit Cuneus equitum constantium
+                place Aciminci
+            item [1228] 
+                unit Cuneus equitum Italicianorum
+                place Secundarum
+            item [1229] 
+                unit Equites Dalmatae
+                place Novas
+            item [1230] 
+                unit Equites Dalmatae
+                place Albano
+            item [1231] 
+                unit Equites promoti
+                place Teutibarcio
+            item [1232] 
+                unit Equites Dalmatae
+                place Cornaco
+            item [1233] 
+                unit Equites sagittarii
+                place Cuccis
+            item [1234] 
+                unit Equites Dalmatae
+                place Bonoriae
+            item [1235] 
+                unit Equites Dalmatae
+                place Cusi
+            item [1236] 
+                unit Equites sagittarii
+                place Acimirci
+            item [1237] 
+                unit Equites Dalmatae
+                place Ricti
+            item [1238] 
+                unit Equites Dalmatae
+                place Burgentas
+            item [1239] 
+                unit Equites promoti
+                place Tauruno
+            item [1240] 
+                unit Auxilia Herculensia
+                place ad Herculem
+            item [1241] 
+                unit Auxilia Novensia
+                place Arsaciana siue Novas
+            item [1242] 
+                unit Auxilia Augustensia
+                place contra Bononiam in barbarico in castello Onagrino
+            item [1243] 
+                unit Auxilia Praesidentia
+                place in castris Herculis
+            item [1244] 
+                unit Auxilia ascarii
+                place Tauruno siue Marsonia
+            item [1245] 
+                unit Praefectus legionis quintae Ioviae cohortis quintae partis superioris
+                place Bononiae
+            item [1246] Praefectus legionis sextae Herculeae cohortis quintae partis superioris Aureo monte
+            item [1247] 
+                unit Praefectus legionis quintae Ioviae
+                place Burgenas
+            item [1248] 
+                unit Praefectus legionis sextae Herculeae
+                place Teutiborgio
+            item [1249] 
+                unit Praefectus legionis quintae Ioviae et sextae Herculeae
+                place in castello Onagrino
+            item [1250] 
+                unit Praefectus militum Calcariensium
+                place Sirmi
+            item [1251] 
+                unit Praefectus classis primae Flaviae Augustae
+                place Sirmi
+            item [1252] 
+                unit Praefectus classis secundae Flaviae
+                place Graio
+            item [1253] 
+                unit Praefectus classis Histricae
+                place Mursae
+            item [1254] 
+                unit Tribunus cohortis tertiae Alpinorum Dardanorum
+                place ....
+            item [1255] 
+                unit Ala Sirmensis
+                place Sirmi
+            item [1256] 
+                unit Praefectus classis primae Pannonicae
+                place Seruitii
+            item [1257] 
+                unit Praefectus classis Aegetensium siue secundae Pannonicae
+                place ..... nunc Sisciae
+            item [1258] 
+                unit Tribunus cohortis tertiae Alpinorum
+                place Sisciae
+            item [1259] 
+                unit Tribunus cohortis primae Ioviae
+                place Leonatae
+            item [1260] 
+                unit Tribunus cohortis primae Thracum civium Romanorum
+                place Caput Basensis
+        group [1261] Officium autem habet idem uir spectabilis dux hoc modo
+            item [1262] Principem de eodem officio
+            item [1263] Numerarium
+            item [1264] Adiutorem
+            item [1265] Commentariensem
+            item [1266] Subadiuuam
+            item [1267] Regrendarium
+            item [1268] Exceptores
+            item [1269] Singulares et reliquos officiales
+    chapter Dux provinciae Valeriae.
+        group [1273] Sub dispositione viri spectabilis ducis provinciae Valeriae ripensis
+            item [1274] 
+                unit Cuneus equitum scutatorum
+                place Solue
+            item [1275] 
+                unit Cuneus equitum Dalmatarum
+                place Intercisa
+            item [1276] 
+                unit Cuneus equitum Constantianorum, Lusionio
+                place nune Intercisa
+            item [1277] 
+                unit Cuneus equitum stablesianorum, Ripa Alta
+                place nune Conradcuha
+            item [1278] 
+                unit Cuneus equitum Fortensium
+                place Altino
+            item [1279] 
+                unit Equites Dalmatae
+                place Odiabo
+            item [1280] 
+                unit Equites promoti
+                place Crumero
+            item [1281] 
+                unit Equites Mauri
+                place Solua
+            item [1282] 
+                unit Equites Dalmatae
+                place Ad Herculem
+            item [1283] 
+                unit Equites Dalmatae
+                place Cirpi
+            item [1284] 
+                unit Equites Dalmatae
+                place Constantiae
+            item [1285] 
+                unit Equites Dalmatae
+                place Campona
+            item [1286] 
+                unit Equites promoti
+                place Matrice
+            item [1287] 
+                unit Equites Dalmatae
+                place Vetusalinae
+            item [1288] 
+                unit Equites sagittarii
+                place Intercisa
+            item [1289] 
+                unit Equites Dalmatae
+                place Adnamantia
+            item [1290] 
+                unit Equites Dalmatae
+                place Lussonio
+            item [1291] 
+                unit Equites Dalmatae
+                place Ripa Alta
+            item [1292] 
+                unit Equites Dalmatae
+                place Ad Statuas
+            item [1293] 
+                unit Equites Dalmatae
+                place Florentiae
+            item [1294] 
+                unit Equites sagittarii, Altino
+                place nune in burgo contra Florentiam
+            item [1295] 
+                unit Equites Flavianenses
+                place Ad Militare
+            item [1296] 
+                unit Auxilia Herculensia
+                place Ad Herculem
+            item [1297] 
+                unit Auxilia Ursarensia, Pone Navata
+                place nune Ad Statuas
+            item [1298] 
+                unit Auxilia vigilum
+                place contra Acinco in barbarico
+            item [1299] 
+                unit Auxilia Fortensia
+                place Cirpe
+            item [1300] 
+                unit Auxilia insidiatorum
+                place Cardabiaca
+            item [1301] 
+                unit Praefectus legionis primae adiutricis cohortis quintae partis superioris
+                place Bregtione
+            item [1302] 
+                unit Praefectus legionis secundae adiutricis cohortis quintae partis superioris
+                place Aliscae
+            item [1303] 
+                unit Praefectus legionis secundae adiutricis partis inferioris
+                place Florentiae
+            item [1304] 
+                unit Praefectus legionis secundae adiutricis partis superioris
+                place Acinco
+            item [1305] 
+                unit Praefectus legionis secundae adiutricis
+                place in castello contra Tautantum
+            item [1306] 
+                unit Praefectus legionis secundae adiutricis
+                place Cirpi
+            item [1307] 
+                unit Praefectus legionis secundae adiutricis
+                place Lussonio
+            item [1308] 
+                unit Praefectus classis Histricae
+                place Florentiae
+            item [1309] 
+                unit Tribunus cohortis
+                place Vincentiae
+            item [1310] 
+                unit Tribunus cohortis
+                place quadriborgio
+            item [1311] 
+                unit Tribunus cohortis
+                place Iovia
+            item [1312] 
+                unit Tribunus cohortis
+                place ad burgum Centenarium
+            item [1313] 
+                unit Tribunus cohortis
+                place Alesacae
+            item [1314] 
+                unit Tribunus cohortis
+                place Marinanae
+            item [1315] 
+                unit Praefectus legionis
+                place Transiacinco
+        group [1316] Officium autem habet idem uir spectabilis dux hoc modo
+            item [1317] Principem de eodem corpore
+            item [1318] Numerarium
+            item [1319] Commentariensem
+            item [1320] Adiutorem
+            item [1321] Subadiuuam
+            item [1322] Regrendarium
+            item [1323] Exceptores
+            item [1324] Singulares et reliquos officiales
+    chapter Dux Pannoniae primae.
+        group [1328] Sub dispositione viri spectabilis ducis Pannoniae et Norici ripensis
+            item [1329] 
+                unit Cuneus equitum Dalmatarum
+                place Flexo
+            item [1330] 
+                unit Cuneus equitum stablesianorum
+                place Arrabonae
+            item [1331] 
+                unit Equites promoti
+                place Arrabonae
+            item [1332] 
+                unit Equites sagittarii
+                place Quadriburgio
+            item [1333] 
+                unit Equites Dalmatae
+                place Ala Nova
+            item [1334] 
+                unit Equites Dalmatae
+                place Aequinoctoiae
+            item [1335] 
+                unit Equites Dalmatae
+                place Ad Herculem
+            item [1336] 
+                unit Equites sagittarii
+                place Gerolate
+            item [1337] 
+                unit Equites promoti
+                place Flexo
+            item [1338] 
+                unit Equites Mauri
+                place Quadrato
+            item [1339] Tribunus gentis Marcomannorum
+            item [1340] 
+                unit Praefectus legionis decimae geminae
+                place Vindomarae
+            item [1341] 
+                unit Praefectus legionis quartaedecimaegeminae militum liburnariorum cohortis quintae partis superior
+                place Carnunto
+            item [1342] 
+                unit Praefectus legionis decimae et quartaedecimaegeminae geminarum militum liburnariorum
+                place Arrabonae
+            item [1343] 
+                unit Praefectus classis Histricae
+                place Arrunto siue Vindomanae
+            item [1344] 
+                unit Tribunus cohortis
+                place Arrianis
+            item [1345] Tribunus cohortis Caratensis
+            item [1346] 
+                unit Equites promoti
+                place Ad Mauros
+            item [1347] 
+                unit Equites sagittarii
+                place Lentiae
+            item [1348] 
+                unit Equites sagittarii
+                place Lacufelicis
+            item [1349] 
+                unit Equites Dalmatae
+                place Arlape
+            item [1350] 
+                unit Equites Dalmatae
+                place Augustianis
+            item [1351] 
+                unit Equites promoti
+                place Comagenis
+            item [1352] 
+                unit Praefectus legionis secundae Italicae militum liburnariorum
+                place Ioviaco
+            item [1353] 
+                unit Praefectus legionis secundae Italicae partis inferioris
+                place Lentiae
+            item [1354] 
+                unit Praefectus legionis secundae Italicae
+                place Lauriaco
+            item [1355] 
+                unit Praefectus legionis primae Noricorum militum liburnariorum cohortis Quintae partis superioris
+                place Adiuuense
+            item [1356] 
+                unit Praefectus legionis liburnariorum primorum Noricorum
+                place Fafianae
+            item [1357] Praefectus classis Arlapensis et Maginensis
+            item [1358] Praefectus classis Lauriacensis
+            item [1359] 
+                unit Tribunus cohortis
+                place Boiodoro
+            item [1360] 
+                unit Tribunus cohortis
+                place Austuris
+            item [1361] 
+                unit Tribunus cohortis
+                place Cannabiaca
+        group [1362] Officium autem habet idem uir spectabilis dux hoc modo
+            item [1363] Principem de eodem corpore
+            item [1364] Numerarium
+            item [1365] Commentariensem
+            item [1366] Adiutorem
+            item [1367] Subadiuuam
+            item [1368] Regrendarium
+            item [1369] Exceptores
+            item [1370] Singulares et reliquos officiales
+    chapter Dux Raetiae.
+        group [1374] Sub dispositione viri spectabilis ducis provinciae Raetiae primae et secundae
+            item [1375] 
+                unit Equites stablesiani seniores
+                place Augustanis
+            item [1376] 
+                unit Equites stablesiani iuniores, Ponte Aoni
+                place nunc Febians
+            item [1377] 
+                unit Equites stablesiani iuniores
+                place Submuntorio
+            item [1378] 
+                unit Praefectus legionis tertiae Italicae partis superioris, Castra Regina
+                place nunc Vallato
+            item [1379] 
+                unit Praefectus legionis tertiae Italicae partis superioris deputatae ripae primae
+                place Submuntorio
+            item [1380] 
+                unit Praefectus legionis tertiae Italicae pro parte media praetendentis a Vimania Cassiliacum usque
+                place Cambidano
+            item [1381] 
+                unit Praefectus militum Ursariensium
+                place Guntiae
+            item [1382] 
+                unit Praefectus legionis tertiae Italicae transvectioni specierum deputatae
+                place Foetibus
+            item [1383] 
+                unit Praefectus legionis tertiae Italicae transvectioni specierum deputatae
+                place Teriolis
+            item [1384] 
+                unit Praefectus alae primae Flaviae Raetorum
+                place Quintanis
+            item [1385] 
+                unit Tribunus cohortis novae Batavorum
+                place Batavis
+            item [1386] 
+                unit Tribunus cohortis tertiae Brittorum
+                place Abusina
+            item [1387] 
+                unit Praefectus alae secundae Valeriae singularis
+                place Vallatio
+            item [1388] 
+                unit Tribunus cohortis sextae Valeriaae Raetorum
+                place Venaxamodorum
+            item [1389] 
+                unit Tribunus cohortis primae Herculeae Raetorum
+                place Parroduno
+            item [1390] 
+                unit Tribunus cohortis quintae Valeriae Frygum
+                place Pinianis
+            item [1391] 
+                unit Tribunus cohortis tertiae Herculeae Pannoniorum
+                place Caelio
+            item [1392] 
+                unit Tribunus gentis per Raetias deputatae
+                place Teriolis
+            item [1393] 
+                unit Praefectus numeri barbaricariorum
+                place Confluentibus siue Brecantia
+            item [1394] 
+                unit Praefectus alae secundae Valeriae Sequanorum
+                place Vimania
+            item [1395] 
+                unit Tribunus cohortis Herculeae Pannoniorum
+                place Arbore
+        group [1396] Officium autem habet idem uir spectabilis dux hoc modo
+            item [1397] Principem ex officiis magistrorum militum praesentalium alternis annis
+            item [1398] 
+                unit Numerarios duos
+                place ex utrisque officiis praesentalibus singulos
+            item [1399] Commentariensem ex utrisque officiis alternis annis
+            item [1400] Adiutorem
+            item [1401] Subadiuuam
+            item [1402] Regrendarium
+            item [1403] Exceptores
+            item [1404] Singulares et reliquos officiales
+    chapter Dux provinciae Sequanici.
+        group [1408] Sub dispositione viri spectabilis ducis provinciae Sequanici
+            item [1409] 
+                unit Milites Latavienses
+                place Olitione
+        group [1410] Officium autem habet idem uir spectabilis dux hoc modo
+            item [1411] Principem ex officio magistri militum praesentalis aparte peditum
+            item [1412] Numerarium ut supra
+            item [1413] Commentariensem ut supra
+            item [1414] Adiutorem
+            item [1415] Subadiuuam
+            item [1416] Regrendarium
+            item [1417] Exceptores
+            item [1418] Singulares et reliquos officiales
+    chapter Dux tractus Armoricani.
+        group [1422] Sub dispositione viri spectabilis ducis tractus Armoricani et Neruicani
+            item [1423] 
+                unit Tribunus cohortis primae novae Armoricanae
+                place Grannona in litore Saxonico
+            item [1424] 
+                unit Praefectus militum Carronensium
+                place Blabia
+            item [1425] 
+                unit Praefectus militum Maurorum Benetorum
+                place Benetis
+            item [1426] 
+                unit Praefectus militum Maurorum Osismiacorum
+                place Osismis
+            item [1427] 
+                unit Praefectus militum superventorum
+                place Mannatias
+            item [1428] 
+                unit Praefectus militum Martensium
+                place Aleto
+            item [1429] 
+                unit Praefectus militum primae Flaviae
+                place Constantia
+            item [1430] 
+                unit Praefectus militum Ursariensium
+                place Rotomago
+            item [1431] 
+                unit Praefectus militum Dalmatarum
+                place Abrincatis
+            item [1432] 
+                unit Praefectus militum Grannonensium
+                place Grannono
+        group [1433] Extenditur tamen tractus Armoricani et Neruicani limitis per provincias quinque
+            item [1434] per Aquitanicam primam
+            item [1435] 
+                unit et secundam
+                place 
+            item [1436] 
+                unit Lugdunensem Senoniam
+                place 
+            item [1437] secundam
+            item [1438] et tertiam
+        group [1439] Officium autem habet idem uir spectabilis dux hoc modo
+            item [1440] Principem ex officiis magistrorum militum praesentalium alternis annis
+            item [1441] Numerarium a parte peditum uno anno
+            item [1442] Commentariensem de officiis suprascriptis alternis annis
+            item [1443] Adiutorem
+            item [1444] Subadiuuam
+            item [1445] Regrendarium
+            item [1446] Exceptores
+            item [1447] Singulares et reliquos officiales
+    chapter Dux Belgicae secundae.
+        group [1451] Sub dispositione viri spectabilis ducis Balgicae secundae
+            item [1452] 
+                unit Equites Dalmatae
+                place Marcis in litore Saxonico
+            item [1453] 
+                unit Praefectus classis Sambricae
+                place in loco Quartensi siue Hornensi
+            item [1454] 
+                unit Tribunus militum Neruiorum
+                place Portu Epatiaci
+        group [1455] Officium autem habet idem uir spectabilis dux hoc modo
+            item [1456] Principem xe eodem corpore
+            item [1457] Numerarium
+            item [1458] Commentariensem
+            item [1459] Adiutorem
+            item [1460] Subadiuuam
+            item [1461] Regrendarium
+            item [1462] Exceptores
+            item [1463] Singulares et reliquos officiales
+    chapter [Dux Germaniae primae deest]
+    chapter Dux Britanniarum.
+        group [1469] Sub dispositione viri spectabilis ducis Britanniarum
+            item [1470] Praefectus legionis sextae
+            item [1471] 
+                unit Praefectus equitum Dalmatarum
+                place Praesidio
+            item [1472] 
+                unit Praefectus equitum Crispianorum
+                place Dano
+            item [1473] 
+                unit Praefectus equitum catafractariorum
+                place Morbio
+            item [1474] 
+                unit Praefectus numeri barcariorum Tigrisiensium
+                place Arbeia
+            item [1475] 
+                unit Praefectus numeri Neruiorum Dictensium
+                place Dicti
+            item [1476] 
+                unit Praefectus numeri vigilum
+                place Concangios
+            item [1477] 
+                unit Praefectus numeri exploratorum
+                place Lavatres
+            item [1478] 
+                unit Praefectus numeri directorum
+                place Verteris
+            item [1479] 
+                unit Praefectus numeri defensorum
+                place Barboniaco
+            item [1480] 
+                unit Praefectus numeri Solensium
+                place Maglone
+            item [1481] 
+                unit Praefectus numeri Pacensium
+                place Magis
+            item [1482] 
+                unit Praefectus numeri Longovicanorum
+                place Longovicio
+            item [1483] 
+                unit Praefectus numeri supervenientium Petueriensium
+                place Deruentione
+        group [1484] Item per lineam Valli
+            item [1485] 
+                unit Tribunus cohortis quartae Lingonum
+                place Segeduno
+            item [1486] 
+                unit Tribunus cohortis primae Cornoviorum
+                place Ponte Aeli
+            item [1487] 
+                unit Praefectus alae primae Asturum
+                place Conderco
+            item [1488] 
+                unit Tribunus cohortis primae Frixagorum
+                place Vindobala
+            item [1489] 
+                unit Praefectus alae Sabinianae
+                place Hunno
+            item [1490] 
+                unit Praefectus alae secundae Asturum
+                place Cilurno
+            item [1491] 
+                unit Tribunus cohortis primae Batavorum
+                place Procolitia
+            item [1492] 
+                unit Tribunus cohortis primae Tungrorum
+                place Borcovicio
+            item [1493] 
+                unit Tribunus cohortis quartae Gallorum
+                place Vindolana
+            item [1494] 
+                unit Tribunus cohortis primae Asturum
+                place Aesica
+            item [1495] 
+                unit Tribunus cohortis secundae Dalmatarum
+                place Magnis
+            item [1496] 
+                unit Tribunus cohortis primae Aeliae Dacorum
+                place Amboglanna
+            item [1497] 
+                unit Praefectus alae Petrianae
+                place Petrianis
+            item [1498] 
+                unit ........................
+                place Luguvallii
+            item [1499] 
+                unit Praefectus numeri Maurorum Aurelianorum
+                place Aballaba
+            item [1500] 
+                unit Tribunus cohortis secundae Lingonum
+                place Congavata
+            item [1501] 
+                unit Tribunus cohortis primae Hispanorum
+                place Axeloduno
+            item [1502] 
+                unit Tribunus cohortis secundae Thracum
+                place Gabrosenti
+            item [1503] 
+                unit Tribunus cohortis primae Aeliae classicae
+                place Tunnocelo
+            item [1504] 
+                unit Tribunus cohortis primae Morinorum
+                place Glannibanta
+            item [1505] 
+                unit Tribunus cohortis tertiae Neruiorum
+                place Alione
+            item [1506] 
+                unit Cuneus Sarmatarum
+                place Bremetenraco
+            item [1507] 
+                unit Praefectus alae primae Herculeae
+                place Olenaco
+            item [1508] 
+                unit Tribunus cohortis sextae Neruiorum
+                place Virosido
+        group [1509] Officium autem habet idem uir spectabilis dux hoc modo
+            item [1510] Principem ex officiis magistrorum militum praesentalium alternis annis
+            item [1511] Commentariensem ut supra
+            item [1512] Numerarios ex utrisque officiis omni anno
+            item [1513] Adiutorem
+            item [1514] Subadiuuam
+            item [1515] Regrendarium
+            item [1516] Exceptores
+            item [1517] Singulares et reliquos officiales
+    chapter Dux Mogontiacensis.
+        group [1521] Sub dispositione viri spectabilis ducis Mogonticensis
+            item [1522] 
+                unit Praefectus militum Pacensium
+                place Saletione
+            item [1523] 
+                unit Praefectus militum Menapiorum
+                place Tabernis
+            item [1524] 
+                unit Praefectus militum Anderetianorum
+                place Vico Iulio
+            item [1525] 
+                unit Praefectus militum vindicum
+                place Nemetis
+            item [1526] 
+                unit Praefectus militum Martensium
+                place Alta Ripa
+            item [1527] 
+                unit Praefectus militum secundae Flaviae
+                place Vangiones
+            item [1528] 
+                unit Praefectus militum armigerorum
+                place Mogontiaco
+            item [1529] 
+                unit Praefectus militum Bingensium
+                place Bingio
+            item [1530] 
+                unit Praefectus militum balistariorum
+                place Bodobrica
+            item [1531] 
+                unit Praefectus militum defensorum
+                place Confluentibus
+            item [1532] 
+                unit Praefectus militum Acincensium
+                place Antonaco
+        group [1533] Officium autem habet idem uir spectabilis dux hoc modo
+            item [1534] Principem ex officiis magistrorum militum praesentalium alternis annis
+            item [1535] Numerarium a parte peditum semper
+            item [1536] Commentariensem a parte peditum semper
+            item [1537] Adiutorem
+            item [1538] Subadiuuam
+            item [1539] Regrendarium
+            item [1540] Exceptores
+            item [1541] Singulares et reliquos officiales
+    chapter Item praepositurae magistri militum praesentalis a parte peditum.
+        group [1545] In Italia
+            group [1546] In provincia Venetia inferiore
+                item [1547] Praefectus classis Venetum, Aquileiae.
+            group [1548] In provincia Flaminia
+                item [1549] Praefectus militum iuniorum Italicorum, Ravennae.
+                item [1550] Praefectus classis Ravennatium cum curis eiusdem civitatis, Ravennae.
+            group [1551] In provincia Liguria
+                item [1552] Praefectus classis Comensis cum curis eiusdem civitatis, Como.
+            group [1553] In provincia Campania
+                item [1554] Praefectus classis Misenatium, Miseno.
+        group [1555] In Gallia
+            group [1556] In provincia Riparensi
+                item [1557] Praefectus classis fluminis Rhodani, Viennae siue Arelati.
+                item [1558] Praefectus classis barcariorum, Ebruduni Sapaudiae.
+                item [1559] Praefectus militum musculariorum, Massiliae Graecorum.
+                item [1560] Tribunus cohortis primae Flaviae Sapaudicae, Calaronae.
+            group [1561] In provincia Novempopulana
+                item [1562] Tribunus cohortis Noevempopulanae, Lapurdo.
+            group [1563] In provincia Lugdunensi prima
+                item [1564] Praefectus classis Araricae, Caballoduno.
+            group [1565] In provincia Lugdunensis Senonia
+                item [1566] Praefectus classis Anderetianorum, Parisius.
+        group [1567] Hispaniae
+            group [1568] In provincia Callaecia
+                item [1569] Praefectus legionis septimae geminae, Legione.
+                item [1570] Tribunus cohortis secundae Flaviae Pacatianae, Paetaonio.
+                item [1571] Tribunus cohortis secundae Gallicae, ad cohortem Gallicam.
+                item [1572] Tribunus cohortis Lucensis, Luco.
+                item [1573] Tribunus cohortis Celtiberae, Brigantiae, nunc Iuliobriga.
+            group [1574] In provincia Tarraconensi
+                item [1575] Tribunus cohortis primae Gallicae, Veleia
+        item [1577] Praefectus laetorum Teutonicianorum, Carnunta Senoniae Lugdunensis.
+        item [1578] Praefectus laetorum Batavorum et gentilium Sueuorum, Baiocas et Constantiae Lugdunensis secundae.
+        item [1579] Praefectus laetorum gentilium Sueuorum, ....... et Ceromannos Lugdunensis tertiae.
+        item [1580] Praefectus laetorum Francorum, Redonas Lugdensis tertiae.
+        item [1581] Praefectus laetorum Lingonensium per diversa dispersorum Belgicae primae
+        item [1582] Praefectus laetorum Actorum, Epuso Belgicae primae.
+        item [1583] Praefectus laetorum Neruiorum, Fanomantis Belgicae secundae.
+        item [1584] Praefectus laetorum Batavorum Nemetacensium, Atrabatis Belgicae secundae.
+        item [1585] Praefectus laetorum Batavorum Contraginnensium, Noviomago Belgicae secundae.
+        item [1586] Praefectus laetorum gentilium, Remo et Silvanectas Belgicae secundae.
+        item [1587] Praefectus laetorum Lagensium, prope Tungros Germaniae secundae.
+        item [1588] Praefectus laetorum gentilium Suevorum, Arumbernos Aquitanicae primae.
+        item [1589] ..............................................................
+        item [1590] ..............................................................
+        group [1591] Item in provincia Italia
+            item [1592] Praefectus Sarmatarum gentilium Apuliae et Calabriae
+            item [1593] Praefectus Sarmatarum gentilium per Brittios et Lucaniam
+        group [1594] Item in provincia Italia mediterranea
+            item [1595] Praefectus Sarmatarum gentilium Apulia et Calabriae
+            item [1596] Praefectus Sarmatarum gentilium Brutios et Lucaniam
+            item [1597] Praefectus Sarmatarum gentilium, Foro Fuluiensi.
+            item [1598] Praefectus Sarmatarum gentilium, Opittergii.
+            item [1599] Praefectus Sarmatarum gentilium, Patauio.
+            item [1600] Praefectus Sarmatarum gentilium, .....
+            item [1601] Praefectus Sarmatarum gentilium, Cremonae.
+            item [1602] Praefectus Sarmatarum gentilium, Taurinis.
+            item [1603] Praefectus Sarmatarum gentilium, Aquis siue Tertona.
+            item [1604] Praefectus Sarmatarum gentilium, Novariae.
+            item [1605] Praefectus Sarmatarum gentilium, Vercellis.
+            item [1606] Praefectus Sarmatarum gentilium, Regionis Samnitis.
+            item [1607] Praefectus Sarmatarum gentilium, Bononiae in Aemilia.
+            item [1608] Praefectus Sarmatarum gentilium, Quadratis et Eporizio.
+            item [1609] Praefectus Sarmatarum gentilium, (in Liguria) Pollentia.
+        group [1610] In Gallia
+            item [1611] Praefectus Sarmatarum et Taifalorum gentilium, Pictavis.
+            item [1612] Praefectus Sarmatarum gentilium, a Chora Parisios usque.
+            item [1613] Praefectus Sarmatarum gentilium, inter Renos et Tambianos provinciae Belgicae secundae.
+            item [1614] Praefectus Sarmatarum gentilium, per tractum Rodunensem et Alaunorum.
+            item [1615] Praefectus Sarmatarum gentilium, Lingonas.
+            item [1616] Praefectus Sarmatarum gentilium, Au......
+        item [1617] [reliquiae desunt?]
+    chapter Consularis Campaniae.
+        group [1621] Sub dispositione viri clarissimi consularis Campanise
+            item [1622] Provincia Campaniae
+        group [1623] Officium autem habet ita
+            item [1624] Principem de officio praetorio Italiae
+            item [1625] Cornicularium
+            item [1626] Tabularios duos
+            item [1627] Adiutorem
+            item [1628] Commentariensem
+            item [1629] Ab actis
+            item [1630] Subadiuuam
+            item [1631] Exceptores et reliquos cohortalinos, quibus non licet ad aliam transire militiam sine annotatione clementiae principalis.
+        item [1632] Ceteri omnes consulares ad similitudinem consularis Campaniae officium habent
+    chapter Corrector Apuliae et Calabriae.
+        group [1636] Sub iurisdictione viri clarissimi correctoris Apuliae et Calabriae
+            item [1637] Provincia Apuliae et Calabriae
+        group [1638] Officium autem habet ita
+            item [1639] Principem ex eodem officio
+            item [1640] Cornicularium
+            item [1641] Tabularios duos
+            item [1642] Commentariensem
+            item [1643] Adiutorem
+            item [1644] Ab actis
+            item [1645] Subadiuuam
+            item [1646] Exceptores et ceteros cohortalinos, quibus non licet ad aliam transire militiam sine annotatione clementiae principalis.
+        item [1647] Ceteri correctores ad similitudinem correctoris Apuliae et Calabriae officium habent
+    chapter Praeses Dalmatiae.
+        group [1651] Sub iurisdictione viri perfectissimi praesidis Dalmatiae
+            item [1652] Provincia Dalmatiae
+        group [1653] Officium autem habet hoc modo
+            item [1654] Principem ex eodem officio
+            item [1655] Cornicularium
+            item [1656] Tabularios duos
+            item [1657] Commentariensem
+            item [1658] Adiutorem
+            item [1659] Ab actis
+            item [1660] Subadiuuam
+            item [1661] Exceptores et reliquos cohortalinos, quibus non licet ad aliam transire militiam sine annotatione clementiae principalis.
+        item [1662] Ceteri praesides ad similitudinem praesidis Dalmatiae officium habent
+        item [1664] The Miscellany	The Latin Library	The Classics Page
+
+document 
+    item [1] IN PARTIBUS ORIENTIS
+    chapter Notitia dignitatum omnium, tam civilium quam militarium, in partibus Orientis.
+        item [5] Praefectus praetorio Orientis
+        item [6] Praefectus praetorio Illyrici
+        item [7] Praefectus urbis Constantinopolitanae
+        item [8] Magistri equitum et peditum in praesenti duo
+        item [9] Equitum et peditum per Orientem
+        item [10] Equitum et peditum per Thracias
+        item [11] Equitum et peditum per Illyricum
+        item [12] Praepositus sacri cubiculi
+        item [13] Magister officiorum
+        item [14] Quaestor
+        item [15] Comes sacrarum largitionum
+        item [16] Comes rerum priuatarum
+        group [17] Comites domesticorum duo
+            item [18] Equitum
+            item [19] Peditum
+        item [20] Primicerius sacri cubiculi
+        item [21] Primicerius notariorum
+        item [22] Castrensis sacri palatii
+        group [23] Magistri scriniorum
+            item [24] Memoriae
+            item [25] Epistolarum
+            item [26] Libellorum
+            item [27] Graecarum
+        group [28] Proconsules II
+            item [29] Asiae
+            item [30] Achaiae
+        item [31] Comes Orientis
+        item [32] Praefectus Augustalis
+        group [33] Vicarii quatuor
+            item [34] Asianae
+            item [35] Ponticae
+            item [36] Thraciarum
+            item [37] Macedoniae
+        group [38] Comites rei militaris duo
+            item [39] Aegypti
+            item [40] Isauriae
+        group [41] Duces tredecim
+            group [42] Per Aegyptum duo
+                item [43] Libyarum
+                item [44] Thebaidos
+            group [45] Per Orientem sex
+                item [46] Foenicis
+                item [47] Eufratensis et Syriae
+                item [48] Palaestinae
+                item [49] Osrhoenae
+                item [50] Mesopotamiae
+                item [51] Arabiae
+            group [52] Per Ponticam unus
+                item [53] Armeniae
+            group [54] Per Thracias duo
+                item [55] Moesiae secundae
+                item [56] Scythiae
+            group [57] Per Illyricum II
+                item [58] Daciae ripensis
+                item [59] Moesiae primae
+        group [60] Consulares XV
+            group [61] Per Orientem V
+                item [62] Palaestinae
+                item [63] Foenicis
+                item [64] Syriae
+                item [65] Ciliciae
+                item [66] Cypri
+            group [67] Per Asianam tres
+                item [68] Pamfyliae
+                item [69] Hellesponti
+                item [70] Lydiae
+            group [71] Per Ponticam II
+                item [72] Galatiae
+                item [73] Bithyniae
+            group [74] Per Thracias II
+                item [75] Europae
+                item [76] Thraciae
+            group [77] Per Illyricum III
+                item [78] Cretae
+                item [79] Macedoniae
+                item [80] Daciae mediterraneae
+            item [81] Aegyptus autem consularitatem non habet
+        group [82] Praesides XL
+            group [83] Per Aegyptiacam quinque
+                item [84] Libyae superioris
+                item [85] Libyae inferioris
+                item [86] Thebaidos
+                item [87] Aegypti
+                item [88] Arcadiae
+            group [89] Per Orientem VIII
+                item [90] Palaestinae salutaris
+                item [91] Palaestinae secundae
+                item [92] Foenicis Libani
+                item [93] Eufratensis
+                item [94] Syriae salutaris
+                item [95] Osroehenae
+                item [96] Mesopotamiae
+                item [97] Ciliciae secundae
+            group [98] Per Asianam VII
+                item [99] Pisidiae
+                item [100] Lycaoniae
+                item [101] Frygiae Pacatianae
+                item [102] Frygiae salutaris
+                item [103] Lyciae
+                item [104] Cariae
+                item [105] Insularum
+            group [106] Per Ponticam VIII
+                item [107] Honoriados
+                item [108] Cappadociae primae
+                item [109] Cappadociae secundae
+                item [110] Helenoponti
+                item [111] Ponti Polemoniaci
+                item [112] Armeniae primae
+                item [113] Armeniae secundae
+                item [114] Galatiae salutaris
+            group [115] Per Thracias quatuor
+                item [116] Haemimonti
+                item [117] Rhodopae
+                item [118] Moesiae secundae
+                item [119] Scythiae
+            group [120] Per Illyricum octo
+                item [121] Thessaliae
+                item [122] Epiri ueteris
+                item [123] Epiri nouae
+                item [124] Daciae ripensis
+                item [125] Moesiae primae
+                item [126] Praeualitanae
+                item [127] Dardaniae
+                item [128] Macedoniae salutaris
+        group [129] Correctores duo
+            item [130] Augustamnicae
+            item [131] Paflagoniae
+    chapter Sub dispositione viri illustris praefecti praetorio per Orientem sunt dioceses infrascriptae:
+        item [135] Oriens
+        item [136] Aegypttus
+        item [137] Asiana
+        item [138] Pontica
+        item [139] Thracia
+        group [140] Provinciae
+            group [141] Orientis quindecim
+                item [142] Palaestina
+                item [143] Foenice
+                item [144] Syria
+                item [145] Cilicia
+                item [146] Cyprus
+                item [147] Arabia [et dux et comes rei militaris]
+                item [148] Isauria
+                item [149] Palaestina salutaris
+                item [150] Palaestina secunda
+                item [151] Foenice Libani
+                item [152] Eufratensis
+                item [153] Syria salutaris
+                item [154] Osrhoena
+                item [155] Mesopotamia
+                item [156] Cilicia secunda
+            group [157] Aegypti quinque
+                item [158] Libya superior
+                item [159] Libya inferior
+                item [160] Thebais
+                item [161] Aegyptus
+                item [162] Arcadia
+            group [163] Asianae decem
+                item [164] Pamfylia
+                item [165] Hellespontus
+                item [166] Lydia
+                item [167] Pisidia
+                item [168] Lycaonia
+                item [169] Frygia Pacatiana
+                item [170] Frygia salutaris
+                item [171] Lycia
+                item [172] Caria
+                item [173] Insulae
+            group [174] Ponticae decem
+                item [175] Galatia
+                item [176] Bithynia
+                item [177] Honorias
+                item [178] Cappadocia prima
+                item [179] Cappadocia secunda
+                item [180] Pontus Polemoniacus
+                item [181] Helenopontus
+                item [182] Armenia prima
+                item [183] Armenia secunda
+                item [184] Galatia salutaris
+            group [185] Thraciae sex
+                item [186] Europa
+                item [187] Thracia
+                item [188] Haemimontus
+                item [189] Rhodopa
+                item [190] Moesia secunda
+                item [191] Scythia
+        group [192] Officium viri illustris praefecti praetorio Orientis
+            item [193] Princeps
+            item [194] Cornicularius
+            item [195] Adiutor
+            item [196] Commentariensis
+            item [197] Ab actis
+            item [198] Numerarii
+            item [199] Subadiuuae
+            item [200] Cura epistolarum
+            item [201] Regerendarius
+            item [202] Exceptores
+            item [203] Adiutores
+            item [204] Singularii
+        item [205] Praefectus praetorio Orientis euectiones annuales non habet, sed ipse emittit.
+    chapter Insignia viri illustris praefecti praetorio per Illyricum.
+        group [209] Sub dispositione viri illustris praefecti praetorio per Illyricum sunt dioceses infrascriptae
+            item [210] Macedonia
+            item [211] Dacia
+            group [212] Provinciae Macedoniae sex
+                item [213] Achaia
+                item [214] Macedonia
+                item [215] Creta
+                item [216] Thessalia
+                item [217] Epirus uetus
+                item [218] Epirus noua et pars Macedoniae salutaris
+            group [219] Provinciae Daciae quinque
+                item [220] Dacia mediterranea
+                item [221] Dacia ripensis
+                item [222] Moesia prima
+                item [223] Dardania
+                item [224] Praeualitana et pars Macedoniae salutaris
+        group [225] Officium viri illustris praefecti praetorio per Illyricum
+            item [226] Princeps
+            item [227] Cornicularius
+            item [228] Adiutor
+            item [229] Commentariensis
+            item [230] Ab actis
+            item [231] Numerarii quatuor; in his auri unus, operum alter.
+            item [232] Subadiuua
+            item [233] Cura epistolarum
+            item [234] Regerendarius
+            item [235] Exceptores
+            item [236] Adiutores
+            item [237] Singularii
+        item [238] Praefectus praetorio Illyrici ipse emittit
+    chapter [Deest]
+    chapter Insignia viri illustris magistri militum praesentalis.
+        group [244] Sub dispositione viri illustris magistri militum praesentalis
+        group [245] Vexillationes palatinae quinque
+            item [246] Equites promoti seniores
+            item [247] Comites clibanarii
+            item [248] Comites sagittarii iuniores
+            item [249] Comites Taifali
+            item [250] Equites Arcades
+        group [251] Vexillationes comitatenses VII
+            item [252] Equites catafractarii Biturigenses
+            item [253] Equites armigeri seniores Gallicani
+            item [254] Equites quinto Dalmatae
+            item [255] Equites nono Dalmatae
+            item [256] Equites primi scutarii
+            item [257] Equites promoti iuniores
+            item [258] Equites primi clibanarii Parthi
+        group [259] Legiones palatinae sex
+            item [260] Lanciarii seniores
+            item [261] Ioviani iuniores
+            item [262] Herculiani iuniores
+            item [263] Fortenses
+            item [264] Nervii
+            item [265] Matiarii iuniores
+        group [266] Auxilia palatina decem et octo
+            item [267] Bataui seniores
+            item [268] Brachiati iuniores
+            item [269] Salii
+            item [270] Constantiani
+            item [271] Mattiaci seniores
+            item [272] Sagittarii seniores Gallicani
+            item [273] Sagittarii iuniores Gallicani
+            item [274] Tertii sagittarii Valentis
+            item [275] Defensores
+            item [276] Raetobarii
+            item [277] Anglevarii
+            item [278] Hiberi
+            item [279] Visi
+            item [280] Felices Honoriani iuniores
+            item [281] Victores
+            item [282] Primi Theodosiani
+            item [283] Tertii Theodosiani
+            item [284] Felices Theodosiani Isauri
+        item [285] Officium autem suprascriptae magisteriae in praesenti potestatis in numeris militat et in officio deputatur;
+        group [286] Habet autem dignitates infrascriptas
+            item [287] Principem
+            item [288] Numerarios duos
+            item [289] Commentariensem
+            item [290] Primiscrinios, qui Numerarii fiunt.
+            item [291] Scriniarios
+            item [292] Exceptores et ceteros apparitores
+        item [293] Magister militum in praesenti XV
+    chapter Insignia viri illustris magistri militum praesentalis.
+        group [297] Sub dispositione viri illustris magistri militum praesentalis
+        group [298] Vexillationes palatinae sex
+            item [299] Comites seniores
+            item [300] Equites brachiati iuniores
+            item [301] Equites Bataui iuniores
+            item [302] Comites sagittarii Armeni
+            item [303] Equites Persae clibanarii
+            item [304] Equites Theodosiaci seniores
+        group [305] Vexillationes comitatenses sex
+            item [306] Equites catafractarii
+            item [307] Equites catafractarii Ambianenses
+            item [308] Equites sexto Dalmatae
+            item [309] Equites secundi scutarii
+            item [310] Equites scutarii
+            item [311] Equites secundi clibanarii Parthi
+        group [312] Legiones palatinae sex
+            item [313] Matiarii seniores
+            item [314] Daci
+            item [315] Scythae
+            item [316] Primani
+            item [317] Undecimani
+            item [318] Lanciarii iuniores
+        group [319] Auxilia palatina decem et septem
+            item [320] Regii
+            item [321] Cornuti
+            item [322] Tubantes
+            item [323] Constantiniani
+            item [324] Mattiaci iuniores
+            item [325] Sagittarii seniores Orientales
+            item [326] Sagittarii iuniores Orientales
+            item [327] Sagittarii dominici
+            item [328] Vindices
+            item [329] Bucinobantes
+            item [330] Falchouarii
+            item [331] Thraces
+            item [332] Teruingi
+            item [333] Felices Theodosiani
+            item [334] Felices Arcadiani iuniores
+            item [335] Secundi Theodosiani
+            item [336] Quarti Theodosiani
+        group [337] Item Pseudocomitatenses
+        item [338] Auxiliarii sagittarii
+        item [339] Officium autem suprascriptae magisteriae in praesenti potestatis cardinale habetur;
+        group [340] Habet autem dignitates infrascriptas
+            item [341] Principes duos
+            item [342] Numerarios duos
+            item [343] Commentariensem
+            item [344] Primiscrinios, qui numerarii fiunt.
+            item [345] Scriniaros
+            item [346] Exceptores et ceteros appereitores
+        item [347] Magister militum in praesenti XV
+    chapter Insignia viri illustris magistri militum per Orientem.
+        group [351] Sub dispositione viri illustris magistri militum per Orientem
+        group [352] Vexillationes comitatenses decem
+            item [353] Comites catafractarii Bucellarii iuniores
+            item [354] Equites armigeri seniores Orientales
+            item [355] Equites tertio Dalmatae
+            item [356] Equites primi scutarii Orientales
+            item [357] Equites secundi stablesiani
+            item [358] Equites tertii stablesiani
+            item [359] Equites promoti clibanarii
+            item [360] Equites quarti clibanarii Parthi
+            item [361] Equites primi sagittarii
+            item [362] Cuneus equitum secundorum clibanariorum Palmirenorum
+        group [363] Auxilia palatina duo
+            item [364] Felices Arcadiani seniores
+            item [365] Felices Honoriani seniores
+        group [366] Legiones comitatenses ...
+            item [367] Quinta Macedonica
+            item [368] Martenses seniores
+            item [369] Septima gemina
+            item [370] Decima gemina
+            item [371] Balistarii seniores
+            item [372] Prima Flavia Constantia
+            item [373] Secunda Flavia Constantia Thebaeorum
+            item [374] Secunda Felix Valentis Thebaeorum
+            item [375] Prima Flavia Theodosiana
+        group [376] Item pseudocomitatenses XI
+            item [377] Prima Armeniaca
+            item [378] Secunda Armeniaca
+            item [379] Fortenses auxiliarii
+            item [380] Funditores
+            item [381] Prima Italica
+            item [382] Quarta Italica
+            item [383] Sexta Parthica
+            item [384] Prima Isaura sagittaria
+            item [385] Balistarii Theodosiaci
+            item [386] Transtigritani
+        item [387] Officium Autem magisteriae per Orientem potestatis cardinale habetur;
+        group [388] Habet autem dignitates infrascriptas
+            item [389] Principem
+            item [390] Numerarios duos
+            item [391] Commentariensem
+            item [392] Adiutorem
+            item [393] Scriniarios
+            item [394] Mensores
+            item [395] Exceptores et ceteros apparitores
+        item [396] Magister militum per Orientem XXV
+    chapter Insignia viri illustris magisteri militum per Thracias.
+        group [400] Sub dispositione viri illustris magistri militum per Thracias
+        group [401] Vexillationes palatinae tres
+            item [402] Comites Arcadiaci
+            item [403] Comites Honoriaci
+            item [404] Equites Theodosiaci iuniores
+        group [405] Vexillationes comitatenses ...
+            item [406] Equites catafractarii Albigenses
+            item [407] Equites sagittarii seniores
+            item [408] Equites sagittarii iuniores
+            item [409] Equites primi Theodosiani
+        group [410] Legiones comitatenses ...
+            item [411] Solenses seniores
+            item [412] Menapii
+            item [413] Prima Maximiana Thebaeorum
+            item [414] Tertia Diocletiana Thebaeorum
+            item [415] Tertiodecimani
+            item [416] Quartodecimani
+            item [417] Prima Flavia gemina
+            item [418] Secunda Flavia gemina
+            item [419] Constantini seniores
+            item [420] Diuitenses Gallicani
+            item [421] Lanciarii Stobenses
+            item [422] Constantini Dafnenses
+            item [423] Balistarii Dafnenses
+            item [424] Balistarii iuniores
+            item [425] Pannoniciani iuniores
+            item [426] Taanni
+            item [427] Solenses Gallicani
+            item [428] Iulia Alexandria
+            item [429] Augustenses
+            item [430] Valentinianenses
+        group [431] Officium autem magistriae per Thracias potestatis in numeris militat et in officio deputatur
+        group [432] Habet autem dignitates infrascriptas
+            item [433] Principem
+            item [434] Numerarios duos
+            item [435] Commentariensem
+            item [436] Primiscrinios, qui numerarii fiunt.
+            item [437] Scriniarios
+            item [438] Exceptores et ceteros apparitores
+        item [439] Magister militum per Thracias XV
+    chapter Insignia viri illustris magistri militum per Illyricum.
+        group [443] Sub dispositione viri illustris magistri militum per Illyricum
+        group [444] Vexillationes comitatenses duae
+            item [445] Equites sagittarii seniores
+            item [446] Equites Germaniciani seniores
+        group [447] Legiones palatina una
+            item [448] Britones seniores
+        group [449] Auxilia palatina sex
+            item [450] Ascarii seniores
+            item [451] Ascarii iuniores
+            item [452] Petulantes iuniores
+            item [453] Sagittarii lecti
+            item [454] Inuicti iuniores
+            item [455] Atecotti
+        group [456] Legiones comitatenses octo
+            item [457] Matiarii constantes
+            item [458] Martii
+            item [459] Dianenses
+            item [460] Germaniciani seniores
+            item [461] Secundani
+            item [462] Lanciarii Augustenses
+            item [463] Mineruii
+            item [464] Lanciarii iuniores
+        group [465] Item pseudocomitatenses nouem
+            item [466] Timacenses auxiliarii
+            item [467] Felices Theodosiani iuniores
+            item [468] Bugaracenses
+            item [469] Scupenses
+            item [470] Ulpianenses
+            item [471] Merenses
+            item [472] Secundi Theodosiani
+            item [473] Balistarii Theodosiani iuniores
+            item [474] Scampenses
+        item [475] Officium autem magisteriae per Illyricum potestatis in numeris militat et in officio deputatur;
+        group [476] Habet autem dignitates infrascriptas
+            item [477] Principem
+            item [478] Numerarios duos
+            item [479] Commentariensem
+            item [480] Primiscrinios, qui numerarii fiunt.
+            item [481] Scriniarios
+            item [482] Exceptores et ceteros apparitores
+        item [483] Magister militum per Illyricum XV
+    chapter [Deest?]
+        group [487] Sub dispositione viri illustris praepositi sacri cubiculi
+        item [488] Domus diuina per Cappadociam
+    chapter Insignia viri illustris magistri officiorum.
+        group [492] Sub dispositione viri illustris magistri officiorum
+            item [493] Scola scutariorum prima
+            item [494] Scola scutariorum secunda
+            item [495] Scola gentilium seniorum
+            item [496] Scola scutariorum sagittariorum
+            item [497] Scola scutariorum clibanariorum
+            item [498] Scola armaturarum iuniorum
+            item [499] Scola gentilium iuniorum
+            item [500] scola agentum in rebus et deputati eiusdem scolae
+            item [501] Mensores et lampadarii
+            item [502] Scrinium memoriae
+            item [503] Scrinium epistolarum
+            item [504] Scrinium libellorum
+            item [505] Scrinium dispositionum
+            item [506] Officium ammissionum
+        group [507] Fabricae infrascriae
+        group [508] Orientis V
+            item [509] Scutaria et armorum, Damasci.
+            item [510] Scutaria et armorum, Antiochiae.
+            item [511] ;Clibanaria, Antiochiae.
+            item [512] Scutaria et armamentaria, Edesa.
+            group [513] Hastaria Irenopolitana Ciliciae
+        group [514] Ponticae quatuor
+            item [515] Clibanaria, Caesarea Cappadociae.
+            item [516] Scutaria et armorum, Nicomediae.
+            item [517] Clibanaria, Nicomediae.
+        group [518] Asianae una
+            item [519] Scutaria et armorum, Sardis Lydiae.
+        group [520] Thraciarum duae
+            item [521] Scutaria et armorum, Hadrianopolis Haemimonti.
+            item [522] Scutaria et armorum, Marcianopoli.
+        group [523] Illyrici quatuor
+            item [524] Thessalonicensis
+            item [525] Naissatensis
+            item [526] Ratiarensis
+            item [527] Scutaria Horreomargensis
+        group [528] Officium autem suprascripti viri illustris magistri officiorum de scola agentum in rebus est ita
+            item [529] Adiutor
+            item [530] Subadiuuae
+            item [531] Adiutores duo
+            item [532] Fabricarum ters
+            group [533] Barbaricariorum quatuor
+                item [534] Orientis unus
+                item [535] Asianae unus
+                item [536] Ponticae unus
+                item [537] Thraciarum et Illyrici unus
+                item [538] Curiosus cursus publici praesentalis unus
+                item [539] Curiosi per omnes provincias
+                item [540] Interpretes diuersarum gentium
+        item [541] Magister officiorum ipse emittit
+    chapter Insignia viri illustris quaestoris.
+        group [545] Sub dispositione viri illustris quaestoris
+            item [546] Leges dictandae
+            item [547] Preces
+        item [548] Officium non habet, sed adiutores de scriniis quos voluerit.
+    chapter Insignia viri illustris comitis largitionum.
+        group [552] Sub dispositione viri illustris comitis sacrarum largitionum
+        item [553] Comites largitionum per omnes dioceses
+        group [554] Comites commmerciorum
+            item [555] per Orientem et Aegyptum
+            item [556] per Moesiam, Scythiam et Pontum.
+            item [557] per Illyricum
+            item [558] Praepositi thesaurorum
+            item [559] Comes metallorum per Illyricum
+            item [560] Comes et rationalis summarum Aegypti
+            item [561] Rationales summarum
+            item [562] Magistri lineae uestis
+            item [563] Magistri priuatae
+            item [564] Procuratores gynaeceorum
+            item [565] Procuratores bafiorum
+            item [566] Procuratores monetarum
+            item [567] Procuratores bastagarum
+            item [568] Procuratores linyfiorum
+        group [569] Officium autem suprascripti viri illustris comitis sacrarum largitionum habet
+            item [570] Primicerium totius officii
+            item [571] Primicerium scrinii canonum
+            item [572] Primicerium scrinii tabulariorum
+            item [573] Primicerium scrinii numerorum
+            item [574] Primicerium scrinii aureae massae
+            item [575] Primicerium scrinii auri ad responsum
+            item [576] Primicerium scrinii uestiarii sacri
+            item [577] Primicerium scrinii argenti
+            item [578] Primicerium scrinii a miliarensibus
+            item [579] Primicerium scrinii a pecuniis, et ceteros scriniarios suprascriptorum scriniorum.
+            item [580] Secundocerium offici, qui primicerius est exceptorum.
+            item [581] Tertiocerium offici, qui tractat bastagas.
+            item [582] Quarto loco libellos tractat, et ceteros palatinos offici suprascripti.
+        item [583] Comes largitionum quotiens usus exegerit
+    chapter Insignia viri illustris comitis privatarum.
+        group [586] Sub dispositione viri illustris comitis rerum privatarum
+            item [587] Domus divinae
+            item [588] Rationales rerum privatarum
+            item [589] Bastaga privata
+            item [590] Praepositi gregum et stabulorum
+            item [591] Procuratores saltuum
+        group [592] Officium autem suprascripti viri illustris comitis rerum privatarum habet
+            item [593] Primicerium totus officii
+            item [594] Primiscrinium beneficiorum
+            item [595] Primiscrinium canonum
+            item [596] Primiscrinium securitatum
+            item [597] Primicerium scrinii largitionum privatarum, et ceteros scriniarios suprascriptorum scriniorum.
+            item [598] Secundocerium totius offici, qui tractat chartas ipsius officii, et ceteros palatinos.
+        item [599] Comes rerum privatarum quotiens usus exegerit
+    chapter Comes domesticorum equitum | Comes domesticorum peditum.
+        group [603] Sub dispositione uirorum illustrium comitum domesticorum equitum siue peditum
+            item [604] Domestici equites,
+            item [605] Domestici pedites, et deputati eorum.
+            item [606] Comes domesticorum equitum...
+            item [607] Comes domesticorum peditum...
+    chapter [Deest]
+    chapter Sub dispositione viri spectabilis castrensis.
+        group [613] Sub dispositione viri spectabilis castrensis
+            item [614] Paedagogoia
+            item [615] Ministeriales dominici
+            item [616] Curae palatiorum
+        group [617] Officium autem suprascripti viri spectabilis castrensis habet
+            item [618] Tabularium dominicum
+            item [619] Tabularium dominarum Augustarum
+            item [620] Adiutorem
+            item [621] Chartularium et scrinium ipsius, et ceteros palatinos officii suprascripti.
+    chapter Primicerius notariorum.
+        group [625] Sub dispositione viri spectabilis primicerii notariorum
+            item [626] Omnis dignitatum et amministrationum notitia, tam militarium, quam civilium.
+            item [627] Scolas etiam et numeros tractat
+        item [628] Officium autem non habet, sed adiutorem de scola notariorum.
+    chapter Magistri scriniorum. MemoriaeÝÝ EpistolarumÝÝ LibellorumÝÝ Graecarum
+        item [631] Magister memoriae adnotationes omnes dictat et emittit, et precibus respondet.
+        item [632] Magister epistolarum legationes civitatum, consultationes et preces tractat.
+        item [633] Magister libellorum cognitiones et preces tractat
+        item [634] Magister epistolarum graecarum eas epistolas, quae graece solent emitti, aut ipse dictat aut latine dictatas transfert in graecum.
+        item [635] Officium autem de ipsi nemo habet, sed adiutores electos de scriniis.
+    chapter Proconsul Asiae.
+        group [639] Sub dispositione viri spectabilis proconsulis Asiae provinciae infrascriptae
+            item [640] Asia
+            item [641] Insulae
+            item [642] Hellespontus
+            group [643] Officium autem habet ita
+            item [644] Principem de eodem officio
+            item [645] Cornicularium
+            item [646] Adiutorem
+            item [647] Commentariensem
+            item [648] Ab actis
+            item [649] Numerarios
+            item [650] Scriniarios
+            item [651] A libellis
+            item [652] Exceptores et ceteros officiales
+        item [653] Proconsul Asiae...
+    chapter Proconsul Achaiae.
+        group [657] Sub dispositone viri spectabilis proconsulis Achaiae provincia infrascripta
+        item [658] Achaia
+        group [659] Officium autem habe ita
+            item [660] Principem de scola agentum in rebus ducenarium, qui adorata clementia principali cum insignibus exit transacto biennio.
+            item [661] Cornicularium
+            item [662] Commmentariensem
+            item [663] Quaestorem
+            item [664] Adiutorem
+            item [665] Ab actis
+            item [666] Numerarios
+            item [667] A libellis
+            item [668] Exceptores et ceteros apparitores
+        item [669] Proconsul Achaiae IIII
+    chapter Comes Orientis.
+        group [673] Sub dispositione viri spectabilis comitis Orientis provinciae infrascriptae
+            item [674] Palestina
+            item [675] Foenice
+            item [676] Syria
+            item [677] Cyprus
+            item [678] Cilicia
+            item [679] Palestina secunda
+            item [680] Palestina salutaris
+            item [681] Foenice Libani
+            item [682] Eufratensis
+            item [683] Syria salutaris
+            item [684] Osrhoena
+            item [685] Mesopotamia
+            item [686] Cilicia secunda
+            item [687] Isauria
+            item [688] Arabia
+        group [689] Officium autem viri spectabilis comitis Orientis habet ita
+            item [690] Principem, qui de scola agentum in rebus ducenarius adorata clementia principali cum insignibus exit.
+            item [691] Cornicularium
+            item [692] Commmentariensem
+            item [693] Adiutorem
+            item [694] Ab actis
+            item [695] Numerarios
+            item [696] A libellis
+            item [697] Subadiuuas
+            item [698] Exceptores et ceteros officiales
+        item [699] Comes Orientis...
+    chapter Praefectus Augustalis.
+        group [703] Sub dispositione viri spectabilis praefecti Augustalis provinciae infrascriptae
+            item [704] Libya superior
+            item [705] Libya inferior
+            item [706] Thebais
+            item [707] Aegyptus
+            item [708] Arcadia
+            item [709] Augustamnica
+        group [710] Offecium autem habet ita
+            item [711] Principem, qui de scola agentum in rebus ducenarius adorata clementia principali cum insignibus exit.
+            item [712] Cornicularium
+            item [713] Adiutorem
+            item [714] Commetariensem
+            item [715] Ab actis
+            item [716] Numerarios
+            item [717] Cura epistolarum
+            item [718] Exceptores et ceteros officiales
+        item [719] Praefectus Augustalis...
+    chapter Vicarius dioceseos Asianae.
+        group [723] Sub dispositione viri spectabilis vicarii diocesos Asianae provinciae infrascriptae
+            item [724] Pamfylia
+            item [725] Lydia
+            item [726] Caria
+            item [727] Lycia
+            item [728] Lyaconia
+            item [729] Pisida
+            item [730] Frygia Pacatiana
+            item [731] Frygia salutaris
+        group [732] Officium autem viri spectabilis vicarii diocesos Asianae habet ita
+            item [733] Principem, qui de scola agentum in rebus ducenarius adorata clementia principali cum insignibus exit.
+            item [734] Cornicularium
+            item [735] Commetariensem
+            item [736] Adiutorem
+            item [737] Ab actis
+            item [738] Numerarios
+            item [739] Cura epistolarum
+            item [740] Exceptores et ceteros officiales
+        item [741] Vicarius Asianae...
+    chapter Vicarius dioceseos Ponticae.
+        group [745] Sub dispositione viri spectabilis vicarii dioceseos Ponticae provinciae infrascriptae
+            item [746] Bithynia
+            item [747] Galatia
+            item [748] Paflagonia
+            item [749] Honorias
+            item [750] Galatia salutaris
+            item [751] Cappadocia prima
+            item [752] Cappadocia secunda
+            item [753] Helenopontus
+            item [754] Pontus Polemoniacus
+            item [755] Armenia prima
+            item [756] Armenia secunda
+        group [757] Officium autem habet ita
+            item [758] Principem, qui de scola agentum in rebus ducenarius adorata clementia principali cum insignibus exit transacto biennio.
+            item [759] Cornicularium
+            item [760] Commetariensem
+            item [761] Adiutorem
+            item [762] Ab actis
+            item [763] Numerarios
+            item [764] Cura epistolarum
+            item [765] Exceptores et ceteros officiales
+        item [766] Vicarius Ponticae XII
+    chapter Vicarius dioceseos Thraciarum.
+        group [770] Sub dispositione viri spectabilis vicarii dioceseos Thraciarum provinciae infrascriptae
+            item [771] Europa
+            item [772] Thracia
+            item [773] Haemimontus
+            item [774] Rhodopa
+            item [775] Moesia secunda
+            item [776] Scythia
+        group [777] Officium autem habet ita
+            item [778] Principem, qui de scola agentum in rebus est.
+            item [779] Cornicularium
+            item [780] Commetariensem
+            item [781] Adiutorem
+            item [782] Ab actis
+            item [783] Numerarios
+            item [784] Cura epistolarum
+            item [785] Exceptores et ceteros officiales
+        item [786] Vicarius Thraciarum...
+    chapter [Deest]
+    chapter Comes limitis Aegypti.
+        group [792] Sub dispositione viri spectabilis comitis rei militaris per Aegyptum
+            item [793] Legio quinta Macadonica, Memfi.
+            item [794] Legio tertiadecima gemina, Babilona.
+            item [795] Equites stablesiani, Pelusio.
+            item [796] Equites Saraceni Thamudeni, Scenas Ueteranorum.
+            item [797] Legio tertia Diocletiana, Andro.
+            item [798] Legio secunda Traiana, Parembole.
+            item [799] Ala Theodosiana nuper constituta
+            item [800] Ala Arcadiana nuper constituta
+            item [801] Ala secunda Armeniorum, Oasi minore.
+            group [802] Et quae de minore laterculo emittuntur
+            item [803] Ala tertia Arabum, Thenenuthi.
+            item [804] Ala octava Vandilorum, Nee.
+            item [805] Ala septima Sarmatarum, Scenas Mandrorum.
+            item [806] Ala prima Aegyptiorum, Selle.
+            item [807] Ala veterana Gallorum, Rinocoruna.
+            item [808] Ala prima Herculia, Scenas extra Gerasa.
+            item [809] Ala quinta Raetorum, Scenas Veteranorum.
+            item [810] Ala prima Tingitana, Thinunepis.
+            item [811] Ala Apriana, Hipponos.
+            item [812] Ala secunda Assyriorum, Sosteos.
+            item [813] Ala quinta Praelectorum, Dionisiada.
+            item [814] Cohors tertia Galatarum, Cefro.
+            item [815] Cohors secunda Astarum, Busiris.
+        group [816] Provinciae Augustamnicae
+            item [817] Ala secunda Ulpia Afrorum, Thaubasteos.
+            item [818] Ala secunda Aegyptiorum, Tacasiria.
+            item [819] Cohors prima sagittariorum, Naithu.
+            item [820] Cohors prima Augusta Pannoniorum, Tohu.
+            item [821] Cohors prima Epireorum, Castra Iudaeorum.
+            item [822] Cohors quarta Iuthungorum, Affrodito.
+            item [823] Cohors secunda Ituraeorum, Aiy.
+            item [824] Cohors secunda Thracum, Muson.
+            item [825] Cohors quarta Numidarum, Narmunthi.
+        group [826] Officium autem habet ita
+            item [827] Principem de scola agentum in rebus ducenarium, qui adorata clementia principalis cum insignibus exit.
+            item [828] Numerarios
+            item [829] Commentariensem
+            item [830] Adiutorem
+            item [831] A libellis siue subscribendarium
+            item [832] Exceptores et ceteros officiales
+        item [833] Comes Aegypti VII
+    chapter Comes per Isauriam.
+        group [837] Sub dispositione viri spectabilis comitis rei militaris per Isauriam et praesidis
+            item [838] Legio secunda Isaura
+            item [839] Legio tertia Isaura
+        group [840] Officium autem habet ita
+            item [841] Principem de eodem officio
+            item [842] Cornicularium
+            item [843] Commetariensem
+            item [844] Numerarios
+            item [845] Adiutorem
+            item [846] Ab actis
+            item [847] A libellis
+            item [848] Exceptores et ceteros officiales
+        item [849] Dux{?} Isauriae VI
+    chapter [Pars deest]
+        item [853] Numerarios et adiutores eorum
+        item [854] Commetariensem
+        item [855] Adiutorem
+        item [856] A libellis siue subscribendarium
+        item [857] Exceptores et ceteros officiales
+        item [858] Dux Libyarum III
+    chapter Dux Thebaidos.
+        group [862] Sub dispositione viri spectabilis ducis Thebaidos
+            item [863] 
+                unit Cuneus equitum Maurorum scutariorum
+                place Lico
+            item [864] 
+                unit Cuneus equitum scutariorum
+                place Hermupoli
+            item [865] 
+                unit Equites sagittarii indigenae
+                place Tentira
+            item [866] 
+                unit Equites sagittarii indigenae
+                place Copto
+            item [867] 
+                unit Equites sagittarii indigenae
+                place Diospoli
+            item [868] 
+                unit Equites sagittarii indigenae
+                place Lato
+            item [869] 
+                unit Equites sagittarii indigenae
+                place Maximianopoli
+            item [870] Equites promoti indigenae....
+            item [871] 
+                unit Legio tertia Diocletiana
+                place Ombos
+            item [872] 
+                unit Legio secunda Flavia Constantia Thebaeorum
+                place Cusas
+            item [873] 
+                unit Legio secunda Traiana
+                place Apollonos superioris
+            item [874] 
+                unit Milites Miliarenses
+                place Syene
+            item [875] 
+                unit Legio prima Valentiniana
+                place Copto
+            item [876] 
+                unit Legio prima Maximiana
+                place Filas
+            item [877] 
+                unit Legio tertia Diocletiana
+                place Thebas
+            item [878] 
+                unit Legio secunda Valentiniana
+                place Hermunthi
+            item [879] 
+                unit Equites felices Honoriani
+                place Asfynis
+            item [880] 
+                unit Ala prima Abasgorum
+                place Hibeos - Oaseos maioris
+        group [881] Et quae de minore laterculo emittuntur
+            item [882] 
+                unit Ala secunda Hispanorum
+                place Poisrietemidos
+            item [883] 
+                unit Ala Germanorum
+                place Pescla
+            item [884] 
+                unit Ala quarta Britonum
+                place Isiu
+            item [885] 
+                unit Ala prima Hiberorum
+                place Thmou
+            item [886] 
+                unit Ala Neptunia
+                place Chenoboscia
+            item [887] 
+                unit Ala tertia dromedariorum
+                place Maximianopoli
+            item [888] 
+                unit Ala octava Palmyrenorum
+                place Foenicionis
+            item [889] 
+                unit Ala septima Herculia voluntaria
+                place contra Lata
+            item [890] 
+                unit Ala prima Francorum
+                place contra Apollonos
+            item [891] 
+                unit Ala prima Iovia catafractariorum
+                place Pampane
+            item [892] 
+                unit Ala octava ....
+                place Abydum - Abocedo
+            item [893] 
+                unit Ala secunda Herculia dromedariorum
+                place Psinaula
+            item [894] 
+                unit Ala prima Abasgorum
+                place Oasi maiore
+            item [895] 
+                unit Ala prima Quadorum
+                place Oasi minore - Trimtheos
+            item [896] 
+                unit Ala prima Valeria dromedariorum
+                place Precteos
+            item [897] 
+                unit ;Cohors prima Lusitanorum
+                place Theraco
+            item [898] 
+                unit Cohors scutata civium Romanorum
+                place Mutheos
+            item [899] 
+                unit Cohors prima Apamenorum
+                place Silili
+            item [900] 
+                unit Cohors undecima Chamauorum
+                place Peamu
+            item [901] 
+                unit Cohors nona Tzanorum
+                place Nitnu
+            item [902] 
+                unit Cohors nona Alamannorum
+                place Burgo Severi
+            item [903] 
+                unit CohorsÝ prima felix Theodosiana
+                place apud Elephantinem
+            item [904] 
+                unit Cohors quinta Suentium
+                place Suene
+            item [905] 
+                unit Cohors sexta saginarum
+                place in Castris Lapidariorum
+            item [906] 
+                unit Cohors septima Francorum
+                place Diospoli
+        group [907] Officium autem viri spectabilis ducis Thebaidos habet ita
+            item [908] Principem de scola agentum in rebus
+            item [909] Numerarios et adiutores eorum
+            item [910] Adiutorem
+            item [911] Commentariensem
+            item [912] A libellis siue subscribendarium
+            item [913] Exceptores et ceteros officiales
+        item [914] Dux Thebaidos V
+    chapter Dux Foenicis.
+        group [918] Sub dispositione viri spectabilis ducis Foenicis
+            item [919] 
+                unit Equites Mauri Illyriciani
+                place Otthara
+            item [920] 
+                unit Equites scutarii Illyriciani
+                place Euhari
+            item [921] 
+                unit Equites promoti indigenae
+                place Saltatha
+            item [922] 
+                unit Equites Dalmatae Illyriciani
+                place Lataui
+            item [923] 
+                unit Equites promoto indigenae
+                place Auatha
+            item [924] 
+                unit Equites promoti indigenae
+                place Nazala
+            item [925] 
+                unit Equites sagittarii indigenae
+                place Abina
+            item [926] 
+                unit Equites sagittarii indigenae
+                place Casama
+            item [927] 
+                unit Equites sagittarii indigenae
+                place Calamona
+            item [928] 
+                unit Equites Saraceni indigenae
+                place Betproclis
+            item [929] 
+                unit Equites Saraceni
+                place Thelsee
+            item [930] 
+                unit Equites sagittarii indigenae
+                place Adatha
+            item [931] 
+                unit Praefectus legionis primae Illyricorum
+                place Palmira
+            item [932] 
+                unit Praefectus legionis tertiae Gallicae
+                place Danaba
+        group [933] Et quae de minore laterculo emittuntur
+            item [934] 
+                unit Ala prima Damascena
+                place Monte Iovis
+            item [935] 
+                unit Ala noun Diocletiana
+                place Veriaraca
+            item [936] 
+                unit Ala prima Francorum
+                place Cunna
+            item [937] 
+                unit Ala prima Alamannorum
+                place Neia
+            item [938] 
+                unit Ala prima Saxonum
+                place Verofabula
+            item [939] 
+                unit Ala prima Foenicum
+                place Rene
+            item [940] 
+                unit Ala secunda Salutis
+                place Arefa
+            item [941] 
+                unit Cohors tetria Herculia
+                place Veranoca
+            item [942] 
+                unit Cohors quinta pacta Alamannorum
+                place Oneuatha
+            item [943] 
+                unit Cohors prima Iulia lectorum
+                place Vale Alba
+            item [944] 
+                unit Cohors secunda Aegyptiorum
+                place Valle Diocletiana
+            item [945] 
+                unit Cohors prima Orientalis
+                place Thama
+        group [946] Officium autem habet ita
+            item [947] Principem de scola agentum in rebus
+            item [948] Numerarios et adiutores eorum
+            item [949] Commentariensem
+            item [950] Adiutorem
+            item [951] A libellis siue subscribendarium
+            item [952] Exceptores et ceteros officiales
+        item [953] Dux Foenicis V
+    chapter Dux Syriae.
+        group [957] Sub dispositiones viri spectabilis ducis Syriae et Eufratensis Syriae
+            item [958] 
+                unit Equites scutarii Illyriciani
+                place Serianae
+            item [959] 
+                unit Equites promoti Illyriciani
+                place Occariba
+            item [960] 
+                unit Equites sagittarii indigenae
+                place Matthana
+            item [961] 
+                unit Equites promoti indigenae
+                place Adada
+            item [962] 
+                unit Equites sagittarii indigenae
+                place Anatha
+            item [963] 
+                unit Equites sagittarii
+                place Acadama
+            item [964] 
+                unit Equites sagittarii
+                place Acauatha
+            item [965] 
+                unit Praefectus legionis quartae Scythicae
+                place Oresa
+        group [966] In Augusta Eufratensi
+            item [967] 
+                unit Equites Dalmatae Illyriciani
+                place Barbalisso
+            item [968] 
+                unit Equites Mauri Illyriciani
+                place Neocaesereae
+            item [969] 
+                unit Equites promoti indigenae
+                place Rosafa
+            item [970] 
+                unit Praefectus legionis sextaedecimae Flaviae firmae
+                place Sura
+        group [971] Et quae de minor laterculo emittuntur
+            item [972] 
+                unit Ala prima nova Herculia
+                place Ammuda
+            item [973] 
+                unit Ala prima Iuthungorum
+                place Salutaria
+            item [974] 
+                unit Cohors prima Gotthorum
+                place Helela
+            item [975] 
+                unit Cohors prima Ulpia Dacorum
+                place Claudiana
+            item [976] 
+                unit Cohors tertia Valeria
+                place Marmantharum
+            item [977] 
+                unit Cohors prima victorum
+                place Ammattha
+        group [978] Officium autem habet ita
+            item [979] Principem
+            item [980] Numerarios et adiutores eorum
+            item [981] Commentariensem
+            item [982] Adiutorem
+            item [983] A libellis siue subscribendarium
+            item [984] Exceptores et ceteros officiales
+        item [985] Dux Syriae V
+    chapter Dux Palaestinae.
+        group [989] Sub dispositione viri spectabilis ducis Palaestinae
+        item [990] 
+            unit Equites Dalmatae Illyriciani
+            place Benosabae
+        item [991] 
+            unit Equites Dalmatae Illyriciani
+            place Benosabae
+        item [992] 
+            unit Equites promoti Illyriciani
+            place Menochiae
+        item [993] 
+            unit Equites scutarii Illyriciani
+            place Chermulae
+        item [994] 
+            unit Equites Mauri Illyriciani
+            place Aeliae
+        item [995] 
+            unit Equites Thamudeni Illyriciani
+            place Birsama
+        item [996] 
+            unit Equites promiti indigenae
+            place Sabaiae
+        item [997] 
+            unit Equites promiti indigenae
+            place Zodocathae
+        item [998] 
+            unit Equites sagittarii indigenae
+            place Hauanae
+        item [999] 
+            unit Equites sagittarii indigenae
+            place Zoarae
+        item [1000] 
+            unit Equites sagittarii indigenae
+            place Robatha
+        item [1001] 
+            unit Equites primi felices Palaestini
+            place Sabure siue Veterocariae
+        item [1002] 
+            unit Equites sagittarii indigenae
+            place Moahile
+        item [1003] 
+            unit Praefectus legionis decimae Fretensis
+            place Ailae
+        group [1004] Et quae de minore laterculo emittuntur
+            item [1005] 
+                unit Ala prima miliaria Sebastena
+                place Asuada
+            item [1006] 
+                unit Ala Antana dromedariorum
+                place Admatha
+            item [1007] 
+                unit Ala Constantiana
+                place Toloha
+            item [1008] 
+                unit Ala secunda felix Valentiana
+                place apud Praesidium
+            item [1009] 
+                unit Ala prima miliara
+                place Hasta
+            item [1010] Ala Idiota constituta
+            item [1011] 
+                unit Cohors duodecima Valeria
+                place Afro
+            item [1012] 
+                unit Cohors decima Carthaginensis
+                place Cartha
+            item [1013] 
+                unit Cohors prima agentenaria
+                place Tarba
+            item [1014] 
+                unit Cohors quarta Frygium
+                place Praesidio
+            item [1015] 
+                unit Cohors secunda Gratiana
+                place Iehibo
+            item [1016] 
+                unit Cohors prima equitata
+                place Calamona
+            item [1017] 
+                unit Cohors secunda Galatarum
+                place Arieldela
+            item [1018] 
+                unit Cohors prima Flavia
+                place Moleaatha
+            item [1019] 
+                unit Cohors quarta Palaestinorum
+                place Thamana
+            item [1020] 
+                unit Cohors secunda Cretensis
+                place iuxta Iordanem fluvium
+            item [1021] 
+                unit Cohors prima salutaria
+                place inter Aeliam et Hierichunta
+        group [1022] Officium autem habet ita
+            item [1023] Principem de scola agentum in rebus
+            item [1024] Numerarios et adiutores eorum
+            item [1025] Commentariensem
+            item [1026] Adiutorem
+            item [1027] A libellis siue subscribendarium
+            item [1028] Exceptores et ceteros officiales
+        item [1029] Dux Palaestinae V
+    chapter Dux Osrhoenae.
+        group [1033] Sub dispositione viri spectabilis ducis Osrhoenae
+            item [1034] 
+                unit Equites Dalmatae Illyriciani
+                place Ganaba
+            item [1035] 
+                unit Equites promoti Illyriciani
+                place Callinico
+            item [1036] 
+                unit Equites Mauri Illyriciani
+                place Dabana
+            item [1037] 
+                unit Equites promoti indigenae
+                place Banasam
+            item [1038] 
+                unit Equites promoti indigenae
+                place Sina Iudaeorum
+            item [1039] 
+                unit Equites sagittarii indigenae
+                place Oraba
+            item [1040] 
+                unit Equites sagittarii indigenae
+                place Thillazamana
+            item [1041] 
+                unit Equites sagittarii indigenae Medianenses
+                place Mediana
+            item [1042] 
+                unit Equites primi Osrhoeni
+                place Rasin
+            item [1043] 
+                unit Praefectus legionis quartae Parthicae
+                place Circesio
+            item [1044] 
+                unit ..............
+                place Apatna
+        group [1045] Et quae de minore laterculo emittuntur
+            item [1046] 
+                unit Ala septima Valeria praelectorum
+                place Thillacama
+            item [1047] 
+                unit Ala prima Victoriae
+                place Touia -contra Bintha
+            item [1048] 
+                unit Ala secunda Paflagonum
+                place Thillafica
+            item [1049] 
+                unit Ala prima Parthorum
+                place Resaia
+            item [1050] 
+                unit Ala prima nova Diocletiana
+                place inter Thannurin et Horobam
+            item [1051] 
+                unit Cohors prima Gaetulorum
+                place Thillaamana
+            item [1052] 
+                unit Cohors prima Eufratensis
+                place Maratha
+            item [1053] 
+                unit Ala prima salutaria
+                place Duodecimo constituta
+        group [1054] Officium autem habet ita
+            item [1055] Principem de scola agentum in rebus
+            item [1056] Numerarios et adiutores eorum
+            item [1057] Commentariensem
+            item [1058] Adiutorem
+            item [1059] A libellis siue subscribendarium
+            item [1060] Exceptores et ceteros officiales
+        item [1061] Dux Osrhoenae V
+    chapter Dux Mesopotamiae.
+        group [1065] Sub dispositione viri spectibilis ducis Mesopotamiae
+            item [1066] 
+                unit Equites scutarii Illyriciani
+                place Amidae
+            item [1067] 
+                unit Equites promoti Illyriciani
+                place Resain - Theodosiopoli
+            item [1068] 
+                unit Equites ducatores Illyriciani
+                place Amidae
+            item [1069] 
+                unit Equites felices Honoriani Illyriciani
+                place Constantia
+            item [1070] 
+                unit Equites promoti indigenae
+                place Apadna
+            item [1071] 
+                unit Equites promoti indigenae
+                place Constantina
+            item [1072] 
+                unit Equites sagittarii indigenae Arabanenses
+                place Mefana - Cartha
+            item [1073] 
+                unit Equites scutarii indigenae Pafenses
+                place Assara
+            item [1074] 
+                unit Equites sagittarii indigenae Thibithenses
+                place Thilbisme
+            item [1075] 
+                unit Equites sagittarii indigenae
+                place Thannuri
+            item [1076] 
+                unit Praefectus legionis primae Parthicae Nisibenae
+                place Constantina
+            item [1077] 
+                unit Praefectus legionis secundae Parthicae
+                place Cefae
+        group [1078] Et quae de minore laterculo emittuntur
+            item [1079] 
+                unit Ala secunda nova Aegyptiorum
+                place Cartha
+            item [1080] 
+                unit Ala octava Flavia Francorum
+                place Ripaltha
+            item [1081] 
+                unit Ala quintadecima Flavia Carduenorum
+                place Caini
+            item [1082] 
+                unit Cohors quinquagenaria Arabum
+                place Bethallaha
+            item [1083] 
+                unit Cohors quartadecima Valeria Zabdenorum
+                place Maiocariri
+        group [1084] Officium autem habet ita
+            item [1085] Principem de scola agentum in rebus
+            item [1086] Numerarios et adiutores eorum
+            item [1087] Commentariensem
+            item [1088] Adiutorem
+            item [1089] A libellis siue subscribendarium
+            item [1090] Exceptores et ceteros officiales
+        item [1091] Dux Mesopotamiae VIII
+    chapter Dux Arabiae.
+        group [1095] Sub dispositione viri spectabilis ducis Arabiae
+            item [1096] 
+                unit Equites scutarii Illyriciani
+                place Motha
+            item [1097] 
+                unit Equites promoti Illyriciani
+                place Tricomia
+            item [1098] 
+                unit Equites Dalmatae Illyriciani
+                place Ziza
+            item [1099] 
+                unit Equites Mauri Illyriciani
+                place Areopoli
+            item [1100] 
+                unit Equites promoti indigenae
+                place Speluncis
+            item [1101] 
+                unit Equites promoti indigenae
+                place Mefa
+            item [1102] 
+                unit Equites sagittari indigenae
+                place Gadda
+            item [1103] 
+                unit Praefectus legionis tertiae Cyrenaicae
+                place Bostra
+            item [1104] 
+                unit Praefectus legionis quartae Martiae
+                place Betthoro
+            item [1105] 
+                unit Equites sagittarii indigenae
+                place Dia - Fenis
+        group [1106] Et quae de minore laterculo emittuntur
+            item [1107] 
+                unit Ala nona miliaria
+                place Auatha
+            item [1108] 
+                unit Ala sexta Hispanorum
+                place Gomoha
+            item [1109] 
+                unit Ala secunda Constantiana
+                place Libona
+            item [1110] 
+                unit Ala secunda Miliarensis
+                place Naarsafari
+            item [1111] 
+                unit Ala prima Valentiana
+                place Thainatha
+            item [1112] 
+                unit Ala secunda felix Valentiniana
+                place apud Adittha
+            item [1113] 
+                unit Cohors prima miliaria Thracum
+                place Adtitha
+            item [1114] 
+                unit Cohors prima Thracum
+                place Asabaia
+            item [1115] 
+                unit Cohors octava voluntaria
+                place Ualtha
+            item [1116] 
+                unit Cohors tertia felix Arabum
+                place in ripa Vade Afaris Fluvii in castris Arnonensibus
+            item [1117] 
+                unit Cohors tertia Alpinorum
+                place apud Arnona
+        group [1118] Officium autem viri spectabilis ducis Arabia et praesidis habet ita
+            item [1119] Principem de scola agentum in rebus
+            item [1120] Numerarios et adiutores eorum
+            item [1121] Commentariensem
+            item [1122] Adiutorem
+            item [1123] A libellis siue subscribendarium
+            item [1124] Exceptores et ceteros officiales
+        group [1125] Item officium praesidis eiusdem provinciae
+            item [1126] Principem de eodem officio
+            item [1127] Cornicularium
+            item [1128] Ordinarios
+            item [1129] Commentariensem
+            item [1130] Numerarios et adiutores eorum
+            item [1131] Adiutorem
+            item [1132] A libellis siue regerendarium
+            item [1133] Exceptores et ceteros officiales
+        item [1134] Dux Arabiae V
+    chapter Dux Armeniae.
+        group [1138] Sub dispositione viri spectabilis ducis Armeniae
+            item [1139] 
+                unit Equites sagittarii
+                place Sabbu
+            item [1140] 
+                unit Equites sagittarii
+                place Domana
+            item [1141] 
+                unit Praefectus legionis quintadecimae Apollinaris
+                place Satala
+            item [1142] 
+                unit Praefectus legionis duodecimae fulminatae
+                place Melitena
+        group [1143] In Ponto
+            item [1144] 
+                unit Praefectus legionis primae Ponticae
+                place Trapezunta
+            item [1145] 
+                unit Ala Rizena
+                place Aladaleariza
+            item [1146] 
+                unit Ala Theodosiana
+                place apud Auaxam
+            item [1147] 
+                unit Ala felix Theodosiana
+                place Siluanis
+        group [1148] Et quae de minore laterculo emittuntur
+            item [1149] 
+                unit Ala prima Augusta Colonorum
+                place Chiaca
+            item [1150] 
+                unit Ala Auriana
+                place Dascusa
+            item [1151] 
+                unit Ala prima Ulpia Dacorum
+                place Suissa
+            item [1152] 
+                unit Ala secunda Gallorum
+                place Aeliana
+            item [1153] Ala castello Tablariensi constituta
+            item [1154] Ala pima praetoria nuer constituta
+            item [1155] 
+                unit Cohors tertia Ulpia miliaria Petraeorum
+                place Metita
+            item [1156] 
+                unit Cohors quarta Raetorum
+                place Analiba
+            item [1157] 
+                unit Cohors miliaria Bosporiana
+                place Arauraca
+            item [1158] 
+                unit Cohors miliaria Germanorum
+                place Sisila
+            item [1159] 
+                unit Ala prima Iovia felix
+                place Chaszanenica
+            item [1160] 
+                unit Ala prima felix Theodosiana
+                place Pithiae
+            item [1161] 
+                unit Cohors prima Theodosiana
+                place Valentia
+            item [1162] 
+                unit Cohors Apuleia civium Romanorum
+                place Ysiporto
+            item [1163] 
+                unit Cohors prima Lepidiana
+                place Caene - Parembole
+            item [1164] 
+                unit Cohors prima Claudia equitata
+                place Sebastopolis
+            item [1165] 
+                unit Cohors secunda Valentiana
+                place Ziganne
+            item [1166] 
+                unit Cohors
+                place Mochora
+        group [1167] Officium autem habet ita
+            item [1168] Principem de scola agentum in rebus
+            item [1169] Numerarios et adiutores eorum
+            item [1170] Commentariensem
+            item [1171] Adiutorem
+            item [1172] A libellis siue subscribendarium
+            item [1173] Exceptores et ceteros officiales
+        item [1174] Dux Armeniae VII
+    chapter Dux Scythiae.
+        group [1178] Sub dispositione viri spectabilis ducis Scythiae
+            item [1179] 
+                unit Cuneus equitum scutariorum
+                place Sacidaua
+            item [1180] 
+                unit Cuneus equitum Solensium
+                place Capidaua
+            item [1181] 
+                unit Cuneus equitum stablesianorum
+                place Cii
+            item [1182] 
+                unit Cuneus equitum stablesianorum
+                place Bireo
+            item [1183] 
+                unit Cuneus equitum catafractariorum
+                place Arubio
+            item [1184] 
+                unit Cuneus equitum armigerorum
+                place Aegissos
+            item [1185] 
+                unit Cuneus equitum Arcadum
+                place Talamonio
+        group [1186] Auxiliares
+            item [1187] 
+                unit Milites navclarii
+                place Flaviana
+            item [1188] 
+                unit Milites superventores
+                place Axiupoli
+            item [1189] 
+                unit Milites Scythici
+                place Carso
+            item [1190] 
+                unit Milites secundi Constantini
+                place Trosmis
+            item [1191] 
+                unit Milites Scythici
+                place Dirigothia
+            item [1192] 
+                unit Milites primi Constantini
+                place Nouioduro
+            item [1193] 
+                unit Milites quinti Constantini
+                place Salsouia
+            item [1194] 
+                unit Milites primi Gratianenses
+                place Gratiana
+        group [1195] Item legiones riparienses
+            item [1196] 
+                unit Praefectus legionis secundae Herculiae
+                place Trosmis
+            item [1197] 
+                unit Praefectus ripae legionis secundae Herculiae cohortis quintae pedaturae inferioris
+                place Axiupoli
+            item [1198] 
+                unit Praefectus ripae legionis secundae Herculiae cohortis quintae pedaturae inferioris
+                place Iprosmis
+            item [1199] 
+                unit Praefectus legionis primae Ioviae
+                place Nouioduno
+            item [1200] 
+                unit Praefectus ripae legionis primae Ioviae cohortis quintae pedaturae superioris
+                place Nouioduno
+            item [1201] 
+                unit Praefectus ripae legionis primae Ioviae cohortis quintae pedaturae inferioris
+                place Accisso
+            item [1202] Praefectus ripae legionis primae Ioviae cohortis ....
+            item [1203] 
+                unit et secundae Herculiae musculorum Scythicorum et classis
+                place Inplateypegiis
+        group [1204] Officium autem habet ita
+            item [1205] 
+                unit Principem de eodem officio
+                place qui completa militia adorat protector
+            item [1206] Numerarios et adiutores eorum
+            item [1207] Commentariensem
+            item [1208] Adiutorem
+            item [1209] A libellis siue subscribendarium
+            item [1210] Exceptores et ceteros officiales
+        item [1211] Dux Scythiae V
+    chapter Dux Moesiae secundae.
+        group [1215] Sub dispositione viri spectabilis ducis moesiae secundae
+            item [1216] 
+                unit Cuneus equitum scutariorum
+                place Securisca
+            item [1217] 
+                unit Cuneus equitum Solensium
+                place Dimo
+            item [1218] 
+                unit Cuneus equitum scutariorum
+                place Latius
+            item [1219] 
+                unit Cuneus equitum armigerorum
+                place Sexagintaprista
+            item [1220] 
+                unit Cuneus equitum secundorum armigerorum
+                place Tegra
+            item [1221] 
+                unit Cuneus equitum scutariorum
+                place Appiaria
+            item [1222] 
+                unit Cuneus equitum stablesianorum
+                place Sucidaua
+        group [1223] Auxiliares
+            item [1224] 
+                unit Milites praeventores
+                place Ansamo
+            item [1225] 
+                unit Milites Constantini
+                place Trimammio
+            item [1226] 
+                unit Milites Dacisci
+                place Mediolana
+            item [1227] 
+                unit Milites tertii navclarii
+                place Appiaria
+            item [1228] 
+                unit Milites Novenses
+                place Transmariscae
+            item [1229] 
+                unit Milites primi Moesiaci
+                place Candidiana
+            item [1230] 
+                unit Milites Moesiaci
+                place Teglicio
+            item [1231] 
+                unit Milites quarti Constantiani
+                place Durostoro
+            item [1232] 
+                unit Milites Cimbriani
+                place Cimbrianis
+            item [1233] 
+                unit Milites navclarii Altinenses
+                place Altino
+        group [1234] Item legiones riparienses
+            item [1235] 
+                unit Praefectus legionis primae Italicae
+                place Nouas
+            item [1236] 
+                unit Praefectus ripae legionis primae Italicae cohortis quintae pedaturae superioris
+                place Nouas
+            item [1237] 
+                unit Praefectus ripae legionis primae Italicae cohortis quintae pedaturae inferioris
+                place Sexagintaprista
+            item [1238] 
+                unit Praefectus legionis undecimae Claudiae
+                place Durostoro
+            item [1239] 
+                unit Praefectus ripae legionis undecimae Claudiae cohortis quintae pedaturae superioris
+                place Transmariscae
+            item [1240] 
+                unit Praefectus ripae legionis undecimae Claudiae cohortis quintae pedaturae inferioris
+                place Transmariscae
+            item [1241] Praefectus navium amnicarum et militum ibidem deputatorum
+        group [1242] Officium autem habet ita
+            item [1243] 
+                unit Principem de eodem officio
+                place qui completa militia adorat protector
+            item [1244] Numerarios et adiutores eorum
+            item [1245] Commentariensem
+            item [1246] Adiutorem
+            item [1247] A libellis siue subscribendarium
+            item [1248] Exceptores et ceteros officiales
+        group [1249] Et quae de minore laterculo emittuntur
+            group [1250] In provincia Rhodopa
+                item [1251] 
+                    unit Cohors quarta Gallorum
+                    place Ulucitra
+            group [1252] In provincia Thracia
+                item [1253] 
+                    unit Cohors prima Aureliana
+                    place sub Radice - Viamata
+                item [1254] 
+                    unit Cohors tertia Valeria Bacarum
+                    place Drasdea
+        item [1255] Dux Moesiae inferioris V
+    chapter Dux Moesiae primae.
+        group [1259] Sub dispositione viri spectabilis ducis Moesiae primae
+            item [1260] 
+                unit Cuneus equtum Constantacorum
+                place Pinco
+            item [1261] 
+                unit Cuneus equtum promotorum
+                place Flaviana
+            item [1262] 
+                unit Cuneus equtum sagittariorum
+                place Tricornio
+            item [1263] 
+                unit Cuneus equtum Dalmatarum
+                place Aureomonto
+            item [1264] 
+                unit Cuneus equtum promotorum
+                place Viminacio
+            item [1265] 
+                unit Cuneus equtum sagittariorum
+                place Laedenatae
+            item [1266] 
+                unit Cuneus equtum Dalmatarum
+                place Pinco
+            item [1267] 
+                unit Cuneus equtum Dalmatarum
+                place Cuppis
+        group [1268] Auxiliares
+            item [1269] 
+                unit Auxiliares reginenses
+                place contra Reginam
+            item [1270] 
+                unit Auxiliares Tricornienses
+                place Tricornio
+            item [1271] 
+                unit Auxiliares Novenses
+                place Ad Novas
+            item [1272] 
+                unit Auxilium Margense
+                place Margo
+            item [1273] 
+                unit Auxilium Cuppense
+                place Cuppis
+            item [1274] 
+                unit Auxilium Gratianense
+                place Gratiana
+            item [1275] 
+                unit Auxilium Taliatense
+                place Taliata
+            item [1276] 
+                unit Auxilium Aureomontanum
+                place Tricornio
+        group [1277] Item legiones
+            item [1278] 
+                unit Praefectus legionis quartae Flaviae
+                place Singiduno
+            item [1279] 
+                unit Praefectus legionis septimae Claudiae
+                place Cuppis
+            item [1280] 
+                unit Praefectus militum .....
+                place contra Margum in castris Augustoflavianensibus
+            item [1281] 
+                unit Praefectus militum exploratorum
+                place Novis
+            item [1282] 
+                unit Praefectus militum exploratorum
+                place Taliatae
+            item [1283] 
+                unit Praefectus militum Vincentiensium
+                place Laedemata
+            item [1284] 
+                unit Praefectus militum exploratorum
+                place Zmirnae
+            item [1285] 
+                unit Praefectus classis Histricae
+                place Viminacio
+            item [1286] 
+                unit Praefectus classis Stradensis et Germensis
+                place Margo
+        group [1287] Officium autem habet ita
+            item [1288] 
+                unit Principem de eodem officio
+                place qui completa militia adorat protector
+            item [1289] Numerarios et adiutores eorum
+            item [1290] Commentariensem
+            item [1291] Adiutorem
+            item [1292] A libellis siue subscribendarium
+            item [1293] Exceptores et ceteros officiales
+        item [1294] Dux Moesiae superioris V
+    chapter Dux Daciae ripensis.
+        group [1298] Sub dispositione viri spectabilis ducis Daciae ripensis
+            item [1299] 
+                unit Cuneus equitum Dalmatarum Fortensium
+                place Bononia
+            item [1300] 
+                unit Cuneus equitum Dalmatarum Divitensium
+                place Dortico
+            item [1301] 
+                unit Cuneus equitum scutariorum
+                place Cebro
+            item [1302] 
+                unit Cuneus equitum Dalmatarum Divitensium
+                place Drobeta
+            item [1303] 
+                unit Cuneus equitum Dalmatarum
+                place Augustae
+            item [1304] 
+                unit Cuneus equitum Dalmatarum
+                place Varina
+            item [1305] 
+                unit Cuneus equitum stablesianorum
+                place Almo
+            item [1306] 
+                unit Cuneus equitum scutariorum
+                place Aegetae
+            item [1307] 
+                unit Cuneus equitum Constantinianorum
+                place Uto
+        group [1308] Auxiliares
+            item [1309] 
+                unit Auxilium Miliarensium
+                place Transalba
+            item [1310] 
+                unit Auxilium primorum Daciscorum
+                place Drobeta
+            item [1311] 
+                unit Auxilium Crispitiense
+                place Crispitia
+            item [1312] 
+                unit Auxilium Mariensium
+                place Oesco
+            item [1313] 
+                unit Auxilium Claustrinorum
+                place Transluco
+            item [1314] 
+                unit Auxilium secundorum Daciscorum
+                place Burgo Zono
+            item [1315] 
+                unit Praefectus militum exploratorum
+                place Transdiernis
+        group [1316] Item legiones
+            item [1317] 
+                unit Praefectus legionis quintae Macedonicae
+                place Variniana
+            item [1318] 
+                unit Praefectus legionis quintae Macedonicae
+                place Cebro
+            item [1319] 
+                unit Praefectus legionis quintae Macedonicae
+                place Oesco
+            item [1320] 
+                unit Praefectus legionis tertiaedecimae geminae
+                place Aegeta
+            item [1321] 
+                unit Praefectus legionis tertiaedecimae geminae
+                place Transdrobeta
+            item [1322] 
+                unit Praefectus legionis tertiaedecimae geminae
+                place Burgo Novo
+            item [1323] 
+                unit Praefectus legionis tertiaedecimae geminae
+                place Zernis
+            item [1324] 
+                unit Praefectus legionis tertiaedecimae geminae
+                place Ratiaria
+            item [1325] 
+                unit Praefectus legionis quintae Macedonicae
+                place Sucidaua
+            item [1326] 
+                unit Tribunus cohortis secundorum reducum
+                place Siosta
+            item [1327] Tribunus cohortis novae Sosticae......
+            item [1328] 
+                unit Praefectus classis Histricae
+                place Aegetae
+            item [1329] Praefectus classis Ratianensis
+        group [1330] Officium autem habet ita
+            item [1331] 
+                unit Principem de eodem officio
+                place qui completa militia adoratÝprotector
+            item [1332] Numerarios et adiutores eorum
+            item [1333] Commentariensem
+            item [1334] Adiutorem
+            item [1335] A libellis siue subscribendarium
+            item [1336] Exceptores et ceteros officiales
+        item [1337] Dux Daciae ripensis V
+    chapter Consularis Palaestinae.
+        group [1341] Sub dispositione viri clarissimi consularis Palaestinae
+            item [1342] Provincia Palaestina
+        group [1343] Officium autem habet ita
+            item [1344] Principem de eodem officio
+            item [1345] Cornicularium
+            item [1346] Commentariensem
+            item [1347] Adiutorem
+            item [1348] Numerarium
+            item [1349] Ab actis
+            item [1350] A libellis
+            item [1351] Exceptores et ceteros cohortalinos, quibus non licet ad aliam transire militiam sine annotatione clementiae principalis.
+        item [1352] Ceteri omnes consulares ad similitudinem consularis Palaestinae officium habent
+    chapter Praeses Thebaidos.
+        group [1356] Sub dispositione viri clarissimi praesidis Thebaidos
+            item [1357] Provincia Thebais
+        group [1358] Officium autem habet ita
+            item [1359] Principem de eodem officio
+            item [1360] Cornicularium
+            item [1361] Commentariensem
+            item [1362] Adiutorem
+            item [1363] Numerarium
+            item [1364] Ab actis
+            item [1365] A libellis
+            item [1366] Exceptores et ceteros cohortalinos, quibus non licet ad aliam transire militiam sine annotatione clementiae principalis.
+        item [1367] Ceteri omnes consulares ad similitudinem praesidis Thebaidos officium habent
+    chapter Divina providentia
+        item [1371] Virtus. Scientia rei militaris
+        item [1372] Autoritas. Felicitas
+        item [1373] Divina electio
+        item [1374] Uernus. Aestas
+        item [1375] Autumnus. Hiems
+        item [1377] The Miscellany	The Latin Library	The Classics Page
+

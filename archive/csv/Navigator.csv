@@ -1,0 +1,124 @@
+nodeId,parentId,level,label
+N00001,,0,Occidentis
+N00002,N00001,1,I. Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis
+N00003,N00002,2,Praefectus praetorio Italiae
+N00004,N00002,2,Praefectus praetorio Galliarum
+N00005,N00002,2,Praefectus urbis Romae
+N00006,N00002,2,Magister peditum in praesenti
+N00007,N00002,2,Magister equitum in praesenti
+N00008,N00002,2,Magister equitum per Gallias
+N00009,N00002,2,Praepositus sacri cubiculi
+N00010,N00002,2,Magister officiorum
+N00011,N00002,2,Quaestor
+N00012,N00002,2,Comes sacrarum largitionum
+N00013,N00002,2,Comes rerum privatum
+N00014,N00002,2,Comes domesticorum equitum
+N00015,N00002,2,Comes domesticorum peditum
+N00016,N00002,2,Primicerius sacri cubiculi
+N00017,N00002,2,Primicerius notariorum
+N00018,N00002,2,Castrensis sacri palatii
+N00019,N00002,2,Magistri scriniorum
+N00020,N00019,3,Memoriae
+N00021,N00019,3,Epistolarum
+N00022,N00019,3,Libellorum
+N00023,N00002,2,Proconsul Africae
+N00024,N00002,2,Vicarii sex
+N00025,N00024,3,Urbis Romae
+N00026,N00024,3,Italiae
+N00027,N00024,3,Africae
+N00028,N00024,3,Hispaniarum
+N00029,N00024,3,Septem provinciarum
+N00030,N00024,3,Britanniarum
+N00031,N00002,2,Comites rei militaris sex
+N00032,N00031,3,Italiae
+N00033,N00031,3,Africae
+N00034,N00031,3,Tingitaniae
+N00035,N00031,3,Tractus Argentoratensis
+N00036,N00031,3,Britanniarum
+N00037,N00031,3,Litoris Saxonici per Britannias
+N00038,N00002,2,Duces duodecim
+N00039,N00038,3,Limitis Mauretaniae Caesariensis
+N00040,N00038,3,Limites Tripolitani
+N00041,N00038,3,Pannoniae primae et Norici ripensis
+N00042,N00038,3,Pannoniae secundae
+N00043,N00038,3,Valeriae ripensis
+N00044,N00038,3,Raetiae primae et secundae
+N00045,N00038,3,Sequanicae
+N00046,N00038,3,Tractus Armoricani et Neruicani
+N00047,N00038,3,Belgicae secundae
+N00048,N00038,3,Germaniae primae
+N00049,N00038,3,Britanniae
+N00050,N00038,3,Mogontiacensis
+N00051,N00002,2,Consulares viginti duo
+N00052,N00051,3,Per Pannoniam unus
+N00053,N00052,4,Pannoniae
+N00054,N00051,3,Per Italias octo
+N00055,N00054,4,Venetiae et Histriae
+N00056,N00054,4,Aemiliae
+N00057,N00054,4,Liguriae
+N00058,N00054,4,Flaminiae et Piceni annonarii
+N00059,N00054,4,Tusciae et Umbriae
+N00060,N00054,4,Piceni suburbicarii
+N00061,N00054,4,Campaniae
+N00062,N00054,4,Siciliae
+N00063,N00051,3,Per Africam duo
+N00064,N00063,4,Byzacii
+N00065,N00063,4,Numidiae
+N00066,N00051,3,Per Hispanias tres
+N00067,N00066,4,Baeticae
+N00068,N00066,4,Lusitaniae
+N00069,N00066,4,Callaeciae
+N00070,N00051,3,Per Gallias sex
+N00071,N00070,4,Viennensis
+N00072,N00070,4,Lugdunensis primae
+N00073,N00070,4,Germaniae primae
+N00074,N00070,4,Germaniae secundae
+N00075,N00070,4,Belgicae primae
+N00076,N00070,4,Belgicae secundae
+N00077,N00051,3,Per Britannias duo
+N00078,N00077,4,Maximae Caesariensis
+N00079,N00077,4,Valentiae
+N00080,N00002,2,Correctores tres
+N00081,N00080,3,Per Italiam duo
+N00082,N00081,4,Apuliae et Calabriae
+N00083,N00081,4,Lucaniae et Brittiorum
+N00084,N00080,3,Per Pannoniam unum
+N00085,N00084,4,Saviae
+N00086,N00002,2,Praesides triginta unum
+N00087,N00086,3,Per Illyricum quattuor
+N00088,N00087,4,Dalmaticarum
+N00089,N00087,4,Pannoniae primae
+N00090,N00087,4,Norici mediterranei
+N00091,N00087,4,Norici ripensis
+N00092,N00086,3,Per Italias septem
+N00093,N00092,4,Alpium Cottiarum
+N00094,N00092,4,Raetiae primae
+N00095,N00092,4,Raetiae secundae
+N00096,N00092,4,Samnii
+N00097,N00092,4,Valeriae
+N00098,N00092,4,Saradiniae
+N00099,N00092,4,Corsicae
+N00100,N00086,3,Per Africam duo
+N00101,N00100,4,Mauretaniae Sitifensis
+N00102,N00100,4,Tripolitanae
+N00103,N00086,3,Per Hispanias Quattuor
+N00104,N00103,4,Tarraconensis
+N00105,N00103,4,Carthagiensis
+N00106,N00103,4,Tingitaniae
+N00107,N00103,4,Insularum Balearum
+N00108,N00086,3,Per Gallias undecim
+N00109,N00108,4,Alpum maritimarum
+N00110,N00108,4,Alpium Poeninarum et Graiarum
+N00111,N00108,4,Maximae Sequanorum
+N00112,N00108,4,Aquitanicae primae
+N00113,N00108,4,Aquitanicae secundae
+N00114,N00108,4,Novempopulanae
+N00115,N00108,4,Narbonensis primae
+N00116,N00108,4,Narbonensis secundae
+N00117,N00108,4,Lugdunensis secundae
+N00118,N00108,4,Lugdunensis tertiae
+N00119,N00108,4,Lugdunensis Senonicae
+N00120,N00086,3,Per Britannias tres
+N00121,N00120,4,Britanniae primae
+N00122,N00120,4,Britanniae secundae
+N00123,N00120,4,Flaviae Caesariensis
