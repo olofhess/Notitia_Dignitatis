@@ -1,0 +1,622 @@
+contextId,placeId,placeName,office,unit,chapter,document
+PC000047,PLC00045,alio a parte equitum,,"Principem ex officiis magistrorum militum praesentalium, uno anno a parte peditum",Comes Africae,Occidentis
+PC000509,PLC00065,singulos ex utrisque officiis suprascriptis,,Numerarios duos,Comes Britanniae,Occidentis
+PC000048,PLC00054,alio anno a parte equitum,,"Principem ex officiis magistrorum militum praesentalium, uno anno a parte peditum",Comes Tingitaniae,Occidentis
+PC000111,PLC00048,Aulucos,Tribunus,cohortis primae Herculeae,Comes Tingitaniae,Occidentis
+PC000180,PLC00049,Castrabarensis,Tribunus,cohortis primae Ityraeorum,Comes Tingitaniae,Occidentis
+PC000254,PLC00047,Duga,Tribunus,cohortis secundae Hispanorum,Comes Tingitaniae,Occidentis
+PC000276,PLC00053,Friglas,Tribunus,cohortis Friglensis,Comes Tingitaniae,Occidentis
+PC000421,PLC00051,Pacatiana,Tribunus,cohortis Pacatianensis,Comes Tingitaniae,Occidentis
+PC000480,PLC00050,Sala,Tribunus,cohortis .......,Comes Tingitaniae,Occidentis
+PC000507,PLC00055,singulos ex officiis supradictis,,Numerarios duos,Comes Tingitaniae,Occidentis
+PC000529,PLC00052,Tabernas,Tribunus,cohortis tertiae Asturum,Comes Tingitaniae,Occidentis
+PC000535,PLC00046,Tamuco,Praefectus,alae Herculeae,Comes Tingitaniae,Occidentis
+PC000066,PLC00063,Anderidos,Praepositus,numeri Abulcorum,Comes litoris Saxonici per Britanniam,Occidentis
+PC000144,PLC00059,Branoduno,Praepositus,equitum Dalmatarum Branodunensium,Comes litoris Saxonici per Britanniam,Occidentis
+PC000253,PLC00057,Dubris,Praepositus,militum Tungrecanorum,Comes litoris Saxonici per Britanniam,Occidentis
+PC000282,PLC00060,Gariannonor,Praepositus,equitum stablesianorum Gariannonensium,Comes litoris Saxonici per Britanniam,Occidentis
+PC000325,PLC00058,Lemannis,Praepositus,numeri Turnacensium,Comes litoris Saxonici per Britanniam,Occidentis
+PC000419,PLC00056,Othonae,Praepositus,numeri Fortensium,Comes litoris Saxonici per Britanniam,Occidentis
+PC000445,PLC00064,Portum Adurni,Praepositus,numeri exploratorum,Comes litoris Saxonici per Britanniam,Occidentis
+PC000463,PLC00061,Regulbio,Tribunus,cohortis primae Baetasiorum,Comes litoris Saxonici per Britanniam,Occidentis
+PC000475,PLC00062,Rutupis,Praefectus,legionis secundae Augustae,Comes litoris Saxonici per Britanniam,Occidentis
+PC000346,PLC00208,Marcis in litore Saxonico,,Equites Dalmatae,Dux Belgicae secundae,Occidentis
+PC000444,PLC00210,Portu Epatiaci,Tribunus,militum Neruiorum,Dux Belgicae secundae,Occidentis
+PC000001,PLC00238,Aballaba,Praefectus,numeri Maurorum Aurelianorum,Dux Britanniarum,Occidentis
+PC000035,PLC00233,Aesica,Tribunus,cohortis primae Asturum,Dux Britanniarum,Occidentis
+PC000049,PLC00244,Alione,Tribunus,cohortis tertiae Neruiorum,Dux Britanniarum,Occidentis
+PC000059,PLC00235,Amboglanna,Tribunus,cohortis primae Aeliae Dacorum,Dux Britanniarum,Occidentis
+PC000086,PLC00214,Arbeia,Praefectus,numeri barcariorum Tigrisiensium,Dux Britanniarum,Occidentis
+PC000115,PLC00240,Axeloduno,Tribunus,cohortis primae Hispanorum,Dux Britanniarum,Occidentis
+PC000123,PLC00219,Barboniaco,Praefectus,numeri defensorum,Dux Britanniarum,Occidentis
+PC000142,PLC00231,Borcovicio,Tribunus,cohortis primae Tungrorum,Dux Britanniarum,Occidentis
+PC000146,PLC00245,Bremetenraco,,Cuneus Sarmatarum,Dux Britanniarum,Occidentis
+PC000191,PLC00229,Cilurno,Praefectus,alae secundae Asturum,Dux Britanniarum,Occidentis
+PC000200,PLC00216,Concangios,Praefectus,numeri vigilum,Dux Britanniarum,Occidentis
+PC000201,PLC00226,Conderco,Praefectus,alae primae Asturum,Dux Britanniarum,Occidentis
+PC000204,PLC00239,Congavata,Tribunus,cohortis secundae Lingonum,Dux Britanniarum,Occidentis
+PC000238,PLC00212,Dano,Praefectus,equitum Crispianorum,Dux Britanniarum,Occidentis
+PC000240,PLC00223,Deruentione,Praefectus,numeri supervenientium Petueriensium,Dux Britanniarum,Occidentis
+PC000242,PLC00215,Dicti,Praefectus,numeri Neruiorum Dictensium,Dux Britanniarum,Occidentis
+PC000277,PLC00241,Gabrosenti,Tribunus,cohortis secundae Thracum,Dux Britanniarum,Occidentis
+PC000284,PLC00243,Glannibanta,Tribunus,cohortis primae Morinorum,Dux Britanniarum,Occidentis
+PC000300,PLC00228,Hunno,Praefectus,alae Sabinianae,Dux Britanniarum,Occidentis
+PC000323,PLC00217,Lavatres,Praefectus,numeri exploratorum,Dux Britanniarum,Occidentis
+PC000334,PLC00222,Longovicio,Praefectus,numeri Longovicanorum,Dux Britanniarum,Occidentis
+PC000336,PLC00237,Luguvallii,,........................,Dux Britanniarum,Occidentis
+PC000339,PLC00221,Magis,Praefectus,numeri Pacensium,Dux Britanniarum,Occidentis
+PC000340,PLC00220,Maglone,Praefectus,numeri Solensium,Dux Britanniarum,Occidentis
+PC000341,PLC00234,Magnis,Tribunus,cohortis secundae Dalmatarum,Dux Britanniarum,Occidentis
+PC000370,PLC00213,Morbio,Praefectus,equitum catafractariorum,Dux Britanniarum,Occidentis
+PC000410,PLC00246,Olenaco,Praefectus,alae primae Herculeae,Dux Britanniarum,Occidentis
+PC000436,PLC00236,Petrianis,Praefectus,alae Petrianae,Dux Britanniarum,Occidentis
+PC000443,PLC00225,Ponte Aeli,Tribunus,cohortis primae Cornoviorum,Dux Britanniarum,Occidentis
+PC000446,PLC00211,Praesidio,Praefectus,equitum Dalmatarum,Dux Britanniarum,Occidentis
+PC000449,PLC00230,Procolitia,Tribunus,cohortis primae Batavorum,Dux Britanniarum,Occidentis
+PC000496,PLC00224,Segeduno,Tribunus,cohortis quartae Lingonum,Dux Britanniarum,Occidentis
+PC000583,PLC00242,Tunnocelo,Tribunus,cohortis primae Aeliae classicae,Dux Britanniarum,Occidentis
+PC000603,PLC00218,Verteris,Praefectus,numeri directorum,Dux Britanniarum,Occidentis
+PC000611,PLC00227,Vindobala,Tribunus,cohortis primae Frixagorum,Dux Britanniarum,Occidentis
+PC000612,PLC00232,Vindolana,Tribunus,cohortis quartae Gallorum,Dux Britanniarum,Occidentis
+PC000614,PLC00247,Virosido,Tribunus,cohortis sextae Neruiorum,Dux Britanniarum,Occidentis
+PC000056,PLC00252,Alta Ripa,Praefectus,militum Martensium,Dux Mogontiacensis,Occidentis
+PC000071,PLC00258,Antonaco,Praefectus,militum Acincensium,Dux Mogontiacensis,Occidentis
+PC000132,PLC00255,Bingio,Praefectus,militum Bingensium,Dux Mogontiacensis,Occidentis
+PC000136,PLC00256,Bodobrica,Praefectus,militum balistariorum,Dux Mogontiacensis,Occidentis
+PC000202,PLC00257,Confluentibus,Praefectus,militum defensorum,Dux Mogontiacensis,Occidentis
+PC000367,PLC00254,Mogontiaco,Praefectus,militum armigerorum,Dux Mogontiacensis,Occidentis
+PC000381,PLC00251,Nemetis,Praefectus,militum vindicum,Dux Mogontiacensis,Occidentis
+PC000481,PLC00248,Saletione,Praefectus,militum Pacensium,Dux Mogontiacensis,Occidentis
+PC000530,PLC00249,Tabernis,Praefectus,militum Menapiorum,Dux Mogontiacensis,Occidentis
+PC000591,PLC00253,Vangiones,Praefectus,militum secundae Flaviae,Dux Mogontiacensis,Occidentis
+PC000605,PLC00250,Vico Iulio,Praefectus,militum Anderetianorum,Dux Mogontiacensis,Occidentis
+PC000009,PLC00071,Aciminci,,Cuneus equitum constantium,Dux Pannoniae,Occidentis
+PC000010,PLC00080,Acimirci,,Equites sagittarii,Dux Pannoniae,Occidentis
+PC000014,PLC00084,ad Herculem,,Auxilia Herculensia,Dux Pannoniae,Occidentis
+PC000043,PLC00074,Albano,,Equites Dalmatae,Dux Pannoniae,Occidentis
+PC000097,PLC00085,Arsaciana siue Novas,,Auxilia Novensia,Dux Pannoniae,Occidentis
+PC000139,PLC00089,Bononiae,Praefectus,legionis quintae Ioviae cohortis quintae partis superioris,Dux Pannoniae,Occidentis
+PC000141,PLC00078,Bonoriae,,Equites Dalmatae,Dux Pannoniae,Occidentis
+PC000147,PLC00069,Burgenas,,Cuneus equitum Constantianorum,Dux Pannoniae,Occidentis
+PC000148,PLC00090,Burgenas,Praefectus,legionis quintae Ioviae,Dux Pannoniae,Occidentis
+PC000149,PLC00082,Burgentas,,Equites Dalmatae,Dux Pannoniae,Occidentis
+PC000171,PLC00103,Caput Basensis,Tribunus,cohortis primae Thracum civium Romanorum,Dux Pannoniae,Occidentis
+PC000213,PLC00086,contra Bononiam in barbarico in castello Onagrino,,Auxilia Augustensia,Dux Pannoniae,Occidentis
+PC000219,PLC00067,Cornacii,,Cuneus equitum scutariorum,Dux Pannoniae,Occidentis
+PC000220,PLC00076,Cornaco,,Equites Dalmatae,Dux Pannoniae,Occidentis
+PC000224,PLC00070,Cuccis,,Cuneus equitum promotorum,Dux Pannoniae,Occidentis
+PC000225,PLC00077,Cuccis,,Equites sagittarii,Dux Pannoniae,Occidentis
+PC000231,PLC00079,Cusi,,Equites Dalmatae,Dux Pannoniae,Occidentis
+PC000286,PLC00095,Graio,Praefectus,classis secundae Flaviae,Dux Pannoniae,Occidentis
+PC000328,PLC00102,Leonatae,Tribunus,cohortis primae Ioviae,Dux Pannoniae,Occidentis
+PC000372,PLC00096,Mursae,Praefectus,classis Histricae,Dux Pannoniae,Occidentis
+PC000393,PLC00073,Novas,,Equites Dalmatae,Dux Pannoniae,Occidentis
+PC000468,PLC00081,Ricti,,Equites Dalmatae,Dux Pannoniae,Occidentis
+PC000494,PLC00072,Secundarum,,Cuneus equitum Italicianorum,Dux Pannoniae,Occidentis
+PC000499,PLC00099,Seruitii,Praefectus,classis primae Pannonicae,Dux Pannoniae,Occidentis
+PC000511,PLC00098,Sirmi,,Ala Sirmensis,Dux Pannoniae,Occidentis
+PC000512,PLC00094,Sirmi,Praefectus,classis primae Flaviae Augustae,Dux Pannoniae,Occidentis
+PC000513,PLC00093,Sirmi,Praefectus,militum Calcariensium,Dux Pannoniae,Occidentis
+PC000514,PLC00101,Sisciae,Tribunus,cohortis tertiae Alpinorum,Dux Pannoniae,Occidentis
+PC000538,PLC00083,Tauruno,,Equites promoti,Dux Pannoniae,Occidentis
+PC000539,PLC00088,Tauruno siue Marsonia,,Auxilia ascarii,Dux Pannoniae,Occidentis
+PC000545,PLC00075,Teutibarcio,,Equites promoti,Dux Pannoniae,Occidentis
+PC000546,PLC00068,Teutiborgio,,Cuneus equitum Dalmatarum,Dux Pannoniae,Occidentis
+PC000547,PLC00091,Teutiborgio,Praefectus,legionis sextae Herculeae,Dux Pannoniae,Occidentis
+PC000015,PLC00152,Ad Herculem,,Equites Dalmatae,Dux Pannoniae primae,Occidentis
+PC000018,PLC00161,Ad Mauros,,Equites promoti,Dux Pannoniae primae,Occidentis
+PC000024,PLC00170,Adiuuense,Praefectus,legionis primae Noricorum militum liburnariorum cohortis Quintae partis superioris,Dux Pannoniae primae,Occidentis
+PC000034,PLC00151,Aequinoctoiae,,Equites Dalmatae,Dux Pannoniae primae,Occidentis
+PC000041,PLC00150,Ala Nova,,Equites Dalmatae,Dux Pannoniae primae,Occidentis
+PC000091,PLC00164,Arlape,,Equites Dalmatae,Dux Pannoniae primae,Occidentis
+PC000092,PLC00147,Arrabonae,,Cuneus equitum stablesianorum,Dux Pannoniae primae,Occidentis
+PC000093,PLC00148,Arrabonae,,Equites promoti,Dux Pannoniae primae,Occidentis
+PC000094,PLC00158,Arrabonae,Praefectus,legionis decimae et quartaedecimaegeminae geminarum militum liburnariorum,Dux Pannoniae primae,Occidentis
+PC000095,PLC00160,Arrianis,Tribunus,cohortis,Dux Pannoniae primae,Occidentis
+PC000096,PLC00159,Arrunto siue Vindomanae,Praefectus,classis Histricae,Dux Pannoniae primae,Occidentis
+PC000110,PLC00165,Augustianis,,Equites Dalmatae,Dux Pannoniae primae,Occidentis
+PC000113,PLC00173,Austuris,Tribunus,cohortis,Dux Pannoniae primae,Occidentis
+PC000137,PLC00172,Boiodoro,Tribunus,cohortis,Dux Pannoniae primae,Occidentis
+PC000169,PLC00174,Cannabiaca,Tribunus,cohortis,Dux Pannoniae primae,Occidentis
+PC000174,PLC00157,Carnunto,Praefectus,legionis quartaedecimaegeminae militum liburnariorum cohortis quintae partis superior,Dux Pannoniae primae,Occidentis
+PC000198,PLC00166,Comagenis,,Equites promoti,Dux Pannoniae primae,Occidentis
+PC000263,PLC00171,Fafianae,Praefectus,legionis liburnariorum primorum Noricorum,Dux Pannoniae primae,Occidentis
+PC000268,PLC00146,Flexo,,Cuneus equitum Dalmatarum,Dux Pannoniae primae,Occidentis
+PC000269,PLC00154,Flexo,,Equites promoti,Dux Pannoniae primae,Occidentis
+PC000283,PLC00153,Gerolate,,Equites sagittarii,Dux Pannoniae primae,Occidentis
+PC000310,PLC00167,Ioviaco,Praefectus,legionis secundae Italicae militum liburnariorum,Dux Pannoniae primae,Occidentis
+PC000315,PLC00163,Lacufelicis,,Equites sagittarii,Dux Pannoniae primae,Occidentis
+PC000322,PLC00169,Lauriaco,Praefectus,legionis secundae Italicae,Dux Pannoniae primae,Occidentis
+PC000326,PLC00162,Lentiae,,Equites sagittarii,Dux Pannoniae primae,Occidentis
+PC000327,PLC00168,Lentiae,Praefectus,legionis secundae Italicae partis inferioris,Dux Pannoniae primae,Occidentis
+PC000452,PLC00155,Quadrato,,Equites Mauri,Dux Pannoniae primae,Occidentis
+PC000454,PLC00149,Quadriburgio,,Equites sagittarii,Dux Pannoniae primae,Occidentis
+PC000613,PLC00156,Vindomarae,Praefectus,legionis decimae geminae,Dux Pannoniae primae,Occidentis
+PC000004,PLC00186,Abusina,Tribunus,cohortis tertiae Brittorum,Dux Raetiae,Occidentis
+PC000087,PLC00195,Arbore,Tribunus,cohortis Herculeae Pannoniorum,Dux Raetiae,Occidentis
+PC000109,PLC00175,Augustanis,,Equites stablesiani seniores,Dux Raetiae,Occidentis
+PC000124,PLC00185,Batavis,Tribunus,cohortis novae Batavorum,Dux Raetiae,Occidentis
+PC000157,PLC00191,Caelio,Tribunus,cohortis tertiae Herculeae Pannoniorum,Dux Raetiae,Occidentis
+PC000166,PLC00180,Cambidano,Praefectus,legionis tertiae Italicae pro parte media praetendentis a Vimania Cassiliacum usque,Dux Raetiae,Occidentis
+PC000203,PLC00193,Confluentibus siue Brecantia,Praefectus,numeri barbaricariorum,Dux Raetiae,Occidentis
+PC000262,PLC00196,ex utrisque officiis praesentalibus singulos,,Numerarios duos,Dux Raetiae,Occidentis
+PC000274,PLC00182,Foetibus,Praefectus,legionis tertiae Italicae transvectioni specierum deputatae,Dux Raetiae,Occidentis
+PC000291,PLC00181,Guntiae,Praefectus,militum Ursariensium,Dux Raetiae,Occidentis
+PC000396,PLC00176,nunc Febians,,"Equites stablesiani iuniores, Ponte Aoni",Dux Raetiae,Occidentis
+PC000398,PLC00178,nunc Vallato,Praefectus,"legionis tertiae Italicae partis superioris, Castra Regina",Dux Raetiae,Occidentis
+PC000430,PLC00189,Parroduno,Tribunus,cohortis primae Herculeae Raetorum,Dux Raetiae,Occidentis
+PC000440,PLC00190,Pinianis,Tribunus,cohortis quintae Valeriae Frygum,Dux Raetiae,Occidentis
+PC000455,PLC00184,Quintanis,Praefectus,alae primae Flaviae Raetorum,Dux Raetiae,Occidentis
+PC000521,PLC00177,Submuntorio,,Equites stablesiani iuniores,Dux Raetiae,Occidentis
+PC000522,PLC00179,Submuntorio,Praefectus,legionis tertiae Italicae partis superioris deputatae ripae primae,Dux Raetiae,Occidentis
+PC000544,PLC00183,Teriolis,Praefectus,legionis tertiae Italicae transvectioni specierum deputatae,Dux Raetiae,Occidentis
+PC000543,PLC00192,Teriolis,Tribunus,gentis per Raetias deputatae,Dux Raetiae,Occidentis
+PC000589,PLC00187,Vallatio,Praefectus,alae secundae Valeriae singularis,Dux Raetiae,Occidentis
+PC000595,PLC00188,Venaxamodorum,Tribunus,cohortis sextae Valeriaae Raetorum,Dux Raetiae,Occidentis
+PC000607,PLC00194,Vimania,Praefectus,alae secundae Valeriae Sequanorum,Dux Raetiae,Occidentis
+PC000508,PLC00066,singulos ex officiis suprascriptis,,Numerarios duos,Dux et praeses provinciae Mauritaniae,Occidentis
+PC000411,PLC00197,Olitione,,Milites Latavienses,Dux provinciae Sequanici,Occidentis
+PC000011,PLC00134,Acinco,Praefectus,legionis secundae adiutricis partis superioris,Dux provinciae Valeriae,Occidentis
+PC000012,PLC00142,ad burgum Centenarium,Tribunus,cohortis,Dux provinciae Valeriae,Occidentis
+PC000016,PLC00126,Ad Herculem,,Auxilia Herculensia,Dux provinciae Valeriae,Occidentis
+PC000017,PLC00112,Ad Herculem,,Equites Dalmatae,Dux provinciae Valeriae,Occidentis
+PC000019,PLC00125,Ad Militare,,Equites Flavianenses,Dux provinciae Valeriae,Occidentis
+PC000021,PLC00122,Ad Statuas,,Equites Dalmatae,Dux provinciae Valeriae,Occidentis
+PC000026,PLC00119,Adnamantia,,Equites Dalmatae,Dux provinciae Valeriae,Occidentis
+PC000044,PLC00143,Alesacae,Tribunus,cohortis,Dux provinciae Valeriae,Occidentis
+PC000050,PLC00132,Aliscae,Praefectus,legionis secundae adiutricis cohortis quintae partis superioris,Dux provinciae Valeriae,Occidentis
+PC000058,PLC00108,Altino,,Cuneus equitum Fortensium,Dux provinciae Valeriae,Occidentis
+PC000145,PLC00131,Bregtione,Praefectus,legionis primae adiutricis cohortis quintae partis superioris,Dux provinciae Valeriae,Occidentis
+PC000167,PLC00115,Campona,,Equites Dalmatae,Dux provinciae Valeriae,Occidentis
+PC000172,PLC00130,Cardabiaca,,Auxilia insidiatorum,Dux provinciae Valeriae,Occidentis
+PC000194,PLC00129,Cirpe,,Auxilia Fortensia,Dux provinciae Valeriae,Occidentis
+PC000195,PLC00113,Cirpi,,Equites Dalmatae,Dux provinciae Valeriae,Occidentis
+PC000196,PLC00136,Cirpi,Praefectus,legionis secundae adiutricis,Dux provinciae Valeriae,Occidentis
+PC000207,PLC00114,Constantiae,,Equites Dalmatae,Dux provinciae Valeriae,Occidentis
+PC000211,PLC00128,contra Acinco in barbarico,,Auxilia vigilum,Dux provinciae Valeriae,Occidentis
+PC000223,PLC00110,Crumero,,Equites promoti,Dux provinciae Valeriae,Occidentis
+PC000270,PLC00123,Florentiae,,Equites Dalmatae,Dux provinciae Valeriae,Occidentis
+PC000271,PLC00138,Florentiae,Praefectus,classis Histricae,Dux provinciae Valeriae,Occidentis
+PC000272,PLC00133,Florentiae,Praefectus,legionis secundae adiutricis partis inferioris,Dux provinciae Valeriae,Occidentis
+PC000307,PLC00105,Intercisa,,Cuneus equitum Dalmatarum,Dux provinciae Valeriae,Occidentis
+PC000308,PLC00118,Intercisa,,Equites sagittarii,Dux provinciae Valeriae,Occidentis
+PC000309,PLC00141,Iovia,Tribunus,cohortis,Dux provinciae Valeriae,Occidentis
+PC000337,PLC00120,Lussonio,,Equites Dalmatae,Dux provinciae Valeriae,Occidentis
+PC000338,PLC00137,Lussonio,Praefectus,legionis secundae adiutricis,Dux provinciae Valeriae,Occidentis
+PC000349,PLC00144,Marinanae,Tribunus,cohortis,Dux provinciae Valeriae,Occidentis
+PC000352,PLC00116,Matrice,,Equites promoti,Dux provinciae Valeriae,Occidentis
+PC000399,PLC00127,nune Ad Statuas,,"Auxilia Ursarensia, Pone Navata",Dux provinciae Valeriae,Occidentis
+PC000400,PLC00107,nune Conradcuha,,"Cuneus equitum stablesianorum, Ripa Alta",Dux provinciae Valeriae,Occidentis
+PC000401,PLC00124,nune in burgo contra Florentiam,,"Equites sagittarii, Altino",Dux provinciae Valeriae,Occidentis
+PC000402,PLC00106,nune Intercisa,,"Cuneus equitum Constantianorum, Lusionio",Dux provinciae Valeriae,Occidentis
+PC000407,PLC00109,Odiabo,,Equites Dalmatae,Dux provinciae Valeriae,Occidentis
+PC000453,PLC00140,quadriborgio,Tribunus,cohortis,Dux provinciae Valeriae,Occidentis
+PC000470,PLC00121,Ripa Alta,,Equites Dalmatae,Dux provinciae Valeriae,Occidentis
+PC000516,PLC00111,Solua,,Equites Mauri,Dux provinciae Valeriae,Occidentis
+PC000517,PLC00104,Solue,,Cuneus equitum scutatorum,Dux provinciae Valeriae,Occidentis
+PC000570,PLC00145,Transiacinco,Praefectus,legionis,Dux provinciae Valeriae,Occidentis
+PC000604,PLC00117,Vetusalinae,,Equites Dalmatae,Dux provinciae Valeriae,Occidentis
+PC000610,PLC00139,Vincentiae,Tribunus,cohortis,Dux provinciae Valeriae,Occidentis
+PC000003,PLC00206,Abrincatis,Praefectus,militum Dalmatarum,Dux tractus Armoricani,Occidentis
+PC000045,PLC00203,Aleto,Praefectus,militum Martensium,Dux tractus Armoricani,Occidentis
+PC000127,PLC00200,Benetis,Praefectus,militum Maurorum Benetorum,Dux tractus Armoricani,Occidentis
+PC000135,PLC00199,Blabia,Praefectus,militum Carronensium,Dux tractus Armoricani,Occidentis
+PC000206,PLC00204,Constantia,Praefectus,militum primae Flaviae,Dux tractus Armoricani,Occidentis
+PC000287,PLC00198,Grannona in litore Saxonico,Tribunus,cohortis primae novae Armoricanae,Dux tractus Armoricani,Occidentis
+PC000288,PLC00207,Grannono,Praefectus,militum Grannonensium,Dux tractus Armoricani,Occidentis
+PC000343,PLC00202,Mannatias,Praefectus,militum superventorum,Dux tractus Armoricani,Occidentis
+PC000418,PLC00201,Osismis,Praefectus,militum Maurorum Osismiacorum,Dux tractus Armoricani,Occidentis
+PC000474,PLC00205,Rotomago,Praefectus,militum Ursariensium,Dux tractus Armoricani,Occidentis
+PC000185,PLC00042,ceteros etiam palatinos,,"Secunicerium totius officii, qui tractat chartas officii",Insignia viri illustris comitis privatarum,Occidentis
+PC000037,PLC00025,Africae,,Procurator gynaecii Carthagiensis,Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000082,PLC00024,Apuliae,,Procurator gynaecii Canusini et Venusini,Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000125,PLC00028,Belgicae primae,,Procurator gynaecii Triberorum,Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000126,PLC00027,Belgicae secundae,,Procurator gynaecii Remensis,Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000161,PLC00031,Calabriae,,Procurator bafii Tarentini,Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000233,PLC00032,Dalmatiae,,Procurator bafii Salonitani,Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000234,PLC00014,Dalmatiae,Praepositus,thesaurorum Salonitanorum,Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000235,PLC00011,Dalmatiae et Saviae,,Rationalis summarum Pannoniae secundae,Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000279,PLC00037,Galliarum,,Procurator bafii Telonensis,Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000280,PLC00029,Galliarum,,Procurator linyfii Viennensis,Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000313,PLC00030,Italiae,,Procurator linyfii Ravennatis,Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000331,PLC00023,Liguriae,,Procurator gynaecii Mediolanensis,Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000332,PLC00018,Liguriae,Praepositus,thesaurorum Mediolanensium,Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000386,PLC00012,Norici mediterranei et ripensis,,"Rationalis summarum Pannoniae prima, Valeriae",Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000425,PLC00016,Pannoniae primae,Praepositus,thesaurorum Sabariensium,Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000426,PLC00021,Pannoniae secundae,,Procurator gynaecii Sirmensis,Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000427,PLC00020,Pannoniae secundae - translati Salonis,,Procurator gynaecii Bassianensis,Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000456,PLC00019,Raetiae secundae,Praepositus,thesaurorum Augustae Vindelicensis,Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000485,PLC00013,Saradiniae et Corsicae,,"Rationalis summarum Trum provinciarum, id est Siciliae",Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000488,PLC00015,Saviae,Praepositus,thesaurorum Siscianorum,Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000502,PLC00034,Siciliae,,Procurator bafii Syracusani,Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000596,PLC00017,Venetiae,Praepositus,thesaurorum Aquileiensium,Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000597,PLC00033,Venetiae et Histriae,,Procurator bafii Cissensis,Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000598,PLC00022,Venetiae inferioris,,Procurator gynaecii Aquileiensis,Insignia viri illustris comitis sacrarum largitionum,Occidentis
+PC000120,PLC00010,balistaria et clibanaria,,Augustodunensis loricaria,Insignia viri illustris magistri officiorum,Occidentis
+PC000013,PLC00273,ad cohortem Gallicam,Tribunus,cohortis secundae Gallicae,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000083,PLC00259,Aquileiae,Praefectus,classis Venetum,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000084,PLC00294,Aquis siue Tertona,Praefectus,Sarmatarum gentilium,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000099,PLC00287,Arumbernos Aquitanicae primae,Praefectus,laetorum gentilium Suevorum,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000104,PLC00283,Atrabatis Belgicae secundae,Praefectus,laetorum Batavorum Nemetacensium,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000105,PLC00306,Au.....,Praefectus,Sarmatarum gentilium,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000119,PLC00278,Baiocas et Constantiae Lugdunensis secundae,Praefectus,laetorum Batavorum et gentilium Sueuorum,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000140,PLC00298,Bononiae in Aemilia,Praefectus,Sarmatarum gentilium,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000156,PLC00269,Caballoduno,Praefectus,classis Araricae,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000164,PLC00267,Calaronae,Tribunus,cohortis primae Flaviae Sapaudicae,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000173,PLC00277,Carnunta Senoniae Lugdunensis,Praefectus,laetorum Teutonicianorum,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000199,PLC00262,Como,Praefectus,classis Comensis cum curis eiusdem civitatis,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000221,PLC00292,Cremonae,Praefectus,Sarmatarum gentilium,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000258,PLC00265,Ebruduni Sapaudiae,Praefectus,classis barcariorum,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000260,PLC00281,Epuso Belgicae primae,Praefectus,laetorum Actorum,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000264,PLC00282,Fanomantis Belgicae secundae,Praefectus,laetorum Neruiorum,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000275,PLC00288,Foro Fuluiensi,Praefectus,Sarmatarum gentilium,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000305,PLC00303,inter Renos et Tambianos provinciae Belgicae secundae,Praefectus,Sarmatarum gentilium,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000318,PLC00268,Lapurdo,Tribunus,cohortis Noevempopulanae,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000324,PLC00271,Legione,Praefectus,legionis septimae geminae,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000333,PLC00305,Lingonas,Praefectus,Sarmatarum gentilium,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000335,PLC00274,Luco,Tribunus,cohortis Lucensis,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000351,PLC00266,Massiliae Graecorum,Praefectus,militum musculariorum,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000364,PLC00263,Miseno,Praefectus,classis Misenatium,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000392,PLC00295,Novariae,Praefectus,Sarmatarum gentilium,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000394,PLC00284,Noviomago Belgicae secundae,Praefectus,laetorum Batavorum Contraginnensium,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000397,PLC00275,nunc Iuliobriga,Tribunus,"cohortis Celtiberae, Brigantiae",Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000415,PLC00289,Opittergii,Praefectus,Sarmatarum gentilium,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000422,PLC00272,Paetaonio,Tribunus,cohortis secundae Flaviae Pacatianae,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000429,PLC00270,Parisius,Praefectus,classis Anderetianorum,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000431,PLC00290,Patauio,Praefectus,Sarmatarum gentilium,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000434,PLC00304,per tractum Rodunensem et Alaunorum,Praefectus,Sarmatarum gentilium,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000437,PLC00301,Pictavis,Praefectus,Sarmatarum et Taifalorum gentilium,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000451,PLC00299,Quadratis et Eporizio,Praefectus,Sarmatarum gentilium,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000459,PLC00261,Ravennae,Praefectus,classis Ravennatium cum curis eiusdem civitatis,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000460,PLC00260,Ravennae,Praefectus,militum iuniorum Italicorum,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000461,PLC00280,Redonas Lugdensis tertiae,Praefectus,laetorum Francorum,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000462,PLC00297,Regionis Samnitis,Praefectus,Sarmatarum gentilium,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000464,PLC00285,Remo et Silvanectas Belgicae secundae,Praefectus,laetorum gentilium,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000537,PLC00293,Taurinis,Praefectus,Sarmatarum gentilium,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000594,PLC00276,Veleia,Tribunus,cohortis primae Gallicae,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000600,PLC00296,Vercellis,Praefectus,Sarmatarum gentilium,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000606,PLC00264,Viennae siue Arelati,Praefectus,classis fluminis Rhodani,Item praepositurae magistri militum praesentalis a parte peditum,Occidentis
+PC000046,PLC00004,ali a parte equitum,,"Princeps ex officiis magistrorum militum praesentalium, uno anno a parte peditum",Qui numeri ex praedictis per infrascriptas provincias habeantur:,Occidentis
+PC000052,PLC00003,also found in Italia or in Tingitania.],,"Septimani iuniores.[same as Septimani, or Septimani iuniores, a legiones comitatenses",Qui numeri ex praedictis per infrascriptas provincias habeantur:,Occidentis
+PC000053,PLC00008,also in Gallia?],,Equites Taifali.[same as Equ. Hon. Taifali iun,Qui numeri ex praedictis per infrascriptas provincias habeantur:,Occidentis
+PC000054,PLC00001,also in Gallia?],,Valentinianenses.[same as Valentinianenses iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:,Occidentis
+PC000055,PLC00002,also in Illyria?],,Valentinianenses.[same as Valentinianenses iuniores,Qui numeri ex praedictis per infrascriptas provincias habeantur:,Occidentis
+PC000154,PLC00006,but might be iuniores.],,Equites cornuti seniores.[also in Gallia,Qui numeri ex praedictis per infrascriptas provincias habeantur:,Occidentis
+PC000155,PLC00007,but might be iuniores.],,Equites cornuti seniores.[also in Italia,Qui numeri ex praedictis per infrascriptas provincias habeantur:,Occidentis
+PC000036,PLC00373,Affrodito,,Cohors quarta Iuthungorum,Comes limitis Aegypti,Oriens
+PC000040,PLC00374,Aiy,,Cohors secunda Ituraeorum,Comes limitis Aegypti,Oriens
+PC000067,PLC00352,Andro,,Legio tertia Diocletiana,Comes limitis Aegypti,Oriens
+PC000118,PLC00349,Babilona,,Legio tertiadecima gemina,Comes limitis Aegypti,Oriens
+PC000153,PLC00367,Busiris,,Cohors secunda Astarum,Comes limitis Aegypti,Oriens
+PC000179,PLC00372,Castra Iudaeorum,,Cohors prima Epireorum,Comes limitis Aegypti,Oriens
+PC000184,PLC00366,Cefro,,Cohors tertia Galatarum,Comes limitis Aegypti,Oriens
+PC000244,PLC00365,Dionisiada,,Ala quinta Praelectorum,Comes limitis Aegypti,Oriens
+PC000299,PLC00363,Hipponos,,Ala Apriana,Comes limitis Aegypti,Oriens
+PC000361,PLC00348,Memfi,,Legio quinta Macadonica,Comes limitis Aegypti,Oriens
+PC000373,PLC00375,Muson,,Cohors secunda Thracum,Comes limitis Aegypti,Oriens
+PC000376,PLC00370,Naithu,,Cohors prima sagittariorum,Comes limitis Aegypti,Oriens
+PC000377,PLC00376,Narmunthi,,Cohors quarta Numidarum,Comes limitis Aegypti,Oriens
+PC000379,PLC00356,Nee,,Ala octava Vandilorum,Comes limitis Aegypti,Oriens
+PC000404,PLC00354,Oasi minore,,Ala secunda Armeniorum,Comes limitis Aegypti,Oriens
+PC000428,PLC00353,Parembole,,Legio secunda Traiana,Comes limitis Aegypti,Oriens
+PC000433,PLC00350,Pelusio,,Equites stablesiani,Comes limitis Aegypti,Oriens
+PC000469,PLC00359,Rinocoruna,,Ala veterana Gallorum,Comes limitis Aegypti,Oriens
+PC000489,PLC00360,Scenas extra Gerasa,,Ala prima Herculia,Comes limitis Aegypti,Oriens
+PC000490,PLC00357,Scenas Mandrorum,,Ala septima Sarmatarum,Comes limitis Aegypti,Oriens
+PC000491,PLC00351,Scenas Ueteranorum,,Equites Saraceni Thamudeni,Comes limitis Aegypti,Oriens
+PC000492,PLC00361,Scenas Veteranorum,,Ala quinta Raetorum,Comes limitis Aegypti,Oriens
+PC000497,PLC00358,Selle,,Ala prima Aegyptiorum,Comes limitis Aegypti,Oriens
+PC000518,PLC00364,Sosteos,,Ala secunda Assyriorum,Comes limitis Aegypti,Oriens
+PC000531,PLC00369,Tacasiria,,Ala secunda Aegyptiorum,Comes limitis Aegypti,Oriens
+PC000552,PLC00368,Thaubasteos,,Ala secunda Ulpia Afrorum,Comes limitis Aegypti,Oriens
+PC000555,PLC00355,Thenenuthi,,Ala tertia Arabum,Comes limitis Aegypti,Oriens
+PC000562,PLC00362,Thinunepis,,Ala prima Tingitana,Comes limitis Aegypti,Oriens
+PC000564,PLC00371,Tohu,,Cohors prima Augusta Pannoniorum,Comes limitis Aegypti,Oriens
+PC000027,PLC00545,Adtitha,,Cohors prima miliaria Thracum,Dux Arabiae,Oriens
+PC000077,PLC00544,apud Adittha,,Ala secunda felix Valentiniana,Dux Arabiae,Oriens
+PC000078,PLC00549,apud Arnona,,Cohors tertia Alpinorum,Dux Arabiae,Oriens
+PC000089,PLC00532,Areopoli,,Equites Mauri Illyriciani,Dux Arabiae,Oriens
+PC000100,PLC00546,Asabaia,,Cohors prima Thracum,Dux Arabiae,Oriens
+PC000106,PLC00539,Auatha,,Ala nona miliaria,Dux Arabiae,Oriens
+PC000131,PLC00537,Betthoro,Praefectus,legionis quartae Martiae,Dux Arabiae,Oriens
+PC000143,PLC00536,Bostra,Praefectus,legionis tertiae Cyrenaicae,Dux Arabiae,Oriens
+PC000241,PLC00538,Dia - Fenis,,Equites sagittarii indigenae,Dux Arabiae,Oriens
+PC000278,PLC00535,Gadda,,Equites sagittari indigenae,Dux Arabiae,Oriens
+PC000285,PLC00540,Gomoha,,Ala sexta Hispanorum,Dux Arabiae,Oriens
+PC000302,PLC00548,in ripa Vade Afaris Fluvii in castris Arnonensibus,,Cohors tertia felix Arabum,Dux Arabiae,Oriens
+PC000329,PLC00541,Libona,,Ala secunda Constantiana,Dux Arabiae,Oriens
+PC000358,PLC00534,Mefa,,Equites promoti indigenae,Dux Arabiae,Oriens
+PC000371,PLC00529,Motha,,Equites scutarii Illyriciani,Dux Arabiae,Oriens
+PC000375,PLC00542,Naarsafari,,Ala secunda Miliarensis,Dux Arabiae,Oriens
+PC000519,PLC00533,Speluncis,,Equites promoti indigenae,Dux Arabiae,Oriens
+PC000548,PLC00543,Thainatha,,Ala prima Valentiana,Dux Arabiae,Oriens
+PC000576,PLC00530,Tricomia,,Equites promoti Illyriciani,Dux Arabiae,Oriens
+PC000584,PLC00547,Ualtha,,Cohors octava voluntaria,Dux Arabiae,Oriens
+PC000618,PLC00531,Ziza,,Equites Dalmatae Illyriciani,Dux Arabiae,Oriens
+PC000033,PLC00561,Aeliana,,Ala secunda Gallorum,Dux Armeniae,Oriens
+PC000042,PLC00555,Aladaleariza,,Ala Rizena,Dux Armeniae,Oriens
+PC000064,PLC00563,Analiba,,Cohors quarta Raetorum,Dux Armeniae,Oriens
+PC000079,PLC00556,apud Auaxam,,Ala Theodosiana,Dux Armeniae,Oriens
+PC000085,PLC00564,Arauraca,,Cohors miliaria Bosporiana,Dux Armeniae,Oriens
+PC000158,PLC00570,Caene - Parembole,,Cohors prima Lepidiana,Dux Armeniae,Oriens
+PC000186,PLC00566,Chaszanenica,,Ala prima Iovia felix,Dux Armeniae,Oriens
+PC000189,PLC00558,Chiaca,,Ala prima Augusta Colonorum,Dux Armeniae,Oriens
+PC000239,PLC00559,Dascusa,,Ala Auriana,Dux Armeniae,Oriens
+PC000248,PLC00551,Domana,,Equites sagittarii,Dux Armeniae,Oriens
+PC000360,PLC00553,Melitena,Praefectus,legionis duodecimae fulminatae,Dux Armeniae,Oriens
+PC000363,PLC00562,Metita,,Cohors tertia Ulpia miliaria Petraeorum,Dux Armeniae,Oriens
+PC000366,PLC00573,Mochora,,Cohors,Dux Armeniae,Oriens
+PC000441,PLC00567,Pithiae,,Ala prima felix Theodosiana,Dux Armeniae,Oriens
+PC000477,PLC00550,Sabbu,,Equites sagittarii,Dux Armeniae,Oriens
+PC000487,PLC00552,Satala,Praefectus,legionis quintadecimae Apollinaris,Dux Armeniae,Oriens
+PC000493,PLC00571,Sebastopolis,,Cohors prima Claudia equitata,Dux Armeniae,Oriens
+PC000504,PLC00557,Siluanis,,Ala felix Theodosiana,Dux Armeniae,Oriens
+PC000515,PLC00565,Sisila,,Cohors miliaria Germanorum,Dux Armeniae,Oriens
+PC000526,PLC00560,Suissa,,Ala prima Ulpia Dacorum,Dux Armeniae,Oriens
+PC000575,PLC00554,Trapezunta,Praefectus,legionis primae Ponticae,Dux Armeniae,Oriens
+PC000588,PLC00568,Valentia,,Cohors prima Theodosiana,Dux Armeniae,Oriens
+PC000615,PLC00569,Ysiporto,,Cohors Apuleia civium Romanorum,Dux Armeniae,Oriens
+PC000617,PLC00572,Ziganne,,Cohors secunda Valentiana,Dux Armeniae,Oriens
+PC000028,PLC00669,Aegeta,Praefectus,legionis tertiaedecimae geminae,Dux Daciae ripensis,Oriens
+PC000029,PLC00657,Aegetae,,Cuneus equitum scutariorum,Dux Daciae ripensis,Oriens
+PC000030,PLC00676,Aegetae,Praefectus,classis Histricae,Dux Daciae ripensis,Oriens
+PC000051,PLC00656,Almo,,Cuneus equitum stablesianorum,Dux Daciae ripensis,Oriens
+PC000108,PLC00654,Augustae,,Cuneus equitum Dalmatarum,Dux Daciae ripensis,Oriens
+PC000138,PLC00650,Bononia,,Cuneus equitum Dalmatarum Fortensium,Dux Daciae ripensis,Oriens
+PC000150,PLC00671,Burgo Novo,Praefectus,legionis tertiaedecimae geminae,Dux Daciae ripensis,Oriens
+PC000152,PLC00664,Burgo Zono,,Auxilium secundorum Daciscorum,Dux Daciae ripensis,Oriens
+PC000181,PLC00652,Cebro,,Cuneus equitum scutariorum,Dux Daciae ripensis,Oriens
+PC000182,PLC00667,Cebro,Praefectus,legionis quintae Macedonicae,Dux Daciae ripensis,Oriens
+PC000222,PLC00661,Crispitia,,Auxilium Crispitiense,Dux Daciae ripensis,Oriens
+PC000249,PLC00651,Dortico,,Cuneus equitum Dalmatarum Divitensium,Dux Daciae ripensis,Oriens
+PC000251,PLC00660,Drobeta,,Auxilium primorum Daciscorum,Dux Daciae ripensis,Oriens
+PC000252,PLC00653,Drobeta,,Cuneus equitum Dalmatarum Divitensium,Dux Daciae ripensis,Oriens
+PC000408,PLC00662,Oesco,,Auxilium Mariensium,Dux Daciae ripensis,Oriens
+PC000409,PLC00668,Oesco,Praefectus,legionis quintae Macedonicae,Dux Daciae ripensis,Oriens
+PC000458,PLC00673,Ratiaria,Praefectus,legionis tertiaedecimae geminae,Dux Daciae ripensis,Oriens
+PC000510,PLC00675,Siosta,Tribunus,cohortis secundorum reducum,Dux Daciae ripensis,Oriens
+PC000523,PLC00674,Sucidaua,Praefectus,legionis quintae Macedonicae,Dux Daciae ripensis,Oriens
+PC000567,PLC00659,Transalba,,Auxilium Miliarensium,Dux Daciae ripensis,Oriens
+PC000568,PLC00665,Transdiernis,Praefectus,militum exploratorum,Dux Daciae ripensis,Oriens
+PC000569,PLC00670,Transdrobeta,Praefectus,legionis tertiaedecimae geminae,Dux Daciae ripensis,Oriens
+PC000571,PLC00663,Transluco,,Auxilium Claustrinorum,Dux Daciae ripensis,Oriens
+PC000586,PLC00658,Uto,,Cuneus equitum Constantinianorum,Dux Daciae ripensis,Oriens
+PC000592,PLC00655,Varina,,Cuneus equitum Dalmatarum,Dux Daciae ripensis,Oriens
+PC000593,PLC00666,Variniana,Praefectus,legionis quintae Macedonicae,Dux Daciae ripensis,Oriens
+PC000616,PLC00672,Zernis,Praefectus,legionis tertiaedecimae geminae,Dux Daciae ripensis,Oriens
+PC000002,PLC00426,Abina,,Equites sagittarii indigenae,Dux Foenicis,Oriens
+PC000023,PLC00431,Adatha,,Equites sagittarii indigenae,Dux Foenicis,Oriens
+PC000088,PLC00440,Arefa,,Ala secunda Salutis,Dux Foenicis,Oriens
+PC000107,PLC00424,Auatha,,Equites promoto indigenae,Dux Foenicis,Oriens
+PC000130,PLC00429,Betproclis,,Equites Saraceni indigenae,Dux Foenicis,Oriens
+PC000162,PLC00428,Calamona,,Equites sagittarii indigenae,Dux Foenicis,Oriens
+PC000178,PLC00427,Casama,,Equites sagittarii indigenae,Dux Foenicis,Oriens
+PC000226,PLC00436,Cunna,,Ala prima Francorum,Dux Foenicis,Oriens
+PC000237,PLC00433,Danaba,Praefectus,legionis tertiae Gallicae,Dux Foenicis,Oriens
+PC000261,PLC00421,Euhari,,Equites scutarii Illyriciani,Dux Foenicis,Oriens
+PC000319,PLC00423,Lataui,,Equites Dalmatae Illyriciani,Dux Foenicis,Oriens
+PC000369,PLC00434,Monte Iovis,,Ala prima Damascena,Dux Foenicis,Oriens
+PC000378,PLC00425,Nazala,,Equites promoti indigenae,Dux Foenicis,Oriens
+PC000380,PLC00437,Neia,,Ala prima Alamannorum,Dux Foenicis,Oriens
+PC000413,PLC00442,Oneuatha,,Cohors quinta pacta Alamannorum,Dux Foenicis,Oriens
+PC000420,PLC00420,Otthara,,Equites Mauri Illyriciani,Dux Foenicis,Oriens
+PC000423,PLC00432,Palmira,Praefectus,legionis primae Illyricorum,Dux Foenicis,Oriens
+PC000465,PLC00439,Rene,,Ala prima Foenicum,Dux Foenicis,Oriens
+PC000483,PLC00422,Saltatha,,Equites promoti indigenae,Dux Foenicis,Oriens
+PC000549,PLC00445,Thama,,Cohors prima Orientalis,Dux Foenicis,Oriens
+PC000554,PLC00430,Thelsee,,Equites Saraceni,Dux Foenicis,Oriens
+PC000587,PLC00443,Vale Alba,,Cohors prima Iulia lectorum,Dux Foenicis,Oriens
+PC000590,PLC00444,Valle Diocletiana,,Cohors secunda Aegyptiorum,Dux Foenicis,Oriens
+PC000599,PLC00441,Veranoca,,Cohors tetria Herculia,Dux Foenicis,Oriens
+PC000601,PLC00435,Veriaraca,,Ala noun Diocletiana,Dux Foenicis,Oriens
+PC000602,PLC00438,Verofabula,,Ala prima Saxonum,Dux Foenicis,Oriens
+PC000060,PLC00514,Amidae,,Equites ducatores Illyriciani,Dux Mesopotamiae,Oriens
+PC000061,PLC00512,Amidae,,Equites scutarii Illyriciani,Dux Mesopotamiae,Oriens
+PC000072,PLC00516,Apadna,,Equites promoti indigenae,Dux Mesopotamiae,Oriens
+PC000102,PLC00519,Assara,,Equites scutarii indigenae Pafenses,Dux Mesopotamiae,Oriens
+PC000129,PLC00527,Bethallaha,,Cohors quinquagenaria Arabum,Dux Mesopotamiae,Oriens
+PC000160,PLC00526,Caini,,Ala quintadecima Flavia Carduenorum,Dux Mesopotamiae,Oriens
+PC000176,PLC00524,Cartha,,Ala secunda nova Aegyptiorum,Dux Mesopotamiae,Oriens
+PC000183,PLC00523,Cefae,Praefectus,legionis secundae Parthicae,Dux Mesopotamiae,Oriens
+PC000205,PLC00515,Constantia,,Equites felices Honoriani Illyriciani,Dux Mesopotamiae,Oriens
+PC000208,PLC00517,Constantina,,Equites promoti indigenae,Dux Mesopotamiae,Oriens
+PC000209,PLC00522,Constantina,Praefectus,legionis primae Parthicae Nisibenae,Dux Mesopotamiae,Oriens
+PC000342,PLC00528,Maiocariri,,Cohors quartadecima Valeria Zabdenorum,Dux Mesopotamiae,Oriens
+PC000359,PLC00518,Mefana - Cartha,,Equites sagittarii indigenae Arabanenses,Dux Mesopotamiae,Oriens
+PC000467,PLC00513,Resain - Theodosiopoli,,Equites promoti Illyriciani,Dux Mesopotamiae,Oriens
+PC000471,PLC00525,Ripaltha,,Ala octava Flavia Francorum,Dux Mesopotamiae,Oriens
+PC000551,PLC00521,Thannuri,,Equites sagittarii indigenae,Dux Mesopotamiae,Oriens
+PC000557,PLC00520,Thilbisme,,Equites sagittarii indigenae Thibithenses,Dux Mesopotamiae,Oriens
+PC000020,PLC00634,Ad Novas,,Auxiliares Novenses,Dux Moesiae primae,Oriens
+PC000112,PLC00627,Aureomonto,,Cuneus equtum Dalmatarum,Dux Moesiae primae,Oriens
+PC000215,PLC00642,contra Margum in castris Augustoflavianensibus,Praefectus,militum .....,Dux Moesiae primae,Oriens
+PC000216,PLC00632,contra Reginam,,Auxiliares reginenses,Dux Moesiae primae,Oriens
+PC000227,PLC00636,Cuppis,,Auxilium Cuppense,Dux Moesiae primae,Oriens
+PC000228,PLC00631,Cuppis,,Cuneus equtum Dalmatarum,Dux Moesiae primae,Oriens
+PC000229,PLC00641,Cuppis,Praefectus,legionis septimae Claudiae,Dux Moesiae primae,Oriens
+PC000266,PLC00625,Flaviana,,Cuneus equtum promotorum,Dux Moesiae primae,Oriens
+PC000289,PLC00637,Gratiana,,Auxilium Gratianense,Dux Moesiae primae,Oriens
+PC000316,PLC00645,Laedemata,Praefectus,militum Vincentiensium,Dux Moesiae primae,Oriens
+PC000317,PLC00629,Laedenatae,,Cuneus equtum sagittariorum,Dux Moesiae primae,Oriens
+PC000347,PLC00635,Margo,,Auxilium Margense,Dux Moesiae primae,Oriens
+PC000348,PLC00648,Margo,Praefectus,classis Stradensis et Germensis,Dux Moesiae primae,Oriens
+PC000395,PLC00643,Novis,Praefectus,militum exploratorum,Dux Moesiae primae,Oriens
+PC000438,PLC00624,Pinco,,Cuneus equtum Constantacorum,Dux Moesiae primae,Oriens
+PC000439,PLC00630,Pinco,,Cuneus equtum Dalmatarum,Dux Moesiae primae,Oriens
+PC000506,PLC00640,Singiduno,Praefectus,legionis quartae Flaviae,Dux Moesiae primae,Oriens
+PC000533,PLC00638,Taliata,,Auxilium Taliatense,Dux Moesiae primae,Oriens
+PC000534,PLC00644,Taliatae,Praefectus,militum exploratorum,Dux Moesiae primae,Oriens
+PC000577,PLC00633,Tricornio,,Auxiliares Tricornienses,Dux Moesiae primae,Oriens
+PC000578,PLC00639,Tricornio,,Auxilium Aureomontanum,Dux Moesiae primae,Oriens
+PC000579,PLC00626,Tricornio,,Cuneus equtum sagittariorum,Dux Moesiae primae,Oriens
+PC000608,PLC00628,Viminacio,,Cuneus equtum promotorum,Dux Moesiae primae,Oriens
+PC000609,PLC00647,Viminacio,Praefectus,classis Histricae,Dux Moesiae primae,Oriens
+PC000619,PLC00646,Zmirnae,Praefectus,militum exploratorum,Dux Moesiae primae,Oriens
+PC000057,PLC00613,Altino,,Milites navclarii Altinenses,Dux Moesiae secundae,Oriens
+PC000068,PLC00604,Ansamo,,Milites praeventores,Dux Moesiae secundae,Oriens
+PC000075,PLC00602,Appiaria,,Cuneus equitum scutariorum,Dux Moesiae secundae,Oriens
+PC000076,PLC00607,Appiaria,,Milites tertii navclarii,Dux Moesiae secundae,Oriens
+PC000168,PLC00609,Candidiana,,Milites primi Moesiaci,Dux Moesiae secundae,Oriens
+PC000192,PLC00612,Cimbrianis,,Milites Cimbriani,Dux Moesiae secundae,Oriens
+PC000243,PLC00598,Dimo,,Cuneus equitum Solensium,Dux Moesiae secundae,Oriens
+PC000250,PLC00623,Drasdea,,Cohors tertia Valeria Bacarum,Dux Moesiae secundae,Oriens
+PC000256,PLC00611,Durostoro,,Milites quarti Constantiani,Dux Moesiae secundae,Oriens
+PC000257,PLC00617,Durostoro,Praefectus,legionis undecimae Claudiae,Dux Moesiae secundae,Oriens
+PC000320,PLC00599,Latius,,Cuneus equitum scutariorum,Dux Moesiae secundae,Oriens
+PC000357,PLC00606,Mediolana,,Milites Dacisci,Dux Moesiae secundae,Oriens
+PC000387,PLC00614,Nouas,Praefectus,legionis primae Italicae,Dux Moesiae secundae,Oriens
+PC000388,PLC00615,Nouas,Praefectus,ripae legionis primae Italicae cohortis quintae pedaturae superioris,Dux Moesiae secundae,Oriens
+PC000495,PLC00597,Securisca,,Cuneus equitum scutariorum,Dux Moesiae secundae,Oriens
+PC000500,PLC00600,Sexagintaprista,,Cuneus equitum armigerorum,Dux Moesiae secundae,Oriens
+PC000501,PLC00616,Sexagintaprista,Praefectus,ripae legionis primae Italicae cohortis quintae pedaturae inferioris,Dux Moesiae secundae,Oriens
+PC000520,PLC00622,sub Radice - Viamata,,Cohors prima Aureliana,Dux Moesiae secundae,Oriens
+PC000524,PLC00603,Sucidaua,,Cuneus equitum stablesianorum,Dux Moesiae secundae,Oriens
+PC000540,PLC00610,Teglicio,,Milites Moesiaci,Dux Moesiae secundae,Oriens
+PC000541,PLC00601,Tegra,,Cuneus equitum secundorum armigerorum,Dux Moesiae secundae,Oriens
+PC000572,PLC00608,Transmariscae,,Milites Novenses,Dux Moesiae secundae,Oriens
+PC000573,PLC00619,Transmariscae,Praefectus,ripae legionis undecimae Claudiae cohortis quintae pedaturae inferioris,Dux Moesiae secundae,Oriens
+PC000574,PLC00618,Transmariscae,Praefectus,ripae legionis undecimae Claudiae cohortis quintae pedaturae superioris,Dux Moesiae secundae,Oriens
+PC000580,PLC00605,Trimammio,,Milites Constantini,Dux Moesiae secundae,Oriens
+PC000585,PLC00621,Ulucitra,,Cohors quarta Gallorum,Dux Moesiae secundae,Oriens
+PC000073,PLC00503,Apatna,,..............,Dux Osrhoenae,Oriens
+PC000121,PLC00496,Banasam,,Equites promoti indigenae,Dux Osrhoenae,Oriens
+PC000165,PLC00494,Callinico,,Equites promoti Illyriciani,Dux Osrhoenae,Oriens
+PC000193,PLC00502,Circesio,Praefectus,legionis quartae Parthicae,Dux Osrhoenae,Oriens
+PC000232,PLC00495,Dabana,,Equites Mauri Illyriciani,Dux Osrhoenae,Oriens
+PC000255,PLC00511,Duodecimo constituta,,Ala prima salutaria,Dux Osrhoenae,Oriens
+PC000281,PLC00493,Ganaba,,Equites Dalmatae Illyriciani,Dux Osrhoenae,Oriens
+PC000306,PLC00508,inter Thannurin et Horobam,,Ala prima nova Diocletiana,Dux Osrhoenae,Oriens
+PC000344,PLC00510,Maratha,,Cohors prima Eufratensis,Dux Osrhoenae,Oriens
+PC000356,PLC00500,Mediana,,Equites sagittarii indigenae Medianenses,Dux Osrhoenae,Oriens
+PC000416,PLC00498,Oraba,,Equites sagittarii indigenae,Dux Osrhoenae,Oriens
+PC000457,PLC00501,Rasin,,Equites primi Osrhoeni,Dux Osrhoenae,Oriens
+PC000466,PLC00507,Resaia,,Ala prima Parthorum,Dux Osrhoenae,Oriens
+PC000505,PLC00497,Sina Iudaeorum,,Equites promoti indigenae,Dux Osrhoenae,Oriens
+PC000558,PLC00509,Thillaamana,,Cohors prima Gaetulorum,Dux Osrhoenae,Oriens
+PC000559,PLC00504,Thillacama,,Ala septima Valeria praelectorum,Dux Osrhoenae,Oriens
+PC000560,PLC00506,Thillafica,,Ala secunda Paflagonum,Dux Osrhoenae,Oriens
+PC000561,PLC00499,Thillazamana,,Equites sagittarii indigenae,Dux Osrhoenae,Oriens
+PC000566,PLC00505,Touia -contra Bintha,,Ala prima Victoriae,Dux Osrhoenae,Oriens
+PC000025,PLC00478,Admatha,,Ala Antana dromedariorum,Dux Palaestinae,Oriens
+PC000032,PLC00467,Aeliae,,Equites Mauri Illyriciani,Dux Palaestinae,Oriens
+PC000038,PLC00482,Afro,,Cohors duodecima Valeria,Dux Palaestinae,Oriens
+PC000039,PLC00476,Ailae,Praefectus,legionis decimae Fretensis,Dux Palaestinae,Oriens
+PC000081,PLC00480,apud Praesidium,,Ala secunda felix Valentiana,Dux Palaestinae,Oriens
+PC000090,PLC00488,Arieldela,,Cohors secunda Galatarum,Dux Palaestinae,Oriens
+PC000103,PLC00477,Asuada,,Ala prima miliaria Sebastena,Dux Palaestinae,Oriens
+PC000128,PLC00464,Benosabae,,Equites Dalmatae Illyriciani,Dux Palaestinae,Oriens
+PC000134,PLC00468,Birsama,,Equites Thamudeni Illyriciani,Dux Palaestinae,Oriens
+PC000163,PLC00487,Calamona,,Cohors prima equitata,Dux Palaestinae,Oriens
+PC000177,PLC00483,Cartha,,Cohors decima Carthaginensis,Dux Palaestinae,Oriens
+PC000188,PLC00466,Chermulae,,Equites scutarii Illyriciani,Dux Palaestinae,Oriens
+PC000293,PLC00481,Hasta,,Ala prima miliara,Dux Palaestinae,Oriens
+PC000294,PLC00471,Hauanae,,Equites sagittarii indigenae,Dux Palaestinae,Oriens
+PC000301,PLC00486,Iehibo,,Cohors secunda Gratiana,Dux Palaestinae,Oriens
+PC000304,PLC00492,inter Aeliam et Hierichunta,,Cohors prima salutaria,Dux Palaestinae,Oriens
+PC000314,PLC00491,iuxta Iordanem fluvium,,Cohors secunda Cretensis,Dux Palaestinae,Oriens
+PC000362,PLC00465,Menochiae,,Equites promoti Illyriciani,Dux Palaestinae,Oriens
+PC000365,PLC00475,Moahile,,Equites sagittarii indigenae,Dux Palaestinae,Oriens
+PC000368,PLC00489,Moleaatha,,Cohors prima Flavia,Dux Palaestinae,Oriens
+PC000447,PLC00485,Praesidio,,Cohors quarta Frygium,Dux Palaestinae,Oriens
+PC000472,PLC00473,Robatha,,Equites sagittarii indigenae,Dux Palaestinae,Oriens
+PC000476,PLC00469,Sabaiae,,Equites promiti indigenae,Dux Palaestinae,Oriens
+PC000478,PLC00474,Sabure siue Veterocariae,,Equites primi felices Palaestini,Dux Palaestinae,Oriens
+PC000536,PLC00484,Tarba,,Cohors prima agentenaria,Dux Palaestinae,Oriens
+PC000550,PLC00490,Thamana,,Cohors quarta Palaestinorum,Dux Palaestinae,Oriens
+PC000565,PLC00479,Toloha,,Ala Constantiana,Dux Palaestinae,Oriens
+PC000620,PLC00472,Zoarae,,Equites sagittarii indigenae,Dux Palaestinae,Oriens
+PC000621,PLC00470,Zodocathae,,Equites promiti indigenae,Dux Palaestinae,Oriens
+PC000008,PLC00594,Accisso,Praefectus,ripae legionis primae Ioviae cohortis quintae pedaturae inferioris,Dux Scythiae,Oriens
+PC000031,PLC00579,Aegissos,,Cuneus equitum armigerorum,Dux Scythiae,Oriens
+PC000098,PLC00578,Arubio,,Cuneus equitum catafractariorum,Dux Scythiae,Oriens
+PC000116,PLC00582,Axiupoli,,Milites superventores,Dux Scythiae,Oriens
+PC000117,PLC00590,Axiupoli,Praefectus,ripae legionis secundae Herculiae cohortis quintae pedaturae inferioris,Dux Scythiae,Oriens
+PC000133,PLC00577,Bireo,,Cuneus equitum stablesianorum,Dux Scythiae,Oriens
+PC000170,PLC00575,Capidaua,,Cuneus equitum Solensium,Dux Scythiae,Oriens
+PC000175,PLC00583,Carso,,Milites Scythici,Dux Scythiae,Oriens
+PC000190,PLC00576,Cii,,Cuneus equitum stablesianorum,Dux Scythiae,Oriens
+PC000247,PLC00585,Dirigothia,,Milites Scythici,Dux Scythiae,Oriens
+PC000267,PLC00581,Flaviana,,Milites navclarii,Dux Scythiae,Oriens
+PC000290,PLC00588,Gratiana,,Milites primi Gratianenses,Dux Scythiae,Oriens
+PC000303,PLC00595,Inplateypegiis,,et secundae Herculiae musculorum Scythicorum et classis,Dux Scythiae,Oriens
+PC000311,PLC00591,Iprosmis,Praefectus,ripae legionis secundae Herculiae cohortis quintae pedaturae inferioris,Dux Scythiae,Oriens
+PC000389,PLC00592,Nouioduno,Praefectus,legionis primae Ioviae,Dux Scythiae,Oriens
+PC000390,PLC00593,Nouioduno,Praefectus,ripae legionis primae Ioviae cohortis quintae pedaturae superioris,Dux Scythiae,Oriens
+PC000391,PLC00586,Nouioduro,,Milites primi Constantini,Dux Scythiae,Oriens
+PC000479,PLC00574,Sacidaua,,Cuneus equitum scutariorum,Dux Scythiae,Oriens
+PC000482,PLC00587,Salsouia,,Milites quinti Constantini,Dux Scythiae,Oriens
+PC000532,PLC00580,Talamonio,,Cuneus equitum Arcadum,Dux Scythiae,Oriens
+PC000581,PLC00584,Trosmis,,Milites secundi Constantini,Dux Scythiae,Oriens
+PC000582,PLC00589,Trosmis,Praefectus,legionis secundae Herculiae,Dux Scythiae,Oriens
+PC000006,PLC00451,Acadama,,Equites sagittarii,Dux Syriae,Oriens
+PC000007,PLC00452,Acauatha,,Equites sagittarii,Dux Syriae,Oriens
+PC000022,PLC00449,Adada,,Equites promoti indigenae,Dux Syriae,Oriens
+PC000062,PLC00463,Ammattha,,Cohors prima victorum,Dux Syriae,Oriens
+PC000063,PLC00458,Ammuda,,Ala prima nova Herculia,Dux Syriae,Oriens
+PC000065,PLC00450,Anatha,,Equites sagittarii indigenae,Dux Syriae,Oriens
+PC000122,PLC00454,Barbalisso,,Equites Dalmatae Illyriciani,Dux Syriae,Oriens
+PC000197,PLC00461,Claudiana,,Cohors prima Ulpia Dacorum,Dux Syriae,Oriens
+PC000295,PLC00460,Helela,,Cohors prima Gotthorum,Dux Syriae,Oriens
+PC000350,PLC00462,Marmantharum,,Cohors tertia Valeria,Dux Syriae,Oriens
+PC000353,PLC00448,Matthana,,Equites sagittarii indigenae,Dux Syriae,Oriens
+PC000382,PLC00455,Neocaesereae,,Equites Mauri Illyriciani,Dux Syriae,Oriens
+PC000406,PLC00447,Occariba,,Equites promoti Illyriciani,Dux Syriae,Oriens
+PC000417,PLC00453,Oresa,Praefectus,legionis quartae Scythicae,Dux Syriae,Oriens
+PC000473,PLC00456,Rosafa,,Equites promoti indigenae,Dux Syriae,Oriens
+PC000484,PLC00459,Salutaria,,Ala prima Iuthungorum,Dux Syriae,Oriens
+PC000498,PLC00446,Serianae,,Equites scutarii Illyriciani,Dux Syriae,Oriens
+PC000527,PLC00457,Sura,Praefectus,legionis sextaedecimae Flaviae firmae,Dux Syriae,Oriens
+PC000005,PLC00405,Abydum - Abocedo,,Ala octava ....,Dux Thebaidos,Oriens
+PC000074,PLC00387,Apollonos superioris,,Legio secunda Traiana,Dux Thebaidos,Oriens
+PC000080,PLC00416,apud Elephantinem,,CohorsÝ prima felix Theodosiana,Dux Thebaidos,Oriens
+PC000101,PLC00393,Asfynis,,Equites felices Honoriani,Dux Thebaidos,Oriens
+PC000151,PLC00415,Burgo Severi,,Cohors nona Alamannorum,Dux Thebaidos,Oriens
+PC000187,PLC00399,Chenoboscia,,Ala Neptunia,Dux Thebaidos,Oriens
+PC000212,PLC00403,contra Apollonos,,Ala prima Francorum,Dux Thebaidos,Oriens
+PC000214,PLC00402,contra Lata,,Ala septima Herculia voluntaria,Dux Thebaidos,Oriens
+PC000217,PLC00381,Copto,,Equites sagittarii indigenae,Dux Thebaidos,Oriens
+PC000218,PLC00389,Copto,,Legio prima Valentiniana,Dux Thebaidos,Oriens
+PC000230,PLC00386,Cusas,,Legio secunda Flavia Constantia Thebaeorum,Dux Thebaidos,Oriens
+PC000245,PLC00419,Diospoli,,Cohors septima Francorum,Dux Thebaidos,Oriens
+PC000246,PLC00382,Diospoli,,Equites sagittarii indigenae,Dux Thebaidos,Oriens
+PC000265,PLC00390,Filas,,Legio prima Maximiana,Dux Thebaidos,Oriens
+PC000273,PLC00401,Foenicionis,,Ala octava Palmyrenorum,Dux Thebaidos,Oriens
+PC000296,PLC00392,Hermunthi,,Legio secunda Valentiniana,Dux Thebaidos,Oriens
+PC000297,PLC00379,Hermupoli,,Cuneus equitum scutariorum,Dux Thebaidos,Oriens
+PC000298,PLC00394,Hibeos - Oaseos maioris,,Ala prima Abasgorum,Dux Thebaidos,Oriens
+PC000312,PLC00397,Isiu,,Ala quarta Britonum,Dux Thebaidos,Oriens
+PC000321,PLC00383,Lato,,Equites sagittarii indigenae,Dux Thebaidos,Oriens
+PC000330,PLC00378,Lico,,Cuneus equitum Maurorum scutariorum,Dux Thebaidos,Oriens
+PC000354,PLC00400,Maximianopoli,,Ala tertia dromedariorum,Dux Thebaidos,Oriens
+PC000355,PLC00384,Maximianopoli,,Equites sagittarii indigenae,Dux Thebaidos,Oriens
+PC000374,PLC00411,Mutheos,,Cohors scutata civium Romanorum,Dux Thebaidos,Oriens
+PC000385,PLC00414,Nitnu,,Cohors nona Tzanorum,Dux Thebaidos,Oriens
+PC000403,PLC00407,Oasi maiore,,Ala prima Abasgorum,Dux Thebaidos,Oriens
+PC000405,PLC00408,Oasi minore - Trimtheos,,Ala prima Quadorum,Dux Thebaidos,Oriens
+PC000412,PLC00385,Ombos,,Legio tertia Diocletiana,Dux Thebaidos,Oriens
+PC000424,PLC00404,Pampane,,Ala prima Iovia catafractariorum,Dux Thebaidos,Oriens
+PC000432,PLC00413,Peamu,,Cohors undecima Chamauorum,Dux Thebaidos,Oriens
+PC000435,PLC00396,Pescla,,Ala Germanorum,Dux Thebaidos,Oriens
+PC000442,PLC00395,Poisrietemidos,,Ala secunda Hispanorum,Dux Thebaidos,Oriens
+PC000448,PLC00409,Precteos,,Ala prima Valeria dromedariorum,Dux Thebaidos,Oriens
+PC000450,PLC00406,Psinaula,,Ala secunda Herculia dromedariorum,Dux Thebaidos,Oriens
+PC000503,PLC00412,Silili,,Cohors prima Apamenorum,Dux Thebaidos,Oriens
+PC000525,PLC00417,Suene,,Cohors quinta Suentium,Dux Thebaidos,Oriens
+PC000528,PLC00388,Syene,,Milites Miliarenses,Dux Thebaidos,Oriens
+PC000542,PLC00380,Tentira,,Equites sagittarii indigenae,Dux Thebaidos,Oriens
+PC000553,PLC00391,Thebas,,Legio tertia Diocletiana,Dux Thebaidos,Oriens
+PC000556,PLC00410,Theraco,,;Cohors prima Lusitanorum,Dux Thebaidos,Oriens
+PC000563,PLC00398,Thmou,,Ala prima Hiberorum,Dux Thebaidos,Oriens
+PC000069,PLC00318,Antiochiae,,;Clibanaria,Insignia viri illustris magistri officiorum,Oriens
+PC000070,PLC00317,Antiochiae,,Scutaria et armorum,Insignia viri illustris magistri officiorum,Oriens
+PC000159,PLC00320,Caesarea Cappadociae,,Clibanaria,Insignia viri illustris magistri officiorum,Oriens
+PC000236,PLC00316,Damasci,,Scutaria et armorum,Insignia viri illustris magistri officiorum,Oriens
+PC000259,PLC00319,Edesa,,Scutaria et armamentaria,Insignia viri illustris magistri officiorum,Oriens
+PC000292,PLC00324,Hadrianopolis Haemimonti,,Scutaria et armorum,Insignia viri illustris magistri officiorum,Oriens
+PC000345,PLC00325,Marcianopoli,,Scutaria et armorum,Insignia viri illustris magistri officiorum,Oriens
+PC000383,PLC00322,Nicomediae,,Clibanaria,Insignia viri illustris magistri officiorum,Oriens
+PC000384,PLC00321,Nicomediae,,Scutaria et armorum,Insignia viri illustris magistri officiorum,Oriens
+PC000486,PLC00323,Sardis Lydiae,,Scutaria et armorum,Insignia viri illustris magistri officiorum,Oriens
+PC000414,PLC00311,operum alter,,Numerarii quatuor; in his auri unus,Insignia viri illustris praefecti praetorio per Illyricum,Oriens
+PC000114,PLC00340,aut ipse dictat aut latine dictatas transfert in graecum,,"Magister epistolarum graecarum eas epistolas, quae graece solent emitti",Magistri scriniorum. MemoriaeÝÝ EpistolarumÝÝ LibellorumÝÝ Graecarum,Oriens
+PC000210,PLC00339,consultationes et preces tractat,,Magister epistolarum legationes civitatum,Magistri scriniorum. MemoriaeÝÝ EpistolarumÝÝ LibellorumÝÝ Graecarum,Oriens
