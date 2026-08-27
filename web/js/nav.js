@@ -5,6 +5,7 @@
 import * as XML from "./xml.js";
 import * as Inspector from "./inspector.js";
 import * as Map from "./map.js";
+import Data from "./data.js";
 let container=null;
 let selected=null;
 let rowByNode=new WeakMap();
@@ -580,11 +581,69 @@ function selectRow(row,node){
     );
     Inspector.show(node);
 }
+
+function descendantPlaceNames(node){
+    if(!node){
+        return [];
+    }
+    return [...new Set(
+        Array.from(
+            node.querySelectorAll("place")
+        )
+            .map(placeNode=>
+                String(placeNode.textContent||"").trim()
+            )
+            .filter(Boolean)
+    )];
+}
+function provincePlaceNames(node){
+    if(typeof Data?.getPlaceMentionsByProvince!=="function"){
+        return [];
+    }
+
+    const provinceNode=
+        Array.from(node.children||[])
+            .find(child=>child.tagName==="province");
+
+    const provinceName=
+        provinceNode?.textContent?.trim() ||
+        (
+            node.getAttribute("line")
+                ? XML.text(node).replace(/\.$/,"").trim()
+                : ""
+        );
+
+    if(!provinceName){
+        return [];
+    }
+
+    const mentions=
+        Data.getPlaceMentionsByProvince(provinceName)||[];
+
+    return [...new Set(
+        mentions
+            .map(item=>String(item.placeName||"").trim())
+            .filter(Boolean)
+    )];
+}
+
 function select(row,node){
     selectRow(
         row,
         node
     );
+    const descendantPlaces=
+        descendantPlaceNames(node);
+    if(descendantPlaces.length>1){
+        Map.showSearchResults(descendantPlaces);
+        return;
+    }
+    const provincePlaces=
+        provincePlaceNames(node);
+    if(provincePlaces.length){
+        Map.showSearchResults(provincePlaces);
+        return;
+    }
     const directPlaces=
         Array.from(
             node.children
