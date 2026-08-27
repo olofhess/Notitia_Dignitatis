@@ -1471,77 +1471,77 @@
                 </unknown><unknown line="713">
                     <unit>Cancellarii</unit>
                 </unknown>
-            </group><group type="unknown" line="714">
+            </group><group type="factoryGroup" line="714">
                 <title>Fabricae infrascriptae</title>
                 <group type="region" line="715">
                     <title>In Illyrico</title>
-                    <unknown line="716">
+                    <factory line="716">
                         <unit>Sirmensis scutorum, scordiscorum et armorum.</unit>
                         <place source="factory">Sirmensis</place>
-                    </unknown><unknown line="717">
+                    </factory><factory line="717">
                         <unit>Acincensis scutaria</unit>
                         <place source="factory">Acincensis</place>
-                    </unknown><unknown line="718">
+                    </factory><factory line="718">
                         <unit>Cornutensis scutaria</unit>
                         <place source="factory">Cornutensis</place>
-                    </unknown><unknown line="719">
+                    </factory><factory line="719">
                         <unit>Lauriacensis scutaria</unit>
                         <place source="factory">Lauriacensis</place>
-                    </unknown><unknown line="720">
+                    </factory><factory line="720">
                         <unit>Salonitana armorum</unit>
                         <place source="factory">Salonitana</place>
-                    </unknown>
+                    </factory>
                 </group><group type="unknown" line="721">
                     <title>Italiae</title>
-                    <unknown line="722">
+                    <factory line="722">
                         <unit>Concordensis sagittaria</unit>
                         <place source="factory">Concordensis</place>
-                    </unknown><unknown line="723">
+                    </factory><factory line="723">
                         <unit>Veronensis scutaria et armorum</unit>
                         <place source="factory">Veronensis</place>
-                    </unknown><unknown line="724">
+                    </factory><factory line="724">
                         <unit>Manutuana loricaria</unit>
                         <place source="factory">Manutuana</place>
-                    </unknown><unknown line="725">
+                    </factory><factory line="725">
                         <unit>Cremonensis scutaria</unit>
                         <place source="factory">Cremonensis</place>
-                    </unknown><unknown line="726">
+                    </factory><factory line="726">
                         <unit>Ticenensis arcuaria</unit>
                         <place source="factory">Ticenensis</place>
-                    </unknown><unknown line="727">
+                    </factory><factory line="727">
                         <unit>Lucensis spatharia</unit>
                         <place source="factory">Lucensis</place>
-                    </unknown>
+                    </factory>
                 </group><group type="region" line="728">
                     <title>In Galliis</title>
-                    <unknown line="729">
+                    <factory line="729">
                         <unit>Argentomagensis armorum omnium</unit>
                         <place source="factory">Argentomagensis</place>
-                    </unknown><unknown line="730">
+                    </factory><factory line="730">
                         <unit>Matisconensis sagittaria</unit>
                         <place source="factory">Matisconensis</place>
-                    </unknown><unknown line="731">
+                    </factory><factory line="731">
                         <unit>Augustodunensis loricaria, balistaria et clibanaria.</unit>
                         <place source="factory">Augustodunensis</place>
-                    </unknown><unknown line="732">
+                    </factory><factory line="732">
                         <unit>Augustodunensis scutaria</unit>
                         <place source="factory">Augustodunensis</place>
-                    </unknown><unknown line="733">
+                    </factory><factory line="733">
                         <unit>Suessionensis.......</unit>
                         <place source="factory">Suessionensis</place>
-                    </unknown><unknown line="734">
+                    </factory><factory line="734">
                         <unit>Remensis spatharia</unit>
                         <place source="factory">Remensis</place>
-                    </unknown><unknown line="735">
+                    </factory><factory line="735">
                         <unit>Triberorum scutaria</unit>
                         <place source="factory">Triberorum</place>
-                    </unknown><unknown line="736">
+                    </factory><factory line="736">
                         <unit>Triberorum balistaria</unit>
                         <place source="factory">Triberorum</place>
-                    </unknown><unknown line="737">
+                    </factory><factory line="737">
                         <unit>Ambianensis spatharia et scutaria</unit>
                         <place source="factory">Ambianensis</place>
-                    </unknown>
+                    </factory>
                 </group>
             </group><group type="officium" line="738">
                 <title>Officium autem suprascripti viri illustris magistri officiorum de scola agentum in rebus habetur hoc modo</title>
@@ -5152,71 +5152,72 @@
                 </unknown><unknown line="506">
                     <unit>Officium ammissionum</unit>
                 </unknown>
-            </group><group type="unknown" line="507">
+            </group><group type="factoryGroup" line="507">
                 <title>Fabricae infrascriae</title>
-            </group><group type="unknown" line="508">
-                <title>Orientis V</title>
-                <unknown line="509">
-                    <unit>Scutaria et armorum</unit>
-                    <place source="tail">Damasci</place>
-                </unknown><unknown line="510">
-                    <unit>Scutaria et armorum</unit>
-                    <place source="tail">Antiochiae</place>
-                </unknown><unknown line="511">
-                    <unit>Clibanaria</unit>
-                    <place source="tail">Antiochiae</place>
-                </unknown><unknown line="512">
-                    <unit>Scutaria et armamentaria</unit>
-                    <place source="tail">Edesa</place>
-                </unknown><unknown line="513">
-                    <unit>Hastaria</unit>
-                    <place source="tail">Irenopolitana</place>
-                    <province source="tail">ciliciae</province>
-                </unknown>
-            </group><group type="unknown" line="514">
-                <title>Ponticae quatuor</title>
-                <unknown line="515">
-                    <unit>Clibanaria</unit>
-                    <place source="tail">Caesarea</place>
-                    <province source="tail">cappadociae</province>
-                </unknown><unknown line="516">
-                    <unit>Scutaria et armorum</unit>
-                    <place source="tail">Nicomediae</place>
-                </unknown><unknown line="517">
-                    <unit>Clibanaria</unit>
-                    <place source="tail">Nicomediae</place>
-                </unknown>
-            </group><group type="unknown" line="518">
-                <title>Asianae una</title>
-                <unknown line="519">
-                    <unit>Scutaria et armorum</unit>
-                    <place source="tail">Sardis</place>
-                    <province source="tail">lydiae</province>
-                </unknown>
-            </group><group type="unknown" line="520">
-                <title>Thraciarum duae</title>
-                <unknown line="521">
-                    <unit>Scutaria et armorum</unit>
-                    <place source="tail">Hadrianopolis Haemimonti</place>
-                </unknown><unknown line="522">
-                    <unit>Scutaria et armorum</unit>
-                    <place source="tail">Marcianopoli</place>
-                </unknown>
-            </group><group type="unknown" line="523">
-                <title>Illyrici quatuor</title>
-                <unknown line="524">
-                    <unit>Thessalonicensis</unit>
-                    <place source="factory">Thessalonicensis</place>
-                </unknown><unknown line="525">
-                    <unit>Naissatensis</unit>
-                    <place source="factory">Naissatensis</place>
-                </unknown><unknown line="526">
-                    <unit>Ratiarensis</unit>
-                    <place source="factory">Ratiarensis</place>
-                </unknown><unknown line="527">
-                    <unit>Scutaria</unit>
-                    <place source="factory">Horreomargensis</place>
-                </unknown>
+                <group type="unknown" line="508">
+                    <title>Orientis V</title>
+                    <factory line="509">
+                        <unit>Scutaria et armorum</unit>
+                        <place source="tail">Damasci</place>
+                    </factory><factory line="510">
+                        <unit>Scutaria et armorum</unit>
+                        <place source="tail">Antiochiae</place>
+                    </factory><factory line="511">
+                        <unit>Clibanaria</unit>
+                        <place source="tail">Antiochiae</place>
+                    </factory><factory line="512">
+                        <unit>Scutaria et armamentaria</unit>
+                        <place source="tail">Edesa</place>
+                    </factory><factory line="513">
+                        <unit>Hastaria</unit>
+                        <place source="tail">Irenopolitana</place>
+                        <province source="tail">ciliciae</province>
+                    </factory>
+                </group><group type="unknown" line="514">
+                    <title>Ponticae quatuor</title>
+                    <factory line="515">
+                        <unit>Clibanaria</unit>
+                        <place source="tail">Caesarea</place>
+                        <province source="tail">cappadociae</province>
+                    </factory><factory line="516">
+                        <unit>Scutaria et armorum</unit>
+                        <place source="tail">Nicomediae</place>
+                    </factory><factory line="517">
+                        <unit>Clibanaria</unit>
+                        <place source="tail">Nicomediae</place>
+                    </factory>
+                </group><group type="unknown" line="518">
+                    <title>Asianae una</title>
+                    <factory line="519">
+                        <unit>Scutaria et armorum</unit>
+                        <place source="tail">Sardis</place>
+                        <province source="tail">lydiae</province>
+                    </factory>
+                </group><group type="unknown" line="520">
+                    <title>Thraciarum duae</title>
+                    <factory line="521">
+                        <unit>Scutaria et armorum</unit>
+                        <place source="tail">Hadrianopolis Haemimonti</place>
+                    </factory><factory line="522">
+                        <unit>Scutaria et armorum</unit>
+                        <place source="tail">Marcianopoli</place>
+                    </factory>
+                </group><group type="unknown" line="523">
+                    <title>Illyrici quatuor</title>
+                    <factory line="524">
+                        <unit>Thessalonicensis</unit>
+                        <place source="factory">Thessalonicensis</place>
+                    </factory><factory line="525">
+                        <unit>Naissatensis</unit>
+                        <place source="factory">Naissatensis</place>
+                    </factory><factory line="526">
+                        <unit>Ratiarensis</unit>
+                        <place source="factory">Ratiarensis</place>
+                    </factory><factory line="527">
+                        <unit>Scutaria</unit>
+                        <place source="factory">Horreomargensis</place>
+                    </factory>
+                </group>
             </group><group type="officium" line="528">
                 <title>Officium autem suprascripti viri illustris magistri officiorum de scola agentum in rebus est ita</title>
                 <unknown line="529">

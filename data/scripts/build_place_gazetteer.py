@@ -46,7 +46,7 @@ for match in load_csv(MATCH_INPUT):
     candidate=clean(match.get("candidate")) or source_name
     if not pid or not source_name:
         continue
-    duplicate_key=(candidate.casefold(),pid)
+    duplicate_key=(source_name.casefold(),pid)
     if duplicate_key in seen:
         continue
     seen.add(duplicate_key)

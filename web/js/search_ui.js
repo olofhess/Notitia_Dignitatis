@@ -5,6 +5,7 @@
 
 import * as Search from "./search.js";
 import * as Nav from "./nav.js";
+import MapView from "./map.js";
 
 let searchBox=null;
 let placeSourceSelect=null;
@@ -151,8 +152,22 @@ function createResultsPanel(){
     resultsPanel.style.background=
         "#fff";
 
-    resultsPanel.style.maxHeight=
-        "240px";
+    // Search results are an overlay over the left navigation column only.
+    // They must never cover the map or push the workspace down.
+    resultsPanel.style.position=
+        "fixed";
+
+    resultsPanel.style.left=
+        "0";
+
+    resultsPanel.style.right=
+        "auto";
+
+    resultsPanel.style.zIndex=
+        "2000";
+
+    resultsPanel.style.boxSizing=
+        "border-box";
 
     resultsPanel.style.overflowY=
         "auto";
@@ -161,6 +176,72 @@ function createResultsPanel(){
         "afterend",
         resultsPanel
     );
+
+    positionResultsPanel();
+
+    window.addEventListener(
+        "resize",
+        positionResultsPanel
+    );
+
+}
+
+function positionResultsPanel(){
+
+    if(!resultsPanel){
+        return;
+    }
+
+    const header=
+        document.getElementById("header");
+
+    const mapElement=
+        document.getElementById("map");
+
+    if(!header){
+        return;
+    }
+
+    const headerRect=
+        header.getBoundingClientRect();
+
+    const top=
+        Math.max(0,headerRect.bottom);
+
+    let width=360;
+
+    if(mapElement){
+        const mapRect=
+            mapElement.getBoundingClientRect();
+
+        if(mapRect.left>0){
+            width=mapRect.left;
+        }
+    }
+
+    let bottom=
+        window.innerHeight;
+
+    if(status){
+        const statusRect=
+            status.getBoundingClientRect();
+
+        if(
+            statusRect.top>top &&
+            statusRect.top<bottom
+        ){
+            bottom=statusRect.top;
+        }
+    }
+
+    resultsPanel.style.top=
+        top+"px";
+
+    resultsPanel.style.width=
+        Math.max(220,width)+"px";
+
+    resultsPanel.style.maxHeight=
+        Math.max(120,bottom-top)+"px";
 
 }
 
@@ -190,6 +271,7 @@ function runSearch(){
         }
 
         clearResults();
+        MapView.clearSearchResults();
 
         return;
     }
@@ -202,6 +284,9 @@ function runSearch(){
             dimension
         });
 
+    showResults(results);
+    showResultsOnMap(results);
+
     if(status){
         status.textContent=
             results.length+
@@ -212,11 +297,53 @@ function runSearch(){
             );
     }
 
-    showResults(results);
-
     console.log(
         "SEARCH RESULTS",
         results
+    );
+
+}
+
+
+function showResultsOnMap(results){
+
+    const places=[];
+
+    results.forEach(record=>{
+
+        (record.places || [])
+            .forEach(place=>{
+
+                if(
+                    place &&
+                    Number.isFinite(
+                        Number(place.latitude)
+                    ) &&
+                    Number.isFinite(
+                        Number(place.longitude)
+                    )
+                ){
+                    places.push(place);
+                    return;
+                }
+
+                const name=
+                    place?.placeName ||
+                    place?.sourcePlaceName ||
+                    place?.name;
+
+                if(name){
+                    places.push(name);
+                }
+
+            });
+
+    });
+
+    MapView.beginSearchMode();
+
+    MapView.showSearchResults(
+        places
     );
 
 }
@@ -240,6 +367,8 @@ function showResults(results){
         resultsPanel.appendChild(
             empty
         );
+
+        positionResultsPanel();
 
         resultsPanel.style.display=
             "block";
@@ -279,6 +408,8 @@ function showResults(results){
         );
 
     }
+
+    positionResultsPanel();
 
     resultsPanel.style.display=
         "block";

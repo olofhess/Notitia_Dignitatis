@@ -26,6 +26,7 @@ CHAPTER_DICTIONARY=[
     ("Sub dispositione","prefecture")
 ]
 HEADING_DICTIONARY=[
+    ("Fabricae","factoryGroup"),
     ("Sub dispositione","administration"),
     ("Officium","officium"),
     ("In provincia","province"),
@@ -473,7 +474,10 @@ def parseTypedNode(parent,nodeType,text,lineNumber,suppressTailGeo=False,factory
         return parseFactoryFields(node,text)
     return parseFields(node,text,suppressTailGeo=suppressTailGeo)
 def dispatchUnit(parent,text,lineNumber,suppressTailGeo=False,factoryMode=False):
-    nodeType=classify(text,UNIT_DICTIONARY)
+    if factoryMode:
+        nodeType="factory"
+    else:
+        nodeType=classify(text,UNIT_DICTIONARY)
     return parseTypedNode(parent,nodeType,text,lineNumber,suppressTailGeo=suppressTailGeo,factoryMode=factoryMode)
 def stack_has_officium(stack):
     return any(group.get("type")=="officium" for group in stack)
@@ -482,6 +486,8 @@ def parseDocument(name,path):
     chapter=None
     stack=[]
     factoryMode=False
+    factoryGroup=None
+    factorySubgroup=None
     with path.open(encoding="utf-8-sig") as file:
         for lineNumber,line in enumerate(file,1):
             raw=line.rstrip()
@@ -493,26 +499,70 @@ def parseDocument(name,path):
                 chapter=parseChapter(document,clean(m.group(2)))
                 stack=[]
                 factoryMode=False
+                factoryGroup=None
+                factorySubgroup=None
                 continue
             if chapter is None:
                 ET.SubElement(document,"text",line=str(lineNumber)).text=clean(text)
                 continue
+
             level=(len(raw)-len(raw.lstrip()))//5
-            while len(stack)>level:
-                stack.pop()
-            parent=stack[-1] if stack else chapter
+
             if text.endswith(":"):
-                if folded(text).startswith("fabricae "):
+                is_factory_heading=folded(text).startswith("fabricae ")
+                is_officium_heading=folded(text).startswith("officium")
+
+                if is_factory_heading:
+                    while len(stack)>level:
+                        stack.pop()
+                    parent=stack[-1] if stack else chapter
+                    factoryGroup=parseHeading(parent,text,lineNumber)
                     factoryMode=True
-                elif folded(text).startswith("officium"):
-                    factoryMode=False
-                if factoryMode and starts_production(text.rstrip(":")):
-                    dispatchUnit(parent,text,lineNumber,factoryMode=True)
+                    factorySubgroup=None
+                    stack.append(factoryGroup)
                     continue
+
+                if is_officium_heading:
+                    factoryMode=False
+                    factoryGroup=None
+                    factorySubgroup=None
+                    while len(stack)>level:
+                        stack.pop()
+                    parent=stack[-1] if stack else chapter
+                    group=parseHeading(parent,text,lineNumber)
+                    stack.append(group)
+                    continue
+
+                if factoryMode and factoryGroup is not None:
+                    if starts_production(text.rstrip(":")):
+                        parent=factorySubgroup or factoryGroup
+                        dispatchUnit(parent,text,lineNumber,factoryMode=True)
+                    else:
+                        factorySubgroup=parseHeading(factoryGroup,text,lineNumber)
+                    continue
+
+                while len(stack)>level:
+                    stack.pop()
+                parent=stack[-1] if stack else chapter
                 group=parseHeading(parent,text,lineNumber)
                 stack.append(group)
                 continue
-            dispatchUnit(parent,text,lineNumber,suppressTailGeo=stack_has_officium(stack),factoryMode=factoryMode)
+
+            if factoryMode and factoryGroup is not None:
+                parent=factorySubgroup or factoryGroup
+                dispatchUnit(parent,text,lineNumber,factoryMode=True)
+                continue
+
+            while len(stack)>level:
+                stack.pop()
+            parent=stack[-1] if stack else chapter
+            dispatchUnit(
+                parent,
+                text,
+                lineNumber,
+                suppressTailGeo=stack_has_officium(stack),
+                factoryMode=False
+            )
     return document
 def backup_output():
     if not OUTPUT.exists():

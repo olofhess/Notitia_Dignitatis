@@ -277,6 +277,30 @@ def candidate_variants(place_name,place_source=""):
     add(place_name,"original",0)
     if place_source=="limes":
         add("Limes "+place_name,"limes_title",0)
+
+    if place_source=="factory":
+        factory_aliases={
+            "sirmensis":["Sirmium"],
+            "acincensis":["Aquincum"],
+            "cornutensis":["Carnuntum"],
+            "salonitana":["Salona"],
+            "concordensis":["Iulia Concordia"],
+            "manutuana":["Mantua"],
+            "ticenensis":["Ticinum"],
+            "suessionensis":["Augusta Suessionum"],
+            "ambianensis":["Samarobriva Ambianorum"],
+            "irenopolitana":["Eirenopolis/Neronias","Neronias"],
+            "thessalonicensis":["Thessalonica"],
+            "naissatensis":["Naissus"],
+            "ratiarensis":["Ratiaria"],
+            "horreomargensis":["Horreum Margi"]
+        }
+        verified_factory_aliases=factory_aliases.get(norm(place_name),[])
+        for alias in verified_factory_aliases:
+            add(alias,"factory_alias",0)
+        if verified_factory_aliases:
+            return result
+        
     aliases={
         "maccomadensis":["Macomades"],
         "girbitani":["Girba"],
@@ -487,6 +511,7 @@ def walk(element,document_name,chapter_title,hard_province,soft_province,region,
             "sourceLine":clean(element.get("line","")),
             "placeName":place_name,
             "placeSource":place_source,
+            "_matchSource":"factory" if element.tag=="factory" else place_source,
             "office":direct_office,
             "unit":direct_unit,
             "declaredProvince":direct_province or local_hard or local_soft,
@@ -699,6 +724,8 @@ LIMES_ANCHORS={
     "caputcellensis":("299007","Limes Caputcellensis")
 }
 TOPONYMIC_ANCHORS={
+    "sirmi":("207447","Sirmium"),
+    "viennae":("167719","Col. Vienna"),
     "lugdunensium":("167717","Col. Lugdunum"),
     "lugdunensis":("167717","Col. Lugdunum"),
     "arelatensium":("148217","Col. Arelate"),
@@ -1006,15 +1033,16 @@ rejected_rows=[]
 conflict_rows=[]
 stats=Counter()
 for occ in occurrences:
-    candidates=rank_candidates(occ,anchored_candidates(occ["placeName"],occ.get("placeSource","")))
+    match_source=occ.get("_matchSource",occ.get("placeSource",""))
+    candidates=rank_candidates(occ,anchored_candidates(occ["placeName"],match_source))
     method="EXACT"
     if candidates:
         stats["anchor_occurrences"]+=1
     if not candidates:
-        candidates=rank_candidates(occ,exact_candidates(occ["placeName"],occ.get("placeSource","")))
+        candidates=rank_candidates(occ,exact_candidates(occ["placeName"],match_source))
         method="EXACT"
     if not candidates:
-        candidates=rank_candidates(occ,fuzzy_candidates(occ["placeName"],occ.get("placeSource","")))
+        candidates=rank_candidates(occ,fuzzy_candidates(occ["placeName"],match_source))
         method="FUZZY"
     if not candidates:
         unmatched_rows.append(occ.copy())
@@ -1083,7 +1111,20 @@ for occ in occurrences:
         if compatible:
             chosen,match_type=choose_by_feature(occ,compatible,method)
         else:
-            chosen,match_type=choose_by_feature(occ,candidates,method)
+            mismatch_statuses={
+                "HARD_MISMATCH",
+                "HARD_NEAR_MISMATCH",
+                "SOFT_MISMATCH",
+                "SOFT_NEAR_MISMATCH",
+                "REGION_MISMATCH",
+                "REGION_NEAR_MISMATCH"
+            }
+            non_conflicting=[
+                candidate
+                for candidate in candidates
+                if candidate.get("contextStatus","") not in mismatch_statuses
+            ]
+            chosen,match_type=choose_by_feature(occ,non_conflicting,method)
     if chosen:
         match_rows.append({**occ,**{k:v for k,v in chosen.items() if k!="contextStrength"},"matchType":match_type,"similarity":f'{chosen["nameSimilarity"]:.3f}',"contextScore":f'{chosen["contextScore"]:.3f}'})
         stats["matched"]+=1
@@ -1095,10 +1136,22 @@ for occ in occurrences:
         if chosen.get("rule")=="limes_anchor":
             stats["limes_anchor_matched"]+=1
         continue
-    if len(candidates)==1 and method=="EXACT":
+    mismatch_statuses={
+        "HARD_MISMATCH",
+        "HARD_NEAR_MISMATCH",
+        "SOFT_MISMATCH",
+        "SOFT_NEAR_MISMATCH",
+        "REGION_MISMATCH",
+        "REGION_NEAR_MISMATCH"
+    }
+    single_candidate_ok=(
+        len(candidates)==1
+        and candidates[0].get("contextStatus","") not in mismatch_statuses
+    )
+    if single_candidate_ok and method=="EXACT":
         chosen=candidates[0]
         match_type="EXACT_NO_CONTEXT"
-    elif len(candidates)==1 and method=="FUZZY" and candidates[0]["nameSimilarity"]>=AUTO_FUZZY_SIMILARITY and occ.get("placeSource","")!="limes":
+    elif single_candidate_ok and method=="FUZZY" and candidates[0]["nameSimilarity"]>=AUTO_FUZZY_SIMILARITY and match_source!="limes":
         chosen=candidates[0]
         match_type="FUZZY_NO_CONTEXT"
     if chosen:

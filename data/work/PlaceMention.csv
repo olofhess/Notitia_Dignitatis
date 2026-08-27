@@ -1,25 +1,25 @@
 mentionId;document;line;literalForm;source;pointEligible;issue;nodeType;officeType;office;unit;chapter;groupPath;sourceText
 PM000001;Occidentis;41;Mauretaniae Caesariensis;limes;1;;unknown;;;Limitis Mauretaniae Caesariensis;Notitia dignitatum omnium tam civilium quam militarium in partibus Occidentis;Duces duodecim;Limitis Mauretaniae Caesariensis.
-PM000002;Occidentis;716;Sirmensis;factory;1;;unknown;;;Sirmensis scutorum, scordiscorum et armorum.;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Illyrico;Sirmensis scutorum, scordiscorum et armorum.
-PM000003;Occidentis;717;Acincensis;factory;1;;unknown;;;Acincensis scutaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Illyrico;Acincensis scutaria.
-PM000004;Occidentis;718;Cornutensis;factory;1;;unknown;;;Cornutensis scutaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Illyrico;Cornutensis scutaria.
-PM000005;Occidentis;719;Lauriacensis;factory;1;;unknown;;;Lauriacensis scutaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Illyrico;Lauriacensis scutaria.
-PM000006;Occidentis;720;Salonitana;factory;1;;unknown;;;Salonitana armorum;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Illyrico;Salonitana armorum.
-PM000007;Occidentis;722;Concordensis;factory;1;;unknown;;;Concordensis sagittaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / Italiae;Concordensis sagittaria.
-PM000008;Occidentis;723;Veronensis;factory;1;;unknown;;;Veronensis scutaria et armorum;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / Italiae;Veronensis scutaria et armorum.
-PM000009;Occidentis;724;Manutuana;factory;1;;unknown;;;Manutuana loricaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / Italiae;Manutuana loricaria.
-PM000010;Occidentis;725;Cremonensis;factory;1;;unknown;;;Cremonensis scutaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / Italiae;Cremonensis scutaria.
-PM000011;Occidentis;726;Ticenensis;factory;1;;unknown;;;Ticenensis arcuaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / Italiae;Ticenensis arcuaria.
-PM000012;Occidentis;727;Lucensis;factory;1;;unknown;;;Lucensis spatharia;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / Italiae;Lucensis spatharia.
-PM000013;Occidentis;729;Argentomagensis;factory;1;;unknown;;;Argentomagensis armorum omnium;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Argentomagensis armorum omnium.
-PM000014;Occidentis;730;Matisconensis;factory;1;;unknown;;;Matisconensis sagittaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Matisconensis sagittaria.
-PM000015;Occidentis;731;Augustodunensis;factory;1;;unknown;;;Augustodunensis loricaria, balistaria et clibanaria.;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Augustodunensis loricaria, balistaria et clibanaria.
-PM000016;Occidentis;732;Augustodunensis;factory;1;;unknown;;;Augustodunensis scutaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Augustodunensis scutaria.
-PM000017;Occidentis;733;Suessionensis;factory;1;;unknown;;;Suessionensis.......;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Suessionensis........
-PM000018;Occidentis;734;Remensis;factory;1;;unknown;;;Remensis spatharia;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Remensis spatharia.
-PM000019;Occidentis;735;Triberorum;factory;1;;unknown;;;Triberorum scutaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Triberorum scutaria.
-PM000020;Occidentis;736;Triberorum;factory;1;;unknown;;;Triberorum balistaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Triberorum balistaria.
-PM000021;Occidentis;737;Ambianensis;factory;1;;unknown;;;Ambianensis spatharia et scutaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Ambianensis spatharia et scutaria.
+PM000002;Occidentis;716;Sirmensis;factory;1;;factory;;;Sirmensis scutorum, scordiscorum et armorum.;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Illyrico;Sirmensis scutorum, scordiscorum et armorum.
+PM000003;Occidentis;717;Acincensis;factory;1;;factory;;;Acincensis scutaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Illyrico;Acincensis scutaria.
+PM000004;Occidentis;718;Cornutensis;factory;1;;factory;;;Cornutensis scutaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Illyrico;Cornutensis scutaria.
+PM000005;Occidentis;719;Lauriacensis;factory;1;;factory;;;Lauriacensis scutaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Illyrico;Lauriacensis scutaria.
+PM000006;Occidentis;720;Salonitana;factory;1;;factory;;;Salonitana armorum;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Illyrico;Salonitana armorum.
+PM000007;Occidentis;722;Concordensis;factory;1;;factory;;;Concordensis sagittaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / Italiae;Concordensis sagittaria.
+PM000008;Occidentis;723;Veronensis;factory;1;;factory;;;Veronensis scutaria et armorum;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / Italiae;Veronensis scutaria et armorum.
+PM000009;Occidentis;724;Manutuana;factory;1;;factory;;;Manutuana loricaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / Italiae;Manutuana loricaria.
+PM000010;Occidentis;725;Cremonensis;factory;1;;factory;;;Cremonensis scutaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / Italiae;Cremonensis scutaria.
+PM000011;Occidentis;726;Ticenensis;factory;1;;factory;;;Ticenensis arcuaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / Italiae;Ticenensis arcuaria.
+PM000012;Occidentis;727;Lucensis;factory;1;;factory;;;Lucensis spatharia;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / Italiae;Lucensis spatharia.
+PM000013;Occidentis;729;Argentomagensis;factory;1;;factory;;;Argentomagensis armorum omnium;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Argentomagensis armorum omnium.
+PM000014;Occidentis;730;Matisconensis;factory;1;;factory;;;Matisconensis sagittaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Matisconensis sagittaria.
+PM000015;Occidentis;731;Augustodunensis;factory;1;;factory;;;Augustodunensis loricaria, balistaria et clibanaria.;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Augustodunensis loricaria, balistaria et clibanaria.
+PM000016;Occidentis;732;Augustodunensis;factory;1;;factory;;;Augustodunensis scutaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Augustodunensis scutaria.
+PM000017;Occidentis;733;Suessionensis;factory;1;;factory;;;Suessionensis.......;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Suessionensis........
+PM000018;Occidentis;734;Remensis;factory;1;;factory;;;Remensis spatharia;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Remensis spatharia.
+PM000019;Occidentis;735;Triberorum;factory;1;;factory;;;Triberorum scutaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Triberorum scutaria.
+PM000020;Occidentis;736;Triberorum;factory;1;;factory;;;Triberorum balistaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Triberorum balistaria.
+PM000021;Occidentis;737;Ambianensis;factory;1;;factory;;;Ambianensis spatharia et scutaria;Insignia viri illustris magistri officiorum;Fabricae infrascriptae / In Galliis;Ambianensis spatharia et scutaria.
 PM000022;Occidentis;775;Salonitanorum;unit;1;;unknown;praepositus;Praepositus;thesaurorum Salonitanorum;Insignia viri illustris comitis sacrarum largitionum;Praepositi thesauroum / Per Illyricum;Praepositus thesaurorum Salonitanorum, Dalmatiae.
 PM000023;Occidentis;776;Siscianorum;unit;1;;unknown;praepositus;Praepositus;thesaurorum Siscianorum;Insignia viri illustris comitis sacrarum largitionum;Praepositi thesauroum / Per Illyricum;Praepositus thesaurorum Siscianorum, Saviae.
 PM000024;Occidentis;777;Sabariensium;unit;1;;unknown;praepositus;Praepositus;thesaurorum Sabariensium;Insignia viri illustris comitis sacrarum largitionum;Praepositi thesauroum / Per Illyricum;Praepositus thesaurorum Sabariensium, Pannoniae primae.
@@ -372,21 +372,21 @@ PM000370;Occidentis;1609;Pollentia;tail;1;;unknown;praefectus;Praefectus;Sarmata
 PM000371;Occidentis;1611;Pictavis;tail;1;;unknown;praefectus;Praefectus;Sarmatarum et Taifalorum gentilium;Item praepositurae magistri militum praesentalis a parte peditum;In Gallia;Praefectus Sarmatarum et Taifalorum gentilium, Pictavis.
 PM000372;Occidentis;1615;Lingonas;tail;1;;unknown;praefectus;Praefectus;Sarmatarum gentilium;Item praepositurae magistri militum praesentalis a parte peditum;In Gallia;Praefectus Sarmatarum gentilium, Lingonas.
 PM000373;Occidentis;1616;Au...;tail;1;;unknown;praefectus;Praefectus;Sarmatarum gentilium;Item praepositurae magistri militum praesentalis a parte peditum;In Gallia;Praefectus Sarmatarum gentilium, Au......
-PM000374;Oriens;509;Damasci;tail;1;;unknown;;;Scutaria et armorum;Insignia viri illustris magistri officiorum;Orientis V;Scutaria et armorum, Damasci.
-PM000375;Oriens;510;Antiochiae;tail;1;;unknown;;;Scutaria et armorum;Insignia viri illustris magistri officiorum;Orientis V;Scutaria et armorum, Antiochiae.
-PM000376;Oriens;511;Antiochiae;tail;1;;unknown;;;Clibanaria;Insignia viri illustris magistri officiorum;Orientis V;";Clibanaria, Antiochiae."
-PM000377;Oriens;512;Edesa;tail;1;;unknown;;;Scutaria et armamentaria;Insignia viri illustris magistri officiorum;Orientis V;Scutaria et armamentaria, Edesa.
-PM000378;Oriens;513;Irenopolitana;tail;1;;unknown;;;Hastaria;Insignia viri illustris magistri officiorum;Orientis V;Hastaria Irenopolitana Ciliciae:
-PM000379;Oriens;515;Caesarea;tail;1;;unknown;;;Clibanaria;Insignia viri illustris magistri officiorum;Ponticae quatuor;Clibanaria, Caesarea Cappadociae.
-PM000380;Oriens;516;Nicomediae;tail;1;;unknown;;;Scutaria et armorum;Insignia viri illustris magistri officiorum;Ponticae quatuor;Scutaria et armorum, Nicomediae.
-PM000381;Oriens;517;Nicomediae;tail;1;;unknown;;;Clibanaria;Insignia viri illustris magistri officiorum;Ponticae quatuor;Clibanaria, Nicomediae.
-PM000382;Oriens;519;Sardis;tail;1;;unknown;;;Scutaria et armorum;Insignia viri illustris magistri officiorum;Asianae una;Scutaria et armorum, Sardis Lydiae.
-PM000383;Oriens;521;Hadrianopolis Haemimonti;tail;1;;unknown;;;Scutaria et armorum;Insignia viri illustris magistri officiorum;Thraciarum duae;Scutaria et armorum, Hadrianopolis Haemimonti.
-PM000384;Oriens;522;Marcianopoli;tail;1;;unknown;;;Scutaria et armorum;Insignia viri illustris magistri officiorum;Thraciarum duae;Scutaria et armorum, Marcianopoli.
-PM000385;Oriens;524;Thessalonicensis;factory;1;;unknown;;;Thessalonicensis;Insignia viri illustris magistri officiorum;Illyrici quatuor;Thessalonicensis.
-PM000386;Oriens;525;Naissatensis;factory;1;;unknown;;;Naissatensis;Insignia viri illustris magistri officiorum;Illyrici quatuor;Naissatensis.
-PM000387;Oriens;526;Ratiarensis;factory;1;;unknown;;;Ratiarensis;Insignia viri illustris magistri officiorum;Illyrici quatuor;Ratiarensis.
-PM000388;Oriens;527;Horreomargensis;factory;1;;unknown;;;Scutaria;Insignia viri illustris magistri officiorum;Illyrici quatuor;Scutaria Horreomargensis.
+PM000374;Oriens;509;Damasci;tail;1;;factory;;;Scutaria et armorum;Insignia viri illustris magistri officiorum;Orientis V;Scutaria et armorum, Damasci.
+PM000375;Oriens;510;Antiochiae;tail;1;;factory;;;Scutaria et armorum;Insignia viri illustris magistri officiorum;Orientis V;Scutaria et armorum, Antiochiae.
+PM000376;Oriens;511;Antiochiae;tail;1;;factory;;;Clibanaria;Insignia viri illustris magistri officiorum;Orientis V;";Clibanaria, Antiochiae."
+PM000377;Oriens;512;Edesa;tail;1;;factory;;;Scutaria et armamentaria;Insignia viri illustris magistri officiorum;Orientis V;Scutaria et armamentaria, Edesa.
+PM000378;Oriens;513;Irenopolitana;tail;1;;factory;;;Hastaria;Insignia viri illustris magistri officiorum;Orientis V;Hastaria Irenopolitana Ciliciae:
+PM000379;Oriens;515;Caesarea;tail;1;;factory;;;Clibanaria;Insignia viri illustris magistri officiorum;Ponticae quatuor;Clibanaria, Caesarea Cappadociae.
+PM000380;Oriens;516;Nicomediae;tail;1;;factory;;;Scutaria et armorum;Insignia viri illustris magistri officiorum;Ponticae quatuor;Scutaria et armorum, Nicomediae.
+PM000381;Oriens;517;Nicomediae;tail;1;;factory;;;Clibanaria;Insignia viri illustris magistri officiorum;Ponticae quatuor;Clibanaria, Nicomediae.
+PM000382;Oriens;519;Sardis;tail;1;;factory;;;Scutaria et armorum;Insignia viri illustris magistri officiorum;Asianae una;Scutaria et armorum, Sardis Lydiae.
+PM000383;Oriens;521;Hadrianopolis Haemimonti;tail;1;;factory;;;Scutaria et armorum;Insignia viri illustris magistri officiorum;Thraciarum duae;Scutaria et armorum, Hadrianopolis Haemimonti.
+PM000384;Oriens;522;Marcianopoli;tail;1;;factory;;;Scutaria et armorum;Insignia viri illustris magistri officiorum;Thraciarum duae;Scutaria et armorum, Marcianopoli.
+PM000385;Oriens;524;Thessalonicensis;factory;1;;factory;;;Thessalonicensis;Insignia viri illustris magistri officiorum;Illyrici quatuor;Thessalonicensis.
+PM000386;Oriens;525;Naissatensis;factory;1;;factory;;;Naissatensis;Insignia viri illustris magistri officiorum;Illyrici quatuor;Naissatensis.
+PM000387;Oriens;526;Ratiarensis;factory;1;;factory;;;Ratiarensis;Insignia viri illustris magistri officiorum;Illyrici quatuor;Ratiarensis.
+PM000388;Oriens;527;Horreomargensis;factory;1;;factory;;;Scutaria;Insignia viri illustris magistri officiorum;Illyrici quatuor;Scutaria Horreomargensis.
 PM000389;Oriens;793;Memfi;tail;1;;legion;;;Legio quinta Macadonica;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Legio quinta Macadonica, Memfi.
 PM000390;Oriens;794;Babilona;tail;1;;legion;;;Legio tertiadecima gemina;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Legio tertiadecima gemina, Babilona.
 PM000391;Oriens;795;Pelusio;tail;1;;equites;;;Equites stablesiani;Comes limitis Aegypti;Sub dispositione viri spectabilis comitis rei militaris per Aegyptum;Equites stablesiani, Pelusio.

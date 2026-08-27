@@ -17,6 +17,8 @@ let placesLayer = null;
 let provinceGeoJSON = null;
 let selectedPlaceMarker = null;
 let selectedProvinceLayer = null;
+let searchResultsLayer = null;
+let placesLayerWasVisibleBeforeSearch = null;
 
 function setStatus(text) {
     const element = document.getElementById("status");
@@ -85,6 +87,54 @@ function clearPlace(resetView = false) {
     }
 }
 
+function setPlacesLayerVisible(visible) {
+    if (!map || !placesLayer) {
+        return;
+    }
+
+    if (visible) {
+        if (!map.hasLayer(placesLayer)) {
+            placesLayer.addTo(map);
+        }
+        return;
+    }
+
+    if (map.hasLayer(placesLayer)) {
+        map.removeLayer(placesLayer);
+    }
+}
+
+function clearSearchResults() {
+    if (!map) {
+        return;
+    }
+
+    if (searchResultsLayer) {
+        map.removeLayer(searchResultsLayer);
+        searchResultsLayer = null;
+    }
+
+    if (placesLayerWasVisibleBeforeSearch === true) {
+        setPlacesLayerVisible(true);
+    } else if (placesLayerWasVisibleBeforeSearch === false) {
+        setPlacesLayerVisible(false);
+    }
+
+    placesLayerWasVisibleBeforeSearch = null;
+}
+
+function beginSearchMode() {
+    if (!map || !placesLayer) {
+        return;
+    }
+
+    if (placesLayerWasVisibleBeforeSearch === null) {
+        placesLayerWasVisibleBeforeSearch = map.hasLayer(placesLayer);
+    }
+
+    setPlacesLayerVisible(false);
+}
+
 function clearProvince() {
     if (selectedProvinceLayer && provinceLayer) {
         provinceLayer.resetStyle(selectedProvinceLayer);
@@ -93,9 +143,13 @@ function clearProvince() {
     selectedProvinceLayer = null;
 }
 
-function clearSelection(resetView = false) {
+function clearSelection(resetView = false, clearSearch = true) {
     clearPlace(resetView);
     clearProvince();
+
+    if (clearSearch) {
+        clearSearchResults();
+    }
 }
 
 function highlightProvince(feature) {
@@ -274,12 +328,19 @@ function findPlaceSourceNode(place) {
     return best;
 }
 
-function showPlace(value) {
+function showPlace(value, options = {}) {
+    if (Array.isArray(value)) {
+        return showSearchResults(value);
+    }
+
     if (!map) {
         return null;
     }
 
-    clearSelection();
+    const preserveSearchResults = Boolean(options.preserveSearchResults);
+    const preserveView = Boolean(options.preserveView);
+
+    clearSelection(false, !preserveSearchResults);
 
     const place = resolvePlace(value);
 
@@ -300,7 +361,10 @@ function showPlace(value) {
     }
 
     map.invalidateSize();
-    map.setView([latitude, longitude], PLACE_ZOOM, { animate: false });
+
+    if (!preserveView) {
+        map.setView([latitude, longitude], PLACE_ZOOM, { animate: false });
+    }
 
     selectedPlaceMarker = L.circleMarker(
         [latitude, longitude],
@@ -335,6 +399,116 @@ function showPlace(value) {
     setStatus(`${name} — ${provinceText}`);
 
     return { place, province };
+}
+
+function showSearchResults(values) {
+    if (!map) {
+        return [];
+    }
+
+    beginSearchMode();
+
+    const input = Array.isArray(values) ? values : [values];
+    const resolved = input
+        .map(resolvePlace)
+        .filter(Boolean);
+
+    const mapped = [];
+    const seen = new Set();
+
+    for (const place of resolved) {
+        const latitude = Number(place.latitude);
+        const longitude = Number(place.longitude);
+
+        if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) {
+            continue;
+        }
+
+        const name = place.placeName || place.sourcePlaceName || place.name || "Place";
+        const key = `${normalize(name)}|${latitude}|${longitude}`;
+
+        if (seen.has(key)) {
+            continue;
+        }
+
+        seen.add(key);
+        mapped.push({ place, latitude, longitude, name });
+    }
+
+    clearPlace(false);
+    clearProvince();
+
+    if (searchResultsLayer) {
+        map.removeLayer(searchResultsLayer);
+        searchResultsLayer = null;
+    }
+
+    if (!mapped.length) {
+        map.setView(DEFAULT_VIEW, DEFAULT_ZOOM, { animate: false });
+        setStatus("No mapped places in search results");
+        return [];
+    }
+
+    if (mapped.length === 1) {
+        showPlace(mapped[0].place, {
+            preserveSearchResults: true
+        });
+        return [mapped[0].place];
+    }
+
+    searchResultsLayer = L.layerGroup().addTo(map);
+    const bounds = L.latLngBounds([]);
+
+    for (const item of mapped) {
+        const marker = L.circleMarker(
+            [item.latitude, item.longitude],
+            {
+                pane: "searchResultsPane",
+                radius: 7,
+                weight: 2,
+                fillOpacity: 0.9,
+                bubblingMouseEvents: false
+            }
+        );
+
+        marker.bindTooltip(item.name);
+        marker.on("click", () => {
+            if (!showPlace(item.place, {
+                preserveSearchResults: true,
+                preserveView: true
+            })) {
+                return;
+            }
+
+            const sourceNode = findPlaceSourceNode(item.place);
+            notifyPlaceSelection(item.place, sourceNode);
+        });
+
+        marker.addTo(searchResultsLayer);
+        bounds.extend([item.latitude, item.longitude]);
+    }
+
+    map.invalidateSize();
+
+    if (bounds.isValid()) {
+        map.fitBounds(bounds, {
+            padding: [40, 40],
+            maxZoom: PLACE_ZOOM,
+            animate: false
+        });
+    }
+
+    // Search mode is exclusive: never leave the ordinary Places layer on.
+    setPlacesLayerVisible(false);
+
+    const missingCoordinates = resolved.length - mapped.length;
+    const suffix = missingCoordinates
+        ? ` — ${missingCoordinates} without coordinates`
+        : "";
+
+    setStatus(`${mapped.length} places shown${suffix}`);
+
+    return mapped.map(item => item.place);
 }
 
 const showPlaceName = showPlace;
@@ -427,6 +601,9 @@ async function init() {
 
     map = L.map("map").setView(DEFAULT_VIEW, DEFAULT_ZOOM);
 
+    map.createPane("searchResultsPane");
+    map.getPane("searchResultsPane").style.zIndex = "640";
+
     map.createPane("selectedPlacePane");
     map.getPane("selectedPlacePane").style.zIndex = "650";
 
@@ -468,9 +645,13 @@ async function init() {
 const MapView = {
     init,
     clearSelection,
+    clearSearchResults,
+    beginSearchMode,
+    setPlacesLayerVisible,
     hasPlace,
     showPlace,
     showPlaceName,
+    showSearchResults,
     getProvinceForPlace,
     getProvinceForPlaceName,
     findProvince
@@ -482,9 +663,13 @@ export default MapView;
 export {
     init,
     clearSelection,
+    clearSearchResults,
+    beginSearchMode,
+    setPlacesLayerVisible,
     hasPlace,
     showPlace,
     showPlaceName,
+    showSearchResults,
     getProvinceForPlace,
     getProvinceForPlaceName,
     findProvince
