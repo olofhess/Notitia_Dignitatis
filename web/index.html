@@ -61,8 +61,27 @@ body {
     border-radius: 0.5rem;
 }
 
+/* Demo: manuscript image -> exact Notitia line.
+   Position is intentionally isolated here so it is easy to fine-tune. */
+.amida-demo {
+    position: absolute;
+    left: 65.0%;
+    top: 15.0%;
+    width: 10.5%;
+    height: 9.0%;
+    z-index: 3;
+    border-radius: 0.35rem;
+    cursor: pointer;
+}
+
+.amida-demo:hover {
+    outline: 2px solid rgba(255, 245, 210, 0.9);
+    background: rgba(255, 245, 210, 0.10);
+}
+
 .enter-app:focus-visible,
-.about-project:focus-visible {
+.about-project:focus-visible,
+.amida-demo:focus-visible {
     outline: 3px solid #ffffff;
     outline-offset: 3px;
 }
@@ -89,6 +108,13 @@ body {
     <img
         src="living-notitia-home.webp"
         alt="Living Notitia — explore the Notitia Dignitatum through text, structure, context, and map.">
+
+    <a
+        class="amida-demo"
+        href="app.html?document=Oriens&line=1066"
+        aria-label="Open Amida in Living Notitia"
+        title="Amida — open the corresponding Notitia entry">
+    </a>
 
     <a
         class="enter-app"
