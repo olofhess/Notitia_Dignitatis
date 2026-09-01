@@ -45,6 +45,10 @@ export function search(options={}){
         options.office||""
     );
 
+    const ownerOffice=normalize(
+        options.ownerOffice||""
+    );
+
     const dimension=normalize(
         options.dimension||""
     );
@@ -73,6 +77,14 @@ export function search(options={}){
             office &&
             normalize(record.officeType)!==
             office
+        ){
+            return false;
+        }
+
+        if(
+            ownerOffice &&
+            normalize(record.ownerOffice)!==
+            ownerOffice
         ){
             return false;
         }
@@ -112,6 +124,18 @@ export function officeTypes(){
         searchIndex
             .map(
                 record=>record.officeType
+            )
+            .filter(Boolean)
+    );
+
+}
+
+export function ownerOffices(){
+
+    return uniqueSorted(
+        searchIndex
+            .map(
+                record=>record.ownerOffice
             )
             .filter(Boolean)
     );
@@ -189,6 +213,16 @@ function createRecord(node){
             "chapter"
         );
 
+    const officiumNode=
+        ancestorOfficium(node);
+
+    const ownerOffice=
+        clean(
+            officiumNode?.getAttribute(
+                "ownerOffice"
+            )
+        );
+
     const title=
         directTitle(node);
 
@@ -228,6 +262,7 @@ function createRecord(node){
                 office,
                 officeType,
                 unit,
+                ownerOffice,
                 ...places.map(
                     place=>place.name
                 ),
@@ -253,6 +288,7 @@ function createRecord(node){
         office,
         officeType,
         unit,
+        ownerOffice,
         places,
         document,
         chapter,
@@ -308,6 +344,31 @@ function ancestorOrSelf(node,name){
 
         if(current.tagName===name){
             return current;
+        }
+
+        current=current.parentElement;
+
+    }
+
+    return null;
+
+}
+
+function ancestorOfficium(node){
+
+    let current=node;
+
+    while(current){
+
+        if(
+            current.tagName==="group" &&
+            current.getAttribute("type")==="officium"
+        ){
+            return current;
+        }
+
+        if(current.tagName==="document"){
+            break;
         }
 
         current=current.parentElement;

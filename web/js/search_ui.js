@@ -10,6 +10,7 @@ import MapView from "./map.js";
 let searchBox=null;
 let placeSourceSelect=null;
 let officeSelect=null;
+let ownerOfficeSelect=null;
 let dimensionSelect=null;
 let status=null;
 let resultsPanel=null;
@@ -46,6 +47,13 @@ export function initialize(){
             Search.officeTypes()
         );
 
+    ownerOfficeSelect=
+        createSelect(
+            "searchOwnerOffice",
+            "Owner office",
+            Search.ownerOffices()
+        );
+
     dimensionSelect=
         createSelect(
             "searchDimension",
@@ -59,6 +67,10 @@ export function initialize(){
 
     toolbar.appendChild(
         officeSelect
+    );
+
+    toolbar.appendChild(
+        ownerOfficeSelect
     );
 
     toolbar.appendChild(
@@ -78,6 +90,11 @@ export function initialize(){
     );
 
     officeSelect.addEventListener(
+        "change",
+        runSearch
+    );
+
+    ownerOfficeSelect.addEventListener(
         "change",
         runSearch
     );
@@ -256,6 +273,9 @@ function runSearch(){
     const office=
         officeSelect.value;
 
+    const ownerOffice=
+        ownerOfficeSelect.value;
+
     const dimension=
         dimensionSelect.value;
 
@@ -263,6 +283,7 @@ function runSearch(){
         !text &&
         !placeSource &&
         !office &&
+        !ownerOffice &&
         !dimension
     ){
 
@@ -276,11 +297,17 @@ function runSearch(){
         return;
     }
 
+    // A new search must start from a clean map selection.
+    // Keep the Inspector as it is, but remove any previously selected
+    // place marker, popup and province highlight before drawing search results.
+    MapView.clearSelection(false);
+
     const results=
         Search.search({
             text,
             placeSource,
             office,
+            ownerOffice,
             dimension
         });
 

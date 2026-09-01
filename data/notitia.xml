@@ -356,7 +356,7 @@
                         <unit>fundorum patrimonialium</unit>
                     </unknown>
                 </group>
-            </group><group type="officium" line="167">
+            </group><group type="officium" line="167" ownerOffice="Praefectus praetorio Italiae">
                 <title>Officium viri illustris praefecti praeterio Italiae</title>
                 <unknown line="168">
                     <unit>Princeps</unit>
@@ -459,7 +459,7 @@
                 </unknown><unknown line="218">
                     <unit>Flavia Caesariensis</unit>
                 </unknown>
-            </group><group type="officium" line="219">
+            </group><group type="officium" line="219" ownerOffice="Praefectus praetorio Galliarum">
                 <title>Officium viri illustris praefecti praetorio Galliarum</title>
                 <unknown line="220">
                     <unit>Princeps</unit>
@@ -535,7 +535,7 @@
                     <office type="tribunus">Tribunus</office>
                     <unit>rerum nitentium</unit>
                 </unknown>
-            </group><group type="officium" line="252">
+            </group><group type="officium" line="252" ownerOffice="Praefectus urbis Romae">
                 <title>Officium viri illustris praefecti urbis</title>
                 <unknown line="253">
                     <unit>Princeps</unit>
@@ -877,7 +877,7 @@
                         <unit>Romanenses</unit>
                     </unknown>
                 </group>
-            </group><group type="officium" line="421">
+            </group><group type="officium" line="421" ownerOffice="Magister peditum praesentalis">
                 <title>Officium suprascripti magistri peditum praesentalis</title>
                 <unknown line="422">
                     <unit>Princeps</unit>
@@ -988,7 +988,7 @@
                         <unit>Cuneus equitum promotorum</unit>
                     </cuneus>
                 </group>
-            </group><group type="officium" line="476">
+            </group><group type="officium" line="476" ownerOffice="Magister equitum">
                 <title>Officium suprascriptae magisteriae potestatis</title>
                 <unknown line="477">
                     <unit>Princeps</unit>
@@ -1229,7 +1229,7 @@
                 </unknown><unknown line="595">
                     <unit>Exploratores</unit>
                 </unknown>
-            </group><group type="officium" line="596">
+            </group><group type="officium" line="596" ownerOffice="Magister equitum per Gallias">
                 <title>Officium viri illustris magistri equitum per Gallias</title>
                 <unknown line="597">
                     <unit>Princeps ex officiis magistrorum militum praesentalium, uno anno a parte peditum, ali a parte equitum.</unit>
@@ -1527,7 +1527,7 @@
                         <unit>Augustodunensis scutaria</unit>
                         <place source="factory">Augustodunensis</place>
                     </factory><factory line="733">
-                        <unit>Suessionensis.......</unit>
+                        <unit>Suessionensis</unit>
                         <place source="factory">Suessionensis</place>
                     </factory><factory line="734">
                         <unit>Remensis spatharia</unit>
@@ -1543,7 +1543,7 @@
                         <place source="factory">Ambianensis</place>
                     </factory>
                 </group>
-            </group><group type="officium" line="738">
+            </group><group type="officium" line="738" ownerOffice="Magister officiorum">
                 <title>Officium autem suprascripti viri illustris magistri officiorum de scola agentum in rebus habetur hoc modo</title>
                 <unknown line="739">
                     <unit>Adiutor</unit>
@@ -1893,7 +1893,7 @@
             </group><unknown line="837">
                 <office type="comes">Comes</office>
                 <unit>commerciorum per Illyricum</unit>
-            </unknown><group type="officium" line="838">
+            </unknown><group type="officium" line="838" ownerOffice="Comes sacrarum largitionum">
                 <title>Officium autem suprascripti viri illustris comitis sacrarum largitionum habet</title>
                 <unknown line="839">
                     <unit>Primicerium totius officii</unit>
@@ -2006,7 +2006,7 @@
                     <office type="praepositus">Praepositus</office>
                     <unit>bastagae privatarum Galliarum</unit>
                 </unknown>
-            </group><group type="officium" line="881">
+            </group><group type="officium" line="881" ownerOffice="Comes rerum privatarum">
                 <title>Officium autem suprascripti viri illustris comitis rerum privatarum habet</title>
                 <unknown line="882">
                     <unit>Primicerium totius officii</unit>
@@ -2052,7 +2052,7 @@
                 </unknown><unknown line="906">
                     <unit>Curae palatiorum</unit>
                 </unknown>
-            </group><group type="officium" line="907">
+            </group><group type="officium" line="907" ownerOffice="Castrensis sacri palatii">
                 <title>Officium autem viri spectabilis castrensis habet</title>
                 <unknown line="908">
                     <unit>Tabularium domini</unit>
@@ -2090,7 +2090,7 @@
                 <unknown line="928">
                     <unit>Provincia proconsularis et legati eius duo</unit>
                 </unknown>
-            </group><group type="officium" line="929">
+            </group><group type="officium" line="929" ownerOffice="Proconsul Africae">
                 <title>Officium autem habet ita</title>
                 <unknown line="930">
                     <unit>Principem de scola agentum in rebus ducenarium</unit>
@@ -2145,7 +2145,7 @@
                 </unknown><unknown line="955">
                     <unit>Valeriae</unit>
                 </unknown>
-            </group><group type="officium" line="956">
+            </group><group type="officium" line="956" ownerOffice="Vicarius urbis Romae">
                 <title>Officium autem supradictus uir spectabilis vicarius habet ita</title>
                 <unknown line="957">
                     <unit>Principem de scola agentum in rebus ducenarium</unit>
@@ -2188,7 +2188,7 @@
                 </unknown><unknown line="977">
                     <unit>Mauritaniae Caesariensis</unit>
                 </unknown>
-            </group><group type="officium" line="978">
+            </group><group type="officium" line="978" ownerOffice="Vicarius Africae">
                 <title>Officium autem habet idem uir spectabilis vicarius hoc modo</title>
                 <unknown line="979">
                     <unit>Principem de scola agentum in rebus ducenarium</unit>
@@ -2235,7 +2235,7 @@
                 </unknown><unknown line="1001">
                     <unit>Insularum Balearum</unit>
                 </unknown>
-            </group><group type="officium" line="1002">
+            </group><group type="officium" line="1002" ownerOffice="Vicarius Hispaniae">
                 <title>Officium autem habet idem uir spectabilis vicarius hoc modo</title>
                 <unknown line="1003">
                     <unit>Principem de scola agentum in rebus exducenariis</unit>
@@ -2304,7 +2304,7 @@
                         <unit>Lugdunensis Senoniae</unit>
                     </unknown>
                 </group>
-            </group><group type="officium" line="1036">
+            </group><group type="officium" line="1036" ownerOffice="Vicarius Septem provinciarum">
                 <title>Officium autem habet idem uir spectabilis vicarius hoc modo</title>
                 <unknown line="1037">
                     <unit>Principem de scola agentum in rebus exducenariis</unit>
@@ -2349,7 +2349,7 @@
                         <unit>Flaviae Caesariensis</unit>
                     </unknown>
                 </group>
-            </group><group type="officium" line="1058">
+            </group><group type="officium" line="1058" ownerOffice="Vicarius Britanniarum">
                 <title>Officium autem habet idem uir spectebilis vicarius hoc modo</title>
                 <unknown line="1059">
                     <unit>Principem de scola agentum in rebus exducenariis</unit>
@@ -2455,7 +2455,7 @@
                         <place source="limes">Badensis</place>
                     </unknown>
                 </group>
-            </group><group type="officium" line="1095">
+            </group><group type="officium" line="1095" ownerOffice="Comes Africae">
                 <title>Officium autem habet idem uir spectabilis comes hoc modo</title>
                 <unknown line="1096">
                     <unit>Principem ex officiis magistrorum militum praesentalium, uno anno a parte peditum, alio a parte equitum.</unit>
@@ -2517,7 +2517,7 @@
                         <place source="tail">Friglas</place>
                     </unknown>
                 </group>
-            </group><group type="officium" line="1118">
+            </group><group type="officium" line="1118" ownerOffice="Comes Tingitaniae">
                 <title>Officium autem habet idem iur spectabilis comes hoc modo</title>
                 <unknown line="1119">
                     <unit>Principem ex officiis magistrorum militum praesentalium, uno anno a parte peditum, alio anno a parte equitum.</unit>
@@ -2588,7 +2588,7 @@
                     <unit>numeri exploratorum</unit>
                     <place source="tail">Portum Adurni</place>
                 </unknown>
-            </group><group type="officium" line="1146">
+            </group><group type="officium" line="1146" ownerOffice="Comes litoris Saxonici per Britanniam">
                 <title>Officium autem habet idem uir spectabilis comes hoc modo</title>
                 <unknown line="1147">
                     <unit>Principem ex officiis magistrorum militum praesentalium parte peditum</unit>
@@ -2615,7 +2615,7 @@
                 <unknown line="1159">
                     <unit>Provincia Britannia</unit>
                 </unknown>
-            </group><group type="officium" line="1160">
+            </group><group type="officium" line="1160" ownerOffice="Comes Britanniae">
                 <title>Officium autem habet idem uir spectabilis comes hoc modo</title>
                 <unknown line="1161">
                     <unit>Principem ex officiis magistrorum militum praesentalium alternis annis</unit>
@@ -2672,7 +2672,7 @@
                     <unit>limitis Augustensis</unit>
                     <place source="limes">Augustensis</place>
                 </unknown>
-            </group><group type="officium" line="1181">
+            </group><group type="officium" line="1181" ownerOffice="Dux et praeses provinciae Mauritaniae">
                 <title>Officium autem habet idem uir spectabilis dux et praeses hoc modo</title>
                 <unknown line="1182">
                     <unit>Principem ex officiis magistrorum militum praesentalium alternis annis</unit>
@@ -2753,7 +2753,7 @@
                     <unit>limitis Sarcitani</unit>
                     <place source="limes">Sarcitani</place>
                 </unknown>
-            </group><group type="officium" line="1209">
+            </group><group type="officium" line="1209" ownerOffice="Dux provinciae Tripolitanae">
                 <title>Officium autem habet idem uir spectabilis dux hoc modo</title>
                 <unknown line="1210">
                     <unit>Principem ex officiis magistrorum militum praesentalium alternis annis</unit>
@@ -2896,7 +2896,7 @@
                 </unknown><unknown line="1257">
                     <office type="praefectus">Praefectus</office>
                     <unit>classis Aegetensium siue secundae Pannonicae</unit>
-                    <place source="tail">..... nunc Sisciae</place>
+                    <place source="alternate">Sisciae</place>
                 </unknown><unknown line="1258">
                     <office type="tribunus">Tribunus</office>
                     <unit>cohortis tertiae Alpinorum</unit>
@@ -2910,7 +2910,7 @@
                     <unit>cohortis primae Thracum civium Romanorum</unit>
                     <place source="tail">Caput Basensis</place>
                 </unknown>
-            </group><group type="officium" line="1261">
+            </group><group type="officium" line="1261" ownerOffice="Dux Pannoniae">
                 <title>Officium autem habet idem uir spectabilis dux hoc modo</title>
                 <unknown line="1262">
                     <unit>Principem de eodem officio</unit>
@@ -3080,7 +3080,7 @@
                     <unit>legionis</unit>
                     <place source="tail">Transiacinco</place>
                 </unknown>
-            </group><group type="officium" line="1316">
+            </group><group type="officium" line="1316" ownerOffice="Dux provinciae Valeriae">
                 <title>Officium autem habet idem uir spectabilis dux hoc modo</title>
                 <unknown line="1317">
                     <unit>Principem de eodem corpore</unit>
@@ -3218,7 +3218,7 @@
                     <unit>cohortis</unit>
                     <place source="tail">Cannabiaca</place>
                 </unknown>
-            </group><group type="officium" line="1362">
+            </group><group type="officium" line="1362" ownerOffice="Dux Pannoniae primae">
                 <title>Officium autem habet idem uir spectabilis dux hoc modo</title>
                 <unknown line="1363">
                     <unit>Principem de eodem corpore</unit>
@@ -3326,7 +3326,7 @@
                     <unit>cohortis Herculeae Pannoniorum</unit>
                     <place source="tail">Arbore</place>
                 </unknown>
-            </group><group type="officium" line="1396">
+            </group><group type="officium" line="1396" ownerOffice="Dux Raetiae">
                 <title>Officium autem habet idem uir spectabilis dux hoc modo</title>
                 <unknown line="1397">
                     <unit>Principem ex officiis magistrorum militum praesentalium alternis annis</unit>
@@ -3354,7 +3354,7 @@
                     <unit>Milites Latavienses</unit>
                     <place source="tail">Olitione</place>
                 </milites>
-            </group><group type="officium" line="1410">
+            </group><group type="officium" line="1410" ownerOffice="Dux provinciae Sequanici">
                 <title>Officium autem habet idem uir spectabilis dux hoc modo</title>
                 <unknown line="1411">
                     <unit>Principem ex officio magistri militum praesentalis aparte peditum</unit>
@@ -3432,7 +3432,7 @@
                 </unknown><unknown line="1438">
                     <unit>et tertiam</unit>
                 </unknown>
-            </group><group type="officium" line="1439">
+            </group><group type="officium" line="1439" ownerOffice="Dux tractus Armoricani">
                 <title>Officium autem habet idem uir spectabilis dux hoc modo</title>
                 <unknown line="1440">
                     <unit>Principem ex officiis magistrorum militum praesentalium alternis annis</unit>
@@ -3469,7 +3469,7 @@
                     <unit>militum Neruiorum</unit>
                     <place source="tail">Portu Epatiaci</place>
                 </unknown>
-            </group><group type="officium" line="1455">
+            </group><group type="officium" line="1455" ownerOffice="Dux Belgicae secundae">
                 <title>Officium autem habet idem uir spectabilis dux hoc modo</title>
                 <unknown line="1456">
                     <unit>Principem xe eodem corpore</unit>
@@ -3647,7 +3647,7 @@
                     <unit>cohortis sextae Neruiorum</unit>
                     <place source="tail">Virosido</place>
                 </unknown>
-            </group><group type="officium" line="1509">
+            </group><group type="officium" line="1509" ownerOffice="Dux Britanniarum">
                 <title>Officium autem habet idem uir spectabilis dux hoc modo</title>
                 <unknown line="1510">
                     <unit>Principem ex officiis magistrorum militum praesentalium alternis annis</unit>
@@ -3716,7 +3716,7 @@
                     <unit>militum Acincensium</unit>
                     <place source="tail">Antonaco</place>
                 </unknown>
-            </group><group type="officium" line="1533">
+            </group><group type="officium" line="1533" ownerOffice="Dux Mogontiacensis">
                 <title>Officium autem habet idem uir spectabilis dux hoc modo</title>
                 <unknown line="1534">
                     <unit>Principem ex officiis magistrorum militum praesentalium alternis annis</unit>
@@ -4018,7 +4018,7 @@
                 <unknown line="1622">
                     <unit>Provincia Campaniae</unit>
                 </unknown>
-            </group><group type="officium" line="1623">
+            </group><group type="officium" line="1623" ownerOffice="Consularis Campaniae">
                 <title>Officium autem habet ita</title>
                 <unknown line="1624">
                     <unit>Principem de officio praetorio Italiae</unit>
@@ -4047,7 +4047,7 @@
                 <unknown line="1637">
                     <unit>Provincia Apuliae et Calabriae</unit>
                 </unknown>
-            </group><group type="officium" line="1638">
+            </group><group type="officium" line="1638" ownerOffice="Corrector Apuliae et Calabriae">
                 <title>Officium autem habet ita</title>
                 <unknown line="1639">
                     <unit>Principem ex eodem officio</unit>
@@ -4076,7 +4076,7 @@
                 <unknown line="1652">
                     <unit>Provincia Dalmatiae</unit>
                 </unknown>
-            </group><group type="officium" line="1653">
+            </group><group type="officium" line="1653" ownerOffice="Praeses Dalmatiae">
                 <title>Officium autem habet hoc modo</title>
                 <unknown line="1654">
                     <unit>Principem ex eodem officio</unit>
@@ -4515,7 +4515,7 @@
                         <unit>Scythia</unit>
                     </unknown>
                 </group>
-            </group><group type="officium" line="192">
+            </group><group type="officium" line="192" ownerOffice="Praefectus praetorio Orientis">
                 <title>Officium viri illustris praefecti praetorio Orientis</title>
                 <unknown line="193">
                     <unit>Princeps</unit>
@@ -4583,7 +4583,7 @@
                         <unit>Praeualitana et pars Macedoniae salutaris</unit>
                     </unknown>
                 </group>
-            </group><group type="officium" line="225">
+            </group><group type="officium" line="225" ownerOffice="Praefectus praetorio per Illyricum">
                 <title>Officium viri illustris praefecti praetorio per Illyricum</title>
                 <unknown line="226">
                     <unit>Princeps</unit>
@@ -4704,23 +4704,24 @@
                 </unknown><unknown line="284">
                     <unit>Felices Theodosiani Isauri</unit>
                 </unknown>
-            </group><unknown line="285">
-                <unit>Officium autem suprascriptae magisteriae in praesenti potestatis in numeris militat et in officio deputatur;</unit>
-            </unknown><group type="unknown" line="286">
-                <title>Habet autem dignitates infrascriptas</title>
-                <unknown line="287">
-                    <unit>Principem</unit>
-                </unknown><unknown line="288">
-                    <unit>Numerarios duos</unit>
-                </unknown><unknown line="289">
-                    <unit>Commentariensem</unit>
-                </unknown><unknown line="290">
-                    <unit>Primiscrinios</unit>
-                </unknown><unknown line="291">
-                    <unit>Scriniarios</unit>
-                </unknown><unknown line="292">
-                    <unit>Exceptores et ceteros apparitores</unit>
-                </unknown>
+            </group><group type="officium" line="285" ownerOffice="Magister militum praesentalis">
+                <title>Officium autem suprascriptae magisteriae in praesenti potestatis in numeris militat et in officio deputatur</title>
+                <group type="unknown" line="286">
+                    <title>Habet autem dignitates infrascriptas</title>
+                    <unknown line="287">
+                        <unit>Principem</unit>
+                    </unknown><unknown line="288">
+                        <unit>Numerarios duos</unit>
+                    </unknown><unknown line="289">
+                        <unit>Commentariensem</unit>
+                    </unknown><unknown line="290">
+                        <unit>Primiscrinios, qui Numerarii fiunt.</unit>
+                    </unknown><unknown line="291">
+                        <unit>Scriniarios</unit>
+                    </unknown><unknown line="292">
+                        <unit>Exceptores et ceteros apparitores</unit>
+                    </unknown>
+                </group>
             </group><unknown line="293">
                 <unit>Magister militum in praesenti XV</unit>
             </unknown>
@@ -4814,23 +4815,24 @@
                 <title>Item Pseudocomitatenses</title>
             </group><auxilia line="338">
                 <unit>Auxiliarii sagittarii</unit>
-            </auxilia><unknown line="339">
-                <unit>Officium autem suprascriptae magisteriae in praesenti potestatis cardinale habetur;</unit>
-            </unknown><group type="unknown" line="340">
-                <title>Habet autem dignitates infrascriptas</title>
-                <unknown line="341">
-                    <unit>Principes duos</unit>
-                </unknown><unknown line="342">
-                    <unit>Numerarios duos</unit>
-                </unknown><unknown line="343">
-                    <unit>Commentariensem</unit>
-                </unknown><unknown line="344">
-                    <unit>Primiscrinios</unit>
-                </unknown><unknown line="345">
-                    <unit>Scriniaros</unit>
-                </unknown><unknown line="346">
-                    <unit>Exceptores et ceteros appereitores</unit>
-                </unknown>
+            </auxilia><group type="officium" line="339" ownerOffice="Magister militum praesentalis">
+                <title>Officium autem suprascriptae magisteriae in praesenti potestatis cardinale habetur</title>
+                <group type="unknown" line="340">
+                    <title>Habet autem dignitates infrascriptas</title>
+                    <unknown line="341">
+                        <unit>Principes duos</unit>
+                    </unknown><unknown line="342">
+                        <unit>Numerarios duos</unit>
+                    </unknown><unknown line="343">
+                        <unit>Commentariensem</unit>
+                    </unknown><unknown line="344">
+                        <unit>Primiscrinios, qui numerarii fiunt.</unit>
+                    </unknown><unknown line="345">
+                        <unit>Scriniaros</unit>
+                    </unknown><unknown line="346">
+                        <unit>Exceptores et ceteros appereitores</unit>
+                    </unknown>
+                </group>
             </group><unknown line="347">
                 <unit>Magister militum in praesenti XV</unit>
             </unknown>
@@ -4912,25 +4914,26 @@
                 </unknown><unknown line="386">
                     <unit>Transtigritani</unit>
                 </unknown>
-            </group><unknown line="387">
-                <unit>Officium Autem magisteriae per Orientem potestatis cardinale habetur;</unit>
-            </unknown><group type="unknown" line="388">
-                <title>Habet autem dignitates infrascriptas</title>
-                <unknown line="389">
-                    <unit>Principem</unit>
-                </unknown><unknown line="390">
-                    <unit>Numerarios duos</unit>
-                </unknown><unknown line="391">
-                    <unit>Commentariensem</unit>
-                </unknown><unknown line="392">
-                    <unit>Adiutorem</unit>
-                </unknown><unknown line="393">
-                    <unit>Scriniarios</unit>
-                </unknown><unknown line="394">
-                    <unit>Mensores</unit>
-                </unknown><unknown line="395">
-                    <unit>Exceptores et ceteros apparitores</unit>
-                </unknown>
+            </group><group type="officium" line="387" ownerOffice="Magister militum per Orientem">
+                <title>Officium Autem magisteriae per Orientem potestatis cardinale habetur</title>
+                <group type="unknown" line="388">
+                    <title>Habet autem dignitates infrascriptas</title>
+                    <unknown line="389">
+                        <unit>Principem</unit>
+                    </unknown><unknown line="390">
+                        <unit>Numerarios duos</unit>
+                    </unknown><unknown line="391">
+                        <unit>Commentariensem</unit>
+                    </unknown><unknown line="392">
+                        <unit>Adiutorem</unit>
+                    </unknown><unknown line="393">
+                        <unit>Scriniarios</unit>
+                    </unknown><unknown line="394">
+                        <unit>Mensores</unit>
+                    </unknown><unknown line="395">
+                        <unit>Exceptores et ceteros apparitores</unit>
+                    </unknown>
+                </group>
             </group><unknown line="396">
                 <unit>Magister militum per Orientem XXV</unit>
             </unknown>
@@ -5001,23 +5004,24 @@
                 </unknown><unknown line="430">
                     <unit>Valentinianenses</unit>
                 </unknown>
-            </group><group type="officium" line="431">
+            </group><group type="officium" line="431" ownerOffice="Magister militum per Thracias">
                 <title>Officium autem magistriae per Thracias potestatis in numeris militat et in officio deputatur</title>
-            </group><group type="unknown" line="432">
-                <title>Habet autem dignitates infrascriptas</title>
-                <unknown line="433">
-                    <unit>Principem</unit>
-                </unknown><unknown line="434">
-                    <unit>Numerarios duos</unit>
-                </unknown><unknown line="435">
-                    <unit>Commentariensem</unit>
-                </unknown><unknown line="436">
-                    <unit>Primiscrinios</unit>
-                </unknown><unknown line="437">
-                    <unit>Scriniarios</unit>
-                </unknown><unknown line="438">
-                    <unit>Exceptores et ceteros apparitores</unit>
-                </unknown>
+                <group type="unknown" line="432">
+                    <title>Habet autem dignitates infrascriptas</title>
+                    <unknown line="433">
+                        <unit>Principem</unit>
+                    </unknown><unknown line="434">
+                        <unit>Numerarios duos</unit>
+                    </unknown><unknown line="435">
+                        <unit>Commentariensem</unit>
+                    </unknown><unknown line="436">
+                        <unit>Primiscrinios, qui numerarii fiunt.</unit>
+                    </unknown><unknown line="437">
+                        <unit>Scriniarios</unit>
+                    </unknown><unknown line="438">
+                        <unit>Exceptores et ceteros apparitores</unit>
+                    </unknown>
+                </group>
             </group><unknown line="439">
                 <unit>Magister militum per Thracias XV</unit>
             </unknown>
@@ -5092,23 +5096,24 @@
                 </unknown><unknown line="474">
                     <unit>Scampenses</unit>
                 </unknown>
-            </group><unknown line="475">
-                <unit>Officium autem magisteriae per Illyricum potestatis in numeris militat et in officio deputatur;</unit>
-            </unknown><group type="unknown" line="476">
-                <title>Habet autem dignitates infrascriptas</title>
-                <unknown line="477">
-                    <unit>Principem</unit>
-                </unknown><unknown line="478">
-                    <unit>Numerarios duos</unit>
-                </unknown><unknown line="479">
-                    <unit>Commentariensem</unit>
-                </unknown><unknown line="480">
-                    <unit>Primiscrinios</unit>
-                </unknown><unknown line="481">
-                    <unit>Scriniarios</unit>
-                </unknown><unknown line="482">
-                    <unit>Exceptores et ceteros apparitores</unit>
-                </unknown>
+            </group><group type="officium" line="475" ownerOffice="Magister militum per Illyricum">
+                <title>Officium autem magisteriae per Illyricum potestatis in numeris militat et in officio deputatur</title>
+                <group type="unknown" line="476">
+                    <title>Habet autem dignitates infrascriptas</title>
+                    <unknown line="477">
+                        <unit>Principem</unit>
+                    </unknown><unknown line="478">
+                        <unit>Numerarios duos</unit>
+                    </unknown><unknown line="479">
+                        <unit>Commentariensem</unit>
+                    </unknown><unknown line="480">
+                        <unit>Primiscrinios, qui numerarii fiunt.</unit>
+                    </unknown><unknown line="481">
+                        <unit>Scriniarios</unit>
+                    </unknown><unknown line="482">
+                        <unit>Exceptores et ceteros apparitores</unit>
+                    </unknown>
+                </group>
             </group><unknown line="483">
                 <unit>Magister militum per Illyricum XV</unit>
             </unknown>
@@ -5218,7 +5223,7 @@
                         <place source="factory">Horreomargensis</place>
                     </factory>
                 </group>
-            </group><group type="officium" line="528">
+            </group><group type="officium" line="528" ownerOffice="Magister officiorum">
                 <title>Officium autem suprascripti viri illustris magistri officiorum de scola agentum in rebus est ita</title>
                 <unknown line="529">
                     <unit>Adiutor</unit>
@@ -5230,22 +5235,21 @@
                     <unit>Fabricarum ters</unit>
                 </unknown><group type="unknown" line="533">
                     <title>Barbaricariorum quatuor</title>
-                    <unknown line="534">
-                        <unit>Orientis unus</unit>
-                    </unknown><unknown line="535">
-                        <unit>Asianae unus</unit>
-                    </unknown><unknown line="536">
-                        <unit>Ponticae unus</unit>
-                    </unknown><unknown line="537">
-                        <unit>Thraciarum et Illyrici unus</unit>
-                    </unknown><unknown line="538">
-                        <unit>Curiosus cursus publici praesentalis unus</unit>
-                    </unknown><unknown line="539">
-                        <unit>Curiosi per omnes provincias</unit>
-                    </unknown><unknown line="540">
-                        <unit>Interpretes diuersarum gentium</unit>
-                    </unknown>
-                </group>
+                </group><unknown line="534">
+                    <unit>Orientis unus</unit>
+                </unknown><unknown line="535">
+                    <unit>Asianae unus</unit>
+                </unknown><unknown line="536">
+                    <unit>Ponticae unus</unit>
+                </unknown><unknown line="537">
+                    <unit>Thraciarum et Illyrici unus</unit>
+                </unknown><unknown line="538">
+                    <unit>Curiosus cursus publici praesentalis unus</unit>
+                </unknown><unknown line="539">
+                    <unit>Curiosi per omnes provincias</unit>
+                </unknown><unknown line="540">
+                    <unit>Interpretes diuersarum gentium</unit>
+                </unknown>
             </group><unknown line="541">
                 <unit>Magister officiorum ipse emittit</unit>
             </unknown>
@@ -5305,7 +5309,7 @@
                     <office type="procurator">Procuratores</office>
                     <unit>linyfiorum</unit>
                 </civil>
-            </group><group type="officium" line="569">
+            </group><group type="officium" line="569" ownerOffice="Comes sacrarum largitionum">
                 <title>Officium autem suprascripti viri illustris comitis sacrarum largitionum habet</title>
                 <unknown line="570">
                     <unit>Primicerium totius officii</unit>
@@ -5354,7 +5358,7 @@
                     <office type="procurator">Procuratores</office>
                     <unit>saltuum</unit>
                 </civil>
-            </group><group type="officium" line="592">
+            </group><group type="officium" line="592" ownerOffice="Comes rerum privatarum">
                 <title>Officium autem suprascripti viri illustris comitis rerum privatarum habet</title>
                 <unknown line="593">
                     <unit>Primicerium totus officii</unit>
@@ -5402,7 +5406,7 @@
                 </unknown><unknown line="616">
                     <unit>Curae palatiorum</unit>
                 </unknown>
-            </group><group type="officium" line="617">
+            </group><group type="officium" line="617" ownerOffice="Castrensis">
                 <title>Officium autem suprascripti viri spectabilis castrensis habet</title>
                 <unknown line="618">
                     <unit>Tabularium dominicum</unit>
@@ -5449,27 +5453,28 @@
                     <unit>Insulae</unit>
                 </unknown><unknown line="642">
                     <unit>Hellespontus</unit>
-                </unknown><group type="officium" line="643">
+                </unknown><group type="officium" line="643" ownerOffice="Proconsul Asiae">
                     <title>Officium autem habet ita</title>
-                </group><unknown line="644">
-                    <unit>Principem de eodem officio</unit>
-                </unknown><unknown line="645">
-                    <unit>Cornicularium</unit>
-                </unknown><unknown line="646">
-                    <unit>Adiutorem</unit>
-                </unknown><unknown line="647">
-                    <unit>Commentariensem</unit>
-                </unknown><unknown line="648">
-                    <unit>Ab actis</unit>
-                </unknown><unknown line="649">
-                    <unit>Numerarios</unit>
-                </unknown><unknown line="650">
-                    <unit>Scriniarios</unit>
-                </unknown><unknown line="651">
-                    <unit>A libellis</unit>
-                </unknown><unknown line="652">
-                    <unit>Exceptores et ceteros officiales</unit>
-                </unknown>
+                    <unknown line="644">
+                        <unit>Principem de eodem officio</unit>
+                    </unknown><unknown line="645">
+                        <unit>Cornicularium</unit>
+                    </unknown><unknown line="646">
+                        <unit>Adiutorem</unit>
+                    </unknown><unknown line="647">
+                        <unit>Commentariensem</unit>
+                    </unknown><unknown line="648">
+                        <unit>Ab actis</unit>
+                    </unknown><unknown line="649">
+                        <unit>Numerarios</unit>
+                    </unknown><unknown line="650">
+                        <unit>Scriniarios</unit>
+                    </unknown><unknown line="651">
+                        <unit>A libellis</unit>
+                    </unknown><unknown line="652">
+                        <unit>Exceptores et ceteros officiales</unit>
+                    </unknown>
+                </group>
             </group><unknown line="653">
                 <unit>Proconsul Asiae..</unit>
             </unknown>
@@ -5479,7 +5484,7 @@
                 <title>Sub dispositone viri spectabilis proconsulis Achaiae provincia infrascripta</title>
             </group><unknown line="658">
                 <unit>Achaia</unit>
-            </unknown><group type="officium" line="659">
+            </unknown><group type="officium" line="659" ownerOffice="Proconsul Achaiae">
                 <title>Officium autem habe ita</title>
                 <unknown line="660">
                     <unit>Principem de scola agentum in rebus ducenarium, qui adorata clementia principali cum insignibus exit transacto biennio.</unit>
@@ -5538,7 +5543,7 @@
                 </unknown><unknown line="688">
                     <unit>Arabia</unit>
                 </unknown>
-            </group><group type="officium" line="689">
+            </group><group type="officium" line="689" ownerOffice="Comes Orientis">
                 <title>Officium autem viri spectabilis comitis Orientis habet ita</title>
                 <unknown line="690">
                     <unit>Principem, qui de scola agentum in rebus ducenarius adorata clementia principali cum insignibus exit.</unit>
@@ -5624,7 +5629,7 @@
                 </unknown><unknown line="731">
                     <unit>Frygia salutaris</unit>
                 </unknown>
-            </group><group type="officium" line="732">
+            </group><group type="officium" line="732" ownerOffice="Vicarius dioceseos Asianae">
                 <title>Officium autem viri spectabilis vicarii diocesos Asianae habet ita</title>
                 <unknown line="733">
                     <unit>Principem, qui de scola agentum in rebus ducenarius adorata clementia principali cum insignibus exit.</unit>
@@ -5674,7 +5679,7 @@
                 </unknown><unknown line="756">
                     <unit>Armenia secunda</unit>
                 </unknown>
-            </group><group type="officium" line="757">
+            </group><group type="officium" line="757" ownerOffice="Vicarius dioceseos Ponticae">
                 <title>Officium autem habet ita</title>
                 <unknown line="758">
                     <unit>Principem, qui de scola agentum in rebus ducenarius adorata clementia principali cum insignibus exit transacto biennio.</unit>
@@ -5714,7 +5719,7 @@
                 </unknown><unknown line="776">
                     <unit>Scythia</unit>
                 </unknown>
-            </group><group type="officium" line="777">
+            </group><group type="officium" line="777" ownerOffice="Vicarius dioceseos Thraciarum">
                 <title>Officium autem habet ita</title>
                 <unknown line="778">
                     <unit>Principem, qui de scola agentum in rebus est.</unit>
@@ -5840,7 +5845,7 @@
                     <unit>Cohors quarta Numidarum</unit>
                     <place source="tail">Narmunthi</place>
                 </cohort>
-            </group><group type="officium" line="826">
+            </group><group type="officium" line="826" ownerOffice="Comes limitis Aegypti">
                 <title>Officium autem habet ita</title>
                 <unknown line="827">
                     <unit>Principem de scola agentum in rebus ducenarium, qui adorata clementia principalis cum insignibus exit.</unit>
@@ -5868,7 +5873,7 @@
                 </legion><legion line="839">
                     <unit>Legio tertia Isaura</unit>
                 </legion>
-            </group><group type="officium" line="840">
+            </group><group type="officium" line="840" ownerOffice="Comes per Isauriam">
                 <title>Officium autem habet ita</title>
                 <unknown line="841">
                     <unit>Principem de eodem officio</unit>
@@ -6041,7 +6046,7 @@
                     <unit>Cohors septima Francorum</unit>
                     <place source="tail">Diospoli</place>
                 </cohort>
-            </group><group type="officium" line="907">
+            </group><group type="officium" line="907" ownerOffice="Dux Thebaidos">
                 <title>Officium autem viri spectabilis ducis Thebaidos habet ita</title>
                 <unknown line="908">
                     <unit>Principem de scola agentum in rebus</unit>
@@ -6148,7 +6153,7 @@
                     <unit>Cohors prima Orientalis</unit>
                     <place source="tail">Thama</place>
                 </cohort>
-            </group><group type="officium" line="946">
+            </group><group type="officium" line="946" ownerOffice="Dux Foenicis">
                 <title>Officium autem habet ita</title>
                 <unknown line="947">
                     <unit>Principem de scola agentum in rebus</unit>
@@ -6234,7 +6239,7 @@
                     <unit>Cohors prima victorum</unit>
                     <place source="tail">Ammattha</place>
                 </cohort>
-            </group><group type="officium" line="978">
+            </group><group type="officium" line="978" ownerOffice="Dux Syriae">
                 <title>Officium autem habet ita</title>
                 <unknown line="979">
                     <unit>Principem</unit>
@@ -6354,7 +6359,7 @@
                     <unit>Cohors prima salutaria</unit>
                     <region source="tail">inter Aeliam et Hierichunta</region>
                 </cohort>
-            </group><group type="officium" line="1022">
+            </group><group type="officium" line="1022" ownerOffice="Dux Palaestinae">
                 <title>Officium autem habet ita</title>
                 <unknown line="1023">
                     <unit>Principem de scola agentum in rebus</unit>
@@ -6438,7 +6443,7 @@
                     <unit>Ala prima salutaria</unit>
                     <place source="tail">Duodecimo constituta</place>
                 </ala>
-            </group><group type="officium" line="1054">
+            </group><group type="officium" line="1054" ownerOffice="Dux Osrhoenae">
                 <title>Officium autem habet ita</title>
                 <unknown line="1055">
                     <unit>Principem de scola agentum in rebus</unit>
@@ -6518,7 +6523,7 @@
                     <unit>Cohors quartadecima Valeria Zabdenorum</unit>
                     <place source="tail">Maiocariri</place>
                 </cohort>
-            </group><group type="officium" line="1084">
+            </group><group type="officium" line="1084" ownerOffice="Dux Mesopotamiae">
                 <title>Officium autem habet ita</title>
                 <unknown line="1085">
                     <unit>Principem de scola agentum in rebus</unit>
@@ -6610,7 +6615,7 @@
                     <unit>Cohors tertia Alpinorum</unit>
                     <place source="tail">apud Arnona</place>
                 </cohort>
-            </group><group type="officium" line="1118">
+            </group><group type="officium" line="1118" ownerOffice="Dux Arabiae et praeses">
                 <title>Officium autem viri spectabilis ducis Arabia et praesidis habet ita</title>
                 <unknown line="1119">
                     <unit>Principem de scola agentum in rebus</unit>
@@ -6738,7 +6743,7 @@
                     <unit>Cohors</unit>
                     <place source="tail">Mochora</place>
                 </cohort>
-            </group><group type="officium" line="1167">
+            </group><group type="officium" line="1167" ownerOffice="Dux Armeniae">
                 <title>Officium autem habet ita</title>
                 <unknown line="1168">
                     <unit>Principem de scola agentum in rebus</unit>
@@ -6841,8 +6846,9 @@
                     <unit>ripae legionis primae Ioviae cohortis ...</unit>
                 </unknown><unknown line="1203">
                     <unit>et secundae Herculiae musculorum Scythicorum et classis</unit>
+                    <place source="tail">Inplateypegiis</place>
                 </unknown>
-            </group><group type="officium" line="1204">
+            </group><group type="officium" line="1204" ownerOffice="Dux Scythiae">
                 <title>Officium autem habet ita</title>
                 <unknown line="1205">
                     <unit>Principem de eodem officio, qui completa militia adorat protector.</unit>
@@ -6950,7 +6956,7 @@
                     <office type="praefectus">Praefectus</office>
                     <unit>navium amnicarum et militum ibidem deputatorum</unit>
                 </unknown>
-            </group><group type="officium" line="1242">
+            </group><group type="officium" line="1242" ownerOffice="Dux Moesiae secundae">
                 <title>Officium autem habet ita</title>
                 <unknown line="1243">
                     <unit>Principem de eodem officio, qui completa militia adorat protector.</unit>
@@ -7079,7 +7085,7 @@
                     <unit>classis Stradensis et Germensis</unit>
                     <place source="tail">Margo</place>
                 </unknown>
-            </group><group type="officium" line="1287">
+            </group><group type="officium" line="1287" ownerOffice="Dux Moesiae primae">
                 <title>Officium autem habet ita</title>
                 <unknown line="1288">
                     <unit>Principem de eodem officio, qui completa militia adorat protector.</unit>
@@ -7208,7 +7214,7 @@
                     <office type="praefectus">Praefectus</office>
                     <unit>classis Ratianensis</unit>
                 </unknown>
-            </group><group type="officium" line="1330">
+            </group><group type="officium" line="1330" ownerOffice="Dux Daciae ripensis">
                 <title>Officium autem habet ita</title>
                 <unknown line="1331">
                     <unit>Principem de eodem officio, qui completa militia adoratÝprotector.</unit>
@@ -7234,7 +7240,7 @@
                 <unknown line="1342">
                     <unit>Provincia Palaestina</unit>
                 </unknown>
-            </group><group type="officium" line="1343">
+            </group><group type="officium" line="1343" ownerOffice="Consularis Palaestinae">
                 <title>Officium autem habet ita</title>
                 <unknown line="1344">
                     <unit>Principem de eodem officio</unit>
@@ -7263,7 +7269,7 @@
                 <unknown line="1357">
                     <unit>Provincia Thebais</unit>
                 </unknown>
-            </group><group type="officium" line="1358">
+            </group><group type="officium" line="1358" ownerOffice="Praeses Thebaidos">
                 <title>Officium autem habet ita</title>
                 <unknown line="1359">
                     <unit>Principem de eodem officio</unit>

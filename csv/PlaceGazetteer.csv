@@ -266,7 +266,7 @@ GAZ00264,Sisila,Sisila,876704,Sisila,,,unknown,"An ancient place, cited: BAtlas 
 GAZ00265,Solua,Solua,197519,Solva,47.793351,18.741986,unknown,"An ancient place, cited: BAtlas 20 F2 Solva",http://pleiades.stoa.org/places/197519,confirmed
 GAZ00266,Submuntorium,Submuntorio,118986,Summuntorium,48.646252,10.8264,unknown,"An ancient place, cited: BAtlas 12 D4 Summuntorium",http://pleiades.stoa.org/places/118986,confirmed
 GAZ00267,Suissa,Suissa,860859,Suissa,,,unknown,"An ancient place, cited: BAtlas 87 unlocated Suissa",http://pleiades.stoa.org/places/860859,confirmed
-GAZ00268,Sura,Sura,109359,Sura,49.5,5.5,unknown,"An ancient place, cited: BAtlas 11 F3 Sura fl.",http://pleiades.stoa.org/places/109359,confirmed
+GAZ00268,Sura,Sura,668376,Soura,35.863978,38.914358,unknown,"Ancient Sura/Soura on the Euphrates in Syria.",http://pleiades.stoa.org/places/668376,confirmed
 GAZ00269,Syene,Syene,786123,Syene,24.095991,32.904942,unknown,"The ancient city of Swenett in Egypt, called Syene by the Greeks.",http://pleiades.stoa.org/places/786123,confirmed
 GAZ00270,Syracusae,Syracusani,462503,Syracusae,37.0738645,15.2718869278,,An important ancient city on the island of Sicily.,http://pleiades.stoa.org/places/462503,confirmed
 GAZ00271,Talalatensis,Talalatensis,344498,Talalati,32.127233,13.099991,unknown,"An ancient place, cited: BAtlas 35 F2 Talalati",http://pleiades.stoa.org/places/344498,confirmed
@@ -319,3 +319,11 @@ GAZ00317,Ziganne,Ziganne,857385,Ziganne,42.631325,41.504797,unknown,"An ancient 
 GAZ00318,Ziza,Ziza,697767,Ziza,31.703711,35.952182,unknown,"An ancient place, cited: BAtlas 71 B2 Ziza",http://pleiades.stoa.org/places/697767,confirmed
 GAZ00319,Zoara,Zoarae,697768,Zoara,31.02726,35.481813,unknown,"An ancient place, cited: BAtlas 71 A3 Zoara",http://pleiades.stoa.org/places/697768,confirmed
 GAZ00320,Zodocatha,Zodocathae,697769,Zodacatha,30.186526,35.512756,unknown,"An ancient place, cited: BAtlas 71 B5 Zodacatha",http://pleiades.stoa.org/places/697769,confirmed
+GAZ00321,Arelate,Arelati,148217,Col. Arelate,43.677616,4.630799,unknown,An ancient settlement located at modern Arles in France.,http://pleiades.stoa.org/places/148217,confirmed
+GAZ00322,Carnuntum,Arrunto,128376,Carnuntum,48.113346,16.867891,unknown,A Roman army camp on the Danube river in Noricum; after the first century AD Carnuntum served as the capital of Upper Pannonia.,http://pleiades.stoa.org/places/128376,probable
+GAZ00323,Cabilonnum,Caballoduno,177485,Cabilonnum,46.784226,4.852994,unknown,"An ancient place, cited: BAtlas 18 B3 Cabilonnum",http://pleiades.stoa.org/places/177485,confirmed
+GAZ00324,Plateypegiae,Inplateypegiis,222147,Plateypegiae,,,unknown,"An ancient place, cited: BAtlas 22 unlocated Plateypegiae",http://pleiades.stoa.org/places/222147,probable
+GAZ00325,Margum,Margo,207267,Margum,44.69123,21.061748,unknown,"An ancient place, cited: BAtlas 21 D5 Margum",http://pleiades.stoa.org/places/207267,confirmed
+GAZ00326,Lutetia,Parisius,109126,Lutetia,48.855847,2.342384,unknown,"Lutetia (modern Paris) was the capital of the Parisii, a tribe of ancient Gaul.",http://pleiades.stoa.org/places/109126,confirmed
+GAZ00327,Quartensis Locus,Quartensi,114793,Quartensis Locus,,,unknown,"An ancient place, cited: BAtlas 11 unlocated Quartensis Locus",http://pleiades.stoa.org/places/114793,confirmed
+GAZ00328,Vindobona,Vindomanae,128537,Vindobona,48.211345,16.373946,unknown,"Originally a Celtic settlement of Noricum, Vindobona (now Vienna, Austria) became a Roman military installation by the first half of the first century AD.",http://pleiades.stoa.org/places/128537,confirmed

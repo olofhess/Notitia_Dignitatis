@@ -300,12 +300,18 @@ def is_station_bearing(unit,officeType):
     low=folded(unit)
     if any(low.startswith(prefix+" ") or low==prefix for prefix in STATION_PREFIXES):
         return True
+    if re.search(r"\bclassis\b",low):
+        return True
     if officeType in {"praefectus","tribunus","praepositus"}:
         return any(re.search(r"\b"+re.escape(prefix)+r"\b",low) for prefix in STATION_PREFIXES)
     return False
 def parse_station_tail(node,text,source="tail"):
     value=clean(text)
     if not value:
+        return
+    m=re.match(r"^\.+\s*nun[ce]\s+(.+)$",value,flags=re.I)
+    if m:
+        parse_station_tail(node,clean(m.group(1)),"alternate")
         return
     m=re.match(r"^(.+?),\s*nun[ce]\s+(.+)$",value,flags=re.I)
     if m:
@@ -481,6 +487,49 @@ def dispatchUnit(parent,text,lineNumber,suppressTailGeo=False,factoryMode=False)
     return parseTypedNode(parent,nodeType,text,lineNumber,suppressTailGeo=suppressTailGeo,factoryMode=factoryMode)
 def stack_has_officium(stack):
     return any(group.get("type")=="officium" for group in stack)
+def owner_office_name(chapter,officiumTitle):
+    chapterTitle=clean(chapter.findtext("title"))
+    title=clean(officiumTitle)
+    low=folded(title)
+    explicit=[
+        (r"praefecti praeterio italiae|praefecti praetorio italiae","Praefectus praetorio Italiae"),
+        (r"praefecti praetorio galliarum","Praefectus praetorio Galliarum"),
+        (r"praefecti praetorio orientis","Praefectus praetorio Orientis"),
+        (r"praefecti praetorio per illyricum","Praefectus praetorio per Illyricum"),
+        (r"praefecti urbis\b","Praefectus urbis Romae"),
+        (r"magistri peditum praesentalis","Magister peditum praesentalis"),
+        (r"magistri equitum per gallias","Magister equitum per Gallias"),
+        (r"magistri officiorum","Magister officiorum"),
+        (r"comitis sacrarum largitionum","Comes sacrarum largitionum"),
+        (r"comitis rerum privatarum","Comes rerum privatarum"),
+        (r"comitis orientis","Comes Orientis"),
+        (r"vicarii diocesos asianae","Vicarius dioceseos Asianae"),
+        (r"ducis thebaidos","Dux Thebaidos"),
+        (r"ducis arabia et praesidis","Dux Arabiae et praeses")
+    ]
+    for pattern,value in explicit:
+        if re.search(pattern,low):
+            return value
+    if re.match(r"^(Proconsul|Vicarius|Comes|Dux|Consularis|Corrector|Praeses|Castrensis)\b",chapterTitle,re.I):
+        return chapterTitle.rstrip(".")
+    match=re.match(r"^Insignia viri illustris\s+(.+)$",chapterTitle,re.I)
+    if match:
+        value=match.group(1).rstrip(".")
+        for pattern,replacement in ((r"^praefecti\b","Praefectus"),(r"^magistri\b","Magister"),(r"^magisteri\b","Magister"),(r"^comitis\b","Comes")):
+            if re.search(pattern,value,re.I):
+                return re.sub(pattern,replacement,value,flags=re.I)
+        return value[:1].upper()+value[1:]
+    match=re.match(r"^Sub dispositione viri (?:illustris|spectabilis)\s+(.+)$",chapterTitle,re.I)
+    if match:
+        value=match.group(1)
+        value=re.split(r"\s+(?:dioceses|provinciae|provincia)\s+infrascript",value,maxsplit=1,flags=re.I)[0]
+        value=re.split(r"\s+sunt\s+dioceses\s+infrascript",value,maxsplit=1,flags=re.I)[0]
+        for pattern,replacement in ((r"^praefecti\b","Praefectus"),(r"^vicarii\b","Vicarius"),(r"^castrensis\b","Castrensis")):
+            if re.search(pattern,value,re.I):
+                value=re.sub(pattern,replacement,value,flags=re.I)
+                break
+        return clean(value)
+    return chapterTitle
 def parseDocument(name,path):
     document=ET.Element("document",id=name)
     chapter=None
@@ -488,6 +537,9 @@ def parseDocument(name,path):
     factoryMode=False
     factoryGroup=None
     factorySubgroup=None
+    officiumGroup=None
+    officiumLevel=None
+    officiumStaffGroup=None
     with path.open(encoding="utf-8-sig") as file:
         for lineNumber,line in enumerate(file,1):
             raw=line.rstrip()
@@ -501,6 +553,9 @@ def parseDocument(name,path):
                 factoryMode=False
                 factoryGroup=None
                 factorySubgroup=None
+                officiumGroup=None
+                officiumLevel=None
+                officiumStaffGroup=None
                 continue
             if chapter is None:
                 ET.SubElement(document,"text",line=str(lineNumber)).text=clean(text)
@@ -508,11 +563,39 @@ def parseDocument(name,path):
 
             level=(len(raw)-len(raw.lstrip()))//5
 
+            is_officium_semicolon_heading=(
+                folded(text).startswith("officium")
+                and text.endswith(";")
+            )
+            if is_officium_semicolon_heading:
+                factoryMode=False
+                factoryGroup=None
+                factorySubgroup=None
+                while len(stack)>level:
+                    stack.pop()
+                parent=stack[-1] if stack else chapter
+                group=parseHeading(parent,text,lineNumber)
+                group.set("ownerOffice",owner_office_name(chapter,text))
+                STATS["ownerOffice"]+=1
+                stack.append(group)
+                officiumGroup=group
+                officiumLevel=level
+                officiumStaffGroup=None
+                continue
+
             if text.endswith(":"):
                 is_factory_heading=folded(text).startswith("fabricae ")
                 is_officium_heading=folded(text).startswith("officium")
+                is_officium_staff_heading=(
+                    officiumGroup is not None
+                    and folded(text).startswith("habet autem dignitates")
+                    and level==officiumLevel
+                )
 
                 if is_factory_heading:
+                    officiumGroup=None
+                    officiumLevel=None
+                    officiumStaffGroup=None
                     while len(stack)>level:
                         stack.pop()
                     parent=stack[-1] if stack else chapter
@@ -530,8 +613,24 @@ def parseDocument(name,path):
                         stack.pop()
                     parent=stack[-1] if stack else chapter
                     group=parseHeading(parent,text,lineNumber)
+                    group.set("ownerOffice",owner_office_name(chapter,text))
+                    STATS["ownerOffice"]+=1
+                    stack.append(group)
+                    officiumGroup=group
+                    officiumLevel=level
+                    officiumStaffGroup=None
+                    continue
+
+                if is_officium_staff_heading:
+                    group=parseHeading(officiumGroup,text,lineNumber)
+                    officiumStaffGroup=group
                     stack.append(group)
                     continue
+
+                if officiumGroup is not None and level<=officiumLevel:
+                    officiumGroup=None
+                    officiumLevel=None
+                    officiumStaffGroup=None
 
                 if factoryMode and factoryGroup is not None:
                     if starts_production(text.rstrip(":")):
@@ -552,6 +651,25 @@ def parseDocument(name,path):
                 parent=factorySubgroup or factoryGroup
                 dispatchUnit(parent,text,lineNumber,factoryMode=True)
                 continue
+
+            if officiumGroup is not None:
+                keep_in_officium=(
+                    level>officiumLevel
+                    or (officiumLevel>0 and level==officiumLevel and officiumStaffGroup is None)
+                )
+                if keep_in_officium:
+                    parent=officiumStaffGroup if officiumStaffGroup is not None else officiumGroup
+                    dispatchUnit(
+                        parent,
+                        text,
+                        lineNumber,
+                        suppressTailGeo=True,
+                        factoryMode=False
+                    )
+                    continue
+                officiumGroup=None
+                officiumLevel=None
+                officiumStaffGroup=None
 
             while len(stack)>level:
                 stack.pop()
@@ -586,6 +704,7 @@ def build():
     print("build_notitia_xml_v4.py")
     print()
     print("Documents                :",len(INPUTS))
+    print("Officium ownerOffice     :",STATS["ownerOffice"])
     print("Place elements           :",STATS["place"])
     print("  derived geography      :",STATS["embedded_place"])
     print("    ordinary unit        :",STATS["source_unit"])
