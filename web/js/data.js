@@ -103,11 +103,71 @@ function getPlaceMentionsByProvince(provinceName) {
     );
 }
 
-function getPlaceMentions(placeName) {
-    const wanted = String(placeName || "").trim().toLowerCase();
+function normalizePlaceName(value) {
+    return String(value || "").trim().toLowerCase();
+}
+
+function placeAliases(value) {
+    const fields = [
+        "placeName",
+        "sourcePlaceName",
+        "pleiadesName",
+        "name",
+        "candidate"
+    ];
+
+    const aliases = new Set();
+
+    if (value && typeof value === "object") {
+        for (const field of fields) {
+            const name = normalizePlaceName(value[field]);
+            if (name) aliases.add(name);
+        }
+    } else {
+        const name = normalizePlaceName(value);
+        if (name) aliases.add(name);
+    }
+
+    const seedNames = new Set(aliases);
+
+    const matchedPlaces = places.filter(place =>
+        fields.some(field =>
+            seedNames.has(normalizePlaceName(place[field]))
+        )
+    );
+
+    const canonicalNames = new Set(
+        matchedPlaces
+            .map(place => normalizePlaceName(place.placeName))
+            .filter(Boolean)
+    );
+
+    for (const place of places) {
+        const canonical = normalizePlaceName(place.placeName);
+
+        if (
+            matchedPlaces.includes(place) ||
+            (canonical && canonicalNames.has(canonical))
+        ) {
+            for (const field of fields) {
+                const name = normalizePlaceName(place[field]);
+                if (name) aliases.add(name);
+            }
+        }
+    }
+
+    return aliases;
+}
+
+function getPlaceMentions(value) {
+    const aliases = placeAliases(value);
+
+    if (!aliases.size) {
+        return [];
+    }
 
     return placeMentions.filter(row =>
-        String(row.placeName || "").trim().toLowerCase() === wanted
+        aliases.has(normalizePlaceName(row.placeName))
     );
 }
 

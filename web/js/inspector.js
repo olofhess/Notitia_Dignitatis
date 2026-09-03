@@ -7,6 +7,9 @@ import * as Map from "./map.js";
 
 let panel=null;
 let currentNode=null;
+let currentPlaceName=null;
+let currentPlaceContext=null;
+let currentPlaceMention=null;
 let language="la";
 let englishDocument=null;
 let englishRender=null;
@@ -35,6 +38,23 @@ export function show(node){
     }
 
     currentNode=node;
+    currentPlaceName=null;
+    currentPlaceContext=null;
+    currentPlaceMention=null;
+
+    if(node.getAttribute("line")){
+
+        const multiMentionPlace=multiMentionPlaceForNode(node);
+
+        if(multiMentionPlace){
+
+            showPlaceMentions(multiMentionPlace,node);
+
+            return;
+
+        }
+
+    }
 
     panel.innerHTML="";
 
@@ -260,6 +280,18 @@ function toggleLanguage(){
 
     language=language==="la"?"en":"la";
 
+    if(currentPlaceName){
+
+        showPlaceMentions(
+            currentPlaceName,
+            currentPlaceContext,
+            currentPlaceMention
+        );
+
+        return;
+
+    }
+
     if(currentNode){
 
         show(currentNode);
@@ -380,6 +412,35 @@ function showProvincePlaces(node){
 
 }
 
+function multiMentionPlaceForNode(node){
+
+    if(
+        !node||
+        typeof Data?.getPlaceMentions!=="function"
+    ){
+
+        return "";
+
+    }
+
+    const names=directTexts(node,"place");
+
+    for(const name of names){
+
+        const mentions=Data.getPlaceMentions(name)||[];
+
+        if(mentions.length>1){
+
+            return name;
+
+        }
+
+    }
+
+    return "";
+
+}
+
 function selectPlace(placeName,contextNode=null){
 
     Map.showPlace(placeName);
@@ -388,7 +449,11 @@ function selectPlace(placeName,contextNode=null){
 
 }
 
-function showPlaceMentions(placeName,contextNode=null){
+function showPlaceMentions(
+    placeName,
+    contextNode=null,
+    selectedMention=null
+){
 
     if(typeof Data?.getPlaceMentions!=="function"){
 
@@ -398,7 +463,14 @@ function showPlaceMentions(placeName,contextNode=null){
 
     const mentions=Data.getPlaceMentions(placeName)||[];
 
-    currentNode=contextNode;
+    const selectedNode=selectedMention
+        ? mentionNode(selectedMention,contextNode)
+        : null;
+
+    currentNode=selectedNode||contextNode;
+    currentPlaceName=placeName;
+    currentPlaceContext=contextNode;
+    currentPlaceMention=selectedMention;
 
     panel.innerHTML="";
 
@@ -422,17 +494,88 @@ function showPlaceMentions(placeName,contextNode=null){
 
         div.textContent=mentionText(mention);
 
+        const node=mentionNode(mention,contextNode||selectedNode);
+
+        if(node){
+
+            div.style.cursor="pointer";
+            div.style.textDecoration="underline";
+
+            div.addEventListener("click",()=>{
+                showPlaceMentions(placeName,node,mention);
+            });
+
+        }
+
+        if(
+            selectedMention&&
+            mention?.occurrenceId===selectedMention?.occurrenceId
+        ){
+
+            div.style.fontWeight="700";
+
+        }
+
         list.appendChild(div);
 
     }
 
     panel.appendChild(list);
 
+    if(selectedNode){
+
+        showLine(selectedNode);
+
+        return;
+
+    }
+
     if(contextNode){
 
         showContext(contextNode);
 
     }
+
+}
+
+function mentionNode(mention,contextNode=null){
+
+    const document=contextNode?.ownerDocument;
+
+    const line=clean(mention?.sourceLine);
+
+    const documentId=clean(mention?.document);
+
+    if(!document||!line){
+
+        return null;
+
+    }
+
+    const candidates=Array.from(
+        document.querySelectorAll("[line]")
+    ).filter(node=>node.getAttribute("line")===line);
+
+    if(!candidates.length){
+
+        return null;
+
+    }
+
+    if(!documentId){
+
+        return candidates[0];
+
+    }
+
+    return candidates.find(node=>{
+
+        const documentNode=ancestor(node,"document");
+
+        return clean(documentNode?.getAttribute("id")).toLowerCase()===
+            documentId.toLowerCase();
+
+    })||candidates[0];
 
 }
 

@@ -13,8 +13,82 @@ const DEFAULT_ZOOM = 4;
 const PLACE_ZOOM = 8;
 
 const PLACE_MARKER_STYLE = {
-    radius: 3.5, weight: 1, color: "#496b78", fillColor: "#6f919d",
-    opacity: 0.8, fillOpacity: 0.68, bubblingMouseEvents: false
+    radius: 3.8, weight: 1.1, color: "#111111", fillColor: "#555555",
+    opacity: 0.95, fillOpacity: 0.82, bubblingMouseEvents: false
+};
+const PLACE_TYPE_STYLES = {
+
+    dux: {
+        radius: 4.5,
+        weight: 1.2,
+        color: "#003399",
+        fillColor: "#0066ff",
+        opacity: 0.95,
+        fillOpacity: 0.85,
+        bubblingMouseEvents: false
+    },
+
+    comes: {
+        radius: 4.5,
+        weight: 1.2,
+        color: "#991b1b",
+        fillColor: "#e53935",
+        opacity: 0.95,
+        fillOpacity: 0.85,
+        bubblingMouseEvents: false
+    },
+
+    fabrica: {
+        radius: 4.5,
+        weight: 1.2,
+        color: "#a65f00",
+        fillColor: "#ffb000",
+        opacity: 0.95,
+        fillOpacity: 0.9,
+        bubblingMouseEvents: false
+    },
+
+    office: {
+        radius: 4.5,
+        weight: 1.2,
+        color: "#5b2182",
+        fillColor: "#8e44ad",
+        opacity: 0.95,
+        fillOpacity: 0.85,
+        bubblingMouseEvents: false
+    },
+
+    tribunus: {
+        radius: 4.5,
+        weight: 1.2,
+        color: "#007f8f",
+        fillColor: "#00cfe8",
+        opacity: 0.95,
+        fillOpacity: 0.88,
+        bubblingMouseEvents: false
+    },
+
+    equites: {
+        radius: 4.5,
+        weight: 1.2,
+        color: "#8a7800",
+        fillColor: "#ffeb00",
+        opacity: 0.95,
+        fillOpacity: 0.9,
+        bubblingMouseEvents: false
+    },
+
+    mixed: {
+        radius: 5,
+        weight: 1.4,
+        color: "#006b3c",
+        fillColor: "#00a651",
+        opacity: 0.98,
+        fillOpacity: 0.9,
+        bubblingMouseEvents: false
+    },
+
+    other: PLACE_MARKER_STYLE
 };
 const PROVINCE_PLACE_MARKER_STYLE = {
     radius: 4, weight: 1.2, color: "#496b78", fillColor: "#f7f3ec",
@@ -555,12 +629,123 @@ function buildPlacesLayer() {
     for (const place of Data.getAllPlaces()) {
         const item = mappedPlace(place);
         if (!item) continue;
-        createPlaceMarker(item, placesLayer, PLACE_MARKER_STYLE);
+        createPlaceMarker(item, placesLayer, placeMarkerStyle(place));
         count += 1;
     }
 
     placesLayer.addTo(map);
     return count;
+}
+
+function mentionType(row) {
+    const source = normalize(row?.placeSource);
+    const chapter = normalize(row?.chapter);
+    const context = normalize(row?.contextText);
+    const office = normalize(row?.office);
+    const unit = normalize(row?.unit);
+    const text = `${chapter} ${context} ${office} ${unit}`;
+
+    if (source === "factory" || /\bfabrica\w*\b/.test(text)) {
+        return "fabrica";
+    }
+
+    // Specific military roles take precedence over the Dux/Comes chapter context.
+    if (/\btribun\w*\b/.test(office)) {
+        return "tribunus";
+    }
+
+    if (/\bequit\w*\b/.test(unit)) {
+        return "equites";
+    }
+
+    if (/\bdux\b/.test(text)) {
+        return "dux";
+    }
+
+    if (/\b(comes|comitis)\b/.test(text)) {
+        return "comes";
+    }
+
+    if (office) {
+        return "office";
+    }
+
+    return "other";
+}
+
+function placeType(place) {
+    const mentions = Data.getPlaceMentions(placeName(place));
+
+    if (!mentions.length) {
+        return "other";
+    }
+
+    const types = new Set(
+        mentions
+            .map(mentionType)
+            .filter(type => type !== "other")
+    );
+
+    if (types.size > 1) {
+        return "mixed";
+    }
+
+    if (types.size === 1) {
+        return [...types][0];
+    }
+
+    return "other";
+}
+
+function placeMarkerStyle(place) {
+    return PLACE_TYPE_STYLES[placeType(place)] || PLACE_MARKER_STYLE;
+}
+
+function addPlaceLegend() {
+    const legend = L.control({ position: "bottomleft" });
+
+    legend.onAdd = function () {
+        const div = L.DomUtil.create("div", "place-legend");
+
+        const items = [
+            ["#0066ff", "Dux"],
+            ["#e53935", "Comes"],
+            ["#ffb000", "Fabrica"],
+            ["#8e44ad", "Office"],
+            ["#00cfe8", "Tribunus"],
+            ["#ffeb00", "Equites"],
+            ["#00a651", "Mixed"],
+            ["#555555", "Other"]
+        ];
+
+        div.style.background = "rgba(255,255,255,0.94)";
+        div.style.padding = "8px 10px";
+        div.style.border = "1px solid #999";
+        div.style.borderRadius = "5px";
+        div.style.boxShadow = "0 1px 4px rgba(0,0,0,0.25)";
+        div.style.font = "14px/1.35 Arial, sans-serif";
+        div.style.color = "#222";
+
+        div.innerHTML = items.map(([color, label]) => `
+            <div style="display:flex;align-items:center;gap:7px;margin:2px 0;">
+                <span style="
+                    width:11px;
+                    height:11px;
+                    border-radius:50%;
+                    background:${color};
+                    border:1px solid rgba(0,0,0,0.55);
+                    display:inline-block;
+                    flex:0 0 11px;
+                "></span>
+                <span>${label}</span>
+            </div>
+        `).join("");
+
+        L.DomEvent.disableClickPropagation(div);
+        return div;
+    };
+
+    legend.addTo(map);
 }
 
 async function init() {
@@ -588,6 +773,8 @@ async function init() {
         Provinces: provinceLayer,
         Places: placesLayer
     }, { collapsed: false }).addTo(map);
+
+    addPlaceLegend();
 
     if (provinceLayer.getBounds().isValid()) {
         map.fitBounds(provinceLayer.getBounds(), { padding: [10, 10] });

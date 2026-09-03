@@ -1,6 +1,8 @@
+// Step 9: elegant search UI with visible context evidence
 //
 // Living Notitia
 // search_ui.js
+// Step 3: simple bilingual ranked search interface
 //
 
 import * as Search from "./search.js";
@@ -8,186 +10,141 @@ import * as Nav from "./nav.js";
 import MapView from "./map.js";
 
 let searchBox=null;
-let placeSourceSelect=null;
-let officeSelect=null;
-let ownerOfficeSelect=null;
-let dimensionSelect=null;
 let status=null;
 let resultsPanel=null;
+let searchTimer=null;
 
 export function initialize(){
 
-    searchBox=
-        document.getElementById("searchBox");
+    searchBox=document.getElementById("searchBox");
+    status=document.getElementById("status");
 
-    const toolbar=
-        document.getElementById("toolbar");
-
-    status=
-        document.getElementById("status");
-
-    if(
-        !searchBox ||
-        !toolbar
-    ){
+    if(!searchBox){
         return;
     }
 
-    placeSourceSelect=
-        createSelect(
-            "searchPlaceSource",
-            "Place source",
-            Search.placeSources()
-        );
-
-    officeSelect=
-        createSelect(
-            "searchOffice",
-            "Office",
-            Search.officeTypes()
-        );
-
-    ownerOfficeSelect=
-        createSelect(
-            "searchOwnerOffice",
-            "Owner office",
-            Search.ownerOffices()
-        );
-
-    dimensionSelect=
-        createSelect(
-            "searchDimension",
-            "Dimension",
-            Search.dimensions()
-        );
-
-    toolbar.appendChild(
-        placeSourceSelect
-    );
-
-    toolbar.appendChild(
-        officeSelect
-    );
-
-    toolbar.appendChild(
-        ownerOfficeSelect
-    );
-
-    toolbar.appendChild(
-        dimensionSelect
-    );
-
+    prepareSearchBox();
+    simplifyToolbar();
     createResultsPanel();
 
-    searchBox.addEventListener(
-        "input",
-        runSearch
-    );
+    searchBox.addEventListener("input",scheduleSearch);
 
-    placeSourceSelect.addEventListener(
-        "change",
-        runSearch
-    );
+    searchBox.addEventListener("keydown",event=>{
 
-    officeSelect.addEventListener(
-        "change",
-        runSearch
-    );
+        if(event.key==="Escape"){
 
-    ownerOfficeSelect.addEventListener(
-        "change",
-        runSearch
-    );
+            searchBox.value="";
+            clearResults();
+            MapView.clearSearchResults();
 
-    dimensionSelect.addEventListener(
-        "change",
-        runSearch
-    );
+            if(status){
+                status.textContent="Ready";
+            }
 
-}
+            searchBox.blur();
 
-function createSelect(
-    id,
-    label,
-    values
-){
-
-    const select=
-        document.createElement("select");
-
-    select.id=id;
-
-    const all=
-        document.createElement("option");
-
-    all.value="";
-    all.textContent=
-        label+": All";
-
-    select.appendChild(all);
-
-    values.forEach(value=>{
-
-        const option=
-            document.createElement("option");
-
-        option.value=value;
-        option.textContent=value;
-
-        select.appendChild(option);
+        }
 
     });
 
-    return select;
+    document.addEventListener("keydown",event=>{
+
+        if(
+            event.key==="/" &&
+            document.activeElement!==searchBox
+        ){
+
+            event.preventDefault();
+            searchBox.focus();
+
+        }
+
+    });
+
+}
+
+function prepareSearchBox(){
+
+    searchBox.setAttribute(
+        "placeholder",
+        "Search Latin or English"
+    );
+
+    searchBox.setAttribute(
+        "autocomplete",
+        "off"
+    );
+
+    searchBox.setAttribute(
+        "spellcheck",
+        "false"
+    );
+
+    searchBox.setAttribute(
+        "aria-label",
+        "Search Living Notitia in Latin or English"
+    );
+
+    Object.assign(searchBox.style,{
+        width:"390px",
+        height:"42px",
+        boxSizing:"border-box",
+        padding:"0 42px 0 38px",
+        fontSize:"18px",
+        lineHeight:"42px",
+        borderRadius:"21px",
+        border:"1px solid rgba(0,0,0,0.18)",
+        background:"#fff",
+        boxShadow:"0 1px 4px rgba(0,0,0,0.08)"
+    });
+
+}
+
+function simplifyToolbar(){
+
+    const toolbar=document.getElementById("toolbar");
+
+    if(!toolbar){
+        return;
+    }
+
+    Array.from(toolbar.querySelectorAll("select"))
+        .forEach(select=>select.remove());
 
 }
 
 function createResultsPanel(){
 
-    const header=
-        document.getElementById("header");
+    const header=document.getElementById("header");
 
     if(!header){
         return;
     }
 
-    resultsPanel=
-        document.createElement("div");
+    const old=document.getElementById("searchResults");
 
-    resultsPanel.id=
-        "searchResults";
+    if(old){
+        old.remove();
+    }
 
-    resultsPanel.style.display=
-        "none";
+    resultsPanel=document.createElement("div");
+    resultsPanel.id="searchResults";
 
-    resultsPanel.style.padding=
-        "8px 12px";
-
-    resultsPanel.style.borderTop=
-        "1px solid #ccc";
-
-    resultsPanel.style.background=
-        "#fff";
-
-    // Search results are an overlay over the left navigation column only.
-    // They must never cover the map or push the workspace down.
-    resultsPanel.style.position=
-        "fixed";
-
-    resultsPanel.style.left=
-        "0";
-
-    resultsPanel.style.right=
-        "auto";
-
-    resultsPanel.style.zIndex=
-        "2000";
-
-    resultsPanel.style.boxSizing=
-        "border-box";
-
-    resultsPanel.style.overflowY=
-        "auto";
+    Object.assign(resultsPanel.style,{
+        display:"none",
+        position:"fixed",
+        left:"0",
+        right:"auto",
+        zIndex:"2000",
+        boxSizing:"border-box",
+        overflowY:"auto",
+        padding:"8px",
+        background:"rgba(255,255,255,0.98)",
+        borderTop:"1px solid rgba(0,0,0,0.08)",
+        boxShadow:"0 8px 24px rgba(0,0,0,0.12)",
+        backdropFilter:"blur(14px)",
+        WebkitBackdropFilter:"blur(14px)"
+    });
 
     header.insertAdjacentElement(
         "afterend",
@@ -209,39 +166,33 @@ function positionResultsPanel(){
         return;
     }
 
-    const header=
-        document.getElementById("header");
-
-    const mapElement=
-        document.getElementById("map");
+    const header=document.getElementById("header");
+    const mapElement=document.getElementById("map");
 
     if(!header){
         return;
     }
 
-    const headerRect=
-        header.getBoundingClientRect();
-
-    const top=
-        Math.max(0,headerRect.bottom);
+    const headerRect=header.getBoundingClientRect();
+    const top=Math.max(0,headerRect.bottom);
 
     let width=360;
 
     if(mapElement){
-        const mapRect=
-            mapElement.getBoundingClientRect();
+
+        const mapRect=mapElement.getBoundingClientRect();
 
         if(mapRect.left>0){
             width=mapRect.left;
         }
+
     }
 
-    let bottom=
-        window.innerHeight;
+    let bottom=window.innerHeight;
 
     if(status){
-        const statusRect=
-            status.getBoundingClientRect();
+
+        const statusRect=status.getBoundingClientRect();
 
         if(
             statusRect.top>top &&
@@ -249,72 +200,57 @@ function positionResultsPanel(){
         ){
             bottom=statusRect.top;
         }
+
     }
 
-    resultsPanel.style.top=
-        top+"px";
-
-    resultsPanel.style.width=
-        Math.max(220,width)+"px";
-
-    resultsPanel.style.maxHeight=
-        Math.max(120,bottom-top)+"px";
+    resultsPanel.style.top=top+"px";
+    resultsPanel.style.width=Math.max(220,width)+"px";
+    resultsPanel.style.maxHeight=Math.max(120,bottom-top)+"px";
 
 }
 
-function runSearch(){
+function scheduleSearch(){
 
-    const text=
-        searchBox.value.trim();
+    window.clearTimeout(searchTimer);
 
-    const placeSource=
-        placeSourceSelect.value;
+    searchTimer=window.setTimeout(
+        runSearch,
+        70
+    );
 
-    const office=
-        officeSelect.value;
+}
 
-    const ownerOffice=
-        ownerOfficeSelect.value;
+async function runSearch(){
 
-    const dimension=
-        dimensionSelect.value;
+    const text=searchBox.value.trim();
 
-    if(
-        !text &&
-        !placeSource &&
-        !office &&
-        !ownerOffice &&
-        !dimension
-    ){
+    if(!text){
+
+        clearResults();
+        MapView.clearSearchResults();
 
         if(status){
             status.textContent="Ready";
         }
 
-        clearResults();
-        MapView.clearSearchResults();
-
         return;
     }
 
-    // A new search must start from a clean map selection.
-    // Keep the Inspector as it is, but remove any previously selected
-    // place marker, popup and province highlight before drawing search results.
+    await Search.ready();
+
+    if(text!==searchBox.value.trim()){
+        return;
+    }
+
     MapView.clearSelection(false);
 
-    const results=
-        Search.search({
-            text,
-            placeSource,
-            office,
-            ownerOffice,
-            dimension
-        });
+    const results=Search.search(text);
 
-    showResults(results);
+    showResults(results,text);
     showResultsOnMap(results);
 
     if(status){
+
         status.textContent=
             results.length+
             (
@@ -322,15 +258,10 @@ function runSearch(){
                     ? " search result"
                     : " search results"
             );
+
     }
 
-    console.log(
-        "SEARCH RESULTS",
-        results
-    );
-
 }
-
 
 function showResultsOnMap(results){
 
@@ -338,44 +269,38 @@ function showResultsOnMap(results){
 
     results.forEach(record=>{
 
-        (record.places || [])
-            .forEach(place=>{
+        (record.places||[]).forEach(place=>{
 
-                if(
-                    place &&
-                    Number.isFinite(
-                        Number(place.latitude)
-                    ) &&
-                    Number.isFinite(
-                        Number(place.longitude)
-                    )
-                ){
-                    places.push(place);
-                    return;
-                }
+            if(
+                place &&
+                Number.isFinite(Number(place.latitude)) &&
+                Number.isFinite(Number(place.longitude))
+            ){
 
-                const name=
-                    place?.placeName ||
-                    place?.sourcePlaceName ||
-                    place?.name;
+                places.push(place);
+                return;
 
-                if(name){
-                    places.push(name);
-                }
+            }
 
-            });
+            const name=
+                place?.placeName ||
+                place?.sourcePlaceName ||
+                place?.name;
+
+            if(name){
+                places.push(name);
+            }
+
+        });
 
     });
 
     MapView.beginSearchMode();
-
-    MapView.showSearchResults(
-        places
-    );
+    MapView.showSearchResults(places);
 
 }
 
-function showResults(results){
+function showResults(results,query){
 
     if(!resultsPanel){
         return;
@@ -383,24 +308,46 @@ function showResults(results){
 
     resultsPanel.innerHTML="";
 
-    if(!results.length){
+    const summary=document.createElement("div");
 
-        const empty=
-            document.createElement("div");
+    Object.assign(summary.style,{
+        display:"flex",
+        justifyContent:"space-between",
+        alignItems:"baseline",
+        gap:"8px",
+        padding:"4px 7px 8px 7px",
+        color:"#666",
+        font:"500 12px -apple-system, BlinkMacSystemFont, \"SF Pro Text\", sans-serif"
+    });
 
-        empty.textContent=
-            "No results";
-
-        resultsPanel.appendChild(
-            empty
+    summary.textContent=
+        results.length+
+        (
+            results.length===1
+                ? " result"
+                : " results"
         );
 
-        positionResultsPanel();
+    resultsPanel.appendChild(summary);
 
-        resultsPanel.style.display=
-            "block";
+    if(!results.length){
+
+        const empty=document.createElement("div");
+
+        Object.assign(empty.style,{
+            padding:"18px 10px",
+            color:"#777",
+            font:"14px -apple-system, BlinkMacSystemFont, \"SF Pro Text\", sans-serif"
+        });
+
+        empty.textContent="No results";
+        resultsPanel.appendChild(empty);
+
+        positionResultsPanel();
+        resultsPanel.style.display="block";
 
         return;
+
     }
 
     const maxResults=50;
@@ -408,155 +355,406 @@ function showResults(results){
     results
         .slice(0,maxResults)
         .forEach(record=>{
-
             resultsPanel.appendChild(
-                createResultRow(record)
+                createResultRow(record,query)
             );
-
         });
 
     if(results.length>maxResults){
 
-        const more=
-            document.createElement("div");
+        const more=document.createElement("div");
 
-        more.style.padding=
-            "6px 0";
+        Object.assign(more.style,{
+            padding:"10px 8px",
+            color:"#777",
+            font:"12px -apple-system, BlinkMacSystemFont, \"SF Pro Text\", sans-serif"
+        });
 
         more.textContent=
             "Showing first "+
             maxResults+
             " of "+
-            results.length+
-            " results";
+            results.length;
 
-        resultsPanel.appendChild(
-            more
-        );
+        resultsPanel.appendChild(more);
 
     }
 
     positionResultsPanel();
-
-    resultsPanel.style.display=
-        "block";
+    resultsPanel.style.display="block";
 
 }
 
-function createResultRow(record){
+function createResultRow(record,query){
 
-    const row=
-        document.createElement("div");
+    const row=document.createElement("div");
+    row.className="searchResult";
+    row.title="Open in Living Notitia";
 
-    row.className=
-        "searchResult";
+    Object.assign(row.style,{
+        padding:"9px 10px",
+        margin:"0 0 3px 0",
+        borderRadius:"9px",
+        cursor:"pointer",
+        fontFamily:"-apple-system, BlinkMacSystemFont, \"SF Pro Text\", sans-serif"
+    });
 
-    row.style.padding=
-        "5px 0";
+    row.addEventListener("mouseenter",()=>{
+        row.style.background="rgba(0,0,0,0.055)";
+    });
 
-    row.style.borderBottom=
-        "1px solid #eee";
+    row.addEventListener("mouseleave",()=>{
+        row.style.background="";
+    });
 
-    row.style.cursor=
-        "pointer";
+    row.addEventListener("click",()=>{
 
-    row.title=
-        "Open in Living Notitia";
+        if(Nav.selectNode(record.node)){
 
-    row.onclick=function(){
-
-        if(
-            Nav.selectNode(
-                record.node
-            )
-        ){
             clearResults();
             searchBox.blur();
+
         }
 
-    };
+    });
 
-    const main=
-        document.createElement("div");
+    const preferredLanguage=
+        record.primaryMatch?.language==="en"
+            ? "en"
+            : "la";
 
-    main.style.fontWeight=
-        "600";
+    const primaryText=
+        preferredLanguage==="en"
+            ? bestEnglishText(record)
+            : bestLatinText(record);
 
-    main.textContent=
-        resultTitle(record);
+    const secondaryText=
+        preferredLanguage==="en"
+            ? bestLatinText(record)
+            : bestEnglishText(record);
+
+    const main=document.createElement("div");
+
+    Object.assign(main.style,{
+        fontSize:"14px",
+        fontWeight:"600",
+        lineHeight:"1.25",
+        color:"#1d1d1f"
+    });
+
+    appendHighlightedText(
+        main,
+        primaryText||fallbackTitle(record),
+        query
+    );
 
     row.appendChild(main);
 
-    const detail=
-        document.createElement("div");
+    if(
+        secondaryText &&
+        normalizeDisplay(secondaryText)!==normalizeDisplay(primaryText)
+    ){
 
-    detail.style.fontSize=
-        "12px";
+        const translation=document.createElement("div");
 
-    detail.textContent=
-        resultDetail(record);
+        Object.assign(translation.style,{
+            marginTop:"2px",
+            fontSize:"12px",
+            lineHeight:"1.25",
+            color:"#6e6e73"
+        });
 
-    row.appendChild(detail);
+        appendHighlightedText(
+            translation,
+            secondaryText,
+            query
+        );
+        row.appendChild(translation);
+
+    }
+
+    const detail=document.createElement("div");
+
+    Object.assign(detail.style,{
+        marginTop:"5px",
+        fontSize:"11px",
+        lineHeight:"1.3",
+        color:"#8a8a8f"
+    });
+
+    const detailText=resultDetail(record);
+
+    if(detailText){
+        appendHighlightedText(
+            detail,
+            detailText,
+            query
+        );
+        row.appendChild(detail);
+    }
+
+    const contextText=contextEvidence(
+        record,
+        query,
+        primaryText,
+        secondaryText,
+        detailText
+    );
+
+    if(contextText){
+
+        const context=document.createElement("div");
+
+        Object.assign(context.style,{
+            marginTop:"4px",
+            fontSize:"11px",
+            lineHeight:"1.3",
+            color:"#6e6e73",
+            fontStyle:"italic"
+        });
+
+        appendHighlightedText(
+            context,
+            "Context: "+contextText,
+            query
+        );
+
+        row.appendChild(context);
+
+    }
 
     return row;
 
 }
 
-function resultTitle(record){
+function bestLatinText(record){
 
-    if(record.unit){
-        return record.unit;
-    }
+    return (
+        record.latinUnit ||
+        record.latinText ||
+        record.latinTitle ||
+        record.latinOffice ||
+        ""
+    );
 
-    if(record.title){
-        return record.title;
-    }
+}
 
-    if(record.office){
-        return record.office;
-    }
+function bestEnglishText(record){
 
-    return record.dimension;
+    return (
+        record.englishUnit ||
+        record.englishText ||
+        record.englishTitle ||
+        record.englishOffice ||
+        ""
+    );
+
+}
+
+function fallbackTitle(record){
+
+    return (
+        record.dimension ||
+        record.document ||
+        "Notitia entry"
+    );
+
 }
 
 function resultDetail(record){
 
     const parts=[];
 
-    if(record.places.length){
+    const places=(record.places||[])
+        .map(place=>place.name)
+        .filter(Boolean);
 
-        parts.push(
-            record.places
-                .map(place=>{
-                    if(place.source){
-                        return (
-                            place.name+
-                            " ["+
-                            place.source+
-                            "]"
-                        );
-                    }
-
-                    return place.name;
-                })
-                .join(", ")
-        );
-
+    if(places.length){
+        parts.push([...new Set(places)].join(", "));
     }
 
-    if(record.chapter){
-        parts.push(
-            record.chapter
-        );
+    const chapter=
+        record.primaryMatch?.language==="en"
+            ? record.englishChapter||record.chapter
+            : record.chapter||record.englishChapter;
+
+    if(chapter){
+        parts.push(chapter);
     }
 
     if(record.line){
-        parts.push(
-            "line "+record.line
-        );
+        parts.push("line "+record.line);
     }
 
     return parts.join(" · ");
+
+}
+
+function contextEvidence(
+    record,
+    query,
+    primaryText,
+    secondaryText,
+    detailText
+){
+
+    const terms=String(query||"")
+        .trim()
+        .split(/\s+/)
+        .map(term=>normalizeDisplay(term))
+        .filter(Boolean);
+
+    if(!terms.length){
+        return "";
+    }
+
+    const alreadyVisible=normalizeDisplay([
+        primaryText,
+        secondaryText,
+        detailText
+    ].filter(Boolean).join(" "));
+
+    const hiddenTerms=terms.filter(term=>
+        !matchesSearchTerm(alreadyVisible,term)
+    );
+
+    if(!hiddenTerms.length){
+        return "";
+    }
+
+    //
+    // Search from the nearest semantic context outward.
+    // Individual context items are used rather than the complete
+    // joined context path, so the explanation stays short.
+    //
+    const candidates=[
+        ...(record.latinContext||[]),
+        ...(record.englishContext||[]),
+        record.chapter,
+        record.englishChapter,
+        record.ownerOffice,
+        record.officeType,
+        record.document
+    ]
+        .map(value=>String(value||"").trim())
+        .filter(Boolean);
+
+    const evidence=[];
+
+    hiddenTerms.forEach(term=>{
+
+        const matches=candidates
+            .filter(value=>
+                matchesSearchTerm(
+                    normalizeDisplay(value),
+                    term
+                )
+            )
+            .sort((a,b)=>a.length-b.length);
+
+        if(matches.length){
+            evidence.push(matches[0]);
+        }
+
+    });
+
+    return [...new Set(evidence)].join(" · ");
+
+}
+
+function matchesSearchTerm(text,term){
+
+    if(!text || !term){
+        return false;
+    }
+
+    if(text.includes(term)){
+        return true;
+    }
+
+    const words=text.split(/[^a-z0-9]+/).filter(Boolean);
+
+    return words.some(word=>word.startsWith(term));
+
+}
+
+function appendHighlightedText(element,text,query){
+
+    const source=String(text||"");
+    const terms=String(query||"")
+        .trim()
+        .split(/\s+/)
+        .map(term=>term.trim())
+        .filter(Boolean);
+
+    if(!terms.length){
+        element.textContent=source;
+        return;
+    }
+
+    //
+    // Step 8:
+    // Highlight every search term independently.
+    //
+    // This matters for AND searches such as
+    // "procurator dalmatia", where the two terms may appear
+    // in different parts of the same result.
+    //
+    const escaped=terms
+        .sort((a,b)=>b.length-a.length)
+        .map(term=>term.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"));
+
+    const pattern=new RegExp(
+        "(" + escaped.join("|") + ")",
+        "gi"
+    );
+
+    const pieces=source.split(pattern);
+
+    pieces.forEach(piece=>{
+
+        if(!piece){
+            return;
+        }
+
+        const isMatch=terms.some(term=>
+            normalizeDisplay(piece).startsWith(
+                normalizeDisplay(term)
+            )
+        );
+
+        if(isMatch){
+
+            const mark=document.createElement("mark");
+
+            mark.textContent=piece;
+
+            Object.assign(mark.style,{
+                background:"#fff3b0",
+                color:"inherit",
+                padding:"0 1px",
+                borderRadius:"2px"
+            });
+
+            element.appendChild(mark);
+
+        }else{
+
+            element.appendChild(
+                document.createTextNode(piece)
+            );
+
+        }
+
+    });
+
+}
+function normalizeDisplay(value){
+
+    return String(value||"")
+        .replace(/\s+/g," ")
+        .trim()
+        .toLocaleLowerCase();
 
 }
 
@@ -567,7 +765,6 @@ function clearResults(){
     }
 
     resultsPanel.innerHTML="";
-    resultsPanel.style.display=
-        "none";
+    resultsPanel.style.display="none";
 
 }

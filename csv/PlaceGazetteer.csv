@@ -154,7 +154,7 @@ GAZ00152,Leptitanis,Leptitanis,344448,Lepcitani,32.636748,14.2922,unknown,"Origi
 GAZ00153,Libona,Libona,699901,Libona,,,unknown,"An ancient place, cited: BAtlas 71 unlocated Libona",http://pleiades.stoa.org/places/699901,confirmed
 GAZ00154,Limes Muticitanus,Muticitani,289939,Limes Muticitanus,,,unknown,"An ancient place, cited: BAtlas 29 unlocated Limes Muticitanus",http://pleiades.stoa.org/places/289939,confirmed
 GAZ00155,Luca,Lucensis,403234,Luca,43.843003,10.50804,unknown,Luca (the modern Lucca) was originally an Etruscan settlement that became a Roman colony ca. 180 BC.,http://pleiades.stoa.org/places/403234,confirmed
-GAZ00156,Lucos,Luco,446262,Lucos,,,unknown,"An ancient place, cited: BAtlas 45 unlocated Lucos",http://pleiades.stoa.org/places/446262,confirmed
+GAZ00156,Lucus Augusti,Luco,236525,Lucus Augusti,43.00915,-7.55819,settlement,"Lucus Augusti (modern Lugo, Spain), the Roman city named in the Notitia by the locative form Luco.",http://pleiades.stoa.org/places/236525,confirmed
 GAZ00157,Lugdunensis,Lugdunensis,167717,Col. Lugdunum,45.75863,4.819486,unknown,"Col. Lugdunum was a Roman military colony from 43 BC and a major center in Gaul. Marcus Agrippa was involved in its expansion and two Roman emperors, Claudius and Caracalla, were born there.",http://pleiades.stoa.org/places/167717,confirmed
 GAZ00158,Lugdunensium,Lugdunensium,167717,Col. Lugdunum,45.75863,4.819486,unknown,"Col. Lugdunum was a Roman military colony from 43 BC and a major center in Gaul. Marcus Agrippa was involved in its expansion and two Roman emperors, Claudius and Caracalla, were born there.",http://pleiades.stoa.org/places/167717,confirmed
 GAZ00159,Lusionium,Lusionio,197362,Lussonium,46.656784,18.881709,unknown,"An ancient place, cited: BAtlas 20 F3 Lussonium",http://pleiades.stoa.org/places/197362,confirmed
@@ -226,7 +226,7 @@ GAZ00224,Psinaula,Psinaula,756628,Psinaula,26.653194,31.600403,unknown,"An ancie
 GAZ00225,Quadrato,Quadrato,197463,Quadrata,47.736147,17.390445,unknown,"An ancient place, cited: BAtlas 20 E2 Quadrata",http://pleiades.stoa.org/places/197463,confirmed
 GAZ00226,Quintanae,Quintanis,118919,Quintana,48.669403,13.078749,unknown,"An ancient place, cited: BAtlas 12 G4 Quintana",http://pleiades.stoa.org/places/118919,confirmed
 GAZ00227,Rasin,Rasin,876684,Rasin,,,unknown,"An ancient place, cited: BAtlas 89 unlocated Rasin/Rhasios",http://pleiades.stoa.org/places/876684,confirmed
-GAZ00228,Ratiaria,Ratiarensis,207376,Ratiaria,43.809753,22.919689,unknown,"An ancient place, cited: BAtlas 21 E6 Ratiaria",http://pleiades.stoa.org/places/207376,confirmed
+GAZ00228,Ratiaria,Ratianensis,207376,Ratiaria,43.809753,22.919689,unknown,"An ancient place, cited: BAtlas 21 E6 Ratiaria",http://pleiades.stoa.org/places/207376,confirmed
 GAZ00229,Ratiaria,Ratiaria,207376,Ratiaria,43.809753,22.919689,unknown,"An ancient place, cited: BAtlas 21 E6 Ratiaria",http://pleiades.stoa.org/places/207376,confirmed
 GAZ00230,Ravenna,Ravennatis,393480,Ravenna,44.415718,12.196604,unknown,A city of northern Adriatic Italy that served as the capital of the Western Roman Empire from AD 402 until 476.,http://pleiades.stoa.org/places/393480,confirmed
 GAZ00231,Ravenna,Ravennae,393480,Ravenna,44.415718,12.196604,unknown,A city of northern Adriatic Italy that served as the capital of the Western Roman Empire from AD 402 until 476.,http://pleiades.stoa.org/places/393480,confirmed
@@ -266,7 +266,7 @@ GAZ00264,Sisila,Sisila,876704,Sisila,,,unknown,"An ancient place, cited: BAtlas 
 GAZ00265,Solua,Solua,197519,Solva,47.793351,18.741986,unknown,"An ancient place, cited: BAtlas 20 F2 Solva",http://pleiades.stoa.org/places/197519,confirmed
 GAZ00266,Submuntorium,Submuntorio,118986,Summuntorium,48.646252,10.8264,unknown,"An ancient place, cited: BAtlas 12 D4 Summuntorium",http://pleiades.stoa.org/places/118986,confirmed
 GAZ00267,Suissa,Suissa,860859,Suissa,,,unknown,"An ancient place, cited: BAtlas 87 unlocated Suissa",http://pleiades.stoa.org/places/860859,confirmed
-GAZ00268,Sura,Sura,668376,Soura,35.863978,38.914358,unknown,"Ancient Sura/Soura on the Euphrates in Syria.",http://pleiades.stoa.org/places/668376,confirmed
+GAZ00268,Sura,Sura,668376,Soura,35.863978,38.914358,unknown,Ancient Sura/Soura on the Euphrates in Syria.,http://pleiades.stoa.org/places/668376,confirmed
 GAZ00269,Syene,Syene,786123,Syene,24.095991,32.904942,unknown,"The ancient city of Swenett in Egypt, called Syene by the Greeks.",http://pleiades.stoa.org/places/786123,confirmed
 GAZ00270,Syracusae,Syracusani,462503,Syracusae,37.0738645,15.2718869278,,An important ancient city on the island of Sicily.,http://pleiades.stoa.org/places/462503,confirmed
 GAZ00271,Talalatensis,Talalatensis,344498,Talalati,32.127233,13.099991,unknown,"An ancient place, cited: BAtlas 35 F2 Talalati",http://pleiades.stoa.org/places/344498,confirmed
@@ -327,3 +327,6 @@ GAZ00325,Margum,Margo,207267,Margum,44.69123,21.061748,unknown,"An ancient place
 GAZ00326,Lutetia,Parisius,109126,Lutetia,48.855847,2.342384,unknown,"Lutetia (modern Paris) was the capital of the Parisii, a tribe of ancient Gaul.",http://pleiades.stoa.org/places/109126,confirmed
 GAZ00327,Quartensis Locus,Quartensi,114793,Quartensis Locus,,,unknown,"An ancient place, cited: BAtlas 11 unlocated Quartensis Locus",http://pleiades.stoa.org/places/114793,confirmed
 GAZ00328,Vindobona,Vindomanae,128537,Vindobona,48.211345,16.373946,unknown,"Originally a Celtic settlement of Noricum, Vindobona (now Vienna, Austria) became a Roman military installation by the first half of the first century AD.",http://pleiades.stoa.org/places/128537,confirmed
+GAZ0032,Graium,Graio,,Graium,44.89,19.34,fortified settlement / fleet station,Probable location of Graium at Sremska Rača near the confluence of the Sava and Drina; Notitia: Praefectus classis secundae Flaviae Graio. Pleiades lists Graium as unlocated.,,AMBIGUOUS
+GAZ00329,Brigantiae,Brigantiae,,,43.084167,-8.043611,fort,"Probable identification of the Notitia place Brigantiae with the Roman fort at A Ciadella, Sobrado dos Monxes (A Coruña), occupied by the Cohors I Celtiberorum; coordinates mark the excavated Roman camp.",,probable
+GAZ00330,Legio VII Gemina,Legione,236512,Legio VII Gemina,42.599489,-5.566656,military settlement,"Roman legionary base at modern León, Spain; Notitia: Praefectus legionis septimae geminae, Legione.",http://pleiades.stoa.org/places/236512,confirmed

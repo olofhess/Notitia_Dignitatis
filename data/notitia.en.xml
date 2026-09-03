@@ -177,7 +177,7 @@
                         <unit>Liguria</unit>
                     </unknown>
                     <unknown line="60">
-                        <unit>Flaminiae et Piceni annonarii</unit>
+                        <unit>Flaminia and Picenum of the grain-supply administration</unit>
                     </unknown>
                     <unknown line="61">
                         <unit>Tusciae et Umbriae</unit>
@@ -313,7 +313,7 @@
                     <unit>Tripolitania</unit>
                 </unknown>
                 <group type="region" line="105">
-                    <title>Per Hispanias Quattuor</title>
+                    <title>Throughout the Spains, four</title>
                 </group>
                 <unknown line="106">
                     <unit>Tarraconensis</unit>
@@ -394,7 +394,7 @@
             <group type="unknown" line="133">
                 <title>Provinces</title>
                 <group type="unknown" line="134">
-                    <title>Italiae decem et septem</title>
+                    <title>In Italy, seventeen</title>
                     <unknown line="135">
                         <unit>Venetia</unit>
                     </unknown>
@@ -405,7 +405,7 @@
                         <unit>Liguria</unit>
                     </unknown>
                     <unknown line="138">
-                        <unit>Flaminiae et Piceni annonarii</unit>
+                        <unit>Flaminia and Picenum of the grain-supply administration</unit>
                     </unknown>
                     <unknown line="139">
                         <unit>Tusciae et Umbriae</unit>
@@ -501,16 +501,16 @@
                     <unit>Chief of Staff</unit>
                 </unknown>
                 <unknown line="169">
-                    <unit>Cornicularius</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="170">
                     <unit>Assistant</unit>
                 </unknown>
                 <unknown line="171">
-                    <unit>Commentariensis</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="172">
-                    <unit>Keeper of the records</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="173">
                     <unit>Accountants</unit>
@@ -519,7 +519,7 @@
                     <unit>Deputy assistants</unit>
                 </unknown>
                 <unknown line="175">
-                    <unit>Charge of correspondence</unit>
+                    <unit>Correspondence officer</unit>
                 </unknown>
                 <unknown line="176">
                     <unit>Registrar</unit>
@@ -651,16 +651,16 @@
                     <unit>Chief of Staff</unit>
                 </unknown>
                 <unknown line="221">
-                    <unit>Cornicularius</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="222">
                     <unit>Assistant</unit>
                 </unknown>
                 <unknown line="223">
-                    <unit>Commentariensis</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="224">
-                    <unit>Keeper of the records</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="225">
                     <unit>Accountants</unit>
@@ -669,7 +669,7 @@
                     <unit>Deputy assistants</unit>
                 </unknown>
                 <unknown line="227">
-                    <unit>Charge of correspondence</unit>
+                    <unit>Correspondence officer</unit>
                 </unknown>
                 <unknown line="228">
                     <unit>Registrar</unit>
@@ -688,7 +688,7 @@
                 <title>IV</title>
             </group>
             <unknown line="234">
-                <unit>Insignia viri illustris praefecti urbis Romae</unit>
+                <unit>Insignia of the Illustrious Prefect of the City of Rome</unit>
             </unknown>
             <group type="administration" line="236">
                 <title>Under the authority of the Illustrious Prefect of the City are the administrations listed below</title>
@@ -706,7 +706,7 @@
                 </unknown>
                 <unknown line="240">
                     <office type="comes">Count</office>
-                    <unit>riparum et alvei Tiberis et cloacarum</unit>
+                    <unit>of the banks and channel of the Tiber and of the sewers</unit>
                 </unknown>
                 <unknown line="241">
                     <office type="comes">Count</office>
@@ -756,16 +756,16 @@
                     <unit>Chief of Staff</unit>
                 </unknown>
                 <unknown line="254">
-                    <unit>Cornicularius</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="255">
                     <unit>Assistant</unit>
                 </unknown>
                 <unknown line="256">
-                    <unit>Commentariensis</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="257">
-                    <unit>Keeper of the records</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="258">
                     <unit>Accountants</unit>
@@ -777,7 +777,7 @@
                     <unit>Deputy assistants</unit>
                 </unknown>
                 <unknown line="261">
-                    <unit>Charge of correspondence</unit>
+                    <unit>Correspondence officer</unit>
                 </unknown>
                 <unknown line="262">
                     <unit>Registrar</unit>
@@ -1252,7 +1252,7 @@
                 </group>
             </group>
             <group type="officium" line="421" ownerOffice="Magister peditum praesentalis">
-                <title>Officium suprascripti Master of Infantry praesentalis</title>
+                <title>Staff of the aforesaid Master of Infantry in the Presence</title>
                 <unknown line="422">
                     <unit>Chief of Staff</unit>
                 </unknown>
@@ -1260,7 +1260,7 @@
                     <unit>Accountant</unit>
                 </unknown>
                 <unknown line="424">
-                    <unit>Commentariensis</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="425">
                     <unit>Assistant</unit>
@@ -1406,12 +1406,12 @@
                         <unit>Mounted archers Senior</unit>
                     </equites>
                     <cuneus line="475">
-                        <unit>Cavalry wedge promotorum</unit>
+                        <unit>Cuneus of Promoti cavalry</unit>
                     </cuneus>
                 </group>
             </group>
             <group type="officium" line="476" ownerOffice="Magister equitum">
-                <title>Officium suprascriptae magisteriae potestatis</title>
+                <title>Staff of the aforesaid Master</title>
                 <unknown line="477">
                     <unit>Chief of Staff</unit>
                 </unknown>
@@ -1422,7 +1422,7 @@
                     <unit>Chief clerk</unit>
                 </unknown>
                 <unknown line="480">
-                    <unit>Commentariensis</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="481">
                     <unit>Assistant</unit>
@@ -1436,7 +1436,7 @@
             </group>
         </chapter>
         <chapter type="unknown">
-            <title>Qui numeri ex praedictis per infrascriptas provincias habeantur:</title>
+            <title>The units listed above are stationed in the provinces below:</title>
             <group type="region" line="487">
                 <title>Within Italy</title>
                 <unknown line="488">
@@ -1668,19 +1668,19 @@
                     <unit>Atecotti Junior Gallicani</unit>
                 </unknown>
                 <unknown line="564">
-                    <unit>Ascarii Honoriani Senior</unit>
+                    <unit>imperial weaving houses</unit>
                 </unknown>
                 <unknown line="565">
-                    <unit>Armigeri defensores Senior</unit>
+                    <unit>dye works</unit>
                 </unknown>
                 <unknown line="566">
                     <unit>Lanciarii Honoriani Gallicani</unit>
                 </unknown>
                 <unknown line="567">
-                    <unit>Lanciarii Sabarienses</unit>
+                    <unit>transport services</unit>
                 </unknown>
                 <unknown line="568">
-                    <unit>Menapii Senior</unit>
+                    <unit>linen works</unit>
                 </unknown>
                 <unknown line="569">
                     <unit>Secundani Britones</unit>
@@ -1719,7 +1719,7 @@
                     <unit>First Flavia</unit>
                 </unknown>
                 <unknown line="581">
-                    <unit>Superventores Junior</unit>
+                    <unit>Third officer of the staff, who handles the transport services.</unit>
                 </unknown>
                 <unknown line="582">
                     <unit>Balistarii</unit>
@@ -1743,7 +1743,7 @@
                     <unit>Septimani Junior</unit>
                 </unknown>
                 <unknown line="589">
-                    <unit>Cursarienses Junior</unit>
+                    <unit>Private-estates transport service</unit>
                 </unknown>
                 <unknown line="590">
                     <unit>Musmagenses</unit>
@@ -1767,13 +1767,13 @@
             <group type="officium" line="596" ownerOffice="Magister equitum per Gallias">
                 <title>Staff of the Illustrious Master of Horse throughout the Gauls</title>
                 <unknown line="597">
-                    <unit>Princeps ex officiis magistrorum militum praesentalium, uno anno a parte peditum, ali a parte equitum.</unit>
+                    <unit>Chief of staff from the staffs of the Masters of the Soldiers in the Presence, one year from the infantry branch and the next from the cavalry branch.</unit>
                 </unknown>
                 <unknown line="598">
-                    <unit>Commentariensis</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="599">
-                    <unit>Numerarii ex utrisque officiis singularis annis</unit>
+                    <unit>Accountants from the two staffs in alternate years</unit>
                 </unknown>
                 <unknown line="600">
                     <unit>Assistant</unit>
@@ -2088,7 +2088,7 @@
                     <unit>Scola scutatorium tertia</unit>
                 </unknown>
                 <unknown line="707">
-                    <unit>Scola agentum in rebus et deputati eiusdem scolae</unit>
+                    <unit>Corps of agentes in rebus and those assigned from the same corps</unit>
                 </unknown>
                 <unknown line="708">
                     <unit>Scrinium memoriae</unit>
@@ -2202,24 +2202,24 @@
                 </group>
             </group>
             <group type="officium" line="738" ownerOffice="Magister officiorum">
-                <title>Staff of the Illustrious Master of Offices de scola agentum in rebus habetur hoc modo</title>
+                <title>Staff of the Illustrious Master of Offices de scola agentum in rebus habetur</title>
                 <unknown line="739">
                     <unit>Assistant</unit>
                 </unknown>
                 <unknown line="740">
-                    <unit>Subadiuuae adiutoris</unit>
+                    <unit>Deputy assistants to the assistant</unit>
                 </unknown>
                 <unknown line="741">
-                    <unit>Subadiuuae fabricarum diversarum</unit>
+                    <unit>Deputy assistants for the various factories</unit>
                 </unknown>
                 <unknown line="742">
-                    <unit>Curiosur cursus publici in praesenti</unit>
+                    <unit>Inspector of the imperial post in the Presence</unit>
                 </unknown>
                 <unknown line="743">
-                    <unit>Curiosi omnium provinciarum</unit>
+                    <unit>Inspectors for all the provinces</unit>
                 </unknown>
                 <unknown line="744">
-                    <unit>Interpretes omnium gentium</unit>
+                    <unit>Interpreters for all peoples</unit>
                 </unknown>
             </group>
         </chapter>
@@ -2235,7 +2235,7 @@
                 </unknown>
             </group>
             <unknown line="751">
-                <unit>Habet subaudientes adiutores memoriales de scriniis diversis</unit>
+                <unit>He has subordinate assistants for memoranda from the various bureaux</unit>
             </unknown>
         </chapter>
         <chapter type="insignia">
@@ -2244,7 +2244,7 @@
                 <title>Under the authority of the Illustrious Count of the Sacred Largesses</title>
                 <unknown line="756">
                     <office type="comes">Count</office>
-                    <unit>largitionum per Illyricum</unit>
+                    <unit>of the sacred largesses throughout Illyricum</unit>
                 </unknown>
                 <unknown line="757">
                     <office type="comes">Count</office>
@@ -2260,7 +2260,7 @@
                 </unknown>
                 <unknown line="760">
                     <office type="comes">Count</office>
-                    <unit>titulorum largitionalium per Africam</unit>
+                    <unit>of the tax headings of the sacred largesses throughout Africam</unit>
                 </unknown>
             </group>
             <group type="unknown" line="761">
@@ -2334,7 +2334,7 @@
                     </unknown>
                 </group>
                 <group type="region" line="778">
-                    <title>Per Italiam</title>
+                    <title>throughout Italiam</title>
                     <unknown line="779">
                         <office type="praepositus">Superintendent</office>
                         <unit>of the treasury at Aquileia, in Venetia</unit>
@@ -2428,85 +2428,85 @@
                 <title>Procurators of the imperial weaving houses</title>
                 <civil line="798">
                     <office type="procurator">Procurator</office>
-                    <unit>gynaecii Bassianensis</unit>
+                    <unit>imperial weaving house at Bassiana</unit>
                     <place source="unit">Bassianensis</place>
                     <place source="transfer">Salonis</place>
                 </civil>
                 <civil line="799">
                     <office type="procurator">Procurator</office>
-                    <unit>gynaecii Sirmensis</unit>
+                    <unit>imperial weaving house at Sirmium</unit>
                     <place source="unit">Sirmensis</place>
                     <province source="tail">Second Pannonia</province>
                 </civil>
                 <civil line="800">
                     <office type="procurator">Procurator</office>
-                    <unit>gynaecii Iovensis Dalmatiae - Aspalato</unit>
+                    <unit>imperial weaving house of Iovia in Dalmatia, transferred to Aspalatum</unit>
                     <place source="unit">Iovensis</place>
                     <province source="unit">dalmatiae</province>
                     <place source="transfer">Aspalato</place>
                 </civil>
                 <civil line="801">
                     <office type="procurator">Procurator</office>
-                    <unit>gynaecii Aquileiensis</unit>
+                    <unit>imperial weaving house at Aquileia</unit>
                     <place source="unit">Aquileiensis</place>
                     <province source="tail">Lower Venetia</province>
                 </civil>
                 <civil line="802">
                     <office type="procurator">Procurator</office>
-                    <unit>gynaecii Mediolanensis</unit>
+                    <unit>imperial weaving house at Mediolanum</unit>
                     <place source="unit">Mediolanensis</place>
                     <province source="tail">Liguria</province>
                 </civil>
                 <civil line="803">
                     <office type="procurator">Procurator</office>
-                    <unit>gynaecii urbis Romae</unit>
+                    <unit>imperial weaving house of the city of Rome</unit>
                     <place source="unit">Romae</place>
                 </civil>
                 <civil line="804">
                     <office type="procurator">Procurator</office>
-                    <unit>gynaecii Canusini et Venusini</unit>
+                    <unit>imperial weaving houses at Canusium and Venusia</unit>
                     <place source="unit">Canusini</place>
                     <place source="unit">Venusini</place>
                     <province source="tail">Apulia</province>
                 </civil>
                 <civil line="805">
                     <office type="procurator">Procurator</office>
-                    <unit>gynaecii Carthagiensis</unit>
+                    <unit>imperial weaving house at Carthage</unit>
                     <place source="unit">Carthagiensis</place>
                     <region source="tail">Africa</region>
                 </civil>
                 <civil line="806">
                     <office type="procurator">Procurator</office>
-                    <unit>gynaecii Arelatiensis</unit>
+                    <unit>imperial weaving house at Arelate</unit>
                     <place source="unit">Arelatiensis</place>
                     <province source="tail">Viennensis</province>
                 </civil>
                 <civil line="807">
                     <office type="procurator">Procurator</office>
-                    <unit>gynaecii Lugdunensis</unit>
+                    <unit>imperial weaving house at Lugdunum</unit>
                     <place source="unit">Lugdunensis</place>
                 </civil>
                 <civil line="808">
                     <office type="procurator">Procurator</office>
-                    <unit>gynaecii Remensis</unit>
+                    <unit>imperial weaving house at Reims</unit>
                     <place source="unit">Remensis</place>
                     <province source="tail">Second Belgica</province>
                 </civil>
                 <civil line="809">
                     <office type="procurator">Procurator</office>
-                    <unit>gynaecii Triberorum</unit>
+                    <unit>imperial weaving house at Trier</unit>
                     <place source="unit">Triberorum</place>
                     <province source="tail">First Belgica</province>
                 </civil>
                 <civil line="810">
                     <office type="procurator">Procurator</office>
-                    <unit>gynaecii Augustoduno translati Mettis</unit>
+                    <unit>imperial weaving house transferred from Augustodunum to Metz</unit>
                     <place source="unit">Augustoduno</place>
                     <place source="transfer">Mettis</place>
                 </civil>
                 <civil line="811">
                     <office type="procurator">Procurator</office>
-                    <unit>gynaecii (in Britannis) Ventensis</unit>
+                    <unit>imperial weaving house at Venta in Britain</unit>
                     <place source="unit">Ventensis</place>
                     <region source="unit">the Britains</region>
                 </civil>
@@ -2515,13 +2515,13 @@
                 <title>Procurators of the linen works</title>
                 <civil line="813">
                     <office type="procurator">Procurator</office>
-                    <unit>linyfii Viennensis</unit>
+                    <unit>linen works at Vienne</unit>
                     <place source="unit">Viennensis</place>
                     <region source="tail">the Gauls</region>
                 </civil>
                 <civil line="814">
                     <office type="procurator">Procurator</office>
-                    <unit>linyfii Ravennatis</unit>
+                    <unit>linen works at Ravenna</unit>
                     <place source="unit">Ravennatis</place>
                     <region source="tail">Italy</region>
                 </civil>
@@ -2530,52 +2530,52 @@
                 <title>Procurators of the dye works</title>
                 <civil line="816">
                     <office type="procurator">Procurator</office>
-                    <unit>bafii Tarentini</unit>
+                    <unit>dye works at Tarentum</unit>
                     <place source="unit">Tarentini</place>
                     <province source="tail">Calabria</province>
                 </civil>
                 <civil line="817">
                     <office type="procurator">Procurator</office>
-                    <unit>bafii Salonitani</unit>
+                    <unit>dye works at Salona</unit>
                     <place source="unit">Salonitani</place>
                     <province source="tail">Dalmatia</province>
                 </civil>
                 <civil line="818">
                     <office type="procurator">Procurator</office>
-                    <unit>bafii Cissensis</unit>
+                    <unit>dye works at Cissa</unit>
                     <place source="unit">Cissensis</place>
                     <province source="tail">Venetia and Histria</province>
                 </civil>
                 <civil line="819">
                     <office type="procurator">Procurator</office>
-                    <unit>bafii Syracusani</unit>
+                    <unit>dye works at Syracuse</unit>
                     <place source="unit">Syracusani</place>
                     <province source="tail">Sicily</province>
                 </civil>
                 <civil line="820">
                     <office type="procurator">Procurator</office>
-                    <unit>bafiorum omnium per Africam</unit>
+                    <unit>all the dye works throughout Africa</unit>
                 </civil>
                 <civil line="821">
                     <office type="procurator">Procurator</office>
-                    <unit>bafii Girbitani</unit>
+                    <unit>dye works at Girba</unit>
                     <place source="unit">Girbitani</place>
                     <province source="tail">Tripolitania</province>
                 </civil>
                 <civil line="822">
                     <office type="procurator">Procurator</office>
-                    <unit>bafii insularum Balearum</unit>
+                    <unit>dye works in the Balearic Islands</unit>
                     <place source="unit">insularum Balearum</place>
                 </civil>
                 <civil line="823">
                     <office type="procurator">Procurator</office>
-                    <unit>bafii Telonensis</unit>
+                    <unit>dye works at Telo</unit>
                     <place source="unit">Telonensis</place>
                     <region source="tail">the Gauls</region>
                 </civil>
                 <civil line="824">
                     <office type="procurator">Procurator</office>
-                    <unit>bafii Narbonensis</unit>
+                    <unit>dye works at Narbo</unit>
                     <place source="unit">Narbonensis</place>
                 </civil>
             </group>
@@ -2583,17 +2583,17 @@
                 <title>Superintendents of the gold-embroiderers or silversmiths</title>
                 <unknown line="826">
                     <office type="praepositus">Commander</office>
-                    <unit>branbaricariorum siue argentariorum Arelatensium</unit>
+                    <unit>gold-embroiderers or silversmiths at Arelate</unit>
                     <place source="unit">Arelatensium</place>
                 </unknown>
                 <unknown line="827">
                     <office type="praepositus">Commander</office>
-                    <unit>branbaricariorum siue argentariorum Remensium</unit>
+                    <unit>gold-embroiderers or silversmiths at Reims</unit>
                     <place source="unit">Remensium</place>
                 </unknown>
                 <unknown line="828">
                     <office type="praepositus">Commander</office>
-                    <unit>branbaricariorum siue argentariorum Triberorum</unit>
+                    <unit>gold-embroiderers or silversmiths at Trier</unit>
                     <place source="unit">Triberorum</place>
                 </unknown>
             </group>
@@ -2612,7 +2612,7 @@
                 </unknown>
                 <unknown line="833">
                     <office type="praepositus">Commander</office>
-                    <unit>bastagae secunsae et tertiae Orientalis</unit>
+                    <unit>second and third Eastern transport service</unit>
                 </unknown>
                 <unknown line="834">
                     <office type="praepositus">Commander</office>
@@ -2628,45 +2628,45 @@
             </group>
             <unknown line="837">
                 <office type="comes">Count</office>
-                <unit>commerciorum per Illyricum</unit>
+                <unit>of trade administration throughout Illyricum</unit>
             </unknown>
             <group type="officium" line="838" ownerOffice="Comes sacrarum largitionum">
-                <title>Staff of the Illustrious Count of the Sacred Largesses habet</title>
+                <title>Staff of the Illustrious Count of the Sacred Largesses</title>
                 <unknown line="839">
-                    <unit>Primicerium totius officii</unit>
+                    <unit>Chief of the entire staff</unit>
                 </unknown>
                 <unknown line="840">
-                    <unit>Primicerium scrinii canonum</unit>
+                    <unit>Chief of the bureau of assessments</unit>
                 </unknown>
                 <unknown line="841">
-                    <unit>Primicerium scrinii tabulariorum</unit>
+                    <unit>Chief of the bureau of records</unit>
                 </unknown>
                 <unknown line="842">
-                    <unit>Primicerium scrinii numerorum</unit>
+                    <unit>Chief of the bureau of accounts</unit>
                 </unknown>
                 <unknown line="843">
-                    <unit>Primicerium scrinii aureae massae</unit>
+                    <unit>Chief of the bureau of gold bullion</unit>
                 </unknown>
                 <unknown line="844">
-                    <unit>Primicerium scrinii auri ad responsum</unit>
+                    <unit>Chief of the bureau of gold for requisitions</unit>
                 </unknown>
                 <unknown line="845">
-                    <unit>Primicerium scrinii vestiarii sacri</unit>
+                    <unit>Chief of the bureau of the sacred wardrobe</unit>
                 </unknown>
                 <unknown line="846">
-                    <unit>Primicerium scrinii ab argento</unit>
+                    <unit>Chief of the bureau of silver</unit>
                 </unknown>
                 <unknown line="847">
-                    <unit>Primicerium scrinii a miliarensibus</unit>
+                    <unit>Chief of the bureau for miliarenses</unit>
                 </unknown>
                 <unknown line="848">
-                    <unit>Primicerium scrinii a pecuniis, et ceteros scriniarios.</unit>
+                    <unit>Chief of the bureau of monies, and the other bureau clerks.</unit>
                 </unknown>
                 <unknown line="849">
-                    <unit>Secundicerium officii, qui primicerius est exceptorum.</unit>
+                    <unit>Second officer of the staff, who is chief of the clerks.</unit>
                 </unknown>
                 <unknown line="850">
-                    <unit>Tertiocerium officii, qui tractat bastagas</unit>
+                    <unit>Third officer of the staff, who handles the transport services</unit>
                 </unknown>
             </group>
         </chapter>
@@ -2684,129 +2684,129 @@
                 </unknown>
                 <civil line="857">
                     <office type="rationalis">Financial administrator</office>
-                    <unit>rerum privatarum per Illyricum</unit>
+                    <unit>of the private estates throughout Illyricum</unit>
                 </civil>
                 <civil line="858">
                     <office type="rationalis">Financial administrator</office>
-                    <unit>rerum privatarum per Italiam</unit>
+                    <unit>of the private estates throughout Italiam</unit>
                 </civil>
                 <civil line="859">
                     <office type="rationalis">Financial administrator</office>
-                    <unit>rei privatae per Italiam</unit>
+                    <unit>of the private estates throughout Italiam</unit>
                 </civil>
                 <civil line="860">
                     <office type="rationalis">Financial administrator</office>
-                    <unit>rei privatae per urbem Romam et suburbicarias regiones cum parte Faustinae</unit>
+                    <unit>of the private estates throughout urbem Romam et suburbicarias regiones cum parte Faustinae</unit>
                 </civil>
                 <civil line="861">
                     <office type="rationalis">Financial administrator</office>
-                    <unit>rei privatae per Siciliam</unit>
+                    <unit>of the private estates throughout Siciliam</unit>
                 </civil>
                 <civil line="862">
                     <office type="rationalis">Financial administrator</office>
-                    <unit>rei privatae per Africam</unit>
+                    <unit>of the private estates throughout Africam</unit>
                 </civil>
                 <civil line="863">
                     <office type="rationalis">Financial administrator</office>
-                    <unit>rei privatae per Hispanias</unit>
+                    <unit>of the private estates throughout Hispanias</unit>
                 </civil>
                 <civil line="864">
                     <office type="rationalis">Financial administrator</office>
-                    <unit>rei privatae per Gallias</unit>
+                    <unit>of the private estates throughout Gallias</unit>
                 </civil>
                 <civil line="865">
                     <office type="rationalis">Financial administrator</office>
-                    <unit>rei privatae per Quinque provincias</unit>
+                    <unit>of the private estates throughout the Five Provinces</unit>
                 </civil>
                 <civil line="866">
                     <office type="rationalis">Financial administrator</office>
-                    <unit>rei privatae per Britannias</unit>
+                    <unit>of the private estates throughout Britannias</unit>
                 </civil>
                 <civil line="867">
                     <office type="rationalis">Financial administrator</office>
-                    <unit>rei privatae fundorum domus divinae per Africam</unit>
+                    <unit>of the private estates of the imperial household lands throughout Africam</unit>
                 </civil>
                 <civil line="868">
                     <office type="procurator">Procurator</office>
-                    <unit>rei privatae per Siciliam</unit>
+                    <unit>of the private estates throughout Siciliam</unit>
                 </civil>
                 <civil line="869">
                     <office type="procurator">Procurator</office>
-                    <unit>rei privatae per Apuliam et Calabriam siue saltus Carminianensis</unit>
+                    <unit>of the private estates throughout Apuliam et Calabriam siue saltus Carminianensis</unit>
                 </civil>
                 <unknown line="870">
                     <office type="praepositus">Commander</office>
-                    <unit>rei privatae per Sequanicum et Germaniam primam</unit>
+                    <unit>of the private estates throughout Sequanicum et Germaniam primam</unit>
                 </unknown>
                 <civil line="871">
                     <office type="procurator">Procurator</office>
-                    <unit>rei privatae per Dalmatiam</unit>
+                    <unit>of the private estates throughout Dalmatiam</unit>
                 </civil>
                 <civil line="872">
                     <office type="procurator">Procurator</office>
-                    <unit>rei privatae per Saviam</unit>
+                    <unit>of the private estates throughout Saviam</unit>
                 </civil>
                 <civil line="873">
                     <office type="procurator">Procurator</office>
-                    <unit>rei privatae per Italiam</unit>
+                    <unit>of the private estates throughout Italiam</unit>
                 </civil>
                 <civil line="874">
                     <office type="procurator">Procurator</office>
-                    <unit>rei privatae per urbem Romam</unit>
+                    <unit>of the private estates throughout urbem Romam</unit>
                 </civil>
                 <civil line="875">
                     <office type="procurator">Procurator</office>
-                    <unit>rei privatae per urbicarias regiones rerum Iuliani</unit>
+                    <unit>of the private estates throughout urbicarias regiones rerum Iuliani</unit>
                 </civil>
                 <civil line="876">
                     <office type="procurator">Procurator</office>
-                    <unit>rei privatae per Mauritaniam Sitifensem</unit>
+                    <unit>of the private estates throughout Mauritaniam Sitifensem</unit>
                 </civil>
                 <civil line="877">
                     <office type="procurator">Procurator</office>
-                    <unit>rei privatae gynaeciorum Triberorum</unit>
+                    <unit>imperial weaving houses of the private estates at Trier</unit>
                     <place source="unit">Triberorum</place>
                 </civil>
                 <civil line="878">
                     <office type="procurator">Procurator</office>
-                    <unit>gynaecei Viuarensis rei privatae Metti translata anhelat</unit>
+                    <unit>weaving house of the private estates at Vivarium, transferred to Metz</unit>
                     <place source="unit">Viuarensis</place>
                 </civil>
                 <unknown line="879">
                     <office type="praepositus">Commander</office>
-                    <unit>bastagae rei privatae Orientalis inferioris</unit>
+                    <unit>lower Eastern transport service of the private estates</unit>
                 </unknown>
                 <unknown line="880">
                     <office type="praepositus">Commander</office>
-                    <unit>bastagae privatarum Galliarum</unit>
+                    <unit>transport service of the private estates of the Gauls</unit>
                 </unknown>
             </group>
             <group type="officium" line="881" ownerOffice="Comes rerum privatarum">
-                <title>Staff of the Illustrious Count of the Private Estates habet</title>
+                <title>Staff of the Illustrious Count of the Private Estates</title>
                 <unknown line="882">
-                    <unit>Primicerium totius officii</unit>
+                    <unit>Chief of the entire staff</unit>
                 </unknown>
                 <unknown line="883">
-                    <unit>Primiscrinium beneficiorum</unit>
+                    <unit>Senior clerk of the bureau of grants</unit>
                 </unknown>
                 <unknown line="884">
-                    <unit>Primiscrinium canonium</unit>
+                    <unit>Senior clerk of the bureau of assessments</unit>
                 </unknown>
                 <unknown line="885">
-                    <unit>Primiscrinium securitatum</unit>
+                    <unit>Senior clerk of the bureau of receipts</unit>
                 </unknown>
                 <unknown line="886">
-                    <unit>Primiscrinium largitionum privatarum, scriniarios etiam reliquos suprascriptorum scriniorum.</unit>
+                    <unit>Senior clerk of private largesses, together with the remaining clerks of the aforesaid bureaux.</unit>
                 </unknown>
                 <unknown line="887">
-                    <unit>Secunicerium totius officii, qui tractat chartas officii, ceteros etiam palatinos</unit>
+                    <unit>Second officer of the entire staff, who handles the records of the office, together with the other palace staff</unit>
                 </unknown>
             </group>
         </chapter>
         <chapter type="comes_domesticorum">
             <title>Comes domesticorum equitum.ÝÝ |ÝÝÝ Comes domesticorum peditum</title>
             <unknown line="891">
-                <unit>Sub dispositione uirorum illustrium comitum domesticorum equtum et</unit>
+                <unit>Under the authority of the Illustrious Counts of the Household Cavalry and</unit>
             </unknown>
             <group type="unknown" line="892">
                 <title>peditum</title>
@@ -2824,7 +2824,7 @@
         <chapter type="unknown">
             <title>[Missing]</title>
             <unknown line="899">
-                <unit>Sub dispositione viri spectabilis primicerii sacri cubiculi:</unit>
+                <unit>Under the authority of the Respectable Chief of the Sacred Bedchamber:</unit>
             </unknown>
         </chapter>
         <chapter type="unknown">
@@ -2842,18 +2842,18 @@
                 </unknown>
             </group>
             <group type="officium" line="907" ownerOffice="Castrensis sacri palatii">
-                <title>Staff of the Respectable Steward of the Sacred Palace habet</title>
+                <title>Staff of the Respectable Steward of the Sacred Palace</title>
                 <unknown line="908">
-                    <unit>Tabularium domini</unit>
+                    <unit>Record clerk of the emperor</unit>
                 </unknown>
                 <unknown line="909">
-                    <unit>Tabularium dominae Augustae</unit>
+                    <unit>Record clerk of the Augusta</unit>
                 </unknown>
                 <unknown line="910">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="911">
-                    <unit>Chartularium et scrinium ipsius, et ceteros palatinos officiorum</unit>
+                    <unit>Archivist with his bureau, and the other palace staff of the offices</unit>
                 </unknown>
             </group>
         </chapter>
@@ -2862,23 +2862,23 @@
             <group type="unknown" line="915">
                 <title>Under the care of the Respectable Chief of the Notaries</title>
                 <unknown line="916">
-                    <unit>Notitia omnium dignitatum et amministrationum tam civilium quam militarium</unit>
+                    <unit>Register of all dignities and administrations, both civil and military</unit>
                 </unknown>
             </group>
             <unknown line="917">
-                <unit>Officium autem non habet sed adiutores</unit>
+                <unit>He has no staff, only assistants</unit>
             </unknown>
         </chapter>
         <chapter type="unknown">
             <title>Magistri scriniorum. Memoriae.ÝÝ Epistolarum.ÝÝ Libellorum</title>
             <unknown line="921">
-                <unit>Magister memoriae annotationes omnes dictat</unit>
+                <unit>The Master of Memory drafts all imperial annotations</unit>
             </unknown>
             <unknown line="922">
-                <unit>Magister epistolarum legationes civitatum et consultationes et preces tractat</unit>
+                <unit>The Master of Letters handles embassies from cities, consultations and petitions</unit>
             </unknown>
             <unknown line="923">
-                <unit>Magister libellorum cognitiones et preces tractat</unit>
+                <unit>The Master of Petitions handles judicial hearings and petitions</unit>
             </unknown>
         </chapter>
         <chapter type="unknown">
@@ -2886,40 +2886,40 @@
             <group type="administration" line="927">
                 <title>Under the authority of the Respectable Proconsul Africae</title>
                 <unknown line="928">
-                    <unit>Provincia proconsularis et legati eius duo</unit>
+                    <unit>The proconsular province and its two legates</unit>
                 </unknown>
             </group>
             <group type="officium" line="929" ownerOffice="Proconsul Africae">
                 <title>The staff is as follows</title>
                 <unknown line="930">
-                    <unit>Principem de scola agentum in rebus ducenarium</unit>
+                    <unit>Chief of staff, a ducenarius from the corps of agentes in rebus</unit>
                 </unknown>
                 <unknown line="931">
-                    <unit>Cornicularium</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="932">
-                    <unit>Numerarios duos</unit>
+                    <unit>Two accountants</unit>
                 </unknown>
                 <unknown line="933">
-                    <unit>Primiscrinium</unit>
+                    <unit>Senior bureau clerk</unit>
                 </unknown>
                 <unknown line="934">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="935">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="936">
-                    <unit>Keeper of the records</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="937">
-                    <unit>Subadiuuas</unit>
+                    <unit>Deputy assistants</unit>
                 </unknown>
                 <unknown line="938">
                     <unit>Clerks</unit>
                 </unknown>
                 <unknown line="939">
-                    <unit>Singulares et reliquum officium</unit>
+                    <unit>Special attendants and the rest of the staff</unit>
                 </unknown>
             </group>
         </chapter>
@@ -2965,36 +2965,36 @@
                 </unknown>
             </group>
             <group type="officium" line="956" ownerOffice="Vicarius urbis Romae">
-                <title>Officium autem supradictus uir spectabilis vicarius habet ita</title>
+                <title>The staff of the aforesaid Respectable Vicar is as follows</title>
                 <unknown line="957">
-                    <unit>Principem de scola agentum in rebus ducenarium</unit>
+                    <unit>Chief of staff, a ducenarius from the corps of agentes in rebus</unit>
                 </unknown>
                 <unknown line="958">
-                    <unit>Cornicularium</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="959">
-                    <unit>Numerarios duos</unit>
+                    <unit>Two accountants</unit>
                 </unknown>
                 <unknown line="960">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="961">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="962">
-                    <unit>Keeper of the records</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="963">
-                    <unit>Charge of correspondence</unit>
+                    <unit>Correspondence officer</unit>
                 </unknown>
                 <unknown line="964">
-                    <unit>Subadiuuas</unit>
+                    <unit>Deputy assistants</unit>
                 </unknown>
                 <unknown line="965">
                     <unit>Clerks</unit>
                 </unknown>
                 <unknown line="966">
-                    <unit>Singulares et reliquos officiales</unit>
+                    <unit>Special attendants and the remaining staff</unit>
                 </unknown>
             </group>
         </chapter>
@@ -3025,36 +3025,36 @@
                 </unknown>
             </group>
             <group type="officium" line="978" ownerOffice="Vicarius Africae">
-                <title>The same Respectable official has the following staff vicarius hoc modo</title>
+                <title>The same Respectable Vicar has the following staff</title>
                 <unknown line="979">
-                    <unit>Principem de scola agentum in rebus ducenarium</unit>
+                    <unit>Chief of staff, a ducenarius from the corps of agentes in rebus</unit>
                 </unknown>
                 <unknown line="980">
-                    <unit>Cornicularium</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="981">
-                    <unit>Numerarios duos</unit>
+                    <unit>Two accountants</unit>
                 </unknown>
                 <unknown line="982">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="983">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="984">
-                    <unit>Charge of correspondence</unit>
+                    <unit>Correspondence officer</unit>
                 </unknown>
                 <unknown line="985">
-                    <unit>Keeper of the records</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="986">
-                    <unit>Subadiuuas</unit>
+                    <unit>Deputy assistants</unit>
                 </unknown>
                 <unknown line="987">
                     <unit>Clerks</unit>
                 </unknown>
                 <unknown line="988">
-                    <unit>Singulares et reliquos officiales</unit>
+                    <unit>Special attendants and the remaining staff</unit>
                 </unknown>
             </group>
         </chapter>
@@ -3091,36 +3091,36 @@
                 </unknown>
             </group>
             <group type="officium" line="1002" ownerOffice="Vicarius Hispaniae">
-                <title>The same Respectable official has the following staff vicarius hoc modo</title>
+                <title>The same Respectable Vicar has the following staff</title>
                 <unknown line="1003">
-                    <unit>Principem de scola agentum in rebus exducenariis</unit>
+                    <unit>Chief of staff from the former ducenarii of the corps of agentes in rebus</unit>
                 </unknown>
                 <unknown line="1004">
-                    <unit>Cornicularium</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="1005">
-                    <unit>Numerarios duos</unit>
+                    <unit>Two accountants</unit>
                 </unknown>
                 <unknown line="1006">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1007">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1008">
-                    <unit>Keeper of the records</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1009">
-                    <unit>Charge of correspondence</unit>
+                    <unit>Correspondence officer</unit>
                 </unknown>
                 <unknown line="1010">
-                    <unit>Subadiuuas</unit>
+                    <unit>Deputy assistants</unit>
                 </unknown>
                 <unknown line="1011">
                     <unit>Clerks</unit>
                 </unknown>
                 <unknown line="1012">
-                    <unit>Singulares et reliquum officium</unit>
+                    <unit>Special attendants and the rest of the staff</unit>
                 </unknown>
             </group>
         </chapter>
@@ -3187,36 +3187,36 @@
                 </group>
             </group>
             <group type="officium" line="1036" ownerOffice="Vicarius Septem provinciarum">
-                <title>The same Respectable official has the following staff vicarius hoc modo</title>
+                <title>The same Respectable Vicar has the following staff</title>
                 <unknown line="1037">
-                    <unit>Principem de scola agentum in rebus exducenariis</unit>
+                    <unit>Chief of staff from the former ducenarii of the corps of agentes in rebus</unit>
                 </unknown>
                 <unknown line="1038">
-                    <unit>Cornicularium</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="1039">
-                    <unit>Numerarios duos</unit>
+                    <unit>Two accountants</unit>
                 </unknown>
                 <unknown line="1040">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1041">
-                    <unit>Keeper of the records</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1042">
-                    <unit>Charge of correspondence</unit>
+                    <unit>Correspondence officer</unit>
                 </unknown>
                 <unknown line="1043">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1044">
-                    <unit>Subadiuuas</unit>
+                    <unit>Deputy assistants</unit>
                 </unknown>
                 <unknown line="1045">
                     <unit>Clerks</unit>
                 </unknown>
                 <unknown line="1046">
-                    <unit>Singulares et reliquos officiales</unit>
+                    <unit>Special attendants and the remaining staff</unit>
                 </unknown>
             </group>
         </chapter>
@@ -3247,36 +3247,36 @@
                 </group>
             </group>
             <group type="officium" line="1058" ownerOffice="Vicarius Britanniarum">
-                <title>The same Respectable official has the following staff vicarius hoc modo</title>
+                <title>The same Respectable Vicar has the following staff</title>
                 <unknown line="1059">
-                    <unit>Principem de scola agentum in rebus exducenariis</unit>
+                    <unit>Chief of staff from the former ducenarii of the corps of agentes in rebus</unit>
                 </unknown>
                 <unknown line="1060">
-                    <unit>Cornicularium</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="1061">
-                    <unit>Numerarios duos</unit>
+                    <unit>Two accountants</unit>
                 </unknown>
                 <unknown line="1062">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1063">
-                    <unit>Keeper of the records</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1064">
-                    <unit>Charge of correspondence</unit>
+                    <unit>Correspondence officer</unit>
                 </unknown>
                 <unknown line="1065">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1066">
-                    <unit>Subadiuuas</unit>
+                    <unit>Deputy assistants</unit>
                 </unknown>
                 <unknown line="1067">
                     <unit>Clerks</unit>
                 </unknown>
                 <unknown line="1068">
-                    <unit>Singulares et reliquos officiales</unit>
+                    <unit>Special attendants and the remaining staff</unit>
                 </unknown>
             </group>
         </chapter>
@@ -3380,33 +3380,33 @@
                 </group>
             </group>
             <group type="officium" line="1095" ownerOffice="Comes Africae">
-                <title>The same Respectable official has the following staff comes hoc modo</title>
+                <title>The same Respectable official has the following staff comes</title>
                 <unknown line="1096">
-                    <unit>Principem ex officiis magistrorum militum praesentalium, uno anno a parte peditum, alio a parte equitum.</unit>
+                    <unit>Chief of staff from the staffs of the Masters of the Soldiers in the Presence, one year from the infantry branch and the next from the cavalry branch.</unit>
                 </unknown>
                 <unknown line="1097">
-                    <unit>Cornicularium</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="1098">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1099">
-                    <unit>Commentariensem ex officiis magistrorum militum praesentalium alternis annis</unit>
+                    <unit>Keeper of records, from the staffs of the Masters of the Soldiers in the Presence in alternate years</unit>
                 </unknown>
                 <unknown line="1100">
-                    <unit>Numerarios duos ex utrisque officiis magistrorum militum praesentalium singulos</unit>
+                    <unit>Two accountants, one from each staff of the Masters of the Soldiers in the Presence</unit>
                 </unknown>
                 <unknown line="1101">
-                    <unit>Subadiuuam</unit>
+                    <unit>Deputy assistant</unit>
                 </unknown>
                 <unknown line="1102">
-                    <unit>Regrendarium</unit>
+                    <unit>Registrar</unit>
                 </unknown>
                 <unknown line="1103">
                     <unit>Clerks</unit>
                 </unknown>
                 <unknown line="1104">
-                    <unit>Singulares et reliquos officiales</unit>
+                    <unit>Special attendants and the remaining staff</unit>
                 </unknown>
             </group>
         </chapter>
@@ -3459,33 +3459,33 @@
                 </group>
             </group>
             <group type="officium" line="1118" ownerOffice="Comes Tingitaniae">
-                <title>Officium autem habet idem iur spectabilis comes hoc modo</title>
+                <title>The staff of the same Respectable Count is as follows</title>
                 <unknown line="1119">
-                    <unit>Principem ex officiis magistrorum militum praesentalium, uno anno a parte peditum, alio anno a parte equitum.</unit>
+                    <unit>Chief of staff from the staffs of the Masters of the Soldiers in the Presence, one year from the infantry branch and the next from the cavalry branch.</unit>
                 </unknown>
                 <unknown line="1120">
-                    <unit>Commentariensem ut supra</unit>
+                    <unit>Keeper of records, as above</unit>
                 </unknown>
                 <unknown line="1121">
-                    <unit>Numerarios duos, singulos ex officiis supradictis.</unit>
+                    <unit>Two accountants, one from each of the aforesaid staffs.</unit>
                 </unknown>
                 <unknown line="1122">
-                    <unit>Cornicularium</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="1123">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1124">
-                    <unit>Subadiuuam</unit>
+                    <unit>Deputy assistant</unit>
                 </unknown>
                 <unknown line="1125">
-                    <unit>Regrendarium</unit>
+                    <unit>Registrar</unit>
                 </unknown>
                 <unknown line="1126">
                     <unit>Clerks</unit>
                 </unknown>
                 <unknown line="1127">
-                    <unit>Singulares et reliquos officiales</unit>
+                    <unit>Special attendants and the remaining staff</unit>
                 </unknown>
             </group>
         </chapter>
@@ -3549,30 +3549,30 @@
                 </unknown>
             </group>
             <group type="officium" line="1146" ownerOffice="Comes litoris Saxonici per Britanniam">
-                <title>The same Respectable official has the following staff comes hoc modo</title>
+                <title>The same Respectable official has the following staff comes</title>
                 <unknown line="1147">
-                    <unit>Principem ex officiis magistrorum militum praesentalium parte peditum</unit>
+                    <unit>Chief of staff from the infantry branch of the staffs of the Masters of the Soldiers in the Presence</unit>
                 </unknown>
                 <unknown line="1148">
-                    <unit>Numerarios duos ut supra ex officio supradicto</unit>
+                    <unit>Two accountants, as above, from the aforesaid staff</unit>
                 </unknown>
                 <unknown line="1149">
-                    <unit>Cornicularium</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="1150">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1151">
-                    <unit>Subadiuuam</unit>
+                    <unit>Deputy assistant</unit>
                 </unknown>
                 <unknown line="1152">
-                    <unit>Regrendarium</unit>
+                    <unit>Registrar</unit>
                 </unknown>
                 <unknown line="1153">
                     <unit>Clerks</unit>
                 </unknown>
                 <unknown line="1154">
-                    <unit>Singulares et reliquos officiales</unit>
+                    <unit>Special attendants and the remaining staff</unit>
                 </unknown>
             </group>
         </chapter>
@@ -3581,34 +3581,34 @@
             <group type="administration" line="1158">
                 <title>Under the authority of the Respectable Count Britanniarum</title>
                 <unknown line="1159">
-                    <unit>Provincia Britannia</unit>
+                    <unit>Province of Britannia</unit>
                 </unknown>
             </group>
             <group type="officium" line="1160" ownerOffice="Comes Britanniae">
-                <title>The same Respectable official has the following staff comes hoc modo</title>
+                <title>The same Respectable official has the following staff comes</title>
                 <unknown line="1161">
-                    <unit>Principem ex officiis magistrorum militum praesentalium alternis annis</unit>
+                    <unit>Chief of staff from the staffs of the Masters of the Soldiers in the Presence in alternate years</unit>
                 </unknown>
                 <unknown line="1162">
-                    <unit>Commentariensem ut supra</unit>
+                    <unit>Keeper of records, as above</unit>
                 </unknown>
                 <unknown line="1163">
-                    <unit>Numerarios duos, singulos ex utrisque officiis suprascriptis.</unit>
+                    <unit>Two accountants, one from each of the two aforesaid staffs.</unit>
                 </unknown>
                 <unknown line="1164">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1165">
-                    <unit>Subadiuuam</unit>
+                    <unit>Deputy assistant</unit>
                 </unknown>
                 <unknown line="1166">
-                    <unit>Regrendarium</unit>
+                    <unit>Registrar</unit>
                 </unknown>
                 <unknown line="1167">
                     <unit>Clerks</unit>
                 </unknown>
                 <unknown line="1168">
-                    <unit>Singulares et reliquos officiales</unit>
+                    <unit>Special attendants and the remaining staff</unit>
                 </unknown>
             </group>
         </chapter>
@@ -3658,33 +3658,33 @@
                 </unknown>
             </group>
             <group type="officium" line="1181" ownerOffice="Dux et praeses provinciae Mauritaniae">
-                <title>The same Respectable official has the following staff dux et praeses hoc modo</title>
+                <title>The same Respectable official has the following staff dux et praeses</title>
                 <unknown line="1182">
-                    <unit>Principem ex officiis magistrorum militum praesentalium alternis annis</unit>
+                    <unit>Chief of staff from the staffs of the Masters of the Soldiers in the Presence in alternate years</unit>
                 </unknown>
                 <unknown line="1183">
-                    <unit>Numerarios duos, singulos ex officiis suprascriptis.</unit>
+                    <unit>Two accountants, one from each of the aforesaid staffs.</unit>
                 </unknown>
                 <unknown line="1184">
-                    <unit>Commentariensem ex officiis suprascriptis alternis annis</unit>
+                    <unit>Keeper of records, from the aforesaid staffs in alternate years</unit>
                 </unknown>
                 <unknown line="1185">
-                    <unit>Cornicularium</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="1186">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1187">
-                    <unit>Subadiuuam</unit>
+                    <unit>Deputy assistant</unit>
                 </unknown>
                 <unknown line="1188">
-                    <unit>Regrendarium</unit>
+                    <unit>Registrar</unit>
                 </unknown>
                 <unknown line="1189">
                     <unit>Clerks</unit>
                 </unknown>
                 <unknown line="1190">
-                    <unit>Singulares et reliquos officiales</unit>
+                    <unit>Special attendants and the remaining staff</unit>
                 </unknown>
             </group>
         </chapter>
@@ -3762,33 +3762,33 @@
                 </unknown>
             </group>
             <group type="officium" line="1209" ownerOffice="Dux provinciae Tripolitanae">
-                <title>The same Respectable official has the following staff dux hoc modo</title>
+                <title>The same Respectable official has the following staff dux</title>
                 <unknown line="1210">
-                    <unit>Principem ex officiis magistrorum militum praesentalium alternis annis</unit>
+                    <unit>Chief of staff from the staffs of the Masters of the Soldiers in the Presence in alternate years</unit>
                 </unknown>
                 <unknown line="1211">
-                    <unit>Numerarios utrosque</unit>
+                    <unit>Two accountants</unit>
                 </unknown>
                 <unknown line="1212">
-                    <unit>Commentariensem utrumque</unit>
+                    <unit>Two keepers of records</unit>
                 </unknown>
                 <unknown line="1213">
-                    <unit>Cornicularium</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="1214">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1215">
-                    <unit>Subadiuuam</unit>
+                    <unit>Deputy assistant</unit>
                 </unknown>
                 <unknown line="1216">
-                    <unit>Regrendarium</unit>
+                    <unit>Registrar</unit>
                 </unknown>
                 <unknown line="1217">
                     <unit>Clerks</unit>
                 </unknown>
                 <unknown line="1218">
-                    <unit>Singulares et reliquos officiales</unit>
+                    <unit>Special attendants and the remaining staff</unit>
                 </unknown>
             </group>
         </chapter>
@@ -3797,27 +3797,27 @@
             <group type="administration" line="1222">
                 <title>Under the authority of the Respectable Dux provinciae Pannoniae secundae ripariensis et Saviae</title>
                 <cuneus line="1223">
-                    <unit>Cavalry wedge scutariorum</unit>
+                    <unit>Cuneus of Scutarii cavalry</unit>
                     <place source="tail">Cornacii</place>
                 </cuneus>
                 <cuneus line="1224">
-                    <unit>Cavalry wedge Dalmatarum</unit>
+                    <unit>Cuneus of Dalmatian cavalry</unit>
                     <place source="tail">Teutiborgio</place>
                 </cuneus>
                 <cuneus line="1225">
-                    <unit>Cavalry wedge Constantianorum</unit>
+                    <unit>Cuneus of Constantian cavalry</unit>
                     <place source="tail">Burgenas</place>
                 </cuneus>
                 <cuneus line="1226">
-                    <unit>Cavalry wedge promotorum</unit>
+                    <unit>Cuneus of Promoti cavalry</unit>
                     <place source="tail">Cuccis</place>
                 </cuneus>
                 <cuneus line="1227">
-                    <unit>Cavalry wedge constantium</unit>
+                    <unit>Cuneus of Constantes cavalry</unit>
                     <place source="tail">Aciminci</place>
                 </cuneus>
                 <cuneus line="1228">
-                    <unit>Cavalry wedge Italicianorum</unit>
+                    <unit>Cuneus of Italian cavalry</unit>
                     <place source="tail">Secundarum</place>
                 </cuneus>
                 <equites line="1229">
@@ -3966,30 +3966,30 @@
                 </unknown>
             </group>
             <group type="officium" line="1261" ownerOffice="Dux Pannoniae">
-                <title>The same Respectable official has the following staff dux hoc modo</title>
+                <title>The same Respectable official has the following staff dux</title>
                 <unknown line="1262">
-                    <unit>Principem de eodem officio</unit>
+                    <unit>Chief of staff from the same office</unit>
                 </unknown>
                 <unknown line="1263">
-                    <unit>Numerarium</unit>
+                    <unit>Accountant</unit>
                 </unknown>
                 <unknown line="1264">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1265">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1266">
-                    <unit>Subadiuuam</unit>
+                    <unit>Deputy assistant</unit>
                 </unknown>
                 <unknown line="1267">
-                    <unit>Regrendarium</unit>
+                    <unit>Registrar</unit>
                 </unknown>
                 <unknown line="1268">
                     <unit>Clerks</unit>
                 </unknown>
                 <unknown line="1269">
-                    <unit>Singulares et reliquos officiales</unit>
+                    <unit>Special attendants and the remaining staff</unit>
                 </unknown>
             </group>
         </chapter>
@@ -3998,25 +3998,25 @@
             <group type="administration" line="1273">
                 <title>Under the authority of the Respectable Dux provinciae Valeriae ripensis</title>
                 <cuneus line="1274">
-                    <unit>Cavalry wedge scutatorum</unit>
+                    <unit>Cuneus of Scutati cavalry</unit>
                     <place source="tail">Solue</place>
                 </cuneus>
                 <cuneus line="1275">
-                    <unit>Cavalry wedge Dalmatarum</unit>
+                    <unit>Cuneus of Dalmatian cavalry</unit>
                     <place source="tail">Intercisa</place>
                 </cuneus>
                 <cuneus line="1276">
-                    <unit>Cavalry wedge Constantianorum</unit>
+                    <unit>Cuneus of Constantian cavalry</unit>
                     <place source="tail">Lusionio</place>
                     <place source="alternate">Intercisa</place>
                 </cuneus>
                 <cuneus line="1277">
-                    <unit>Cavalry wedge stablesianorum</unit>
+                    <unit>Cuneus of Stablesiani cavalry</unit>
                     <place source="tail">Ripa Alta</place>
                     <place source="alternate">Conradcuha</place>
                 </cuneus>
                 <cuneus line="1278">
-                    <unit>Cavalry wedge Fortensium</unit>
+                    <unit>Cuneus of Fortenses cavalry</unit>
                     <place source="tail">Altino</place>
                 </cuneus>
                 <equites line="1279">
@@ -4186,30 +4186,30 @@
                 </unknown>
             </group>
             <group type="officium" line="1316" ownerOffice="Dux provinciae Valeriae">
-                <title>The same Respectable official has the following staff dux hoc modo</title>
+                <title>The same Respectable official has the following staff dux</title>
                 <unknown line="1317">
-                    <unit>Principem de eodem corpore</unit>
+                    <unit>Chief of staff from the same corps</unit>
                 </unknown>
                 <unknown line="1318">
-                    <unit>Numerarium</unit>
+                    <unit>Accountant</unit>
                 </unknown>
                 <unknown line="1319">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1320">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1321">
-                    <unit>Subadiuuam</unit>
+                    <unit>Deputy assistant</unit>
                 </unknown>
                 <unknown line="1322">
-                    <unit>Regrendarium</unit>
+                    <unit>Registrar</unit>
                 </unknown>
                 <unknown line="1323">
                     <unit>Clerks</unit>
                 </unknown>
                 <unknown line="1324">
-                    <unit>Singulares et reliquos officiales</unit>
+                    <unit>Special attendants and the remaining staff</unit>
                 </unknown>
             </group>
         </chapter>
@@ -4218,11 +4218,11 @@
             <group type="administration" line="1328">
                 <title>Under the authority of the Respectable Dux Pannoniae et Norici ripensis</title>
                 <cuneus line="1329">
-                    <unit>Cavalry wedge Dalmatarum</unit>
+                    <unit>Cuneus of Dalmatian cavalry</unit>
                     <place source="tail">Flexo</place>
                 </cuneus>
                 <cuneus line="1330">
-                    <unit>Cavalry wedge stablesianorum</unit>
+                    <unit>Cuneus of Stablesiani cavalry</unit>
                     <place source="tail">Arrabonae</place>
                 </cuneus>
                 <equites line="1331">
@@ -4365,30 +4365,30 @@
                 </unknown>
             </group>
             <group type="officium" line="1362" ownerOffice="Dux Pannoniae primae">
-                <title>The same Respectable official has the following staff dux hoc modo</title>
+                <title>The same Respectable official has the following staff dux</title>
                 <unknown line="1363">
-                    <unit>Principem de eodem corpore</unit>
+                    <unit>Chief of staff from the same corps</unit>
                 </unknown>
                 <unknown line="1364">
-                    <unit>Numerarium</unit>
+                    <unit>Accountant</unit>
                 </unknown>
                 <unknown line="1365">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1366">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1367">
-                    <unit>Subadiuuam</unit>
+                    <unit>Deputy assistant</unit>
                 </unknown>
                 <unknown line="1368">
-                    <unit>Regrendarium</unit>
+                    <unit>Registrar</unit>
                 </unknown>
                 <unknown line="1369">
                     <unit>Clerks</unit>
                 </unknown>
                 <unknown line="1370">
-                    <unit>Singulares et reliquos officiales</unit>
+                    <unit>Special attendants and the remaining staff</unit>
                 </unknown>
             </group>
         </chapter>
@@ -4502,30 +4502,30 @@
                 </unknown>
             </group>
             <group type="officium" line="1396" ownerOffice="Dux Raetiae">
-                <title>The same Respectable official has the following staff dux hoc modo</title>
+                <title>The same Respectable official has the following staff dux</title>
                 <unknown line="1397">
-                    <unit>Principem ex officiis magistrorum militum praesentalium alternis annis</unit>
+                    <unit>Chief of staff from the staffs of the Masters of the Soldiers in the Presence in alternate years</unit>
                 </unknown>
                 <unknown line="1398">
-                    <unit>Numerarios duos, ex utrisque officiis praesentalibus singulos.</unit>
+                    <unit>Two accountants, one from each of the two staffs in the Presence.</unit>
                 </unknown>
                 <unknown line="1399">
-                    <unit>Commentariensem ex utrisque officiis alternis annis</unit>
+                    <unit>Keeper of records, from the two staffs in alternate years</unit>
                 </unknown>
                 <unknown line="1400">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1401">
-                    <unit>Subadiuuam</unit>
+                    <unit>Deputy assistant</unit>
                 </unknown>
                 <unknown line="1402">
-                    <unit>Regrendarium</unit>
+                    <unit>Registrar</unit>
                 </unknown>
                 <unknown line="1403">
                     <unit>Clerks</unit>
                 </unknown>
                 <unknown line="1404">
-                    <unit>Singulares et reliquos officiales</unit>
+                    <unit>Special attendants and the remaining staff</unit>
                 </unknown>
             </group>
         </chapter>
@@ -4539,30 +4539,30 @@
                 </milites>
             </group>
             <group type="officium" line="1410" ownerOffice="Dux provinciae Sequanici">
-                <title>The same Respectable official has the following staff dux hoc modo</title>
+                <title>The same Respectable official has the following staff dux</title>
                 <unknown line="1411">
-                    <unit>Principem ex officio magistri militum praesentalis aparte peditum</unit>
+                    <unit>Chief of staff from the infantry branch of the staff of the Master of the Soldiers in the Presence</unit>
                 </unknown>
                 <unknown line="1412">
-                    <unit>Numerarium ut supra</unit>
+                    <unit>Accountant, as above</unit>
                 </unknown>
                 <unknown line="1413">
-                    <unit>Commentariensem ut supra</unit>
+                    <unit>Keeper of records, as above</unit>
                 </unknown>
                 <unknown line="1414">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1415">
-                    <unit>Subadiuuam</unit>
+                    <unit>Deputy assistant</unit>
                 </unknown>
                 <unknown line="1416">
-                    <unit>Regrendarium</unit>
+                    <unit>Registrar</unit>
                 </unknown>
                 <unknown line="1417">
                     <unit>Clerks</unit>
                 </unknown>
                 <unknown line="1418">
-                    <unit>Singulares et reliquos officiales</unit>
+                    <unit>Special attendants and the remaining staff</unit>
                 </unknown>
             </group>
         </chapter>
@@ -4622,9 +4622,9 @@
                 </unknown>
             </group>
             <group type="unknown" line="1433">
-                <title>Extenditur tamen tractus Armoricani et Neruicani limitis per provincias quinque</title>
+                <title>The Armorican and Nervian frontier district extends through five provinces</title>
                 <unknown line="1434">
-                    <unit>per Aquitanicam primam</unit>
+                    <unit>throughout Aquitanicam primam</unit>
                 </unknown>
                 <unknown line="1435">
                     <unit>et secundam</unit>
@@ -4640,30 +4640,30 @@
                 </unknown>
             </group>
             <group type="officium" line="1439" ownerOffice="Dux tractus Armoricani">
-                <title>The same Respectable official has the following staff dux hoc modo</title>
+                <title>The same Respectable official has the following staff dux</title>
                 <unknown line="1440">
-                    <unit>Principem ex officiis magistrorum militum praesentalium alternis annis</unit>
+                    <unit>Chief of staff from the staffs of the Masters of the Soldiers in the Presence in alternate years</unit>
                 </unknown>
                 <unknown line="1441">
-                    <unit>Numerarium a parte peditum uno anno</unit>
+                    <unit>Accountant, from the infantry staff for one year</unit>
                 </unknown>
                 <unknown line="1442">
-                    <unit>Commentariensem de officiis suprascriptis alternis annis</unit>
+                    <unit>Keeper of records, from the aforesaid staffs in alternate years</unit>
                 </unknown>
                 <unknown line="1443">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1444">
-                    <unit>Subadiuuam</unit>
+                    <unit>Deputy assistant</unit>
                 </unknown>
                 <unknown line="1445">
-                    <unit>Regrendarium</unit>
+                    <unit>Registrar</unit>
                 </unknown>
                 <unknown line="1446">
                     <unit>Clerks</unit>
                 </unknown>
                 <unknown line="1447">
-                    <unit>Singulares et reliquos officiales</unit>
+                    <unit>Special attendants and the remaining staff</unit>
                 </unknown>
             </group>
         </chapter>
@@ -4688,30 +4688,30 @@
                 </unknown>
             </group>
             <group type="officium" line="1455" ownerOffice="Dux Belgicae secundae">
-                <title>The same Respectable official has the following staff dux hoc modo</title>
+                <title>The same Respectable official has the following staff dux</title>
                 <unknown line="1456">
-                    <unit>Principem xe eodem corpore</unit>
+                    <unit>Chief of staff from the same corps</unit>
                 </unknown>
                 <unknown line="1457">
-                    <unit>Numerarium</unit>
+                    <unit>Accountant</unit>
                 </unknown>
                 <unknown line="1458">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1459">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1460">
-                    <unit>Subadiuuam</unit>
+                    <unit>Deputy assistant</unit>
                 </unknown>
                 <unknown line="1461">
-                    <unit>Regrendarium</unit>
+                    <unit>Registrar</unit>
                 </unknown>
                 <unknown line="1462">
                     <unit>Clerks</unit>
                 </unknown>
                 <unknown line="1463">
-                    <unit>Singulares et reliquos officiales</unit>
+                    <unit>Special attendants and the remaining staff</unit>
                 </unknown>
             </group>
         </chapter>
@@ -4793,7 +4793,7 @@
                 </unknown>
             </group>
             <group type="unknown" line="1484">
-                <title>Item per lineam Valli</title>
+                <title>Also along the line of the Wall</title>
                 <unknown line="1485">
                     <office type="tribunus">Tribune</office>
                     <unit>cohortis quartae Lingonum</unit>
@@ -4898,7 +4898,7 @@
                     <place source="tail">Alione</place>
                 </unknown>
                 <cuneus line="1506">
-                    <unit>Cuneus Sarmatarum</unit>
+                    <unit>Cuneus of Cuneus Sarmatarum cavalry</unit>
                     <place source="tail">Bremetenraco</place>
                 </cuneus>
                 <unknown line="1507">
@@ -4913,30 +4913,30 @@
                 </unknown>
             </group>
             <group type="officium" line="1509" ownerOffice="Dux Britanniarum">
-                <title>The same Respectable official has the following staff dux hoc modo</title>
+                <title>The same Respectable official has the following staff dux</title>
                 <unknown line="1510">
-                    <unit>Principem ex officiis magistrorum militum praesentalium alternis annis</unit>
+                    <unit>Chief of staff from the staffs of the Masters of the Soldiers in the Presence in alternate years</unit>
                 </unknown>
                 <unknown line="1511">
-                    <unit>Commentariensem ut supra</unit>
+                    <unit>Keeper of records, as above</unit>
                 </unknown>
                 <unknown line="1512">
-                    <unit>Numerarios ex utrisque officiis omni anno</unit>
+                    <unit>Accountants from the two staffs each year</unit>
                 </unknown>
                 <unknown line="1513">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1514">
-                    <unit>Subadiuuam</unit>
+                    <unit>Deputy assistant</unit>
                 </unknown>
                 <unknown line="1515">
-                    <unit>Regrendarium</unit>
+                    <unit>Registrar</unit>
                 </unknown>
                 <unknown line="1516">
                     <unit>Clerks</unit>
                 </unknown>
                 <unknown line="1517">
-                    <unit>Singulares et reliquos officiales</unit>
+                    <unit>Special attendants and the remaining staff</unit>
                 </unknown>
             </group>
         </chapter>
@@ -5001,30 +5001,30 @@
                 </unknown>
             </group>
             <group type="officium" line="1533" ownerOffice="Dux Mogontiacensis">
-                <title>The same Respectable official has the following staff dux hoc modo</title>
+                <title>The same Respectable official has the following staff dux</title>
                 <unknown line="1534">
-                    <unit>Principem ex officiis magistrorum militum praesentalium alternis annis</unit>
+                    <unit>Chief of staff from the staffs of the Masters of the Soldiers in the Presence in alternate years</unit>
                 </unknown>
                 <unknown line="1535">
-                    <unit>Numerarium a parte peditum semper</unit>
+                    <unit>Accountant, always from the infantry staff</unit>
                 </unknown>
                 <unknown line="1536">
-                    <unit>Commentariensem a parte peditum semper</unit>
+                    <unit>Keeper of records, always from the infantry staff</unit>
                 </unknown>
                 <unknown line="1537">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1538">
-                    <unit>Subadiuuam</unit>
+                    <unit>Deputy assistant</unit>
                 </unknown>
                 <unknown line="1539">
-                    <unit>Regrendarium</unit>
+                    <unit>Registrar</unit>
                 </unknown>
                 <unknown line="1540">
                     <unit>Clerks</unit>
                 </unknown>
                 <unknown line="1541">
-                    <unit>Singulares et reliquos officiales</unit>
+                    <unit>Special attendants and the remaining staff</unit>
                 </unknown>
             </group>
         </chapter>
@@ -5033,7 +5033,7 @@
             <group type="region" line="1545">
                 <title>In Italy</title>
                 <group type="province" line="1546">
-                    <title>In provincia Venetia inferiore</title>
+                    <title>In the province of Venetia inferiore</title>
                     <unknown line="1547">
                         <office type="praefectus">Prefect</office>
                         <unit>Fleet Venetum</unit>
@@ -5041,7 +5041,7 @@
                     </unknown>
                 </group>
                 <group type="province" line="1548">
-                    <title>In provincia Flaminia</title>
+                    <title>In the province of Flaminia</title>
                     <unknown line="1549">
                         <office type="praefectus">Prefect</office>
                         <unit>militum iuniorum Italicorum</unit>
@@ -5054,7 +5054,7 @@
                     </unknown>
                 </group>
                 <group type="province" line="1551">
-                    <title>In provincia Liguria</title>
+                    <title>In the province of Liguria</title>
                     <unknown line="1552">
                         <office type="praefectus">Prefect</office>
                         <unit>Fleet Comensis cum curis eiusdem civitatis</unit>
@@ -5062,7 +5062,7 @@
                     </unknown>
                 </group>
                 <group type="province" line="1553">
-                    <title>In provincia Campania</title>
+                    <title>In the province of Campania</title>
                     <unknown line="1554">
                         <office type="praefectus">Prefect</office>
                         <unit>Fleet Misenatium</unit>
@@ -5073,7 +5073,7 @@
             <group type="region" line="1555">
                 <title>In Gaul</title>
                 <group type="province" line="1556">
-                    <title>In provincia Riparensi</title>
+                    <title>In the province of Riparensi</title>
                     <unknown line="1557">
                         <office type="praefectus">Prefect</office>
                         <unit>Fleet fluminis Rhodani</unit>
@@ -5097,7 +5097,7 @@
                     </unknown>
                 </group>
                 <group type="province" line="1561">
-                    <title>In provincia Novempopulana</title>
+                    <title>In the province of Novempopulana</title>
                     <unknown line="1562">
                         <office type="tribunus">Tribune</office>
                         <unit>cohortis Noevempopulanae</unit>
@@ -5105,7 +5105,7 @@
                     </unknown>
                 </group>
                 <group type="province" line="1563">
-                    <title>In provincia Lugdunensi prima</title>
+                    <title>In the province of Lugdunensi prima</title>
                     <unknown line="1564">
                         <office type="praefectus">Prefect</office>
                         <unit>Fleet Araricae</unit>
@@ -5113,7 +5113,7 @@
                     </unknown>
                 </group>
                 <group type="province" line="1565">
-                    <title>In provincia Lugdunensis Senonia</title>
+                    <title>In the province of Lugdunensis Senonia</title>
                     <unknown line="1566">
                         <office type="praefectus">Prefect</office>
                         <unit>Fleet Anderetianorum</unit>
@@ -5124,7 +5124,7 @@
             <group type="unknown" line="1567">
                 <title>Hispaniae</title>
                 <group type="province" line="1568">
-                    <title>In provincia Callaecia</title>
+                    <title>In the province of Callaecia</title>
                     <unknown line="1569">
                         <office type="praefectus">Prefect</office>
                         <unit>legionis septimae geminae</unit>
@@ -5153,7 +5153,7 @@
                     </unknown>
                 </group>
                 <group type="province" line="1574">
-                    <title>In provincia Tarraconensi</title>
+                    <title>In the province of Tarraconensi</title>
                     <unknown line="1575">
                         <office type="tribunus">Tribune</office>
                         <unit>cohortis First Gallicae</unit>
@@ -5233,7 +5233,7 @@
                 <unit>.............................................................</unit>
             </unknown>
             <group type="unknown" line="1591">
-                <title>Item in provincia Italia</title>
+                <title>Also in the province of Italy</title>
                 <unknown line="1592">
                     <office type="praefectus">Prefect</office>
                     <unit>Sarmatarum gentilium Apuliae et Calabriae</unit>
@@ -5244,7 +5244,7 @@
                 </unknown>
             </group>
             <group type="unknown" line="1594">
-                <title>Item in provincia Italia mediterranea</title>
+                <title>Also in the province of Italia mediterranea</title>
                 <unknown line="1595">
                     <office type="praefectus">Prefect</office>
                     <unit>Sarmatarum gentilium Apulia et Calabriae</unit>
@@ -5362,40 +5362,40 @@
         <chapter type="unknown">
             <title>Consular Governor of Campania</title>
             <group type="administration" line="1621">
-                <title>Sub dispositione viri clarissimi Consular Governor Campanise</title>
+                <title>Under the authority of the Most Distinguished Consular Governor of Campania</title>
                 <unknown line="1622">
-                    <unit>Provincia Campaniae</unit>
+                    <unit>Province of Campania</unit>
                 </unknown>
             </group>
             <group type="officium" line="1623" ownerOffice="Consularis Campaniae">
                 <title>The staff is as follows</title>
                 <unknown line="1624">
-                    <unit>Principem de officio praetorio Italiae</unit>
+                    <unit>Chief of staff from the Praetorian Prefecture of Italy</unit>
                 </unknown>
                 <unknown line="1625">
-                    <unit>Cornicularium</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="1626">
-                    <unit>Tabularios duos</unit>
+                    <unit>Two record clerks</unit>
                 </unknown>
                 <unknown line="1627">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1628">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1629">
-                    <unit>Keeper of the records</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1630">
-                    <unit>Subadiuuam</unit>
+                    <unit>Deputy assistant</unit>
                 </unknown>
                 <unknown line="1631">
-                    <unit>Exceptores et reliquos cohortalinos, quibus non licet ad aliam transire militiam sine annotatione clementiae principalis.</unit>
+                    <unit>Clerks and the remaining cohortal staff, who may not transfer to another service without authorization by the imperial clemency.</unit>
                 </unknown>
             </group>
             <unknown line="1632">
-                <unit>Ceteri omnes consulares ad similitudinem consularis Campaniae officium habent</unit>
+                <unit>All the other consular governors have a staff like that of the Consular Governor of Campania</unit>
             </unknown>
         </chapter>
         <chapter type="unknown">
@@ -5403,38 +5403,38 @@
             <group type="unknown" line="1636">
                 <title>Under the jurisdiction of the Most Distinguished Corrector Apuliae et Calabriae</title>
                 <unknown line="1637">
-                    <unit>Provincia Apuliae et Calabriae</unit>
+                    <unit>Province of Apulia and Calabria</unit>
                 </unknown>
             </group>
             <group type="officium" line="1638" ownerOffice="Corrector Apuliae et Calabriae">
                 <title>The staff is as follows</title>
                 <unknown line="1639">
-                    <unit>Principem ex eodem officio</unit>
+                    <unit>Chief of staff from the same office</unit>
                 </unknown>
                 <unknown line="1640">
-                    <unit>Cornicularium</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="1641">
-                    <unit>Tabularios duos</unit>
+                    <unit>Two record clerks</unit>
                 </unknown>
                 <unknown line="1642">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1643">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1644">
-                    <unit>Keeper of the records</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1645">
-                    <unit>Subadiuuam</unit>
+                    <unit>Deputy assistant</unit>
                 </unknown>
                 <unknown line="1646">
-                    <unit>Exceptores et ceteros cohortalinos, quibus non licet ad aliam transire militiam sine annotatione clementiae principalis.</unit>
+                    <unit>Clerks and the other cohortal staff, who may not transfer to another service without authorization by the imperial clemency.</unit>
                 </unknown>
             </group>
             <unknown line="1647">
-                <unit>Ceteri correctores ad similitudinem correctoris Apuliae et Calabriae officium habent</unit>
+                <unit>The other correctores have a staff like that of the Corrector of Apulia and Calabria</unit>
             </unknown>
         </chapter>
         <chapter type="unknown">
@@ -5442,38 +5442,38 @@
             <group type="unknown" line="1651">
                 <title>Under the jurisdiction of the Most Excellent Governor Dalmatiae</title>
                 <unknown line="1652">
-                    <unit>Provincia Dalmatiae</unit>
+                    <unit>Province of Dalmatia</unit>
                 </unknown>
             </group>
             <group type="officium" line="1653" ownerOffice="Praeses Dalmatiae">
                 <title>The staff is as follows</title>
                 <unknown line="1654">
-                    <unit>Principem ex eodem officio</unit>
+                    <unit>Chief of staff from the same office</unit>
                 </unknown>
                 <unknown line="1655">
-                    <unit>Cornicularium</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="1656">
-                    <unit>Tabularios duos</unit>
+                    <unit>Two record clerks</unit>
                 </unknown>
                 <unknown line="1657">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1658">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1659">
-                    <unit>Keeper of the records</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1660">
-                    <unit>Subadiuuam</unit>
+                    <unit>Deputy assistant</unit>
                 </unknown>
                 <unknown line="1661">
-                    <unit>Exceptores et reliquos cohortalinos, quibus non licet ad aliam transire militiam sine annotatione clementiae principalis.</unit>
+                    <unit>Clerks and the remaining cohortal staff, who may not transfer to another service without authorization by the imperial clemency.</unit>
                 </unknown>
             </group>
             <unknown line="1662">
-                <unit>Ceteri praesides ad similitudinem praesidis Dalmatiae officium habent</unit>
+                <unit>The other governors have a staff like that of the Governor of Dalmatia</unit>
             </unknown>
             <unknown line="1664">
                 <unit>The Miscellany The Latin Library The Classics Page</unit>
@@ -5690,7 +5690,7 @@
                     </unknown>
                 </group>
                 <group type="region" line="71">
-                    <title>Per Ponticam II</title>
+                    <title>throughout Ponticam II</title>
                     <unknown line="72">
                         <unit>Galatiae</unit>
                     </unknown>
@@ -5720,7 +5720,7 @@
                     </unknown>
                 </group>
                 <unknown line="81">
-                    <unit>Aegyptus autem consularitatem non habet</unit>
+                    <unit>Egypt, however, does not have consular rank</unit>
                 </unknown>
             </group>
             <group type="unknown" line="82">
@@ -5771,7 +5771,7 @@
                     </unknown>
                 </group>
                 <group type="region" line="98">
-                    <title>Per Asianam VII</title>
+                    <title>throughout Asianam VII</title>
                     <unknown line="99">
                         <unit>Pisidiae</unit>
                     </unknown>
@@ -5795,7 +5795,7 @@
                     </unknown>
                 </group>
                 <group type="region" line="106">
-                    <title>Per Ponticam VIII</title>
+                    <title>throughout Ponticam VIII</title>
                     <unknown line="107">
                         <unit>Honoriados</unit>
                     </unknown>
@@ -6053,16 +6053,16 @@
                     <unit>Chief of Staff</unit>
                 </unknown>
                 <unknown line="194">
-                    <unit>Cornicularius</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="195">
                     <unit>Assistant</unit>
                 </unknown>
                 <unknown line="196">
-                    <unit>Commentariensis</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="197">
-                    <unit>Keeper of the records</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="198">
                     <unit>Accountants</unit>
@@ -6071,7 +6071,7 @@
                     <unit>Deputy assistants</unit>
                 </unknown>
                 <unknown line="200">
-                    <unit>Charge of correspondence</unit>
+                    <unit>Correspondence officer</unit>
                 </unknown>
                 <unknown line="201">
                     <unit>Registrar</unit>
@@ -6088,7 +6088,7 @@
             </group>
             <unknown line="205">
                 <office type="praefectus">Prefect</office>
-                <unit>praetorio Orientis euectiones annuales non habet</unit>
+                <unit>The Praetorian Prefecture of the East has no annual transport warrants</unit>
             </unknown>
         </chapter>
         <chapter type="insignia">
@@ -6147,25 +6147,25 @@
                     <unit>Chief of Staff</unit>
                 </unknown>
                 <unknown line="227">
-                    <unit>Cornicularius</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="228">
                     <unit>Assistant</unit>
                 </unknown>
                 <unknown line="229">
-                    <unit>Commentariensis</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="230">
-                    <unit>Keeper of the records</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="231">
-                    <unit>Numerarii quatuor; in his auri unus, operum alter.</unit>
+                    <unit>Four accountants; among them one for gold and another for public works.</unit>
                 </unknown>
                 <unknown line="232">
-                    <unit>Subadiuua</unit>
+                    <unit>Deputy assistant</unit>
                 </unknown>
                 <unknown line="233">
-                    <unit>Charge of correspondence</unit>
+                    <unit>Correspondence officer</unit>
                 </unknown>
                 <unknown line="234">
                     <unit>Registrar</unit>
@@ -6182,7 +6182,7 @@
             </group>
             <unknown line="238">
                 <office type="praefectus">Prefect</office>
-                <unit>praetorio Illyrici ipse emittit</unit>
+                <unit>He himself issues them for the Praetorian Prefecture of Illyricum</unit>
             </unknown>
         </chapter>
         <chapter type="unknown">
@@ -6314,26 +6314,26 @@
                 </unknown>
             </group>
             <group type="officium" line="285" ownerOffice="Magister militum praesentalis">
-                <title>Officium autem suprascriptae magisteriae in praesenti potestatis in numeris militat et in officio deputatur</title>
+                <title>The staff of the aforesaid Master in the Presence serves in the units and is assigned to the staff</title>
                 <group type="unknown" line="286">
-                    <title>Habet autem dignitates infrascriptas</title>
+                    <title>It has the dignities listed below</title>
                     <unknown line="287">
-                        <unit>Principem</unit>
+                        <unit>Chief of staff</unit>
                     </unknown>
                     <unknown line="288">
-                        <unit>Numerarios duos</unit>
+                        <unit>Two accountants</unit>
                     </unknown>
                     <unknown line="289">
-                        <unit>Commentariensem</unit>
+                        <unit>Keeper of records</unit>
                     </unknown>
                     <unknown line="290">
-                        <unit>Primiscrinios, qui Numerarii fiunt.</unit>
+                        <unit>Senior bureau clerks, who become accountants.</unit>
                     </unknown>
                     <unknown line="291">
-                        <unit>Scriniarios</unit>
+                        <unit>Bureau clerks</unit>
                     </unknown>
                     <unknown line="292">
-                        <unit>Exceptores et ceteros apparitores</unit>
+                        <unit>Clerks and the other attendants</unit>
                     </unknown>
                 </group>
             </group>
@@ -6470,26 +6470,26 @@
                 <unit>Auxiliarii sagittarii</unit>
             </auxilia>
             <group type="officium" line="339" ownerOffice="Magister militum praesentalis">
-                <title>Officium autem suprascriptae magisteriae in praesenti potestatis cardinale habetur</title>
+                <title>The permanent staff of the aforesaid Master in the Presence</title>
                 <group type="unknown" line="340">
-                    <title>Habet autem dignitates infrascriptas</title>
+                    <title>It has the dignities listed below</title>
                     <unknown line="341">
-                        <unit>Principes duos</unit>
+                        <unit>Two chiefs of staff</unit>
                     </unknown>
                     <unknown line="342">
-                        <unit>Numerarios duos</unit>
+                        <unit>Two accountants</unit>
                     </unknown>
                     <unknown line="343">
-                        <unit>Commentariensem</unit>
+                        <unit>Keeper of records</unit>
                     </unknown>
                     <unknown line="344">
-                        <unit>Primiscrinios, qui numerarii fiunt.</unit>
+                        <unit>Senior bureau clerks, who become accountants.</unit>
                     </unknown>
                     <unknown line="345">
-                        <unit>Scriniaros</unit>
+                        <unit>Bureau clerks</unit>
                     </unknown>
                     <unknown line="346">
-                        <unit>Exceptores et ceteros appereitores</unit>
+                        <unit>Clerks and the other attendants</unit>
                     </unknown>
                 </group>
             </group>
@@ -6532,7 +6532,7 @@
                     <unit>Cavalry primi sagittarii</unit>
                 </equites>
                 <cuneus line="362">
-                    <unit>Cavalry wedge secundorum clibanariorum Palmirenorum</unit>
+                    <unit>Cuneus of Second Clibanarii Palmyrene cavalry</unit>
                 </cuneus>
             </group>
             <group type="unknown" line="363">
@@ -6608,29 +6608,29 @@
                 </unknown>
             </group>
             <group type="officium" line="387" ownerOffice="Magister militum per Orientem">
-                <title>Officium Autem magisteriae throughout the East potestatis cardinale habetur</title>
+                <title>The permanent staff of the Master throughout the East</title>
                 <group type="unknown" line="388">
-                    <title>Habet autem dignitates infrascriptas</title>
+                    <title>It has the dignities listed below</title>
                     <unknown line="389">
-                        <unit>Principem</unit>
+                        <unit>Chief of staff</unit>
                     </unknown>
                     <unknown line="390">
-                        <unit>Numerarios duos</unit>
+                        <unit>Two accountants</unit>
                     </unknown>
                     <unknown line="391">
-                        <unit>Commentariensem</unit>
+                        <unit>Keeper of records</unit>
                     </unknown>
                     <unknown line="392">
-                        <unit>Adiutorem</unit>
+                        <unit>Assistant</unit>
                     </unknown>
                     <unknown line="393">
-                        <unit>Scriniarios</unit>
+                        <unit>Bureau clerks</unit>
                     </unknown>
                     <unknown line="394">
-                        <unit>Mensores</unit>
+                        <unit>Surveyors</unit>
                     </unknown>
                     <unknown line="395">
-                        <unit>Exceptores et ceteros apparitores</unit>
+                        <unit>Clerks and the other attendants</unit>
                     </unknown>
                 </group>
             </group>
@@ -6734,26 +6734,26 @@
                 </unknown>
             </group>
             <group type="officium" line="431" ownerOffice="Magister militum per Thracias">
-                <title>Officium autem magistriae throughout Thrace potestatis in numeris militat et in officio deputatur</title>
+                <title>The staff of the Master throughout Thrace serves in the units and is assigned to the staff</title>
                 <group type="unknown" line="432">
-                    <title>Habet autem dignitates infrascriptas</title>
+                    <title>It has the dignities listed below</title>
                     <unknown line="433">
-                        <unit>Principem</unit>
+                        <unit>Chief of staff</unit>
                     </unknown>
                     <unknown line="434">
-                        <unit>Numerarios duos</unit>
+                        <unit>Two accountants</unit>
                     </unknown>
                     <unknown line="435">
-                        <unit>Commentariensem</unit>
+                        <unit>Keeper of records</unit>
                     </unknown>
                     <unknown line="436">
-                        <unit>Primiscrinios, qui numerarii fiunt.</unit>
+                        <unit>Senior bureau clerks, who become accountants.</unit>
                     </unknown>
                     <unknown line="437">
-                        <unit>Scriniarios</unit>
+                        <unit>Bureau clerks</unit>
                     </unknown>
                     <unknown line="438">
-                        <unit>Exceptores et ceteros apparitores</unit>
+                        <unit>Clerks and the other attendants</unit>
                     </unknown>
                 </group>
             </group>
@@ -6860,26 +6860,26 @@
                 </unknown>
             </group>
             <group type="officium" line="475" ownerOffice="Magister militum per Illyricum">
-                <title>Officium autem magisteriae throughout Illyricum potestatis in numeris militat et in officio deputatur</title>
+                <title>The staff of the Master throughout Illyricum serves in the units and is assigned to the staff</title>
                 <group type="unknown" line="476">
-                    <title>Habet autem dignitates infrascriptas</title>
+                    <title>It has the dignities listed below</title>
                     <unknown line="477">
-                        <unit>Principem</unit>
+                        <unit>Chief of staff</unit>
                     </unknown>
                     <unknown line="478">
-                        <unit>Numerarios duos</unit>
+                        <unit>Two accountants</unit>
                     </unknown>
                     <unknown line="479">
-                        <unit>Commentariensem</unit>
+                        <unit>Keeper of records</unit>
                     </unknown>
                     <unknown line="480">
-                        <unit>Primiscrinios, qui numerarii fiunt.</unit>
+                        <unit>Senior bureau clerks, who become accountants.</unit>
                     </unknown>
                     <unknown line="481">
-                        <unit>Scriniarios</unit>
+                        <unit>Bureau clerks</unit>
                     </unknown>
                     <unknown line="482">
-                        <unit>Exceptores et ceteros apparitores</unit>
+                        <unit>Clerks and the other attendants</unit>
                     </unknown>
                 </group>
             </group>
@@ -7033,38 +7033,38 @@
                     <unit>Deputy assistants</unit>
                 </unknown>
                 <unknown line="531">
-                    <unit>Adiutores duo</unit>
+                    <unit>Two assistants</unit>
                 </unknown>
                 <unknown line="532">
-                    <unit>Fabricarum ters</unit>
+                    <unit>Three for the factories</unit>
                 </unknown>
                 <group type="unknown" line="533">
                     <title>Barbaricariorum quatuor</title>
                 </group>
                 <unknown line="534">
-                    <unit>Orientis unus</unit>
+                    <unit>One for the East</unit>
                 </unknown>
                 <unknown line="535">
-                    <unit>Asianae unus</unit>
+                    <unit>One for Asia</unit>
                 </unknown>
                 <unknown line="536">
-                    <unit>Ponticae unus</unit>
+                    <unit>One for Pontus</unit>
                 </unknown>
                 <unknown line="537">
-                    <unit>Thraciarum et Illyrici unus</unit>
+                    <unit>One for Thrace and Illyricum</unit>
                 </unknown>
                 <unknown line="538">
-                    <unit>Curiosus cursus publici praesentalis unus</unit>
+                    <unit>One inspector of the imperial post in the Presence</unit>
                 </unknown>
                 <unknown line="539">
-                    <unit>Curiosi per omnes provincias</unit>
+                    <unit>Inspectors throughout all the provinces</unit>
                 </unknown>
                 <unknown line="540">
-                    <unit>Interpretes diuersarum gentium</unit>
+                    <unit>Interpreters for the various peoples</unit>
                 </unknown>
             </group>
             <unknown line="541">
-                <unit>Magister officiorum ipse emittit</unit>
+                <unit>The Master of Offices himself issues them</unit>
             </unknown>
         </chapter>
         <chapter type="insignia">
@@ -7079,7 +7079,7 @@
                 </unknown>
             </group>
             <unknown line="548">
-                <unit>Officium non habet</unit>
+                <unit>It has no staff</unit>
             </unknown>
         </chapter>
         <chapter type="insignia">
@@ -7093,13 +7093,13 @@
             <group type="unknown" line="554">
                 <title>Counts commmerciorum</title>
                 <unknown line="555">
-                    <unit>per Orientem et Aegyptum</unit>
+                    <unit>throughout Orientem et Aegyptum</unit>
                 </unknown>
                 <unknown line="556">
-                    <unit>per Moesiam</unit>
+                    <unit>throughout Moesiam</unit>
                 </unknown>
                 <unknown line="557">
-                    <unit>per Illyricum</unit>
+                    <unit>throughout Illyricum</unit>
                 </unknown>
                 <unknown line="558">
                     <unit>Praepositi thesaurorum</unit>
@@ -7143,45 +7143,45 @@
                 </civil>
             </group>
             <group type="officium" line="569" ownerOffice="Comes sacrarum largitionum">
-                <title>Staff of the Illustrious Count of the Sacred Largesses habet</title>
+                <title>Staff of the Illustrious Count of the Sacred Largesses</title>
                 <unknown line="570">
-                    <unit>Primicerium totius officii</unit>
+                    <unit>Chief of the entire staff</unit>
                 </unknown>
                 <unknown line="571">
-                    <unit>Primicerium scrinii canonum</unit>
+                    <unit>Chief of the bureau of assessments</unit>
                 </unknown>
                 <unknown line="572">
-                    <unit>Primicerium scrinii tabulariorum</unit>
+                    <unit>Chief of the bureau of records</unit>
                 </unknown>
                 <unknown line="573">
-                    <unit>Primicerium scrinii numerorum</unit>
+                    <unit>Chief of the bureau of accounts</unit>
                 </unknown>
                 <unknown line="574">
-                    <unit>Primicerium scrinii aureae massae</unit>
+                    <unit>Chief of the bureau of gold bullion</unit>
                 </unknown>
                 <unknown line="575">
-                    <unit>Primicerium scrinii auri ad responsum</unit>
+                    <unit>Chief of the bureau of gold for requisitions</unit>
                 </unknown>
                 <unknown line="576">
-                    <unit>Primicerium scrinii uestiarii sacri</unit>
+                    <unit>Chief of the bureau of the sacred wardrobe</unit>
                 </unknown>
                 <unknown line="577">
-                    <unit>Primicerium scrinii argenti</unit>
+                    <unit>Chief of the bureau of silver</unit>
                 </unknown>
                 <unknown line="578">
-                    <unit>Primicerium scrinii a miliarensibus</unit>
+                    <unit>Chief of the bureau for miliarenses</unit>
                 </unknown>
                 <unknown line="579">
-                    <unit>Primicerium scrinii a pecuniis, et ceteros scriniarios suprascriptorum scriniorum.</unit>
+                    <unit>Chief of the bureau of monies, and the other clerks of the aforesaid bureaux.</unit>
                 </unknown>
                 <unknown line="580">
-                    <unit>Secundocerium offici, qui primicerius est exceptorum.</unit>
+                    <unit>Second officer of the staff, who is chief of the clerks.</unit>
                 </unknown>
                 <unknown line="581">
                     <unit>Tertiocerium offici, qui tractat bastagas.</unit>
                 </unknown>
                 <unknown line="582">
-                    <unit>Quarto loco libellos tractat, et ceteros palatinos offici suprascripti.</unit>
+                    <unit>In fourth place, an officer handling petitions, and the other palace staff of the aforesaid office.</unit>
                 </unknown>
             </group>
             <unknown line="583">
@@ -7197,7 +7197,7 @@
                     <unit>Domus divinae</unit>
                 </unknown>
                 <unknown line="588">
-                    <unit>Rationales rerum privatarum</unit>
+                    <unit>Accountants of the private estates</unit>
                 </unknown>
                 <unknown line="589">
                     <unit>Bastaga privata</unit>
@@ -7211,29 +7211,29 @@
                 </civil>
             </group>
             <group type="officium" line="592" ownerOffice="Comes rerum privatarum">
-                <title>Staff of the Illustrious Count of the Private Estates habet</title>
+                <title>Staff of the Illustrious Count of the Private Estates</title>
                 <unknown line="593">
-                    <unit>Primicerium totus officii</unit>
+                    <unit>Chief of the entire staff</unit>
                 </unknown>
                 <unknown line="594">
-                    <unit>Primiscrinium beneficiorum</unit>
+                    <unit>Senior clerk of the bureau of grants</unit>
                 </unknown>
                 <unknown line="595">
-                    <unit>Primiscrinium canonum</unit>
+                    <unit>Senior clerk of the bureau of assessments</unit>
                 </unknown>
                 <unknown line="596">
-                    <unit>Primiscrinium securitatum</unit>
+                    <unit>Senior clerk of the bureau of receipts</unit>
                 </unknown>
                 <unknown line="597">
-                    <unit>Primicerium scrinii largitionum privatarum, et ceteros scriniarios suprascriptorum scriniorum.</unit>
+                    <unit>Chief of the bureau of private largesses, and the other clerks of the aforesaid bureaux.</unit>
                 </unknown>
                 <unknown line="598">
-                    <unit>Secundocerium totius offici, qui tractat chartas ipsius officii, et ceteros palatinos.</unit>
+                    <unit>Second officer of the entire staff, who handles the records of that office, and the other palace staff.</unit>
                 </unknown>
             </group>
             <unknown line="599">
                 <office type="comes">Count</office>
-                <unit>rerum privatarum quotiens usus exegerit</unit>
+                <unit>of the private estates whenever required</unit>
             </unknown>
         </chapter>
         <chapter type="comes_domesticorum">
@@ -7274,18 +7274,18 @@
                 </unknown>
             </group>
             <group type="officium" line="617" ownerOffice="Castrensis">
-                <title>Staff of the Respectable Steward of the Sacred Palace habet</title>
+                <title>Staff of the Respectable Steward of the Sacred Palace</title>
                 <unknown line="618">
-                    <unit>Tabularium dominicum</unit>
+                    <unit>Imperial record clerk</unit>
                 </unknown>
                 <unknown line="619">
-                    <unit>Tabularium dominarum Augustarum</unit>
+                    <unit>Record clerk of the Augustae</unit>
                 </unknown>
                 <unknown line="620">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="621">
-                    <unit>Chartularium et scrinium ipsius, et ceteros palatinos officii suprascripti.</unit>
+                    <unit>Archivist with his bureau, and the other palace staff of the aforesaid office.</unit>
                 </unknown>
             </group>
         </chapter>
@@ -7297,29 +7297,29 @@
                     <unit>Omnis dignitatum et amministrationum notitia</unit>
                 </unknown>
                 <unknown line="627">
-                    <unit>Scolas etiam et numeros tractat</unit>
+                    <unit>He also supervises the scholae and the units</unit>
                 </unknown>
             </group>
             <unknown line="628">
-                <unit>Officium autem non habet</unit>
+                <unit>It has no staff</unit>
             </unknown>
         </chapter>
         <chapter type="unknown">
             <title>Magistri scriniorum. MemoriaeÝÝ EpistolarumÝÝ LibellorumÝÝ Graecarum</title>
             <unknown line="631">
-                <unit>Magister memoriae adnotationes omnes dictat et emittit</unit>
+                <unit>The Master of Memory drafts and issues all imperial annotations</unit>
             </unknown>
             <unknown line="632">
                 <unit>Magister epistolarum legationes civitatum</unit>
             </unknown>
             <unknown line="633">
-                <unit>Magister libellorum cognitiones et preces tractat</unit>
+                <unit>The Master of Petitions handles judicial hearings and petitions</unit>
             </unknown>
             <unknown line="634">
                 <unit>Magister epistolarum graecarum eas epistolas</unit>
             </unknown>
             <unknown line="635">
-                <unit>Officium autem de ipsi nemo habet</unit>
+                <unit>None of them has a staff</unit>
             </unknown>
         </chapter>
         <chapter type="unknown">
@@ -7338,31 +7338,31 @@
                 <group type="officium" line="643" ownerOffice="Proconsul Asiae">
                     <title>The staff is as follows</title>
                     <unknown line="644">
-                        <unit>Principem de eodem officio</unit>
+                        <unit>Chief of staff from the same office</unit>
                     </unknown>
                     <unknown line="645">
-                        <unit>Cornicularium</unit>
+                        <unit>Chief administrative clerk</unit>
                     </unknown>
                     <unknown line="646">
-                        <unit>Adiutorem</unit>
+                        <unit>Assistant</unit>
                     </unknown>
                     <unknown line="647">
-                        <unit>Commentariensem</unit>
+                        <unit>Keeper of records</unit>
                     </unknown>
                     <unknown line="648">
-                        <unit>Keeper of the records</unit>
+                        <unit>Keeper of records</unit>
                     </unknown>
                     <unknown line="649">
-                        <unit>Numerarios</unit>
+                        <unit>Accountants</unit>
                     </unknown>
                     <unknown line="650">
-                        <unit>Scriniarios</unit>
+                        <unit>Bureau clerks</unit>
                     </unknown>
                     <unknown line="651">
-                        <unit>A libellis</unit>
+                        <unit>Petitions officer</unit>
                     </unknown>
                     <unknown line="652">
-                        <unit>Exceptores et ceteros officiales</unit>
+                        <unit>Clerks and the other staff</unit>
                     </unknown>
                 </group>
             </group>
@@ -7373,7 +7373,7 @@
         <chapter type="unknown">
             <title>Proconsul of Achaia</title>
             <group type="unknown" line="657">
-                <title>Sub dispositone viri spectabilis Proconsul Achaiae the province listed below</title>
+                <title>Under the authority of the Respectable Proconsul of Achaia is the province listed below</title>
             </group>
             <unknown line="658">
                 <unit>Achaia</unit>
@@ -7381,31 +7381,31 @@
             <group type="officium" line="659" ownerOffice="Proconsul Achaiae">
                 <title>The staff is as follows</title>
                 <unknown line="660">
-                    <unit>Principem de scola agentum in rebus ducenarium, qui adorata clementia principali cum insignibus exit transacto biennio.</unit>
+                    <unit>Chief of staff, a ducenarius from the corps of agentes in rebus, who after two years leaves with the insignia after paying homage to the emperor.</unit>
                 </unknown>
                 <unknown line="661">
-                    <unit>Cornicularium</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="662">
-                    <unit>Commmentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="663">
-                    <unit>Quaestorem</unit>
+                    <unit>Quaestor</unit>
                 </unknown>
                 <unknown line="664">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="665">
-                    <unit>Keeper of the records</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="666">
-                    <unit>Numerarios</unit>
+                    <unit>Accountants</unit>
                 </unknown>
                 <unknown line="667">
-                    <unit>A libellis</unit>
+                    <unit>Petitions officer</unit>
                 </unknown>
                 <unknown line="668">
-                    <unit>Exceptores et ceteros apparitores</unit>
+                    <unit>Clerks and the other attendants</unit>
                 </unknown>
             </group>
             <unknown line="669">
@@ -7463,33 +7463,33 @@
                 </unknown>
             </group>
             <group type="officium" line="689" ownerOffice="Comes Orientis">
-                <title>Staff of the Respectable Count Orientis habet ita</title>
+                <title>Staff of the Respectable Count Orientis is as follows</title>
                 <unknown line="690">
-                    <unit>Principem, qui de scola agentum in rebus ducenarius adorata clementia principali cum insignibus exit.</unit>
+                    <unit>Chief of staff, a ducenarius from the corps of agentes in rebus, who leaves with the insignia after paying homage to the emperor.</unit>
                 </unknown>
                 <unknown line="691">
-                    <unit>Cornicularium</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="692">
-                    <unit>Commmentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="693">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="694">
-                    <unit>Keeper of the records</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="695">
-                    <unit>Numerarios</unit>
+                    <unit>Accountants</unit>
                 </unknown>
                 <unknown line="696">
-                    <unit>A libellis</unit>
+                    <unit>Petitions officer</unit>
                 </unknown>
                 <unknown line="697">
-                    <unit>Subadiuuas</unit>
+                    <unit>Deputy assistants</unit>
                 </unknown>
                 <unknown line="698">
-                    <unit>Exceptores et ceteros officiales</unit>
+                    <unit>Clerks and the other staff</unit>
                 </unknown>
             </group>
             <unknown line="699">
@@ -7544,7 +7544,7 @@
                     <unit>Charge of correspondence</unit>
                 </unknown>
                 <unknown line="718">
-                    <unit>Exceptores et ceteros officiales</unit>
+                    <unit>Clerks and the other staff</unit>
                 </unknown>
             </group>
             <unknown line="719">
@@ -7582,30 +7582,30 @@
                 </unknown>
             </group>
             <group type="officium" line="732" ownerOffice="Vicarius dioceseos Asianae">
-                <title>Staff of the Respectable Vicar diocesos Asianae habet ita</title>
+                <title>Staff of the Respectable Vicar diocesos Asianae is as follows</title>
                 <unknown line="733">
-                    <unit>Principem, qui de scola agentum in rebus ducenarius adorata clementia principali cum insignibus exit.</unit>
+                    <unit>Chief of staff, a ducenarius from the corps of agentes in rebus, who leaves with the insignia after paying homage to the emperor.</unit>
                 </unknown>
                 <unknown line="734">
-                    <unit>Cornicularium</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="735">
-                    <unit>Commetariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="736">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="737">
-                    <unit>Keeper of the records</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="738">
-                    <unit>Numerarios</unit>
+                    <unit>Accountants</unit>
                 </unknown>
                 <unknown line="739">
-                    <unit>Charge of correspondence</unit>
+                    <unit>Correspondence officer</unit>
                 </unknown>
                 <unknown line="740">
-                    <unit>Exceptores et ceteros officiales</unit>
+                    <unit>Clerks and the other staff</unit>
                 </unknown>
             </group>
             <unknown line="741">
@@ -7654,28 +7654,28 @@
             <group type="officium" line="757" ownerOffice="Vicarius dioceseos Ponticae">
                 <title>The staff is as follows</title>
                 <unknown line="758">
-                    <unit>Principem, qui de scola agentum in rebus ducenarius adorata clementia principali cum insignibus exit transacto biennio.</unit>
+                    <unit>Chief of staff, a ducenarius from the corps of agentes in rebus, who after two years leaves with the insignia after paying homage to the emperor.</unit>
                 </unknown>
                 <unknown line="759">
-                    <unit>Cornicularium</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="760">
-                    <unit>Commetariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="761">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="762">
-                    <unit>Keeper of the records</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="763">
-                    <unit>Numerarios</unit>
+                    <unit>Accountants</unit>
                 </unknown>
                 <unknown line="764">
-                    <unit>Charge of correspondence</unit>
+                    <unit>Correspondence officer</unit>
                 </unknown>
                 <unknown line="765">
-                    <unit>Exceptores et ceteros officiales</unit>
+                    <unit>Clerks and the other staff</unit>
                 </unknown>
             </group>
             <unknown line="766">
@@ -7709,28 +7709,28 @@
             <group type="officium" line="777" ownerOffice="Vicarius dioceseos Thraciarum">
                 <title>The staff is as follows</title>
                 <unknown line="778">
-                    <unit>Principem, qui de scola agentum in rebus est.</unit>
+                    <unit>Chief of staff, from the corps of agentes in rebus.</unit>
                 </unknown>
                 <unknown line="779">
-                    <unit>Cornicularium</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="780">
-                    <unit>Commetariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="781">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="782">
-                    <unit>Keeper of the records</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="783">
-                    <unit>Numerarios</unit>
+                    <unit>Accountants</unit>
                 </unknown>
                 <unknown line="784">
-                    <unit>Charge of correspondence</unit>
+                    <unit>Correspondence officer</unit>
                 </unknown>
                 <unknown line="785">
-                    <unit>Exceptores et ceteros officiales</unit>
+                    <unit>Clerks and the other staff</unit>
                 </unknown>
             </group>
             <unknown line="786">
@@ -7770,36 +7770,36 @@
                     <place source="tail">Parembole</place>
                 </legion>
                 <ala line="799">
-                    <unit>Ala Theodosiana nuper constituta</unit>
+                    <unit>Ala Theodosiana newly formed</unit>
                 </ala>
                 <ala line="800">
-                    <unit>Ala Arcadiana nuper constituta</unit>
+                    <unit>Ala Arcadiana newly formed</unit>
                 </ala>
                 <ala line="801">
-                    <unit>Ala Second Armeniorum</unit>
+                    <unit>Ala Second Armenian</unit>
                     <place source="tail">Oasi minore</place>
                 </ala>
                 <group type="unknown" line="802">
                     <title>And those appointed from the lesser register</title>
                 </group>
                 <ala line="803">
-                    <unit>Ala tertia Arabum</unit>
+                    <unit>Ala Third Arab</unit>
                     <place source="tail">Thenenuthi</place>
                 </ala>
                 <ala line="804">
-                    <unit>Ala octava Vandilorum</unit>
+                    <unit>Ala Eighth Vandal</unit>
                     <place source="tail">Nee</place>
                 </ala>
                 <ala line="805">
-                    <unit>Ala septima Sarmatarum</unit>
+                    <unit>Ala Seventh Sarmatian</unit>
                     <place source="tail">Scenas Mandrorum</place>
                 </ala>
                 <ala line="806">
-                    <unit>Ala First Aegyptiorum</unit>
+                    <unit>Ala First Egyptian</unit>
                     <place source="tail">Selle</place>
                 </ala>
                 <ala line="807">
-                    <unit>Ala veterana Gallorum</unit>
+                    <unit>Ala Veteran Gallic</unit>
                     <place source="tail">Rinocoruna</place>
                 </ala>
                 <ala line="808">
@@ -7807,7 +7807,7 @@
                     <place source="tail">Scenas extra Gerasa</place>
                 </ala>
                 <ala line="809">
-                    <unit>Ala quinta Raetorum</unit>
+                    <unit>Ala Fifth Raetian</unit>
                     <place source="tail">Scenas Veteranorum</place>
                 </ala>
                 <ala line="810">
@@ -7819,11 +7819,11 @@
                     <place source="tail">Hipponos</place>
                 </ala>
                 <ala line="812">
-                    <unit>Ala Second Assyriorum</unit>
+                    <unit>Ala Second Assyrian</unit>
                     <place source="tail">Sosteos</place>
                 </ala>
                 <ala line="813">
-                    <unit>Ala quinta Praelectorum</unit>
+                    <unit>Ala Fifth picked</unit>
                     <place source="tail">Dionisiada</place>
                 </ala>
                 <cohort line="814">
@@ -7838,11 +7838,11 @@
             <group type="unknown" line="816">
                 <title>Provinciae Augustamnicae</title>
                 <ala line="817">
-                    <unit>Ala Second Ulpia Afrorum</unit>
+                    <unit>Ala Second Ulpia African</unit>
                     <place source="tail">Thaubasteos</place>
                 </ala>
                 <ala line="818">
-                    <unit>Ala Second Aegyptiorum</unit>
+                    <unit>Ala Second Egyptian</unit>
                     <place source="tail">Tacasiria</place>
                 </ala>
                 <cohort line="819">
@@ -7883,16 +7883,16 @@
                     <unit>Numerarios</unit>
                 </unknown>
                 <unknown line="829">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="830">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="831">
-                    <unit>A libellis siue subscribendarium</unit>
+                    <unit>Petitions officer or subscriptions clerk</unit>
                 </unknown>
                 <unknown line="832">
-                    <unit>Exceptores et ceteros officiales</unit>
+                    <unit>Clerks and the other staff</unit>
                 </unknown>
             </group>
             <unknown line="833">
@@ -7914,28 +7914,28 @@
             <group type="officium" line="840" ownerOffice="Comes per Isauriam">
                 <title>The staff is as follows</title>
                 <unknown line="841">
-                    <unit>Principem de eodem officio</unit>
+                    <unit>Chief of staff from the same office</unit>
                 </unknown>
                 <unknown line="842">
-                    <unit>Cornicularium</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="843">
-                    <unit>Commetariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="844">
-                    <unit>Numerarios</unit>
+                    <unit>Accountants</unit>
                 </unknown>
                 <unknown line="845">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="846">
-                    <unit>Keeper of the records</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="847">
-                    <unit>A libellis</unit>
+                    <unit>Petitions officer</unit>
                 </unknown>
                 <unknown line="848">
-                    <unit>Exceptores et ceteros officiales</unit>
+                    <unit>Clerks and the other staff</unit>
                 </unknown>
             </group>
             <unknown line="849">
@@ -7958,7 +7958,7 @@
                 <unit>A libellis siue subscribendarium</unit>
             </unknown>
             <unknown line="857">
-                <unit>Exceptores et ceteros officiales</unit>
+                <unit>Clerks and the other staff</unit>
             </unknown>
             <unknown line="858">
                 <office type="dux">Dux</office>
@@ -7970,11 +7970,11 @@
             <group type="administration" line="862">
                 <title>Under the authority of the Respectable Dux Thebaidos</title>
                 <cuneus line="863">
-                    <unit>Cavalry wedge Maurorum scutariorum</unit>
+                    <unit>Cuneus of Moorish Scutarii cavalry</unit>
                     <place source="tail">Lico</place>
                 </cuneus>
                 <cuneus line="864">
-                    <unit>Cavalry wedge scutariorum</unit>
+                    <unit>Cuneus of Scutarii cavalry</unit>
                     <place source="tail">Hermupoli</place>
                 </cuneus>
                 <equites line="865">
@@ -8037,26 +8037,26 @@
                     <place source="tail">Asfynis</place>
                 </equites>
                 <ala line="880">
-                    <unit>Ala First Abasgorum</unit>
+                    <unit>Ala First Abasgian</unit>
                     <place source="tail">Hibeos - Oaseos maioris</place>
                 </ala>
             </group>
             <group type="unknown" line="881">
                 <title>And those appointed from the lesser register</title>
                 <ala line="882">
-                    <unit>Ala Second Hispanorum</unit>
+                    <unit>Ala Second Hispanic</unit>
                     <place source="tail">Poisrietemidos</place>
                 </ala>
                 <ala line="883">
-                    <unit>Ala Germanorum</unit>
+                    <unit>Ala German</unit>
                     <place source="tail">Pescla</place>
                 </ala>
                 <ala line="884">
-                    <unit>Ala quarta Britonum</unit>
+                    <unit>Ala Fourth British</unit>
                     <place source="tail">Isiu</place>
                 </ala>
                 <ala line="885">
-                    <unit>Ala First Hiberorum</unit>
+                    <unit>Ala First Iberian</unit>
                     <place source="tail">Thmou</place>
                 </ala>
                 <ala line="886">
@@ -8064,43 +8064,43 @@
                     <place source="tail">Chenoboscia</place>
                 </ala>
                 <ala line="887">
-                    <unit>Ala tertia dromedariorum</unit>
+                    <unit>Ala Third dromedary</unit>
                     <place source="tail">Maximianopoli</place>
                 </ala>
                 <ala line="888">
-                    <unit>Ala octava Palmyrenorum</unit>
+                    <unit>Ala Eighth Palmyrene</unit>
                     <place source="tail">Foenicionis</place>
                 </ala>
                 <ala line="889">
-                    <unit>Ala septima Herculia voluntaria</unit>
+                    <unit>Ala Seventh Herculia Volunteer</unit>
                     <region source="tail">opposite Lata</region>
                 </ala>
                 <ala line="890">
-                    <unit>Ala First Francorum</unit>
+                    <unit>Ala First Frankish</unit>
                     <region source="tail">opposite Apollonos</region>
                 </ala>
                 <ala line="891">
-                    <unit>Ala First Iovia catafractariorum</unit>
+                    <unit>Ala First Iovia cataphract</unit>
                     <place source="tail">Pampane</place>
                 </ala>
                 <ala line="892">
-                    <unit>Ala octava ....</unit>
+                    <unit>Ala Eighth ....</unit>
                     <place source="tail">Abydum - Abocedo</place>
                 </ala>
                 <ala line="893">
-                    <unit>Ala Second Herculia dromedariorum</unit>
+                    <unit>Ala Second Herculia dromedary</unit>
                     <place source="tail">Psinaula</place>
                 </ala>
                 <ala line="894">
-                    <unit>Ala First Abasgorum</unit>
+                    <unit>Ala First Abasgian</unit>
                     <place source="tail">Oasi maiore</place>
                 </ala>
                 <ala line="895">
-                    <unit>Ala First Quadorum</unit>
+                    <unit>Ala First Quadi</unit>
                     <place source="tail">Oasi minore - Trimtheos</place>
                 </ala>
                 <ala line="896">
-                    <unit>Ala First Valeria dromedariorum</unit>
+                    <unit>Ala First Valeria dromedary</unit>
                     <place source="tail">Precteos</place>
                 </ala>
                 <unknown line="897">
@@ -8143,24 +8143,24 @@
                 </cohort>
             </group>
             <group type="officium" line="907" ownerOffice="Dux Thebaidos">
-                <title>Staff of the Respectable Dux Thebaidos habet ita</title>
+                <title>Staff of the Respectable Dux Thebaidos is as follows</title>
                 <unknown line="908">
-                    <unit>Principem de scola agentum in rebus</unit>
+                    <unit>Chief of staff from the corps of agentes in rebus</unit>
                 </unknown>
                 <unknown line="909">
-                    <unit>Numerarios et adiutores eorum</unit>
+                    <unit>Accountants and their assistants</unit>
                 </unknown>
                 <unknown line="910">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="911">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="912">
-                    <unit>A libellis siue subscribendarium</unit>
+                    <unit>Petitions officer or subscriptions clerk</unit>
                 </unknown>
                 <unknown line="913">
-                    <unit>Exceptores et ceteros officiales</unit>
+                    <unit>Clerks and the other staff</unit>
                 </unknown>
             </group>
             <unknown line="914">
@@ -8242,19 +8242,19 @@
                     <place source="tail">Veriaraca</place>
                 </ala>
                 <ala line="936">
-                    <unit>Ala First Francorum</unit>
+                    <unit>Ala First Frankish</unit>
                     <place source="tail">Cunna</place>
                 </ala>
                 <ala line="937">
-                    <unit>Ala First Alamannorum</unit>
+                    <unit>Ala First Alamannic</unit>
                     <place source="tail">Neia</place>
                 </ala>
                 <ala line="938">
-                    <unit>Ala First Saxonum</unit>
+                    <unit>Ala First Saxon</unit>
                     <place source="tail">Verofabula</place>
                 </ala>
                 <ala line="939">
-                    <unit>Ala First Foenicum</unit>
+                    <unit>Ala First Phoenician</unit>
                     <place source="tail">Rene</place>
                 </ala>
                 <ala line="940">
@@ -8285,22 +8285,22 @@
             <group type="officium" line="946" ownerOffice="Dux Foenicis">
                 <title>The staff is as follows</title>
                 <unknown line="947">
-                    <unit>Principem de scola agentum in rebus</unit>
+                    <unit>Chief of staff from the corps of agentes in rebus</unit>
                 </unknown>
                 <unknown line="948">
-                    <unit>Numerarios et adiutores eorum</unit>
+                    <unit>Accountants and their assistants</unit>
                 </unknown>
                 <unknown line="949">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="950">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="951">
-                    <unit>A libellis siue subscribendarium</unit>
+                    <unit>Petitions officer or subscriptions clerk</unit>
                 </unknown>
                 <unknown line="952">
-                    <unit>Exceptores et ceteros officiales</unit>
+                    <unit>Clerks and the other staff</unit>
                 </unknown>
             </group>
             <unknown line="953">
@@ -8311,7 +8311,7 @@
         <chapter type="dux">
             <title>Dux of Syria</title>
             <group type="administration" line="957">
-                <title>Sub dispositiones viri spectabilis Dux Syriae et Eufratensis Syriae</title>
+                <title>Under the authority of the Respectable Dux of Syria and Euphratensis Syria</title>
                 <equites line="958">
                     <unit>Cavalry scutarii Illyriciani</unit>
                     <place source="tail">Serianae</place>
@@ -8369,11 +8369,11 @@
             <group type="unknown" line="971">
                 <title>And those appointed from the lesser register</title>
                 <ala line="972">
-                    <unit>Ala First nova Herculia</unit>
+                    <unit>Ala First New Herculia</unit>
                     <place source="tail">Ammuda</place>
                 </ala>
                 <ala line="973">
-                    <unit>Ala First Iuthungorum</unit>
+                    <unit>Ala First Juthungian</unit>
                     <place source="tail">Salutaria</place>
                 </ala>
                 <cohort line="974">
@@ -8396,22 +8396,22 @@
             <group type="officium" line="978" ownerOffice="Dux Syriae">
                 <title>The staff is as follows</title>
                 <unknown line="979">
-                    <unit>Principem</unit>
+                    <unit>Chief of staff</unit>
                 </unknown>
                 <unknown line="980">
-                    <unit>Numerarios et adiutores eorum</unit>
+                    <unit>Accountants and their assistants</unit>
                 </unknown>
                 <unknown line="981">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="982">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="983">
-                    <unit>A libellis siue subscribendarium</unit>
+                    <unit>Petitions officer or subscriptions clerk</unit>
                 </unknown>
                 <unknown line="984">
-                    <unit>Exceptores et ceteros officiales</unit>
+                    <unit>Clerks and the other staff</unit>
                 </unknown>
             </group>
             <unknown line="985">
@@ -8485,11 +8485,11 @@
             <group type="unknown" line="1004">
                 <title>And those appointed from the lesser register</title>
                 <ala line="1005">
-                    <unit>Ala First miliaria Sebastena</unit>
+                    <unit>Ala First Milliary Sebastena</unit>
                     <place source="tail">Asuada</place>
                 </ala>
                 <ala line="1006">
-                    <unit>Ala Antana dromedariorum</unit>
+                    <unit>Ala Antana dromedary</unit>
                     <place source="tail">Admatha</place>
                 </ala>
                 <ala line="1007">
@@ -8497,15 +8497,15 @@
                     <place source="tail">Toloha</place>
                 </ala>
                 <ala line="1008">
-                    <unit>Ala Second felix Valentiana</unit>
+                    <unit>Ala Second Felix Valentiana</unit>
                     <place source="tail">apud Praesidium</place>
                 </ala>
                 <ala line="1009">
-                    <unit>Ala First miliara</unit>
+                    <unit>Ala First Milliary</unit>
                     <place source="tail">Hasta</place>
                 </ala>
                 <ala line="1010">
-                    <unit>Ala Idiota constituta</unit>
+                    <unit>Ala Idiota formed</unit>
                 </ala>
                 <cohort line="1011">
                     <unit>Cohort duodecima Valeria</unit>
@@ -8555,22 +8555,22 @@
             <group type="officium" line="1022" ownerOffice="Dux Palaestinae">
                 <title>The staff is as follows</title>
                 <unknown line="1023">
-                    <unit>Principem de scola agentum in rebus</unit>
+                    <unit>Chief of staff from the corps of agentes in rebus</unit>
                 </unknown>
                 <unknown line="1024">
-                    <unit>Numerarios et adiutores eorum</unit>
+                    <unit>Accountants and their assistants</unit>
                 </unknown>
                 <unknown line="1025">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1026">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1027">
-                    <unit>A libellis siue subscribendarium</unit>
+                    <unit>Petitions officer or subscriptions clerk</unit>
                 </unknown>
                 <unknown line="1028">
-                    <unit>Exceptores et ceteros officiales</unit>
+                    <unit>Clerks and the other staff</unit>
                 </unknown>
             </group>
             <unknown line="1029">
@@ -8630,7 +8630,7 @@
             <group type="unknown" line="1045">
                 <title>And those appointed from the lesser register</title>
                 <ala line="1046">
-                    <unit>Ala septima Valeria praelectorum</unit>
+                    <unit>Ala Seventh Valeria picked</unit>
                     <place source="tail">Thillacama</place>
                 </ala>
                 <ala line="1047">
@@ -8638,15 +8638,15 @@
                     <place source="tail">Touia -contra Bintha</place>
                 </ala>
                 <ala line="1048">
-                    <unit>Ala Second Paflagonum</unit>
+                    <unit>Ala Second Paphlagonian</unit>
                     <place source="tail">Thillafica</place>
                 </ala>
                 <ala line="1049">
-                    <unit>Ala First Parthorum</unit>
+                    <unit>Ala First Parthian</unit>
                     <place source="tail">Resaia</place>
                 </ala>
                 <ala line="1050">
-                    <unit>Ala First nova Diocletiana</unit>
+                    <unit>Ala First New Diocletiana</unit>
                     <region source="tail">between Thannurin and Horobam</region>
                 </ala>
                 <cohort line="1051">
@@ -8665,22 +8665,22 @@
             <group type="officium" line="1054" ownerOffice="Dux Osrhoenae">
                 <title>The staff is as follows</title>
                 <unknown line="1055">
-                    <unit>Principem de scola agentum in rebus</unit>
+                    <unit>Chief of staff from the corps of agentes in rebus</unit>
                 </unknown>
                 <unknown line="1056">
-                    <unit>Numerarios et adiutores eorum</unit>
+                    <unit>Accountants and their assistants</unit>
                 </unknown>
                 <unknown line="1057">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1058">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1059">
-                    <unit>A libellis siue subscribendarium</unit>
+                    <unit>Petitions officer or subscriptions clerk</unit>
                 </unknown>
                 <unknown line="1060">
-                    <unit>Exceptores et ceteros officiales</unit>
+                    <unit>Clerks and the other staff</unit>
                 </unknown>
             </group>
             <unknown line="1061">
@@ -8691,7 +8691,7 @@
         <chapter type="dux">
             <title>Dux of Mesopotamia</title>
             <group type="administration" line="1065">
-                <title>Sub dispositione viri spectibilis Dux Mesopotamiae</title>
+                <title>Under the authority of the Respectable Dux of Mesopotamia</title>
                 <equites line="1066">
                     <unit>Cavalry scutarii Illyriciani</unit>
                     <place source="tail">Amidae</place>
@@ -8746,15 +8746,15 @@
             <group type="unknown" line="1078">
                 <title>And those appointed from the lesser register</title>
                 <ala line="1079">
-                    <unit>Ala Second nova Aegyptiorum</unit>
+                    <unit>Ala Second New Egyptian</unit>
                     <place source="tail">Cartha</place>
                 </ala>
                 <ala line="1080">
-                    <unit>Ala octava Flavia Francorum</unit>
+                    <unit>Ala Eighth Flavia Frankish</unit>
                     <place source="tail">Ripaltha</place>
                 </ala>
                 <ala line="1081">
-                    <unit>Ala quintadecima Flavia Carduenorum</unit>
+                    <unit>Ala Fifteenth Flavia Carduenian</unit>
                     <place source="tail">Caini</place>
                 </ala>
                 <cohort line="1082">
@@ -8769,22 +8769,22 @@
             <group type="officium" line="1084" ownerOffice="Dux Mesopotamiae">
                 <title>The staff is as follows</title>
                 <unknown line="1085">
-                    <unit>Principem de scola agentum in rebus</unit>
+                    <unit>Chief of staff from the corps of agentes in rebus</unit>
                 </unknown>
                 <unknown line="1086">
-                    <unit>Numerarios et adiutores eorum</unit>
+                    <unit>Accountants and their assistants</unit>
                 </unknown>
                 <unknown line="1087">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1088">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1089">
-                    <unit>A libellis siue subscribendarium</unit>
+                    <unit>Petitions officer or subscriptions clerk</unit>
                 </unknown>
                 <unknown line="1090">
-                    <unit>Exceptores et ceteros officiales</unit>
+                    <unit>Clerks and the other staff</unit>
                 </unknown>
             </group>
             <unknown line="1091">
@@ -8842,11 +8842,11 @@
             <group type="unknown" line="1106">
                 <title>And those appointed from the lesser register</title>
                 <ala line="1107">
-                    <unit>Ala nona miliaria</unit>
+                    <unit>Ala Ninth Milliary</unit>
                     <place source="tail">Auatha</place>
                 </ala>
                 <ala line="1108">
-                    <unit>Ala sexta Hispanorum</unit>
+                    <unit>Ala Sixth Hispanic</unit>
                     <place source="tail">Gomoha</place>
                 </ala>
                 <ala line="1109">
@@ -8854,7 +8854,7 @@
                     <place source="tail">Libona</place>
                 </ala>
                 <ala line="1110">
-                    <unit>Ala Second Miliarensis</unit>
+                    <unit>Ala Second Milliary</unit>
                     <place source="tail">Naarsafari</place>
                 </ala>
                 <ala line="1111">
@@ -8862,7 +8862,7 @@
                     <place source="tail">Thainatha</place>
                 </ala>
                 <ala line="1112">
-                    <unit>Ala Second felix Valentiniana</unit>
+                    <unit>Ala Second Felix Valentiniana</unit>
                     <place source="tail">apud Adittha</place>
                 </ala>
                 <cohort line="1113">
@@ -8887,24 +8887,24 @@
                 </cohort>
             </group>
             <group type="officium" line="1118" ownerOffice="Dux Arabiae et praeses">
-                <title>Staff of the Respectable Dux Arabia et Governor habet ita</title>
+                <title>Staff of the Respectable Dux Arabia et Governor is as follows</title>
                 <unknown line="1119">
-                    <unit>Principem de scola agentum in rebus</unit>
+                    <unit>Chief of staff from the corps of agentes in rebus</unit>
                 </unknown>
                 <unknown line="1120">
-                    <unit>Numerarios et adiutores eorum</unit>
+                    <unit>Accountants and their assistants</unit>
                 </unknown>
                 <unknown line="1121">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1122">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1123">
-                    <unit>A libellis siue subscribendarium</unit>
+                    <unit>Petitions officer or subscriptions clerk</unit>
                 </unknown>
                 <unknown line="1124">
-                    <unit>Exceptores et ceteros officiales</unit>
+                    <unit>Clerks and the other staff</unit>
                 </unknown>
             </group>
             <group type="unknown" line="1125">
@@ -8931,7 +8931,7 @@
                     <unit>A libellis siue regerendarium</unit>
                 </unknown>
                 <unknown line="1133">
-                    <unit>Exceptores et ceteros officiales</unit>
+                    <unit>Clerks and the other staff</unit>
                 </unknown>
             </group>
             <unknown line="1134">
@@ -8978,14 +8978,14 @@
                     <place source="tail">apud Auaxam</place>
                 </ala>
                 <ala line="1147">
-                    <unit>Ala felix Theodosiana</unit>
+                    <unit>Ala Felix Theodosiana</unit>
                     <place source="tail">Siluanis</place>
                 </ala>
             </group>
             <group type="unknown" line="1148">
                 <title>And those appointed from the lesser register</title>
                 <ala line="1149">
-                    <unit>Ala First Augusta Colonorum</unit>
+                    <unit>Ala First Augusta Colonial</unit>
                     <place source="tail">Chiaca</place>
                 </ala>
                 <ala line="1150">
@@ -8993,18 +8993,18 @@
                     <place source="tail">Dascusa</place>
                 </ala>
                 <ala line="1151">
-                    <unit>Ala First Ulpia Dacorum</unit>
+                    <unit>Ala First Ulpia Dacian</unit>
                     <place source="tail">Suissa</place>
                 </ala>
                 <ala line="1152">
-                    <unit>Ala Second Gallorum</unit>
+                    <unit>Ala Second Gallic</unit>
                     <place source="tail">Aeliana</place>
                 </ala>
                 <ala line="1153">
-                    <unit>Ala castello Tablariensi constituta</unit>
+                    <unit>Ala at the fort of Tablariensi formed</unit>
                 </ala>
                 <ala line="1154">
-                    <unit>Ala pima praetoria nuer constituta</unit>
+                    <unit>Ala pima praetoria nuer formed</unit>
                 </ala>
                 <cohort line="1155">
                     <unit>Cohort tertia Ulpia miliaria Petraeorum</unit>
@@ -9023,11 +9023,11 @@
                     <place source="tail">Sisila</place>
                 </cohort>
                 <ala line="1159">
-                    <unit>Ala First Iovia felix</unit>
+                    <unit>Ala First Iovia Felix</unit>
                     <place source="tail">Chaszanenica</place>
                 </ala>
                 <ala line="1160">
-                    <unit>Ala First felix Theodosiana</unit>
+                    <unit>Ala First Felix Theodosiana</unit>
                     <place source="tail">Pithiae</place>
                 </ala>
                 <cohort line="1161">
@@ -9058,22 +9058,22 @@
             <group type="officium" line="1167" ownerOffice="Dux Armeniae">
                 <title>The staff is as follows</title>
                 <unknown line="1168">
-                    <unit>Principem de scola agentum in rebus</unit>
+                    <unit>Chief of staff from the corps of agentes in rebus</unit>
                 </unknown>
                 <unknown line="1169">
-                    <unit>Numerarios et adiutores eorum</unit>
+                    <unit>Accountants and their assistants</unit>
                 </unknown>
                 <unknown line="1170">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1171">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1172">
-                    <unit>A libellis siue subscribendarium</unit>
+                    <unit>Petitions officer or subscriptions clerk</unit>
                 </unknown>
                 <unknown line="1173">
-                    <unit>Exceptores et ceteros officiales</unit>
+                    <unit>Clerks and the other staff</unit>
                 </unknown>
             </group>
             <unknown line="1174">
@@ -9086,31 +9086,31 @@
             <group type="administration" line="1178">
                 <title>Under the authority of the Respectable Dux Scythiae</title>
                 <cuneus line="1179">
-                    <unit>Cavalry wedge scutariorum</unit>
+                    <unit>Cuneus of Scutarii cavalry</unit>
                     <place source="tail">Sacidaua</place>
                 </cuneus>
                 <cuneus line="1180">
-                    <unit>Cavalry wedge Solensium</unit>
+                    <unit>Cuneus of Solenses cavalry</unit>
                     <place source="tail">Capidaua</place>
                 </cuneus>
                 <cuneus line="1181">
-                    <unit>Cavalry wedge stablesianorum</unit>
+                    <unit>Cuneus of Stablesiani cavalry</unit>
                     <place source="tail">Cii</place>
                 </cuneus>
                 <cuneus line="1182">
-                    <unit>Cavalry wedge stablesianorum</unit>
+                    <unit>Cuneus of Stablesiani cavalry</unit>
                     <place source="tail">Bireo</place>
                 </cuneus>
                 <cuneus line="1183">
-                    <unit>Cavalry wedge catafractariorum</unit>
+                    <unit>Cuneus of catafractariorum cavalry</unit>
                     <place source="tail">Arubio</place>
                 </cuneus>
                 <cuneus line="1184">
-                    <unit>Cavalry wedge armigerorum</unit>
+                    <unit>Cuneus of Armigeri cavalry</unit>
                     <place source="tail">Aegissos</place>
                 </cuneus>
                 <cuneus line="1185">
-                    <unit>Cavalry wedge Arcadum</unit>
+                    <unit>Cuneus of Arcadian cavalry</unit>
                     <place source="tail">Talamonio</place>
                 </cuneus>
             </group>
@@ -9193,22 +9193,22 @@
             <group type="officium" line="1204" ownerOffice="Dux Scythiae">
                 <title>The staff is as follows</title>
                 <unknown line="1205">
-                    <unit>Principem de eodem officio, qui completa militia adorat protector.</unit>
+                    <unit>Chief of staff from the same office, who on completing his service is admitted as a protector.</unit>
                 </unknown>
                 <unknown line="1206">
-                    <unit>Numerarios et adiutores eorum</unit>
+                    <unit>Accountants and their assistants</unit>
                 </unknown>
                 <unknown line="1207">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1208">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1209">
-                    <unit>A libellis siue subscribendarium</unit>
+                    <unit>Petitions officer or subscriptions clerk</unit>
                 </unknown>
                 <unknown line="1210">
-                    <unit>Exceptores et ceteros officiales</unit>
+                    <unit>Clerks and the other staff</unit>
                 </unknown>
             </group>
             <unknown line="1211">
@@ -9221,31 +9221,31 @@
             <group type="administration" line="1215">
                 <title>Under the authority of the Respectable Dux moesiae secundae</title>
                 <cuneus line="1216">
-                    <unit>Cavalry wedge scutariorum</unit>
+                    <unit>Cuneus of Scutarii cavalry</unit>
                     <place source="tail">Securisca</place>
                 </cuneus>
                 <cuneus line="1217">
-                    <unit>Cavalry wedge Solensium</unit>
+                    <unit>Cuneus of Solenses cavalry</unit>
                     <place source="tail">Dimo</place>
                 </cuneus>
                 <cuneus line="1218">
-                    <unit>Cavalry wedge scutariorum</unit>
+                    <unit>Cuneus of Scutarii cavalry</unit>
                     <place source="tail">Latius</place>
                 </cuneus>
                 <cuneus line="1219">
-                    <unit>Cavalry wedge armigerorum</unit>
+                    <unit>Cuneus of Armigeri cavalry</unit>
                     <place source="tail">Sexagintaprista</place>
                 </cuneus>
                 <cuneus line="1220">
-                    <unit>Cavalry wedge secundorum armigerorum</unit>
+                    <unit>Cuneus of Second Armigeri cavalry</unit>
                     <place source="tail">Tegra</place>
                 </cuneus>
                 <cuneus line="1221">
-                    <unit>Cavalry wedge scutariorum</unit>
+                    <unit>Cuneus of Scutarii cavalry</unit>
                     <place source="tail">Appiaria</place>
                 </cuneus>
                 <cuneus line="1222">
-                    <unit>Cavalry wedge stablesianorum</unit>
+                    <unit>Cuneus of Stablesiani cavalry</unit>
                     <place source="tail">Sucidaua</place>
                 </cuneus>
             </group>
@@ -9332,35 +9332,35 @@
             <group type="officium" line="1242" ownerOffice="Dux Moesiae secundae">
                 <title>The staff is as follows</title>
                 <unknown line="1243">
-                    <unit>Principem de eodem officio, qui completa militia adorat protector.</unit>
+                    <unit>Chief of staff from the same office, who on completing his service is admitted as a protector.</unit>
                 </unknown>
                 <unknown line="1244">
-                    <unit>Numerarios et adiutores eorum</unit>
+                    <unit>Accountants and their assistants</unit>
                 </unknown>
                 <unknown line="1245">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1246">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1247">
-                    <unit>A libellis siue subscribendarium</unit>
+                    <unit>Petitions officer or subscriptions clerk</unit>
                 </unknown>
                 <unknown line="1248">
-                    <unit>Exceptores et ceteros officiales</unit>
+                    <unit>Clerks and the other staff</unit>
                 </unknown>
             </group>
             <group type="unknown" line="1249">
                 <title>And those appointed from the lesser register</title>
                 <group type="province" line="1250">
-                    <title>In provincia Rhodopa</title>
+                    <title>In the province of Rhodopa</title>
                     <cohort line="1251">
                         <unit>Cohort quarta Gallorum</unit>
                         <place source="tail">Ulucitra</place>
                     </cohort>
                 </group>
                 <group type="province" line="1252">
-                    <title>In provincia Thracia</title>
+                    <title>In the province of Thracia</title>
                     <cohort line="1253">
                         <unit>Cohort First Aureliana</unit>
                         <place source="tail">sub Radice - Viamata</place>
@@ -9381,35 +9381,35 @@
             <group type="administration" line="1259">
                 <title>Under the authority of the Respectable Dux Moesiae primae</title>
                 <cuneus line="1260">
-                    <unit>Cuneus equtum Constantacorum</unit>
+                    <unit>Cuneus of Constantacorum cavalry</unit>
                     <place source="tail">Pinco</place>
                 </cuneus>
                 <cuneus line="1261">
-                    <unit>Cuneus equtum promotorum</unit>
+                    <unit>Cuneus of Promoti cavalry</unit>
                     <place source="tail">Flaviana</place>
                 </cuneus>
                 <cuneus line="1262">
-                    <unit>Cuneus equtum sagittariorum</unit>
+                    <unit>Cuneus of archer cavalry</unit>
                     <place source="tail">Tricornio</place>
                 </cuneus>
                 <cuneus line="1263">
-                    <unit>Cuneus equtum Dalmatarum</unit>
+                    <unit>Cuneus of Dalmatian cavalry</unit>
                     <place source="tail">Aureomonto</place>
                 </cuneus>
                 <cuneus line="1264">
-                    <unit>Cuneus equtum promotorum</unit>
+                    <unit>Cuneus of Promoti cavalry</unit>
                     <place source="tail">Viminacio</place>
                 </cuneus>
                 <cuneus line="1265">
-                    <unit>Cuneus equtum sagittariorum</unit>
+                    <unit>Cuneus of archer cavalry</unit>
                     <place source="tail">Laedenatae</place>
                 </cuneus>
                 <cuneus line="1266">
-                    <unit>Cuneus equtum Dalmatarum</unit>
+                    <unit>Cuneus of Dalmatian cavalry</unit>
                     <place source="tail">Pinco</place>
                 </cuneus>
                 <cuneus line="1267">
-                    <unit>Cuneus equtum Dalmatarum</unit>
+                    <unit>Cuneus of Dalmatian cavalry</unit>
                     <place source="tail">Cuppis</place>
                 </cuneus>
             </group>
@@ -9496,22 +9496,22 @@
             <group type="officium" line="1287" ownerOffice="Dux Moesiae primae">
                 <title>The staff is as follows</title>
                 <unknown line="1288">
-                    <unit>Principem de eodem officio, qui completa militia adorat protector.</unit>
+                    <unit>Chief of staff from the same office, who on completing his service is admitted as a protector.</unit>
                 </unknown>
                 <unknown line="1289">
-                    <unit>Numerarios et adiutores eorum</unit>
+                    <unit>Accountants and their assistants</unit>
                 </unknown>
                 <unknown line="1290">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1291">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1292">
-                    <unit>A libellis siue subscribendarium</unit>
+                    <unit>Petitions officer or subscriptions clerk</unit>
                 </unknown>
                 <unknown line="1293">
-                    <unit>Exceptores et ceteros officiales</unit>
+                    <unit>Clerks and the other staff</unit>
                 </unknown>
             </group>
             <unknown line="1294">
@@ -9524,39 +9524,39 @@
             <group type="administration" line="1298">
                 <title>Under the authority of the Respectable Dux Daciae ripensis</title>
                 <cuneus line="1299">
-                    <unit>Cavalry wedge Dalmatarum Fortensium</unit>
+                    <unit>Cuneus of Dalmatian Fortenses cavalry</unit>
                     <place source="tail">Bononia</place>
                 </cuneus>
                 <cuneus line="1300">
-                    <unit>Cavalry wedge Dalmatarum Divitensium</unit>
+                    <unit>Cuneus of Dalmatian Divitensium cavalry</unit>
                     <place source="tail">Dortico</place>
                 </cuneus>
                 <cuneus line="1301">
-                    <unit>Cavalry wedge scutariorum</unit>
+                    <unit>Cuneus of Scutarii cavalry</unit>
                     <place source="tail">Cebro</place>
                 </cuneus>
                 <cuneus line="1302">
-                    <unit>Cavalry wedge Dalmatarum Divitensium</unit>
+                    <unit>Cuneus of Dalmatian Divitensium cavalry</unit>
                     <place source="tail">Drobeta</place>
                 </cuneus>
                 <cuneus line="1303">
-                    <unit>Cavalry wedge Dalmatarum</unit>
+                    <unit>Cuneus of Dalmatian cavalry</unit>
                     <place source="tail">Augustae</place>
                 </cuneus>
                 <cuneus line="1304">
-                    <unit>Cavalry wedge Dalmatarum</unit>
+                    <unit>Cuneus of Dalmatian cavalry</unit>
                     <place source="tail">Varina</place>
                 </cuneus>
                 <cuneus line="1305">
-                    <unit>Cavalry wedge stablesianorum</unit>
+                    <unit>Cuneus of Stablesiani cavalry</unit>
                     <place source="tail">Almo</place>
                 </cuneus>
                 <cuneus line="1306">
-                    <unit>Cavalry wedge scutariorum</unit>
+                    <unit>Cuneus of Scutarii cavalry</unit>
                     <place source="tail">Aegetae</place>
                 </cuneus>
                 <cuneus line="1307">
-                    <unit>Cavalry wedge Constantinianorum</unit>
+                    <unit>Cuneus of Constantinian cavalry</unit>
                     <place source="tail">Uto</place>
                 </cuneus>
             </group>
@@ -9656,27 +9656,28 @@
                 <unknown line="1329">
                     <office type="praefectus">Prefect</office>
                     <unit>Fleet Ratianensis</unit>
+                    <place source="tail">Ratianensis</place>
                 </unknown>
             </group>
             <group type="officium" line="1330" ownerOffice="Dux Daciae ripensis">
                 <title>The staff is as follows</title>
                 <unknown line="1331">
-                    <unit>Principem de eodem officio, qui completa militia adoratÝprotector.</unit>
+                    <unit>Chief of staff from the same office, who on completing his service is admitted as a protector.</unit>
                 </unknown>
                 <unknown line="1332">
-                    <unit>Numerarios et adiutores eorum</unit>
+                    <unit>Accountants and their assistants</unit>
                 </unknown>
                 <unknown line="1333">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1334">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1335">
-                    <unit>A libellis siue subscribendarium</unit>
+                    <unit>Petitions officer or subscriptions clerk</unit>
                 </unknown>
                 <unknown line="1336">
-                    <unit>Exceptores et ceteros officiales</unit>
+                    <unit>Clerks and the other staff</unit>
                 </unknown>
             </group>
             <unknown line="1337">
@@ -9687,79 +9688,79 @@
         <chapter type="unknown">
             <title>Consular Governor of Palestine</title>
             <group type="administration" line="1341">
-                <title>Sub dispositione viri clarissimi Consular Governor Palaestinae</title>
+                <title>Under the authority of the Most Distinguished Consular Governor of Palaestina</title>
                 <unknown line="1342">
-                    <unit>Provincia Palaestina</unit>
+                    <unit>Province of Palaestina</unit>
                 </unknown>
             </group>
             <group type="officium" line="1343" ownerOffice="Consularis Palaestinae">
                 <title>The staff is as follows</title>
                 <unknown line="1344">
-                    <unit>Principem de eodem officio</unit>
+                    <unit>Chief of staff from the same office</unit>
                 </unknown>
                 <unknown line="1345">
-                    <unit>Cornicularium</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="1346">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1347">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1348">
-                    <unit>Numerarium</unit>
+                    <unit>Accountant</unit>
                 </unknown>
                 <unknown line="1349">
-                    <unit>Keeper of the records</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1350">
-                    <unit>A libellis</unit>
+                    <unit>Petitions officer</unit>
                 </unknown>
                 <unknown line="1351">
-                    <unit>Exceptores et ceteros cohortalinos, quibus non licet ad aliam transire militiam sine annotatione clementiae principalis.</unit>
+                    <unit>Clerks and the other cohortal staff, who may not transfer to another service without authorization by the imperial clemency.</unit>
                 </unknown>
             </group>
             <unknown line="1352">
-                <unit>Ceteri omnes consulares ad similitudinem consularis Palaestinae officium habent</unit>
+                <unit>All the other consular governors have a staff like that of the Consular Governor of Palaestina</unit>
             </unknown>
         </chapter>
         <chapter type="unknown">
             <title>Governor of the Thebaid</title>
             <group type="administration" line="1356">
-                <title>Sub dispositione viri clarissimi Governor Thebaidos</title>
+                <title>Under the authority of the Most Distinguished Governor of the Thebaid</title>
                 <unknown line="1357">
-                    <unit>Provincia Thebais</unit>
+                    <unit>Province of the Thebaid</unit>
                 </unknown>
             </group>
             <group type="officium" line="1358" ownerOffice="Praeses Thebaidos">
                 <title>The staff is as follows</title>
                 <unknown line="1359">
-                    <unit>Principem de eodem officio</unit>
+                    <unit>Chief of staff from the same office</unit>
                 </unknown>
                 <unknown line="1360">
-                    <unit>Cornicularium</unit>
+                    <unit>Chief administrative clerk</unit>
                 </unknown>
                 <unknown line="1361">
-                    <unit>Commentariensem</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1362">
-                    <unit>Adiutorem</unit>
+                    <unit>Assistant</unit>
                 </unknown>
                 <unknown line="1363">
-                    <unit>Numerarium</unit>
+                    <unit>Accountant</unit>
                 </unknown>
                 <unknown line="1364">
-                    <unit>Keeper of the records</unit>
+                    <unit>Keeper of records</unit>
                 </unknown>
                 <unknown line="1365">
-                    <unit>A libellis</unit>
+                    <unit>Petitions officer</unit>
                 </unknown>
                 <unknown line="1366">
-                    <unit>Exceptores et ceteros cohortalinos, quibus non licet ad aliam transire militiam sine annotatione clementiae principalis.</unit>
+                    <unit>Clerks and the other cohortal staff, who may not transfer to another service without authorization by the imperial clemency.</unit>
                 </unknown>
             </group>
             <unknown line="1367">
-                <unit>Ceteri omnes consulares ad similitudinem praesidis Thebaidos officium habent</unit>
+                <unit>All the other consular governors have a staff like that of the Governor of the Thebaid</unit>
             </unknown>
         </chapter>
         <chapter type="unknown">

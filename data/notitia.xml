@@ -7211,8 +7211,9 @@
                     <unit>classis Histricae</unit>
                     <place source="tail">Aegetae</place>
                 </unknown><unknown line="1329">
-                    <office type="praefectus">Praefectus</office>
-                    <unit>classis Ratianensis</unit>
+                     <office type="praefectus">Praefectus</office>
+                     <unit>classis Ratianensis</unit>
+                     <place>Ratianensis</place>
                 </unknown>
             </group><group type="officium" line="1330" ownerOffice="Dux Daciae ripensis">
                 <title>Officium autem habet ita</title>
