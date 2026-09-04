@@ -382,6 +382,7 @@ function select(row, node) {
     selectRow(row, node);
 
     const label = getLabel(node).replace(/\.$/, "").trim();
+    if (Map.showJurisdiction(node)) return;
     if (showRegionForNode(node, label)) return;
     if (showProvinceForNode(node, label)) return;
 

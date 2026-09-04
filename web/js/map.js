@@ -4,113 +4,47 @@
 //
 
 import Data from "./data.js";
-import * as XML from "./xml.js";
 import { REGIONS } from "./regions.js";
+import {
+    placeName,
+    mappedPlace,
+    placeKey,
+    uniqueMappedPlaces,
+    resolvePlace,
+    hasPlace,
+    findPlaceSourceNode,
+    placeMarkerStyle
+} from "./map_places.js";
+import {
+    PROVINCE_PLACE_MARKER_STYLE,
+    SEARCH_MARKER_STYLE,
+    SELECTED_PLACE_STYLE,
+    addPlaceLegend
+} from "./map_styles.js";
+import {
+    loadProvinces,
+    buildProvinceLayer,
+    getProvinceLayer,
+    provinceFeatureCount,
+    provinceName,
+    provinceObjectId,
+    clearProvince,
+    selectProvinceLayers,
+    highlightProvince,
+    findProvince,
+    layersForProvinceObjectIds,
+    layersForProvinceNames
+} from "./map_provinces.js";
+import { resolveJurisdiction } from "./map_jurisdictions.js";
 
-const PROVINCE_FILE = "../data/provinces.geojson";
+
 const DEFAULT_VIEW = [41, 15];
 const DEFAULT_ZOOM = 4;
 const PLACE_ZOOM = 8;
 
-const PLACE_MARKER_STYLE = {
-    radius: 3.8, weight: 1.1, color: "#111111", fillColor: "#555555",
-    opacity: 0.95, fillOpacity: 0.82, bubblingMouseEvents: false
-};
-const PLACE_TYPE_STYLES = {
-
-    dux: {
-        radius: 4.5,
-        weight: 1.2,
-        color: "#003399",
-        fillColor: "#0066ff",
-        opacity: 0.95,
-        fillOpacity: 0.85,
-        bubblingMouseEvents: false
-    },
-
-    comes: {
-        radius: 4.5,
-        weight: 1.2,
-        color: "#991b1b",
-        fillColor: "#e53935",
-        opacity: 0.95,
-        fillOpacity: 0.85,
-        bubblingMouseEvents: false
-    },
-
-    fabrica: {
-        radius: 4.5,
-        weight: 1.2,
-        color: "#a65f00",
-        fillColor: "#ffb000",
-        opacity: 0.95,
-        fillOpacity: 0.9,
-        bubblingMouseEvents: false
-    },
-
-    office: {
-        radius: 4.5,
-        weight: 1.2,
-        color: "#5b2182",
-        fillColor: "#8e44ad",
-        opacity: 0.95,
-        fillOpacity: 0.85,
-        bubblingMouseEvents: false
-    },
-
-    tribunus: {
-        radius: 4.5,
-        weight: 1.2,
-        color: "#007f8f",
-        fillColor: "#00cfe8",
-        opacity: 0.95,
-        fillOpacity: 0.88,
-        bubblingMouseEvents: false
-    },
-
-    equites: {
-        radius: 4.5,
-        weight: 1.2,
-        color: "#8a7800",
-        fillColor: "#ffeb00",
-        opacity: 0.95,
-        fillOpacity: 0.9,
-        bubblingMouseEvents: false
-    },
-
-    mixed: {
-        radius: 5,
-        weight: 1.4,
-        color: "#006b3c",
-        fillColor: "#00a651",
-        opacity: 0.98,
-        fillOpacity: 0.9,
-        bubblingMouseEvents: false
-    },
-
-    other: PLACE_MARKER_STYLE
-};
-const PROVINCE_PLACE_MARKER_STYLE = {
-    radius: 4, weight: 1.2, color: "#496b78", fillColor: "#f7f3ec",
-    opacity: 0.95, fillOpacity: 0.95, bubblingMouseEvents: false
-};
-const SEARCH_MARKER_STYLE = {
-    pane: "searchResultsPane", radius: 5.5, weight: 1.5,
-    color: "#8e5039", fillColor: "#d09a76",
-    opacity: 0.95, fillOpacity: 0.85, bubblingMouseEvents: false
-};
-const SELECTED_PLACE_STYLE = {
-    pane: "selectedPlacePane", radius: 7.5, weight: 2.5,
-    color: "#ffffff", fillColor: "#8f3027",
-    opacity: 1, fillOpacity: 1, interactive: false
-};
-
 let map = null;
-let provinceLayer = null;
 let placesLayer = null;
-let provinceGeoJSON = null;
 let selectedPlaceMarker = null;
-let selectedProvinceLayers = [];
 let searchResultsLayer = null;
 let provincePlacesLayer = null;
 let placesLayerWasVisibleBeforeSearch = null;
@@ -119,47 +53,6 @@ let placesLayerWasVisibleBeforeProvinceFocus = null;
 function setStatus(text) {
     const node = document.getElementById("status");
     if (node) node.textContent = text;
-}
-
-function normalize(value) {
-    return String(value || "")
-        .replace(/\s+/g, " ")
-        .replace(/\.$/, "")
-        .trim()
-        .toLowerCase();
-}
-
-function provinceName(feature) {
-    const p = feature?.properties || {};
-    return p.PROV_NAME || p.prov_name || p.NAME || p.name ||
-        p.PROVINCE || p.province || "Unknown province";
-}
-
-function provinceObjectId(feature) {
-    const value = Number(feature?.properties?.OBJECTID);
-    return Number.isFinite(value) ? value : null;
-}
-
-function provinceStyle() {
-    return {
-        color: "#7f8c94", weight: 0.9, opacity: 0.68,
-        fillColor: "#aeb8bd", fillOpacity: 0.045
-    };
-}
-
-function selectedProvinceStyle() {
-    return {
-        color: "#9a4c35", weight: 2.2, opacity: 0.96,
-        fillColor: "#c9825e", fillOpacity: 0.19
-    };
-}
-
-async function loadProvinces() {
-    const response = await fetch(PROVINCE_FILE, { cache: "no-store" });
-    if (!response.ok) {
-        throw new Error(`Could not load ${PROVINCE_FILE}: HTTP ${response.status}`);
-    }
-    provinceGeoJSON = await response.json();
 }
 
 function setPlacesLayerVisible(visible) {
@@ -221,29 +114,11 @@ function beginProvinceFocus() {
     setPlacesLayerVisible(false);
 }
 
-function clearProvince() {
-    if (provinceLayer) {
-        for (const layer of selectedProvinceLayers) provinceLayer.resetStyle(layer);
-    }
-    selectedProvinceLayers = [];
-}
-
 function clearSelection(resetView = false, clearSearch = true) {
     clearPlace(resetView);
     clearProvince();
     if (clearSearch) clearSearchResults();
     clearProvincePlaces();
-}
-
-function highlightProvince(feature) {
-    clearProvince();
-    if (!feature || !provinceLayer) return;
-
-    provinceLayer.eachLayer(layer => {
-        if (layer.feature !== feature) return;
-        layer.setStyle(selectedProvinceStyle());
-        selectedProvinceLayers.push(layer);
-    });
 }
 
 function fitLayerBounds(layers, options) {
@@ -257,62 +132,43 @@ function fitLayerBounds(layers, options) {
 
 function showRegion(regionKey) {
     const region = REGIONS[regionKey];
-    if (!region || !map || !provinceLayer) return [];
+    if (!region || !map || !getProvinceLayer()) return [];
 
     clearSelection(false);
-    const names = new Set(region.provinces.map(normalize));
 
-    provinceLayer.eachLayer(layer => {
-        if (!names.has(normalize(provinceName(layer.feature)))) return;
-        layer.setStyle(selectedProvinceStyle());
-        selectedProvinceLayers.push(layer);
-    });
+    const layers = layersForProvinceNames(region.provinces);
+    selectProvinceLayers(layers);
 
-    fitLayerBounds(selectedProvinceLayers, { padding: [40, 40], animate: false });
-    setStatus(`${region.label} — ${selectedProvinceLayers.length} province areas`);
-    return selectedProvinceLayers;
+    fitLayerBounds(layers, { padding: [40, 40], animate: false });
+    setStatus(`${region.label} — ${layers.length} province areas`);
+    return layers;
 }
 
-function findProvince(latitude, longitude) {
-    if (!provinceGeoJSON) return null;
-    const point = turf.point([Number(longitude), Number(latitude)]);
+function showJurisdiction(node) {
+    const spec = resolveJurisdiction(node);
+    if (!spec || !map || !getProvinceLayer()) return false;
 
-    for (const feature of provinceGeoJSON.features || []) {
-        const type = feature?.geometry?.type;
-        if (type !== "Polygon" && type !== "MultiPolygon") continue;
-        if (turf.booleanPointInPolygon(point, feature)) return feature;
+    clearSelection(false);
+    beginProvinceFocus();
+
+    const layers = layersForProvinceNames(spec.provinceNames || []);
+    selectProvinceLayers(layers);
+
+    if (layers.length) {
+        fitLayerBounds(layers, { padding: [40, 40], maxZoom: 8, animate: false });
+
+        const unresolved = Number(spec.unresolved || 0);
+        const suffix = unresolved
+            ? ` — ${unresolved} entries not mapped`
+            : "";
+
+        setStatus(`${spec.label} — ${layers.length} jurisdiction areas${suffix}`);
+        return true;
     }
-    return null;
-}
 
-function placeName(place) {
-    return place?.placeName || place?.sourcePlaceName || place?.name || "Place";
-}
-
-function mappedPlace(place) {
-    const latitude = Number(place?.latitude);
-    const longitude = Number(place?.longitude);
-    if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) return null;
-    return { place, latitude, longitude, name: placeName(place) };
-}
-
-function placeKey(item) {
-    return `${normalize(item.name)}|${item.latitude}|${item.longitude}`;
-}
-
-function uniqueMappedPlaces(places) {
-    const result = [];
-    const seen = new Set();
-
-    for (const place of places) {
-        const item = mappedPlace(place);
-        if (!item) continue;
-        const key = placeKey(item);
-        if (seen.has(key)) continue;
-        seen.add(key);
-        result.push(item);
-    }
-    return result;
+    map.setView(DEFAULT_VIEW, DEFAULT_ZOOM, { animate: false });
+    setStatus(`${spec.label} — ${spec.note || "jurisdiction not mapped"}`);
+    return true;
 }
 
 function createPlaceMarker(item, targetLayer, markerStyle, showOptions = {}, tooltipOptions = {}) {
@@ -352,20 +208,8 @@ function placesInProvinces(features) {
     return result;
 }
 
-function layersForProvinceObjectIds(values) {
-    const input = Array.isArray(values) ? values : [values];
-    const wanted = new Set(input.map(Number).filter(Number.isFinite));
-    if (!wanted.size || !provinceLayer) return [];
-
-    const layers = [];
-    provinceLayer.eachLayer(layer => {
-        if (wanted.has(provinceObjectId(layer.feature))) layers.push(layer);
-    });
-    return layers;
-}
-
 function showProvinceObjectIds(values, label = "") {
-    if (!map || !provinceLayer) return [];
+    if (!map || !getProvinceLayer()) return [];
 
     const layers = layersForProvinceObjectIds(values);
     if (!layers.length) {
@@ -379,10 +223,7 @@ function showProvinceObjectIds(values, label = "") {
     clearProvince();
     beginProvinceFocus();
 
-    for (const layer of layers) {
-        layer.setStyle(selectedProvinceStyle());
-        selectedProvinceLayers.push(layer);
-    }
+    selectProvinceLayers(layers);
 
     const items = placesInProvinces(layers.map(layer => layer.feature));
     provincePlacesLayer = L.layerGroup().addTo(map);
@@ -409,91 +250,6 @@ function showProvince(feature) {
     return objectId === null
         ? []
         : showProvinceObjectIds([objectId], provinceName(feature));
-}
-
-function resolvePlace(value) {
-    if (!value) return null;
-    if (typeof value !== "string") return value;
-
-    const wanted = normalize(value);
-    return Data.getAllPlaces().find(place =>
-        [place.placeName, place.sourcePlaceName, place.pleiadesName, place.name, place.candidate]
-            .some(name => normalize(name) === wanted)
-    ) || null;
-}
-
-function hasPlace(value) {
-    const place = resolvePlace(value);
-    return Boolean(
-        place &&
-        Number.isFinite(Number(place.latitude)) &&
-        Number.isFinite(Number(place.longitude))
-    );
-}
-
-function directChildText(node, tagName) {
-    return Array.from(node?.children || [])
-        .find(child => child.tagName === tagName)
-        ?.textContent || "";
-}
-
-function ancestor(node, tagName) {
-    let current = node;
-    while (current) {
-        if (current.tagName === tagName) return current;
-        current = current.parentElement;
-    }
-    return null;
-}
-
-function findPlaceSourceNode(place) {
-    const wantedPlaces = [place?.sourcePlaceName, place?.placeName, place?.name]
-        .map(normalize)
-        .filter(Boolean);
-    if (!wantedPlaces.length) return null;
-
-    const candidates = [];
-    for (const documentNode of XML.documents()) {
-        for (const placeNode of documentNode.querySelectorAll("place")) {
-            if (wantedPlaces.includes(normalize(placeNode.textContent))) {
-                candidates.push(placeNode.parentElement);
-            }
-        }
-    }
-    if (candidates.length <= 1) return candidates[0] || null;
-
-    const wanted = {
-        document: normalize(place.document),
-        chapter: normalize(place.chapter),
-        unit: normalize(place.unit),
-        office: normalize(place.office)
-    };
-
-    let best = candidates[0];
-    let bestScore = -1;
-
-    for (const candidate of candidates) {
-        const documentNode = ancestor(candidate, "document");
-        const chapterNode = ancestor(candidate, "chapter");
-        const actual = {
-            document: normalize(documentNode?.getAttribute("id")),
-            chapter: normalize(directChildText(chapterNode, "title")),
-            unit: normalize(directChildText(candidate, "unit")),
-            office: normalize(directChildText(candidate, "office"))
-        };
-
-        let score = 0;
-        if (wanted.document && actual.document === wanted.document) score += 4;
-        if (wanted.chapter && actual.chapter === wanted.chapter) score += 4;
-        if (wanted.unit && actual.unit === wanted.unit) score += 3;
-        if (wanted.office && actual.office === wanted.office) score += 2;
-
-        if (score > bestScore) {
-            best = candidate;
-            bestScore = score;
-        }
-    }
-    return best;
 }
 
 function showPlace(value, options = {}) {
@@ -612,16 +368,6 @@ function notifyPlaceSelection(place, sourceNode) {
     }));
 }
 
-function buildProvinceLayer() {
-    provinceLayer = L.geoJSON(provinceGeoJSON, {
-        style: provinceStyle,
-        onEachFeature(feature, layer) {
-            layer.bindTooltip(provinceName(feature));
-            layer.on("click", () => showProvince(feature));
-        }
-    }).addTo(map);
-}
-
 function buildPlacesLayer() {
     placesLayer = L.layerGroup();
     let count = 0;
@@ -635,117 +381,6 @@ function buildPlacesLayer() {
 
     placesLayer.addTo(map);
     return count;
-}
-
-function mentionType(row) {
-    const source = normalize(row?.placeSource);
-    const chapter = normalize(row?.chapter);
-    const context = normalize(row?.contextText);
-    const office = normalize(row?.office);
-    const unit = normalize(row?.unit);
-    const text = `${chapter} ${context} ${office} ${unit}`;
-
-    if (source === "factory" || /\bfabrica\w*\b/.test(text)) {
-        return "fabrica";
-    }
-
-    // Specific military roles take precedence over the Dux/Comes chapter context.
-    if (/\btribun\w*\b/.test(office)) {
-        return "tribunus";
-    }
-
-    if (/\bequit\w*\b/.test(unit)) {
-        return "equites";
-    }
-
-    if (/\bdux\b/.test(text)) {
-        return "dux";
-    }
-
-    if (/\b(comes|comitis)\b/.test(text)) {
-        return "comes";
-    }
-
-    if (office) {
-        return "office";
-    }
-
-    return "other";
-}
-
-function placeType(place) {
-    const mentions = Data.getPlaceMentions(placeName(place));
-
-    if (!mentions.length) {
-        return "other";
-    }
-
-    const types = new Set(
-        mentions
-            .map(mentionType)
-            .filter(type => type !== "other")
-    );
-
-    if (types.size > 1) {
-        return "mixed";
-    }
-
-    if (types.size === 1) {
-        return [...types][0];
-    }
-
-    return "other";
-}
-
-function placeMarkerStyle(place) {
-    return PLACE_TYPE_STYLES[placeType(place)] || PLACE_MARKER_STYLE;
-}
-
-function addPlaceLegend() {
-    const legend = L.control({ position: "bottomleft" });
-
-    legend.onAdd = function () {
-        const div = L.DomUtil.create("div", "place-legend");
-
-        const items = [
-            ["#0066ff", "Dux"],
-            ["#e53935", "Comes"],
-            ["#ffb000", "Fabrica"],
-            ["#8e44ad", "Office"],
-            ["#00cfe8", "Tribunus"],
-            ["#ffeb00", "Equites"],
-            ["#00a651", "Mixed"],
-            ["#555555", "Other"]
-        ];
-
-        div.style.background = "rgba(255,255,255,0.94)";
-        div.style.padding = "8px 10px";
-        div.style.border = "1px solid #999";
-        div.style.borderRadius = "5px";
-        div.style.boxShadow = "0 1px 4px rgba(0,0,0,0.25)";
-        div.style.font = "14px/1.35 Arial, sans-serif";
-        div.style.color = "#222";
-
-        div.innerHTML = items.map(([color, label]) => `
-            <div style="display:flex;align-items:center;gap:7px;margin:2px 0;">
-                <span style="
-                    width:11px;
-                    height:11px;
-                    border-radius:50%;
-                    background:${color};
-                    border:1px solid rgba(0,0,0,0.55);
-                    display:inline-block;
-                    flex:0 0 11px;
-                "></span>
-                <span>${label}</span>
-            </div>
-        `).join("");
-
-        L.DomEvent.disableClickPropagation(div);
-        return div;
-    };
-
-    legend.addTo(map);
 }
 
 async function init() {
@@ -766,7 +401,7 @@ async function init() {
     }).addTo(map);
 
     await loadProvinces();
-    buildProvinceLayer();
+    const provinceLayer = buildProvinceLayer(map, showProvince);
     const placeCount = buildPlacesLayer();
 
     L.control.layers(null, {
@@ -774,7 +409,7 @@ async function init() {
         Places: placesLayer
     }, { collapsed: false }).addTo(map);
 
-    addPlaceLegend();
+    addPlaceLegend(map);
 
     if (provinceLayer.getBounds().isValid()) {
         map.fitBounds(provinceLayer.getBounds(), { padding: [10, 10] });
@@ -782,7 +417,7 @@ async function init() {
 
     requestAnimationFrame(() => map.invalidateSize());
     setStatus(`Map ready — ${placeCount} places`);
-    console.log(`Provinces loaded: ${provinceGeoJSON.features?.length || 0}`);
+    console.log(`Provinces loaded: ${provinceFeatureCount()}`);
     console.log(`Places loaded on map: ${placeCount}`);
 }
 
@@ -797,6 +432,7 @@ const MapView = {
     showPlaceName,
     showSearchResults,
     showRegion,
+    showJurisdiction,
     showProvince,
     showProvinceObjectIds,
     getProvinceForPlace,
@@ -817,6 +453,7 @@ export {
     showPlaceName,
     showSearchResults,
     showRegion,
+    showJurisdiction,
     showProvince,
     showProvinceObjectIds,
     getProvinceForPlace,
