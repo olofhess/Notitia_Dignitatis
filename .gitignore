@@ -4,3 +4,7 @@ __pycache__/
 *.pyc
 *.tmp
 data/pleiades-places.json
+
+# Generated backups
+csv/archive/PlaceGazetteer_*.csv
+data/archive/notitia_*.xml
