@@ -643,3 +643,10 @@ h3 { margin-top:0; font-size:24px; }
 @media (max-width:860px){
   .card-visual{ aspect-ratio:16 / 9; }
 }
+
+
+.footer-credit { text-align:right; }
+@media (max-width:700px) {
+  .footer-wrap { flex-direction:column; }
+  .footer-credit { text-align:left; }
+}
