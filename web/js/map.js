@@ -13,6 +13,7 @@ import {
     resolvePlace,
     hasPlace,
     findPlaceSourceNode,
+    placeType,
     placeMarkerStyle
 } from "./map_places.js";
 import {
@@ -49,6 +50,8 @@ let searchResultsLayer = null;
 let provincePlacesLayer = null;
 let placesLayerWasVisibleBeforeSearch = null;
 let placesLayerWasVisibleBeforeProvinceFocus = null;
+let allPlaceMarkers = [];
+let activePlaceType = null;
 
 function setStatus(text) {
     const node = document.getElementById("status");
@@ -368,14 +371,41 @@ function notifyPlaceSelection(place, sourceNode) {
     }));
 }
 
+function applyPlaceTypeFilter(type = null, label = "All") {
+    if (!placesLayer) return 0;
+
+    activePlaceType = type;
+    placesLayer.clearLayers();
+
+    let visibleCount = 0;
+    for (const item of allPlaceMarkers) {
+        if (activePlaceType && item.type !== activePlaceType) continue;
+        item.marker.addTo(placesLayer);
+        visibleCount += 1;
+    }
+
+    if (placesLayerWasVisibleBeforeSearch === null && placesLayerWasVisibleBeforeProvinceFocus === null) {
+        setPlacesLayerVisible(true);
+    }
+
+    setStatus(activePlaceType
+        ? `${label} — ${visibleCount} places`
+        : `All place types — ${visibleCount} places`);
+
+    return visibleCount;
+}
+
 function buildPlacesLayer() {
     placesLayer = L.layerGroup();
+    allPlaceMarkers = [];
     let count = 0;
 
     for (const place of Data.getAllPlaces()) {
         const item = mappedPlace(place);
         if (!item) continue;
-        createPlaceMarker(item, placesLayer, placeMarkerStyle(place));
+        const type = placeType(place);
+        const marker = createPlaceMarker(item, placesLayer, placeMarkerStyle(place));
+        allPlaceMarkers.push({ marker, type });
         count += 1;
     }
 
@@ -409,7 +439,7 @@ async function init() {
         Places: placesLayer
     }, { collapsed: false }).addTo(map);
 
-    addPlaceLegend(map);
+    addPlaceLegend(map, applyPlaceTypeFilter);
 
     if (provinceLayer.getBounds().isValid()) {
         map.fitBounds(provinceLayer.getBounds(), { padding: [10, 10] });

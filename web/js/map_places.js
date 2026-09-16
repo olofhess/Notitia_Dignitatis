@@ -208,5 +208,6 @@ export {
     resolvePlace,
     hasPlace,
     findPlaceSourceNode,
+    placeType,
     placeMarkerStyle
 };

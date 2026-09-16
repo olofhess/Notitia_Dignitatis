@@ -30,8 +30,8 @@ GAZ00028,Antiochia,Antiochiae,658381,Antiochia,36.202097,36.15818,unknown,"A cit
 GAZ00029,Apollonos,Apollonos superioris,785976,Apollonos,24.498288,34.748068,unknown,"An ancient place, cited: BAtlas 80 F4 Apollonos",http://pleiades.stoa.org/places/785976,confirmed
 GAZ00030,Appiaria,Appiaria,216707,Appiaria,43.987675,26.245621,unknown,"An ancient place, cited: BAtlas 22 D5 Appiaria",http://pleiades.stoa.org/places/216707,confirmed
 GAZ00031,Aquileia,Aquileiae,187290,Aquileia,45.768259,13.364601,unknown,"An ancient Roman city initially founded ca. 181/180 BC, Aquileia is especially important in Late Antiquity and the Middle Ages.",http://pleiades.stoa.org/places/187290,confirmed
-GAZ00032,Aquileiensis,Aquileiensis,187290,Aquileia,45.768259,13.364601,unknown,"An ancient Roman city initially founded ca. 181/180 BC, Aquileia is especially important in Late Antiquity and the Middle Ages.",http://pleiades.stoa.org/places/187290,confirmed
-GAZ00033,Aquileiensium,Aquileiensium,187290,Aquileia,45.768259,13.364601,unknown,"An ancient Roman city initially founded ca. 181/180 BC, Aquileia is especially important in Late Antiquity and the Middle Ages.",http://pleiades.stoa.org/places/187290,confirmed
+GAZ00032,Aquileia,Aquileiensis,187290,Aquileia,45.768259,13.364601,unknown,"An ancient Roman city initially founded ca. 181/180 BC, Aquileia is especially important in Late Antiquity and the Middle Ages.",http://pleiades.stoa.org/places/187290,confirmed
+GAZ00033,Aquileia,Aquileiensium,187290,Aquileia,45.768259,13.364601,unknown,"An ancient Roman city initially founded ca. 181/180 BC, Aquileia is especially important in Late Antiquity and the Middle Ages.",http://pleiades.stoa.org/places/187290,confirmed
 GAZ00034,Arbeia,Arbeia,89104,Arbeia,55.00434,-1.430879,unknown,A Roman fort at present-day South Shields. Cited as: BAtlas 9 F6 Arbeia,http://pleiades.stoa.org/places/89104,confirmed
 GAZ00035,Arelatensis,Arelatensis,148217,Col. Arelate,43.677616,4.630799,unknown,An ancient settlement located at modern Arles in France.,http://pleiades.stoa.org/places/148217,confirmed
 GAZ00036,Arelatensium,Arelatensium,148217,Col. Arelate,43.677616,4.630799,unknown,An ancient settlement located at modern Arles in France.,http://pleiades.stoa.org/places/148217,confirmed
@@ -231,8 +231,8 @@ GAZ00229,Ratiaria,Ratiaria,207376,Ratiaria,43.809753,22.919689,unknown,"An ancie
 GAZ00230,Ravenna,Ravennatis,393480,Ravenna,44.415718,12.196604,unknown,A city of northern Adriatic Italy that served as the capital of the Western Roman Empire from AD 402 until 476.,http://pleiades.stoa.org/places/393480,confirmed
 GAZ00231,Ravenna,Ravennae,393480,Ravenna,44.415718,12.196604,unknown,A city of northern Adriatic Italy that served as the capital of the Western Roman Empire from AD 402 until 476.,http://pleiades.stoa.org/places/393480,confirmed
 GAZ00232,Regulbium,Regulbio,79654,Regulbium,51.379537,1.199796,unknown,"An ancient place, cited: BAtlas 8 I3 Regulbium",http://pleiades.stoa.org/places/79654,confirmed
-GAZ00233,Remensis,Remensis,108945,Durocortorum,49.254104,4.032504,unknown,"The capital of the Remi in Gallia Belgica, now Reims.",http://pleiades.stoa.org/places/108945,confirmed
-GAZ00234,Remi,Remensium,109275,Remi,49.2561547,4.0320509,unknown,"An ancient place, cited: BAtlas 11 E3 Remi",http://pleiades.stoa.org/places/109275,confirmed
+GAZ00233,Durocortorum,Remensis,108945,Durocortorum,49.254104,4.032504,unknown,"The capital of the Remi in Gallia Belgica, now Reims.",http://pleiades.stoa.org/places/108945,confirmed
+GAZ00234,Durocortorum,Remensium,109275,Remi,49.2561547,4.0320509,unknown,"An ancient place, cited: BAtlas 11 E3 Remi",http://pleiades.stoa.org/places/109275,confirmed
 GAZ00235,Remorum,Remorum,108945,Durocortorum,49.254104,4.032504,unknown,"The capital of the Remi in Gallia Belgica, now Reims.",http://pleiades.stoa.org/places/108945,confirmed
 GAZ00236,Rene,Rene,876686,Rene,,,unknown,"An ancient place, cited: BAtlas 89 unlocated Rene",http://pleiades.stoa.org/places/876686,confirmed
 GAZ00237,Ripa,Ripa Alta,270365,Ripa,,,unknown,"An ancient place, cited: BAtlas 27 unlocated Ripa",http://pleiades.stoa.org/places/270365,confirmed
@@ -242,8 +242,8 @@ GAZ00240,Roma,Romae,423025,Roma,41.8917,12.4862,temple-2,The capital of the Roma
 GAZ00241,Sabariensium,Sabariensium,197498,Savaria,47.235142,16.62192,unknown,Colonia Claudia Savaria (Szombathely) Hungary.,http://pleiades.stoa.org/places/197498,confirmed
 GAZ00242,Sabure,Sabure,697750,Sabure,30.314037,35.385319,unknown,"An ancient place, cited: BAtlas 71 A5 Sobora/Karkaria",http://pleiades.stoa.org/places/697750,confirmed
 GAZ00243,Salona,Salonitana,197488,Salona,43.539561,16.483426,unknown,A coastal city of Dalmatia.,http://pleiades.stoa.org/places/197488,confirmed
-GAZ00244,Salonitani,Salonitani,197488,Salona,43.539561,16.483426,unknown,A coastal city of Dalmatia.,http://pleiades.stoa.org/places/197488,confirmed
-GAZ00245,Salonitanorum,Salonitanorum,197488,Salona,43.539561,16.483426,unknown,A coastal city of Dalmatia.,http://pleiades.stoa.org/places/197488,confirmed
+GAZ00244,Salona,Salonitani,197488,Salona,43.539561,16.483426,unknown,A coastal city of Dalmatia.,http://pleiades.stoa.org/places/197488,confirmed
+GAZ00245,Salona,Salonitanorum,197488,Salona,43.539561,16.483426,unknown,A coastal city of Dalmatia.,http://pleiades.stoa.org/places/197488,confirmed
 GAZ00246,Salsouia,Salsouia,226748,Salsovia,45.066464,29.123993,unknown,"An ancient place, cited: BAtlas 23 C3 Salsovia",http://pleiades.stoa.org/places/226748,confirmed
 GAZ00247,Saltatha,Saltatha,674263,Saltatha,,,unknown,"An ancient place, cited: BAtlas 68 unlocated Saltatha",http://pleiades.stoa.org/places/674263,confirmed
 GAZ00248,Samarobriva Ambianorum,Ambianensis,109321,Samarobriva Ambianorum,49.892624,2.293832,unknown,"An ancient place, cited: BAtlas 11 C3 Samarobriva Ambianorum",http://pleiades.stoa.org/places/109321,confirmed
