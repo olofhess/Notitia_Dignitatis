@@ -384,7 +384,8 @@
                     <unit>Singularii</unit>
                 </unknown>
             </group>
-        </chapter><chapter type="prefecture">
+        </chapter>
+        <chapter type="prefecture">
             <title>Sub dispositione viri illustris praefecti praetorio Galliarum dioceses infrascriptae:</title>
             <unknown line="183">
                 <unit>Hispaniae</unit>
@@ -569,7 +570,8 @@
                     <unit>Singularii</unit>
                 </unknown>
             </group>
-        </chapter><chapter type="insignia">
+        </chapter>
+        <chapter type="insignia">
             <title>Insignia viri illustris magistri peditum</title>
             <group type="administration" line="271">
                 <title>Sub dispositione viri illustris magister peditum praesentalis</title>
@@ -1471,7 +1473,8 @@
                 </unknown><unknown line="713">
                     <unit>Cancellarii</unit>
                 </unknown>
-            </group><group type="factoryGroup" line="714">
+            </group>
+            <group type="factoryGroup" line="714">
                 <title>Fabricae infrascriptae</title>
                 <group type="region" line="715">
                     <title>In Illyrico</title>
@@ -1543,7 +1546,8 @@
                         <place source="factory">Ambianensis</place>
                     </factory>
                 </group>
-            </group><group type="officium" line="738" ownerOffice="Magister officiorum">
+            </group>
+            <group type="officium" line="738" ownerOffice="Magister officiorum">
                 <title>Officium autem suprascripti viri illustris magistri officiorum de scola agentum in rebus habetur hoc modo</title>
                 <unknown line="739">
                     <unit>Adiutor</unit>
