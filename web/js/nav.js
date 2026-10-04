@@ -20,12 +20,125 @@ let container = null;
 let selected = null;
 let rowByNode = new WeakMap();
 let mapSelectionListenerInstalled = false;
+let bodleianByChapter = new globalThis.Map();
+let bodleianMapLoaded = false;
 
 function element(tagName, className = "", text = "") {
     const node = document.createElement(tagName);
     if (className) node.className = className;
     if (text !== "") node.textContent = text;
     return node;
+}
+
+function parseCsvLine(line) {
+    const result = [];
+    let current = "";
+    let quoted = false;
+
+    for (let i = 0; i < line.length; i++) {
+        const char = line[i];
+
+        if (char === '"') {
+            if (quoted && line[i + 1] === '"') {
+                current += '"';
+                i++;
+            } else {
+                quoted = !quoted;
+            }
+        } else if (char === "," && !quoted) {
+            result.push(current);
+            current = "";
+        } else {
+            current += char;
+        }
+    }
+
+    result.push(current);
+    return result;
+}
+
+async function loadBodleianChapterMap() {
+    if (bodleianMapLoaded) return;
+
+    try {
+        const response = await fetch("./csv/BodleianChapterMap.csv")
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+        const text = (await response.text()).replace(/^\uFEFF/, "");
+        const lines = text.split(/\r?\n/).filter(line => line.trim() !== "");
+        if (!lines.length) return;
+
+        const header = parseCsvLine(lines.shift());
+        const documentIndex = header.indexOf("document");
+        const chapterIndex = header.indexOf("chapter");
+        const folioIndex = header.indexOf("start_folio");
+        const urlIndex = header.indexOf("url");
+
+        if ([documentIndex, chapterIndex, folioIndex, urlIndex].some(index => index < 0)) {
+            throw new Error("Missing required columns in BodleianChapterMap_with_urls.csv");
+        }
+
+        const map = new globalThis.Map();
+
+        for (const line of lines) {
+            const columns = parseCsvLine(line);
+            const documentId = columns[documentIndex]?.trim();
+            const chapter = Number(columns[chapterIndex]);
+            const folio = columns[folioIndex]?.trim();
+            const url = columns[urlIndex]?.trim();
+
+            if (!documentId || !chapter || !url) continue;
+
+            map.set(`${documentId}:${chapter}`, { folio, url });
+        }
+
+        bodleianByChapter = map;
+        console.log("Bodleian map size:", bodleianByChapter.size);
+        console.log("Oriens 20:", bodleianByChapter.get("Oriens:20"));
+        bodleianMapLoaded = true;
+
+        // initialize() may finish before fetch(). If the tree already exists,
+        // rebuild it once so the Bodleian links become visible immediately.
+        if (container?.childElementCount) build();
+    } catch (error) {
+        console.warn("Could not load Bodleian chapter map:", error);
+    }
+}
+
+function documentForNode(node) {
+    let current = node;
+    while (current) {
+        if (current.tagName === "document") return current;
+        current = current.parentElement;
+    }
+    return null;
+}
+
+function bodleianLinkForChapter(node) {
+    if (node.tagName !== "chapter") return null;
+
+    const documentNode = documentForNode(node);
+    if (!documentNode) return null;
+
+    const documentId = XML.attr(documentNode, "id");
+    const number = chapterNumber(node);
+    const bodleian = bodleianByChapter.get(`${documentId}:${number}`);
+    if (!bodleian?.url) return null;
+
+    const link = element("a", "bodleianLink", "↗");
+    link.href = bodleian.url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.title = bodleian.folio
+        ? `Bodleian MS. Canon. Misc. 378, fol. ${bodleian.folio}`
+        : "Bodleian MS. Canon. Misc. 378";
+    link.setAttribute("aria-label", link.title);
+
+    link.onclick = event => {
+        event.stopPropagation();
+    };
+
+    return link;
 }
 
 function setExpanded(toggle, list, open) {
@@ -39,6 +152,8 @@ function toggleExpanded(toggle, list) {
 
 export function initialize() {
     container = document.getElementById("tree");
+    loadBodleianChapterMap();
+
     if (mapSelectionListenerInstalled) return;
     document.addEventListener("notitia:map-place", handleMapPlaceSelection);
     mapSelectionListenerInstalled = true;
@@ -46,7 +161,19 @@ export function initialize() {
 
 function handleMapPlaceSelection(event) {
     const node = event.detail?.sourceNode;
-    if (node) selectNodeFromMap(node);
+    const place = event.detail?.place;
+
+    if (node) {
+        selectNodeFromMap(node);
+        if (place && typeof Inspector.showMapPlace === "function") {
+            Inspector.showMapPlace(place, node);
+        }
+        return;
+    }
+
+    if (place && typeof Inspector.showMapPlace === "function") {
+        Inspector.showMapPlace(place);
+    }
 }
 
 export function build() {
@@ -167,6 +294,7 @@ function createNode(node, depth) {
     const toggle = element("span", "toggle", children.length ? "▶" : "");
     const geo = element("span", "geoFlag");
     const label = element("span", "label", getLabel(node));
+    const bodleianLink = bodleianLinkForChapter(node);
 
     row.style.paddingLeft = `${depth * 16}px`;
     rowByNode.set(node, row);
@@ -176,7 +304,15 @@ function createNode(node, depth) {
         if (name && Map.hasPlace(name)) geo.textContent = "⚑";
     }
 
-    row.append(toggle, geo, label);
+    row.append(toggle, geo);
+
+if (bodleianLink) {
+    bodleianLink.style.marginRight = "6px";
+    bodleianLink.style.flexShrink = "0";
+    row.appendChild(bodleianLink);
+}
+
+row.appendChild(label);
     wrapper.appendChild(row);
 
     row.onclick = event => {
@@ -331,13 +467,27 @@ function selectRow(row, node) {
     Inspector.show(node);
 }
 
-function descendantPlaceNames(node) {
+function descendantPlaceRefs(node) {
     if (!node) return [];
-    return [...new Set(
-        Array.from(node.querySelectorAll("place"))
-            .map(placeNode => String(placeNode.textContent || "").trim())
-            .filter(Boolean)
-    )];
+
+    const result = [];
+    const seen = new Set();
+
+    for (const placeNode of Array.from(node.querySelectorAll("place"))) {
+        const name = String(placeNode.textContent || "").trim();
+        if (!name) continue;
+
+        const sourceNode = placeNode.parentElement || node;
+        const line = XML.attr(sourceNode, "line") || "";
+        const documentId = XML.attr(documentForNode(sourceNode), "id") || "";
+        const key = `${documentId}:${line}:${name}`;
+
+        if (seen.has(key)) continue;
+        seen.add(key);
+        result.push({ name, sourceNode });
+    }
+
+    return result;
 }
 
 function showRegionForNode(node, label) {
@@ -370,12 +520,12 @@ function showDirectPlace(node) {
     for (const placeNode of Array.from(node.children || [])) {
         if (placeNode.tagName !== "place") continue;
         const name = placeNode.textContent.trim();
-        if (name && Map.showPlace(name)) return true;
+        if (name && Map.showPlace(name, { sourceNode: node })) return true;
     }
 
     if (node.tagName !== "entry") return false;
     const name = entryPlaceName(node);
-    return Boolean(name && Map.showPlace(name));
+    return Boolean(name && Map.showPlace(name, { sourceNode: node }));
 }
 
 function select(row, node) {
@@ -386,7 +536,7 @@ function select(row, node) {
     if (showRegionForNode(node, label)) return;
     if (showProvinceForNode(node, label)) return;
 
-    const places = descendantPlaceNames(node);
+    const places = descendantPlaceRefs(node);
     if (places.length > 1) {
         Map.showSearchResults(places);
         return;

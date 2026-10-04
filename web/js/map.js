@@ -42,6 +42,7 @@ import { resolveJurisdiction } from "./map_jurisdictions.js";
 const DEFAULT_VIEW = [41, 15];
 const DEFAULT_ZOOM = 4;
 const PLACE_ZOOM = 8;
+const PLACE_LABEL_MIN_ZOOM = 6;
 
 let map = null;
 let placesLayer = null;
@@ -52,6 +53,69 @@ let placesLayerWasVisibleBeforeSearch = null;
 let placesLayerWasVisibleBeforeProvinceFocus = null;
 let allPlaceMarkers = [];
 let activePlaceType = null;
+
+
+function installPlaceLabelStyles() {
+    if (document.getElementById("notitia-place-label-styles")) return;
+
+    const style = document.createElement("style");
+    style.id = "notitia-place-label-styles";
+    style.textContent = `
+        .notitia-place-label {
+            background: transparent;
+            border: 0;
+            box-shadow: none;
+            color: #222;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 1.1;
+            padding: 0 2px;
+            white-space: nowrap;
+            pointer-events: none;
+            text-shadow:
+                -1px -1px 0 rgba(255,255,255,.95),
+                 1px -1px 0 rgba(255,255,255,.95),
+                -1px  1px 0 rgba(255,255,255,.95),
+                 1px  1px 0 rgba(255,255,255,.95);
+        }
+
+        .notitia-place-label::before {
+            display: none;
+        }
+
+        #map.notitia-place-labels-hidden .notitia-place-label {
+            display: none;
+        }
+    `;
+    document.head.appendChild(style);
+}
+
+function updatePlaceLabelVisibility() {
+    if (!map) return;
+
+    const mapNode = document.getElementById("map");
+    if (!mapNode) return;
+
+    mapNode.classList.toggle(
+        "notitia-place-labels-hidden",
+        map.getZoom() < PLACE_LABEL_MIN_ZOOM
+    );
+}
+
+function bindLatinPlaceLabel(marker, place) {
+    const label = placeName(place);
+    if (!label) return marker;
+
+    marker.bindTooltip(label, {
+        permanent: true,
+        direction: "right",
+        offset: [7, 0],
+        opacity: 0.92,
+        className: "notitia-place-label"
+    });
+
+    return marker;
+}
 
 function setStatus(text) {
     const node = document.getElementById("status");
@@ -174,12 +238,214 @@ function showJurisdiction(node) {
     return true;
 }
 
-function createPlaceMarker(item, targetLayer, markerStyle, showOptions = {}, tooltipOptions = {}) {
+
+function normalizePlaceText(value) {
+    return String(value || "")
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, " ")
+        .trim();
+}
+
+function sourcePlaceName(place) {
+    return String(
+        place?.sourcePlaceName ||
+        place?.source_place_name ||
+        placeName(place) ||
+        ""
+    ).trim();
+}
+
+function placeQualifier(place) {
+    const match = String(placeName(place) || "").match(/\(([^)]+)\)\s*$/);
+    return match ? match[1].trim() : "";
+}
+
+function nodeContextText(node) {
+    if (!node) return "";
+
+    const parts = [];
+    let current = node;
+
+    while (current) {
+        if (current.getAttribute) {
+            for (const attr of ["line", "id", "number"]) {
+                const value = current.getAttribute(attr);
+                if (value) parts.push(value);
+            }
+        }
+
+        for (const child of Array.from(current.children || [])) {
+            if (["place", "province", "region", "title"].includes(child.tagName)) {
+                const text = String(child.textContent || "").trim();
+                if (text) parts.push(text);
+            }
+        }
+
+        if (current === node) {
+            const text = String(current.textContent || "").trim();
+            if (text) parts.push(text);
+        }
+
+        if (current.tagName === "chapter" || current.tagName === "document") break;
+        current = current.parentElement;
+    }
+
+    return normalizePlaceText(parts.join(" "));
+}
+
+function latinContextScore(qualifier, context) {
+    const q = normalizePlaceText(qualifier);
+    if (!q || !context) return 0;
+    if (context.includes(q)) return 100;
+
+    const tokens = q.split(/\s+/).filter(token => token.length >= 3);
+    let score = 0;
+
+    for (const token of tokens) {
+        const stem = token.slice(0, Math.min(token.length, 6));
+        if (stem.length >= 4 && context.includes(stem)) score += 15;
+    }
+
+    return score;
+}
+
+function placeCandidatesForSource(value) {
+    const wanted = normalizePlaceText(
+        typeof value === "string" ? value : sourcePlaceName(value)
+    );
+    if (!wanted) return [];
+
+    return Data.getAllPlaces().filter(place => {
+        const source = normalizePlaceText(sourcePlaceName(place));
+        const display = normalizePlaceText(placeName(place).replace(/\s*\([^)]*\)\s*$/, ""));
+        return source === wanted || display === wanted;
+    });
+}
+
+function resolvePlaceForContext(value, sourceNode = null) {
+    if (!sourceNode) return resolvePlace(value);
+
+    const candidates = placeCandidatesForSource(value);
+    if (!candidates.length) return resolvePlace(value);
+    if (candidates.length === 1) return candidates[0];
+
+    const context = nodeContextText(sourceNode);
+    const line = String(sourceNode.getAttribute?.("line") || "").trim();
+
+    let best = null;
+    let bestScore = -1;
+
+    for (const candidate of candidates) {
+        let score = 0;
+
+        const qualifier = placeQualifier(candidate);
+        score += latinContextScore(qualifier, context);
+
+        const sourceLines = String(
+            candidate?.sourceLines ||
+            candidate?.sourceLine ||
+            ""
+        );
+        if (line && sourceLines) {
+            const lines = sourceLines.split(/[|;,]/).map(item => item.trim());
+            if (lines.includes(line)) score += 250;
+        }
+
+        const status = String(
+            candidate?.masterDecision ||
+            candidate?.masterStatus ||
+            candidate?.confidence ||
+            ""
+        ).toLowerCase();
+
+        if (status.includes("accepted")) score += 5;
+        if (status.includes("confirmed")) score += 3;
+        if (status.includes("provisional") || status.includes("hold")) score -= 20;
+
+        // Prefer an occurrence-qualified gazetteer row when its qualifier
+        // agrees with the source context. Unqualified duplicates stay fallback.
+        if (qualifier && latinContextScore(qualifier, context) > 0) score += 25;
+
+        if (score > bestScore) {
+            best = candidate;
+            bestScore = score;
+        }
+    }
+
+    return bestScore > 0 ? best : resolvePlace(value);
+}
+
+function activeSearchQuery() {
+    const candidates = [
+        document.getElementById("search"),
+        document.getElementById("searchInput"),
+        document.querySelector('input[type="search"]'),
+        document.querySelector('input[placeholder*="Search" i]')
+    ].filter(Boolean);
+
+    for (const input of candidates) {
+        const value = String(input.value || "").trim();
+        if (value) return value;
+    }
+
+    return "";
+}
+
+function searchStem(value) {
+    const normalized = normalizePlaceText(value).replace(/\s+/g, "");
+    if (!normalized) return "";
+
+    // Six letters is long enough to avoid most accidental matches while
+    // still grouping Latin inflections: Pannonia/Pannoniae/Pannoniorum.
+    return normalized.slice(0, Math.min(6, normalized.length));
+}
+
+function sourceMatchesActiveSearch(sourceNode, query) {
+    if (!sourceNode || !query) return true;
+
+    const context = nodeContextText(sourceNode).replace(/\s+/g, "");
+    if (!context) return false;
+
+    const normalizedQuery = normalizePlaceText(query).replace(/\s+/g, "");
+    if (!normalizedQuery) return true;
+    if (context.includes(normalizedQuery)) return true;
+
+    const stem = searchStem(query);
+    return Boolean(stem && stem.length >= 4 && context.includes(stem));
+}
+
+function searchInput(value) {
+    if (
+        value &&
+        typeof value === "object" &&
+        value.sourceNode &&
+        ("name" in value || "placeName" in value || "value" in value)
+    ) {
+        return {
+            value: value.name ?? value.placeName ?? value.value,
+            sourceNode: value.sourceNode
+        };
+    }
+
+    return { value, sourceNode: null };
+}
+
+function createPlaceMarker(
+    item,
+    targetLayer,
+    markerStyle,
+    showOptions = {},
+    tooltipOptions = {},
+    sourceNode = null
+) {
     const marker = L.circleMarker([item.latitude, item.longitude], markerStyle);
     marker.bindTooltip(item.name, tooltipOptions);
     marker.on("click", () => {
-        if (!showPlace(item.place, showOptions)) return;
-        notifyPlaceSelection(item.place, findPlaceSourceNode(item.place));
+        const node = sourceNode || findPlaceSourceNode(item.place);
+        if (!showPlace(item.place, { ...showOptions, sourceNode: node })) return;
+        notifyPlaceSelection(item.place, node);
     });
     marker.addTo(targetLayer);
     return marker;
@@ -261,9 +527,10 @@ function showPlace(value, options = {}) {
 
     const preserveSearchResults = Boolean(options.preserveSearchResults);
     const preserveView = Boolean(options.preserveView);
+    const sourceNode = options.sourceNode || null;
     clearSelection(false, !preserveSearchResults);
 
-    const place = resolvePlace(value);
+    const place = resolvePlaceForContext(value, sourceNode);
     if (!place) {
         clearPlace(true);
         setStatus("Place not mapped");
@@ -306,8 +573,37 @@ function showSearchResults(values) {
     beginSearchMode();
 
     const input = Array.isArray(values) ? values : [values];
-    const resolved = input.map(resolvePlace).filter(Boolean);
-    const mapped = uniqueMappedPlaces(resolved);
+    const resolvedEntries = [];
+    const query = activeSearchQuery();
+
+    for (const raw of input) {
+        const ref = searchInput(raw);
+
+        // Search results may originate from a broad ancestor node. Keep only
+        // occurrences whose own source context actually matches the active
+        // search term. This prevents, for example, Constantiae in Lugdunensis
+        // II from appearing in a search for Pannonia.
+        if (ref.sourceNode && query && !sourceMatchesActiveSearch(ref.sourceNode, query)) {
+            continue;
+        }
+
+        const place = resolvePlaceForContext(ref.value, ref.sourceNode);
+        if (!place) continue;
+
+        const item = mappedPlace(place);
+        resolvedEntries.push({ place, item, sourceNode: ref.sourceNode });
+    }
+
+    const mappedEntries = [];
+    const seen = new Set();
+
+    for (const entry of resolvedEntries) {
+        if (!entry.item) continue;
+        const key = placeKey(entry.item);
+        if (seen.has(key)) continue;
+        seen.add(key);
+        mappedEntries.push(entry);
+    }
 
     clearPlace(false);
     clearProvince();
@@ -317,28 +613,34 @@ function showSearchResults(values) {
         searchResultsLayer = null;
     }
 
-    if (!mapped.length) {
+    if (!mappedEntries.length) {
         map.setView(DEFAULT_VIEW, DEFAULT_ZOOM, { animate: false });
         setStatus("No mapped places in search results");
         return [];
     }
 
-    if (mapped.length === 1) {
-        showPlace(mapped[0].place, { preserveSearchResults: true });
-        return [mapped[0].place];
+    if (mappedEntries.length === 1) {
+        const entry = mappedEntries[0];
+        showPlace(entry.place, {
+            preserveSearchResults: true,
+            sourceNode: entry.sourceNode
+        });
+        return [entry.place];
     }
 
     searchResultsLayer = L.layerGroup().addTo(map);
     const bounds = L.latLngBounds([]);
 
-    for (const item of mapped) {
+    for (const entry of mappedEntries) {
         createPlaceMarker(
-            item,
+            entry.item,
             searchResultsLayer,
             SEARCH_MARKER_STYLE,
-            { preserveSearchResults: true, preserveView: true }
+            { preserveSearchResults: true, preserveView: true },
+            {},
+            entry.sourceNode
         );
-        bounds.extend([item.latitude, item.longitude]);
+        bounds.extend([entry.item.latitude, entry.item.longitude]);
     }
 
     map.invalidateSize();
@@ -349,10 +651,10 @@ function showSearchResults(values) {
     // Search mode is exclusive: never leave the ordinary Places layer on.
     setPlacesLayerVisible(false);
 
-    const missingCoordinates = resolved.length - mapped.length;
+    const missingCoordinates = resolvedEntries.length - mappedEntries.length;
     const suffix = missingCoordinates ? ` — ${missingCoordinates} without coordinates` : "";
-    setStatus(`${mapped.length} places shown${suffix}`);
-    return mapped.map(item => item.place);
+    setStatus(`${mappedEntries.length} places shown${suffix}`);
+    return mappedEntries.map(entry => entry.place);
 }
 
 const showPlaceName = showPlace;
@@ -367,7 +669,12 @@ function getProvinceForPlaceName(name) {
 
 function notifyPlaceSelection(place, sourceNode) {
     document.dispatchEvent(new CustomEvent("notitia:map-place", {
-        detail: { placeName: placeName(place), sourceNode }
+        detail: {
+            place,
+            gazetteerId: place?.gazetteerId || "",
+            placeName: placeName(place),
+            sourceNode
+        }
     }));
 }
 
@@ -405,6 +712,11 @@ function buildPlacesLayer() {
         if (!item) continue;
         const type = placeType(place);
         const marker = createPlaceMarker(item, placesLayer, placeMarkerStyle(place));
+
+        // At closer zoom levels, show the normalized Latin place name.
+        // The label deliberately comes from placeName(place), never Pleiades.
+        bindLatinPlaceLabel(marker, place);
+
         allPlaceMarkers.push({ marker, type });
         count += 1;
     }
@@ -419,6 +731,11 @@ async function init() {
     }
 
     map = L.map("map").setView(DEFAULT_VIEW, DEFAULT_ZOOM);
+
+    installPlaceLabelStyles();
+    updatePlaceLabelVisibility();
+    map.on("zoomend", updatePlaceLabelVisibility);
+
     map.createPane("searchResultsPane");
     map.getPane("searchResultsPane").style.zIndex = "640";
     map.createPane("selectedPlacePane");
@@ -467,7 +784,8 @@ const MapView = {
     showProvinceObjectIds,
     getProvinceForPlace,
     getProvinceForPlaceName,
-    findProvince
+    findProvince,
+    resolvePlaceForContext
 };
 
 window.MapView = MapView;
@@ -488,5 +806,6 @@ export {
     showProvinceObjectIds,
     getProvinceForPlace,
     getProvinceForPlaceName,
-    findProvince
+    findProvince,
+    resolvePlaceForContext
 };

@@ -271,7 +271,8 @@
                     <unit>Flaviae Caesariensis</unit>
                 </unknown>
             </group>
-        </chapter><chapter type="insignia">
+        </chapter>
+        <chapter type="insignia">
             <title>Insignia viri illustris praefecti praetorio per Italias</title>
             <group type="administration" line="129">
                 <title>Sub dispositione viri illustris praefecti praetorio Italiae dioceses infrascriptae</title>
@@ -487,7 +488,11 @@
                 </unknown><unknown line="231">
                     <unit>Singularii</unit>
                 </unknown>
-            </group><group type="unknown" line="233">
+            </group>
+        </chapter>
+        <chapter type="insignia">
+            <title>Insignia viri illustris praefecti urbis Romae</title>
+            <group type="unknown" line="233">
                 <title>IV</title>
             </group><unknown line="234">
                 <unit>Insignia viri illustris praefecti urbis Romae</unit>
@@ -536,7 +541,8 @@
                     <office type="tribunus">Tribunus</office>
                     <unit>rerum nitentium</unit>
                 </unknown>
-            </group><group type="officium" line="252" ownerOffice="Praefectus urbis Romae">
+            </group>
+            <group type="officium" line="252" ownerOffice="Praefectus urbis Romae">
                 <title>Officium viri illustris praefecti urbis</title>
                 <unknown line="253">
                     <unit>Princeps</unit>

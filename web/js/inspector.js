@@ -10,6 +10,8 @@ let currentNode=null;
 let currentPlaceName=null;
 let currentPlaceContext=null;
 let currentPlaceMention=null;
+let currentPlaceDisplayName=null;
+let currentPlaceMentionFilter=null;
 let language="la";
 let englishDocument=null;
 let englishRender=null;
@@ -41,6 +43,8 @@ export function show(node){
     currentPlaceName=null;
     currentPlaceContext=null;
     currentPlaceMention=null;
+    currentPlaceDisplayName=null;
+    currentPlaceMentionFilter=null;
 
     if(node.getAttribute("line")){
 
@@ -285,7 +289,9 @@ function toggleLanguage(){
         showPlaceMentions(
             currentPlaceName,
             currentPlaceContext,
-            currentPlaceMention
+            currentPlaceMention,
+            currentPlaceDisplayName,
+            currentPlaceMentionFilter
         );
 
         return;
@@ -443,16 +449,256 @@ function multiMentionPlaceForNode(node){
 
 function selectPlace(placeName,contextNode=null){
 
-    Map.showPlace(placeName);
+    const result=Map.showPlace(placeName,{sourceNode:contextNode});
 
-    showPlaceMentions(placeName,contextNode);
+    const resolvedPlace=result?.place||null;
+
+    showPlaceMentions(
+        placeName,
+        contextNode,
+        null,
+        resolvedPlace ? mapPlaceDisplayName(resolvedPlace) : null
+    );
+
+}
+
+
+function mapPlaceDisplayName(place){
+
+    return clean(
+        place?.placeName ||
+        place?.name ||
+        place?.sourcePlaceName
+    );
+
+}
+
+function mapPlaceSourceName(place){
+
+    return clean(
+        place?.sourcePlaceName ||
+        place?.placeName ||
+        place?.name
+    ).replace(/\s*\([^)]*\)\s*$/,"");
+
+}
+
+function mentionForNode(placeName,node){
+
+    if(
+        !node||
+        typeof Data?.getPlaceMentions!=="function"
+    ){
+
+        return null;
+
+    }
+
+    const line=clean(node.getAttribute?.("line"));
+
+    const documentId=clean(
+        ancestor(node,"document")?.getAttribute("id")
+    );
+
+    const mentions=Data.getPlaceMentions(placeName)||[];
+
+    return mentions.find(mention=>
+        clean(mention?.sourceLine)===line&&
+        (
+            !clean(mention?.document)||
+            !documentId||
+            clean(mention?.document).toLowerCase()===documentId.toLowerCase()
+        )
+    )||null;
+
+}
+
+
+function normalizeMentionContext(value){
+
+    return clean(value)
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g,"")
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g," ")
+        .trim();
+
+}
+
+function mapPlaceQualifier(place){
+
+    const display=mapPlaceDisplayName(place);
+    const match=display.match(/\(([^)]+)\)\s*$/);
+
+    return match ? clean(match[1]) : "";
+
+}
+
+function qualifierVariants(qualifier){
+
+    const q=normalizeMentionContext(qualifier);
+
+    if(!q) return [];
+
+    const variants=new Set([q]);
+
+    const romanMap=[
+        [" iv"," quarta"],
+        [" iii"," tertia"],
+        [" ii"," secunda"],
+        [" i"," prima"]
+    ];
+
+    for(const [roman,latin] of romanMap){
+
+        if(q.endsWith(roman)){
+
+            variants.add(
+                q.slice(0,-roman.length)+latin
+            );
+
+        }
+
+    }
+
+    return Array.from(variants);
+
+}
+
+function mentionContextBlob(mention){
+
+    if(!mention||typeof mention!=="object") return "";
+
+    const parts=[];
+
+    for(const value of Object.values(mention)){
+
+        if(
+            typeof value==="string"||
+            typeof value==="number"
+        ){
+
+            parts.push(String(value));
+
+        }
+
+    }
+
+    return normalizeMentionContext(parts.join(" "));
+
+}
+
+function mentionMatchesMapPlace(mention,place){
+
+    const qualifier=mapPlaceQualifier(place);
+
+    if(!qualifier) return true;
+
+    const blob=mentionContextBlob(mention);
+
+    if(!blob) return true;
+
+    for(const variant of qualifierVariants(qualifier)){
+
+        if(blob.includes(variant)) return true;
+
+        const tokens=variant
+            .split(/\s+/)
+            .filter(token=>token.length>=4);
+
+        if(
+            tokens.length&&
+            tokens.every(token=>{
+                const stem=token.slice(0,Math.min(token.length,7));
+                return blob.includes(stem);
+            })
+        ){
+
+            return true;
+
+        }
+
+    }
+
+    return false;
+
+}
+
+function mentionsForMapPlace(place,sourceName){
+
+    if(typeof Data?.getPlaceMentions!=="function") return [];
+
+    const all=Data.getPlaceMentions(sourceName)||[];
+    const filtered=all.filter(
+        mention=>mentionMatchesMapPlace(mention,place)
+    );
+
+    return filtered.length ? filtered : all;
+
+}
+
+export function showMapPlace(place,sourceNode=null){
+
+    if(!panel){
+
+        initialize();
+
+    }
+
+    if(!panel||!place){
+
+        return;
+
+    }
+
+    const sourceName=mapPlaceSourceName(place);
+    const displayName=mapPlaceDisplayName(place)||sourceName;
+
+    if(!sourceName){
+
+        if(sourceNode) show(sourceNode);
+        return;
+
+    }
+
+    const filteredMentions=mentionsForMapPlace(
+        place,
+        sourceName
+    );
+
+    let selectedMention=mentionForNode(sourceName,sourceNode);
+
+    if(
+        selectedMention&&
+        !filteredMentions.includes(selectedMention)
+    ){
+
+        selectedMention=null;
+
+    }
+
+    if(!selectedMention&&filteredMentions.length===1){
+
+        selectedMention=filteredMentions[0];
+
+    }
+
+    showPlaceMentions(
+        sourceName,
+        sourceNode,
+        selectedMention,
+        displayName,
+        filteredMentions
+    );
 
 }
 
 function showPlaceMentions(
     placeName,
     contextNode=null,
-    selectedMention=null
+    selectedMention=null,
+    displayName=null,
+    mentionFilter=null
 ){
 
     if(typeof Data?.getPlaceMentions!=="function"){
@@ -461,7 +707,9 @@ function showPlaceMentions(
 
     }
 
-    const mentions=Data.getPlaceMentions(placeName)||[];
+    const mentions=Array.isArray(mentionFilter)
+        ? mentionFilter
+        : (Data.getPlaceMentions(placeName)||[]);
 
     const selectedNode=selectedMention
         ? mentionNode(selectedMention,contextNode)
@@ -471,10 +719,14 @@ function showPlaceMentions(
     currentPlaceName=placeName;
     currentPlaceContext=contextNode;
     currentPlaceMention=selectedMention;
+    currentPlaceDisplayName=displayName||placeName;
+    currentPlaceMentionFilter=Array.isArray(mentionFilter)
+        ? mentionFilter
+        : null;
 
     panel.innerHTML="";
 
-    heading(placeName);
+    heading(currentPlaceDisplayName);
 
     section(
         mentions.length===1
@@ -502,7 +754,13 @@ function showPlaceMentions(
             div.style.textDecoration="underline";
 
             div.addEventListener("click",()=>{
-                showPlaceMentions(placeName,node,mention);
+                showPlaceMentions(
+                    placeName,
+                    node,
+                    mention,
+                    currentPlaceDisplayName,
+                    mentions
+                );
             });
 
         }
