@@ -2,7 +2,7 @@
 //
 // Living Notitia
 // search_ui.js
-// Step 3: simple bilingual ranked search interface
+// Simple ranked Latin search interface
 //
 
 import * as Search from "./search.js";
@@ -67,7 +67,7 @@ function prepareSearchBox(){
 
     searchBox.setAttribute(
         "placeholder",
-        "Search Latin or English"
+        "Search Latin · AND OR IN NOT IN ( )"
     );
 
     searchBox.setAttribute(
@@ -82,7 +82,7 @@ function prepareSearchBox(){
 
     searchBox.setAttribute(
         "aria-label",
-        "Search Living Notitia in Latin or English"
+        "Search Living Notitia in Latin"
     );
 
     Object.assign(searchBox.style,{
@@ -418,20 +418,7 @@ function createResultRow(record,query){
 
     });
 
-    const preferredLanguage=
-        record.primaryMatch?.language==="en"
-            ? "en"
-            : "la";
-
-    const primaryText=
-        preferredLanguage==="en"
-            ? bestEnglishText(record)
-            : bestLatinText(record);
-
-    const secondaryText=
-        preferredLanguage==="en"
-            ? bestLatinText(record)
-            : bestEnglishText(record);
+    const primaryText=bestLatinText(record);
 
     const main=document.createElement("div");
 
@@ -449,29 +436,6 @@ function createResultRow(record,query){
     );
 
     row.appendChild(main);
-
-    if(
-        secondaryText &&
-        normalizeDisplay(secondaryText)!==normalizeDisplay(primaryText)
-    ){
-
-        const translation=document.createElement("div");
-
-        Object.assign(translation.style,{
-            marginTop:"2px",
-            fontSize:"12px",
-            lineHeight:"1.25",
-            color:"#6e6e73"
-        });
-
-        appendHighlightedText(
-            translation,
-            secondaryText,
-            query
-        );
-        row.appendChild(translation);
-
-    }
 
     const detail=document.createElement("div");
 
@@ -497,7 +461,6 @@ function createResultRow(record,query){
         record,
         query,
         primaryText,
-        secondaryText,
         detailText
     );
 
@@ -539,18 +502,6 @@ function bestLatinText(record){
 
 }
 
-function bestEnglishText(record){
-
-    return (
-        record.englishUnit ||
-        record.englishText ||
-        record.englishTitle ||
-        record.englishOffice ||
-        ""
-    );
-
-}
-
 function fallbackTitle(record){
 
     return (
@@ -573,10 +524,7 @@ function resultDetail(record){
         parts.push([...new Set(places)].join(", "));
     }
 
-    const chapter=
-        record.primaryMatch?.language==="en"
-            ? record.englishChapter||record.chapter
-            : record.chapter||record.englishChapter;
+    const chapter=record.chapter;
 
     if(chapter){
         parts.push(chapter);
@@ -594,13 +542,10 @@ function contextEvidence(
     record,
     query,
     primaryText,
-    secondaryText,
     detailText
 ){
 
-    const terms=String(query||"")
-        .trim()
-        .split(/\s+/)
+    const terms=queryDisplayTerms(query)
         .map(term=>normalizeDisplay(term))
         .filter(Boolean);
 
@@ -610,7 +555,6 @@ function contextEvidence(
 
     const alreadyVisible=normalizeDisplay([
         primaryText,
-        secondaryText,
         detailText
     ].filter(Boolean).join(" "));
 
@@ -629,9 +573,8 @@ function contextEvidence(
     //
     const candidates=[
         ...(record.latinContext||[]),
-        ...(record.englishContext||[]),
+        ...(record.structuralContext||[]),
         record.chapter,
-        record.englishChapter,
         record.ownerOffice,
         record.officeType,
         record.document
@@ -681,11 +624,7 @@ function matchesSearchTerm(text,term){
 function appendHighlightedText(element,text,query){
 
     const source=String(text||"");
-    const terms=String(query||"")
-        .trim()
-        .split(/\s+/)
-        .map(term=>term.trim())
-        .filter(Boolean);
+    const terms=queryDisplayTerms(query);
 
     if(!terms.length){
         element.textContent=source;
@@ -749,6 +688,19 @@ function appendHighlightedText(element,text,query){
     });
 
 }
+function queryDisplayTerms(query){
+    return String(query||"")
+        .replace(/[()]/g," ")
+        .replace(/\bNOT\s+IN\b/g," ")
+        .replace(/\bIN\b/g," ")
+        .replace(/\bAND\b/gi," ")
+        .replace(/\bOR\b/gi," ")
+        .trim()
+        .split(/\s+/)
+        .map(term=>term.trim())
+        .filter(Boolean);
+}
+
 function normalizeDisplay(value){
 
     return String(value||"")

@@ -7,6 +7,8 @@ import * as Map from "./map.js";
 import * as Search from "./search.js";
 import * as SearchUI from "./search_ui.js";
 import * as ProvinceGazetteer from "./province_gazetteer.js";
+import * as State from "./state.js";
+import * as DisplayController from "./display_controller.js";
 
 async function start(){
 
@@ -24,6 +26,8 @@ async function start(){
 
     await Map.init();
 
+    State.initialize(XML);
+    DisplayController.initialize();
     Nav.initialize();
 
     Nav.build();

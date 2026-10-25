@@ -5,6 +5,7 @@
 
 import * as XML from "./xml.js";
 import * as Inspector from "./inspector.js";
+import * as State from "./state.js";
 import * as Map from "./map.js";
 import * as ProvinceGazetteer from "./province_gazetteer.js";
 import { regionKeyForNavigation } from "./regions.js";
@@ -464,7 +465,7 @@ function selectRow(row, node) {
     selected?.classList.remove("selected");
     selected = row;
     row.classList.add("selected");
-    Inspector.show(node);
+    State.select(node, {updateMap: false});
 }
 
 function descendantPlaceRefs(node) {
@@ -529,6 +530,14 @@ function showDirectPlace(node) {
 }
 
 function select(row, node) {
+    const chapterTitle = node.tagName === "chapter" ? (node.querySelector(":scope > title")?.textContent || "").trim() : "";
+    if (/^Dux\b/i.test(chapterTitle)) {
+        selected?.classList.remove("selected");
+        selected = row;
+        row.classList.add("selected");
+        State.select(node, {updateMap: true});
+        return;
+    }
     selectRow(row, node);
 
     const label = getLabel(node).replace(/\.$/, "").trim();

@@ -2,6 +2,9 @@ const FILE = "../csv/PlaceGazetteer.csv";
 const OCCURRENCE_FILE = "../csv/PlaceOccurrence_context.csv";
 
 let places = [];
+let allRecords = [];
+let byId = new Map();
+let byName = new Map();
 let placeMentions = [];
 
 function parseCSV(text) {
@@ -39,7 +42,7 @@ function parseCSV(text) {
         rows.push(row);
     }
 
-    const headers = rows.shift();
+    const headers = rows.shift() || [];
 
     return rows.map(values =>
         Object.fromEntries(
@@ -64,16 +67,31 @@ async function loadAll() {
     const rows = parseCSV(await response.text());
     placeMentions = parseCSV(await occurrenceResponse.text());
 
-    places = rows
-        .filter(row =>
-            row.latitude.trim() !== "" &&
-            row.longitude.trim() !== ""
-        )
-        .map(row => ({
-            ...row,
-            latitude: Number(row.latitude),
-            longitude: Number(row.longitude)
-        }));
+    allRecords = rows.map(row => {
+        const lat = String(row.latitude ?? '').trim();
+        const lon = String(row.longitude ?? '').trim();
+        const latitude = lat === '' ? null : Number(lat);
+        const longitude = lon === '' ? null : Number(lon);
+        return { ...row, latitude: Number.isFinite(latitude) ? latitude : null,
+            longitude: Number.isFinite(longitude) ? longitude : null };
+    });
+    byId = new Map();
+    byName = new Map();
+    for (const record of allRecords) {
+        const id = String(record.gazetteerId || '').trim();
+        if (id) {
+            if (byId.has(id)) console.warn('Duplicate gazetteerId:', id);
+            byId.set(id, record);
+        }
+        for (const name of [record.placeName, record.sourcePlaceName, record.pleiadesName]) {
+            const key = normalizePlaceName(name);
+            if (!key) continue;
+            if (!byName.has(key)) byName.set(key, []);
+            if (!byName.get(key).includes(record)) byName.get(key).push(record);
+        }
+    }
+    // Backwards compatibility: existing map code expects only mapped places.
+    places = allRecords.filter(row => row.latitude !== null && row.longitude !== null);
 
     console.log(`Places loaded: ${places.length}`);
 
@@ -84,8 +102,13 @@ function getAllPlaces() {
     return places;
 }
 
+function getAllRecords() { return allRecords; }
+function getPlaceById(id) { return byId.get(String(id || '').trim()) || null; }
+function getPlacesByName(name) { return [...(byName.get(normalizePlaceName(name)) || [])]; }
 function getPlace(placeName) {
-    return places.find(place => place.placeName === placeName) || null;
+    // Never silently choose between homonymous geographical sites.
+    const hits = getPlacesByName(placeName);
+    return hits.length === 1 ? hits[0] : null;
 }
 
 function getPlaceMentionsByProvince(provinceName) {
@@ -161,19 +184,38 @@ function placeAliases(value) {
 
 function getPlaceMentions(value) {
     const aliases = placeAliases(value);
+    const ids = new Set();
 
-    if (!aliases.size) {
-        return [];
+    // Gazetteer IDs are more reliable than names (especially for adjectival
+    // administrative forms in the Notitia).
+    if (value && typeof value === "object") {
+        const id = String(value.gazetteerId || "").trim();
+        if (id) ids.add(id);
+    }
+    for (const alias of aliases) {
+        for (const place of byName.get(alias) || []) {
+            const id = String(place.gazetteerId || "").trim();
+            if (id) ids.add(id);
+        }
     }
 
-    return placeMentions.filter(row =>
-        aliases.has(normalizePlaceName(row.placeName))
-    );
+    return placeMentions.filter(row => {
+        // PlaceOccurrence_context.csv uses source_form and gazetteer_ids,
+        // not placeName. Multiple IDs may be separated by punctuation.
+        const rowIds = String(row.gazetteer_ids || "")
+            .split(/[;,|\s]+/).map(id => id.trim()).filter(Boolean);
+        if (rowIds.some(id => ids.has(id))) return true;
+        const rowName = normalizePlaceName(row.source_form || row.placeName);
+        return !!rowName && aliases.has(rowName);
+    });
 }
 
 const Data = {
     loadAll,
     getAllPlaces,
+    getAllRecords,
+    getPlaceById,
+    getPlacesByName,
     getPlace,
     getPlaceMentionsByProvince,
     getPlaceMentions
@@ -185,6 +227,9 @@ export default Data;
 export {
     loadAll,
     getAllPlaces,
+    getAllRecords,
+    getPlaceById,
+    getPlacesByName,
     getPlace,
     getPlaceMentionsByProvince,
     getPlaceMentions

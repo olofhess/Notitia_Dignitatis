@@ -172,28 +172,62 @@ function mentionType(row) {
     return "other";
 }
 
+// Build a name-to-category index from the actual Notitia XML occurrences.
+// Gazetteer display names and Data.getPlaceMentions() lookup keys are not
+// guaranteed to coincide; failed lookups must not turn every marker grey.
+let xmlTypeIndex = null;
+
+function xmlTypesByName() {
+    if (xmlTypeIndex) return xmlTypeIndex;
+    const index = new Map();
+    for (const documentNode of XML.documents()) {
+        for (const placeNode of documentNode.querySelectorAll("place")) {
+            const name = normalize(placeNode.textContent);
+            if (!name) continue;
+            const chapter = ancestor(placeNode, "chapter");
+            const container = placeNode.parentElement;
+            const row = {
+                chapter: directChildText(chapter, "title") || chapter?.getAttribute("title") || "",
+                contextText: container?.textContent || "",
+                office: directChildText(container, "office"),
+                unit: directChildText(container, "unit"),
+                placeSource: container?.getAttribute("source") || ""
+            };
+            const type = mentionType(row);
+            if (type === "other") continue;
+            if (!index.has(name)) index.set(name, new Set());
+            index.get(name).add(type);
+        }
+    }
+    xmlTypeIndex = index;
+    return index;
+}
+
 function placeType(place) {
-    const mentions = Data.getPlaceMentions(placeName(place));
+    const names = [place?.sourcePlaceName, place?.placeName, place?.name]
+        .map(normalize).filter(Boolean);
+    const types = new Set();
 
-    if (!mentions.length) {
-        return "other";
+    // Explicit mention metadata remains the first source.
+    for (const name of names) {
+        const mentions = Data.getPlaceMentions(name) || [];
+        for (const mention of mentions) {
+            const type = mentionType(mention);
+            if (type !== "other") types.add(type);
+        }
     }
 
-    const types = new Set(
-        mentions
-            .map(mentionType)
-            .filter(type => type !== "other")
-    );
-
-    if (types.size > 1) {
-        return "mixed";
+    // When a Gazetteer name fails to resolve in the mention table, look up
+    // the original XML occurrences rather than silently using grey.
+    if (!types.size) {
+        const index = xmlTypesByName();
+        for (const name of names) {
+            for (const type of index.get(name) || []) types.add(type);
+        }
     }
 
-    if (types.size === 1) {
-        return [...types][0];
-    }
-
-    return "other";
+    if (types.size > 1) return "mixed";
+    return types.size ? [...types][0] : "other";
 }
 
 function placeMarkerStyle(place) {

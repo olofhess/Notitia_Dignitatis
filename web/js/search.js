@@ -1,33 +1,22 @@
 //
 // Living Notitia
 // search.js
-// Step 8: bilingual ranked search with explicit two-term AND / OR
+// Ranked Latin search with AND / OR plus contextual IN / NOT IN and parentheses
 //
 
 import * as XML from "./xml.js";
 
 let searchIndex=[];
-let englishDocument=null;
-let englishLoadPromise=null;
 
 export function initialize(){
     buildIndex();
-    englishLoadPromise=loadEnglish()
-        .then(()=>{
-            buildIndex();
-            console.log("BILINGUAL SEARCH INDEX",searchIndex.length,"records");
-            runConsoleTests();
-            return searchIndex;
-        })
-        .catch(error=>{
-            console.warn("English search index unavailable; Latin search remains active.",error);
-            return searchIndex;
-        });
-    return englishLoadPromise;
+    console.log("SEARCH INDEX LATIN",searchIndex.length,"records");
+    runConsoleTests();
+    return Promise.resolve(searchIndex);
 }
 
 export function ready(){
-    return englishLoadPromise||Promise.resolve(searchIndex);
+    return Promise.resolve(searchIndex);
 }
 
 export function records(){
@@ -43,6 +32,23 @@ export function search(queryOrOptions=""){
 
     if(!query){
         return [];
+    }
+
+    //
+    // Advanced syntax is intentionally small. IN and NOT IN are uppercase
+    // so the Latin preposition "in" remains searchable as ordinary text.
+    // Parentheses may be used to group AND / OR expressions.
+    //
+    if(hasAdvancedSyntax(queryOrOptions)){
+        const ast=parseAdvancedQuery(String(
+            typeof queryOrOptions==="string"
+                ? queryOrOptions
+                : queryOrOptions?.text||""
+        ));
+
+        if(ast){
+            return searchAst(ast);
+        }
     }
 
     const booleanQuery=parseBooleanQuery(query);
@@ -69,6 +75,277 @@ export function search(queryOrOptions=""){
 
     return searchAnd(terms);
 }
+function hasAdvancedSyntax(queryOrOptions){
+    const raw=String(
+        typeof queryOrOptions==="string"
+            ? queryOrOptions
+            : queryOrOptions?.text||""
+    );
+
+    return /[()]/.test(raw) || /\bIN\b/.test(raw) || /\bNOT\s+IN\b/.test(raw);
+}
+
+function tokenizeAdvancedQuery(raw){
+    const source=String(raw||"");
+    const tokens=[];
+    let buffer="";
+    let i=0;
+
+    const flush=()=>{
+        const value=clean(buffer);
+        if(value){
+            tokens.push({type:"term",value});
+        }
+        buffer="";
+    };
+
+    while(i<source.length){
+        const ch=source[i];
+
+        if(ch==="(" || ch===")"){
+            flush();
+            tokens.push({type:ch});
+            i+=1;
+            continue;
+        }
+
+        const rest=source.slice(i);
+        const notIn=rest.match(/^NOT\s+IN\b/);
+        if(notIn){
+            flush();
+            tokens.push({type:"not_in"});
+            i+=notIn[0].length;
+            continue;
+        }
+
+        const inOp=rest.match(/^IN\b/);
+        if(inOp){
+            flush();
+            tokens.push({type:"in"});
+            i+=inOp[0].length;
+            continue;
+        }
+
+        const andOp=rest.match(/^(AND)\b/i);
+        if(andOp && (andOp[0]===andOp[0].toUpperCase() || /\s/.test(source[i-1]||" "))){
+            flush();
+            tokens.push({type:"and"});
+            i+=andOp[0].length;
+            continue;
+        }
+
+        const orOp=rest.match(/^(OR)\b/i);
+        if(orOp && (orOp[0]===orOp[0].toUpperCase() || /\s/.test(source[i-1]||" "))){
+            flush();
+            tokens.push({type:"or"});
+            i+=orOp[0].length;
+            continue;
+        }
+
+        buffer+=ch;
+        i+=1;
+    }
+
+    flush();
+    return tokens;
+}
+
+function parseAdvancedQuery(raw){
+    const tokens=tokenizeAdvancedQuery(raw);
+    let position=0;
+
+    function peek(type){
+        return tokens[position]?.type===type;
+    }
+
+    function take(type){
+        if(!peek(type)){
+            return null;
+        }
+        return tokens[position++];
+    }
+
+    function parsePrimary(){
+        if(take("(")){
+            const expression=parseOr();
+            if(!take(")")){
+                return null;
+            }
+            return expression;
+        }
+
+        const token=take("term");
+        if(!token){
+            return null;
+        }
+
+        return {type:"term",value:normalize(token.value)};
+    }
+
+    function parseIn(){
+        let left=parsePrimary();
+        if(!left){
+            return null;
+        }
+
+        while(peek("in") || peek("not_in")){
+            const operator=tokens[position++].type;
+            const right=parsePrimary();
+            if(!right){
+                return null;
+            }
+            left={type:operator,left,right};
+        }
+
+        return left;
+    }
+
+    function parseAnd(){
+        let left=parseIn();
+        if(!left){
+            return null;
+        }
+
+        while(take("and")){
+            const right=parseIn();
+            if(!right){
+                return null;
+            }
+            left={type:"and",left,right};
+        }
+
+        return left;
+    }
+
+    function parseOr(){
+        let left=parseAnd();
+        if(!left){
+            return null;
+        }
+
+        while(take("or")){
+            const right=parseAnd();
+            if(!right){
+                return null;
+            }
+            left={type:"or",left,right};
+        }
+
+        return left;
+    }
+
+    const ast=parseOr();
+    return ast && position===tokens.length ? ast : null;
+}
+
+function searchAst(ast){
+    return searchIndex
+        .map(record=>{
+            const result=evaluateAst(record,ast,"all");
+            if(!result?.matched){
+                return null;
+            }
+
+            const matches=result.matches||[];
+            const primaryMatch=matches
+                .slice()
+                .sort((a,b)=>(b.score||0)-(a.score||0))[0]||null;
+
+            return {
+                ...record,
+                score:result.score||0,
+                matchType:primaryMatch?.type||"",
+                primaryMatch,
+                matches,
+                matchLanguages:["la"],
+                matchFields:[...new Set(matches.map(match=>match.field).filter(Boolean))]
+            };
+        })
+        .filter(Boolean)
+        .sort((a,b)=>{
+            if(b.score!==a.score){
+                return b.score-a.score;
+            }
+            return lineNumber(a.line)-lineNumber(b.line);
+        });
+}
+
+function evaluateAst(record,node,scope="all"){
+    if(!node){
+        return {matched:false,score:0,matches:[]};
+    }
+
+    if(node.type==="term"){
+        const terms=node.value.split(" ").filter(Boolean);
+        const ranked=rankRecordTermsScoped(record,terms,scope);
+        return ranked
+            ? {matched:true,score:ranked.score,matches:ranked.matches||[]}
+            : {matched:false,score:0,matches:[]};
+    }
+
+    if(node.type==="and"){
+        const left=evaluateAst(record,node.left,scope);
+        if(!left.matched){
+            return left;
+        }
+        const right=evaluateAst(record,node.right,scope);
+        if(!right.matched){
+            return right;
+        }
+        return {
+            matched:true,
+            score:left.score+right.score,
+            matches:[...left.matches,...right.matches]
+        };
+    }
+
+    if(node.type==="or"){
+        const left=evaluateAst(record,node.left,scope);
+        const right=evaluateAst(record,node.right,scope);
+        if(!left.matched && !right.matched){
+            return {matched:false,score:0,matches:[]};
+        }
+        if(left.matched && right.matched){
+            return {
+                matched:true,
+                score:Math.max(left.score,right.score)+1000,
+                matches:[...left.matches,...right.matches]
+            };
+        }
+        return left.matched ? left : right;
+    }
+
+    if(node.type==="in"){
+        const left=evaluateAst(record,node.left,"direct");
+        if(!left.matched){
+            return left;
+        }
+        const right=evaluateAst(record,node.right,"context");
+        if(!right.matched){
+            return right;
+        }
+        return {
+            matched:true,
+            score:left.score+right.score+5000,
+            matches:[...left.matches,...right.matches]
+        };
+    }
+
+    if(node.type==="not_in"){
+        const left=evaluateAst(record,node.left,"direct");
+        if(!left.matched){
+            return left;
+        }
+        const right=evaluateAst(record,node.right,"context");
+        if(right.matched){
+            return {matched:false,score:0,matches:[]};
+        }
+        return left;
+    }
+
+    return {matched:false,score:0,matches:[]};
+}
+
 function parseBooleanQuery(query){
     const match=query.match(/^(.+?)\s+(and|or)\s+(.+)$/i);
 
@@ -213,11 +490,7 @@ export function dimensions(){
 function buildIndex(){
     searchIndex=[];
     XML.documents().forEach(document=>walk(document));
-    console.log(
-        englishDocument ? "SEARCH INDEX LATIN + ENGLISH" : "SEARCH INDEX LATIN",
-        searchIndex.length,
-        "records"
-    );
+    console.log("SEARCH INDEX LATIN",searchIndex.length,"records");
 }
 
 function walk(node){
@@ -233,31 +506,23 @@ function navigationChildren(node){
 }
 
 function createRecord(node){
-    const englishNode=parallelEnglishNode(node);
     const documentNode=ancestorOrSelf(node,"document");
     const chapterNode=ancestorOrSelf(node,"chapter");
     const officiumNode=ancestorOfficium(node);
     const officeNode=directChild(node,"office");
     const unitNode=directChild(node,"unit");
-    const englishOfficeNode=directChild(englishNode,"office");
-    const englishUnitNode=directChild(englishNode,"unit");
     const places=directChildren(node,"place").map(place=>({
         name:clean(place.textContent),
         source:clean(place.getAttribute("source"))
     }));
     const latinTitle=directTitle(node);
-    const englishTitle=directTitle(englishNode);
     const latinOffice=clean(officeNode?.textContent);
-    const englishOffice=clean(englishOfficeNode?.textContent);
     const latinUnit=clean(unitNode?.textContent);
-    const englishUnit=clean(englishUnitNode?.textContent);
     const latinText=primaryText(node);
-    const englishText=primaryText(englishNode);
     const latinContext=contextTitles(node);
-    const englishContext=contextTitles(englishNode);
+    const structuralContext=contextStructure(node);
     const document=clean(documentNode?.getAttribute("id"));
     const chapter=directTitle(chapterNode);
-    const englishChapter=directTitle(parallelEnglishNode(chapterNode));
     const ownerOffice=clean(officiumNode?.getAttribute("ownerOffice"));
     const officeType=clean(officeNode?.getAttribute("type"));
     const dimension=node.tagName;
@@ -272,115 +537,31 @@ function createRecord(node){
         ...places.map(place=>place.source),
         chapter,
         ...latinContext,
+        ...structuralContext,
         document
     ].filter(Boolean).join(" "));
-    const englishSearchText=normalize([
-        englishText,
-        englishTitle,
-        englishOffice,
-        englishUnit,
-        englishChapter,
-        ...englishContext,
-        ...places.map(place=>place.name),
-        document
-    ].filter(Boolean).join(" "));
-    const searchText=normalize(latinSearchText+" "+englishSearchText);
+
     return {
         node,
-        englishNode,
         line:clean(node.getAttribute("line")),
         dimension,
         document,
         chapter,
-        englishChapter,
         officeType,
         ownerOffice,
         places,
         latinText,
-        englishText,
         latinTitle,
-        englishTitle,
         latinOffice,
-        englishOffice,
         office:latinOffice,
         latinUnit,
-        englishUnit,
         unit:latinUnit,
         latinContext,
-        englishContext,
+        structuralContext,
         context:latinContext,
         latinSearchText,
-        englishSearchText,
-        searchText
+        searchText:latinSearchText
     };
-}
-
-async function loadEnglish(){
-    const response=await fetch("../data/notitia.en.xml");
-    if(!response.ok){
-        throw new Error("Could not load ../data/notitia.en.xml: "+response.status);
-    }
-    const text=await response.text();
-    const parser=new DOMParser();
-    const document=parser.parseFromString(text,"application/xml");
-    const parserError=document.querySelector("parsererror");
-    if(parserError){
-        throw new Error("notitia.en.xml is not valid XML");
-    }
-    englishDocument=document;
-}
-
-function parallelEnglishNode(node){
-    if(!node || !englishDocument){
-        return null;
-    }
-    const sourceDocument=ancestorOrSelf(node,"document");
-    if(!sourceDocument){
-        return null;
-    }
-    const documentId=clean(sourceDocument.getAttribute("id"));
-    const englishRoot=Array.from(
-        englishDocument.getElementsByTagName("document")
-    ).find(candidate=>clean(candidate.getAttribute("id"))===documentId);
-    if(!englishRoot){
-        return null;
-    }
-    if(node===sourceDocument){
-        return englishRoot;
-    }
-    const path=elementPath(sourceDocument,node);
-    let current=englishRoot;
-    for(const index of path){
-        const children=Array.from(current.children);
-        current=children[index]||null;
-        if(!current){
-            break;
-        }
-    }
-    if(current && current.tagName===node.tagName){
-        return current;
-    }
-    const line=clean(node.getAttribute("line"));
-    if(line){
-        return Array.from(englishRoot.querySelectorAll("[line]")).find(
-            candidate=>clean(candidate.getAttribute("line"))===line
-        )||null;
-    }
-    return null;
-}
-
-function elementPath(root,node){
-    const path=[];
-    let current=node;
-    while(current && current!==root){
-        const parent=current.parentElement;
-        if(!parent){
-            return [];
-        }
-        path.unshift(Array.from(parent.children).indexOf(current));
-        current=parent;
-    }
-    return current===root ? path : [];
 }
 
 function primaryText(node){
@@ -434,10 +615,14 @@ function primaryText(node){
 
 
 function rankRecordTerms(record,terms){
+    return rankRecordTermsScoped(record,terms,"all");
+}
+
+function rankRecordTermsScoped(record,terms,scope="all"){
     const termMatches=[];
 
     for(const term of terms){
-        const ranked=rankRecord(record,term);
+        const ranked=rankRecordScoped(record,term,scope);
 
         if(!ranked){
             return null;
@@ -487,10 +672,6 @@ function rankRecordTerms(record,terms){
         .slice()
         .sort((a,b)=>b.score-a.score)[0];
 
-    const languages=[...new Set(allMatches.flatMap(match=>
-        match.language==="both" ? ["la","en"] : [match.language]
-    ))];
-
     return {
         ...record,
         score,
@@ -499,40 +680,43 @@ function rankRecordTerms(record,terms){
         matches:allMatches,
         termMatches,
         directTermCount,
-        matchLanguages:languages,
+        matchLanguages:["la"],
         matchFields:[...new Set(allMatches.map(match=>match.field))]
     };
 }
 
 function rankRecord(record,query){
+    return rankRecordScoped(record,query,"all");
+}
+
+function rankRecordScoped(record,query,scope="all"){
     const candidates=[
         ["latinText",record.latinText,"la",140,"direct"],
-        ["englishText",record.englishText,"en",140,"direct"],
         ["latinTitle",record.latinTitle,"la",130,"direct"],
-        ["englishTitle",record.englishTitle,"en",130,"direct"],
         ["latinOffice",record.latinOffice,"la",120,"direct"],
-        ["englishOffice",record.englishOffice,"en",120,"direct"],
         ["latinUnit",record.latinUnit,"la",120,"direct"],
-        ["englishUnit",record.englishUnit,"en",120,"direct"],
-        ["places",record.places.map(place=>place.name).join(" "),"both",110,"direct"],
+        ["places",record.places.map(place=>place.name).join(" "),"la",110,"direct"],
         ["placeSources",record.places.map(place=>place.source).join(" "),"la",100,"direct"],
         ["chapter",record.chapter,"la",80,"context"],
-        ["englishChapter",record.englishChapter,"en",80,"context"],
         ["latinContext",record.latinContext.join(" "),"la",50,"context"],
-        ["englishContext",record.englishContext.join(" "),"en",50,"context"],
+        ["structuralContext",(record.structuralContext||[]).join(" "),"la",45,"context"],
         ["officeType",record.officeType,"la",35,"context"],
         ["ownerOffice",record.ownerOffice,"la",35,"context"],
-        ["document",record.document,"both",20,"context"]
+        ["document",record.document,"la",20,"context"]
     ];
 
+    const scopedCandidates=candidates.filter(candidate=>
+        scope==="all" || candidate[4]===scope
+    );
+
     const matches=[];
-    for(const [field,value,language,fieldWeight,scope] of candidates){
-        const match=scoreValue(value,query,fieldWeight,scope);
+    for(const [field,value,language,fieldWeight,fieldScope] of scopedCandidates){
+        const match=scoreValue(value,query,fieldWeight,fieldScope);
         if(match){
             matches.push({
                 field,
                 language,
-                scope,
+                scope:fieldScope,
                 ...match
             });
         }
@@ -544,17 +728,13 @@ function rankRecord(record,query){
 
     matches.sort((a,b)=>b.score-a.score);
     const best=matches[0];
-    const languages=[...new Set(matches.flatMap(match=>
-        match.language==="both" ? ["la","en"] : [match.language]
-    ))];
-
     return {
         ...record,
         score:best.score,
         matchType:best.type,
         primaryMatch:best,
         matches,
-        matchLanguages:languages,
+        matchLanguages:["la"],
         matchFields:[...new Set(matches.map(match=>match.field))]
     };
 }
@@ -617,42 +797,20 @@ function lineNumber(value){
     return Number.isFinite(number) ? number : Number.MAX_SAFE_INTEGER;
 }
 
-function matchLanguages(record,query){
-    const result=[];
-    if(record.latinSearchText.includes(query)){
-        result.push("la");
-    }
-    if(record.englishSearchText.includes(query)){
-        result.push("en");
-    }
-    return result;
-}
-
-function matchFields(record,query){
-    const fields=[];
-    const candidates={
-        latinText:record.latinText,
-        englishText:record.englishText,
-        latinTitle:record.latinTitle,
-        englishTitle:record.englishTitle,
-        latinOffice:record.latinOffice,
-        englishOffice:record.englishOffice,
-        latinUnit:record.latinUnit,
-        englishUnit:record.englishUnit,
-        latinContext:record.latinContext.join(" "),
-        englishContext:record.englishContext.join(" "),
-        places:record.places.map(place=>place.name).join(" ")
-    };
-    Object.entries(candidates).forEach(([name,value])=>{
-        if(normalize(value).includes(query)){
-            fields.push(name);
-        }
-    });
-    return fields;
-}
-
 function runConsoleTests(){
-    const tests=["scutaria","shield factory","equites","cavalry","bafii balearum","balearum bafii","procurator dalmatia","dalmatia procurator","procurator balearum"];
+    const tests=[
+        "scutaria",
+        "equites",
+        "bafii balearum",
+        "procurator dalmatia",
+        "dalmatia procurator",
+        "procurator balearum",
+        "Princeps IN Dux",
+        "A libellis IN (Dux AND Oriens)",
+        "Subadiuva NOT IN Oriens",
+        "(Dux OR Comes) IN Africa"
+    ];
+
     tests.forEach(query=>{
         const results=search(query);
         console.log(
@@ -665,8 +823,7 @@ function runConsoleTests(){
                 matchType:record.matchType,
                 field:record.primaryMatch?.field,
                 line:record.line,
-                latin:record.latinText,
-                english:record.englishText
+                latin:record.latinText
             }))
         );
     });
@@ -734,6 +891,38 @@ function contextTitles(node){
         current=current.parentElement;
     }
     return result;
+}
+
+function contextStructure(node){
+    if(!node){
+        return [];
+    }
+
+    const result=[];
+    let current=node;
+
+    while(current){
+        const tag=clean(current.tagName);
+        const type=clean(current.getAttribute?.("type"));
+        const owner=clean(current.getAttribute?.("ownerOffice"));
+
+        if(tag){
+            result.push(tag);
+        }
+        if(type){
+            result.push(type);
+        }
+        if(owner){
+            result.push(owner);
+        }
+
+        if(current.tagName==="document"){
+            break;
+        }
+        current=current.parentElement;
+    }
+
+    return uniqueSorted(result);
 }
 
 function uniqueSorted(values){

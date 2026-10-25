@@ -4,10 +4,11 @@
 //
 
 import Data from "./data.js";
+import { resolvePlace as resolveStrictPlace } from "./place_resolver.js";
 import { REGIONS } from "./regions.js";
 import {
     placeName,
-    mappedPlace,
+    mappedPlace as mappedPlaceUnchecked,
     placeKey,
     uniqueMappedPlaces,
     resolvePlace,
@@ -39,6 +40,26 @@ import {
 import { resolveJurisdiction } from "./map_jurisdictions.js";
 
 
+// Never convert missing Gazetteer coordinates to zero (Number(null) === 0).
+// This local guard also protects callers of older map_places.js helpers.
+function validCoordinates(place) {
+    if (!place) return false;
+    const lat = place.latitude;
+    const lon = place.longitude;
+    if (lat === null || lat === undefined || lon === null || lon === undefined) return false;
+    if (String(lat).trim() === "" || String(lon).trim() === "") return false;
+    const latitude = Number(lat);
+    const longitude = Number(lon);
+    return Number.isFinite(latitude) && Number.isFinite(longitude)
+        && latitude >= -90 && latitude <= 90
+        && longitude >= -180 && longitude <= 180;
+}
+
+function mappedPlace(place) {
+    if (!validCoordinates(place)) return null;
+    return mappedPlaceUnchecked(place);
+}
+
 const DEFAULT_VIEW = [41, 15];
 const DEFAULT_ZOOM = 4;
 const PLACE_ZOOM = 8;
@@ -52,7 +73,6 @@ let provincePlacesLayer = null;
 let placesLayerWasVisibleBeforeSearch = null;
 let placesLayerWasVisibleBeforeProvinceFocus = null;
 let allPlaceMarkers = [];
-let activePlaceType = null;
 
 
 function installPlaceLabelStyles() {
@@ -324,7 +344,39 @@ function placeCandidatesForSource(value) {
     });
 }
 
+// Verified occurrence mapping: the Aeliae of Dux Palaestinae is
+// Aelia Capitolina (Jerusalem), not the homonymous site in Byzacena.
+// Keep this local to its source chapter; do not rename the African site.
+function verifiedOccurrencePlace(value, sourceNode) {
+    if (!sourceNode) return null;
+    const name = String(typeof value === "string" ? value :
+        (value?.sourcePlaceName || value?.placeName || ""))
+        .trim().toLowerCase().replace(/[.,]$/, "");
+    if (name !== "aeliae" && name !== "adada") return null;
+    let node = sourceNode;
+    while (node && String(node.tagName).toLowerCase() !== "chapter") {
+        node = node.parentElement;
+    }
+    if (!node) return null;
+    const title = [...node.children].find(child =>
+        String(child.tagName).toLowerCase() === "title")?.textContent || "";
+    if (name === "aeliae" && /\bdux\s+palaestinae\b/i.test(title)) {
+        return Data.getPlaceById("GAZ00424");
+    }
+    if (name === "adada" && /\bdux\s+syriae\b/i.test(title)) {
+        // Notitia's Adada in Syria is not the Pisidian town. The station is
+        // unlocated, so never fall back to an unrelated coordinate-bearing match.
+        return Data.getPlaceById("GAZ00606") || {
+            gazetteerId: "GAZ00606", placeName: "Adada", sourcePlaceName: "Adada",
+            latitude: "", longitude: ""
+        };
+    }
+    return null;
+}
+
 function resolvePlaceForContext(value, sourceNode = null) {
+    const verified = verifiedOccurrencePlace(value, sourceNode);
+    if (verified) return verified;
     if (!sourceNode) return resolvePlace(value);
 
     const candidates = placeCandidatesForSource(value);
@@ -440,6 +492,7 @@ function createPlaceMarker(
     tooltipOptions = {},
     sourceNode = null
 ) {
+    if (!validCoordinates(item)) return null;
     const marker = L.circleMarker([item.latitude, item.longitude], markerStyle);
     marker.bindTooltip(item.name, tooltipOptions);
     marker.on("click", () => {
@@ -456,6 +509,7 @@ function placesInProvince(feature) {
     const result = [];
 
     for (const item of uniqueMappedPlaces(Data.getAllPlaces())) {
+        if (!validCoordinates(item)) continue;
         const point = turf.point([item.longitude, item.latitude]);
         if (turf.booleanPointInPolygon(point, feature)) result.push(item);
     }
@@ -566,6 +620,60 @@ function showPlace(value, options = {}) {
     return { place, province };
 }
 
+// A command is represented by its station points, not an invented polygon.
+// Ambiguous, missing, and unlocated stations are counted but never plotted arbitrarily.
+// Preserve category colours in search/command overlays; only use the search pane
+// for stacking order. A static legend describes these same categories.
+function categorySearchMarkerStyle(place) {
+    return { ...placeMarkerStyle(place), pane: "searchResultsPane", radius: 5.5 };
+}
+
+function showCommandStations(chapter) {
+    if (!map || !chapter) return null;
+    const placeNodes = [...chapter.querySelectorAll('place')];
+    const entries = [];
+    const unresolved = [];
+    const seen = new Set();
+    for (const mention of placeNodes) {
+        const name = (mention.textContent || '').trim();
+        if (!name) continue;
+        const verified = verifiedOccurrencePlace(name, mention);
+        const result = verified
+            ? {status: 'identified', place: verified}
+            : resolveStrictPlace({ name });
+        if (result.status !== 'identified') {
+            unresolved.push({name, status: result.status});
+            continue;
+        }
+        const place = result.place;
+        const item = mappedPlace(place);
+        if (!item) {
+            unresolved.push({name, status: 'no coordinates'});
+            continue;
+        }
+        const id = String(place.gazetteerId || placeKey(item));
+        if (seen.has(id)) continue;
+        seen.add(id);
+        entries.push({ place, item, sourceNode: mention.parentElement });
+    }
+    clearSelection(false);
+    beginSearchMode();
+    searchResultsLayer = L.layerGroup().addTo(map);
+    const bounds = L.latLngBounds([]);
+    for (const entry of entries) {
+        createPlaceMarker(entry.item, searchResultsLayer, categorySearchMarkerStyle(entry.place),
+            {preserveSearchResults: true, preserveView: true}, {}, entry.sourceNode);
+        bounds.extend([entry.item.latitude, entry.item.longitude]);
+    }
+    if (bounds.isValid()) {
+        map.invalidateSize();
+        map.fitBounds(bounds, {padding: [40, 40], maxZoom: PLACE_ZOOM, animate: false});
+    }
+    const label = chapter.querySelector(':scope > title')?.textContent?.trim() || 'Command';
+    setStatus(`${label}: ${entries.length} distinct mapped stations; ${unresolved.length} unresolved mentions`);
+    return { mapped: entries.map(e => e.place), unresolved };
+}
+
 function showSearchResults(values) {
     if (!map) return [];
 
@@ -635,7 +743,7 @@ function showSearchResults(values) {
         createPlaceMarker(
             entry.item,
             searchResultsLayer,
-            SEARCH_MARKER_STYLE,
+            categorySearchMarkerStyle(entry.place),
             { preserveSearchResults: true, preserveView: true },
             {},
             entry.sourceNode
@@ -660,7 +768,7 @@ function showSearchResults(values) {
 const showPlaceName = showPlace;
 
 function getProvinceForPlace(place) {
-    return place ? findProvince(place.latitude, place.longitude) : null;
+    return validCoordinates(place) ? findProvince(Number(place.latitude), Number(place.longitude)) : null;
 }
 
 function getProvinceForPlaceName(name) {
@@ -676,30 +784,6 @@ function notifyPlaceSelection(place, sourceNode) {
             sourceNode
         }
     }));
-}
-
-function applyPlaceTypeFilter(type = null, label = "All") {
-    if (!placesLayer) return 0;
-
-    activePlaceType = type;
-    placesLayer.clearLayers();
-
-    let visibleCount = 0;
-    for (const item of allPlaceMarkers) {
-        if (activePlaceType && item.type !== activePlaceType) continue;
-        item.marker.addTo(placesLayer);
-        visibleCount += 1;
-    }
-
-    if (placesLayerWasVisibleBeforeSearch === null && placesLayerWasVisibleBeforeProvinceFocus === null) {
-        setPlacesLayerVisible(true);
-    }
-
-    setStatus(activePlaceType
-        ? `${label} — ${visibleCount} places`
-        : `All place types — ${visibleCount} places`);
-
-    return visibleCount;
 }
 
 function buildPlacesLayer() {
@@ -756,7 +840,7 @@ async function init() {
         Places: placesLayer
     }, { collapsed: false }).addTo(map);
 
-    addPlaceLegend(map, applyPlaceTypeFilter);
+    addPlaceLegend(map);
 
     if (provinceLayer.getBounds().isValid()) {
         map.fitBounds(provinceLayer.getBounds(), { padding: [10, 10] });
@@ -780,6 +864,7 @@ const MapView = {
     showSearchResults,
     showRegion,
     showJurisdiction,
+    showCommandStations,
     showProvince,
     showProvinceObjectIds,
     getProvinceForPlace,
@@ -802,6 +887,7 @@ export {
     showSearchResults,
     showRegion,
     showJurisdiction,
+    showCommandStations,
     showProvince,
     showProvinceObjectIds,
     getProvinceForPlace,

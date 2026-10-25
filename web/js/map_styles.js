@@ -110,22 +110,21 @@ function selectedProvinceStyle() {
     };
 }
 
-function addPlaceLegend(map, onTypeSelected = null) {
+// Static key: place categories are searched through the search box, not filtered here.
+function addPlaceLegend(map) {
     const legend = L.control({ position: "bottomleft" });
 
     legend.onAdd = function () {
         const div = L.DomUtil.create("div", "place-legend");
-        let activeType = null;
-
         const items = [
-            ["dux", "#0066ff", "Dux"],
-            ["comes", "#e53935", "Comes"],
-            ["fabrica", "#ffb000", "Fabrica"],
-            ["office", "#8e44ad", "Office"],
-            ["tribunus", "#00cfe8", "Tribunus"],
-            ["equites", "#ffeb00", "Equites"],
-            ["mixed", "#00a651", "Mixed"],
-            ["other", "#555555", "Other"]
+            ["#0066ff", "Dux"],
+            ["#e53935", "Comes"],
+            ["#ffb000", "Fabrica"],
+            ["#8e44ad", "Office"],
+            ["#00cfe8", "Tribunus"],
+            ["#ffeb00", "Equites"],
+            ["#00a651", "Mixed"],
+            ["#555555", "Other"]
         ];
 
         div.style.background = "rgba(255,255,255,0.94)";
@@ -135,37 +134,16 @@ function addPlaceLegend(map, onTypeSelected = null) {
         div.style.boxShadow = "0 1px 4px rgba(0,0,0,0.25)";
         div.style.font = "14px/1.35 Arial, sans-serif";
         div.style.color = "#222";
+        div.setAttribute("role", "group");
+        div.setAttribute("aria-label", "Map marker legend");
 
-        const rows = new Map();
-
-        function updateRows() {
-            for (const [type, row] of rows) {
-                const selected = activeType === type;
-                row.style.opacity = activeType === null || selected ? "1" : "0.35";
-                row.style.fontWeight = selected ? "700" : "400";
-                row.setAttribute("aria-pressed", selected ? "true" : "false");
-            }
-        }
-
-        for (const [type, color, label] of items) {
-            const row = L.DomUtil.create("button", "place-legend-row", div);
-            row.type = "button";
-            row.dataset.placeType = type;
-            row.setAttribute("aria-pressed", "false");
-            row.title = `Show only ${label}; click again to show all`;
+        for (const [color, label] of items) {
+            const row = L.DomUtil.create("div", "place-legend-row", div);
             row.style.display = "flex";
             row.style.alignItems = "center";
             row.style.gap = "7px";
-            row.style.width = "100%";
             row.style.margin = "2px 0";
             row.style.padding = "2px 3px";
-            row.style.border = "0";
-            row.style.borderRadius = "3px";
-            row.style.background = "transparent";
-            row.style.color = "inherit";
-            row.style.font = "inherit";
-            row.style.textAlign = "left";
-            row.style.cursor = "pointer";
 
             const dot = L.DomUtil.create("span", "", row);
             dot.style.width = "11px";
@@ -175,25 +153,14 @@ function addPlaceLegend(map, onTypeSelected = null) {
             dot.style.border = "1px solid rgba(0,0,0,0.55)";
             dot.style.display = "inline-block";
             dot.style.flex = "0 0 11px";
+            dot.setAttribute("aria-hidden", "true");
 
             const text = L.DomUtil.create("span", "", row);
             text.textContent = label;
-
-            L.DomEvent.on(row, "click", event => {
-                L.DomEvent.stop(event);
-                activeType = activeType === type ? null : type;
-                updateRows();
-                if (typeof onTypeSelected === "function") {
-                    onTypeSelected(activeType, activeType ? label : "All");
-                }
-            });
-
-            rows.set(type, row);
         }
 
         L.DomEvent.disableClickPropagation(div);
         L.DomEvent.disableScrollPropagation(div);
-        updateRows();
         return div;
     };
 

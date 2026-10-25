@@ -1,147 +1,56 @@
-//
-// Living Notitia
-// content.js
-//
-console.log("CONTENT FILE LOADED");
-const Content={
+// Content adapter. The Gazetteer is loaded once by Data; no name is a unique key.
+import Data from './data.js';
 
-gazetteer:[],
-context:[],
-
-gazetteerByName:new Map(),
-contextByName:new Map(),
-contextById:new Map(),
-
-async initialize(){
-
-    await this.loadGazetteer();
-
-    await this.loadContext();
-
-},
-
-async loadGazetteer(){
-
-    const response=
-        await fetch("../csv/PlaceGazetteer.csv");
-
-    const text=
-        await response.text();
-
-    const rows=this.parseCSV(text);
-
-    this.gazetteer=rows;
-
-    this.gazetteerByName.clear();
-
-    for(const row of rows){
-
-        this.gazetteerByName.set(
-            row.placeName,
-            row
-        );
-
-    }
-
-},
-
-async loadContext(){
-
-    const response=
-        await fetch("../csv/PlaceContext.csv");
-
-    const text=
-        await response.text();
-
-    const rows=this.parseCSV(text);
-
-    this.context=rows;
-
-    this.contextByName.clear();
-    this.contextById.clear();
-
-    for(const row of rows){
-
-        if(!this.contextByName.has(row.placeName)){
-
-            this.contextByName.set(
-                row.placeName,
-                []
-            );
-
+const Content = {
+    gazetteer: [],
+    context: [],
+    gazetteerByName: new Map(),
+    contextByName: new Map(),
+    contextById: new Map(),
+    async initialize() {
+        this.gazetteer = Data.getAllRecords();
+        this.gazetteerByName = new Map();
+        for (const row of this.gazetteer) {
+            const key = String(row.placeName || '').trim();
+            if (!this.gazetteerByName.has(key)) this.gazetteerByName.set(key, []);
+            this.gazetteerByName.get(key).push(row);
         }
-
-        this.contextByName
-            .get(row.placeName)
-            .push(row);
-
-        this.contextById.set(
-            row.contextId,
-            row
-);  
-
-    }
-
-},
-
-parseCSV(text){
-
-    const rows=[];
-
-    const lines=text.trim().split("\n");
-
-    const header=
-        lines.shift().split(",");
-
-    for(const line of lines){
-
-        const cols=line.split(",");
-
-        const row={};
-
-        for(let i=0;i<header.length;i++){
-
-            row[
-                header[i].trim()
-            ]=
-
-            (cols[i]||"").trim();
-
+        const response = await fetch('../csv/PlaceContext.csv', {cache:'no-store'});
+        if (!response.ok) throw new Error(`Could not load PlaceContext.csv: HTTP ${response.status}`);
+        this.context = this.parseCSV(await response.text());
+        this.contextByName = new Map();
+        this.contextById = new Map();
+        for (const row of this.context) {
+            const key = String(row.placeName || '').trim();
+            if (!this.contextByName.has(key)) this.contextByName.set(key, []);
+            this.contextByName.get(key).push(row);
+            if (row.contextId) this.contextById.set(row.contextId, row);
         }
-
-        rows.push(row);
-
-    }
-
-    return rows;
-
-},
-
-getPlace(placeName){
-
-    return this.gazetteerByName.get(
-        placeName
-    );
-
-},
-
-getContext(placeName){
-
-    return this.contextByName.get(
-        placeName
-    )||[];
-
-},
-
-getContextById(contextId){
-
-    return this.contextById.get(
-        contextId
-    );
-}
+    },
+    parseCSV(text) {
+        // Reuse the same quote-aware CSV rules as Data, including embedded newlines.
+        const rows = []; let fields = [], value = '', quoted = false;
+        const commitField = () => { fields.push(value); value = ''; };
+        const commitRow = () => { commitField(); rows.push(fields); fields = []; };
+        text = String(text || '').replace(/^\uFEFF/, '');
+        for (let i = 0; i < text.length; i++) {
+            const ch = text[i];
+            if (ch === '"') { if (quoted && text[i+1] === '"') {value+='"';i++;} else quoted=!quoted; }
+            else if (ch === ',' && !quoted) commitField();
+            else if ((ch === '\n' || ch === '\r') && !quoted) {
+                if (ch === '\r' && text[i+1] === '\n') i++;
+                commitRow();
+            } else value += ch;
+        }
+        if (value || fields.length) commitRow();
+        const headers = rows.shift() || [];
+        return rows.filter(row => row.some(v => v !== '')).map(row =>
+            Object.fromEntries(headers.map((h,i) => [h.trim(), (row[i] || '').trim()])));
+    },
+    getPlace(name) { return Data.getPlace(name); },
+    getPlacesByName(name) { return Data.getPlacesByName(name); },
+    getPlaceById(id) { return Data.getPlaceById(id); },
+    getContext(name) { return this.contextByName.get(String(name || '').trim()) || []; },
+    getContextById(id) { return this.contextById.get(id) || null; }
 };
-
 export default Content;
-console.log(Content);
-
-
