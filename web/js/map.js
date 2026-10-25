@@ -67,6 +67,7 @@ const PLACE_LABEL_MIN_ZOOM = 6;
 
 let map = null;
 let placesLayer = null;
+let roadsLayer = null;
 let selectedPlaceMarker = null;
 let searchResultsLayer = null;
 let provincePlacesLayer = null;
@@ -809,6 +810,38 @@ function buildPlacesLayer() {
     return count;
 }
 
+// Independent, optional overlay. Fetch relative to this module so the path
+// works both on Netlify and when the site is served from a subdirectory.
+async function buildRoadsLayer() {
+    const roadsUrl = new URL("../../data/roman_roads.geojson", import.meta.url);
+    roadsLayer = L.geoJSON(null, {
+        pane: "romanRoadsPane",
+        interactive: false,
+        style: {
+            color: "#875b3a",
+            weight: 2,
+            opacity: 0.62,
+            lineCap: "round",
+            lineJoin: "round"
+        }
+    });
+
+    try {
+        const response = await fetch(roadsUrl);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        if (!data || data.type !== "FeatureCollection" || !Array.isArray(data.features)) {
+            throw new Error("Invalid roads GeoJSON FeatureCollection");
+        }
+        roadsLayer.addData(data);
+        console.log(`Roman roads loaded: ${data.features.length} segments`);
+    } catch (error) {
+        console.warn("Roman roads could not be loaded:", error);
+    }
+    // Deliberately do not add to map: unchecked by default.
+    return roadsLayer;
+}
+
 async function init() {
     if (!document.getElementById("map")) {
         throw new Error("Map element #map was not found");
@@ -831,13 +864,18 @@ async function init() {
         attribution: "&copy; OpenStreetMap contributors"
     }).addTo(map);
 
+    map.createPane("romanRoadsPane");
+    map.getPane("romanRoadsPane").style.zIndex = "425";
+
     await loadProvinces();
     const provinceLayer = buildProvinceLayer(map, showProvince);
     const placeCount = buildPlacesLayer();
+    const roadsOverlay = await buildRoadsLayer();
 
     L.control.layers(null, {
         Provinces: provinceLayer,
-        Places: placesLayer
+        Places: placesLayer,
+        "Roman roads": roadsOverlay
     }, { collapsed: false }).addTo(map);
 
     addPlaceLegend(map);
